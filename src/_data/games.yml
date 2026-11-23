@@ -278,3 +278,10 @@ brown-dust-2:
   appstore: "https://apps.apple.com/us/app/browndust2-full-burst-rpg/id6450099588"
   googleplay: "https://play.google.com/store/apps/details?id=com.neowizgames.game.browndust2"
   status: "Live"
+teamfight-tactics:
+  name: "TFT: Teamfight Tactics"
+  publisher: "Riot Games"
+  official: "https://teamfighttactics.leagueoflegends.com/"
+  appstore: "https://apps.apple.com/us/app/tft-teamfight-tactics/id1480616748"
+  googleplay: "https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics"
+  status: "Live"
