@@ -3,17 +3,14 @@ layout: base.njk
 permalink: /search.html
 title: Search
 ---
-<div class="page">
-<h1>Search</h1>
-<form class="search big" action="" role="search"><input type="search" id="q" name="q" placeholder="Game, patch, guide..." autocomplete="off"></form>
+<header class="gz-phead"><p class="gz-crumbs mono"><a href="index.html">Home</a> / Search</p><h1>Search</h1><form class="gz-search" action="" role="search" style="margin-top:14px;max-width:560px"><label><span class="gz-sr">Search</span><input type="search" id="q" name="q" placeholder="Game, patch, guide…" autocomplete="off"></label></form></header>
 <p class="mono" id="sCount" style="margin:14px 0;font-size:11px;color:var(--mut)"></p>
-<div class="newslist river" id="sRes"></div>
-</div>
+<ol class="hz-all" id="sRes" style="list-style:none;padding:0"></ol>
 <script id="sData" type="application/json">[{% for n in collections.everything %}{"u":{{ n.url | rel | jsonify | safe }},"t":{{ n.data.title | jsonify | safe }},"s":{{ (n.data.summary or '') | jsonify | safe }},"k":{{ ((n.data.keyword or '') + ' ' + (n.data.titles or []) | join(' ')) | jsonify | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]</script>
 <script>
 (function(){var data=JSON.parse(document.getElementById('sData').textContent),q=document.getElementById('q'),res=document.getElementById('sRes'),cnt=document.getElementById('sCount');
 function esc(s){return s.replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 function run(){var v=q.value.trim().toLowerCase();if(!v){res.innerHTML='';cnt.textContent='';return;}var w=v.split(/\s+/);var hit=data.filter(function(d){var h=(d.t+' '+d.s+' '+d.k).toLowerCase();return w.every(function(x){return h.indexOf(x)>-1;});});
-cnt.textContent=hit.length+(hit.length===1?' RESULT':' RESULTS');res.innerHTML=hit.map(function(d){return '<a href="'+d.u+'"><span style="display:flex;flex-direction:column;gap:4px"><span class="lt" style="font-weight:700;font-size:15px">'+esc(d.t)+'</span><span class="dek">'+esc(d.s)+'</span></span></a>';}).join('');}
+cnt.textContent=hit.length+(hit.length===1?' RESULT':' RESULTS');res.innerHTML=hit.map(function(d){return '<li style="padding:14px 0;border-bottom:1px solid var(--line)"><a href="'+d.u+'" style="text-decoration:none"><b style="font:600 19px var(--disp)">'+esc(d.t)+'</b><br><span style="color:var(--mut)">'+esc(d.s)+'</span></a></li>';}).join('');}
 var p=new URLSearchParams(location.search).get('q');if(p){q.value=p;}q.addEventListener('input',run);run();})();
 </script>

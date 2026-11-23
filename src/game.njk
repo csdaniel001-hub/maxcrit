@@ -7,12 +7,7 @@ eleventyComputed:
   title: "{{ games[slug].name }}: news, patch notes and guides"
   summary: "All our {{ games[slug].name }} coverage in one place: news from {{ games[slug].publisher }}, patch trackers and guides, with official store links."
 ---
-{% from "macros.njk" import card, getgame with context %}
-{% set g = games[slug] %}{% set items = collections.everything | byGame(slug) %}
-<div class="page">
-<div class="lab mono"><span class="n">/ GAME</span><span>{{ g.publisher | upper }}</span><span class="ln"></span></div>
-<h1>{{ g.name }}</h1>
-<div class="game-head">{{ getgame(slug, pre) }}</div>
-<div class="lab mono" style="margin-top:24px"><span>ALL {{ g.name | upper }} COVERAGE</span><span class="ln"></span></div>
-<div class="grid">{% for n in items %}{{ card(n, pre) }}{% endfor %}</div>
-</div>
+{% from "macros.njk" import listing, getgame with context %}
+{% set g = games[slug] %}
+{% set tabs %}<div style="max-width:520px;margin-top:18px">{{ getgame(slug, pre) }}</div>{% endset %}
+{{ listing(collections.everything | byGame(slug), pre, '<a href="' + ('/games.html' | rel) + '">Games A–Z</a>', g.name, g.publisher + (' · ' + g.status if g.status else ''), 'Pages', tabs) }}

@@ -18,7 +18,7 @@
     }
   }
 
-  // UTC clock in the header
+  // Header clock
   var st = document.getElementById('sysTime');
   if (st) {
     var fmt;
@@ -40,7 +40,7 @@
       var next = root.getAttribute('data-gz') === 'dark' ? 'light' : 'dark';
       function apply() {
         root.setAttribute('data-gz', next);
-        try { localStorage.setItem('gz-theme2', next); } catch (e) {}
+        try { localStorage.setItem('mc-theme', next); } catch (e) {}
         syncTheme();
       }
       var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -158,27 +158,10 @@
 // Mobile menu
 (function () {
   var b = document.getElementById('menuBtn'); if (!b) return;
-  var side = b.closest('.side');
+  var side = b.closest('.side') || b.closest('.gz-head');
   b.addEventListener('click', function () {
     var open = side.classList.toggle('open');
     b.setAttribute('aria-expanded', open ? 'true' : 'false');
     b.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   });
-})();
-
-// Load more on the homepage list
-(function () {
-  var b = document.getElementById('loadMore'); if (!b) return;
-  b.addEventListener('click', function () {
-    var hidden = [].slice.call(document.querySelectorAll('#moreList > a.more-item[hidden]'));
-    hidden.slice(0, Number(b.dataset.step) || 10).forEach(function (el) { el.hidden = false; });
-    if (hidden.length <= (Number(b.dataset.step) || 10)) b.remove();
-  });
-})();
-
-// Today / Yesterday labels in the news feed, worked out in the reader's browser (UTC days)
-(function () {
-  var els = document.querySelectorAll('[data-daykey]'); if (!els.length) return;
-  var t = new Date().toISOString().slice(0, 10), y = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
-  [].forEach.call(els, function (el) { var k = el.dataset.daykey; if (k === t || k === y) { el.textContent = k === t ? 'TODAY' : 'YESTERDAY'; el.hidden = false; } });
 })();

@@ -1,44 +1,40 @@
 ---
 layout: base.njk
+bodyClass: gz-art
 ---
-{% from "macros.njk" import card, getgame with context %}
+{% from "macros.njk" import tc, getgame with context %}
 {% set body = content | anchors %}
+{% set tocItems = content | toc %}
 {% set isHub = hub_type %}
 {% set ht = hubTypes | find('slug', hub_type) %}
-<article class="page article{% if hub_type %} is-hub{% endif %}">
-<header class="a-head">
-<div class="crumb mono"><a href="{{ '/index.html' | rel }}">HOME</a><span>/</span>{% if isHub %}<a href="{{ '/hub.html' | rel }}">PLAYER HUB</a><span>/</span><a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name | upper }}</a>{% else %}<a href="{{ '/news.html' | rel }}">NEWS</a>{% endif %}</div>
-<div class="tags">{% if isHub %}<span class="tag tag-on">{{ ht.one | upper }}</span><span class="tag">KEPT UP TO DATE</span>{% else %}<span class="tag tag-on">NEWS</span>{% endif %}{% for gs in genres or [] %}<span class="tag">{{ (genreNav | find('slug', gs)).name | upper }}</span>{% endfor %}{% for t in topics or [] %}<a class="tag tag-topic" href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name | upper }}</a>{% endfor %}{% if status == 'reported' %}<span class="tag">REPORTED, NOT CONFIRMED</span>{% endif %}{% for p in platforms or [] %}<span class="tag">{{ (platformNav | find('slug', p)).name | upper }}</span>{% endfor %}</div>
+<article class="gz-article article{% if isHub %} is-hub{% endif %}">
+<header class="gz-ahead">
+<p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / {% if isHub %}<a href="{{ '/hub.html' | rel }}">Player Hub</a> / <a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% else %}<a href="{{ '/news.html' | rel }}">News</a>{% endif %}{% for gs in genres or [] %} / <a href="{{ ('/genre/' + gs + '.html') | rel }}">{{ (genreNav | find('slug', gs)).name }}</a>{% endfor %}{% for t in topics or [] %} / <a href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name }}</a>{% endfor %}</p>
 <h1>{{ title }}</h1>
-<p class="a-lead">{{ summary }}</p>
-<div class="byline mono"><span>BY <b>{{ author | upper }}</b></span>{% if isHub %}<span>LAST CHECKED: <b>{{ (updated_at or published_at) | longDate | upper }}</b></span>{% else %}<span>PUBLISHED: <b>{{ published_at | longDate | upper }}</b></span>{% if updated_at %}<span>UPDATED: <b>{{ updated_at | longDate | upper }}</b></span>{% endif %}{% endif %}<span>READ: <b>{{ ((content | wordcount) / 230) | round(0, "ceil") }} MIN</b></span></div>
+<p class="gz-alead">{{ summary }}</p>
+<dl class="gz-spec mono">
+<div><dt>{% if isHub %}Last checked{% else %}Published{% endif %}</dt><dd><time datetime="{{ (updated_at or published_at) | isoDate }}">{{ (updated_at or published_at) | longDate }}</time></dd></div>
+<div><dt>Platforms</dt><dd>{% for p in platforms or [] %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>
+<div><dt>Reading time</dt><dd>{{ ((content | wordcount) / 230) | round(0, "ceil") }} min</dd></div>
+<div><dt>Sources</dt><dd>{{ sources.length }}</dd></div>
+</dl>
 </header>
-
-<figure class="a-hero"><div class="pic"><img src="{{ image | rel }}" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}"></div><figcaption class="cap mono">IMAGE: {{ image_credit | upper }} · <a href="{{ image_source }}" target="_blank" rel="noopener" style="color:inherit">SOURCE ↗</a></figcaption></figure>
-
-<div class="a-grid">
-<div class="a-main">
-{% if tldr %}<div class="tldr"><span class="mono">THE SHORT VERSION</span><ul>{% for t in tldr %}<li>{{ t | safe }}</li>{% endfor %}</ul></div>{% endif %}
-<div class="prose abody">{{ body | safe }}</div>
-
-{% if faq %}
-<section class="faq" id="faq"><h2>FAQ</h2>
-{% for q in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | safe }}</div></details>{% endfor %}
-</section>
-{% endif %}
-
-<div class="srcs"><span class="lab mono" style="margin:6px 0 0"><span class="n">/</span><span>SOURCES</span><span class="ln"></span></span>
-{% for s in sources %}<span><span class="tag{% if s.primary %} p{% endif %}" style="margin-right:8px">{% if s.primary %}PRIMARY{% else %}SUPPORTING{% endif %}</span><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }} ↗</a></span>{% endfor %}
+<figure class="gz-afig"><span class="gz-pic"><img src="{{ image | rel }}" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high"></span><figcaption class="mono">Image: {{ image_credit }} · <a href="{{ image_source }}" target="_blank" rel="noopener">source ↗</a></figcaption></figure>
+<div class="gz-agrid">
+<div class="gz-abody">
+{% if tldr %}<div class="gz-tldr"><h2>The short version</h2><ul>{% for t in tldr %}<li>{{ t | safe }}</li>{% endfor %}</ul></div>{% endif %}
+<div class="gz-prose">{{ body | safe }}</div>
+{% if faq %}<section class="gz-faq" id="faq"><h2>FAQ</h2>{% for q in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | safe }}</div></details>{% endfor %}</section>{% endif %}
+<section class="gz-src" aria-labelledby="h-src"><h2 id="h-src" class="mono">Sources</h2><ol>{% for s in sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }} ↗</a><span class="mono">{% if s.primary %}primary{% else %}supporting{% endif %}</span></li>{% endfor %}</ol></section>
 </div>
-</div>
-
-<aside class="a-rail">
+<aside class="gz-arail">
 {% for slug in titles or [] %}{{ getgame(slug, pre) }}{% endfor %}
+{% if tocItems.length > 1 %}<nav class="gz-toc" aria-label="Contents"><h2 class="mono">Contents</h2><ol>{% for t in tocItems %}<li><a href="#{{ t.id }}">{{ t.text }}</a></li>{% endfor %}</ol></nav>{% endif %}
 </aside>
 </div>
-{% set more = (collections.hub if isHub else collections.news) | exclude(page.url) | limit(4) %}
-{% if more.length %}<section class="a-more"><div class="lab mono"><span>{% if isHub %}MORE FROM THE PLAYER HUB{% else %}MORE NEWS{% endif %}</span><span class="ln"></span><a href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">See all</a></div>
-<div class="grid4">{% for n in more %}{{ card(n, pre) }}{% endfor %}</div></section>{% endif %}
 </article>
+{% set more = (collections.hub if isHub else collections.news) | exclude(page.url) | limit(4) %}
+{% if more.length %}<section class="gz-rovat gz-amore" aria-labelledby="h-more"><header class="gz-h"><h2 id="h-more">{% if isHub %}More from the Player Hub{% else %}More news{% endif %}</h2><a class="gz-more mono" href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">See all →</a></header>
+<div class="gz-cgrid">{% for n in more %}{{ tc(n, pre) }}{% endfor %}</div></section>{% endif %}
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if isHub %}Article{% else %}NewsArticle{% endif %}","headline":{{ (seo_title or title) | jsonify | safe }},"description":{{ summary | jsonify | safe }},"inLanguage":"en","datePublished":"{{ published_at | isoDate }}"{% if updated_at %},"dateModified":"{{ updated_at | isoDate }}"{% endif %},"author":{"@type":"Organization","name":"{{ site.name }}"},"publisher":{"@type":"Organization","name":"{{ site.name }}"},"image":"{{ site.url }}{{ image }}"}</script>
 {% if faq %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for q in faq %}{"@type":"Question","name":{{ q.q | jsonify | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ q.a | striptags | jsonify | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>{% endif %}

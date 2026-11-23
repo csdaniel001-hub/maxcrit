@@ -1,0 +1,26 @@
+/* MaxCrit additions on top of gz.css (Geekzone's latest stylesheet) */
+.gz-side nav a.topic{border:1px solid var(--line);margin:6px 0}
+.gz-side nav a.topic svg{stroke:var(--or)}
+.gz-side nav a.topic small{margin-left:auto;font:600 11px var(--mono);background:var(--or);color:#141414;padding:1px 6px}
+.hz-chip.hz-gacha{background:var(--ink);color:var(--bg)}
+/* get-the-game box in the article rail */
+.mc-stores{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.mc-stores a{display:inline-flex;align-items:center;min-height:36px;padding:0 12px;border:1px solid var(--line);font:600 13px var(--disp);text-decoration:none;letter-spacing:.03em}
+.mc-stores a:first-child{background:var(--or-ink);border-color:var(--or-ink);color:#f6f5f2}
+.mc-stores a:hover{background:var(--or);border-color:var(--or);color:#141414}
+.gz-box .w-what{margin:6px 0 0;font-size:13px;color:var(--mut)}
+/* tables: full width on desktop; patch-tracker numbers in mono so values line up */
+.gz-prose table{display:table;table-layout:auto}
+.is-hub .gz-prose td:last-child{white-space:nowrap;font:600 13px var(--mono)}
+.is-hub .gz-prose td:first-child{font-weight:700}
+@media (max-width:640px){
+  .gz-prose table{display:block}
+  .gz-prose thead{display:none}
+  .gz-prose tbody,.gz-prose tr,.gz-prose td{display:block}
+  .gz-prose tr{padding:10px 0;border-bottom:1px solid var(--line)}
+  .gz-prose td{padding:0;border:0;white-space:normal!important}
+  .gz-prose td:first-child{font-weight:700;color:var(--or-t)}
+  .gz-prose td+td{margin-top:2px}
+}
+.mc-sub{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin:8px 0 0}
+.mc-empty{padding:28px 0;color:var(--mut)}

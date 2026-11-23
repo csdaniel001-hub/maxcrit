@@ -6,13 +6,6 @@ activeSection: hub
 title: Player Hub
 summary: "Evergreen pages for mobile players, kept up to date: patch trackers, tier lists, redeem codes and guides, each built from official sources."
 ---
-{% from "macros.njk" import card with context %}
-<div class="page">
-<div class="lab mono"><span class="n">/ PLAYER HUB</span><span>KEPT UP TO DATE</span><span class="ln"></span></div>
-<h1>Player Hub</h1>
-<p class="lead" style="margin:10px 0 20px;max-width:680px">News tells you what changed. The hub is where you check what is true right now: every page shows when we last checked it against the official source.</p>
-{% for h in hubTypes %}{% set items = collections.hub | byHubType(h.slug) %}{% if items.length %}
-<div class="lab mono" style="margin-top:22px"><span>{{ h.name | upper }}</span><span class="ln"></span><a href="{{ ('/hub/' + h.slug + '.html') | rel }}">All {{ h.name | lower }}</a></div>
-<div class="grid">{% for n in items | limit(6) %}{{ card(n, pre) }}{% endfor %}</div>
-{% endif %}{% endfor %}
-</div>
+{% from "macros.njk" import listing with context %}
+{% set tabs %}<nav class="gz-ptabs" aria-label="Player Hub"><a class="on" href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav>{% endset %}
+{{ listing(collections.hub, pre, 'Player Hub', 'Player Hub', 'News tells you what changed. The hub is where you check what is true right now: every page shows when we last checked it against the official source.', 'Pages', tabs) }}

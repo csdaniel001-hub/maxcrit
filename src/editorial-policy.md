@@ -1,10 +1,11 @@
 ---
 layout: base.njk
+bodyClass: gz-art
 permalink: /editorial-policy.html
 title: Editorial policy
 summary: "How MaxCrit reports on mobile games: official sources only, clear labels for anything unconfirmed, real images with credits, and visible update dates."
 ---
-<div class="page prose" style="max-width:760px">
+<article class="gz-article"><div class="gz-prose" style="max-width:760px;padding-top:28px">
 
 # Editorial policy
 
@@ -32,4 +33,4 @@ Patch trackers, tier lists, code lists and guides carry a "last checked" date. W
 
 We only write reviews or impressions of games we have actually played, and say so.
 
-</div>
+</div></article>

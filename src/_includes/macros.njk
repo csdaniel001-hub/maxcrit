@@ -1,32 +1,48 @@
+{% macro arr() %}<svg class="hz-arr" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg>{% endmacro %}
+{% macro clock() %}<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>{% endmacro %}
+
 {# Kicker: hub pages show their hub type, news shows its main genre #}
 {% macro kick(n) -%}
-{%- if n.data.hub_type %}{{ (hubTypes | find('slug', n.data.hub_type)).one | upper }}{% elif n.data.genres and n.data.genres.length %}{{ (genreNav | find('slug', n.data.genres[0])).name | upper }}{% if n.data.topics and 'gacha' in n.data.topics %} · GACHA{% endif %}{% else %}NEWS{% endif -%}
+{%- if n.data.hub_type %}{{ (hubTypes | find('slug', n.data.hub_type)).one }}{% elif n.data.genres and n.data.genres.length %}{{ (genreNav | find('slug', n.data.genres[0])).name }}{% else %}News{% endif -%}
 {%- endmacro %}
+{% macro chip(n) %}<i class="hz-chip">{{ kick(n) }}</i>{% if n.data.topics and 'gacha' in n.data.topics %} <i class="hz-chip hz-gacha">Gacha</i>{% endif %}{% endmacro %}
+{% macro when(n) %}{{ n.data.updated_at or n.data.published_at }}{% endmacro %}
+{% macro ago(n) %}<span class="hz-ago">{{ clock() }}<time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | longDate }}</time></span>{% endmacro %}
 
-{% macro card(n, pre) %}
-<a class="card" href="{{ n.url | relp(pre) }}">
-<div class="pic"><img src="{{ n.data.image | relp(pre) }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></div>
-<div class="in"><span class="k mono"><i class="sdot"></i>{{ kick(n) }} · {{ (n.data.updated_at or n.data.published_at) | shortDate }}</span><h3>{{ n.data.title }}</h3><small>Image: {{ n.data.image_credit }}</small></div>
-</a>
-{% endmacro %}
+{# Title card used in grids (gz-tc) #}
+{% macro tc(n, pre) %}<a class="gz-tc" href="{{ n.url | relp(pre) }}"><span class="gz-pic"><img src="{{ n.data.image | relp(pre) }}" alt="" loading="lazy" style="object-position:{{ n.data.image_pos or '50% 50%' }}"></span><b>{{ n.data.title }}</b><time class="mono" datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | longDate }}</time></a>{% endmacro %}
 
-{% macro row(n, pre, hide=false) %}
-<a href="{{ n.url | relp(pre) }}"{% if hide %} class="more-item" hidden{% endif %}>
-<span class="th"><img src="{{ n.data.image | relp(pre) }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span>
-<span style="display:flex;flex-direction:column;gap:4px"><span class="d mono" style="font-size:9px;letter-spacing:.06em;color:var(--p)">{{ kick(n) }} · {{ (n.data.updated_at or n.data.published_at) | longDate | upper }}</span><span class="lt" style="font-weight:700;font-size:15px;line-height:1.3">{{ n.data.title }}</span>{% if n.data.summary %}<span class="dek">{{ n.data.summary }}</span>{% endif %}</span>
-</a>
-{% endmacro %}
+{# Section-page card (gz-rc), big for the lead #}
+{% macro rc(n, pre, big=false) %}<a class="gz-rc{% if big %} big{% endif %}" href="{{ n.url | relp(pre) }}"><span class="gz-pic"><img src="{{ n.data.image | relp(pre) }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}"{% if not big %} loading="lazy"{% endif %}></span><span class="gz-rc-tx"><b>{{ n.data.title }}</b>{% if big %}<span class="gz-rc-d">{{ n.data.summary }}</span>{% endif %}<time class="mono" datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | longDate }}</time></span></a>{% endmacro %}
 
-{# Filter chips on listing pages: genres first, platforms as secondary filters #}
-{% macro chips(genre, platform, pre) %}
-<nav class="chips" aria-label="Genres"><span class="mono lbl">GENRE</span><a class="{% if not genre and not platform %}on{% endif %}" href="{{ '/news.html' | relp(pre) }}">All</a>{% for x in genreNav %}{% set c = (collections.everything | byGenre(x.slug)).length %}{% if c %}<a class="{% if x.slug == genre %}on{% endif %}" href="{{ ('/genre/' + x.slug + '.html') | relp(pre) }}">{{ x.name }} <small>{{ c }}</small></a>{% endif %}{% endfor %}</nav>
-<nav class="chips chips-2" aria-label="Platforms"><span class="mono lbl">PLATFORM</span>{% for x in platformNav %}{% set c = (collections.everything | byPlatform(x.slug)).length %}{% if c %}<a class="{% if x.slug == platform %}on{% endif %}" href="{{ ('/platform/' + x.slug + '.html') | relp(pre) }}">{{ x.name }} <small>{{ c }}</small></a>{% endif %}{% endfor %}</nav>
+{# Row in the "everything" list (hz-all) #}
+{% macro allrow(n, pre) %}<li data-s="{{ (n.data.genres or [''])[0] }}"><a href="{{ n.url | relp(pre) }}"><time class="hz-all-d mono" datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate }}</time><span class="hz-th"><img src="{{ n.data.image | relp(pre) }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span><span class="hz-all-tx">{{ chip(n) }}<b>{{ n.data.title }}</b><span>{{ n.data.summary }}</span></span>{{ arr() }}</a></li>{% endmacro %}
+
+{# Section page: header + tabs + lead grid + archive #}
+{% macro listing(items, pre, kicker, heading, desc, stats, tabs) %}
+<header class="gz-phead">
+<p class="gz-crumbs mono"><a href="{{ '/index.html' | relp(pre) }}">Home</a> / {{ kicker }}</p>
+<h1>{{ heading }}</h1>
+<p class="gz-phead-d">{{ desc }}</p>
+<dl class="gz-spec mono"><div><dt>{{ stats or 'Pages' }}</dt><dd>{{ items.length }}</dd></div>{% if items.length %}<div><dt>Last updated</dt><dd>{{ (items[0].data.updated_at or items[0].data.published_at) | longDate }}</dd></div>{% endif %}</dl>
+</header>
+{{ tabs | safe }}
+{% if items.length %}
+<section class="gz-rovat gz-rovat-first" aria-label="Latest">
+<div class="gz-rgrid">
+{{ rc(items[0], pre, true) }}
+{% if items.length > 1 %}<div class="gz-rside">{% for n in items | limit(5) %}{% if not loop.first %}{{ rc(n, pre) }}{% endif %}{% endfor %}</div>{% endif %}
+</div>
+</section>
+{% if items.length > 5 %}<section class="gz-archive" aria-labelledby="h-arch"><header class="gz-h"><h2 id="h-arch">Earlier</h2></header>
+<div class="gz-cgrid">{% for n in items %}{% if loop.index > 5 %}{{ tc(n, pre) }}{% endif %}{% endfor %}</div></section>{% endif %}
+{% else %}<p class="mc-empty">Nothing here yet.</p>{% endif %}
 {% endmacro %}
 
 {# "Get the game" box with official store links #}
 {% macro getgame(slug, pre) %}{% set g = games[slug] %}{% if g %}
-<div class="rbox getgame"><span class="rh mono">GET THE GAME</span>
-<a class="rtitle" href="{{ ('/games/' + slug + '.html') | relp(pre) }}">{{ g.name }} →</a>
+<div class="gz-box"><div class="gz-box-h"><h2>Get the game</h2></div>
+<a class="gz-rtitle" href="{{ ('/games/' + slug + '.html') | relp(pre) }}">{{ g.name }} →</a>
 <p class="w-what">{{ g.publisher }}{% if g.status %} · {{ g.status }}{% endif %}</p>
-<div class="stores">{% if g.appstore %}<a href="{{ g.appstore }}" target="_blank" rel="noopener">App Store ↗</a>{% endif %}{% if g.googleplay %}<a href="{{ g.googleplay }}" target="_blank" rel="noopener">Google Play ↗</a>{% endif %}{% if g.official %}<a href="{{ g.official }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}</div>
+<div class="mc-stores">{% if g.appstore %}<a href="{{ g.appstore }}" target="_blank" rel="noopener">App Store ↗</a>{% endif %}{% if g.googleplay %}<a href="{{ g.googleplay }}" target="_blank" rel="noopener">Google Play ↗</a>{% endif %}{% if g.official %}<a href="{{ g.official }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}</div>
 </div>{% endif %}{% endmacro %}

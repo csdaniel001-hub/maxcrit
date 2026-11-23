@@ -6,7 +6,7 @@ MaxCrit is an English mobile gaming site with two halves:
 - **News**: what changed, from official sources, newest first.
 - **Player Hub**: evergreen pages kept up to date (patch trackers, tier lists, redeem codes, guides). Every hub page shows a "last checked" date.
 
-Built with Eleventy 3 from the Geekzone template (same layout, palette and components, English and mobile-specific data).
+Built with Eleventy 3 on the latest Geekzone design (`gz.css`, the "magazin-szerkezet" version from 2026-11-23: top bar with popular games, split hero, dark Latest panel, section banners). `src/assets/css/mc.css` holds the few MaxCrit additions; never edit `gz.css` for MaxCrit-only needs.
 
 ## 1. Accuracy (not negotiable)
 - Every fact comes from a source listed in `sources`. The **primary** source must be official: the developer's or publisher's own site, patch notes, press release (a press-wire copy of their release is fine) or official social account. Never another news site or wiki (`check.js` blocks the common ones).

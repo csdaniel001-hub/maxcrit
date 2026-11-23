@@ -8,13 +8,6 @@ eleventyComputed:
   summary: "{{ g.desc }}"
   activeNav: "g-{{ g.slug }}"
 ---
-{% from "macros.njk" import card, chips with context %}
-{% set items = collections.everything | byGenre(g.slug) %}
-<div class="page">
-<div class="lab mono"><span class="n">/ GENRE</span><span>{{ g.name | upper }}</span><span class="ln"></span></div>
-<h1><svg class="h1-ic" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="{{ g.icon }}"/></svg>{{ g.name }}</h1>
-<p class="lead" style="margin:10px 0 6px;max-width:680px">{{ g.desc }}</p>
-<p class="mono" style="margin:0 0 16px;font-size:11px;letter-spacing:.06em;color:var(--mut)">SUBGENRES: {{ g.sub | upper }}</p>
-{{ chips(g.slug, '', pre) }}
-<div class="grid">{% for n in items %}{{ card(n, pre) }}{% endfor %}</div>
-</div>
+{% from "macros.njk" import listing with context %}
+{% set tabs %}{% include "gtabs.njk" %}{% endset %}
+{{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc + ' Subgenres: ' + g.sub + '.', 'Pages', tabs) }}

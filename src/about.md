@@ -1,10 +1,11 @@
 ---
 layout: base.njk
+bodyClass: gz-art
 permalink: /about.html
 title: About
 summary: "MaxCrit covers mobile games for players: news from official sources, plus patch trackers, tier lists and guides that are kept up to date."
 ---
-<div class="page prose" style="max-width:760px">
+<article class="gz-article"><div class="gz-prose" style="max-width:760px;padding-top:28px">
 
 # About {{ site.name }}
 
@@ -12,4 +13,4 @@ summary: "MaxCrit covers mobile games for players: news from official sources, p
 
 Publisher: {{ site.publisher }} · Editor: {{ site.editor }} · Contact: {{ site.email }}
 
-</div>
+</div></article>
