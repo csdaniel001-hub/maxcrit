@@ -40,3 +40,7 @@
   .hz-rv-row .hz-ft b{font-size:16px;-webkit-line-clamp:3}
   .hz-rv-row{grid-template-columns:112px minmax(0,1fr)}
 }
+/* Sidebar: item counts next to hub types and genres */
+.gz-grp > a.sub{display:flex;align-items:center}
+.gz-grp > a.sub .mc-n{margin-left:auto;font:600 11px/1 var(--mono,monospace);opacity:.5;padding-left:8px}
+.gz-grp > a.sub.on .mc-n{opacity:.9}

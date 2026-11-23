@@ -49,15 +49,15 @@
 <a class="{% if activeNav == 'games' %}on{% endif %}" href="{{ '/games.html' | rel }}">{{ ico("M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z M10 18h4") }}Games A–Z</a>
 {% for t in topicNav %}{% set c = (collections.everything | byTopic(t.slug)).length %}<a class="topic{% if activeNav == 't-' + t.slug %} on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ ico(t.icon) }}{{ t.name }}{% if c %}<small>{{ c }}</small>{% endif %}</a>
 {% endfor %}
-<details class="gz-grp"{% if activeSection != 'genres' %} open{% endif %}>
+<details class="gz-grp" open>
 <summary>{{ ico("M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z") }}Player Hub<i aria-hidden="true"></i></summary>
 <a class="sub{% if activeNav == 'hub' %} on{% endif %}" href="{{ '/hub.html' | rel }}">All hub pages</a>
-{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a class="sub{% if activeNav == 'h-' + h.slug %} on{% endif %}" href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>
+{% for h in hubTypes %}{% set hc = (collections.hub | byHubType(h.slug)).length %}{% if hc %}<a class="sub{% if activeNav == 'h-' + h.slug %} on{% endif %}" href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}<small class="mc-n">{{ hc }}</small></a>
 {% endif %}{% endfor %}
 </details>
-<details class="gz-grp"{% if activeSection == 'genres' %} open{% endif %}>
+<details class="gz-grp" open>
 <summary>{{ ico("M6 8h12a4 4 0 0 1 4 4v1a3 3 0 0 1-5.5 1.7L15 13H9l-1.5 1.7A3 3 0 0 1 2 13v-1a4 4 0 0 1 4-4z M7 10.5v3 M5.5 12h3") }}Genres<i aria-hidden="true"></i></summary>
-{% for g in genreNav %}{% if (collections.everything | byGenre(g.slug)).length %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ g.name }}</a>
+{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ g.name }}<small class="mc-n">{{ gc }}</small></a>
 {% endif %}{% endfor %}
 </details>
 </nav>
