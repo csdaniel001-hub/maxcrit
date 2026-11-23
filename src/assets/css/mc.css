@@ -27,3 +27,16 @@
 
 /* compact game list for multi-game roundups */
 .mc-gamelist{list-style:none;margin:0;padding:0}.mc-gamelist li{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line,rgba(0,0,0,.12))}.mc-gamelist li:last-child{border-bottom:0}.mc-gamelist a{font-weight:600;text-decoration:none;color:inherit}.mc-gamelist span{opacity:.6;font-size:.85em;text-align:right}
+
+/* Home section blocks: list rows keep their natural height instead of stretching to the tallest column */
+.hz-rv-g{align-items:start}
+.hz-rv-row{flex:0 0 auto}
+/* Mid-width screens (tablets, small laptops): lead + list side by side instead of one huge stacked column */
+@media (min-width:900px) and (max-width:1360px){
+  .hz-rv-g.s3{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+  .hz-rv-side{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:24px}
+  .hz-rv-side h3,.hz-rv-side .hz-link{grid-column:1/-1}
+  .hz-rv-side .hz-link{justify-self:end}
+  .hz-rv-row .hz-ft b{font-size:16px;-webkit-line-clamp:3}
+  .hz-rv-row{grid-template-columns:112px minmax(0,1fr)}
+}
