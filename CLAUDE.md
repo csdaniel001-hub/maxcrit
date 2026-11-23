@@ -30,7 +30,7 @@ Built with Eleventy 3 on the latest Geekzone design (`gz.css`, the "magazin-szer
   - No "X, not Y" contrast as a habit, no "not just X, but Y", no stacked triads for rhythm.
   - Headlines and subheads are plain sentences. At most one colon-built subhead per article; titles only use a colon when it's part of a game's name or for hub pages ("...: full list").
   - Don't repeat a point in consecutive sentences; say it once.
-- Required front matter: `title`, `seo_title` (30–60 chars), `summary` (120–160), `keyword`, `published_at` (UTC), `genres` (one main genre from `genreNav.yml`), `platforms` (from `platformNav.yml`, only what the source confirms), `titles` (game slugs from `games.yml`), `sources`, image fields. Hub pages also need `hub_type` (from `hubTypes.yml`).
+- Required front matter: `title`, `seo_title` (30–60 chars), `summary` (120–160), `keyword`, `published_at` (UTC), `genres` (one main genre from `genreNav.yml`; only multi-game roundups such as store awards set `roundup: true` and may leave it empty), `platforms` (from `platformNav.yml`, only what the source confirms), `titles` (game slugs from `games.yml`), `sources`, image fields. Hub pages also need `hub_type` (from `hubTypes.yml`).
 - **Topics** (`topicNav.yml`) are sections that cut across genres. `topics: [gacha]` goes on every article about a game whose core monetisation is a gacha (banners, pulls, pity), whatever its genre. A game with only occasional random rewards is not tagged.
 - Dates on the site are shown in UTC.
 

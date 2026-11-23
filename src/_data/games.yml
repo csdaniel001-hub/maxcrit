@@ -47,3 +47,10 @@ honor-of-kings:
   appstore: "https://apps.apple.com/us/app/honor-of-kings/id1619254071"
   googleplay: "https://play.google.com/store/apps/details?id=com.levelinfinite.sgameGlobal"
   status: "Live"
+marvel-snap:
+  name: "MARVEL SNAP"
+  publisher: "Second Dinner"
+  official: "https://marvelsnap.com/"
+  appstore: "https://apps.apple.com/us/app/marvel-snap/id1592081003"
+  googleplay: "https://play.google.com/store/apps/details?id=com.nvsgames.snap"
+  status: "Live"
