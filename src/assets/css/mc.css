@@ -110,22 +110,15 @@
 :root{--mc-pink:#ff4fa3;--mc-cyan:#2fd4ff}
 
 /* (halftone dots removed 2026-11-23, Daniel) */
-.hz-hero .hz-tx,.hz-rbh,.gz-tldr,.gz-ahead{position:relative}
+.gz-tldr,.gz-ahead{position:relative}
 .hz-hero .hz-tx > *{position:relative}
 
 /* Hero title: anime title-card offset shadow */
 
 /* Section banners: speed lines across the dark title strip, halftone fade, offset title */
-.hz-rbh::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
-  background:repeating-linear-gradient(-62deg,transparent 0 22px,rgba(255,255,255,.045) 22px 24px);
-  -webkit-mask:linear-gradient(90deg,#000 0,#000 30%,transparent 62%);mask:linear-gradient(90deg,#000 0,#000 30%,transparent 62%)}
-.hz-rbh > *{position:relative;z-index:1}
-.hz-rbh h2{text-shadow:3px 3px 0 var(--or)}
 
 /* Gacha section gets the full anime treatment: pink and cyan glow on its banner */
-.hz-rb[aria-labelledby="h-rb-t-gacha"] .hz-rbh h2{text-shadow:3px 3px 0 var(--mc-pink),-2px -2px 0 rgba(47,212,255,.55)}
-.hz-rb[aria-labelledby="h-rb-t-gacha"] .hz-rbh{box-shadow:inset 0 -3px 0 var(--mc-pink)}
-.hz-gacha{background:var(--mc-pink)!important;color:#fff!important}
+.hz-rb[aria-labelledby="h-rb-t-gacha"] .hz-gacha{background:var(--mc-pink)!important;color:#fff!important}
 
 /* Category chips become stickers: white rim, hard shadow */
 .hz-chip{box-shadow:0 0 0 1.5px var(--bg),2px 2px 0 1.5px rgba(0,0,0,.28)}
