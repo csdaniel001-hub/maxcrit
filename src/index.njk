@@ -9,7 +9,7 @@ bodyClass: hz-home
 {% set fresh = all | notIn(hero) | limit(3) %}
 <div class="hz-top">
 <section class="hz-panel hz-hero" id="gzHero" aria-roledescription="carousel" aria-label="Featured stories">
-<div class="hz-in">
+<div class="hz-in"><span class="mc-circle mc-c-hero" aria-hidden="true"></span>
 <div class="hz-stage">
 {% for n in hero %}<a class="hz-slide{% if loop.first %} on{% endif %}" href="{{ n.url | rel }}">
 <span class="hz-tx"><span class="hz-hh">Featured<i aria-hidden="true">//</i>{{ kick(n) }}</span>
@@ -34,7 +34,7 @@ bodyClass: hz-home
 {# Section blocks: the Gacha section first, then every genre with at least two pieces #}
 {% macro block(id, name, href, more, items, sideTitle, side, flip) %}
 <section class="hz-rb" aria-labelledby="h-rb-{{ id }}">
-<a class="hz-rbh" href="{{ href | rel }}"><span class="hz-rbh-tx"><h2 id="h-rb-{{ id }}">{{ name }}</h2></span><span class="hz-rbh-go">{{ more }} {{ arr() }}</span><span class="hz-rbh-pic"><img src="{{ items[items.length - 1].data.image | rel }}" alt="" style="object-position:50% 50%" loading="lazy"></span></a>
+<a class="hz-rbh" href="{{ href | rel }}"><span class="hz-rbh-tx"><h2 id="h-rb-{{ id }}">{{ name }}</h2>{% if id == 't-gacha' %}<span class="mc-stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg></span>{% endif %}</span><span class="hz-rbh-go">{{ more }} {{ arr() }}</span><span class="hz-rbh-pic"><img src="{{ items[items.length - 1].data.image | rel }}" alt="" style="object-position:50% 50%" loading="lazy"></span></a>
 <div class="hz-panel hz-rv"><div class="hz-in"><div class="hz-rv-g s3{% if flip %} mc-flip{% endif %}">
 {% set f = items[0] %}<a class="hz-rv-lead" href="{{ f.url | rel }}"><span class="hz-rv-pic"><img src="{{ f.data.image | rel }}" alt="" style="object-position:{{ f.data.image_pos or '50% 50%' }}" loading="lazy"></span><b>{{ f.data.title }}</b><span class="hz-rv-d">{{ f.data.summary }}</span>{{ ago(f) }}</a>
 <div class="hz-rv-list">{% for n in items | limit(5) %}{% if not loop.first %}<a class="hz-rv-row" href="{{ n.url | rel }}"><span class="hz-th"><img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span><span class="hz-ft"><b>{{ n.data.title }}</b>{{ ago(n) }}</span></a>{% endif %}{% endfor %}</div>
@@ -87,7 +87,7 @@ bodyClass: hz-home
 {% set hubLeft = collections.hub | notIn(shown) %}
 {% if hubLeft.length %}<div class="mc-sec">
 <section class="hz-panel hz-dark" aria-labelledby="h-hub">
-<div class="hz-in">
+<div class="hz-in"><span class="mc-circle mc-c-hub" aria-hidden="true"></span>
 <header class="hz-ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link mc-ph-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
 <div class="hz-gl">{% for n in hubLeft | limit(4) %}<a href="{{ n.url | rel }}"><i class="hz-chip">{{ kick(n) }}</i><b>{{ n.data.title }}</b>{{ arr() }}</a>{% endfor %}</div>
 </div>
@@ -108,6 +108,7 @@ bodyClass: hz-home
 </section>
 {% endif %}
 
+<div class="mc-orn" aria-hidden="true"><i></i></div>
 <section class="hz-all" aria-labelledby="h-all">
 <header class="hz-sh"><h2 id="h-all">Everything</h2><i aria-hidden="true">//</i>
 <div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (all | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div>

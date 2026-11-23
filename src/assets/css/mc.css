@@ -192,3 +192,35 @@
 .mc-ph-link{margin-left:auto;color:inherit}
 #h-more ~ * , .mc-sec > .hz-row3:first-of-type{margin-top:0}
 .mc-sec > .hz-row3 + .hz-row3{margin-top:14px}
+
+/* ===== Fantasy touches (MaxCrit) ===== */
+/* Magic circles: faint, slow-turning, behind content */
+.mc-circle{position:absolute;pointer-events:none;z-index:0;aspect-ratio:1;background:url(../img/ui/magic-circle.svg) center/contain no-repeat;animation:mcSpin 90s linear infinite}
+.hz-hero .hz-stage{position:relative;z-index:1}.hz-hero .hz-ctl,.hz-hero .hz-nav{z-index:2}
+.mc-c-hero{width:480px;left:-160px;bottom:-200px;opacity:.2}
+.mc-c-hub{width:300px;right:-70px;top:-110px;opacity:.22;animation-direction:reverse;animation-duration:120s}
+.hz-dark .hz-in{overflow:hidden}
+.hz-dark .hz-in > :not(.mc-circle){position:relative;z-index:1}
+@keyframes mcSpin{to{transform:rotate(360deg)}}
+
+/* Gacha rarity stars with a pull shimmer */
+.mc-stars{display:inline-flex;gap:3px;align-self:center;margin-left:4px}
+.mc-stars svg{width:17px;height:17px;fill:#ffc23d;filter:drop-shadow(0 0 3px rgba(255,194,61,.45));animation:mcStar 5s ease-in-out infinite}
+.mc-stars svg:nth-child(2){animation-delay:.12s}.mc-stars svg:nth-child(3){animation-delay:.24s}.mc-stars svg:nth-child(4){animation-delay:.36s}.mc-stars svg:nth-child(5){animation-delay:.48s}
+@keyframes mcStar{0%,80%,100%{transform:none;fill:#ffc23d}86%{transform:scale(1.28) rotate(12deg);fill:#fff6d8}}
+
+/* Crystal divider */
+.mc-orn{display:flex;align-items:center;gap:14px;margin:52px 0 0}
+.mc-orn::before,.mc-orn::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--or))}
+.mc-orn::after{background:linear-gradient(90deg,var(--or),transparent)}
+.mc-orn i{position:relative;width:12px;height:12px;margin:0 6px;background:var(--or);transform:rotate(45deg)}
+.mc-orn i::before{content:"";position:absolute;inset:-6px;border:1px solid var(--or)}
+.mc-orn + .hz-all{margin-top:28px}
+
+/* Crystal list markers in articles */
+.gz-prose ul{list-style:none}
+.gz-prose ul > li{position:relative}
+.gz-prose ul > li::before{content:"";position:absolute;left:-17px;top:.62em;width:7px;height:7px;background:var(--or);transform:rotate(45deg)}
+
+@media (max-width:760px){.mc-c-hero{width:300px;left:auto;right:-110px;bottom:auto;top:-120px}.mc-stars svg{width:13px;height:13px}}
+@media (prefers-reduced-motion:reduce){.mc-circle,.mc-stars svg{animation:none}}
