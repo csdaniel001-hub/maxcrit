@@ -10,6 +10,7 @@ platforms: [ios, android]
 titles: [stumble-guys]
 sources:
   - { title: "Stumble Guys on the App Store: version 0.104 release notes (November 2, 2026)", url: "https://apps.apple.com/us/app/stumble-guys/id1541153375", primary: true }
+  - { title: "Stumble Guys on Google Play", url: "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies" }
 image: "/assets/img/stumble-guys-lost-island-season-cat-splat.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/59/8c/9e598c1f-47cf-438f-e623-7fb3edfffec3/1STG-37194_CPP_Competitor_Vibe_01_C2_2732x2048_knh58xtrk5.png/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/stumble-guys/id1541153375"

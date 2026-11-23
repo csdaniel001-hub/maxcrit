@@ -6,7 +6,7 @@ keyword: "Aniimo Whisperwake Isles"
 published_at: 2026-11-23T06:20:00Z
 type: short
 genres: [rpg]
-platforms: [ios, android]
+platforms: [ios]
 titles: [aniimo]
 sources:
   - { title: "Aniimo on the App Store: version 1.1.1 release notes (November 9, 2026)", url: "https://apps.apple.com/us/app/aniimo/id6759098797", primary: true }

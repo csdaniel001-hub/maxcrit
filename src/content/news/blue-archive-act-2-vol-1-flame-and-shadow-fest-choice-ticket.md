@@ -11,6 +11,7 @@ platforms: [ios, android]
 titles: [blue-archive]
 sources:
   - { title: "Blue Archive on the App Store: November 10, 2026 release notes", url: "https://apps.apple.com/us/app/blue-archive/id1571873795", primary: true }
+  - { title: "Blue Archive on Google Play", url: "https://play.google.com/store/apps/details?id=com.nexon.bluearchive" }
 image: "/assets/img/blue-archive-act-2-vol-1-flame-and-shadow-fest-choice-ticket.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/ed/5e/d2ed5ef1-981a-751d-6d39-070c04d026ba/BA__Ub9c8_Ucf13_Uc2a4_Ud06c_Ub9b0_Uc0f708_EN_2732x2048.png/2600x2600bb.png"
 image_source: "https://apps.apple.com/us/app/blue-archive-free-fest-choice/id1571873795"
