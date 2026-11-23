@@ -76,7 +76,7 @@
 <div class="gz-foot-in">
 <div class="gz-foot-brand"><b>{{ site.wordA }}<span>{{ site.wordB }}</span></b><p>{{ site.tagline }}, from official sources.</p></div>
 <nav aria-label="Sections"><h2 class="mono">Sections</h2><a href="{{ '/news.html' | rel }}">Latest news</a>{% for t in topicNav %}<a href="{{ ('/' + t.slug + '.html') | rel }}">{{ t.name }}</a>{% endfor %}<a href="{{ '/games.html' | rel }}">Games A–Z</a></nav>
-<nav aria-label="Player Hub"><h2 class="mono">Player Hub</h2><a href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}"><span class="mc-si">{{ ico(h.icon) }}</span><span class="mc-st">{{ h.name }}</span></a>{% endif %}{% endfor %}</nav>
+<nav aria-label="Player Hub"><h2 class="mono">Player Hub</h2><a href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav>
 <nav aria-label="About"><h2 class="mono">About</h2><a href="{{ '/editorial-policy.html' | rel }}">Editorial policy</a><a href="{{ '/about.html' | rel }}">About</a><a href="{{ '/privacy.html' | rel }}">Privacy</a><a href="{{ '/feed.xml' | rel }}">RSS</a></nav>
 </div>
 <div class="gz-foot-bot mono"><span>© 2026 {{ site.name | upper }}</span><span>Images are official press and store material from their rights holders.</span></div>
