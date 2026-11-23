@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 <title>{{ n.data.title }}</title>
 <link>{{ site.url }}{{ n.url }}</link>
 <guid>{{ site.url }}{{ n.url }}</guid>
-<pubDate>{{ (n.data.updated_at or n.data.published_at) | isoDate }}</pubDate>
+<pubDate>{{ (n.data.updated_at or n.data.published_at) | rfc822 }}</pubDate>
 <description>{{ n.data.summary }}</description>
 </item>
 {% endfor %}</channel>

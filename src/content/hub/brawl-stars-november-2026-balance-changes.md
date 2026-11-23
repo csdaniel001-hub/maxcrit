@@ -170,4 +170,4 @@ These scaling changes apply only in Brawl Arena and do not affect other modes.
 
 ## Also in the November update
 
-Balance was only part of the release. The same notes add three new Brawlers (**Thunder Frogs**, a Legendary Artillery made up of Zap, Zee and Volt; **Rey**, a Mythic Marksman; and **Ruby**, a Mythic Damage Dealer) and a **Ranked Refresh**: Ranked now requires max-level Brawlers and unlocks at **5,000 Trophies** instead of 1,000. Players who already had Ranked access keep it.
+Balance was only part of the release. The same notes add three new Brawlers (**Thunder Frogs**, a Legendary Artillery made up of Zap, Zee and Volt; **Rey**, a Mythic Marksman; and **Ruby**, a Mythic Damage Dealer) and a **Ranked Refresh**: every rank now requires Power 11 Brawlers (up from Power 9 in Bronze through Diamond), Diamond needs 12 Brawlers instead of 9, and Ranked unlocks at **5,000 Trophies** instead of 1,000. Players who already unlocked Ranked keep their access.

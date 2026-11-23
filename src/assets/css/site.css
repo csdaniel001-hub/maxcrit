@@ -1134,9 +1134,9 @@ a.nf-stat:not(.hot) span:first-child{color:var(--hot);opacity:1}
 .getgame .stores a:first-child{background:var(--inv);border-color:var(--inv);color:#fff}
 .getgame .stores a:hover{background:var(--p);border-color:var(--p);color:#fff}
 .game-head{max-width:520px;margin-top:14px}
-/* tables in patch trackers: scroll sideways on phones instead of squashing */
-.prose table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.prose td:last-child,.prose th:last-child{white-space:nowrap;font-family:'JetBrains Mono',monospace;font-size:12.5px}
+/* tables: full width; the numbers column of patch trackers in mono so values line up */
+.prose table{display:table!important;width:100%!important;table-layout:auto}
+.is-hub .prose td:last-child{white-space:nowrap;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600}
 /* load more */
 .loadmore{display:block;width:100%;margin:14px 0 0;height:44px;border:1px solid var(--ink);background:var(--card);font-size:12px;letter-spacing:.1em;cursor:pointer;transition:background .2s,color .2s}
 .loadmore:hover{background:var(--p);border-color:var(--p);color:#fff}
@@ -1161,5 +1161,8 @@ a.nf-stat:not(.hot) span:first-child{color:var(--hot);opacity:1}
   .prose td{padding:0!important;border:0!important;white-space:normal!important}
   .prose td:first-child{font-weight:700;font-size:13px;color:var(--p)}
   .prose td:nth-child(2){font-size:14.5px;line-height:1.4;margin:2px 0 4px}
-  .prose td:last-child{font-size:13px;font-weight:600;font-family:'JetBrains Mono',monospace}
+  .prose td:last-child{font-size:14.5px}
+  .is-hub .prose td:last-child{font-size:13px;font-weight:600;font-family:'JetBrains Mono',monospace}
+  .prose table{display:block!important;width:auto!important}
 }
+.is-hub .prose td:first-child{font-weight:700}

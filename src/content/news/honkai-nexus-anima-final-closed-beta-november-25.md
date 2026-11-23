@@ -22,7 +22,7 @@ image_alt: "Official App Store screenshot of Honkai: Nexus Anima"
 image_status: "candidate"
 ---
 
-HoYoverse's next Honkai game is two days away from its last public test. The **Final Closed Beta** of *Honkai: Nexus Anima*, the studio's open-world creature-catching adventure RPG, starts on **November 25, 2026** on PC, Android and iOS. HoYoverse announced the test on November 5 and confirmed a **spring 2027** launch window in the same release.
+HoYoverse's next Honkai game is two days away from its last test before launch. The **Final Closed Beta** of *Honkai: Nexus Anima*, the studio's open-world creature-catching adventure RPG, starts on **November 25, 2026** on PC, Android and iOS. HoYoverse announced the test on November 5 and confirmed a **spring 2027** launch window in the same release.
 
 HoYoverse has not yet published an end date or a detailed schedule for the test. It says those details will follow in later announcements.
 

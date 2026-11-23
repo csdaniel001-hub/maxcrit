@@ -5,7 +5,7 @@ summary: "Every Saturday from December 5 to February 13 now has a dated Pokémon
 keyword: "Pokémon GO Community Day dates December 2026"
 published_at: 2026-11-23T18:20:00Z
 type: short
-genres: [rpg]
+genres: [action]
 platforms: [ios, android]
 titles: [pokemon-go]
 sources:
@@ -18,7 +18,7 @@ tldr:
 image: "/assets/img/pokemon-go-community-day-dates-december-2026-february-2027.jpg"
 image_url: "https://lh3.googleusercontent.com/GMESDlJRw5GMsmroW_oK6TLXA4OerLjNY43b0JkjCoSXrez97CwCflnTBTh-uzMhJZYQvQbtA8nK8YPEknYHu0tearwDyBVUoi8=s0"
 image_source: "https://pokemongo.com/news/save-the-date-s25"
-image_credit: "Niantic / Scopely, The Pokémon Company"
+image_credit: "Scopely / The Pokémon Company"
 image_alt: "Pokémon GO Community Day logo from the official announcement"
 image_status: "candidate"
 ---
@@ -36,7 +36,7 @@ The current season, **Twilight Trails**, ends on **December 1, 2026 at 10:00 a.m
 | Saturday, January 16, 2027 | Community Day |
 | Saturday, February 6, 2027 | Community Day |
 
-December is the one to plan around. It is a **two-day** Community Day over a full weekend, so you get two windows instead of one. January has two: a **Community Day Classic** on the 2nd, which brings back a Pokémon from an earlier Community Day, and a regular one on the 16th.
+December is the one to plan around. It is a **two-day** Community Day over a full weekend, so you get two windows instead of one. January has two: a **Community Day Classic** on the 2nd and a regular one on the 16th.
 
 ## Other event days
 

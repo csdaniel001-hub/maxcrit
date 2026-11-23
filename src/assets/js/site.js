@@ -175,3 +175,10 @@
     if (hidden.length <= (Number(b.dataset.step) || 10)) b.remove();
   });
 })();
+
+// Today / Yesterday labels in the news feed, worked out in the reader's browser (UTC days)
+(function () {
+  var els = document.querySelectorAll('[data-daykey]'); if (!els.length) return;
+  var t = new Date().toISOString().slice(0, 10), y = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+  [].forEach.call(els, function (el) { var k = el.dataset.daykey; if (k === t || k === y) { el.textContent = k === t ? 'TODAY' : 'YESTERDAY'; el.hidden = false; } });
+})();

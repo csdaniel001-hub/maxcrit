@@ -5,7 +5,7 @@ layout: base.njk
 {% set body = content | anchors %}
 {% set isHub = hub_type %}
 {% set ht = hubTypes | find('slug', hub_type) %}
-<article class="page article">
+<article class="page article{% if hub_type %} is-hub{% endif %}">
 <header class="a-head">
 <div class="crumb mono"><a href="{{ '/index.html' | rel }}">HOME</a><span>/</span>{% if isHub %}<a href="{{ '/hub.html' | rel }}">PLAYER HUB</a><span>/</span><a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name | upper }}</a>{% else %}<a href="{{ '/news.html' | rel }}">NEWS</a>{% endif %}</div>
 <div class="tags">{% if isHub %}<span class="tag tag-on">{{ ht.one | upper }}</span><span class="tag">KEPT UP TO DATE</span>{% else %}<span class="tag tag-on">NEWS</span>{% endif %}{% for gs in genres or [] %}<span class="tag">{{ (genreNav | find('slug', gs)).name | upper }}</span>{% endfor %}{% if status == 'reported' %}<span class="tag">REPORTED, NOT CONFIRMED</span>{% endif %}{% for p in platforms or [] %}<span class="tag">{{ (platformNav | find('slug', p)).name | upper }}</span>{% endfor %}</div>

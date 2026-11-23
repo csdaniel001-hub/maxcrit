@@ -26,6 +26,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("longDate", (d) => { const p = parts(d); return `${MONTHS[p.m]} ${p.d}, ${p.y}`; });
   eleventyConfig.addFilter("shortDate", (d) => { const p = parts(d); return `${MON[p.m]} ${p.d}`; });
   eleventyConfig.addFilter("isoDate", (d) => new Date(d).toISOString());
+  eleventyConfig.addFilter("rfc822", (d) => new Date(d).toUTCString());
   eleventyConfig.addFilter("utcTime", (d) => { const p = parts(d); return `${p.hh}:${p.mm}`; });
   eleventyConfig.addFilter("dayLabel", (d, today) => {
     const key = parts(d).key; const y = new Date(new Date(today + "T12:00:00Z").getTime() - 864e5).toISOString().slice(0, 10);
