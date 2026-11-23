@@ -44,3 +44,62 @@
 .gz-grp > a.sub{display:flex;align-items:center}
 .gz-grp > a.sub .mc-n{margin-left:auto;font:600 11px/1 var(--mono,monospace);opacity:.5;padding-left:8px}
 .gz-grp > a.sub.on .mc-n{opacity:.9}
+
+/* ===== Animated side menu (MaxCrit) ===== */
+/* Main items: orange bar grows in from the left edge, background sweeps in, icon nudges */
+.gz-side nav > a,.gz-grp summary{position:relative;overflow:hidden;isolation:isolate}
+.gz-side nav > a:not(.on):not(.topic)::after,.gz-grp summary::after{content:"";position:absolute;inset:0;z-index:-1;background:var(--sf2);transform:scaleX(0);transform-origin:left;transition:transform .28s cubic-bezier(.2,.8,.2,1)}
+.gz-side nav > a:not(.on):not(.topic)::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;background:var(--or);transform:scaleY(0);transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+.gz-side nav > a:not(.on):not(.topic):hover,.gz-grp summary:hover{background:transparent}
+.gz-side nav > a:not(.on):not(.topic):hover::after,.gz-grp summary:hover::after{transform:scaleX(1)}
+.gz-side nav > a:not(.on):not(.topic):hover::before{transform:scaleY(1)}
+.gz-side nav > a svg,.gz-grp summary svg{transition:transform .3s cubic-bezier(.3,1.6,.5,1),color .2s}
+.gz-side nav > a:hover svg{transform:translateX(3px) scale(1.08);color:var(--or-t)}
+.gz-side nav > a.on:hover svg{color:inherit}
+.gz-grp summary:hover svg{transform:rotate(-8deg) scale(1.1);color:var(--or-t)}
+.gz-grp summary i{transition:transform .3s cubic-bezier(.3,1.4,.5,1)}
+
+/* Sub items: small icon tiles instead of dashes */
+.gz-grp > a.sub{display:flex;align-items:center;gap:11px;padding:6px 12px 6px 14px;margin:1px 0;border-radius:0;transition:color .2s,background .2s,transform .25s cubic-bezier(.2,.8,.2,1)}
+.gz-grp > a.sub::before{display:none}
+.gz-grp > a.sub:hover{padding-left:14px;transform:translateX(4px);background:var(--sf2)}
+.mc-si{flex:none;display:grid;place-items:center;width:28px;height:28px;border:1px solid var(--line);background:var(--sf);transition:background .2s,border-color .2s,transform .3s cubic-bezier(.3,1.6,.5,1)}
+.mc-si svg{width:16px!important;height:16px!important;stroke-width:1.8!important}
+.mc-st{flex:1;min-width:0}
+.gz-grp > a.sub:hover .mc-si{border-color:var(--or);transform:rotate(-6deg) scale(1.08)}
+.gz-grp > a.sub.on{background:var(--sf2)}
+.gz-grp > a.sub.on .mc-si{background:var(--or);border-color:var(--or);color:#141414}
+
+/* Group open/close: smooth height where supported, staggered items everywhere */
+:root{interpolate-size:allow-keywords}
+.gz-grp::details-content{height:0;overflow:hidden;transition:height .35s cubic-bezier(.2,.8,.2,1),content-visibility .35s allow-discrete}
+.gz-grp[open]::details-content{height:auto}
+@keyframes mcSubIn{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+.gz-grp[open] > a.sub{animation:mcSubIn .35s cubic-bezier(.2,.8,.2,1) both!important}
+.gz-grp[open] > a.sub:nth-of-type(1){animation-delay:.02s!important}
+.gz-grp[open] > a.sub:nth-of-type(2){animation-delay:.05s!important}
+.gz-grp[open] > a.sub:nth-of-type(3){animation-delay:.08s!important}
+.gz-grp[open] > a.sub:nth-of-type(4){animation-delay:.11s!important}
+.gz-grp[open] > a.sub:nth-of-type(5){animation-delay:.14s!important}
+.gz-grp[open] > a.sub:nth-of-type(6){animation-delay:.17s!important}
+.gz-grp[open] > a.sub:nth-of-type(7){animation-delay:.2s!important}
+.gz-grp[open] > a.sub:nth-of-type(8){animation-delay:.23s!important}
+.gz-grp[open] > a.sub:nth-of-type(9){animation-delay:.26s!important}
+.gz-grp[open] > a.sub:nth-of-type(n+10){animation-delay:.29s!important}
+
+/* Page load: main items slide in one after another */
+@keyframes mcNavIn{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gz-side nav > a{animation:mcNavIn .4s cubic-bezier(.2,.8,.2,1) both}
+.gz-side nav > a:nth-child(1){animation-delay:.03s}
+.gz-side nav > a:nth-child(2){animation-delay:.07s}
+.gz-side nav > a:nth-child(3){animation-delay:.11s}
+.gz-side nav > a:nth-child(4){animation-delay:.15s}
+
+/* Active item: a light sheen passes over it once */
+@keyframes mcSheen{from{transform:translateX(-120%) skewX(-20deg)}to{transform:translateX(320%) skewX(-20deg)}}
+.gz-side nav > a.on::after{content:"";position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent);animation:mcSheen 1.1s .45s ease-out both;pointer-events:none}
+
+@media (prefers-reduced-motion:reduce){
+  .gz-side *,.gz-side *::before,.gz-side *::after{animation:none!important;transition:none!important}
+  .gz-grp::details-content{transition:none}
+}
