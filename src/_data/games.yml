@@ -327,3 +327,9 @@ merge-mansion:
   appstore: "https://apps.apple.com/us/app/merge-mansion/id1484442152"
   googleplay: "https://play.google.com/store/apps/details?id=com.everywear.game5"
   status: "Live"
+top-eleven:
+  name: "Top Eleven"
+  publisher: "Nordeus"
+  official: "https://apps.apple.com/us/app/top-eleven-be-a-soccer-manager/id459035295"
+  appstore: "https://apps.apple.com/us/app/top-eleven-be-a-soccer-manager/id459035295"
+  status: "Live"
