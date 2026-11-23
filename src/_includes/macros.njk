@@ -24,7 +24,7 @@
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | relp(pre) }}">Home</a> / {{ kicker }}</p>
 <h1>{{ heading }}</h1>
 <p class="gz-phead-d">{{ desc }}</p>
-<dl class="gz-spec mono"><div><dt>{{ stats or 'Pages' }}</dt><dd>{{ items.length }}</dd></div>{% if items.length %}<div><dt>Last updated</dt><dd>{{ (items[0].data.updated_at or items[0].data.published_at) | longDate }}</dd></div>{% endif %}</dl>
+<dl class="gz-spec mono">{% if items.length %}<div><dt>Last updated</dt><dd>{{ (items[0].data.updated_at or items[0].data.published_at) | longDate }}</dd></div>{% endif %}</dl>
 </header>
 {{ tabs | safe }}
 {% if items.length %}

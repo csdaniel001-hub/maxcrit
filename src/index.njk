@@ -43,7 +43,7 @@ bodyClass: hz-home
 </section>
 {% endmacro %}
 
-{% macro gamesSide(items) %}{% set seen = [] %}{% for n in items %}{% for t in n.data.titles or [] %}{% if t not in seen and seen.length < 5 %}{% set seen = (seen.push(t), seen) %}<a class="hz-rel" href="{{ ('/games/' + t + '.html') | rel }}"><span class="hz-rt"><b class="w">{{ games[t].name }}</b><small>{{ games[t].publisher }} · {{ (collections.everything | byGame(t)).length }} {% if (collections.everything | byGame(t)).length == 1 %}page{% else %}pages{% endif %}</small></span></a>{% endif %}{% endfor %}{% endfor %}<a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a>{% endmacro %}
+{% macro gamesSide(items) %}{% set seen = [] %}{% for n in items %}{% for t in n.data.titles or [] %}{% if t not in seen and seen.length < 5 %}{% set seen = (seen.push(t), seen) %}<a class="hz-rel" href="{{ ('/games/' + t + '.html') | rel }}"><span class="hz-rt"><b class="w">{{ games[t].name }}</b><small>{{ games[t].publisher }}</small></span></a>{% endif %}{% endfor %}{% endfor %}<a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a>{% endmacro %}
 
 {% for t in topicNav %}{% set ti = all | byTopic(t.slug) %}{% if ti.length %}{{ block('t-' + t.slug, t.name, '/' + t.slug + '.html', 'Open section', ti, 'Games', gamesSide(ti)) }}{% endif %}{% endfor %}
 {% set topicShown = [] %}{% for t in topicNav %}{% for n in all | byTopic(t.slug) %}{% set topicShown = (topicShown.push(n), topicShown) %}{% endfor %}{% endfor %}

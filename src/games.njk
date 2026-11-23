@@ -14,5 +14,5 @@ summary: Every mobile game we cover, with its news, patch trackers and guides in
 <dl class="gz-spec mono"><div><dt>Games</dt><dd>{{ gl.length }}</dd></div></dl>
 </header>
 <section class="gz-rovat gz-rovat-first"><div class="gz-cgrid">
-{% for slug in gl | sort %}{% set g = games[slug] %}{% set items = collections.everything | byGame(slug) %}<a class="gz-tc" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="gz-pic"><img src="{{ items[0].data.image | rel }}" alt="" loading="lazy"></span><b>{{ g.name }}</b><time class="mono">{{ g.publisher | upper }} · {{ items.length }} {% if items.length == 1 %}PAGE{% else %}PAGES{% endif %}</time></a>{% endfor %}
+{% for slug in gl | sort %}{% set g = games[slug] %}{% set items = collections.everything | byGame(slug) %}<a class="gz-tc" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="gz-pic"><img src="{{ items[0].data.image | rel }}" alt="" loading="lazy"></span><b>{{ g.name }}</b><time class="mono">{{ g.publisher | upper }}</time></a>{% endfor %}
 </div></section>
