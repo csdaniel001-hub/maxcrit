@@ -13,7 +13,7 @@ sources:
   - { title: "Pokémon GO: Twilight Trails season page", url: "https://pokemongo.com/seasons/twilight-trails" }
 tldr:
   - "December Community Day runs over <b>two days, December 12–13, 2026</b>."
-  - "January has a <b>Community Day Classic on January 2</b> and a regular Community Day on <b>January 16</b>. February's is on <b>February 6</b>."
+  - "January has a <b>Community Day Classic on January 2</b> and a regular Community Day on January 16. February's is on February 6."
   - "Seven more event days are dated, from a Max Battle Day on December 5 to a Raid Day on February 13."
 image: "/assets/img/pokemon-go-community-day-dates-december-2026-february-2027.jpg"
 image_url: "https://lh3.googleusercontent.com/GMESDlJRw5GMsmroW_oK6TLXA4OerLjNY43b0JkjCoSXrez97CwCflnTBTh-uzMhJZYQvQbtA8nK8YPEknYHu0tearwDyBVUoi8=s0"
@@ -25,7 +25,7 @@ image_status: "candidate"
 
 The Pokémon GO team has published the dates for every Community Day of the next season, plus seven other event days running from early December 2026 to mid-February 2027. The post does not name the featured Pokémon; the team says more details on December Community Day are coming.
 
-The current season, **Twilight Trails**, ends on **December 1, 2026 at 10:00 a.m. local time**, so these dates belong to the season that follows it.
+The current season, Twilight Trails, ends on December 1, 2026 at 10:00 a.m. local time, so these dates belong to the season that follows it.
 
 ## Community Day dates
 
@@ -36,7 +36,7 @@ The current season, **Twilight Trails**, ends on **December 1, 2026 at 10:00 a.m
 | Saturday, January 16, 2027 | Community Day |
 | Saturday, February 6, 2027 | Community Day |
 
-December is the one to plan around. It is a **two-day** Community Day over a full weekend, so you get two windows instead of one. January has two: a **Community Day Classic** on the 2nd and a regular one on the 16th.
+December's Community Day runs over a full weekend, so you get two chances instead of one. January has two: a Community Day Classic on the 2nd and a regular one on the 16th.
 
 ## Other event days
 
@@ -52,6 +52,6 @@ December is the one to plan around. It is a **two-day** Community Day over a ful
 
 Put the two tables together and you get eleven Saturdays in a row with a dated event, from December 5 through February 13. There is no free Saturday in that stretch, so if you only play on event days, the whole winter is covered.
 
-Two of the dates are worth flagging if you raid in groups. **January 9 and January 30 are both Super Mega Raid Days**, three weeks apart. If you rely on a local raid group, those are the two Saturdays to coordinate early.
+January 9 and January 30 are both Super Mega Raid Days, three weeks apart. If you raid with a local group, those are the two Saturdays to agree on early.
 
 The team notes that upcoming events are subject to change, so check the official news page before you plan travel around a date.

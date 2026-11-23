@@ -11,9 +11,9 @@ titles: [clash-of-clans]
 sources:
   - { title: "Supercell: The Clash of Titans update is rolling out (November 16, 2026)", url: "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/", primary: true }
 tldr:
-  - "12 Squads at launch, one new Squad per Town Hall from <b>Town Hall 8</b> (Barch Squad) to <b>Town Hall 19</b> (Baby Dragon Squad)."
+  - "12 Squads at launch, one new Squad per Town Hall from <b>Town Hall 8</b> (Barch Squad) to Town Hall 19 (Baby Dragon Squad)."
   - "Squad members use your current troop levels. Squad upgrades, and with them the stronger level 3 abilities, are <b>Town Hall 19 only</b>."
-  - "Six abilities in total. <b>Splash Resistance</b> is the most common; <b>Focus Attack</b> and <b>Tantrum</b> appear on one Squad each."
+  - "Six abilities in total. <b>Splash Resistance</b> is the most common; Focus Attack and Tantrum appear on one Squad each."
 image: "/assets/img/clash-of-clans-squads-every-squad.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/ed/59/22ed5934-10ca-734b-4806-e908a310515e/COC_enUS_Progression_Update2026V3_SS3_iOS_13_2732x2048_Phiture.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/clash-of-clans/id529479190"
@@ -22,11 +22,11 @@ image_alt: "Official App Store screenshot of Clash of Clans"
 image_status: "candidate"
 ---
 
-Squads arrived with the **Clash of Titans** update on November 16, 2026. A Squad is a fixed group of troops that deploys with one tap, in a set formation, and costs less housing space than placing the same troops one by one. This page lists every Squad Supercell released at launch, straight from the official update notes.
+Squads arrived with the Clash of Titans update on November 16, 2026. A Squad is a fixed group of troops that deploys with one tap, in a set formation, and costs less housing space than placing the same troops one by one. This page lists every Squad Supercell released at launch, straight from the official update notes.
 
 ## How Squads work
 
-- **Unlock**: build the **Squad Barracks** (available from Town Hall 8). It has 12 levels and gains one maximum level per Town Hall from 8 to 19. Each level unlocks the next Squad.
+- **Unlock**: build the Squad Barracks (available from Town Hall 8). It has 12 levels and gains one maximum level per Town Hall from 8 to 19. Each level unlocks the next Squad.
 - **Troop levels**: Squad members are the same level as your upgraded troops. If a Squad includes a troop you haven't unlocked yet, that troop starts at level 1.
 - **Formations**: every Squad deploys in its own formation with built-in delays. In the Golem Witch Squad, the Golems land in a line first and the Witches follow less than a second later, so defenses lock onto the Golems.
 - **Squad levels**: upgrades are exclusive to Town Hall 19. Below that, Squads stay at Squad Level 1. A Squad gains its ability at Squad Level 2.
@@ -60,7 +60,7 @@ Squads arrived with the **Clash of Titans** update on November 16, 2026. A Squad
 | Focus Attack | Squad members always share the same target |
 | Tantrum | Squad members don't lose their Tantrum ability from other members of the same Squad |
 
-For Splash Resistance, a **lower** number is better: it caps how many members of one Squad a single splash hit can damage. That's why it drops from 6 to 5 on the Barch Squad at level 3.
+For Splash Resistance, a lower number is better: it caps how many members of one Squad a single splash hit can damage. That's why it drops from 6 to 5 on the Barch Squad at level 3.
 
 ## What this means at your Town Hall
 

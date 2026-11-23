@@ -24,6 +24,12 @@ Built with Eleventy 3 on the latest Geekzone design (`gz.css`, the "magazin-szer
 - Non-short pieces need 2+ H2 subheads and a 2–5 point `tldr`.
 - Write for a player deciding something: what changed, what it means for them, what to do. Cut anything that only restates the press release's adjectives.
 - House style: no em dashes, no stock phrases (list in `check.js`), plain verbs, numbers as numerals.
+- **Avoid the typical AI tells** (Daniel, 2026-11-23):
+  - No bold in running text, not even for names. Bold is only for list-item labels ("- **Label**: ...") and at most one key fact per TL;DR bullet.
+  - No reader-steering frames: "if you only read one line", "the part worth acting on", "here's why", "the key point", "worth flagging", "changes the math", "the sensible middle ground".
+  - No "X, not Y" contrast as a habit, no "not just X, but Y", no stacked triads for rhythm.
+  - Headlines and subheads are plain sentences. At most one colon-built subhead per article; titles only use a colon when it's part of a game's name or for hub pages ("...: full list").
+  - Don't repeat a point in consecutive sentences; say it once.
 - Required front matter: `title`, `seo_title` (30–60 chars), `summary` (120–160), `keyword`, `published_at` (UTC), `genres` (one main genre from `genreNav.yml`), `platforms` (from `platformNav.yml`, only what the source confirms), `titles` (game slugs from `games.yml`), `sources`, image fields. Hub pages also need `hub_type` (from `hubTypes.yml`).
 - **Topics** (`topicNav.yml`) are sections that cut across genres. `topics: [gacha]` goes on every article about a game whose core monetisation is a gacha (banners, pulls, pity), whatever its genre. A game with only occasional random rewards is not tagged.
 - Dates on the site are shown in UTC.

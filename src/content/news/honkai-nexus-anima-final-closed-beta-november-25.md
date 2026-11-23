@@ -23,13 +23,13 @@ image_alt: "Official App Store screenshot of Honkai: Nexus Anima"
 image_status: "candidate"
 ---
 
-HoYoverse's next Honkai game is two days away from its last test before launch. The **Final Closed Beta** of *Honkai: Nexus Anima*, the studio's open-world creature-catching adventure RPG, starts on **November 25, 2026** on PC, Android and iOS. HoYoverse announced the test on November 5 and confirmed a **spring 2027** launch window in the same release.
+HoYoverse's next Honkai game is two days away from its last test before launch. The Final Closed Beta of *Honkai: Nexus Anima*, the studio's open-world creature-catching adventure RPG, starts on November 25, 2026 on PC, Android and iOS. HoYoverse announced the test on November 5 and confirmed a spring 2027 launch window in the same release.
 
 HoYoverse has not yet published an end date or a detailed schedule for the test. It says those details will follow in later announcements.
 
 ## What's new in the Final Closed Beta
 
-You play as an **Animaster** and set out from the town of **Iia**. According to HoYoverse, this build adds more story chapters, new characters, new Anima, new areas and new gameplay features. The new areas it names are all in Iia: a traditional bank, a high-rise office building and a breezy lighthouse island.
+You play as an Animaster and set out from the town of Iia. According to HoYoverse, this build adds more story chapters, new characters, new Anima, new areas and new gameplay features. The new areas it names are all in Iia: a traditional bank, a high-rise office building and a breezy lighthouse island.
 
 The press release lists these changes and additions:
 
@@ -42,9 +42,9 @@ The press release lists these changes and additions:
 
 Nexus Arena is the only competitive mode named in the announcement, so this test is the first chance to see how open lineups and ranked matchmaking work in practice.
 
-## Event Bonds: the first 5-star is guaranteed
+## The first 5-star in each Event Bond is guaranteed
 
-The beta has two Event Bonds, the **Eidos Event Bond** and the **Anima Event Bond**. In both, the first 5-star Eidos or Anima you obtain is guaranteed to be the current limited one. If you get the current limited Eidos, you can also claim its matching **Anima Companion** for free.
+The beta has two Event Bonds, the Eidos Event Bond and the Anima Event Bond. In both, the first 5-star Eidos or Anima you obtain is guaranteed to be the current limited one. If you get the current limited Eidos, you can also claim its matching Anima Companion for free.
 
 HoYoverse did not name the limited Eidos or Anima Companion in the announcement.
 
@@ -52,6 +52,6 @@ HoYoverse did not name the limited Eidos or Anima Companion in the announcement.
 
 Sign-ups opened on November 5 through a recruitment questionnaire on the official website. Slots are limited. If you are selected, HoYoverse will tell you through the eligibility checker on the site, by email, by SMS or through other channels.
 
-The key point before you invest hours: **all player data is wiped when the test ends**. Nothing from the beta carries over to the spring 2027 release, so treat it as a preview, not a head start.
+Before you put hours in: all player data is wiped when the test ends. Nothing from the beta carries over to the spring 2027 release, so don't expect a head start at launch.
 
 If you just want to know when the full game lands, pre-orders are already open on the App Store. HoYoverse has only committed to spring 2027 so far, not a specific day.

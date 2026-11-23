@@ -1,5 +1,5 @@
 ---
-title: "Honor of Kings Grand Hero Fiesta: free Butterfly, a free Milady skin and a global skin vote"
+title: "Honor of Kings is giving Butterfly away in the Grand Hero Fiesta"
 seo_title: "Honor of Kings Grand Hero Fiesta: free Butterfly and skins"
 summary: "The Grand Hero Fiesta, running since November 17, reworks Butterfly and lets you unlock her permanently by logging in on three days, plus earn free skins."
 keyword: "Honor of Kings Grand Hero Fiesta"
@@ -18,12 +18,12 @@ image_alt: "Official App Store screenshot of Honor of Kings"
 image_status: "candidate"
 ---
 
-**The Grand Hero Fiesta** started in **Honor of Kings** on **November 17**. It's a cross-game celebration that links Honor of Kings' China and International servers with **Arena of Valor**, and the hero at its center is **Butterfly**, who launches or gets updated in all three games. In Honor of Kings, she gets refreshed visuals and gameplay.
+The Grand Hero Fiesta started in Honor of Kings on November 17. It's a cross-game celebration that links Honor of Kings' China and International servers with Arena of Valor, and the hero at its center is Butterfly, who launches or gets updated in all three games. In Honor of Kings, she gets refreshed visuals and gameplay.
 
-The part worth acting on is the free stuff:
+Free rewards in the event:
 
-- **Butterfly, permanently**: log in on **three days** during the event to unlock her for good. Logging in on one day gives a seven-day trial card.
-- **Free Milady skin**: complete special **Party Commissions** to unlock Milady's **Iron Rose** skin.
+- **Butterfly, permanently**: log in on three days during the event to unlock her for good. Logging in on one day gives a seven-day trial card.
+- **Free Milady skin**: complete special Party Commissions to unlock Milady's Iron Rose skin.
 - **Match-3 minigame**: collect tokens and redeem them for a free skin adapted from the default look of a hero from the China server or Arena of Valor.
 - **Global skin vote**: vote for the skins you'd like to see brought across the three games.
 
