@@ -109,11 +109,8 @@
    sticker tags, offset title shadows and sparkle glints. Pure CSS, no images. */
 :root{--mc-pink:#ff4fa3;--mc-cyan:#2fd4ff}
 
-/* Halftone dot texture helper */
+/* (halftone dots removed 2026-11-23, Daniel) */
 .hz-hero .hz-tx,.hz-rbh,.gz-tldr,.gz-ahead{position:relative}
-.hz-hero .hz-tx::before{content:"";position:absolute;left:0;bottom:0;width:62%;height:70%;pointer-events:none;
-  background:radial-gradient(var(--ink) 1.1px,transparent 1.5px) 0 0/9px 9px;opacity:.13;
-  -webkit-mask:radial-gradient(120% 100% at 0 100%,#000 10%,transparent 70%);mask:radial-gradient(120% 100% at 0 100%,#000 10%,transparent 70%)}
 .hz-hero .hz-tx > *{position:relative}
 
 /* Hero title: anime title-card offset shadow */
@@ -121,13 +118,12 @@
 
 /* Section banners: speed lines across the dark title strip, halftone fade, offset title */
 .hz-rbh::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
-  background:repeating-linear-gradient(-62deg,transparent 0 22px,rgba(255,255,255,.045) 22px 24px),
-             radial-gradient(rgba(255,255,255,.16) 1px,transparent 1.4px) 0 0/8px 8px;
+  background:repeating-linear-gradient(-62deg,transparent 0 22px,rgba(255,255,255,.045) 22px 24px);
   -webkit-mask:linear-gradient(90deg,#000 0,#000 30%,transparent 62%);mask:linear-gradient(90deg,#000 0,#000 30%,transparent 62%)}
 .hz-rbh > *{position:relative;z-index:1}
 .hz-rbh h2{text-shadow:3px 3px 0 var(--or)}
 .hz-rbh:hover::before{animation:mcSpeed .6s linear infinite}
-@keyframes mcSpeed{from{background-position:0 0,0 0}to{background-position:46px 0,0 0}}
+@keyframes mcSpeed{from{background-position:0 0}to{background-position:46px 0}}
 
 /* Gacha section gets the full anime treatment: pink and cyan glow on its banner */
 .hz-rb[aria-labelledby="h-rb-t-gacha"] .hz-rbh h2{text-shadow:3px 3px 0 var(--mc-pink),-2px -2px 0 rgba(47,212,255,.55)}
@@ -146,10 +142,7 @@ a:hover .hz-chip + .hz-chip{transform:rotate(3deg) scale(1.06)}
 .hz-rv-lead:hover .hz-rv-pic::after,.hz-slide:hover .hz-art::after{animation:mcTwinkle 1.2s ease-in-out infinite}
 .hz-art{position:relative}
 
-/* Article pages: halftone corner on the short-version box, manga slash before H2s */
-.gz-tldr::after{content:"";position:absolute;right:0;top:0;width:45%;height:100%;pointer-events:none;
-  background:radial-gradient(rgba(255,255,255,.14) 1px,transparent 1.4px) 0 0/8px 8px;
-  -webkit-mask:linear-gradient(225deg,#000,transparent 70%);mask:linear-gradient(225deg,#000,transparent 70%)}
+/* Article pages: manga slash before H2s */
 .gz-prose h2::before{content:"";display:inline-block;width:10px;height:.9em;margin-right:10px;vertical-align:-.08em;background:var(--or);transform:skewX(-18deg)}
 
 /* Latest panel slashes pulse like an anime UI */
