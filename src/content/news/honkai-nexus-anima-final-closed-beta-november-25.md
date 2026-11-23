@@ -5,6 +5,7 @@ summary: "HoYoverse's creature-catching RPG opens its last test before the sprin
 keyword: "Honkai Nexus Anima final closed beta"
 published_at: 2026-11-23T18:40:00Z
 genres: [rpg]
+topics: [gacha]
 platforms: [ios, android, pc]
 titles: [honkai-nexus-anima]
 sources:

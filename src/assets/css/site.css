@@ -1166,3 +1166,10 @@ a.nf-stat:not(.hot) span:first-child{color:var(--hot);opacity:1}
   .prose table{display:block!important;width:auto!important}
 }
 .is-hub .prose td:first-child{font-weight:700}
+/* cross-genre sections (Gacha games): a highlighted top-level menu item */
+.side .nav a.topic{margin-top:6px;border:1px solid #3a3b40!important;background:rgba(234,90,60,.08)}
+.side .nav a.topic svg{stroke:var(--hot)}
+.side .nav a.topic .badge{background:var(--hot);color:#fff}
+.side .nav a.topic.on{background:var(--hot)!important;border-color:var(--hot)!important}
+.side .nav a.topic.on svg{stroke:#fff}
+.tag-topic{text-decoration:none;border-color:var(--hot)!important;color:var(--hot)!important}

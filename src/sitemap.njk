@@ -9,7 +9,8 @@ eleventyExcludeFromCollections: true
 <url><loc>{{ site.url }}/hub.html</loc></url>
 <url><loc>{{ site.url }}/games.html</loc></url>
 {% for n in collections.everything %}<url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ (n.data.updated_at or n.data.published_at) | isoDate }}</lastmod></url>
-{% endfor %}{% for g in genreNav %}{% if (collections.everything | byGenre(g.slug)).length %}<url><loc>{{ site.url }}/genre/{{ g.slug }}.html</loc></url>
+{% endfor %}{% for t in topicNav %}{% if (collections.everything | byTopic(t.slug)).length %}<url><loc>{{ site.url }}/{{ t.slug }}.html</loc></url>
+{% endif %}{% endfor %}{% for g in genreNav %}{% if (collections.everything | byGenre(g.slug)).length %}<url><loc>{{ site.url }}/genre/{{ g.slug }}.html</loc></url>
 {% endif %}{% endfor %}{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<url><loc>{{ site.url }}/hub/{{ h.slug }}.html</loc></url>
 {% endif %}{% endfor %}{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}<url><loc>{{ site.url }}/games/{{ slug }}.html</loc></url>
 {% endif %}{% endfor %}</urlset>

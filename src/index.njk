@@ -58,6 +58,12 @@ permalink: /index.html
 <div class="dept-list">{% for n in items %}{% if not loop.first and loop.index <= 5 %}<a href="{{ n.url | rel }}"><span class="d mono">{{ (n.data.updated_at or n.data.published_at) | shortDate }}</span><span>{{ n.data.title }}</span></a>{% endif %}{% endfor %}</div>
 </div>
 {% endmacro %}
+{% for t in topicNav %}{% set ti = all | byTopic(t.slug) %}{% if ti.length %}<section>
+<div class="lab mono"><span>{{ t.name | upper }}</span><span class="ln"></span><a href="{{ ('/' + t.slug + '.html') | rel }}">All {{ t.name | lower }}</a></div>
+<div class="grid">{% for n in ti | limit(6) %}{{ card(n, pre) }}{% endfor %}</div>
+</section>
+{% endif %}{% endfor %}
+
 <section>
 <div class="lab mono"><span>BY GENRE</span><span class="ln"></span></div>
 <div class="depts">{% for g in genreNav %}{% set items = all | byGenre(g.slug) %}{% if items.length %}{{ block(g, items) }}{% endif %}{% endfor %}</div>

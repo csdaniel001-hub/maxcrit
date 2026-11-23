@@ -25,6 +25,7 @@ Built with Eleventy 3 from the Geekzone template (same layout, palette and compo
 - Write for a player deciding something: what changed, what it means for them, what to do. Cut anything that only restates the press release's adjectives.
 - House style: no em dashes, no stock phrases (list in `check.js`), plain verbs, numbers as numerals.
 - Required front matter: `title`, `seo_title` (30–60 chars), `summary` (120–160), `keyword`, `published_at` (UTC), `genres` (one main genre from `genreNav.yml`), `platforms` (from `platformNav.yml`, only what the source confirms), `titles` (game slugs from `games.yml`), `sources`, image fields. Hub pages also need `hub_type` (from `hubTypes.yml`).
+- **Topics** (`topicNav.yml`) are sections that cut across genres. `topics: [gacha]` goes on every article about a game whose core monetisation is a gacha (banners, pulls, pity), whatever its genre. A game with only occasional random rewards is not tagged.
 - Dates on the site are shown in UTC.
 
 ## 4. Images (no image, no publication)

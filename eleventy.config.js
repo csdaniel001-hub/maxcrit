@@ -51,6 +51,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("notIn", (arr, others) => { const u = new Set((others || []).map((x) => x.url)); return (arr || []).filter((x) => !u.has(x.url)); });
   eleventyConfig.addFilter("byGenre", (arr, g) => (arr || []).filter((n) => (n.data.genres || []).includes(g)));
   eleventyConfig.addFilter("byPlatform", (arr, p) => (arr || []).filter((n) => (n.data.platforms || []).includes(p)));
+  eleventyConfig.addFilter("byTopic", (arr, t) => (arr || []).filter((n) => (n.data.topics || []).includes(t)));
   eleventyConfig.addFilter("byGame", (arr, g) => (arr || []).filter((n) => (n.data.titles || []).includes(g)));
   eleventyConfig.addFilter("byHubType", (arr, t) => (arr || []).filter((n) => n.data.hub_type === t));
   // Lead slider: the newest five items that have a real image

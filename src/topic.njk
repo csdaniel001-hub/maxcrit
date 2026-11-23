@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination: { data: topicNav, size: 1, alias: t }
+permalink: "/{{ t.slug }}.html"
+eleventyComputed:
+  title: "{{ t.name }}: news, banners and guides"
+  summary: "{{ t.desc }}"
+  activeNav: "t-{{ t.slug }}"
+---
+{% from "macros.njk" import card with context %}
+{% set items = collections.everything | byTopic(t.slug) %}
+<div class="page">
+<div class="lab mono"><span class="n">/ SECTION</span><span>{{ t.name | upper }}</span><span class="ln"></span></div>
+<h1><svg class="h1-ic" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="{{ t.icon }}"/></svg>{{ t.name }}</h1>
+<p class="lead" style="margin:10px 0 16px;max-width:680px">{{ t.desc }}</p>
+{% set gs = [] %}{% for g in genreNav %}{% set c = (items | byGenre(g.slug)).length %}{% if c %}{% set gs = (gs.push({g: g, c: c}), gs) %}{% endif %}{% endfor %}
+{% if gs.length %}<nav class="chips" aria-label="Genres in this section"><span class="mono lbl">GENRE</span>{% for x in gs %}<a href="{{ ('/genre/' + x.g.slug + '.html') | rel }}">{{ x.g.name }} <small>{{ x.c }}</small></a>{% endfor %}</nav>{% endif %}
+<div class="grid">{% for n in items %}{{ card(n, pre) }}{% endfor %}</div>
+</div>

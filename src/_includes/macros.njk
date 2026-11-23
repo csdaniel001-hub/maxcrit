@@ -1,6 +1,6 @@
 {# Kicker: hub pages show their hub type, news shows its main genre #}
 {% macro kick(n) -%}
-{%- if n.data.hub_type %}{{ (hubTypes | find('slug', n.data.hub_type)).one | upper }}{% elif n.data.genres and n.data.genres.length %}{{ (genreNav | find('slug', n.data.genres[0])).name | upper }}{% else %}NEWS{% endif -%}
+{%- if n.data.hub_type %}{{ (hubTypes | find('slug', n.data.hub_type)).one | upper }}{% elif n.data.genres and n.data.genres.length %}{{ (genreNav | find('slug', n.data.genres[0])).name | upper }}{% if n.data.topics and 'gacha' in n.data.topics %} · GACHA{% endif %}{% else %}NEWS{% endif -%}
 {%- endmacro %}
 
 {% macro card(n, pre) %}

@@ -33,7 +33,8 @@
 <a class="{% if page.url == '/' or page.url == '/index.html' %}on{% endif %}" href="{{ '/index.html' | rel }}">{{ ico("M3 11l9-7 9 7v9H3z M9 20v-6h6v6") }}<span class="t">Home</span></a>
 <a class="{% if activeNav == 'news' %}on{% endif %}" href="{{ '/news.html' | rel }}">{{ ico("M4 5h16 M4 10h16 M4 15h10 M4 20h7") }}<span class="t">Latest news</span></a>
 <a class="{% if activeNav == 'games' %}on{% endif %}" href="{{ '/games.html' | rel }}">{{ ico("M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z M10 18h4") }}<span class="t">Games A–Z</span></a>
-<details class="grp"{% if activeSection != 'genres' %} open{% endif %}>
+{% for t in topicNav %}<a class="topic{% if activeNav == 't-' + t.slug %} on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ ico(t.icon) }}<span class="t">{{ t.name }}</span>{% set c = (collections.everything | byTopic(t.slug)).length %}{% if c %}<span class="badge">{{ c }}</span>{% endif %}</a>
+{% endfor %}<details class="grp"{% if activeSection != 'genres' %} open{% endif %}>
 <summary class="cat{% if activeSection == 'hub' %} cat-on{% endif %}">{{ ico("M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z") }}<span class="t">Player Hub</span><i class="chev" aria-hidden="true"></i></summary>
 <a class="sub{% if activeNav == 'hub' %} on{% endif %}" href="{{ '/hub.html' | rel }}">{{ ico("M4 4h7v7H4z M13 4h7v7h-7z M4 13h7v7H4z M13 13h7v7h-7z") }}<span class="t">All hub pages</span></a>
 {% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a class="sub{% if activeNav == 'h-' + h.slug %} on{% endif %}" href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ ico(h.icon) }}<span class="t">{{ h.name }}</span></a>
