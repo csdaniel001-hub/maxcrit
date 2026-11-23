@@ -1,0 +1,70 @@
+---
+layout: base.njk
+permalink: /index.html
+---
+{% from "macros.njk" import card, row, kick with context %}
+{% set all = collections.everything %}
+{% set feats = all | featured %}
+{% set lead = feats[0] %}
+{% set shown = [] %}
+<section class="leadbar" aria-label="Top stories">
+{% if lead %}{% set shown = (shown.push(lead.url), shown) %}<a class="top-lead" href="{{ lead.url | rel }}">
+<img src="{{ lead.data.image | rel }}" alt="{{ lead.data.image_alt or lead.data.title }}" style="object-position:{{ lead.data.image_pos or '50% 50%' }}">
+<span class="ov"><span class="kick mono">{{ kick(lead) }} · {{ (lead.data.updated_at or lead.data.published_at) | longDate | upper }}</span><b>{{ lead.data.title }}</b></span>
+</a>{% endif %}
+<div class="top-side">
+{% for n in all | notIn([lead]) | limit(4) %}{% set shown = (shown.push(n.url), shown) %}
+<a class="top-item" href="{{ n.url | rel }}">
+<img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy">
+<span class="tx"><span class="kick mono">{{ kick(n) }}</span><b>{{ n.data.title }}</b></span>
+</a>{% endfor %}
+</div>
+</section>
+
+{% set fresh = [] %}{% for n in collections.news %}{% if n.url not in shown and fresh.length < 6 %}{% set fresh = (fresh.push(n), fresh) %}{% endif %}{% endfor %}
+<section style="padding-top:24px">
+<div class="feed">
+<div>
+<div class="lab mono"><span>LATEST NEWS</span><span class="ln"></span><a href="{{ '/news.html' | rel }}">All news</a></div>
+{% if fresh.length %}<div class="newslist river">{% for n in fresh %}{{ row(n, pre) }}{% endfor %}</div>
+{% else %}<div class="newslist river">{% for n in collections.news | limit(6) %}{{ row(n, pre) }}{% endfor %}</div>{% endif %}
+</div>
+<aside class="feed-side">
+<div class="sbox"><span class="rh mono">PLAYER HUB</span>
+{% for h in hubTypes %}{% set c = (collections.hub | byHubType(h.slug)).length %}{% if c %}<a class="fs-row" href="{{ ('/hub/' + h.slug + '.html') | rel }}"><span class="d mono">{{ c }}</span><span class="t">{{ h.name }}</span></a>{% endif %}{% endfor %}
+<a class="more" href="{{ '/hub.html' | rel }}">Open the Player Hub →</a></div>
+<div class="sbox"><span class="rh mono">GAMES WE COVER</span>
+{% for slug, g in games %}{% set c = (all | byGame(slug)).length %}{% if c %}<a class="fs-row" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="d mono">{{ c }}</span><span class="t">{{ g.name }}</span></a>{% endif %}{% endfor %}
+<a class="more" href="{{ '/games.html' | rel }}">Games A–Z →</a></div>
+</aside>
+</div>
+</section>
+
+{% if collections.hub.length %}
+<section>
+<div class="lab mono"><span>FROM THE PLAYER HUB</span><span class="ln"></span><a href="{{ '/hub.html' | rel }}">All hub pages</a></div>
+<div class="grid">{% for n in collections.hub | limit(6) %}{{ card(n, pre) }}{% endfor %}</div>
+</section>
+{% endif %}
+
+{% macro block(g, items) %}
+<div class="dept">
+<div class="dept-h"><b>{{ g.name }}</b><a href="{{ ('/genre/' + g.slug + '.html') | rel }}">All {{ g.name }} →</a></div>
+{% set f = items[0] %}
+<a class="dept-lead" href="{{ f.url | rel }}">
+<span class="dl-pic"><img src="{{ f.data.image | rel }}" alt="" style="object-position:{{ f.data.image_pos or '50% 50%' }}" loading="lazy"></span>
+<span class="dl-tx"><span class="d mono">{{ (f.data.updated_at or f.data.published_at) | longDate | upper }}</span><b>{{ f.data.title }}</b><span class="dek">{{ f.data.summary }}</span></span>
+</a>
+<div class="dept-list">{% for n in items %}{% if not loop.first and loop.index <= 5 %}<a href="{{ n.url | rel }}"><span class="d mono">{{ (n.data.updated_at or n.data.published_at) | shortDate }}</span><span>{{ n.data.title }}</span></a>{% endif %}{% endfor %}</div>
+</div>
+{% endmacro %}
+<section>
+<div class="lab mono"><span>BY GENRE</span><span class="ln"></span></div>
+<div class="depts">{% for g in genreNav %}{% set items = all | byGenre(g.slug) %}{% if items.length %}{{ block(g, items) }}{% endif %}{% endfor %}</div>
+</section>
+
+<section>
+<div class="lab mono"><span>EVERYTHING, NEWEST FIRST</span><span class="ln"></span><a href="{{ '/news.html' | rel }}">News feed</a></div>
+<div class="newslist river" id="moreList">{% for n in all %}{{ row(n, pre, loop.index > 10) }}{% endfor %}</div>
+{% if all.length > 10 %}<button type="button" class="loadmore mono" id="loadMore" data-step="10">LOAD MORE</button>{% endif %}
+</section>

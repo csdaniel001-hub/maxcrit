@@ -1,0 +1,15 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>{{ site.url }}/</loc></url>
+<url><loc>{{ site.url }}/news.html</loc></url>
+<url><loc>{{ site.url }}/hub.html</loc></url>
+<url><loc>{{ site.url }}/games.html</loc></url>
+{% for n in collections.everything %}<url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ (n.data.updated_at or n.data.published_at) | isoDate }}</lastmod></url>
+{% endfor %}{% for g in genreNav %}{% if (collections.everything | byGenre(g.slug)).length %}<url><loc>{{ site.url }}/genre/{{ g.slug }}.html</loc></url>
+{% endif %}{% endfor %}{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<url><loc>{{ site.url }}/hub/{{ h.slug }}.html</loc></url>
+{% endif %}{% endfor %}{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}<url><loc>{{ site.url }}/games/{{ slug }}.html</loc></url>
+{% endif %}{% endfor %}</urlset>

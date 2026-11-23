@@ -1,0 +1,10 @@
+{
+  "layout": "article.njk",
+  "permalink": "/hub/{{ hub_type }}/{{ page.fileSlug }}.html",
+  "author": "MaxCrit Staff",
+  "status": "confirmed",
+  "activeSection": "hub",
+  "eleventyComputed": {
+    "activeNav": "h-{{ hub_type }}"
+  }
+}

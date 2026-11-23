@@ -1,0 +1,8 @@
+---
+permalink: /news-sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+{% for n in collections.news | limit(100) %}<url><loc>{{ site.url }}{{ n.url }}</loc><news:news><news:publication><news:name>{{ site.name }}</news:name><news:language>en</news:language></news:publication><news:publication_date>{{ n.data.published_at | isoDate }}</news:publication_date><news:title>{{ n.data.title }}</news:title></news:news></url>
+{% endfor %}</urlset>

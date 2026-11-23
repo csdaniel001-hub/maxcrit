@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination: { data: hubTypes, size: 1, alias: h }
+permalink: "/hub/{{ h.slug }}.html"
+activeSection: hub
+eleventyComputed:
+  title: "Mobile game {{ h.name | lower }}"
+  summary: "{{ h.desc }}"
+  activeNav: "h-{{ h.slug }}"
+---
+{% from "macros.njk" import card with context %}
+{% set items = collections.hub | byHubType(h.slug) %}
+<div class="page">
+<div class="lab mono"><span class="n">/ PLAYER HUB</span><span>{{ h.name | upper }}</span><span class="ln"></span></div>
+<h1><svg class="h1-ic" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="{{ h.icon }}"/></svg>{{ h.name }}</h1>
+<p class="lead" style="margin:10px 0 20px;max-width:680px">{{ h.desc }}</p>
+{% if items.length %}<div class="grid">{% for n in items %}{{ card(n, pre) }}{% endfor %}</div>
+{% else %}<div class="empty-note"><b>Nothing here yet</b><p>The first {{ h.name | lower }} go up once the data behind them is checked.</p></div>{% endif %}
+</div>

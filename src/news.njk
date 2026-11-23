@@ -1,0 +1,31 @@
+---
+layout: base.njk
+permalink: /news.html
+activeNav: news
+title: Latest mobile gaming news
+summary: Mobile gaming news from official sources only, newest first. Updates, betas, launches and balance changes for iOS and Android games.
+---
+{% from "macros.njk" import chips, kick with context %}
+{% set days = collections.news | byDay(site.today) %}
+{% set total = collections.news.length %}
+<div class="page nf">
+<div class="nf-top"><h1>Latest news</h1><span class="mono">/ NEWS FEED · NEWEST FIRST · TIMES IN UTC</span><span class="ln"></span></div>
+{{ chips('', '', pre) }}
+<div class="nf-days">
+{% for g in days %}
+<section class="nf-day" data-day>
+<div class="nf-date"><div class="nf-date-in">{% if g.label %}<span class="mono nf-rel">{{ g.label | upper }}</span>{% endif %}<b>{{ g.day }}</b><span class="mono">{{ g.month }}</span><small>{{ g.weekday }}</small><i class="mono" data-daycount>{{ g.items.length }} {% if g.items.length == 1 %}story{% else %}stories{% endif %}</i></div></div>
+<div class="nf-items">
+{% for n in g.items %}
+<a class="nf-item" href="{{ n.url | rel }}" data-sec="{{ (n.data.genres or [''])[0] }}">
+<span class="nf-time mono">{{ n.data.published_at | utcTime }}</span>
+<span class="nf-th"><img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span>
+<span class="nf-body"><span class="nf-tag mono">{{ kick(n) }}</span><span class="nf-t">{{ n.data.title }}</span>{% if n.data.summary %}<span class="nf-dek">{{ n.data.summary }}</span>{% endif %}</span>
+<span class="nf-go mono" aria-hidden="true">→</span>
+</a>
+{% endfor %}
+</div>
+</section>
+{% endfor %}
+</div>
+</div>

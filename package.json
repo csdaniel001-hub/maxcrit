@@ -1,0 +1,18 @@
+{
+  "name": "maxcrit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MaxCrit: mobile gaming news and player hub",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "img:appstore": "node lib/images/appstore.js",
+    "check": "node lib/check.js"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.8",
+    "js-yaml": "^5.5.0",
+    "sharp": "^0.33.5"
+  }
+}

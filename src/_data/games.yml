@@ -1,0 +1,21 @@
+# Game reference data used for the "Get the game" box. Store links must be the official listings.
+brawl-stars:
+  name: "Brawl Stars"
+  publisher: "Supercell"
+  official: "https://supercell.com/en/games/brawlstars/"
+  appstore: "https://apps.apple.com/us/app/brawl-stars/id1229016807"
+  googleplay: "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
+  status: "Live"
+honkai-nexus-anima:
+  name: "Honkai: Nexus Anima"
+  publisher: "HoYoverse"
+  official: "https://hoyo.link/gXA5dV4eK"
+  appstore: "https://apps.apple.com/us/app/honkai-nexus-anima/id6745814650"
+  status: "Spring 2027 (final closed beta from November 25, 2026)"
+pokemon-go:
+  name: "Pokémon GO"
+  publisher: "Scopely"
+  official: "https://pokemongo.com/"
+  appstore: "https://apps.apple.com/us/app/pokemon-go/id1094591345"
+  googleplay: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo"
+  status: "Live"

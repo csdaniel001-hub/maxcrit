@@ -1,0 +1,32 @@
+{# Kicker: hub pages show their hub type, news shows its main genre #}
+{% macro kick(n) -%}
+{%- if n.data.hub_type %}{{ (hubTypes | find('slug', n.data.hub_type)).one | upper }}{% elif n.data.genres and n.data.genres.length %}{{ (genreNav | find('slug', n.data.genres[0])).name | upper }}{% else %}NEWS{% endif -%}
+{%- endmacro %}
+
+{% macro card(n, pre) %}
+<a class="card" href="{{ n.url | relp(pre) }}">
+<div class="pic"><img src="{{ n.data.image | relp(pre) }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></div>
+<div class="in"><span class="k mono"><i class="sdot"></i>{{ kick(n) }} · {{ (n.data.updated_at or n.data.published_at) | shortDate }}</span><h3>{{ n.data.title }}</h3><small>Image: {{ n.data.image_credit }}</small></div>
+</a>
+{% endmacro %}
+
+{% macro row(n, pre, hide=false) %}
+<a href="{{ n.url | relp(pre) }}"{% if hide %} class="more-item" hidden{% endif %}>
+<span class="th"><img src="{{ n.data.image | relp(pre) }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span>
+<span style="display:flex;flex-direction:column;gap:4px"><span class="d mono" style="font-size:9px;letter-spacing:.06em;color:var(--p)">{{ kick(n) }} · {{ (n.data.updated_at or n.data.published_at) | longDate | upper }}</span><span class="lt" style="font-weight:700;font-size:15px;line-height:1.3">{{ n.data.title }}</span>{% if n.data.summary %}<span class="dek">{{ n.data.summary }}</span>{% endif %}</span>
+</a>
+{% endmacro %}
+
+{# Filter chips on listing pages: genres first, platforms as secondary filters #}
+{% macro chips(genre, platform, pre) %}
+<nav class="chips" aria-label="Genres"><span class="mono lbl">GENRE</span><a class="{% if not genre and not platform %}on{% endif %}" href="{{ '/news.html' | relp(pre) }}">All</a>{% for x in genreNav %}{% set c = (collections.everything | byGenre(x.slug)).length %}{% if c %}<a class="{% if x.slug == genre %}on{% endif %}" href="{{ ('/genre/' + x.slug + '.html') | relp(pre) }}">{{ x.name }} <small>{{ c }}</small></a>{% endif %}{% endfor %}</nav>
+<nav class="chips chips-2" aria-label="Platforms"><span class="mono lbl">PLATFORM</span>{% for x in platformNav %}{% set c = (collections.everything | byPlatform(x.slug)).length %}{% if c %}<a class="{% if x.slug == platform %}on{% endif %}" href="{{ ('/platform/' + x.slug + '.html') | relp(pre) }}">{{ x.name }} <small>{{ c }}</small></a>{% endif %}{% endfor %}</nav>
+{% endmacro %}
+
+{# "Get the game" box with official store links #}
+{% macro getgame(slug, pre) %}{% set g = games[slug] %}{% if g %}
+<div class="rbox getgame"><span class="rh mono">GET THE GAME</span>
+<a class="rtitle" href="{{ ('/games/' + slug + '.html') | relp(pre) }}">{{ g.name }} →</a>
+<p class="w-what">{{ g.publisher }}{% if g.status %} · {{ g.status }}{% endif %}</p>
+<div class="stores">{% if g.appstore %}<a href="{{ g.appstore }}" target="_blank" rel="noopener">App Store ↗</a>{% endif %}{% if g.googleplay %}<a href="{{ g.googleplay }}" target="_blank" rel="noopener">Google Play ↗</a>{% endif %}{% if g.official %}<a href="{{ g.official }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}</div>
+</div>{% endif %}{% endmacro %}

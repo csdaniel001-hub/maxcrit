@@ -1,0 +1,73 @@
+{%- macro ico(d) -%}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="{{ d }}"/></svg>{%- endmacro -%}
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" data-gz="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ seo_title or title }}{% if title %} · {% endif %}{{ site.name }}</title>
+<meta name="description" content="{{ summary or site.description }}">
+<meta name="robots" content="max-image-preview:large">
+<meta name="theme-color" content="#26272b">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:type" content="{% if published_at %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ title or site.name }}">
+<meta property="og:description" content="{{ summary or site.description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}"><meta name="twitter:card" content="summary_large_image">{% endif %}
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | rel }}" type="image/svg+xml">
+<link rel="preload" href="{{ '/assets/fonts/barlow-latin-500-normal.woff2' | rel }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | rel }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | rel }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | rel }}">
+{% block head %}{% endblock %}
+</head>
+<body>
+<div class="wrap">
+
+<aside class="side">
+<a class="logo" href="{{ '/index.html' | rel }}"><span class="m">{% include "pixel/logo.svg" %}</span><b><span>{{ site.wordA }}</span>{{ site.wordB }}<i class="cur">_</i></b></a>
+<button type="button" class="menu-btn" id="menuBtn" aria-controls="mainNav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+<nav class="nav" id="mainNav" aria-label="Main menu">
+<a class="{% if page.url == '/' or page.url == '/index.html' %}on{% endif %}" href="{{ '/index.html' | rel }}">{{ ico("M3 11l9-7 9 7v9H3z M9 20v-6h6v6") }}<span class="t">Home</span></a>
+<a class="{% if activeNav == 'news' %}on{% endif %}" href="{{ '/news.html' | rel }}">{{ ico("M4 5h16 M4 10h16 M4 15h10 M4 20h7") }}<span class="t">Latest news</span></a>
+<a class="{% if activeNav == 'games' %}on{% endif %}" href="{{ '/games.html' | rel }}">{{ ico("M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z M10 18h4") }}<span class="t">Games A–Z</span></a>
+<details class="grp"{% if activeSection != 'genres' %} open{% endif %}>
+<summary class="cat{% if activeSection == 'hub' %} cat-on{% endif %}">{{ ico("M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z") }}<span class="t">Player Hub</span><i class="chev" aria-hidden="true"></i></summary>
+<a class="sub{% if activeNav == 'hub' %} on{% endif %}" href="{{ '/hub.html' | rel }}">{{ ico("M4 4h7v7H4z M13 4h7v7h-7z M4 13h7v7H4z M13 13h7v7h-7z") }}<span class="t">All hub pages</span></a>
+{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a class="sub{% if activeNav == 'h-' + h.slug %} on{% endif %}" href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ ico(h.icon) }}<span class="t">{{ h.name }}</span></a>
+{% endif %}{% endfor %}
+</details>
+<details class="grp"{% if activeSection == 'genres' %} open{% endif %}>
+<summary class="cat{% if activeSection == 'genres' %} cat-on{% endif %}">{{ ico("M6 8h12a4 4 0 0 1 4 4v1a3 3 0 0 1-5.5 1.7L15 13H9l-1.5 1.7A3 3 0 0 1 2 13v-1a4 4 0 0 1 4-4z M7 10.5v3 M5.5 12h3") }}<span class="t">Genres</span><i class="chev" aria-hidden="true"></i></summary>
+{% for g in genreNav %}{% if (collections.everything | byGenre(g.slug)).length %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ ico(g.icon) }}<span class="t">{{ g.name }}</span></a>
+{% endif %}{% endfor %}
+</details>
+</nav>
+<a class="zone" href="{{ '/editorial-policy.html' | rel }}"><span class="i"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 7.8-8 9-4.8-1.2-8-4.5-8-9V6z M8.5 12l2.5 2.5 4.5-5"/></svg></span><span><b style="display:block;font-size:13px">Official sources only</b><small style="font-size:11px;color:var(--p2)">How we report</small></span></a>
+<div class="foot"><a href="{{ '/editorial-policy.html' | rel }}">Editorial policy</a><a href="{{ '/about.html' | rel }}">About</a><a href="{{ '/privacy.html' | rel }}">Privacy</a></div>
+</aside>
+
+<main>
+<form class="top" action="{{ '/search.html' | rel }}" role="search">
+<label class="search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="sr">Search</span><input type="search" name="q" placeholder="Search games, patches, guides...  ( / )"></label>
+<nav class="topgames" aria-label="Popular games">{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}<a href="{{ ('/games/' + slug + '.html') | rel }}">{{ g.name }}</a>{% endif %}{% endfor %}</nav>
+<a class="ibtn" href="{{ '/feed.xml' | rel }}" aria-label="RSS feed"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 19h.01 M5 12a7 7 0 0 1 7 7 M5 5a14 14 0 0 1 14 14"/></svg></a>
+<div class="sys mono" aria-hidden="true"><span>UTC</span><b id="sysTime">--:--:--</b></div>
+</form>
+<div class="tick"><span class="f mono"><i class="blink"></i>LATEST</span>
+<div class="marq" aria-label="Latest stories"><div class="marq-in">{% for rep in [0,1] %}<span class="marq-set"{% if rep %} aria-hidden="true"{% endif %}>{% for n in collections.everything | limit(8) %}<a href="{{ n.url | rel }}"{% if rep %} tabindex="-1"{% endif %}><i></i>{{ n.data.title }}</a>{% endfor %}</span>{% endfor %}</div></div>
+<a class="tick-all" href="{{ '/news.html' | rel }}">All news</a></div>
+
+{{ content | safe }}
+
+<div class="sky-wrap">{% include "pixel/skyline.svg" %}<span class="walker">{% include "pixel/logo.svg" %}</span></div>
+<a class="hazard" href="{{ '/feed.xml' | rel }}"><span class="mono">&gt; FOLLOW VIA RSS<i class="cur">_</i></span></a>
+<footer><b><span>{{ site.wordA }}</span>{{ site.wordB }}</b><nav class="fnav"><a href="{{ '/news.html' | rel }}">News</a><a href="{{ '/hub.html' | rel }}">Player Hub</a><a href="{{ '/games.html' | rel }}">Games A–Z</a><a href="{{ '/editorial-policy.html' | rel }}">Editorial policy</a><a href="{{ '/about.html' | rel }}">About</a><a href="{{ '/feed.xml' | rel }}">RSS</a></nav></footer>
+</main>
+</div>
+<script src="{{ '/assets/js/site.js' | rel }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

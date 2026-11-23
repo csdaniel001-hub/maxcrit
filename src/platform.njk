@@ -1,0 +1,17 @@
+---
+layout: base.njk
+pagination: { data: platformNav, size: 1, alias: p }
+permalink: "/platform/{{ p.slug }}.html"
+eleventyComputed:
+  title: "{{ p.name }} game news, patches and guides"
+  summary: "{{ p.desc }}"
+---
+{% from "macros.njk" import card, chips with context %}
+{% set items = collections.everything | byPlatform(p.slug) %}
+<div class="page">
+<div class="lab mono"><span class="n">/ PLATFORM</span><span>{{ p.name | upper }}</span><span class="ln"></span></div>
+<h1>{{ p.name }}</h1>
+<p class="lead" style="margin:10px 0 16px;max-width:680px">{{ p.desc }}</p>
+{{ chips('', p.slug, pre) }}
+<div class="grid">{% for n in items %}{{ card(n, pre) }}{% endfor %}</div>
+</div>

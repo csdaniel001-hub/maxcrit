@@ -1,0 +1,4 @@
+# Secondary filters, not menu items. Only list what the official source confirms.
+- { slug: ios, name: iOS, desc: "Games and updates on iPhone and iPad." }
+- { slug: android, name: Android, desc: "Games and updates on Android phones and tablets." }
+- { slug: pc, name: PC, desc: "Mobile games that also run on PC, often with cross-progression." }

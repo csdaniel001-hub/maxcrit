@@ -1,0 +1,13 @@
+---
+layout: base.njk
+permalink: /games.html
+activeNav: games
+title: Games A–Z
+summary: Every mobile game we cover, with its news, patch trackers and guides in one place, plus links to the official store listings.
+---
+<div class="page">
+<div class="lab mono"><span class="n">/ GAMES</span><span>A–Z</span><span class="ln"></span></div>
+<h1>Games A–Z</h1>
+<p class="lead" style="margin:10px 0 20px;max-width:680px">Every game we cover, with all of its news and hub pages on one page. Store links go to the official listings.</p>
+<div class="g-titles">{% for slug, g in games %}{% set c = (collections.everything | byGame(slug)).length %}{% if c %}<a href="{{ ('/games/' + slug + '.html') | rel }}"><b>{{ g.name }}</b><span class="mono">{{ g.publisher | upper }} · {{ c }} {% if c == 1 %}PAGE{% else %}PAGES{% endif %}</span></a>{% endif %}{% endfor %}</div>
+</div>

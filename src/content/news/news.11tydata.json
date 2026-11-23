@@ -1,0 +1,7 @@
+{
+  "layout": "article.njk",
+  "permalink": "/news/{{ page.fileSlug }}.html",
+  "author": "MaxCrit Staff",
+  "status": "confirmed",
+  "activeNav": "news"
+}
