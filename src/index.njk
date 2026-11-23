@@ -9,7 +9,7 @@ bodyClass: hz-home
 {% set fresh = all | notIn(hero) | limit(3) %}
 <div class="hz-top">
 <section class="hz-panel hz-hero" id="gzHero" aria-roledescription="carousel" aria-label="Featured stories">
-<div class="hz-in"><span class="mc-circle mc-c-hero" aria-hidden="true"></span>
+<div class="hz-in">
 <div class="hz-stage">
 {% for n in hero %}<a class="hz-slide{% if loop.first %} on{% endif %}" href="{{ n.url | rel }}">
 <span class="hz-tx"><span class="hz-hh">Featured<i aria-hidden="true">//</i>{{ kick(n) }}</span>
@@ -87,7 +87,7 @@ bodyClass: hz-home
 {% set hubLeft = collections.hub | notIn(shown) %}
 {% if hubLeft.length %}<div class="mc-sec">
 <section class="hz-panel hz-dark" aria-labelledby="h-hub">
-<div class="hz-in"><span class="mc-circle mc-c-hub" aria-hidden="true"></span>
+<div class="hz-in">
 <header class="hz-ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link mc-ph-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
 <div class="hz-gl">{% for n in hubLeft | limit(4) %}<a href="{{ n.url | rel }}"><i class="hz-chip">{{ kick(n) }}</i><b>{{ n.data.title }}</b>{{ arr() }}</a>{% endfor %}</div>
 </div>
