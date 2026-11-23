@@ -28,7 +28,9 @@ bodyClass: gz-art
 <section class="gz-src" aria-labelledby="h-src"><h2 id="h-src" class="mono">Sources</h2><ol>{% for s in sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }} ↗</a><span class="mono">{% if s.primary %}primary{% else %}supporting{% endif %}</span></li>{% endfor %}</ol></section>
 </div>
 <aside class="gz-arail">
-{% for slug in titles or [] %}{{ getgame(slug, pre) }}{% endfor %}
+{% if (titles or []).length > 2 %}<div class="gz-box"><div class="gz-box-h"><h2>Games in this article</h2></div>
+<ul class="mc-gamelist">{% for slug in titles %}{% set g = games[slug] %}{% if g %}<li><a href="{{ ('/games/' + slug + '.html') | relp(pre) }}">{{ g.name }} →</a><span>{{ g.publisher }}</span></li>{% endif %}{% endfor %}</ul></div>
+{% else %}{% for slug in titles or [] %}{{ getgame(slug, pre) }}{% endfor %}{% endif %}
 {% if tocItems.length > 1 %}<nav class="gz-toc" aria-label="Contents"><h2 class="mono">Contents</h2><ol>{% for t in tocItems %}<li><a href="#{{ t.id }}">{{ t.text }}</a></li>{% endfor %}</ol></nav>{% endif %}
 </aside>
 </div>
