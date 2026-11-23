@@ -189,3 +189,6 @@
 @media (max-width:1360px){.mc-band .hz-tile-tx em{display:none}.mc-band .hz-tile-tx b{font-size:24px}}
 @media (max-width:760px){.mc-band .hz-tile-tx b{font-size:20px}}
 .mc-band .hz-tile-tx em{font-size:13px}
+.mc-ph-link{margin-left:auto;color:inherit}
+#h-more ~ * , .mc-sec > .hz-row3:first-of-type{margin-top:0}
+.mc-sec > .hz-row3 + .hz-row3{margin-top:14px}

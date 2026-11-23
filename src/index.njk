@@ -78,36 +78,35 @@ bodyClass: hz-home
 {% macro ico(d) %}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{{ d }}"/></svg>{% endmacro %}
 {% macro gamesSide(items) %}{% set seen = [] %}{% for n in items %}{% for t in n.data.titles or [] %}{% if t not in seen and seen.length < 5 %}{% set seen = (seen.push(t), seen) %}<a class="hz-rel" href="{{ ('/games/' + t + '.html') | rel }}"><span class="hz-rt"><b class="w">{{ games[t].name }}</b><small>{{ games[t].publisher }}</small></span></a>{% endif %}{% endfor %}{% endfor %}<a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a>{% endmacro %}
 
-{% for t in topicNav %}{% set ti = all | byTopic(t.slug) %}{% if ti.length %}{{ block('t-' + t.slug, t.name, '/' + t.slug + '.html', 'Open section', ti, 'Games', gamesSide(ti)) }}{% endif %}{% endfor %}
-{% set topicShown = [] %}{% for t in topicNav %}{% for n in all | byTopic(t.slug) %}{% set topicShown = (topicShown.push(n), topicShown) %}{% endfor %}{% endfor %}
-{# Genre sections use only stories not already shown in the Gacha block. Genres with 4+ stories ("big")
-   alternate between a card row and a mirrored big block; genres with 2-3 stories ("small") are shown in pairs. #}
-{% set big = [] %}{% set small = [] %}
-{% for g in genreNav %}{% set fi = all | byGenre(g.slug) | notIn(topicShown) %}{% if fi.length >= 4 %}{% set big = (big.push({g: g, items: fi}), big) %}{% elif fi.length >= 2 %}{% set small = (small.push({g: g, items: fi}), small) %}{% endif %}{% endfor %}
-{% set trios = [] %}{% for k in range(0, small.length, 3) %}{% set trios = (trios.push(small.slice(k, k + 3)), trios) %}{% endfor %}
-{# Genre band: slanted tiles for the four biggest genres #}
-{% set band = [] %}{% for g in genreNav %}{% set gi = all | byGenre(g.slug) %}{% if gi.length >= 2 and band.length < 4 %}{% set band = (band.push({g: g, img: gi[0].data.image}), band) %}{% endif %}{% endfor %}
-<nav class="mc-sec hz-strip mc-band" aria-label="Genres">{% for e in band %}<a class="hz-tile" href="{{ ('/genre/' + e.g.slug + '.html') | rel }}"><span class="hz-tile-tx"><em>{{ e.g.band }}</em><b>{{ e.g.name }}</b><span class="hz-pips" aria-hidden="true"><i></i><i></i><i></i></span></span><span class="hz-tile-pic"><img src="{{ e.img | rel }}" alt="" loading="lazy"></span></a>{% endfor %}</nav>
-{% for e in big %}
-{% if loop.index0 % 2 == 0 %}{{ cards(e.g, e.items) }}{% else %}{{ block(e.g.slug, e.g.name, '/genre/' + e.g.slug + '.html', 'Open genre', e.items, 'Games', gamesSide(e.items), true) }}{% endif %}
-{% if loop.first and collections.hub.length %}<div class="mc-sec">
+{# Homepage rule: every story appears once. Order: hero and Latest, the Gacha section, the Player Hub,
+   then genres in genreNav order. A genre with 4+ stories left gets its own section (card row and
+   mirrored block alternate); genres with fewer share the "More genres" panels at the end. #}
+{% set shown = hero.concat(fresh) %}
+{% for t in topicNav %}{% set ti = all | byTopic(t.slug) | notIn(shown) %}{% if ti.length %}{{ block('t-' + t.slug, t.name, '/' + t.slug + '.html', 'Open section', ti, 'Games', gamesSide(ti)) }}{% set shown = shown.concat(ti.slice(0, 5)) %}{% endif %}{% endfor %}
+
+{% set hubLeft = collections.hub | notIn(shown) %}
+{% if hubLeft.length %}<div class="mc-sec">
 <section class="hz-panel hz-dark" aria-labelledby="h-hub">
 <div class="hz-in">
-<header class="hz-ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i></header>
-<div class="hz-gl">{% for n in collections.hub | limit(4) %}<a href="{{ n.url | rel }}"><i class="hz-chip">{{ kick(n) }}</i><b>{{ n.data.title }}</b>{{ arr() }}</a>{% endfor %}</div>
+<header class="hz-ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link mc-ph-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
+<div class="hz-gl">{% for n in hubLeft | limit(4) %}<a href="{{ n.url | rel }}"><i class="hz-chip">{{ kick(n) }}</i><b>{{ n.data.title }}</b>{{ arr() }}</a>{% endfor %}</div>
 </div>
 </section>
 </div>{% endif %}
-{% if trios[loop.index0] %}{{ trio(trios[loop.index0], 'lab' if loop.index0 % 2 == 0 else 'season') }}{% endif %}
-{% endfor %}
-{% for t in trios %}{% if loop.index0 >= big.length %}{{ trio(t, 'lab' if loop.index0 % 2 == 0 else 'season') }}{% endif %}{% endfor %}
+{% set shown = shown.concat(collections.hub) %}
 
-{# Games we cover: a scrolling strip #}
-{% set gs = [] %}{% for slug, gm in games %}{% if (all | byGame(slug)).length %}{% set gs = (gs.push(slug), gs) %}{% endif %}{% endfor %}
-<section class="mc-sec" aria-labelledby="h-gs">
-<header class="hz-sh"><h2 id="h-gs">Games we cover</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a></header>
-<div class="mc-gs">{% for slug in gs %}<a class="hz-card" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="hz-card-in"><span class="hz-card-pic"><img src="{{ all | gamePic(slug) | rel }}" alt="" loading="lazy"></span><span class="hz-card-tx"><b>{{ games[slug].name }}</b><small>{{ games[slug].publisher }}</small></span></span></a>{% endfor %}</div>
+{% set big = [] %}{% set small = [] %}
+{% for g in genreNav %}{% set fi = all | byGenre(g.slug) | notIn(shown) %}{% if fi.length >= 4 %}{% set big = (big.push({g: g, items: fi}), big) %}{% elif fi.length %}{% set small = (small.push({g: g, items: fi}), small) %}{% endif %}{% endfor %}
+{% for e in big %}
+{% if loop.index0 % 2 == 0 %}{{ cards(e.g, e.items) }}{% else %}{{ block(e.g.slug, e.g.name, '/genre/' + e.g.slug + '.html', 'Open genre', e.items, 'Games', gamesSide(e.items), true) }}{% endif %}
+{% endfor %}
+
+{% if small.length %}
+<section class="mc-sec" aria-labelledby="h-more">
+<header class="hz-sh"><h2 id="h-more">More genres</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>
+{% for k in range(0, small.length, 3) %}{{ trio(small.slice(k, k + 3), 'lab' if (k / 3) % 2 == 0 else 'season') }}{% endfor %}
 </section>
+{% endif %}
 
 <section class="hz-all" aria-labelledby="h-all">
 <header class="hz-sh"><h2 id="h-all">Everything</h2><i aria-hidden="true">//</i>
@@ -119,7 +118,7 @@ bodyClass: hz-home
 
 <script>
 (function(){
-if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('gz-an');var io=new IntersectionObserver(function(es){var k=0;es.forEach(function(e){if(!e.isIntersecting)return;e.target.style.transitionDelay=(k++*60)+'ms';e.target.classList.add('in');io.unobserve(e.target)})},{rootMargin:'0px 0px -6% 0px'});document.querySelectorAll('.hz-panel,.hz-rbh,.hz-sh,.hz-tile,.hz-card').forEach(function(el){io.observe(el)});}
+if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('gz-an');var io=new IntersectionObserver(function(es){var k=0;es.forEach(function(e){if(!e.isIntersecting)return;e.target.style.transitionDelay=(k++*60)+'ms';e.target.classList.add('in');io.unobserve(e.target)})},{rootMargin:'0px 0px -6% 0px'});document.querySelectorAll('.hz-panel,.hz-rbh,.hz-sh,.hz-card').forEach(function(el){io.observe(el)});}
 var h=document.getElementById('gzHero');
 if(h){var s=h.querySelectorAll('.hz-slide'),d=h.querySelectorAll('.hz-ctl button'),c=document.getElementById('gzCount'),i=0,tm;
 function go(n){s[i].classList.remove('on');d[i].classList.remove('on');i=(n+s.length)%s.length;s[i].classList.add('on');d[i].classList.add('on');if(c)c.textContent='0'+(i+1)+' / 0'+s.length;}
