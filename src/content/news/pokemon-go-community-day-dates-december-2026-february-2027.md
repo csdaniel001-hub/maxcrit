@@ -23,7 +23,7 @@ image_alt: "Pokémon GO Community Day logo from the official announcement"
 image_status: "candidate"
 ---
 
-The Pokémon GO team has published the dates for every Community Day of the next season, plus seven other event days running from early December 2026 to mid-February 2027. This post does not name the featured Pokémon. The December lineup was announced separately on November 20, and we cover it in its own story.
+The Pokémon GO team has published the dates for every Community Day of the next season, plus seven other event days running from early December 2026 to mid-February 2027. The featured Pokémon for December were announced separately on November 20, and we cover them in their own story.
 
 The current season, Twilight Trails, ends on December 1, 2026 at 10:00 a.m. local time, so these dates belong to the season that follows it.
 

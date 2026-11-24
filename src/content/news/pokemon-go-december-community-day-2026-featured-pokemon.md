@@ -77,7 +77,7 @@ These run all weekend, from Saturday 9:00 a.m. to Sunday 9:00 p.m. local time:
 
 The December Community Day Special Research costs US$4.99, or the equivalent tier in your currency. It gives encounters with 2026 Community Day and Community Day Classic Pokémon with Special Backgrounds, one Elite Charged TM, one Elite Fast TM, a Rocket Radar and more. It has no medal. You can gift a ticket to a friend at Great Friends level or higher, as long as they don't already have one.
 
-The Pokémon GO Web Store will also sell an Ultra Community Day Box for US$4.99 during the event, with one Premium Battle Pass and one Special Research ticket. The team hasn't said yet when tickets go on sale.
+The Pokémon GO Web Store will also sell an Ultra Community Day Box for US$4.99 during the event, with one Premium Battle Pass and one Special Research ticket.
 
 Free Field Research during the event leads to encounters with the same 2026 Community Day Pokémon. Checking in at a Community Ambassador event adds Timed Research with more encounters and premium items.
 

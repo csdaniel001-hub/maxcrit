@@ -26,7 +26,7 @@ Century Games released Kingshot version 1.14.28 on November 16, 2026. The releas
 
 ## Four new formations
 
-The update adds 4 formations that unlock progressively based on your Town Center Level. The notes describe them as more options for squad strategies. They don't say which Town Center Levels unlock each one or what bonuses the formations give, so open the Formation screen after updating to see what your current level gives you.
+The update adds 4 formations that unlock progressively based on your Town Center Level. The notes describe them as more options for squad strategies.
 
 The Deployment screen also changes: you can now remove the first Hero on its own, which makes it easier to rearrange a squad without clearing it.
 

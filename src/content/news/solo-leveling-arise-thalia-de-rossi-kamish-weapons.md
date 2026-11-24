@@ -12,6 +12,7 @@ titles: [solo-leveling-arise]
 sources:
   - { title: "Solo Leveling:Arise on the App Store: release notes (November 20, 2026)", url: "https://apps.apple.com/us/app/solo-leveling-arise/id1662742277", primary: true }
   - { title: "Solo Leveling:Arise on Google Play", url: "https://play.google.com/store/apps/details?id=com.netmarble.sololv" }
+  - { title: "Netmarble press release: Solo Leveling: ARISE adds SSR Hunter Thalia De Rossi (copy via Final Weapon)", url: "https://finalweapon.net/2026/11/19/solo-leveling-arise-update-adds-ssr-hunter-thalia-de-rossi/" }
 image: "/assets/img/solo-leveling-arise-thalia-de-rossi-kamish-weapons.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/e8/01/e0e801b8-24e8-b097-3021-0009d565a99e/0b7d9ca4-2fa5-497b-90df-f88dd6cf6e0d_IOS_2208x1242_5_EN.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/solo-leveling-arise/id1662742277"
@@ -29,6 +30,23 @@ Netmarble released a Solo Leveling:Arise update on November 20, 2026. Here's wha
 - **Balance**: improvements for select Hunters.
 - **Also**: new events, quality-of-life improvements and bug fixes.
 
-Two Sung Jinwoo weapons at once is the bigger draw for most players, since Jinwoo is the character everyone uses. Thalia De Rossi is the new SSR Hunter for the roster around him.
+## Thalia De Rossi and the Kamish weapons
 
-The Power of Calamity rework and the Hunter balance changes are where the notes are thinnest. They don't say which Hunters changed or what the rework does, so if you built around Power of Calamity, read the in-game patch notice before you reroll or re-invest. Dargo, the new Guild Boss, gives guilds a fresh target this week.
+Thalia De Rossi is a Dark-element Supporter from the Rivera Guild, with the exclusive weapon Rosa Nera. She fights with mana flowers and thorny briars: Paradiso creates a damaging garden of thorns and butterflies, and her Ultimate, Estremo Fiore, hits enemies with a bloom of flowers and piercing vines.
+
+Both new weapons are Fire-element SSR weapons that only Sung Jinwoo can use, and they play differently. Kamish's Wrath is the pair of daggers from the original series, built for rapid attacks with both blades held in a reverse grip. Kamish's Roar is original to the game: thrusting attacks that spread Fire-element infusion over a wide area and build up stacks. Since every player uses Jinwoo, the weapons matter to more accounts than the new Hunter.
+
+## Power of Calamity, reworked
+
+Netmarble's announcement spells out the rework:
+
+- **Tiers instead of difficulties**: the three difficulty options are replaced by tiers you climb by defeating bosses, and you keep your highest tier when a season changes.
+- **Every element is a weakness**, so you no longer need a specific element to compete.
+- **Two teams on one boss**: Team 1 and Team 2 can fight the same boss back to back, and the boss keeps the HP the first team left it with.
+- **Rewards and rankings**: new rewards for progress milestones and for clearing each tier, and rankings shown as percentiles instead of exact places.
+
+## Progression and anniversary rewards
+
+The maximum Battle Tier rises from 150 to 200, with achievement rewards at each tier. The Armory now gives bonus Attack, Defense and HP based on the grades and advancement of registered weapons, and counts Weapon Advancement Tiers up to 10 instead of 5. Dargo, the Horn of the Azure Sea, joins as a Guild Boss, and a new Deep Containment Zone season features [Experiment] Vulcan.
+
+The 2.5th anniversary celebration continues with up to 200 more 2.5th Anniversary Special Draw Tickets, which brings the total to 500 with the 300 from the October update.

@@ -29,7 +29,7 @@ Infold Games released Love and Deepspace version 6.5.0, called Rebooting Dreams,
 
 The headline event shares its name with the version. According to the release notes, Rebooting Dreams lets you obtain event-limited Memories through limited-time pulls, along with Memory-themed Outfits and selectable event-limited 5-Star Memories.
 
-"Selectable" is the useful word. It means the event includes a way to choose which limited 5-Star Memory you receive, so you aren't relying on luck alone for the character you want. The notes don't say how many pulls or how much event progress that choice needs, so check the event page in the game before you start spending.
+"Selectable" is the useful word. It means the event includes a way to choose which limited 5-Star Memory you receive, so you aren't relying on luck alone for the character you want.
 
 ## Events that give rewards for free
 
@@ -47,4 +47,3 @@ Two items in the notes cost money. The Inorganic Dimension Pack is available at 
 
 The last change costs nothing. The Illusio feature for your 5-Star Memories' Kindled moments is now free, so you can change his outfits and replay those scenes without an extra unlock.
 
-The release notes don't give end dates for Rebooting Dreams, Glitchtopia or the discounts. The timers on each event page in the game are the place to check them.

@@ -29,4 +29,4 @@ Dream Games repeats that new levels arrive every two weeks, so the 100 here are 
 
 Film Rolls are the new mechanic in these levels. Collecting them fills the projector, which then hands out power-ups, so in the new levels it pays to aim matches at Film Rolls early instead of saving boosters.
 
-Wild Forest is the part with a time limit. The notes don't give an end date, so if you want the Grand Prize, it's safer to play through the waves while the event is live than to wait. The update is out on the App Store now and needs to be installed before the new levels show up.
+Wild Forest is the part with a time limit. If you want the Grand Prize, play through the waves while the event is live rather than waiting. The update is out on the App Store now and needs to be installed before the new levels show up.

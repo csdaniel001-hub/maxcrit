@@ -34,7 +34,7 @@ The new Resonator is Lily, and her new weapon is Lullaby. Hiyuki also gets a Del
 | Phase I | Bloom of Yesterday's Dreamsoil, When the Runes Glitter, Wanderer Knows No Far and Near | Lullaby, Solsworn Ciphers, Emerald Sentence |
 | Phase II | Voices on Azure Feathers, Blessings From Dewy Winds, Thousand Futures Mirrored in Snow | Azure Oath, Firstlight's Herald, Frostburn |
 
-Version 3.8 also runs Starpath Reverbs II, a Reverb Resonator Convene, and Tideforge Reverbs II, a Reverb Weapon Convene. In both, you pick a 5-Star Resonator or 5-Star Weapon as your Featured Convene target and can change the pick at any time. Kuro hasn't said in this release which Resonators and weapons are in the pool.
+Version 3.8 also runs Starpath Reverbs II, a Reverb Resonator Convene, and Tideforge Reverbs II, a Reverb Weapon Convene. In both, you pick a 5-Star Resonator or 5-Star Weapon as your Featured Convene target and can change the pick at any time.
 
 ## Quality-of-life changes
 

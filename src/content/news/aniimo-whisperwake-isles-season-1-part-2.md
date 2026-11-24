@@ -28,6 +28,6 @@ Aniimo, one of Apple's three finalists for iPad Game of the Year, released versi
 - **1v1 duels**: real-time duels between players.
 - **Halloween Parade**: a limited-time event that came with the update.
 
-Prismana Eklue is the one with a clock on it. Season-exclusive suggests it won't be catchable once Season 1 ends, though the notes don't give an end date. With 51 new Aniimo at once, Whisperwake Isles is the obvious first stop if you're working on your collection.
+Prismana Eklue is the one with a clock on it. It is exclusive to Season 1. With 51 new Aniimo at once, Whisperwake Isles is the obvious first stop if you're working on your collection.
 
 Apple picked Aniimo for its fantasy quests and creatures, and its winners are due in the coming weeks.

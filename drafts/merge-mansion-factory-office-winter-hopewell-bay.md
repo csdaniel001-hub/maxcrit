@@ -29,4 +29,3 @@ The Factory Office is the part that adds something new to do. If you had finishe
 
 The winter makeover is about the look of the town: the release notes describe it as Hopewell Bay turning into a snowy winter wonderland.
 
-The release notes don't name the holiday events or give dates for them. They will show up in the game as the season goes on, so the in-game event list is where to check what's live each week.

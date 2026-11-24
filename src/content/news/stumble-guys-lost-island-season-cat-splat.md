@@ -28,4 +28,4 @@ Scopely's Stumble Guys moved to version 0.104 on November 2, 2026, which opened 
 
 Cat Splat is the one that changes rounds. A homing missile that targets moving players is a direct counter to whoever is out in front, so expect it to show up most in races where the leader is exposed.
 
-Black Friday falls on November 27 this year and Cyber Week follows, so the holiday part of the season runs into early December. The notes don't put dates on the individual events.
+Black Friday falls on November 27 this year and Cyber Week follows, so the holiday part of the season runs into early December.

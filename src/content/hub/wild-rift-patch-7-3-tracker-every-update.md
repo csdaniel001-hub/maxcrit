@@ -91,6 +91,6 @@ Turrets now ramp up less on consecutive attacks, and minions take less damage wh
 
 The newest patch added Sylas, the Unshackled. It nerfed Kalista, Shen, Kassadin and Eclipse, buffed Yasuo, Lucian, Rumble and several mage items, and slowed tank junglers through Smite. Our news story on 7.3f has the exact numbers.
 
-## What this page doesn't cover
+## Other 7.3 patches and events
 
 Patches 7.3c and 7.3e are about AAA ARAM and event content, so they have no entry of their own here. The exact numbers for each change are in Riot's notes, linked in the sources. The Reindeer Mini Pass, with Reindeer Smolder, is listed in the 7.3 notes for December 3.

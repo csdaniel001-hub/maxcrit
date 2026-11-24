@@ -30,4 +30,4 @@ You can customise each car with seven brake calliper colours (Red, Orange, Green
 
 Beyond the cars, there's the Bentley Parachute 2026, a Driver Set and matching Driver Sunglasses in Green and Pink.
 
-Everything in the collaboration is sold rather than earned, and the release doesn't mention any free event or reward track. From today that leaves about seven weeks if you want one of the cars.
+Everything in the collaboration is sold rather than earned. From today that leaves about seven weeks if you want one of the cars.

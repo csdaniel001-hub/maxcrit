@@ -31,4 +31,4 @@ Lilith Games' November 20, 2026 update for Rise of Kingdoms brings a Thanksgivin
 
 Four of the seven depend on other players: Thanksgiving Dinner shares rewards with your alliance, Team Draw needs other governors, and the Feast and A Cordial Invitation are built around alliance members gathering. An active alliance gets noticeably more out of this series than a solo player.
 
-Arms Training is the one with a skill ceiling. Lohar scales up each fight, so your score depends on how far your commanders can push before they fall. The release notes don't give the event dates.
+Arms Training is the one with a skill ceiling. Lohar scales up each fight, so your score depends on how far your commanders can push before they fall.

@@ -4,6 +4,7 @@ seo_title: "Reverse: 1999 3.9: Hedone, Narcissus and free summons"
 summary: "Reverse: 1999 Version 3.9 adds the story Rekindled! Games of the Summer-Gold Sea, 6-Star characters Hedone and Narcissus, and up to 100 summons to claim."
 keyword: "Reverse 1999 3.9"
 published_at: 2026-11-24T00:50:00Z
+type: short
 genres: [rpg]
 topics: [gacha]
 platforms: [ios, android]
@@ -27,7 +28,7 @@ Bluepoch released Reverse: 1999 Version 3.9 on November 5, 2026. It brings a new
 
 ## Up to 100 summons, with 14 for logging in
 
-The release notes open with the offer: you can claim up to 100 summons during this version, and logging in gives you 14 of them. The notes don't break down where the other 86 come from, so expect them to be spread across the version's events and check each event page for its share.
+The release notes open with the offer: you can claim up to 100 summons during this version, and logging in gives you 14 of them.
 
 For a free player, 100 summons is a meaningful amount. It is worth collecting all of them before you decide whether to spend on either new character.
 
@@ -64,4 +65,3 @@ Five characters get new Garments in Version 3.9:
 | Front Page Exclusive | ONiON |
 | Repose Amidst the Roses | Moldir |
 
-The release notes don't give the banner dates for Hedone and Narcissus or the end dates of the events. The in-game event calendar has them.

@@ -29,4 +29,4 @@ How it works, according to the release notes:
 
 Since hype comes from training and matches rather than only from results, the Hype Derby rewards showing up regularly. A squad of managers who log in every day and run their sessions should build more hype than a squad with one strong club and a few inactive members.
 
-That makes the choice of squadmates the main decision. The release notes don't say how many managers fit in a squad, how long a derby lasts or what the winners receive, so check the event screen in the game for those details before you commit to a group.
+That makes the choice of squadmates the main decision.

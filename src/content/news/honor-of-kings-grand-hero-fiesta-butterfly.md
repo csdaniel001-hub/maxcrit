@@ -27,4 +27,4 @@ Free rewards in the event:
 - **Match-3 minigame**: collect tokens and redeem them for a free skin adapted from the default look of a hero from the China server or Arena of Valor.
 - **Global skin vote**: vote for the skins you'd like to see brought across the three games.
 
-The press release doesn't give an end date for the event, so if you want Butterfly for free, get your three log-in days done early rather than waiting.
+If you want Butterfly for free, get your three log-in days done early rather than waiting.

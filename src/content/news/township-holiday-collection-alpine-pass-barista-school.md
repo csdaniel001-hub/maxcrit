@@ -29,4 +29,4 @@ Playrix released Township version 40.1.0 on November 18, 2026, and it's the game
 
 Two Season passes running side by side is the main change for regular players. The Alpine Pass and the Christmas Passes are listed separately, and both pay out for town building and decoration, so if you plan to buy one, it's worth checking which rewards each offers before you commit.
 
-The Holiday Collection works like earlier card collections: cards come in over the season and the badge goes to players who finish the set. Playrix hasn't given an end date in the notes.
+The Holiday Collection works like earlier card collections: cards come in over the season and the badge goes to players who finish the set.

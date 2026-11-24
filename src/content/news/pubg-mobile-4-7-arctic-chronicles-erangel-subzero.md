@@ -4,6 +4,7 @@ seo_title: "PUBG MOBILE 4.7: Arctic Chronicles, Seal City, PowNin"
 summary: "PUBG MOBILE 4.7 adds the Arctic Chronicles mode with the Ancient Beast, a PvE map called Seal City, and Erangel Subzero in December. Here's what's in it."
 keyword: "PUBG MOBILE 4.7"
 published_at: 2026-11-23T09:15:00Z
+type: short
 genres: [shooter]
 platforms: [ios, android]
 titles: [pubg-mobile]
@@ -30,7 +31,7 @@ The Battle Royale themed mode this time is Arctic Chronicles. The Ancient Beast 
 
 Erangel Subzero is coming in December. Erangel goes through drastic weather changes during a blizzard, and the developer pitches it as new tactics on a familiar map.
 
-The App Store screenshots also show a fishing activity marked as a Classic Mode update, and a Godzilla collaboration with no date attached. The release notes themselves don't give a date for either.
+The App Store screenshots also show a fishing activity marked as a Classic Mode update, and a Godzilla collaboration.
 
 ## Seal City and WOW Brainrot
 

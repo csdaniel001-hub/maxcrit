@@ -29,6 +29,6 @@ Netmarble's November 19, 2026 update for The Seven Deadly Sins: Grand Cross open
 - **New Holy Relic**.
 - Plus other system improvements and bug fixes.
 
-This is the eve, not the anniversary itself. If you're saving gems, the question is whether the Eve Special Draw is worth pulling now or whether to wait for the main anniversary. Netmarble hasn't announced what the anniversary brings, so the notes don't settle it either way.
+This is the eve, not the anniversary itself.
 
 The Check-In Event is the safe win. It only asks you to log in, so it's worth starting right away to collect every day's reward.

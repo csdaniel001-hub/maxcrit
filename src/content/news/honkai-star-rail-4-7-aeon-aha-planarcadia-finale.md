@@ -32,4 +32,3 @@ Aha is the name that stands out. In the game's story the Aeons are the beings be
 
 If you play mainly for the story, the Trailblaze Mission is the place to start, because it continues the Planarcadia chapters. If you log in for the modes, the new Currency Wars season is the part that changes your weekly routine.
 
-The release notes are short and leave out the details that matter for planning. They don't give the dates for Aha's Warp, the other characters on rerun, or how long each event runs. Check the in-game announcements for those before you spend Stellar Jade.

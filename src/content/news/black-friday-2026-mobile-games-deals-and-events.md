@@ -39,7 +39,6 @@ Black Friday falls on November 27 this year, and several mobile games have alrea
 | Asphalt Legends | Bugatti Bolide Burst of Speed | Nov 26 – Dec 17 |
 | Asphalt Legends | Cyber Monday event with the Trion Nemesis and Icona Vulcano Titanium | Nov 30 – Dec 5 |
 | UNO! | Black Friday Bonanza: collect five stamps to spin a wheel for up to 6400% extra | Nov 23 – Nov 29 |
-| Stumble Guys | Thanksgiving, Black Friday and Cyber Week events | Not dated in the notes |
 
 ## What's worth knowing
 

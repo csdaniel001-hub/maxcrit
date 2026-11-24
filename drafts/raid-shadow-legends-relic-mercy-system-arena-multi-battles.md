@@ -32,4 +32,3 @@ Plarium released RAID: Shadow Legends version 11.95.5 today, November 23, 2026. 
 
 The Arena change saves the most time. Until now, running Multi-Battles in the background meant you couldn't play Arena at the same time, and many players farm and fight Arena in the same session.
 
-The release notes don't say which champions were rebalanced or what changed in Rhazin Scarhide's Fusion. Plarium usually publishes those numbers separately, so check the in-game news before spending resources on an affected champion.

@@ -30,4 +30,4 @@ What the release notes list:
 
 The two unlocks work differently, which is worth knowing before you start. Jimbo comes from Floor is Lava, so you earn him by playing that mode. The Joker Board and the Jackpot Outfit come from the Season Hunt, which runs across your normal runs for the whole season.
 
-If you want everything, play Floor is Lava for Jimbo first and let the Season Hunt fill up in the background. The release notes don't say when the season or the Cyber Week bundles end, so check the timers in the game before you plan around them.
+If you want everything, play Floor is Lava for Jimbo first and let the Season Hunt fill up in the background.

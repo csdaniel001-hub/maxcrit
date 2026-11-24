@@ -57,6 +57,6 @@ Nigma Galaxy, Bigetron by Vitality and Alpha7 make their first 2026 PMGC appeara
 
 ## Where to watch
 
-The release doesn't name broadcast channels. It points to the official PUBG MOBILE Esports accounts on Facebook, Instagram, TikTok and YouTube for where to watch, match schedules and rosters.
+For where to watch, match schedules and rosters, the release points to the official PUBG MOBILE Esports accounts on Facebook, Instagram, TikTok and YouTube.
 
 The Gauntlet is the stage that sets up the rest. Six of its 16 teams skip ahead to the Grand Finals, so November 26 and 27 decide a good part of the final lineup before most of the field has played.

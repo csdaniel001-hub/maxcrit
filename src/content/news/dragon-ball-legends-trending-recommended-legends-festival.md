@@ -29,4 +29,4 @@ The notes also say new functions will be added for an all-new Event, without nam
 
 The two tools solve different problems. Trending is for when you want a proven setup and have the units to copy it. Recommended starts from a character you like and fills in the rest, which matters more if your box doesn't match the top teams.
 
-Legends Festival is the campaign this update prepares for. Bandai Namco hasn't put its dates in the release notes, so if you're saving resources for it, the in-game announcements are where the schedule will appear first.
+Legends Festival is the campaign this update prepares for.
