@@ -12,5 +12,5 @@ eleventyComputed:
   shareImage: "{{ (collections.everything | byGenre(g.slug) | featured | first).data.image if (collections.everything | byGenre(g.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
-{% set tabs %}{% include "gtabs.njk" %}{% endset %}
-{{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc + ' Subgenres: ' + g.sub + '.', 'Pages', tabs) }}
+{% set tabs = "" %}
+{{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc + ' Subgenres: ' + g.sub + '.', 'Pages', tabs, g.slug) }}

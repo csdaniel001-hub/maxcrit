@@ -8,4 +8,4 @@ summary: "Evergreen pages for mobile players, kept up to date: patch trackers, t
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs %}<nav class="gz-ptabs" aria-label="Player Hub"><a class="on" href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav>{% endset %}
-{{ listing(collections.hub, pre, 'Player Hub', 'Player Hub', 'News tells you what changed. The hub is where you check what is true right now: every page shows when we last checked it against the official source.', 'Pages', tabs) }}
+{{ listing(collections.hub, pre, 'Player Hub', 'Player Hub', 'Patch trackers and guides that stay current, so you can check what is true in the game right now. Each page shows when it was last checked.', 'Pages', tabs, '') }}

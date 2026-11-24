@@ -2,27 +2,33 @@
 layout: base.njk
 permalink: /news.html
 activeNav: news
-bodyClass: "gz-home"
+bodyClass: "gz-home lr-page"
 title: Latest mobile gaming news
 summary: The latest mobile gaming news, newest first. Updates, betas, launches and balance changes for iOS and Android games.
 ---
-{% from "macros.njk" import allrow with context %}
+{% from "macros.njk" import allrow, arr, kick, listrail with context %}
 {% set all = collections.news %}
-<header class="gz-phead">
+<header class="gz-phead lr-head">
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / News</p>
 <h1>Latest news</h1>
 <p class="gz-phead-d">Updates, launches, betas and balance changes for the iOS and Android games people play, newest first.</p>
-<dl class="gz-spec mono">{% if all.length %}<div><dt>Last updated</dt><dd>{{ all[0].data.published_at | longDate }}</dd></div>{% endif %}</dl>
 </header>
-{% include "gtabs.njk" %}
-<section class="hz-all" aria-label="All news" style="margin-top:22px">
-<header class="hz-sh"><div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (all | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div><span class="hz-allc mono" id="gzAllC">{{ all.length }} stories</span></header>
-<ol id="gzAll">{% for n in all %}{{ allrow(n, pre) }}{% endfor %}</ol>
-<div class="hz-all-f"><button type="button" class="hz-moreb" id="gzMoreB" hidden>Load more</button></div>
+<div class="lr-grid">
+<div class="lr-main">
+{% if all.length %}{% set f = all[0] %}<a class="cc-f cc-fg nf gp-lead" href="{{ f.url | rel }}"><span class="nf-in"><img class="cc-fbg" src="{{ f.data.image | wsrc(960) | rel }}" srcset="{{ f.data.image | srcset }}" sizes="(max-width: 700px) 100vw, 900px" alt="" width="960" height="540" fetchpriority="high" decoding="async"><span class="cc-tab">{{ kick(f) }}</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>
+<p class="gp-lead-d">{{ f.data.summary }}</p>{% endif %}
+<section class="hz-all lr-list" aria-label="All news">
+<header class="hz-sh"><div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (all | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div></header>
+<ol id="gzAll">{% for n in all %}{% if not loop.first %}{{ allrow(n, pre) }}{% endif %}{% endfor %}</ol>
+<div class="hz-all-f"><button type="button" class="hz-moreb" id="gzMoreB" hidden>Load more <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg></button></div>
 </section>
+</div>
+{{ listrail() }}
+</div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","url":"{{ site.url }}/news.html","name":"Latest mobile gaming news","mainEntity":{"@type":"ItemList","itemListElement":[{% for n in all | limit(30) %}{"@type":"ListItem","position":{{ loop.index }},"url":"{{ site.url }}{{ n.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}}</script>
 <script>
-(function(){var tabs=document.querySelectorAll('.hz-tabs button'),al=[].slice.call(document.querySelectorAll('#gzAll li')),mb=document.getElementById('gzMoreB'),ac=document.getElementById('gzAllC'),flt='all',vis=15;
-function paint(){var n=0,tot=0;al.forEach(function(li){var ok=flt==='all'||li.dataset.s===flt;if(ok)tot++;li.hidden=!(ok&&n<vis);if(ok&&n<vis)n++;});if(ac)ac.textContent=n+' / '+tot+' stories';if(mb)mb.hidden=n>=tot;}
-tabs.forEach(function(b){b.addEventListener('click',function(){tabs.forEach(function(x){x.classList.toggle('on',x===b)});flt=b.dataset.f;vis=15;paint()})});
-if(mb)mb.addEventListener('click',function(){vis+=15;paint()});paint();})();
+(function(){var tabs=document.querySelectorAll('.hz-tabs button'),al=[].slice.call(document.querySelectorAll('#gzAll li')),mb=document.getElementById('gzMoreB'),flt='all',vis=12;
+function paint(){var n=0,tot=0;al.forEach(function(li){var ok=flt==='all'||li.dataset.s===flt;if(ok)tot++;li.hidden=!(ok&&n<vis);if(ok&&n<vis)n++;});if(mb)mb.hidden=n>=tot;}
+tabs.forEach(function(b){b.addEventListener('click',function(){tabs.forEach(function(x){x.classList.toggle('on',x===b)});flt=b.dataset.f;vis=12;paint()})});
+if(mb)mb.addEventListener('click',function(){vis+=12;paint()});paint();})();
 </script>

@@ -9,5 +9,5 @@ eleventyComputed:
   shareImage: "{{ (collections.everything | byPlatform(p.slug) | featured | first).data.image if (collections.everything | byPlatform(p.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
-{% set tabs %}{% include "gtabs.njk" %}{% endset %}
-{{ listing(collections.everything | byPlatform(p.slug), pre, 'Platform', p.name, p.desc, 'Pages', tabs) }}
+{% set tabs = "" %}
+{{ listing(collections.everything | byPlatform(p.slug), pre, 'Platform', p.name, p.desc, 'Pages', tabs, '') }}

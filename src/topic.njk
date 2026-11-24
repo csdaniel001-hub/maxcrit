@@ -10,5 +10,5 @@ eleventyComputed:
   shareImage: "{{ (collections.everything | byTopic(t.slug) | featured | first).data.image if (collections.everything | byTopic(t.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
-{% set tabs %}{% include "gtabs.njk" %}{% endset %}
-{{ listing(collections.everything | byTopic(t.slug), pre, 'Section', t.name, t.desc, 'Pages', tabs) }}
+{% set tabs = "" %}
+{{ listing(collections.everything | byTopic(t.slug), pre, 'Section', t.name, t.desc, 'Pages', tabs, '') }}
