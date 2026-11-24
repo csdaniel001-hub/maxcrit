@@ -13,4 +13,4 @@ eleventyComputed:
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs = "" %}
-{{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc + ' Subgenres: ' + g.sub + '.', 'Pages', tabs, g.slug) }}
+{{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc, 'Pages', tabs, g.slug) }}

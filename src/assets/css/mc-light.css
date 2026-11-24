@@ -1730,70 +1730,70 @@ html[data-gz=light] body .gz-grp > a.sub.on .mc-si{background:none!important}
 html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body .hz-rbh{background:linear-gradient(90deg,rgba(13,9,38,.97) 0%,rgba(13,9,38,.9) 35%,rgba(13,9,38,.62) 70%,rgba(13,9,38,.78) 100%),url(../img/kit/gacha-lineup.webp) 70% 28%/cover no-repeat!important}
 @media (max-width:700px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body .hz-rbh{background-position:0 0,40% 30%!important;background-size:auto,auto 400%!important}}
 /* gacha bar v2: art on the right showing every head, lighter, neon border */
-html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{
+html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{
   height:150px!important;border:1.5px solid transparent!important;border-radius:6px 24px!important;
   background:
    linear-gradient(90deg,#1a1248 0,#1a1248 calc(100% - 600px),rgba(26,18,72,.55) calc(100% - 430px),rgba(26,18,72,.12) calc(100% - 200px),rgba(26,18,72,.05) 100%) padding-box,
    url(../img/kit/gacha-lineup.webp) right 6%/auto 200% no-repeat padding-box,
    linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important;
   box-shadow:0 0 22px rgba(251,33,134,.22),0 0 30px rgba(0,240,252,.1)!important}
-html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row{margin-right:auto!important;margin-left:24px!important}
+html[data-gz=light] body a.hz-rbh.gx-bar .kx-row{margin-right:auto!important;margin-left:24px!important}
 @media (max-width:700px){
- html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{height:auto!important;min-height:120px;
+ html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{height:auto!important;min-height:120px;
   background:
    linear-gradient(90deg,rgba(26,18,72,.8) 0,rgba(26,18,72,.5) 45%,rgba(26,18,72,.12) 100%) padding-box,
    url(../img/kit/gacha-lineup.webp) 70% 4%/auto 230% no-repeat padding-box,
    linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important}
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row{margin-left:0!important}}
+ html[data-gz=light] body a.hz-rbh.gx-bar .kx-row{margin-left:0!important}}
 @media (min-width:701px){
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row{right:auto!important;left:640px!important;top:50%!important;transform:translateY(-50%)!important;margin:0!important}
- html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background:
+ html[data-gz=light] body a.hz-rbh.gx-bar .kx-row{right:auto!important;left:640px!important;top:50%!important;transform:translateY(-50%)!important;margin:0!important}
+ html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{background:
    linear-gradient(90deg,#1a1248 0,#1a1248 calc(100% - 532px),rgba(26,18,72,.6) calc(100% - 440px),rgba(26,18,72,.18) calc(100% - 260px),rgba(26,18,72,.06) 100%) padding-box,
    url(../img/kit/gacha-lineup.webp) right 6%/auto 200% no-repeat padding-box,
    linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important}}
 /* cat button back to its fixed corner (the hover rule had made it relative) */
 .kx-top{position:fixed!important}
 /* gacha item row only where it fits beside the art */
-@media (min-width:701px) and (max-width:1399px){html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row{display:none!important}}
+@media (min-width:701px) and (max-width:1399px){html[data-gz=light] body a.hz-rbh.gx-bar .kx-row{display:none!important}}
 /* widescreen: sides fade to dark outside the content column */
 html[data-gz=light] body::after{background:
  linear-gradient(90deg,rgba(6,5,22,.96) 0,rgba(6,5,22,.6) calc(50% - 900px),rgba(6,5,22,0) calc(50% - 790px),rgba(6,5,22,0) calc(50% + 790px),rgba(6,5,22,.6) calc(50% + 900px),rgba(6,5,22,.96) 100%),
  linear-gradient(180deg,rgba(8,10,32,.4) 0,rgba(8,10,32,.74) 55%,rgba(8,10,30,.9) 100%)!important}
-@media (min-width:701px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background:
+@media (min-width:701px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{background:
    linear-gradient(90deg,#1a1248 0,#1a1248 calc(100% - 540px),rgba(26,18,72,.9) calc(100% - 480px),rgba(26,18,72,.6) calc(100% - 380px),rgba(26,18,72,.25) calc(100% - 240px),rgba(26,18,72,.08) 100%) padding-box,
    url(../img/kit/gacha-lineup.webp) right 6%/auto 200% no-repeat padding-box,
    linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important}}
-html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background-color:#1a1248!important}
+html[data-gz=light] body a.hz-rbh.gx-bar{background-color:#1a1248!important}
 
 /* gacha bar v3: level lineup across the full bar */
-html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background:
+html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{background:
    linear-gradient(90deg,rgba(26,18,72,.94) 0,rgba(26,18,72,.86) 28%,rgba(26,18,72,.42) 46%,rgba(30,16,78,.22) 100%) padding-box,
    url(../img/kit/gacha-lineup.webp) 60% 20%/cover no-repeat padding-box,
    linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important;background-color:#1a1248!important}
-@media (min-width:701px){html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row{display:none!important}}
-@media (max-width:700px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background:
+@media (min-width:701px){html[data-gz=light] body a.hz-rbh.gx-bar .kx-row{display:none!important}}
+@media (max-width:700px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{background:
    linear-gradient(90deg,rgba(26,18,72,.82) 0,rgba(26,18,72,.55) 50%,rgba(26,18,72,.3) 100%) padding-box,
    url(../img/kit/gacha-lineup.webp) 62% 15%/cover no-repeat padding-box,
    linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important}}
 /* gacha bar layout: cards | title + stars | ... | Open section */
 @media (min-width:701px){
- html[data-gz=light] body a.hz-rbh[href="gacha.html"]{display:flex!important;align-items:center!important;gap:22px!important;padding:0 34px 0 26px!important}
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row{display:flex!important;position:static!important;transform:none!important;order:-1;margin:0!important;left:auto!important;right:auto!important;top:auto!important;flex:none}
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row img{height:74px!important;width:auto!important}
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .hz-rbh-tx{order:0;flex:none}
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .mx-chibi-w{display:none!important}
- html[data-gz=light] body a.hz-rbh[href="gacha.html"] .hz-rbh-go{order:1;margin-left:auto!important;flex:none;background:rgba(14,9,40,.82)!important;backdrop-filter:blur(3px)}
+ html[data-gz=light] body a.hz-rbh.gx-bar{display:flex!important;align-items:center!important;gap:22px!important;padding:0 34px 0 26px!important}
+ html[data-gz=light] body a.hz-rbh.gx-bar .kx-row{display:flex!important;position:static!important;transform:none!important;order:-1;margin:0!important;left:auto!important;right:auto!important;top:auto!important;flex:none}
+ html[data-gz=light] body a.hz-rbh.gx-bar .kx-row img{height:74px!important;width:auto!important}
+ html[data-gz=light] body a.hz-rbh.gx-bar .hz-rbh-tx{order:0;flex:none}
+ html[data-gz=light] body a.hz-rbh.gx-bar .mx-chibi-w{display:none!important}
+ html[data-gz=light] body a.hz-rbh.gx-bar .hz-rbh-go{order:1;margin-left:auto!important;flex:none;background:rgba(14,9,40,.82)!important;backdrop-filter:blur(3px)}
 }
-@media (min-width:701px) and (max-width:1199px){html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row img:nth-child(n+4){display:none!important}}
+@media (min-width:701px) and (max-width:1199px){html[data-gz=light] body a.hz-rbh.gx-bar .kx-row img:nth-child(n+4){display:none!important}}
 /* only the card fan in the gacha bar */
-html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row img:not([src*="cards2"]){display:none!important}
-html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row img[src*="cards2"]{display:block!important;height:96px!important}
-@media (max-width:700px){html[data-gz=light] body a.hz-rbh[href="gacha.html"] .kx-row img[src*="cards2"]{height:58px!important}}
-@media (min-width:701px){html[data-gz=light] body a.hz-rbh[href="gacha.html"]{gap:10px!important}html[data-gz=light] body a.hz-rbh[href="gacha.html"] .hz-rbh-tx{padding-left:0!important;margin-left:0!important}}
+html[data-gz=light] body a.hz-rbh.gx-bar .kx-row img:not([src*="cards2"]){display:none!important}
+html[data-gz=light] body a.hz-rbh.gx-bar .kx-row img[src*="cards2"]{display:block!important;height:96px!important}
+@media (max-width:700px){html[data-gz=light] body a.hz-rbh.gx-bar .kx-row img[src*="cards2"]{height:58px!important}}
+@media (min-width:701px){html[data-gz=light] body a.hz-rbh.gx-bar{gap:10px!important}html[data-gz=light] body a.hz-rbh.gx-bar .hz-rbh-tx{padding-left:0!important;margin-left:0!important}}
 /* gacha bar v4: row of 15 on black */
-html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background:linear-gradient(90deg,rgba(14,9,36,.9) 0,rgba(14,9,36,.55) 30%,rgba(14,9,36,0) 52%,rgba(14,9,36,0) 100%) padding-box,url(../img/kit/gacha-lineup.webp) 50% 40%/cover no-repeat padding-box,linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important;background-color:#0e0924!important}
-@media (max-width:700px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh[href="gacha.html"]{background:linear-gradient(90deg,rgba(14,9,36,.8) 0,rgba(14,9,36,.35) 60%,rgba(14,9,36,.1) 100%) padding-box,url(../img/kit/gacha-lineup.webp) 55% 40%/cover no-repeat padding-box,linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important}}
-@media (min-width:701px){html[data-gz=light] body a.hz-rbh[href="gacha.html"]{gap:2px!important}html[data-gz=light] body a.hz-rbh[href="gacha.html"] .hz-rbh-tx{gap:22px}}
+html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{background:linear-gradient(90deg,rgba(14,9,36,.9) 0,rgba(14,9,36,.55) 30%,rgba(14,9,36,0) 52%,rgba(14,9,36,0) 100%) padding-box,url(../img/kit/gacha-lineup.webp) 50% 40%/cover no-repeat padding-box,linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important;background-color:#0e0924!important}
+@media (max-width:700px){html[data-gz=light] body .mx-gacha .hz-rbh,html[data-gz=light] body a.hz-rbh.gx-bar{background:linear-gradient(90deg,rgba(14,9,36,.8) 0,rgba(14,9,36,.35) 60%,rgba(14,9,36,.1) 100%) padding-box,url(../img/kit/gacha-lineup.webp) 55% 40%/cover no-repeat padding-box,linear-gradient(90deg,#fb2186,#a34dff 55%,#00f0fc) border-box!important}}
+@media (min-width:701px){html[data-gz=light] body a.hz-rbh.gx-bar{gap:2px!important}html[data-gz=light] body a.hz-rbh.gx-bar .hz-rbh-tx{gap:22px}}
 /* footer girl removed (2026-11-24) */
 .kp-girl{display:none!important}
 html[data-gz=light] body .gz-foot-bot{padding-right:96px!important}
