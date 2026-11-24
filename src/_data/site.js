@@ -1,3 +1,7 @@
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
+// Cache-buster: a hash of the stylesheet and script sources, so pages only change when the CSS does.
+const cssHash = createHash("sha1").update(["css/gz.css", "css/mc.css", "css/mc-light.css", "js/site.js"].map((f) => readFileSync(`src/assets/${f}`)).join("")).digest("hex").slice(0, 8);
 // Site settings. `today` is computed at build time (UTC), so "Today / Yesterday" labels never go stale.
 export default {
   name: "MaxCrit",
@@ -10,7 +14,7 @@ export default {
   locale: "en_US",
   // Top bar: the six games with app icons, in order.
   hot: ["pokemon-go", "pubg-mobile", "clash-of-clans", "brawl-stars", "marvel-snap", "clash-royale"],
-  build: Date.now().toString(36),
+  build: cssHash,
   today: new Date().toISOString().slice(0, 10),
   publisher: "Dániel Csáki",
   editor: "Dániel Csáki",

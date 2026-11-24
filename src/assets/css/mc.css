@@ -537,5 +537,5 @@ section[aria-labelledby="h-hub"] .hz-in{background:linear-gradient(135deg,#142a6
 .mc-gintro{max-width:900px;margin:28px auto 8px;padding:18px 20px}
 .mc-gintro p{margin:0 0 10px;line-height:1.6}
 .mc-gintro p:last-child{margin-bottom:0}
-/* Left menu: flow with the page on desktop so the genre list is never cut off at the page end */
-@media (min-width:1181px){.gz-side{position:relative!important;top:auto!important;height:auto!important;overflow:visible!important;align-self:start}}
+/* Left menu: sticky with its own scroll; fades at the bottom edge so a partly hidden item reads as "scroll for more" */
+@media (min-width:1181px){.gz-side{overscroll-behavior:contain;padding-bottom:48px!important;-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 40px),transparent);mask-image:linear-gradient(180deg,#000 calc(100% - 40px),transparent)}}
