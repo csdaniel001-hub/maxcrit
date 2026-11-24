@@ -12,6 +12,7 @@ bodyClass: gz-art
 {% set tn = (topicNav | find('slug', topics[0])) if (topics and topics.length) else null %}
 {% set lead = (titles[0] if titles and titles.length else '') %}
 {% set tabw = 70 + ((gn.name | length) * 7 + 30 if gn else 0) + ((tn.name | length) * 7 + 30 if tn else 0) + ((ht.name | length) * 7 + 30 if isHub else 0) %}
+<p class="gz-crumbs mono ar-crumbs"><a href="{{ '/index.html' | rel }}">Home</a> / {% if isHub %}<a href="{{ '/hub.html' | rel }}">Player Hub</a> / <a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% else %}<a href="{{ '/news.html' | rel }}">News</a>{% endif %}{% for gs in genres or [] %} / <a href="{{ ('/genre/' + gs + '.html') | rel }}">{{ (genreNav | find('slug', gs)).name }}</a>{% endfor %}{% for t in topics or [] %} / <a href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name }}</a>{% endfor %}</p>
 <header class="axh no-go" style="--tw:{{ tabw }}px">
 <nav class="axh-tab" aria-label="Breadcrumb"><span class="axh-tin"><a class="axh-home mono" href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">{{ 'Hub' if isHub else 'News' }}</a>{% if isHub %}<a class="cc-tab" href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% endif %}{% if gn %}<a class="cc-tab" href="{{ ('/genre/' + gn.slug + '.html') | rel }}">{{ gn.name }}</a>{% endif %}{% if tn %}<a class="cc-tab axh-t2" href="{{ ('/' + tn.slug + '.html') | rel }}">{{ tn.name }}</a>{% endif %}</span></nav>
 <div class="axh-panel"><div class="axh-in">
