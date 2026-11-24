@@ -2038,3 +2038,19 @@ html[data-gz=light] body .kx-consent .kx-cc-t{font:italic 700 22px/1 var(--cnd)!
 html[data-gz=light] body.lg-page .gz-main>.lg-grid{max-width:none;margin:0;padding:0 32px}
 html[data-gz=light] body.lg-page .lg-body{max-width:none;margin:0}
 @media (max-width:700px){html[data-gz=light] body.lg-page .gz-main>.lg-grid{padding:0 16px}}
+/* ===== Hover v4 (2026-11-24): pointing hand in the side menu, "crit hit" on buttons ===== */
+.kx-fx{display:none!important}
+/* side menu: the hand slides in from the right edge and taps toward the label */
+.gz-side nav > a,.gz-side .sub{position:relative}
+.kx-pt{position:absolute!important;right:4px;top:50%;width:48px!important;height:26.8px;margin:-13px 0 0;flex:none;background:url(../img/micons/point.webp) center/contain no-repeat;pointer-events:none;opacity:0;transform:translateX(14px) rotate(4deg);transition:opacity .18s ease,transform .28s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,.5));z-index:3}
+.gz-side nav > a:hover > .kx-pt,.gz-side .sub:hover > .kx-pt,.gz-side nav > a:focus-visible > .kx-pt,.gz-side .sub:focus-visible > .kx-pt{opacity:1;transform:translateX(0) rotate(0);animation:kxTap 1.1s .3s ease-in-out infinite}
+@keyframes kxTap{0%,100%{transform:translateX(0)}35%{transform:translateX(-6px)}55%{transform:translateX(-2px)}70%{transform:translateX(-5px)}}
+/* buttons: a quick crit-hit jolt, pink/cyan split on the label that settles into a soft glow */
+.cc-q,.hz-b1,.hz-b2,.hz-moreb,.cc-btn,.mx-foot .hz-link,.kx-mbtn,.mc-stores a,.hz-rbh-go,.hz-tabs button,.kx-rnav button,.hz-nav button{transition:filter .2s ease,transform .2s cubic-bezier(.2,1.6,.4,1)}
+:is(.cc-q,.hz-b1,.hz-b2,.hz-moreb,.cc-btn,.mx-foot .hz-link,.kx-mbtn,.mc-stores a,.hz-rbh-go,.hz-tabs button,.kx-rnav button,.hz-nav button):hover{filter:brightness(1.15) saturate(1.1);transform:translateY(-2px);animation:kxCrit .42s steps(1,end) both;text-shadow:-1px 0 rgba(251,33,134,.75),1px 0 rgba(0,240,252,.75)}
+:is(.cc-q,.hz-b1,.hz-b2,.hz-moreb,.cc-btn,.mx-foot .hz-link,.kx-mbtn,.mc-stores a,.hz-rbh-go,.hz-tabs button,.kx-rnav button,.hz-nav button):active{transform:translateY(0) scale(.97);filter:brightness(1.3)}
+@keyframes kxCrit{0%{transform:translate(0,0);text-shadow:-4px 0 #fb2186,4px 0 #00f0fc}20%{transform:translate(-2px,-3px) skewX(-4deg);text-shadow:3px 0 #fb2186,-3px 0 #00f0fc}40%{transform:translate(2px,-2px) skewX(3deg);text-shadow:-2px 0 #fb2186,2px 0 #00f0fc}60%{transform:translate(-1px,-2px);text-shadow:1px 0 #fb2186,-1px 0 #00f0fc}100%{transform:translateY(-2px);text-shadow:-1px 0 rgba(251,33,134,.75),1px 0 rgba(0,240,252,.75)}}
+.kx-top:hover{animation:none}
+@media (prefers-reduced-motion:reduce){.kx-pt,.gz-side a:hover > .kx-pt{animation:none!important;transition:opacity .1s!important}:is(.cc-q,.hz-b1,.hz-b2,.hz-moreb,.cc-btn,.mx-foot .hz-link,.kx-mbtn,.mc-stores a,.hz-rbh-go,.hz-tabs button,.kx-rnav button,.hz-nav button):hover{animation:none;transform:none}}
+.gz-side .kx-tight{padding-right:56px!important}
+.gz-side nav > a,.gz-side .sub{overflow:visible!important}
