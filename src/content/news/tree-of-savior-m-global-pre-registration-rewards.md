@@ -35,4 +35,4 @@ Joining the official Discord adds the Sprout hair accessory and the Chick Mount.
 
 On Steam, IMC GAMES describes a game built around switching between subclasses within each class, with Fellows and Kupoles as companions you collect. PvE covers Field Bosses that spawn once enough monsters fall, plus Rift, Conquest, the 4-player Outer World dungeon and the solo Vestige Realm. PvP is the Dual Arena, where you set up separate attack and defence teams.
 
-The Little Laima Kupole at 200,000 is the reward worth pushing for, since it is a companion rather than a cosmetic. Signing up on one platform is enough to count toward the milestones.
+The Little Laima Kupole at 200,000 is the reward worth pushing for, since it is a companion rather than a cosmetic.

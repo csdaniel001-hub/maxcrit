@@ -378,3 +378,10 @@ tree-of-savior-m:
   appstore: "https://apps.apple.com/us/app/tree-of-savior-m/id6475395335"
   googleplay: "https://play.google.com/store/apps/details?id=com.imc.mtos.gl"
   status: "Global pre-registration open"
+pokemon-unite:
+  name: "Pokémon UNITE"
+  publisher: "The Pokémon Company"
+  official: "https://www.pokemonunite.jp/en/"
+  appstore: "https://apps.apple.com/us/app/pokemon-unite/id1512321575"
+  googleplay: "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"
+  status: "Live until March 23, 2027 (end of service announced)"
