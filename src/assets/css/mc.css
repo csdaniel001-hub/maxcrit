@@ -524,3 +524,9 @@ section[aria-labelledby="h-hub"] .hz-in{background:linear-gradient(135deg,#142a6
 .mc-gs .hz-card-tx b{font-size:15px;line-height:1.2}
 @media (max-width:1360px){.mc-gs{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:560px){.mc-gs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* sidebar: space between items so hover and active highlights never touch */
+.gz-side nav > a{margin:4px 0!important}
+.gz-side .sub{margin:3px 0!important}
+.gz-side nav > a:not(.on):not(.topic):hover::after,.gz-grp summary:hover::after,.gz-side .sub:not(.on):hover::after{box-shadow:0 0 8px rgba(255,61,154,.35)}
+@keyframes mxGlow{0%{box-shadow:0 0 0 rgba(255,61,154,0)}35%{box-shadow:0 0 12px rgba(255,61,154,.8)}100%{box-shadow:0 0 8px rgba(255,61,154,.35)}}
