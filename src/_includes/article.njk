@@ -26,7 +26,7 @@ bodyClass: gz-art
 <div class="gz-prose">{{ body | safe }}</div>
 {% if faq %}<section class="gz-faq" id="faq"><h2>FAQ</h2>{% for q in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | safe }}</div></details>{% endfor %}</section>{% endif %}
 <section class="gz-src" aria-labelledby="h-src"><h2 id="h-src" class="mono">Sources</h2><ol>{% for s in sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }} ↗</a><span class="mono">{% if s.primary %}primary{% else %}supporting{% endif %}</span></li>{% endfor %}</ol></section>
-{% set head = page.url | pick(['moon-fox','shrine-girl','cat-boy','aqua-girl','baby-dragon','sakura','blossom','crystal','flame']) %}<div class="kx-end"><img class="kx-cat kx-endh" src="{{ ('/assets/img/chars/head-' + head + '.webp') | rel }}" alt="" width="58" height="58" loading="lazy"><p><b>That's the whole story.</b> Want more? <a href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">{% if isHub %}See the Player Hub{% else %}See the latest news{% endif %}</a></p></div>
+{% set head = page.url | pick(['moon-fox','shrine-girl','cat-boy','aqua-girl','baby-dragon','sakura','blossom','crystal','flame']) %}<div class="kx-end"><img class="kx-cat kx-endh" src="{{ ('/assets/img/chars/head-' + head + '.webp') | rel }}" alt="" width="{{ chars['head-' + head][0] }}" height="{{ chars['head-' + head][1] }}" loading="lazy"><p><b>That's the whole story.</b> Want more? <a href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">{% if isHub %}See the Player Hub{% else %}See the latest news{% endif %}</a></p></div>
 </div>
 <aside class="gz-arail">
 {% if (titles or []).length > 2 %}<div class="gz-box"><div class="gz-box-h"><h2>Games in this article</h2></div>

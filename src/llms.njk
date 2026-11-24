@@ -1,0 +1,26 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.description }}
+
+{{ site.name }} is an English mobile gaming site. News covers what changed in iOS and Android games, newest first. The Player Hub holds pages that are kept up to date (patch trackers, guides), each with a "last checked" date. Every article lists its sources at the end; the primary source is the developer's or publisher's own announcement, patch notes or store listing. Dates are in UTC.
+
+## Sections
+- [Latest news]({{ site.url }}/news.html): every story, newest first
+- [Player Hub]({{ site.url }}/hub.html): patch trackers and guides
+{% for t in topicNav %}{% if (collections.everything | byTopic(t.slug)).length %}- [{{ t.name }}]({{ site.url }}/{{ t.slug }}.html): {{ t.desc }}
+{% endif %}{% endfor %}- [Games A–Z]({{ site.url }}/games.html): one page per game with all its coverage and store links
+- [Editorial policy]({{ site.url }}/editorial-policy.html): how stories are sourced, checked and updated
+
+## Player Hub
+{% for n in collections.hub %}- [{{ n.data.title | safe }}]({{ site.url }}{{ n.url }}): {{ n.data.summary | safe }}
+{% endfor %}
+## Latest news
+{% for n in collections.news | limit(30) %}- [{{ n.data.title | safe }}]({{ site.url }}{{ n.url }}) ({{ n.data.published_at | isoDate | truncate(10, true, '') }}): {{ n.data.summary | safe }}
+{% endfor %}
+## Games
+{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}- [{{ g.name | safe }}]({{ site.url }}/games/{{ slug }}.html){% if g.publisher %}, {{ g.publisher | safe }}{% endif %}
+{% endif %}{% endfor %}

@@ -1,0 +1,29 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+# MaxCrit welcomes search engines and AI assistants that link back to the source.
+User-agent: *
+Allow: /
+Disallow: /search.html
+
+# AI answer engines and assistants (citations link back to our pages)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/news-sitemap.xml

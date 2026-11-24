@@ -6,6 +6,7 @@ eleventyComputed:
   title: "{{ t.name }}: news, banners and guides"
   summary: "{{ t.desc }}"
   activeNav: "t-{{ t.slug }}"
+  noindex: "{{ '' if (collections.everything | byTopic(t.slug)).length else 'yes' }}"
   shareImage: "{{ (collections.everything | byTopic(t.slug) | featured | first).data.image if (collections.everything | byTopic(t.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}

@@ -3,12 +3,55 @@ layout: base.njk
 pagination: { data: games, size: 1, alias: slug }
 permalink: "/games/{{ slug }}.html"
 activeNav: games
+bodyClass: gz-home gp-page
 eleventyComputed:
   title: "{{ games[slug].name }}: news, patch notes and guides"
+  noindex: "{{ '' if (collections.everything | byGame(slug)).length else 'yes' }}"
+  seo_title: "{{ games[slug].name }} news, patches and guides"
   shareImage: "{{ collections.everything | gamePic(slug) }}"
-  summary: "All our {{ games[slug].name }} coverage in one place: news from {{ games[slug].publisher }}, patch trackers and guides, with official store links."
+  summary: "{{ games[slug].name }} news, patch notes and guides in one place: the latest updates from {{ games[slug].publisher }}, with links to the official store listings."
 ---
-{% from "macros.njk" import listing, getgame with context %}
+{% from "macros.njk" import arr, kick with context %}
 {% set g = games[slug] %}
-{% set tabs %}<div style="max-width:520px;margin-top:18px">{{ getgame(slug, pre) }}</div>{% endset %}
-{{ listing(collections.everything | byGame(slug), pre, '<a href="' + ('/games.html' | rel) + '">Games A–Z</a>', g.name, g.publisher + (' · ' + g.status if g.status else ''), 'Pages', tabs) }}
+{% set all = collections.everything %}
+{% set mine = all | ownByGame(slug) %}
+{% set ment = all | mentionsGame(slug) %}
+{% set hubp = mine | byHub %}
+{% set news = mine | notHub %}
+{% set gen = all | gameGenre(slug) %}
+{% set gn = genreNav | find('slug', gen) %}
+{% set plats = all | gamePlatforms(slug) %}
+{% set art = (news[1] or news[0] or mine[0] or (all | byGame(slug))[0]).data.image if (all | byGame(slug)).length else '' %}
+{% set last = (all | byGame(slug))[0] %}
+{% macro pic(img, w, cls='', lazy=true) %}<img{% if cls %} class="{{ cls }}"{% endif %} src="{{ img | wsrc(w) | rel }}" alt="" width="{{ w }}" height="{{ (w * 9 / 16) | round }}"{% if lazy %} loading="lazy"{% endif %} decoding="async">{% endmacro %}
+
+<section class="gp-hero nf" aria-labelledby="h-game"><div class="nf-in">
+{% if art %}<img class="gp-bg" src="{{ art | wsrc(1600) | rel }}" srcset="{{ art | srcset }}" sizes="(max-width: 700px) 100vw, 1200px" alt="" width="1600" height="900" fetchpriority="high" decoding="async">{% endif %}
+<div class="gp-in">
+<p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / <a href="{{ '/games.html' | rel }}">Games A–Z</a> / {{ g.name }}</p>
+<div class="gp-id">{% if not g.noicon %}<img class="gp-ico" src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="{{ g.name }} app icon" width="112" height="112">{% endif %}
+<div><h1 id="h-game">{{ g.name }}</h1><p class="gp-pub">{{ g.publisher }}{% if g.status %} · {{ g.status }}{% endif %}</p></div></div>
+<dl class="gp-facts">{% if gn.name %}<div><dt>Genre</dt><dd><a href="{{ ('/genre/' + gen + '.html') | rel }}">{{ gn.name }}</a></dd></div>{% endif %}{% if plats.length %}<div><dt>Platforms</dt><dd>{% for p in plats %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}{% if last %}<div><dt>Latest update</dt><dd><time datetime="{{ (last.data.updated_at or last.data.published_at) | isoDate }}">{{ (last.data.updated_at or last.data.published_at) | longDate }}</time></dd></div>{% endif %}</dl>
+<div class="gp-stores mc-stores">{% if g.appstore %}<a href="{{ g.appstore }}" target="_blank" rel="noopener">App Store ↗</a>{% endif %}{% if g.googleplay %}<a href="{{ g.googleplay }}" target="_blank" rel="noopener">Google Play ↗</a>{% endif %}{% if g.official %}<a href="{{ g.official }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}</div>
+</div></div></section>
+
+<div class="gp-grid">
+<div class="gp-main">
+{% if news.length %}{% set f = news[0] %}
+<a class="cc-f cc-fg nf gp-lead" href="{{ f.url | rel }}"><span class="nf-in">{{ pic(f.data.image, 960, 'cc-fbg') }}<span class="cc-tab">Latest {{ g.name }} news</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>
+<p class="gp-lead-d">{{ f.data.summary }}</p>
+{% endif %}
+{% if news.length > 1 %}<section class="cc-news nf gp-list" aria-labelledby="h-gnews"><div class="nf-in"><header class="cc-h"><h2 id="h-gnews">More {{ g.name }} news</h2></header>
+{% for n in news %}{% if not loop.first %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt">{{ pic(n.data.image, 480) }}</span><span class="cc-nx"><i class="cc-tab">{{ kick(n) }}</i><b>{{ n.data.title }}</b><span class="gp-sum">{{ n.data.summary }}</span><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | longDate }}</time></span>{{ arr() }}</a>{% endif %}{% endfor %}
+</div></section>{% endif %}
+{% if not news.length and not hubp.length %}<p class="gz-phead-d">{{ g.name }} coverage starts with the roundups listed here.</p>{% endif %}
+</div>
+
+<aside class="gp-side">
+{% if hubp.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h3>Player Hub</h3></header>{% for n in hubp %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<a class="cc-btn cy" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></div></div>{% endif %}
+{% if ment.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h3>Also in</h3></header>{% for n in ment | limit(5) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}</div></div>{% endif %}
+{% set sim = games | gamesInGenre(all, gen, slug) %}{% if sim.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h3>More {{ gn.name }} games</h3></header>{% for s in sim | limit(6) %}<a class="hz-rel mx-rel gp-sim" href="{{ ('/games/' + s + '.html') | rel }}">{% if not games[s].noicon %}<img class="mx-av" src="{{ ('/assets/img/icons/' + s + '.webp') | rel }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span class="hz-rt"><b class="w">{{ games[s].name }}</b><small>{{ games[s].publisher }}</small></span></a>{% endfor %}<a class="cc-btn" href="{{ ('/genre/' + gen + '.html') | rel }}">All {{ gn.name }} {{ arr() }}</a></div></div>{% endif %}
+</aside>
+</div>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"VideoGame","@id":"{{ site.url }}{{ page.url }}#game","name":{{ g.name | jsonify | safe }},"url":"{{ site.url }}{{ page.url }}"{% if g.publisher %},"publisher":{"@type":"Organization","name":{{ g.publisher | jsonify | safe }}}{% endif %}{% if gn.name %},"genre":{{ gn.name | jsonify | safe }}{% endif %}{% if plats.length %},"gamePlatform":[{% for p in plats %}{{ (platformNav | find('slug', p)).name | jsonify | safe }}{% if not loop.last %},{% endif %}{% endfor %}]{% endif %}{% if art %},"image":"{{ site.url }}{{ art }}"{% endif %}{% set same = [g.official, g.appstore, g.googleplay] | select %},"sameAs":{{ same | list | jsonify | safe }}},{"@type":"CollectionPage","url":"{{ site.url }}{{ page.url }}","name":{{ title | unent | jsonify | safe }},"about":{"@id":"{{ site.url }}{{ page.url }}#game"},"mainEntity":{"@type":"ItemList","itemListElement":[{% for n in all | byGame(slug) %}{"@type":"ListItem","position":{{ loop.index }},"url":"{{ site.url }}{{ n.url }}","name":{{ n.data.title | jsonify | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Games A–Z","item":"{{ site.url }}/games.html"},{"@type":"ListItem","position":3,"name":{{ g.name | jsonify | safe }}}]}]}</script>

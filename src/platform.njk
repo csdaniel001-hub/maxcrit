@@ -5,6 +5,7 @@ permalink: "/platform/{{ p.slug }}.html"
 eleventyComputed:
   title: "{{ p.name }} game news, patches and guides"
   summary: "{{ p.desc }}"
+  noindex: "{{ '' if (collections.everything | byPlatform(p.slug)).length else 'yes' }}"
   shareImage: "{{ (collections.everything | byPlatform(p.slug) | featured | first).data.image if (collections.everything | byPlatform(p.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}

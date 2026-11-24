@@ -1,4 +1,4 @@
 # Secondary filters, not menu items. Only list what the official source confirms.
-- { slug: ios, name: iOS, desc: "Games and updates on iPhone and iPad." }
-- { slug: android, name: Android, desc: "Games and updates on Android phones and tablets." }
-- { slug: pc, name: PC, desc: "Mobile games that also run on PC, often with cross-progression." }
+- { slug: ios, name: iOS, desc: "News, patches and guides for the iPhone and iPad games we cover: updates, launches, betas and balance changes, newest first." }
+- { slug: android, name: Android, desc: "News, patches and guides for Android phone and tablet games: updates, launches, betas and balance changes, newest first." }
+- { slug: pc, name: PC, desc: "Mobile games that also run on PC, often with cross-progression: news, patches and guides for the versions you can play on both." }

@@ -1,14 +1,15 @@
 {%- from "logo.njk" import logo with context -%}
 {%- macro mico(name) -%}<img class="kx-mico" src="{{ ('/assets/img/micons/' + name + '.webp') | rel }}" alt="" width="34" height="34" aria-hidden="true">{%- endmacro -%}
 {%- set ogImg = image or shareImage or '/assets/img/share/maxcrit.jpg' -%}
-{%- set ogTitle = title or (site.name + ': ' + site.tagline) -%}
-{%- set desc = summary or site.description -%}
+{%- set ogTitle = (title or (site.name + ': ' + site.tagline)) | unent -%}
+{%- set desc = (summary or site.description) | unent -%}
+{%- set docTitle = ((seo_title or title) | unent) -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang }}" data-gz="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if seo_title or title %}{{ seo_title or title }} · {{ site.name }}{% else %}{{ site.name }}: {{ site.tagline }}{% endif %}</title>
+<title>{% if docTitle %}{{ docTitle }} · {{ site.name }}{% else %}{{ site.name }}: {{ site.tagline }}{% endif %}</title>
 <meta name="description" content="{{ desc }}">
 <meta name="robots" content="{% if noindex %}noindex, follow{% else %}index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1{% endif %}">
 <meta name="theme-color" content="#0e0924">

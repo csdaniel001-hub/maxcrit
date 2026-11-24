@@ -5,8 +5,10 @@ permalink: "/genre/{{ g.slug }}.html"
 activeSection: genres
 eleventyComputed:
   title: "{{ g.name }} mobile games: news, patches and guides"
+  seo_title: "{{ g.name }} games: news, patches and guides"
   summary: "{{ g.desc }}"
   activeNav: "g-{{ g.slug }}"
+  noindex: "{{ '' if (collections.everything | byGenre(g.slug)).length else 'yes' }}"
   shareImage: "{{ (collections.everything | byGenre(g.slug) | featured | first).data.image if (collections.everything | byGenre(g.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}

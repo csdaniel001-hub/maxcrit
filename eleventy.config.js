@@ -61,6 +61,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("srcset", function (img) { return WIDTHS.map((w) => `${eleventyConfig.getFilter("rel").call(this, wbase(img) + "-" + w + ".webp")} ${w}w`).join(", "); });
   // Stable pick from a list by page URL (character heads at article ends)
   eleventyConfig.addFilter("pick", (url, list) => { let h = 0; for (const c of String(url)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return list[h % list.length]; });
+  // Undo entity escaping done by computed front matter, so titles are escaped exactly once
+  eleventyConfig.addFilter("unent", (v) => String(v ?? "").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
   eleventyConfig.addFilter("limit", (arr, n) => (arr || []).slice(0, n));
   eleventyConfig.addFilter("exclude", (arr, url) => (arr || []).filter((x) => x.url !== url));
   eleventyConfig.addFilter("notIn", (arr, others) => { const u = new Set((others || []).map((x) => x.url)); return (arr || []).filter((x) => !u.has(x.url)); });
@@ -73,8 +75,18 @@ export default function (eleventyConfig) {
   // Stories about one game: single-game pieces first, multi-game roundups only as a fallback
   const soloOf = (arr, g) => { const l = (arr || []).filter((n) => (n.data.titles || []).includes(g)); const solo = l.filter((n) => !n.data.roundup && (n.data.titles || []).length <= 2); return solo.length ? solo : l; };
   eleventyConfig.addFilter("soloByGame", soloOf);
+  // Game page helpers: own stories vs roundups that only mention the game, main genre, platforms
+  const own = (arr, g) => (arr || []).filter((n) => (n.data.titles || []).includes(g) && !n.data.roundup && (n.data.titles || []).length <= 2);
+  eleventyConfig.addFilter("ownByGame", own);
+  eleventyConfig.addFilter("mentionsGame", (arr, g) => { const o = new Set(own(arr, g).map((n) => n.url)); return (arr || []).filter((n) => (n.data.titles || []).includes(g) && !o.has(n.url)); });
+  const tally = (list) => { const c = {}; list.forEach((x) => { c[x] = (c[x] || 0) + 1; }); return Object.keys(c).sort((a, b) => c[b] - c[a]); };
+  eleventyConfig.addFilter("gameGenre", (arr, g) => tally(own(arr, g).flatMap((n) => (n.data.genres || []).slice(0, 1)))[0] || "");
+  eleventyConfig.addFilter("gamePlatforms", (arr, g) => tally(own(arr, g).flatMap((n) => n.data.platforms || [])));
+  eleventyConfig.addFilter("gamesInGenre", (games, arr, genre, not) => Object.keys(games || {}).filter((s) => s !== not && genre && tally(own(arr, s).flatMap((n) => (n.data.genres || []).slice(0, 1)))[0] === genre));
   // Game slugs ordered by how many stories they have
   eleventyConfig.addFilter("gameRank", (games, arr) => Object.keys(games || {}).map((g) => ({ slug: g, n: soloOf(arr, g).length })).filter((x) => x.n).sort((x, y) => y.n - x.n));
+  eleventyConfig.addFilter("byHub", (arr) => (arr || []).filter((n) => n.data.hub_type));
+  eleventyConfig.addFilter("notHub", (arr) => (arr || []).filter((n) => !n.data.hub_type));
   eleventyConfig.addFilter("byHubType", (arr, t) => (arr || []).filter((n) => n.data.hub_type === t));
   // Lead slider: the newest five items that have a real image
   eleventyConfig.addFilter("featured", (arr) => (arr || []).filter((x) => x.data.image).slice(0, 5));

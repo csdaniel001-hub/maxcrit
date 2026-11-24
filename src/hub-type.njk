@@ -7,6 +7,7 @@ eleventyComputed:
   title: "Mobile game {{ h.name | lower }}"
   summary: "{{ h.desc }}"
   activeNav: "h-{{ h.slug }}"
+  noindex: "{{ '' if (collections.hub | byHubType(h.slug)).length else 'yes' }}"
   shareImage: "{{ (collections.hub | byHubType(h.slug) | featured | first).data.image if (collections.hub | byHubType(h.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
