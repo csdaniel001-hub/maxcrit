@@ -41,7 +41,7 @@ Articles link to app stores, publishers' sites and official social accounts. Tho
 
 You can ask us for access to your personal data, and to correct, delete or restrict it. You can object to processing based on legitimate interest, ask for a copy in a portable format, and withdraw any consent at any time without affecting earlier processing. Write to [{{ site.email }}](mailto:{{ site.email }}); we answer within one month.
 
-If you think we handle your data unlawfully, you can complain to the Hungarian data protection authority: Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH), 1055 Budapest, Falk Miksa utca 9-11, postal address 1363 Budapest, Pf. 9, [ugyfelszolgalat@naih.hu](mailto:ugyfelszolgalat@naih.hu), [naih.hu](https://naih.hu). You can also complain to the authority where you live, or go to court.
+If you think we handle your data unlawfully, you can complain to the data protection authority in the country where you live or work, or where the problem happened. The European Data Protection Board keeps [a list of all national authorities in the EU and EEA](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en). Because MaxCrit is operated from Hungary, our lead authority is the Hungarian National Authority for Data Protection and Freedom of Information (NAIH), [naih.hu](https://naih.hu). You can also take legal action in court.
 
 ## Children
 
