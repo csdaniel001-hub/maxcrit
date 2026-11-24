@@ -2171,3 +2171,18 @@ html body #gzHero .hz-nav button:hover{border-color:#fb2186!important;background
 html body #gzHero .cc-sc b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 html body #gzHero .cc-sc{padding-top:8px!important;padding-bottom:8px!important}
 html body #gzHero .cc-sc b{flex:none;line-height:1.1!important}
+/* ===== Hover v5 (2026-11-24): game-UI "lock-on" selection in the side menu ===== */
+.gz-side nav > a > .kx-pt,.gz-side .sub > .kx-pt{inset:3px 6px 3px 2px!important;top:3px!important;right:6px!important;width:auto!important;height:auto!important;margin:0!important;
+ background:
+  linear-gradient(#35e0f0,#35e0f0) left top/12px 2px,linear-gradient(#35e0f0,#35e0f0) left top/2px 12px,
+  linear-gradient(#35e0f0,#35e0f0) right top/12px 2px,linear-gradient(#35e0f0,#35e0f0) right top/2px 12px,
+  linear-gradient(#fb2186,#fb2186) left bottom/12px 2px,linear-gradient(#fb2186,#fb2186) left bottom/2px 12px,
+  linear-gradient(#fb2186,#fb2186) right bottom/12px 2px,linear-gradient(#fb2186,#fb2186) right bottom/2px 12px,
+  linear-gradient(100deg,rgba(53,224,240,.16),rgba(251,33,134,.10) 60%,transparent)!important;
+ background-repeat:no-repeat!important;opacity:0;transform:scale(1.08);filter:drop-shadow(0 0 6px rgba(53,224,240,.55));transition:opacity .12s ease,transform .18s cubic-bezier(.2,1.4,.4,1)!important;animation:none!important;z-index:0}
+.gz-side nav > a:hover > .kx-pt,.gz-side .sub:hover > .kx-pt,.gz-side nav > a:focus-visible > .kx-pt,.gz-side .sub:focus-visible > .kx-pt{opacity:1;transform:scale(1)!important;animation:kxLock 1.6s .2s ease-in-out infinite!important}
+@keyframes kxLock{0%,100%{filter:drop-shadow(0 0 4px rgba(53,224,240,.45))}50%{filter:drop-shadow(0 0 9px rgba(251,33,134,.7))}}
+.gz-side nav > a .kx-mico,.gz-side .sub .kx-mico{transition:transform .18s cubic-bezier(.2,1.6,.4,1),filter .18s}
+.gz-side nav > a:hover .kx-mico,.gz-side .sub:hover .kx-mico{transform:scale(1.14);filter:drop-shadow(0 0 6px rgba(251,33,134,.6))}
+.gz-side .mc-st{position:relative;z-index:1;transition:transform .18s ease,color .18s}
+.gz-side nav > a:hover .mc-st,.gz-side .sub:hover .mc-st{transform:translateX(3px);color:#fff}
