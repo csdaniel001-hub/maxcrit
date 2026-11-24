@@ -1903,8 +1903,3 @@ html[data-gz=light] body .lr-head{margin-top:16px!important}
 html[data-gz=light] body .lr-list .hz-tabs{display:flex!important;flex-wrap:wrap!important;gap:6px!important;overflow:visible!important}
 html[data-gz=light] body .lr-list .hz-tabs button{white-space:nowrap!important;flex:none!important}
 .cc-h h2.s{font-size:20px!important}
-/* slider dots: same look, 24px touch target */
-html[data-gz=light] body .hz-ctl button{position:relative}
-html[data-gz=light] body .hz-ctl button::after{content:"";position:absolute;left:-4px;right:-4px;top:-10px;bottom:-10px}
-html[data-gz=light] body .hz-ctl button{box-sizing:content-box!important;height:6px!important;padding:9px 0!important;background-clip:content-box!important;border:0!important}
-html[data-gz=light] body .hz-ctl button::after{content:none}
