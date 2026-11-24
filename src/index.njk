@@ -40,7 +40,7 @@ bodyClass: hz-home
 {# 1. Popular games: the most-covered games #}
 <section class="mc-sec" aria-labelledby="h-pop">
 <header class="hz-sh"><img class="nx-ic" src="{{ ui('el-p05.png') }}" alt=""><h2 id="h-pop">Popular games</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a></header>
-<div class="mc-gs">{% for r in rank | limit(8) %}<a class="hz-card" href="{{ ('/games/' + r.slug + '.html') | rel }}"><span class="hz-card-in"><span class="hz-card-pic"><img src="{{ all | gamePic(r.slug) | rel }}" alt="" loading="lazy"></span><span class="hz-card-tx"><b>{{ games[r.slug].name }}</b><small>{{ r.n }} {{ 'story' if r.n == 1 else 'stories' }}</small></span></span></a>{% endfor %}</div>
+<div class="mc-gs">{% for r in rank | limit(6) %}<a class="hz-card" href="{{ ('/games/' + r.slug + '.html') | rel }}"><span class="hz-card-in"><span class="hz-card-pic"><img src="{{ all | gamePic(r.slug) | rel }}" alt="" loading="lazy"></span><span class="hz-card-tx"><b>{{ games[r.slug].name }}</b><small>{{ r.n }} {{ 'story' if r.n == 1 else 'stories' }}</small></span></span></a>{% endfor %}</div>
 </section>
 
 {# 2. Latest news: one feed with genre filters #}

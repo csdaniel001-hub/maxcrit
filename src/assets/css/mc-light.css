@@ -638,3 +638,9 @@ body{background:#e9ecf3!important}
 @media (max-width:900px){.nx-hubgrid{grid-template-columns:minmax(0,1fr)}}
 .nx-div{margin:30px 0 -22px}.nx-div img{width:300px}.mc-sec > .hz-cards{margin-bottom:8px}
 .nx-hubgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}@media (max-width:1100px){.nx-hubgrid{grid-template-columns:minmax(0,1fr)}}
+
+/* Popular games: a fixed row of six, no scrollbar */
+.mc-gs{display:grid;grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px;overflow:visible;padding-bottom:0;scroll-snap-type:none}
+.mc-gs .hz-card-tx b{font-size:15px;line-height:1.2}
+@media (max-width:1360px){.mc-gs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:560px){.mc-gs{grid-template-columns:repeat(2,minmax(0,1fr))}}
