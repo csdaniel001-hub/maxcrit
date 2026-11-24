@@ -333,3 +333,33 @@ top-eleven:
   official: "https://apps.apple.com/us/app/top-eleven-be-a-soccer-manager/id459035295"
   appstore: "https://apps.apple.com/us/app/top-eleven-be-a-soccer-manager/id459035295"
   status: "Live"
+love-and-deepspace:
+  name: "Love and Deepspace"
+  publisher: "Infold Games"
+  appstore: "https://apps.apple.com/us/app/love-and-deepspace/id6443467666"
+  googleplay: "https://play.google.com/store/apps/details?id=com.papegames.lysk.en"
+  status: "Live"
+reverse-1999:
+  name: "Reverse: 1999"
+  publisher: "Bluepoch"
+  appstore: "https://apps.apple.com/us/app/reverse-1999/id1672933190"
+  googleplay: "https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999"
+  status: "Live"
+kingshot:
+  name: "Kingshot"
+  publisher: "Century Games"
+  appstore: "https://apps.apple.com/us/app/kingshot/id6739554056"
+  googleplay: "https://play.google.com/store/apps/details?id=com.run.tower.defense"
+  status: "Live"
+subway-surfers:
+  name: "Subway Surfers"
+  publisher: "SYBO Games"
+  appstore: "https://apps.apple.com/us/app/subway-surfers/id512939461"
+  googleplay: "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf"
+  status: "Live"
+mobile-legends-bang-bang:
+  name: "Mobile Legends: Bang Bang"
+  publisher: "Skystone Games (US) / Moonton"
+  appstore: "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655"
+  googleplay: "https://play.google.com/store/apps/details?id=com.mobile.legends.usa"
+  status: "Live"
