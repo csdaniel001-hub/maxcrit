@@ -1333,8 +1333,8 @@ html[data-gz=light] body .cc .hz-tx{padding-top:56px!important}
  .cc-feat{gap:10px}.cc-f .nf-in{min-height:0}.cc-fg .nf-in{min-height:180px}.cc-fg b{font-size:18px}
  .cc-nr{grid-template-columns:64px minmax(0,1fr) 16px;gap:10px;padding:9px 0}.cc-nx b{font-size:14px}
  .cc-news .cc-nr:nth-of-type(n+6){display:none}
- /* the long feed duplicates the news panel on phones */
- html[data-gz=light] body .hz-all{display:none!important}
+ /* the long homepage feed duplicates the news panel on phones; listing pages (.lr-list) keep theirs */
+ html[data-gz=light] body .hz-all:not(.lr-list){display:none!important}
  /* popular games: one swipe row */
  html[data-gz=light] body .mc-gs{display:flex!important;overflow-x:auto;gap:10px;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
  html[data-gz=light] body .mc-gs::-webkit-scrollbar{display:none}
