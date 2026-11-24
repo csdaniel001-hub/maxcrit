@@ -16,8 +16,6 @@ bodyClass: gz-art
 <dl class="gz-spec mono">
 <div><dt>{% if isHub %}Last checked{% else %}Published{% endif %}</dt><dd><time datetime="{{ (updated_at or published_at) | isoDate }}">{{ (updated_at or published_at) | longDate }}</time></dd></div>
 <div><dt>Platforms</dt><dd>{% for p in platforms or [] %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>
-<div><dt>Reading time</dt><dd>{{ ((content | wordcount) / 230) | round(0, "ceil") }} min</dd></div>
-<div><dt>Sources</dt><dd>{{ sources.length }}</dd></div>
 </dl>
 </header>
 <figure class="gz-afig"><span class="gz-pic"><img src="{{ image | wsrc(960) | rel }}" srcset="{{ image | srcset }}" sizes="(max-width: 700px) 100vw, (max-width: 1400px) 70vw, 960px" width="1600" height="900" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high" decoding="async"></span><figcaption class="mono">Image: {{ image_credit }} · <a href="{{ image_source }}" target="_blank" rel="noopener">source ↗</a></figcaption></figure>
