@@ -364,3 +364,17 @@ mobile-legends-bang-bang:
   appstore: "https://apps.apple.com/gb/app/mobile-legends-bang-bang/id1160056295"
   googleplay: "https://play.google.com/store/apps/details?id=com.mobile.legends"
   status: "Live"
+old-school-runescape:
+  name: "Old School RuneScape"
+  publisher: "Jagex"
+  official: "https://oldschool.runescape.com/"
+  appstore: "https://apps.apple.com/us/app/old-school-runescape/id1269648762"
+  googleplay: "https://play.google.com/store/apps/details?id=com.jagex.oldscape.android"
+  status: "Live"
+tree-of-savior-m:
+  name: "Tree of Savior M"
+  publisher: "IMC GAMES"
+  official: "https://tosm.treeofsavior.com/global/index.html"
+  appstore: "https://apps.apple.com/us/app/tree-of-savior-m/id6475395335"
+  googleplay: "https://play.google.com/store/apps/details?id=com.imc.mtos.gl"
+  status: "Global pre-registration open"
