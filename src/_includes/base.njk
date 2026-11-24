@@ -23,6 +23,7 @@
 <link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | rel }}">
 <link rel="stylesheet" href="{{ '/assets/css/gz.css' | rel }}">
 <link rel="stylesheet" href="{{ '/assets/css/mc.css' | rel }}">
+<link rel="stylesheet" id="mxL" href="{{ '/assets/css/mc-light.css' | rel }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | rel }}">
 </head>
 <body class="{{ bodyClass or 'gz-home' }}">
@@ -63,7 +64,7 @@
 </nav>
 </aside>
 <div class="gz-col">
-<div class="gz-tick"><span class="gz-tick-l"><i></i>Latest</span>
+<div class="gz-tick"><span class="gz-tick-l mx-tl"><i></i>Latest</span>
 <div class="gz-marq" aria-label="Latest stories"><div class="gz-marq-in">{% for rep in [0,1] %}<span{% if rep %} aria-hidden="true"{% endif %}>{% for n in collections.everything | limit(8) %}<a href="{{ n.url | rel }}"{% if rep %} tabindex="-1"{% endif %}><b>{{ (n.data.updated_at or n.data.published_at) | shortDate }}</b>{{ n.data.title }}</a>{% endfor %}</span>{% endfor %}</div></div>
 </div>
 <main id="content" class="gz-main">
@@ -83,5 +84,6 @@
 </footer>
 <script src="{{ '/assets/js/site.js' | rel }}"></script>
 {% block scripts %}{% endblock %}
+<script>(function(){var h=document.documentElement,l=document.getElementById("mxL");function f(){l.disabled=h.getAttribute("data-gz")==="dark"}f();new MutationObserver(f).observe(h,{attributes:true,attributeFilter:["data-gz"]})})();</script>
 </body>
 </html>

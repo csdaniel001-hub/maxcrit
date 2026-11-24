@@ -31,91 +31,57 @@ bodyClass: hz-home
 </section>
 </div>
 
-{# Section blocks: the Gacha section first, then every genre with at least two pieces #}
-{% macro block(id, name, href, more, items, sideTitle, side, flip) %}
-<section class="hz-rb" aria-labelledby="h-rb-{{ id }}">
-<a class="hz-rbh" href="{{ href | rel }}"><span class="hz-rbh-tx"><h2 id="h-rb-{{ id }}">{{ name }}</h2>{% if id == 't-gacha' %}<span class="mc-stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg></span>{% endif %}</span><span class="hz-rbh-go">{{ more }} {{ arr() }}</span><span class="hz-rbh-pic"><img src="{{ items[items.length - 1].data.image | rel }}" alt="" style="object-position:50% 50%" loading="lazy"></span></a>
-<div class="hz-panel hz-rv"><div class="hz-in"><div class="hz-rv-g s3{% if flip %} mc-flip{% endif %}">
-{% set f = items[0] %}<a class="hz-rv-lead" href="{{ f.url | rel }}"><span class="hz-rv-pic"><img src="{{ f.data.image | rel }}" alt="" style="object-position:{{ f.data.image_pos or '50% 50%' }}" loading="lazy"></span><b>{{ f.data.title }}</b><span class="hz-rv-d">{{ f.data.summary }}</span>{{ ago(f) }}</a>
-<div class="hz-rv-list">{% for n in items | limit(5) %}{% if not loop.first %}<a class="hz-rv-row" href="{{ n.url | rel }}"><span class="hz-th"><img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span><span class="hz-ft"><b>{{ n.data.title }}</b>{{ ago(n) }}</span></a>{% endif %}{% endfor %}</div>
-<div class="hz-rv-side"><h3>{{ sideTitle }}</h3>{{ side | safe }}</div>
-</div></div></div>
-</section>
-{% endmacro %}
-
-
-{% macro gname(n) %}{% if n.data.titles and n.data.titles.length %}{{ games[n.data.titles[0]].name }}{% else %}{{ kick(n) }}{% endif %}{% endmacro %}
-{% macro gsh(g, link) %}<header class="hz-sh"><span class="mc-sh-ic">{{ ico(g.icon) }}</span><h2 id="h-c-{{ g.slug }}">{{ g.name }}</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ link }} {{ arr() }}</a></header>{% endmacro %}
-
-{# Big genre, card version: framed cut-corner cards #}
-{% macro cards(g, items) %}
-<section class="mc-sec" aria-labelledby="h-c-{{ g.slug }}">
-{{ gsh(g, 'Open genre') }}
-<div class="hz-cards mc-n{{ 4 if items.length > 4 else items.length }}">{% for n in items | limit(4) %}<a class="hz-card" href="{{ n.url | rel }}"><span class="hz-card-in"><span class="hz-card-pic"><img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"><i class="hz-chip">{{ gname(n) }}</i></span><span class="hz-card-tx"><b>{{ n.data.title }}</b>{{ ago(n) }}</span></span></a>{% endfor %}</div>
-</section>
-{% endmacro %}
-
-{# Small genre panel. style 'lab': picture, title and orange corner arrow; style 'season': picture with orange corner beside the rows #}
-{% macro gpanel(g, items, style, dark) %}
-<section class="hz-panel mc-gp{% if dark %} hz-dark{% endif %}" aria-labelledby="h-c-{{ g.slug }}"><div class="hz-in">
-<header class="hz-ph"><span class="mc-ph-ic">{{ ico(g.icon) }}</span><h2 id="h-c-{{ g.slug }}">{{ g.name }}</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ ('/genre/' + g.slug + '.html') | rel }}">More {{ arr() }}</a></header>
-{% set f = items[0] %}
-{% if style == 'lab' %}
-<a class="hz-lab-a" href="{{ f.url | rel }}"><span class="hz-lab-pic"><img src="{{ f.data.image | rel }}" alt="" style="object-position:{{ f.data.image_pos or '50% 50%' }}" loading="lazy"></span><span class="hz-lab-row"><b>{{ f.data.title }}</b><span class="hz-corner"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></span></a>
-<div class="mc-gp-more">{% for n in items | limit(3) %}{% if not loop.first %}<a class="hz-rel" href="{{ n.url | rel }}"><span class="hz-rt"><b>{{ n.data.title }}</b><small>{{ gname(n) }}</small></span>{{ arr() }}</a>{% endif %}{% endfor %}</div>
-{% else %}
-<a class="hz-season-pic mc-sp" href="{{ f.url | rel }}"><img src="{{ f.data.image | rel }}" alt="" style="object-position:{{ f.data.image_pos or '50% 50%' }}" loading="lazy"></a>
-<div class="mc-gp-more">{% for n in items | limit(3) %}<a class="hz-rel" href="{{ n.url | rel }}"><span class="hz-rt"><b>{{ n.data.title }}</b><small>{{ gname(n) }}</small></span>{{ arr() }}</a>{% endfor %}</div>
-{% endif %}
-</div></section>
-{% endmacro %}
-
-{# A row of up to three small-genre panels #}
-{% macro trio(list, style) %}
-<div class="mc-sec hz-row3 mc-n{{ list.length }}{% if list.length == 2 %} c2{% endif %}">{% for e in list %}{{ gpanel(e.g, e.items, style, loop.index == 2) }}{% endfor %}</div>
-{% endmacro %}
-
 {% macro ico(d) %}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{{ d }}"/></svg>{% endmacro %}
-{% macro gamesSide(items) %}{% set seen = [] %}{% for n in items %}{% for t in n.data.titles or [] %}{% if t not in seen and seen.length < 5 %}{% set seen = (seen.push(t), seen) %}<a class="hz-rel" href="{{ ('/games/' + t + '.html') | rel }}"><span class="hz-rt"><b class="w">{{ games[t].name }}</b><small>{{ games[t].publisher }}</small></span></a>{% endif %}{% endfor %}{% endfor %}<a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a>{% endmacro %}
+{% macro ui(f) %}{{ ('/assets/img/ui/' + f) | rel }}{% endmacro %}
+{% macro go() %}<svg class="mx-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg>{% endmacro %}
+{% macro card(n) %}<a class="hz-card" href="{{ n.url | rel }}"><span class="hz-card-in"><span class="hz-card-pic"><img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"><i class="hz-chip">{{ kick(n) }}</i></span><span class="hz-card-tx"><b>{{ n.data.title }}</b></span></span></a>{% endmacro %}
+{% set rank = games | gameRank(all) %}
 
-{# Homepage rule: every story appears once. Order: hero and Latest, the Gacha section, the Player Hub,
-   then genres in genreNav order. A genre with 4+ stories left gets its own section (card row and
-   mirrored block alternate); genres with fewer share the "More genres" panels at the end. #}
-{% set shown = hero.concat(fresh) %}
-{% for t in topicNav %}{% set ti = all | byTopic(t.slug) | notIn(shown) %}{% if ti.length %}{{ block('t-' + t.slug, t.name, '/' + t.slug + '.html', 'Open section', ti, 'Games', gamesSide(ti)) }}{% set shown = shown.concat(ti.slice(0, 5)) %}{% endif %}{% endfor %}
-
-{% set hubLeft = collections.hub | notIn(shown) %}
-{% if hubLeft.length %}<div class="mc-sec">
-<section class="hz-panel hz-dark" aria-labelledby="h-hub">
-<div class="hz-in">
-<header class="hz-ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link mc-ph-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
-<div class="hz-gl">{% for n in hubLeft | limit(4) %}<a href="{{ n.url | rel }}"><i class="hz-chip">{{ kick(n) }}</i><b>{{ n.data.title }}</b>{{ arr() }}</a>{% endfor %}</div>
-</div>
+{# 1. Popular games: the most-covered games #}
+<section class="mc-sec" aria-labelledby="h-pop">
+<header class="hz-sh"><img class="nx-ic" src="{{ ui('el-p05.png') }}" alt=""><h2 id="h-pop">Popular games</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a></header>
+<div class="mc-gs">{% for r in rank | limit(8) %}<a class="hz-card" href="{{ ('/games/' + r.slug + '.html') | rel }}"><span class="hz-card-in"><span class="hz-card-pic"><img src="{{ all | gamePic(r.slug) | rel }}" alt="" loading="lazy"></span><span class="hz-card-tx"><b>{{ games[r.slug].name }}</b><small>{{ r.n }} {{ 'story' if r.n == 1 else 'stories' }}</small></span></span></a>{% endfor %}</div>
 </section>
-</div>{% endif %}
-{% set shown = shown.concat(collections.hub) %}
 
-{% set big = [] %}{% set small = [] %}
-{% for g in genreNav %}{% set fi = all | byGenre(g.slug) | notIn(shown) %}{% if fi.length >= 4 %}{% set big = (big.push({g: g, items: fi}), big) %}{% elif fi.length %}{% set small = (small.push({g: g, items: fi}), small) %}{% endif %}{% endfor %}
-{% for e in big %}
-{% if loop.index0 % 2 == 0 %}{{ cards(e.g, e.items) }}{% else %}{{ block(e.g.slug, e.g.name, '/genre/' + e.g.slug + '.html', 'Open genre', e.items, 'Games', gamesSide(e.items), true) }}{% endif %}
-{% endfor %}
-
-{% if small.length %}
-<section class="mc-sec" aria-labelledby="h-more">
-<header class="hz-sh"><h2 id="h-more">More genres</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>
-{% for k in range(0, small.length, 3) %}{{ trio(small.slice(k, k + 3), 'lab' if (k / 3) % 2 == 0 else 'season') }}{% endfor %}
-</section>
-{% endif %}
-
-<div class="mc-orn" aria-hidden="true"><i></i></div>
+{# 2. Latest news: one feed with genre filters #}
 <section class="hz-all" aria-labelledby="h-all">
-<header class="hz-sh"><h2 id="h-all">Everything</h2><i aria-hidden="true">//</i>
+<header class="hz-sh"><h2 id="h-all">Latest news</h2><i aria-hidden="true">//</i>
 <div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (all | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div>
 </header>
 <ol id="gzAll">{% for n in all %}{{ allrow(n, pre) }}{% endfor %}</ol>
 <div class="hz-all-f"><button type="button" class="hz-moreb" id="gzMoreB" hidden>Load more <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg></button><a class="hz-link" href="{{ '/news.html' | rel }}">News archive {{ arr() }}</a></div>
 </section>
+
+
+{# 3. Gacha games #}
+{% set gi = all | byTopic('gacha') | notIn(hero.concat(fresh)) %}
+{% if gi.length %}
+<section class="hz-rb mx-gacha" aria-labelledby="h-rb-t-gacha">
+<a class="hz-rbh" href="{{ '/gacha.html' | rel }}"><span class="hz-rbh-tx"><span class="mx-pad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.32 5H6.68a4 4 0 0 0-3.98 3.59C2.6 9.42 2 14.46 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.41-1.41A2 2 0 0 1 9.83 16h4.34a2 2 0 0 1 1.41.59L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.55-.6-6.58-.69-7.26A4 4 0 0 0 17.32 5z"/></svg><i></i></span><h2 id="h-rb-t-gacha">Gacha games</h2><span class="mc-stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg></span></span><span class="mx-chibi-w"><img src="{{ ui('chibi-gamer.png') }}" alt=""></span><span class="hz-rbh-go">Open section {{ arr() }}</span><span class="mx-props"><img class="q1" src="{{ ui('crys-blue.png') }}" alt=""><img class="q2" src="{{ ui('star-crystal.png') }}" alt=""><img class="q3" src="{{ ui('cards2.png') }}" alt=""><img class="q4" src="{{ ui('chest-magic.png') }}" alt=""><img class="q5" src="{{ ui('crys-pink.png') }}" alt=""></span></a>
+<div class="hz-panel hz-rv"><div class="hz-in"><div class="hz-rv-g s3">
+{% set f = gi[0] %}<a class="hz-rv-lead" href="{{ f.url | rel }}"><span class="hz-rv-pic"><img src="{{ f.data.image | rel }}" alt="" style="object-position:{{ f.data.image_pos or '50% 50%' }}" loading="lazy"></span><b>{{ f.data.title }}</b><span class="hz-rv-d">{{ f.data.summary }}</span>{{ ago(f) }}</a>
+<div class="hz-rv-list">{% for n in gi | limit(5) %}{% if not loop.first %}<a class="hz-rv-row" href="{{ n.url | rel }}"><span class="hz-th"><img src="{{ n.data.image | rel }}" alt="" style="object-position:{{ n.data.image_pos or '50% 50%' }}" loading="lazy"></span><span class="hz-ft"><b>{{ n.data.title }}</b>{{ ago(n) }}</span></a>{% endif %}{% endfor %}</div>
+<div class="hz-rv-side"><h3>Games <i>//</i></h3>{% set seen = [] %}{% for n in gi %}{% for t in n.data.titles or [] %}{% if t not in seen and seen.length < 5 %}{% set seen = (seen.push(t), seen) %}<a class="hz-rel mx-rel" href="{{ ('/games/' + t + '.html') | rel }}"><img class="mx-av" src="{{ all | gamePic(t) | rel }}" alt=""><span class="hz-rt"><b class="w">{{ games[t].name }}</b><small>{{ games[t].publisher }}</small></span>{{ go() }}</a>{% endif %}{% endfor %}{% endfor %}<div class="mx-foot"><img class="mx-cat" src="{{ ui('cat-pink.png') }}" alt=""><a class="hz-link" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a></div></div>
+</div></div></div>
+</section>
+{% endif %}
+
+{# 4. Player Hub, one column per hub type that has pages #}
+{% set hubIcons = {'patch-trackers': 'el-p49.png', 'guides': 'el-p46.png', 'banners': 'cards2.png', 'codes': 'tickets.png', 'tier-lists': 'star-crystal.png'} %}
+{% if collections.hub.length %}<div class="mc-sec">
+<section class="hz-panel hz-dark mx-hub nx-hub" aria-labelledby="h-hub"><div class="hz-in">
+<header class="hz-ph"><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link mc-ph-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
+<div class="nx-hubgrid">{% for h in hubTypes %}{% set hp = collections.hub | byHubType(h.slug) %}{% if hp.length %}<div class="nx-hubcol"><header><img src="{{ ui(hubIcons[h.slug] or 'el-p05.png') }}" alt=""><h3>{{ h.name }}</h3><a class="hz-link" href="{{ ('/hub/' + h.slug + '.html') | rel }}">All {{ arr() }}</a></header>{% for n in hp | limit(3) %}<a class="hz-rel" href="{{ n.url | rel }}"><span class="hz-rt"><b>{{ n.data.title }}</b></span>{{ arr() }}</a>{% endfor %}</div>{% endif %}{% endfor %}</div>
+</div></section>
+</div>{% endif %}
+
+{# 5. Game spotlights: the two most-covered games #}
+{% for r in rank | limit(2) %}{% set sp = all | soloByGame(r.slug) %}
+<section class="mc-sec" aria-labelledby="h-sp-{{ r.slug }}">
+<header class="hz-sh"><h2 id="h-sp-{{ r.slug }}">{{ games[r.slug].name }}</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ ('/games/' + r.slug + '.html') | rel }}">All {{ games[r.slug].name }} {{ arr() }}</a></header>
+<div class="hz-cards mc-n{{ 4 if sp.length > 4 else sp.length }}">{% for n in sp | limit(4) %}{{ card(n) }}{% endfor %}</div>
+</section>
+{% endfor %}
 
 <script>
 (function(){
@@ -129,9 +95,9 @@ document.getElementById('gzPrev').addEventListener('click',function(){go(i-1);au
 document.getElementById('gzNext').addEventListener('click',function(){go(i+1);auto()});
 h.addEventListener('mouseenter',function(){clearInterval(tm)});h.addEventListener('mouseleave',auto);h.addEventListener('focusin',function(){clearInterval(tm)});auto();}
 var now=Date.now();document.querySelectorAll('.hz-ago time').forEach(function(t){var m=(now-new Date(t.getAttribute('datetime')))/6e4;if(m<0||isNaN(m)||m>=10080)return;t.textContent=m<60?Math.max(1,Math.round(m))+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+(Math.round(m/1440)===1?' day ago':' days ago');});
-var tabs=document.querySelectorAll('.hz-tabs button'),al=[].slice.call(document.querySelectorAll('#gzAll li')),mb=document.getElementById('gzMoreB'),ac=document.getElementById('gzAllC'),flt='all',vis=10;
+var tabs=document.querySelectorAll('.hz-tabs button'),al=[].slice.call(document.querySelectorAll('#gzAll li')),mb=document.getElementById('gzMoreB'),ac=document.getElementById('gzAllC'),flt='all',vis=6;
 function paint(){var n=0,tot=0;al.forEach(function(li){var ok=flt==='all'||li.dataset.s===flt;if(ok)tot++;li.hidden=!(ok&&n<vis);if(ok&&n<vis)n++;});if(ac)ac.textContent=n+' / '+tot+' stories';if(mb)mb.hidden=n>=tot;}
-tabs.forEach(function(b){b.addEventListener('click',function(){tabs.forEach(function(x){x.classList.toggle('on',x===b)});flt=b.dataset.f;vis=10;paint()})});
-if(mb)mb.addEventListener('click',function(){vis+=10;paint()});paint();
+tabs.forEach(function(b){b.addEventListener('click',function(){tabs.forEach(function(x){x.classList.toggle('on',x===b)});flt=b.dataset.f;vis=6;paint()})});
+if(mb)mb.addEventListener('click',function(){vis+=6;paint()});paint();
 })();
 </script>

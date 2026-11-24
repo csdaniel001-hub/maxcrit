@@ -55,6 +55,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("byGame", (arr, g) => (arr || []).filter((n) => (n.data.titles || []).includes(g)));
   // Best picture for a game tile: newest piece about that game alone, not a multi-game roundup
   eleventyConfig.addFilter("gamePic", (arr, g) => { const l = (arr || []).filter((n) => (n.data.titles || []).includes(g) && n.data.image); const solo = l.find((n) => !n.data.roundup && (n.data.titles || []).length <= 2); return (solo || l[0] || {}).data?.image; });
+  // Stories about one game: single-game pieces first, multi-game roundups only as a fallback
+  const soloOf = (arr, g) => { const l = (arr || []).filter((n) => (n.data.titles || []).includes(g)); const solo = l.filter((n) => !n.data.roundup && (n.data.titles || []).length <= 2); return solo.length ? solo : l; };
+  eleventyConfig.addFilter("soloByGame", soloOf);
+  // Game slugs ordered by how many stories they have
+  eleventyConfig.addFilter("gameRank", (games, arr) => Object.keys(games || {}).map((g) => ({ slug: g, n: soloOf(arr, g).length })).filter((x) => x.n).sort((x, y) => y.n - x.n));
   eleventyConfig.addFilter("byHubType", (arr, t) => (arr || []).filter((n) => n.data.hub_type === t));
   // Lead slider: the newest five items that have a real image
   eleventyConfig.addFilter("featured", (arr) => (arr || []).filter((x) => x.data.image).slice(0, 5));
