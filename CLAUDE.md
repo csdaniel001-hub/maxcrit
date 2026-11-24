@@ -51,3 +51,6 @@ Articles without `image` are dropped from the build automatically. Order of pref
 
 ## 6. Before every push
 `npx @11ty/eleventy && node lib/check.js` must end with `0 errors`. It also fails on broken internal links and on any Hungarian text left over from the template.
+
+## Redeem-code pages (Daniel, 2026-11-24)
+Codes pages (`hub_type: codes`) may use public code trackers as sources; no official primary source is required. Every codes page must say near the top that some codes may already be deactivated, used up or region-locked. Images still have to be official. Unconfirmed or disputed codes are left out, and a game with no reported active code gets no page.

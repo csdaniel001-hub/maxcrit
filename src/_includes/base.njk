@@ -74,14 +74,14 @@
 </details>
 <details class="gz-grp" open>
 <summary>{{ mico('mobile') }}Genres<i aria-hidden="true"></i></summary>
-{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
+{% for g in genreNav %}{% set gc = (collections.stories | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
 {% endif %}{% endfor %}
 </details>
 </nav>
 </aside>
 <div class="gz-col">
 <div class="gz-tick"><span class="gz-tick-l mx-tl"><img class="kx-gem" src="{{ '/assets/img/ui/el-p05.webp' | rel }}" alt="" width="22" height="22" aria-hidden="true">Latest</span>
-<div class="gz-marq" aria-label="Latest stories"><div class="gz-marq-in">{% for rep in [0,1] %}<span{% if rep %} aria-hidden="true"{% endif %}>{% for n in collections.everything | limit(8) %}<a href="{{ n.url | rel }}"{% if rep %} tabindex="-1"{% endif %}><b>{{ (n.data.updated_at or n.data.published_at) | shortDate }}</b>{{ n.data.title }}</a>{% endfor %}</span>{% endfor %}</div></div>
+<div class="gz-marq" aria-label="Latest stories"><div class="gz-marq-in">{% for rep in [0,1] %}<span{% if rep %} aria-hidden="true"{% endif %}>{% for n in collections.stories | limit(8) %}<a href="{{ n.url | rel }}"{% if rep %} tabindex="-1"{% endif %}><b>{{ (n.data.updated_at or n.data.published_at) | shortDate }}</b>{{ n.data.title }}</a>{% endfor %}</span>{% endfor %}</div></div>
 </div>
 <main id="content" class="gz-main">
 {{ content | safe }}

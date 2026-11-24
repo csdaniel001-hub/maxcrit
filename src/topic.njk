@@ -6,9 +6,9 @@ eleventyComputed:
   title: "{{ t.name }}: news, banners and guides"
   summary: "{{ t.desc }}"
   activeNav: "t-{{ t.slug }}"
-  noindex: "{{ '' if (collections.everything | byTopic(t.slug)).length else 'yes' }}"
-  shareImage: "{{ (collections.everything | byTopic(t.slug) | featured | first).data.image if (collections.everything | byTopic(t.slug) | featured).length else '' }}"
+  noindex: "{{ '' if (collections.stories | byTopic(t.slug)).length else 'yes' }}"
+  shareImage: "{{ (collections.stories | byTopic(t.slug) | featured | first).data.image if (collections.stories | byTopic(t.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs = "" %}
-{{ listing(collections.everything | byTopic(t.slug), pre, 'Section', t.name, t.desc, 'Pages', tabs, '') }}
+{{ listing(collections.stories | byTopic(t.slug), pre, 'Section', t.name, t.desc, 'Pages', tabs, '') }}

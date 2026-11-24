@@ -107,6 +107,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("news", (api) => api.getFilteredByGlob("src/content/news/*.md").sort((a, b) => new Date(b.data.published_at) - new Date(a.data.published_at)));
   eleventyConfig.addCollection("hub", (api) => api.getFilteredByGlob("src/content/hub/*.md").sort(newest));
   eleventyConfig.addCollection("everything", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").sort(newest));
+  // Feeds, homepage, genre and platform pages leave out redeem-code pages, so 20+ code lists do not bury the news (2026-11-24)
+  eleventyConfig.addCollection("stories", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").filter((n) => n.data.hub_type !== "codes").sort(newest));
 
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },

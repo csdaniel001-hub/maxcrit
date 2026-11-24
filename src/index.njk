@@ -4,7 +4,7 @@ permalink: /index.html
 bodyClass: hz-home
 ---
 {% from "macros.njk" import arr, clock, chip, kick, ago, allrow with context %}
-{% set all = collections.everything %}
+{% set all = collections.stories %}
 {% set hero = all | featured | limit(4) %}
 {% set fresh = all | notIn(hero) | limit(3) %}
 {% macro pic(img, w, cls='', lazy=true, pos='') %}<img{% if cls %} class="{{ cls }}"{% endif %} src="{{ img | wsrc(w) | rel }}" alt="" width="{{ w }}" height="{{ (w * 9 / 16) | round }}"{% if pos %} style="object-position:{{ pos }}"{% endif %}{% if lazy %} loading="lazy"{% endif %} decoding="async">{% endmacro %}

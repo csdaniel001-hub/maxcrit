@@ -48,7 +48,7 @@
 </div>{% endif %}{% endmacro %}
 
 {# Shared sidebar for list pages: popular games, Player Hub, gacha spotlight, genres #}
-{% macro listrail(skipGenre='') %}{% set all = collections.everything %}
+{% macro listrail(skipGenre='') %}{% set all = collections.stories %}
 <aside class="lr-side" aria-label="More on MaxCrit">
 {% set rank = games | gameRank(all) %}{% if rank.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Popular games</h2></header>{% for r in rank | limit(6) %}{% set gg = games[r.slug] %}<a class="hz-rel mx-rel gp-sim" href="{{ ('/games/' + r.slug + '.html') | rel }}">{% if not gg.noicon %}<img class="mx-av" src="{{ ('/assets/img/icons/' + r.slug + '.webp') | rel }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span class="hz-rt"><b class="w">{{ gg.name }}</b><small>{{ gg.publisher }}</small></span></a>{% endfor %}<a class="cc-btn" href="{{ '/games.html' | rel }}">Games A–Z {{ arr() }}</a></div></div>{% endif %}
 {% if collections.hub.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Player Hub</h2></header>{% for n in collections.hub | limit(4) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<a class="cc-btn cy" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></div></div>{% endif %}

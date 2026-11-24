@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
 <description>{{ site.description }}</description>
 <language>en</language>
-{% for n in collections.everything | limit(30) %}<item>
+{% for n in collections.stories | limit(30) %}<item>
 <title>{{ n.data.title }}</title>
 <link>{{ site.url }}{{ n.url }}</link>
 <guid>{{ site.url }}{{ n.url }}</guid>
