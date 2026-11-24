@@ -10,12 +10,12 @@ bodyClass: gz-art
 <article class="gz-article article ar{% if isHub %} is-hub{% endif %}">
 <p class="gz-crumbs mono ar-crumbs"><a href="{{ '/index.html' | rel }}">Home</a> / {% if isHub %}<a href="{{ '/hub.html' | rel }}">Player Hub</a> / <a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% else %}<a href="{{ '/news.html' | rel }}">News</a>{% endif %}{% for gs in genres or [] %} / <a href="{{ ('/genre/' + gs + '.html') | rel }}">{{ (genreNav | find('slug', gs)).name }}</a>{% endfor %}{% for t in topics or [] %} / <a href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name }}</a>{% endfor %}</p>
 <div class="cc ar-hero"><div class="cc-main"><section class="hz-panel hz-hero ar-hz" aria-label="Article header">
-<div class="hz-in"><div class="hz-stage"><div class="hz-slide on">
-<span class="hz-tx"><span class="hz-hh">{% if isHub %}Player Hub<i aria-hidden="true">//</i>{{ ht.name }}{% else %}News{% if genres and genres.length %}<i aria-hidden="true">//</i>{{ (genreNav | find('slug', genres[0])).name }}{% endif %}{% endif %}</span>
+<div class="hz-in"><div class="ar-split">
+<div class="hz-tx ar-tx"><span class="hz-hh">{% if isHub %}Player Hub<i aria-hidden="true">//</i>{{ ht.name }}{% else %}News{% if genres and genres.length %}<i aria-hidden="true">//</i>{{ (genreNav | find('slug', genres[0])).name }}{% endif %}{% endif %}</span>
 <span class="hz-txb"><h1 class="hz-ht">{{ title }}</h1><span class="hz-hd">{{ summary }}</span>
-<span class="hz-btns"><time class="hz-b2" datetime="{{ (updated_at or published_at) | isoDate }}">{% if isHub %}Checked {% endif %}{{ (updated_at or published_at) | longDate }}</time>{% if platforms and platforms.length %}<span class="hz-b2 ar-plat">{% for p in platforms %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</span></span></span>
-<span class="hz-art"><img src="{{ image | wsrc(960) | rel }}" srcset="{{ image | srcset }}" sizes="(max-width: 700px) 100vw, 900px" width="1600" height="900" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high" decoding="async"></span>
-</div></div></div>
+<span class="hz-btns"><time class="hz-b2" datetime="{{ (updated_at or published_at) | isoDate }}">{% if isHub %}Checked {% endif %}{{ (updated_at or published_at) | longDate }}</time>{% if platforms and platforms.length %}<span class="hz-b2 ar-plat">{% for p in platforms %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</span></span></span></div>
+<figure class="ar-pic"><div class="ar-frame"><span class="ar-img"><img src="{{ image | wsrc(960) | rel }}" srcset="{{ image | srcset }}" sizes="(max-width: 700px) 100vw, 760px" width="1600" height="900" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high" decoding="async"></span></div><i class="ar-c ar-c1" aria-hidden="true"></i><i class="ar-c ar-c2" aria-hidden="true"></i></figure>
+</div></div>
 </section><p class="ar-credit mono"><span>Image: {{ image_credit }}</span><a href="{{ image_source }}" target="_blank" rel="noopener">source ↗</a></p></div></div>
 <div class="gz-agrid">
 <div class="gz-abody">
