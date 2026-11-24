@@ -13,7 +13,7 @@ The data controller is {{ site.legal.operator }}, {{ site.legal.address }}, emai
 
 ## The short version
 
-MaxCrit has no accounts, no comments, no newsletter, no analytics and no advertising. Fonts and images are served from our own domain, so reading the site does not send your data to Google, social networks or ad companies. Search runs entirely in your browser; what you type is never sent to us.
+MaxCrit has no accounts, no comments, no newsletter and no advertising. We count visits with Cloudflare Web Analytics, which uses no cookies. Google Analytics only runs if you accept it in the cookie settings. Fonts and images are served from our own domain, and search runs entirely in your browser; what you type is never sent to us.
 
 ## What we process
 
@@ -21,13 +21,17 @@ MaxCrit has no accounts, no comments, no newsletter, no analytics and no adverti
 
 **Emails you send us.** If you write to us, we receive your email address, your name if you give it, and your message. We use them only to answer you and handle your request, such as a correction or a rights holder's request. Legal basis: our legitimate interest in answering messages (Art. 6(1)(f)), or a legal obligation where the request is about your data rights (Art. 6(1)(c)). We delete the correspondence when it is no longer needed, at the latest two years after the conversation ends.
 
+**Visit statistics (Cloudflare Web Analytics).** A small script from Cloudflare counts page views, the pages visited, the referring site, the browser and device type, the country and page loading speed. It stores nothing on your device, uses no cookies and does not track you across visits or sites. Cloudflare, Inc. processes the data for us. Legal basis: our legitimate interest in knowing which pages are read and keeping the site fast (Art. 6(1)(f)). You can object at any time; blocking the script in your browser also works.
+
+**Google Analytics 4, only with your consent.** If you accept analytics in the cookie settings, Google Analytics sets cookies and records how you use the site: pages viewed, time on page, how you arrived, device, browser and approximate location. Google does not log or store the IP addresses of visitors from the EU; it uses them only to work out an approximate location and then discards them. Google Ireland Limited processes the data for us. Legal basis: your consent (Art. 6(1)(a)), which you can withdraw at any time in the cookie settings; withdrawing deletes the Analytics cookies. The data is kept for {{ site.analytics.gaMonths }} months. Google signals and advertising features are switched off.
+
 **Your cookie choice.** If the site ever asks for cookie consent, your choice is saved in your browser (see the [Cookie policy](cookies.html)). We do not receive it.
 
 We do not sell personal data, build profiles or make automated decisions about you.
 
 ## Who else sees it
 
-Only our hosting provider, which processes the server logs on our behalf under a data processing agreement. If it processes data outside the European Economic Area, that happens under a European Commission adequacy decision or standard contractual clauses. We disclose data to authorities only when the law requires it.
+Our processors, who handle data only on our instructions under data processing agreements: our hosting provider (server logs), Cloudflare, Inc. (visit statistics) and, if you consent, Google Ireland Limited (Google Analytics). Cloudflare and Google may process data in the United States. Both are certified under the EU-US Data Privacy Framework, and data transfers also rely on the European Commission's standard contractual clauses. We disclose data to authorities only when the law requires it.
 
 ## Links to other sites
 
@@ -45,6 +49,6 @@ MaxCrit is a general-audience site and does not knowingly collect data from anyo
 
 ## Changes
 
-If what we process changes, for example if we add analytics or ads, this page is updated first and the date below changes. Anything that needs your consent will ask before it runs.
+If what we process changes, for example if we add advertising, this page is updated first and the date below changes. Anything that needs your consent will ask before it runs.
 
 Last updated: {{ site.legal.updated | longDate }}

@@ -24,8 +24,14 @@ export default {
     logDays: 30, // how long the host keeps server logs; confirm with the host
     updated: "2026-11-24",
   },
-  // Non-essential services that need consent. Leave null until one is actually added; the banner only appears when at least one is set.
-  // Example: analytics: { name: "Plausible", purpose: "count visits", privacy: "https://plausible.io/privacy" }
-  consent: { analytics: null, ads: null },
+  // Analytics IDs. A tag is only output once its ID is filled in.
+  //  - Cloudflare Web Analytics: cookieless, runs for everyone (token from the Cloudflare dashboard)
+  //  - Google Analytics 4: sets cookies, so it loads only after the visitor accepts (Measurement ID "G-...")
+  analytics: { cloudflare: "[CLOUDFLARE WEB ANALYTICS TOKEN]", ga4: "[GA4 MEASUREMENT ID]", gaMonths: 14 },
+  // Services that need consent. The banner appears when at least one is set.
+  consent: {
+    analytics: { name: "Google Analytics 4", purpose: "see which pages are read and how people find the site", privacy: "https://policies.google.com/privacy" },
+    ads: null,
+  },
   email: "editors@maxcrit.com",
 };

@@ -4,6 +4,8 @@
 {%- set ogTitle = (title or (site.name + ': ' + site.tagline)) | unent -%}
 {%- set desc = (summary or site.description) | unent -%}
 {%- set docTitle = ((seo_title or title) | unent) -%}
+{%- set gaId = site.analytics.ga4 if (site.analytics.ga4 and site.analytics.ga4.startsWith('G-')) else '' -%}
+{%- set cfTok = site.analytics.cloudflare if (site.analytics.cloudflare and not site.analytics.cloudflare.startsWith('[')) else '' -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang }}" data-gz="light">
 <head>
@@ -37,7 +39,8 @@
 <link rel="preload" href="{{ '/assets/fonts/barlow-latin-400-normal.woff2' | rel }}" as="font" type="font/woff2" crossorigin>
 {% if lcp %}<link rel="preload" as="image" href="{{ lcp | rel }}" fetchpriority="high">
 {% endif %}<link rel="stylesheet" href="{{ '/assets/css/site.css' | rel }}?v={{ site.build }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | rel }}">
+{% if gaId %}<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});</script>
+{% endif %}<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | rel }}">
 {% if page.url == '/' or page.url == '/index.html' %}<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"{{ site.url }}/#org","name":"{{ site.name }}","url":"{{ site.url }}/","logo":{"@type":"ImageObject","url":"{{ site.url }}/assets/img/share/logo.png","width":512,"height":512},"email":"{{ site.email }}","description":{{ site.description | jsonify | safe }}},{"@type":"WebSite","@id":"{{ site.url }}/#site","name":"{{ site.name }}","url":"{{ site.url }}/","inLanguage":"en","publisher":{"@id":"{{ site.url }}/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"{{ site.url }}/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}]}</script>
 {% endif %}</head>
 <body class="{{ bodyClass or 'gz-home' }}">
@@ -108,6 +111,9 @@
 </div></div></div>
 <button class="kx-top" type="button" aria-label="Back to top"><img src="{{ '/assets/img/ui/cat-pink.webp' | rel }}" alt="" width="40" height="40"><span>TOP</span></button>
 <script src="{{ '/assets/js/site.js' | rel }}?v={{ site.build }}" defer></script>
-{% block scripts %}{% endblock %}
+{% if gaId %}<script type="text/plain" data-consent="analytics" async src="https://www.googletagmanager.com/gtag/js?id={{ gaId }}"></script>
+<script type="text/plain" data-consent="analytics">gtag('js',new Date());gtag('config','{{ gaId }}');</script>
+{% endif %}{% if cfTok %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ cfTok }}"}'></script>
+{% endif %}{% block scripts %}{% endblock %}
 </body>
 </html>
