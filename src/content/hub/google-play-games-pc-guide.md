@@ -1,7 +1,7 @@
 ---
-title: 'Google Play Games on PC: Complete Installation and Gaming Guide'
-seo_title: 'Google Play Games on PC: Complete Installation and Gaming'
-summary: Play supported Android games on Windows through Google Play Games, with system requirements, setup and account sync advice.
+title: 'Google Play Games on PC: requirements, installation and troubleshooting'
+seo_title: 'Google Play Games on PC: setup, requirements and fixes'
+summary: 'Everything you need to run Google Play Games on PC: Windows and hardware requirements, step-by-step installation, sync with your phone, Play Points and fixes.'
 keyword: Google Play Games on PC
 hub_type: guides
 published_at: '2026-11-24T15:00:00Z'
@@ -11,69 +11,113 @@ platforms:
 - pc
 - android
 sources:
-- title: Google PC requirements
-  url: https://support.google.com/googleplay/answer/11358071?hl=en
+- title: 'Google: Check if your PC can run Google Play Games on PC'
+  url: https://support.google.com/googleplay/answer/11358071
   primary: true
-- title: Google setup instructions
-  url: https://support.google.com/googleplay/answer/11358888?hl=en
+- title: 'Google: Install and set up Google Play Games on your PC'
+  url: https://support.google.com/googleplay/answer/11358888
   primary: true
-- title: Official download
-  url: https://play.google.com/googleplaygames
+- title: 'Google: Google Play Games on PC official page'
+  url: https://play.google.com/googleplaygames/pc
   primary: true
-- title: PC game catalog
-  url: https://play.google.com/googleplaygames/exploregames?hl=hu
+- title: 'Android Developers: Google Play Games on PC requirements for games'
+  url: https://developer.android.com/games/playgames/start
   primary: true
-- title: Supercell PC support
+- title: 'Supercell: Clash of Clans and Clash Royale on PC with Google Play Games'
   url: https://support.supercell.com/clash-royale/en/articles/clash-of-clans-clash-royale-now-on-pc-with-google-play-games.html
   primary: true
 tldr:
-- '| Component | Google minimum |'
-- Visit the official Google Play Games website on your Windows PC.
-- 'The public catalog includes examples such as Clash of Clans, Clash Royale, CookieRun: Kingdom, Whiteout Survival, Township and Epic Seven.'
-image: "/assets/img/google-play-games-pc-guide.jpg"
-image_url: "https://www.gstatic.com/play/games/pc/googleplaygames-gaming-across-devices-cd48db3a.png"
-image_source: "https://play.google.com/googleplaygames"
-image_credit: "Google"
-image_alt: "Official Google Play Games on PC artwork"
-image_status: "candidate"
+- You need Windows 10 (v2004) or newer, a Windows admin account, hardware virtualization and Windows Hypervisor Platform.
+- Install it from play.google.com/googleplaygames and sign in with the same Google account as on your phone to keep progress in sync.
+- PC purchases earn Google Play Points, and only games in Google's PC catalogue are available.
+image: /assets/img/google-play-games-pc-guide.jpg
+image_url: https://www.gstatic.com/play/games/pc/googleplaygames-gaming-across-devices-cd48db3a.png
+image_source: https://play.google.com/googleplaygames
+image_credit: Google
+image_alt: Official Google Play Games on PC artwork
+image_status: candidate
 ---
 
-Google Play Games on PC is a good first stop when a mobile title has no separate desktop client. Unlike a general-purpose emulator, it offers a curated game catalog and a Google-managed PC experience. A mobile game's presence in the ordinary Android Play Store does not mean its PC edition is available.
+Google Play Games on PC is Google's own app for playing Android games on Windows. Unlike a general emulator, it only runs games that have been approved for PC, but those games get keyboard and mouse support, sync with your phone, and the same Google Play purchases and Play Points you use on mobile. For some games, including Supercell's Clash of Clans and Clash Royale, it is the publisher's official route to PC.
 
-## Official PC requirements
+## What you need
 
-| Component | Google minimum |
+Google checks your PC during installation. These are the requirements it lists:
+
+- **Windows**: Windows 10 (version 2004) or newer.
+- **Account**: a Windows administrator account.
+- **Virtualization**: hardware virtualization turned on in your PC's BIOS or UEFI.
+- **Windows Hypervisor Platform**: a Windows feature you may be asked to turn on during installation.
+- **Storage**: Google asks for the SSD to be set up as the main drive.
+- **Google Account**: a personal Google Account. Some countries or regions also require age verification.
+- **Location**: the app is only available in supported countries and regions, which Google lists on its support page.
+
+If your PC misses a requirement, the installer tells you which one and stops, so you can fix it and try again. If your PC meets the minimum but not the recommended level, some games may not run well. You can filter the catalogue to hide games that may not run well on your PC, and games with problems show a performance warning on their details page.
+
+One more limit: only the first Windows user who installed Google Play Games on a PC can open it and play.
+
+## Turning on virtualization and Windows Hypervisor Platform
+
+Google Play Games on PC will not install without CPU virtualization turned on in the BIOS. The exact steps depend on your motherboard or laptop maker, and our virtualization guide walks through them.
+
+Once virtualization is on, Windows Hypervisor Platform needs to be enabled too. The installer usually offers to do this for you. You can also turn it on yourself:
+
+1. Open the Start menu and search for Turn Windows features on or off.
+2. Tick Windows Hypervisor Platform.
+3. Click OK and restart when asked.
+
+Older guides mention Intel HAXM as an alternative. Google dropped HAXM support on November 11, 2022. If you installed with HAXM, uninstall Google Play Games, reinstall it and turn on Windows Hypervisor Platform when prompted.
+
+## Installing Google Play Games on PC
+
+1. On your Windows PC, go to play.google.com/googleplaygames.
+2. Click Download.
+3. Open the downloaded file and follow the instructions. Installation takes a few minutes.
+4. Sign in with your Google Account.
+5. Browse the catalogue, install a game and start playing.
+
+To play across devices, sign in with the same Google Account on your phone and your PC. Games that use Google Play Games sign-in, or their own account system, pick up where you left off.
+
+## Playing: controls, sync and multi-instance
+
+Games on Google Play Games on PC are tested for keyboard and mouse. Some have full native PC controls, while others run in a compatibility mode that maps mouse clicks to taps. Games built for PC typically use the scroll wheel for zooming and offer keyboard shortcuts for common actions.
+
+A few features worth knowing:
+
+- **Progress sync**: sign in with the same account on phone and PC and your progress follows you.
+- **Play Points**: purchases on PC earn Google Play Points, just like on your phone, and you can redeem points for perks and in-game items on PC.
+- **Multi-instancing**: you can run more than one game, or the same game on different accounts, at the same time, where the game supports it.
+- **Refunds and security**: purchases go through Google Play, so the usual Play refund process applies.
+
+## Clash of Clans and Clash Royale on PC
+
+Supercell brought Clash of Clans and Clash Royale to PC through Google Play Games, and that is the route its support pages point to. Log in with your Supercell ID to keep your village or deck in sync with your phone. Because this is the publisher's own route, it avoids the account questions that come with third-party emulators.
+
+## Why your game might not be there
+
+The catalogue only includes games whose developers have made them work on PC. Google's requirements for developers include:
+
+- The game must be playable with mouse and keyboard, at least in compatibility mode.
+- It must run at a stable frame rate: 30 FPS on lower-tier PCs and 60 FPS on higher-end ones, with no crashes over 20 or more minutes of play.
+- It must support a 16:9 aspect ratio (or 9:16 for portrait games).
+- Graphics must use OpenGL ES 3.2 or below, or Vulkan 1.1 or below.
+
+If your game is missing, it has not been brought to the platform yet. In that case, check whether the game has a native PC version, or look at our guide to the other emulator options.
+
+## Fixing installation problems
+
+Google suggests these steps if installation fails:
+
+| Problem | What to try |
 |---|---|
-| Operating system | Windows 10 version 2004 or newer |
-| Storage | SSD with 10 GB free |
-| RAM | 8 GB |
-| Graphics | Intel UHD 630 or comparable |
-| CPU | Four physical cores |
-| Other | Administrator account; hardware virtualization enabled |
+| Installer says a requirement is missing | Fix the item it names: Windows version, admin account, virtualization or storage |
+| Asked to turn on Windows Hypervisor Platform | Allow it, or enable it in Windows Features, then restart |
+| Installed earlier with HAXM | Uninstall, reinstall, and turn on Windows Hypervisor Platform when prompted |
+| Installation keeps failing | Uninstall through Windows Apps and features, reinstall, and restart your PC |
+| Still failing after all of that | Run the installer, click Send feedback, tick Send system information, and add "#gpginstall" to your message |
 
-Google recommends a gaming-class GPU and eight logical CPU cores for a better experience. Individual games can require additional storage and stronger hardware. Use a currently supported Windows release.
+If games run but stutter, update your graphics drivers, close heavy background apps, and check that the game is installed on an SSD. Some games also have their own graphics settings for PC.
 
-## Install the PC app
+## Google Play Games or a regular emulator?
 
-1. Visit the official Google Play Games website on your Windows PC.
-2. Download and run the official installer.
-3. If the installer requests Windows Hypervisor Platform, follow its instructions and restart as needed.
-4. Open the application and sign in using the Google account associated with your games.
-5. Search for the title inside the PC catalog. Check the playability notices before installing.
-6. Select Install, then launch the game after the download finishes.
-
-Some games use their own publisher login even if they were installed through Google. Match the actual game account and server before starting a new character or buying anything. Do not assume every iOS save can transfer to Android or PC.
-
-## Which mobile games are available?
-
-The public catalog includes examples such as Clash of Clans, Clash Royale, CookieRun: Kingdom, Whiteout Survival, Township and Epic Seven. Listings and device compatibility can change with the region and software version. Supercell separately confirms that Clash of Clans and Clash Royale are available through this service, which makes it preferable to generic emulators for those titles.
-
-## Controls and performance
-
-Supported games may expose keyboard and mouse controls or use a PC-specific layout. Read the individual game's instructions. Adjust the in-game graphics options before attempting system-level changes. If the PC app warns that a game might not perform well, treat that as a compatibility warning, not a problem to bypass.
-
-## Troubleshooting
-
-If installation fails, verify SSD space, Windows version, admin permissions and virtualization status. If the catalog does not offer a game, check the region and publisher's supported platforms. Do not download an unofficial PC installer claiming to add it. If progress is missing, stop before linking a new account over an existing save, then check the publisher's recovery instructions.
-
-Google Play Games on PC is not intended to install arbitrary APKs. Its strength is officially distributed, supported games rather than the broad configuration options of a conventional Android emulator.
+Use Google Play Games on PC whenever your game is in its catalogue. It is the official route, it syncs with your phone, it earns Play Points, and it carries no risk of breaking a game's rules. Use a general emulator such as BlueStacks or MuMuPlayer only for games that are not available, and only where the publisher allows it.

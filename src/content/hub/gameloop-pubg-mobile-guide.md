@@ -1,8 +1,8 @@
 ---
-title: 'GameLoop PUBG Mobile Guide: Installation, FPS and Fair Matchmaking'
-seo_title: 'GameLoop PUBG Mobile Guide: Installation, FPS and Fair'
-summary: Set up PUBG Mobile with GameLoop on PC, tune its graphics and controls, and understand how emulator matchmaking and account rules work.
-keyword: GameLoop PUBG Mobile Guide
+title: 'GameLoop guide for PUBG Mobile: install, best settings, controls and matchmaking'
+seo_title: 'GameLoop PUBG Mobile guide: setup, settings, matchmaking'
+summary: 'How to play PUBG Mobile on PC with GameLoop: installation, graphics and FPS settings, keyboard controls, emulator matchmaking and launch fixes.'
+keyword: GameLoop PUBG Mobile
 hub_type: guides
 published_at: '2026-11-24T15:00:00Z'
 roundup: true
@@ -13,59 +13,105 @@ platforms:
 titles:
 - pubg-mobile
 sources:
-- title: GameLoop platform
+- title: 'GameLoop: official product page'
   url: https://www.gameloop.com/product
   primary: true
-- title: PUBG Mobile installation page
+- title: 'GameLoop: PUBG Mobile game page'
   url: https://www.gameloop.com/game/action/pubg-mobile
   primary: true
-- title: PUBG Mobile security policy
+- title: 'PUBG Mobile: emulator matchmaking notice'
   url: https://www.pubgmobile.com/webplat/info/news_version3/35372/57705/57706/57821/57822/57823/m22591/201911/836731.shtml
   primary: true
-- title: GameLoop COD Mobile listing
-  url: https://www.gameloop.com/en/game/action/call-of-duty-mobile
-  primary: true
-- title: Activision COD Mobile support policy
+- title: 'Activision Support: Call of Duty: Mobile FAQ'
   url: https://support.activision.com/au/en/cod-mobile/articles/call-of-duty-mobile
   primary: true
 tldr:
-- Open the official GameLoop PUBG Mobile listing linked below.
-- Use the default engine settings initially.
-- Check the default movement, aim, firing and interaction keys.
-image: "/assets/img/pubg-mobile-4-7-arctic-chronicles-erangel-subzero.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/f8/44/7bf844a9-267e-a78f-5518-51ccb42b03f7/2.jpg/2600x2600bb.jpg"
-image_source: "https://apps.apple.com/us/app/pubg-mobile/id1330123889"
-image_credit: "Tencent / KRAFTON"
-image_alt: "The Ancient Beast in an official PUBG MOBILE 4.7 App Store screenshot"
-image_status: "candidate"
+- GameLoop is Tencent's emulator and the route PUBG Mobile supports for playing on PC.
+- Emulator players are matched with other emulator players, and trying to dodge that is treated as cheating.
+- Aim for a steady 60 FPS at 720p or 1080p before trying higher frame-rate modes, and never use macros or recoil scripts.
+image: /assets/img/pubg-mobile-4-7-arctic-chronicles-erangel-subzero.jpg
+image_url: https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/f8/44/7bf844a9-267e-a78f-5518-51ccb42b03f7/2.jpg/2600x2600bb.jpg
+image_source: https://apps.apple.com/us/app/pubg-mobile/id1330123889
+image_credit: Tencent / KRAFTON
+image_alt: The Ancient Beast in an official PUBG MOBILE 4.7 App Store screenshot
+image_status: candidate
 ---
 
-GameLoop provides a dedicated PUBG Mobile installation route and advertises official emulator support for the game. That makes it a logical option to evaluate for PUBG Mobile on Windows. It does not make every mobile shooter compatible or every emulator feature acceptable.
+GameLoop is Tencent's Android emulator, previously known as Tencent Gaming Buddy, and it is the way PUBG Mobile supports playing on Windows. It installs the game for you, comes with a keyboard layout already set up, and puts you in matches with other emulator players. This guide covers installation, the settings that give a steady frame rate, controls, how matchmaking works and what to do when the game will not start.
 
-## Install PUBG Mobile
+## Why GameLoop for PUBG Mobile
 
-1. Open the official GameLoop PUBG Mobile listing linked below.
-2. Download the installer directly from GameLoop. Avoid modified packages that advertise unlocked graphics or undetectable input.
-3. Install and launch the client, then use its official PUBG Mobile game page to download the game.
-4. Confirm that you have the correct regional edition and sign in with the original game account.
-5. Download required resources and enter the training area to check stability before matchmaking.
+PUBG Mobile can technically run on several emulators, but GameLoop is the one Tencent builds for it. That matters for two reasons:
 
-## Set up graphics without chasing misleading FPS numbers
+- **Support**: GameLoop has a dedicated PUBG Mobile page and installs the game directly, so updates and compatibility fixes arrive with the client.
+- **Fair matchmaking**: PUBG Mobile detects emulators and places those players in separate lobbies. Using the expected emulator keeps you on the right side of that system.
 
-Use the default engine settings initially. Set the game to a supported frame-rate option and reduce visual quality until the frame rate becomes stable. Start at 720p or 1080p depending on your PC, with a 60 FPS target if supported by the game. Higher frame-rate options depend on the current build and device configuration. A 120 Hz display alone does not unlock a 120 FPS game mode.
+If you mainly want to play PUBG Mobile on PC, start with GameLoop rather than a general emulator.
 
-Use an FPS display where available and run a consistent training-area sequence: move through a detailed area, turn the camera rapidly and fire several ordinary shots. Repeat for ten minutes to reveal heat-related throttling or intermittent stutters. Change one setting per test. If the game offers a lower graphics preset at a higher frame-rate setting, evaluate that combination first.
+## Before you install
 
-## Controls and matchmaking
+- **Turn on virtualization** in your BIOS or UEFI. Every emulator runs better with it, and some will not run at all without it. Our virtualization guide shows how.
+- **Free up space on an SSD**. GameLoop plus PUBG Mobile and its downloadable resources take a good chunk of space, and loading from an SSD is much faster.
+- **Update your graphics drivers** from NVIDIA, AMD or Intel.
+- **Bind your PUBG Mobile account** to a login you can use anywhere, such as Google, Facebook, Apple or another supported account, so your progress moves with you between phone and PC.
 
-Check the default movement, aim, firing and interaction keys. Adjust permitted mappings only when the current UI layout requires them. Test inventory controls, vehicles and ordinary camera movement before a match. Avoid macros, rapid-fire scripts, recoil compensation, automatic inputs or tools that conceal the emulator.
+## Installing GameLoop and PUBG Mobile
 
-PUBG Mobile has publicly described evading its emulator matchmaking as cheating. Accept the matchmaking behavior assigned by the game and do not try to join mobile-only matches by disguising your platform. A longer queue is not a valid reason to bypass that restriction.
+1. Go to GameLoop's official website and download the installer. Avoid "optimized" or "unlocked" builds from other sites, which can contain malware and can get your account flagged.
+2. Install GameLoop and launch it.
+3. Open GameLoop's PUBG Mobile page and click to install the game.
+4. Check that you are getting the right regional edition for your account.
+5. Launch the game, log in with your bound account and let it download its resources.
+6. Go into the training ground before your first match to check controls and performance.
+
+## Graphics and FPS settings
+
+Start simple and only push higher once the basics are stable.
+
+### In GameLoop
+
+Open GameLoop's settings and look at the engine options. Leave them on their defaults for your first test. If you get black screens, crashes or heavy stutter, try the other rendering option, restart and test again. Give the emulator more memory if your PC has 16 GB of RAM or more.
+
+### In PUBG Mobile
+
+- **Resolution**: 1280 x 720 on low-end PCs, 1920 x 1080 on most others.
+- **Graphics preset**: start one step below the highest your PC seems to handle.
+- **Frame rate**: aim for a steady 60 FPS. Higher frame-rate modes depend on the current game build and on what the game allows on emulator, and a 120 Hz monitor alone does not unlock them.
+- **Lower first**: shadows and anti-aliasing cost the most. Lower these before dropping resolution.
+
+### How to test
+
+Use the training ground for a repeatable test. Run through a built-up area, turn the camera quickly and fire a few magazines, then repeat for ten minutes to catch overheating or stutter that only shows up later. Change one setting at a time. If a lower graphics preset lets you hold a higher frame rate smoothly, that is usually the better trade in a shooter.
+
+## Keyboard and mouse controls
+
+GameLoop ships with a PUBG Mobile key layout already set up. Before your first real match:
+
+1. Open the key mapping view and read through the defaults for movement, aiming, firing, crouching, prone, jumping, reloading and inventory.
+2. Change only what you need to. Many players move lean, crouch or prone to keys that suit their hands.
+3. Test vehicles, looting, opening doors and throwing grenades in the training ground.
+4. Adjust mouse sensitivity in the game's own settings until camera movement feels right.
+
+Stay away from macros, rapid-fire scripts, recoil-compensation tools and anything that automates input or hides the emulator. These break PUBG Mobile's rules and are the quickest way to get an account banned.
+
+## How emulator matchmaking works
+
+PUBG Mobile places emulator players in matches with other emulator players. If you join a squad with friends on phones, the whole squad goes into an emulator lobby, which can make matches noticeably harder for your mobile teammates.
+
+PUBG Mobile has said publicly that trying to get around emulator matchmaking counts as cheating. Accept the lobby the game puts you in. Do not use tools that disguise your platform to get into mobile-only matches, even if queues feel long.
 
 ## What about Call of Duty: Mobile?
 
-GameLoop also advertises itself as an official emulator for COD Mobile. Activision's support FAQ, however, expressly says emulators are unsupported. That conflict matters more than the emulator's promotional claims. MaxCrit does not recommend an emulator setup for COD Mobile on the strength of GameLoop marketing alone. Check your regional publisher's current written policy or play on a supported device.
+GameLoop also lists Call of Duty: Mobile. Activision's own Call of Duty: Mobile support FAQ, however, says emulators are not supported. When an emulator's marketing and the publisher's support page disagree, the publisher's rules are the ones that apply to your account. If you play Call of Duty: Mobile, check Activision's current policy for your region, or play on a supported phone or tablet.
 
-## Fix launch issues
+## Fixing launch and performance problems
 
-If PUBG Mobile stalls after an update, check the official maintenance announcements, available storage and GameLoop's current version. Restart Windows and use legitimate repair options where available. Do not replace anti-cheat files or inject third-party libraries. Contact official support if the client remains incompatible.
+| Problem | What to try |
+|---|---|
+| Game will not start after an update | Check PUBG Mobile's official channels for maintenance, update GameLoop, then restart Windows |
+| Stuck on the loading screen | Check free disk space and your connection, then use GameLoop's repair or reinstall options |
+| Low or unstable FPS | Lower shadows and anti-aliasing, close background apps, update graphics drivers |
+| Black screen or crash on launch | Switch GameLoop's rendering option and restart |
+| Controls not responding | Reopen the key mapping view and reset to the default PUBG Mobile layout |
+
+Never replace anti-cheat files, install "bypass" tools or inject third-party software to fix a problem. If nothing works, contact PUBG Mobile or GameLoop support through their official channels.
