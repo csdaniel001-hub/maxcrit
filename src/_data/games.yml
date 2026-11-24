@@ -497,3 +497,15 @@ path-to-nowhere:
   publisher: "AISNO Games"
   appstore: "https://apps.apple.com/us/app/path-to-nowhere/id1606685106"
   status: "Live"
+efootball:
+  name: "eFootball"
+  publisher: "Konami"
+  official: "https://www.konami.com/efootball/"
+  appstore: "https://apps.apple.com/us/app/efootball/id1117270703"
+  status: "Live"
+fc-mobile:
+  name: "EA SPORTS FC Mobile"
+  publisher: "Electronic Arts"
+  official: "https://www.ea.com/games/ea-sports-fc/fc-mobile"
+  appstore: "https://apps.apple.com/us/app/ea-sports-fc-mobile-soccer/id1094930513"
+  status: "Live"
