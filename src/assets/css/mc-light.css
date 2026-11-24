@@ -2042,7 +2042,7 @@ html[data-gz=light] body.lg-page .lg-body{max-width:none;margin:0}
 .kx-fx{display:none!important}
 /* side menu: the hand slides in from the right edge and taps toward the label */
 .gz-side nav > a,.gz-side .sub{position:relative}
-.kx-pt{position:absolute!important;right:4px;top:50%;width:48px!important;height:26.8px;margin:-13px 0 0;flex:none;background:url(../img/micons/point.webp) center/contain no-repeat;pointer-events:none;opacity:0;transform:translateX(14px) rotate(4deg);transition:opacity .18s ease,transform .28s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,.5));z-index:3}
+.kx-pt{position:absolute!important;right:4px;top:50%;width:34px!important;height:19px;margin:-9.5px 0 0;flex:none;background:url(../img/micons/point.webp) center/contain no-repeat;pointer-events:none;opacity:0;transform:translateX(14px) rotate(4deg);transition:opacity .18s ease,transform .28s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,.5));z-index:3}
 .gz-side nav > a:hover > .kx-pt,.gz-side .sub:hover > .kx-pt,.gz-side nav > a:focus-visible > .kx-pt,.gz-side .sub:focus-visible > .kx-pt{opacity:1;transform:translateX(0) rotate(0);animation:kxTap 1.1s .3s ease-in-out infinite}
 @keyframes kxTap{0%,100%{transform:translateX(0)}35%{transform:translateX(-6px)}55%{transform:translateX(-2px)}70%{transform:translateX(-5px)}}
 /* buttons: a quick crit-hit jolt, pink/cyan split on the label that settles into a soft glow */
@@ -2054,3 +2054,18 @@ html[data-gz=light] body.lg-page .lg-body{max-width:none;margin:0}
 @media (prefers-reduced-motion:reduce){.kx-pt,.gz-side a:hover > .kx-pt{animation:none!important;transition:opacity .1s!important}:is(.cc-q,.hz-b1,.hz-b2,.hz-moreb,.cc-btn,.mx-foot .hz-link,.kx-mbtn,.mc-stores a,.hz-rbh-go,.hz-tabs button,.kx-rnav button,.hz-nav button):hover{animation:none;transform:none}}
 .gz-side .kx-tight{padding-right:56px!important}
 .gz-side nav > a,.gz-side .sub{overflow:visible!important}
+/* ===== article header v3 (2026-11-24): one cinematic banner, title over the image ===== */
+@media (min-width:701px){
+.ar-top > .nf-in{display:grid!important;grid-template-columns:1fr!important;position:relative}
+html[data-gz=light] body .ar .gz-ahead,html[data-gz=light] body .ar .gz-afig{grid-area:1/1!important}
+html[data-gz=light] body .ar .gz-afig{position:relative!important;z-index:0;min-height:clamp(360px,32vw,500px)!important;aspect-ratio:auto!important;height:auto!important}
+html[data-gz=light] body .ar .gz-afig .gz-pic{position:absolute!important;inset:0!important;height:100%!important;display:block!important}
+html[data-gz=light] body .ar .gz-afig .gz-pic img{position:absolute!important;inset:0;width:100%!important;height:100%!important;aspect-ratio:auto!important;object-fit:cover}
+html[data-gz=light] body .ar .gz-afig .gz-pic::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(0deg,rgba(8,10,34,.96) 0%,rgba(8,10,34,.78) 26%,rgba(8,10,34,.3) 48%,rgba(8,10,34,0) 64%),linear-gradient(90deg,rgba(8,10,34,.55) 0%,rgba(8,10,34,.1) 45%,transparent 60%)}
+html[data-gz=light] body .ar .gz-afig figcaption{position:absolute!important;top:12px!important;right:12px!important;bottom:auto!important;display:block!important;border-radius:3px;background:rgba(8,9,30,.6)!important;backdrop-filter:blur(4px)}
+html[data-gz=light] body .ar .gz-ahead{position:relative;z-index:2;align-self:end;max-width:860px;padding:34px 36px 26px!important;pointer-events:none}
+html[data-gz=light] body .ar .gz-ahead a{pointer-events:auto}
+html[data-gz=light] body .ar .gz-ahead h1{font-size:clamp(30px,3vw,46px)!important;margin:10px 0 12px!important;text-shadow:0 2px 18px rgba(0,0,0,.6)}
+html[data-gz=light] body .ar .gz-alead{color:#dfe6ff!important;text-shadow:0 1px 8px rgba(0,0,0,.7);max-width:720px!important}
+html[data-gz=light] body .ar .gz-spec{border-top:1px solid rgba(255,255,255,.16)!important;display:inline-flex!important}
+}

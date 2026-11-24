@@ -177,16 +177,16 @@
 
 /* side menu hover: a pointing hand slides in and its fingertip lines up with the middle of the label */
 (function(){
-  var TIP=3/26.8; // fingertip sits 11% down the hand image; the image is 48px wide on screen
+  var TIP=7.6/67; // fingertip sits 11% down the hand image
   function textBox(a){var r=document.createRange(),L=1e9,R=-1e9,T=1e9,B=-1e9,w=document.createTreeWalker(a,NodeFilter.SHOW_TEXT),n;
     while((n=w.nextNode())){if(!n.nodeValue.trim())continue;r.selectNodeContents(n);[].forEach.call(r.getClientRects(),function(q){L=Math.min(L,q.left);R=Math.max(R,q.right);T=Math.min(T,q.top);B=Math.max(B,q.bottom);});}
     return R>L?{left:L,right:R,mid:(T+B)/2}:null;}
   function place(a){var h=a.querySelector(':scope > .kx-pt'),t=textBox(a);if(!h||!t)return;var box=a.getBoundingClientRect(),hw=h.offsetWidth,hh=h.offsetHeight;
-    var x=Math.min(t.right-box.left+7,box.width-hw+14);h.style.left=x+'px';h.style.right='auto';h.style.top=(t.mid-box.top-hh*TIP)+'px';h.style.marginTop='0';}
+    var x=Math.min(t.right-box.left+16,box.width-hw+12);h.style.left=x+'px';h.style.right='auto';h.style.top=(t.mid-box.top-hh*TIP)+'px';h.style.marginTop='0';}
   function go(){document.querySelectorAll('.gz-side nav > a,.gz-side .sub').forEach(function(a){if(a.querySelector(':scope > .kx-pt'))return;var f=document.createElement('i');f.className='kx-pt';f.setAttribute('aria-hidden','true');a.appendChild(f);
     a.addEventListener('mouseenter',function(){place(a);});a.addEventListener('focus',function(){place(a);});});fit();}
   // labels too long to leave room for the hand wrap onto two lines instead of being covered
-  function fit(){document.querySelectorAll('.gz-side nav > a,.gz-side .sub').forEach(function(a){a.classList.remove('kx-tight');var t=textBox(a);if(!t)return;var box=a.getBoundingClientRect();if(box.width&&box.right-t.right<41)a.classList.add('kx-tight');});}
+  function fit(){document.querySelectorAll('.gz-side nav > a,.gz-side .sub').forEach(function(a){a.classList.remove('kx-tight');var t=textBox(a);if(!t)return;var box=a.getBoundingClientRect();if(box.width&&box.right-t.right<38)a.classList.add('kx-tight');});}
   window.addEventListener('resize',function(){clearTimeout(fit.t);fit.t=setTimeout(fit,150);});
   window.addEventListener('load',fit);if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',fit);
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();
