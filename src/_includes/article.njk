@@ -2,21 +2,34 @@
 layout: base.njk
 bodyClass: gz-art
 ---
-{% from "macros.njk" import tc, getgame with context %}
+{% from "macros.njk" import tc, getgame, arr with context %}
 {% set body = content | anchors %}
 {% set tocItems = content | toc %}
 {% set isHub = hub_type %}
 {% set ht = hubTypes | find('slug', hub_type) %}
 <article class="gz-article article ar{% if isHub %} is-hub{% endif %}">
-<p class="gz-crumbs mono ar-crumbs"><a href="{{ '/index.html' | rel }}">Home</a> / {% if isHub %}<a href="{{ '/hub.html' | rel }}">Player Hub</a> / <a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% else %}<a href="{{ '/news.html' | rel }}">News</a>{% endif %}{% for gs in genres or [] %} / <a href="{{ ('/genre/' + gs + '.html') | rel }}">{{ (genreNav | find('slug', gs)).name }}</a>{% endfor %}{% for t in topics or [] %} / <a href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name }}</a>{% endfor %}</p>
-<div class="cc ar-hero"><div class="cc-main"><section class="hz-panel hz-hero ar-hz" aria-label="Article header">
-<div class="hz-in"><div class="ar-split">
-<div class="hz-tx ar-tx"><span class="hz-hh">{% if isHub %}Player Hub<i aria-hidden="true">//</i>{{ ht.name }}{% else %}News{% if genres and genres.length %}<i aria-hidden="true">//</i>{{ (genreNav | find('slug', genres[0])).name }}{% endif %}{% endif %}</span>
-<span class="hz-txb"><h1 class="hz-ht">{{ title }}</h1><span class="hz-hd">{{ summary }}</span>
-<span class="hz-btns"><time class="hz-b2" datetime="{{ (updated_at or published_at) | isoDate }}">{% if isHub %}Checked {% endif %}{{ (updated_at or published_at) | longDate }}</time>{% if platforms and platforms.length %}<span class="hz-b2 ar-plat">{% for p in platforms %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</span></span></span></div>
-<figure class="ar-pic"><div class="ar-frame"><span class="ar-img"><img src="{{ image | wsrc(960) | rel }}" srcset="{{ image | srcset }}" sizes="(max-width: 700px) 100vw, 760px" width="1600" height="900" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high" decoding="async"></span></div><i class="ar-c ar-c1" aria-hidden="true"></i><i class="ar-c ar-c2" aria-hidden="true"></i></figure>
+{% set gn = (genreNav | find('slug', genres[0])) if (genres and genres.length) else null %}
+{% set tn = (topicNav | find('slug', topics[0])) if (topics and topics.length) else null %}
+{% set lead = (titles[0] if titles and titles.length else '') %}
+{% set tabw = 70 + ((gn.name | length) * 7 + 30 if gn else 0) + ((tn.name | length) * 7 + 30 if tn else 0) + ((ht.name | length) * 7 + 30 if isHub else 0) %}
+<header class="axh{% if not (lead and games[lead]) %} no-go{% endif %}" style="--tw:{{ tabw }}px">
+<nav class="axh-tab" aria-label="Breadcrumb"><span class="axh-tin"><a class="axh-home mono" href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">{{ 'Hub' if isHub else 'News' }}</a>{% if isHub %}<a class="cc-tab" href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% endif %}{% if gn %}<a class="cc-tab" href="{{ ('/genre/' + gn.slug + '.html') | rel }}">{{ gn.name }}</a>{% endif %}{% if tn %}<a class="cc-tab axh-t2" href="{{ ('/' + tn.slug + '.html') | rel }}">{{ tn.name }}</a>{% endif %}</span></nav>
+<div class="axh-panel"><div class="axh-in">
+<div class="axh-l">
+<h1 class="axh-t">{{ title }}</h1>
+<p class="axh-s">{{ summary }}</p>
+<div class="axh-prog" aria-hidden="true"><i></i></div>
+<div class="axh-row">
+<button type="button" class="axh-ib axh-share" aria-label="Share this article"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
+<button type="button" class="axh-ib axh-copy" aria-label="Copy link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg></button>
+<a class="axh-ib" href="#h-src" aria-label="Jump to sources"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h7"/></svg></a>
+<span class="axh-meta mono"><time datetime="{{ (updated_at or published_at) | isoDate }}">{% if isHub %}Checked {% endif %}{{ (updated_at or published_at) | longDate }}</time>{% if platforms and platforms.length %}<span>{% for p in platforms %}{{ (platformNav | find('slug', p)).name }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</span>
+</div>
+</div>
+<figure class="axh-r"><div class="ar-frame"><span class="ar-img"><img src="{{ image | wsrc(960) | rel }}" srcset="{{ image | srcset }}" sizes="(max-width: 760px) 100vw, 720px" width="1600" height="900" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high" decoding="async"></span></div><figcaption class="mono">Image: {{ image_credit }} · <a href="{{ image_source }}" target="_blank" rel="noopener">source ↗</a></figcaption></figure>
 </div></div>
-</section><p class="ar-credit mono"><span>Image: {{ image_credit }}</span><a href="{{ image_source }}" target="_blank" rel="noopener">source ↗</a></p></div></div>
+{% if lead and games[lead] %}<a class="axh-go" href="{{ ('/games/' + lead + '.html') | rel }}"><span class="axh-gin">{{ games[lead].name if (games[lead].name | length) < 16 else 'Game hub' }} {{ arr() }}</span></a>{% endif %}
+</header>
 <div class="gz-agrid">
 <div class="gz-abody">
 {% if tldr %}<div class="gz-tldr"><h2>The short version</h2><ul>{% for t in tldr %}<li>{{ t | safe }}</li>{% endfor %}</ul></div>{% endif %}
