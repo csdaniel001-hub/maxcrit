@@ -2038,11 +2038,11 @@ html[data-gz=light] body .kx-consent .kx-cc-t{font:italic 700 22px/1 var(--cnd)!
 html[data-gz=light] body.lg-page .gz-main>.lg-grid{max-width:none;margin:0;padding:0 32px}
 html[data-gz=light] body.lg-page .lg-body{max-width:none;margin:0}
 @media (max-width:700px){html[data-gz=light] body.lg-page .gz-main>.lg-grid{padding:0 16px}}
-/* ===== Hover v4 (2026-11-24): pointing hand in the side menu, "crit hit" on buttons ===== */
+/* ===== Hover v4 (2026-11-24): gem arrow in the side menu, "crit hit" on buttons ===== */
 .kx-fx{display:none!important}
-/* side menu: the hand slides in from the right edge and taps toward the label */
+/* side menu: the arrow slides in from the right edge and taps toward the label */
 .gz-side nav > a,.gz-side .sub{position:relative}
-.kx-pt{position:absolute!important;right:4px;top:50%;width:34px!important;height:19px;margin:-9.5px 0 0;flex:none;background:url(../img/micons/point.webp) center/contain no-repeat;pointer-events:none;opacity:0;transform:translateX(14px) rotate(4deg);transition:opacity .18s ease,transform .28s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,.5));z-index:3}
+.kx-pt{position:absolute!important;right:4px;top:50%;width:36px!important;height:30px;margin:-15px 0 0;flex:none;background:url(../img/micons/point.webp) center/contain no-repeat;pointer-events:none;opacity:0;transform:translateX(14px);transition:opacity .18s ease,transform .28s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,.5));z-index:3}
 .gz-side nav > a:hover > .kx-pt,.gz-side .sub:hover > .kx-pt,.gz-side nav > a:focus-visible > .kx-pt,.gz-side .sub:focus-visible > .kx-pt{opacity:1;transform:translateX(0) rotate(0);animation:kxTap 1.1s .3s ease-in-out infinite}
 @keyframes kxTap{0%,100%{transform:translateX(0)}35%{transform:translateX(-6px)}55%{transform:translateX(-2px)}70%{transform:translateX(-5px)}}
 /* buttons: a quick crit-hit jolt, pink/cyan split on the label that settles into a soft glow */
