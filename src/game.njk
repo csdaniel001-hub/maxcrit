@@ -48,9 +48,9 @@ eleventyComputed:
 </div>
 
 <aside class="gp-side">
-{% if hubp.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h3>Player Hub</h3></header>{% for n in hubp %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<a class="cc-btn cy" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></div></div>{% endif %}
-{% if ment.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h3>Also in</h3></header>{% for n in ment | limit(5) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}</div></div>{% endif %}
-{% set sim = games | gamesInGenre(all, gen, slug) %}{% if sim.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h3>More {{ gn.name }} games</h3></header>{% for s in sim | limit(6) %}<a class="hz-rel mx-rel gp-sim" href="{{ ('/games/' + s + '.html') | rel }}">{% if not games[s].noicon %}<img class="mx-av" src="{{ ('/assets/img/icons/' + s + '.webp') | rel }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span class="hz-rt"><b class="w">{{ games[s].name }}</b><small>{{ games[s].publisher }}</small></span></a>{% endfor %}<a class="cc-btn" href="{{ ('/genre/' + gen + '.html') | rel }}">All {{ gn.name }} {{ arr() }}</a></div></div>{% endif %}
+{% if hubp.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Player Hub</h2></header>{% for n in hubp %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<a class="cc-btn cy" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></div></div>{% endif %}
+{% if ment.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Also in</h2></header>{% for n in ment | limit(5) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}</div></div>{% endif %}
+{% set sim = games | gamesInGenre(all, gen, slug) %}{% if sim.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">More {{ gn.name }} games</h2></header>{% for s in sim | limit(6) %}<a class="hz-rel mx-rel gp-sim" href="{{ ('/games/' + s + '.html') | rel }}">{% if not games[s].noicon %}<img class="mx-av" src="{{ ('/assets/img/icons/' + s + '.webp') | rel }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span class="hz-rt"><b class="w">{{ games[s].name }}</b><small>{{ games[s].publisher }}</small></span></a>{% endfor %}<a class="cc-btn" href="{{ ('/genre/' + gen + '.html') | rel }}">All {{ gn.name }} {{ arr() }}</a></div></div>{% endif %}
 </aside>
 </div>
 
