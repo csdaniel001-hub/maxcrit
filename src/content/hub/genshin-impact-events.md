@@ -29,7 +29,7 @@ tldr:
 - 'First to end: Stress Block Smashing Project, on 2026-11-30.'
 - 'Longest running: Where Kristall Roots Run Deep, until 2027-01-26.'
 image: "/assets/img/genshin-impact-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/2c/f0/502cf01f-f215-6585-7f97-c6cd4c2e8364/17e71dd9-9364-44cf-873e-bbbece47429f_EN-5.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/56/3e/5e563e37-ace1-d6fa-dd9b-4f507b2b37c9/EN-2796x1290-_U65e0logo.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/genshin-impact/id1517783697"
 image_credit: "HoYoverse"
 image_alt: "Official App Store screenshot of Genshin Impact"

@@ -22,7 +22,7 @@ tldr:
 - 'First to end: Phantom Gallery, on 2026-12-01.'
 - 'Longest running: Maiden’s Chains Battle Pass, until 2026-12-17.'
 image: "/assets/img/diablo-immortal-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/c7/e6/abc7e63f-68b1-3156-435f-80f77c178698/EBC_DI_ASO_Panel_Screen02_Warlock_2796x1290.png/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/0b/97/f70b977d-089c-f1b4-ab8d-3f2b5e5f4959/EBC_DI_ASO_Panel_Screen04_2752x2064.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/diablo-immortal/id1492005122"
 image_credit: "Blizzard Entertainment"
 image_alt: "Official App Store screenshot of Diablo Immortal"

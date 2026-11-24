@@ -22,7 +22,7 @@ tldr:
 - 'First to end: 16 Million Downloads Boss Battle: Period III, on 2026-11-26.'
 - 'Longest running: Limited crafting and refinement recipes, until 2026-12-10.'
 image: "/assets/img/toram-online-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/4d/9e/8d4d9e63-7a69-55aa-5bd2-68036b4ac96c/8d7244fd-2f3f-4869-8721-52df9dcb7fc4_EN_2778x2048_02.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/d5/f4/fdd5f449-b0b7-4073-ae85-d5b1a7b4ba90/580ae244-0b7b-470d-a92d-c2e61457ecce_EN_2778x2048_04.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/toram-online/id988683886"
 image_credit: "Asobimo"
 image_alt: "Official App Store screenshot of Toram Online"

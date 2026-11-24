@@ -29,7 +29,7 @@ tldr:
 - 'First to end: Trails of the Hobbling Crow, on 2026-11-30.'
 - 'Longest running: En-Nah Into Your Lap, until 2026-12-01.'
 image: "/assets/img/zenless-zone-zero-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/c8/33/2cc8335e-f6ee-7582-d999-ba1a3d99c43e/EN-2688-3.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/64/16/3464161c-0827-f13d-051b-e52e38356356/EN-2688-1.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/zenless-zone-zero/id1606356401"
 image_credit: "HoYoverse"
 image_alt: "Official App Store screenshot of Zenless Zone Zero"

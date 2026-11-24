@@ -30,7 +30,7 @@ tldr:
 - 'First to end: Friday Hot Time and Thank-You Reward, on 2026-11-27.'
 - 'Longest running: Winter Update Notification Subscription, until 2026-12-28.'
 image: "/assets/img/black-desert-mobile-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/d9/ca/ced9ca8d-e8e9-9859-b7d8-9ed9c9604892/e870a1d1-a391-4a3f-a4cf-9587af4a4eb9_191030_Uc5c5_Ub370_Uc774_Ud2b8__Ub9c8_Ucf13_Uc2a4_Ud06c_Ub9b0_Uc0f7_Uc5c5_Ub370_Uc774_Ud2b8__Uc544_Uc774_Ud328_Ub4dc_Uc6a9_2732x2048__Uc2b9_Ub9c8.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/72/ee/b472eeb9-1524-f82b-a284-e643698a7554/363c0a77-3edb-4fff-af6b-9454c958feea_191030_Uc5c5_Ub370_Uc774_Ud2b8__Ub9c8_Ucf13_Uc2a4_Ud06c_Ub9b0_Uc0f7_Uc5c5_Ub370_Uc774_Ud2b8__Uc544_Uc774_Ud3f0_Uc6a9_2208x1242__Uc2b9_Ub9c8.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/black-desert-mobile/id1477186880"
 image_credit: "Pearl Abyss"
 image_alt: "Official App Store screenshot of Black Desert Mobile"

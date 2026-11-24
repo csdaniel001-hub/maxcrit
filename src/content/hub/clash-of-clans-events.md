@@ -21,7 +21,7 @@ tldr:
 - 'First to end: Snackable Troops, on 2026-11-26.'
 - 'Longest running: Fully Forged Challenge, until 2026-12-01.'
 image: "/assets/img/clash-of-clans-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/08/45/4a084581-0152-c838-69fd-e421626a774f/COC_enUS_Progression_Update2026V3_SS3_iOS_6.9_2796x1290_Phiture.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/eb/93/a2eb93cf-39ec-dc0f-32e4-b4a91971fe6d/COC_enUS_Progression_Update2026V3_SS1_iOS_6.9_2796x1290_Phiture.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/clash-of-clans/id529479190"
 image_credit: "Supercell"
 image_alt: "Official App Store screenshot of Clash of Clans"

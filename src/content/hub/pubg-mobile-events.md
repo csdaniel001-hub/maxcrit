@@ -23,7 +23,7 @@ tldr:
 - 'First to end: Popularity Annual Gala battle phase, on 2026-12-20.'
 - 'Longest running: S33 Classic and Casual Season, until 2027-01-14.'
 image: "/assets/img/pubg-mobile-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/27/0d/af270d75-3539-842a-fac9-768addb7bc30/2.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/df/52/d9df52bf-3188-0e4f-c238-da9792d5da50/5.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/pubg-mobile/id1330123889"
 image_credit: "Tencent / KRAFTON"
 image_alt: "Official App Store screenshot of PUBG MOBILE"

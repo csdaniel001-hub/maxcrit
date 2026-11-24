@@ -25,7 +25,7 @@ tldr:
 - 'First to end: Version 4.7 Discord Quest reward redemption, on 2026-12-21.'
 - 'Longest running: The Fluffy Movie: Overheated, until 2026-12-23.'
 image: "/assets/img/honkai-star-rail-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/bc/e5/48bce57e-b3d7-559c-0edf-60390e94ec37/EN-2622_U00d71206-0-4.7KV.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/1d/df/dd1ddfa4-996b-2940-0676-3240b749fde7/EN-2622_U00d71206-3-_U7eef_U82f1.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/honkai-star-rail/id1599719154"
 image_credit: "HoYoverse"
 image_alt: "Official App Store screenshot of Honkai: Star Rail"

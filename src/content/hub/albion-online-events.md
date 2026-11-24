@@ -24,7 +24,7 @@ tldr:
 - 'First to end: Guild Season 35 (Asia), on 2027-02-08.'
 - 'Longest running: Guild Season 35 (Europe), until 2027-02-08.'
 image: "/assets/img/albion-online-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/ba/1f/a6ba1fa5-0f65-ed07-a1fd-5b9193c8aab7/153c0d3e-5eb2-480f-9de4-4c0387e683ce_Tablet2_gear_EN.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/d5/34/6cd5348e-9177-cd81-b6d6-34e3fc777863/3991a7c1-2000-4a79-9fb8-18c8cb733b91_PhoneSmall8_journey_EN.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/albion-online/id1202788573"
 image_credit: "Sandbox Interactive"
 image_alt: "Official App Store screenshot of Albion Online"

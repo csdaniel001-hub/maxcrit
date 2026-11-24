@@ -24,7 +24,7 @@ tldr:
 - 'First to end: 3,000-Day Celebration Server Cooperation, on 2026-11-26.'
 - 'Longest running: Foundry growth buffs, until 2026-12-31.'
 image: "/assets/img/epic-seven-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/f6/ca/c3f6ca82-857f-3bb2-c760-d70bf90fdf77/iOS_EP_2732x2048_EN2.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/f2/7e/bbf27e59-c629-846b-b487-4bd2579e5e59/iOS_EP_2732x2048_EN5.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/epic-seven/id1322399438"
 image_credit: "Smilegate"
 image_alt: "Official App Store screenshot of Epic Seven"

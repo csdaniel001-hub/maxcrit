@@ -476,3 +476,24 @@ monster-hunter-now:
   appstore: "https://apps.apple.com/us/app/monster-hunter-now/id6445906110"
   googleplay: "https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter"
   status: "Live"
+arknights:
+  name: "Arknights"
+  publisher: "Yostar"
+  official: "https://www.arknights.global/"
+  appstore: "https://apps.apple.com/us/app/arknights/id1464872022"
+  status: "Live"
+etheria-restart:
+  name: "Etheria: Restart"
+  publisher: "XD Entertainment"
+  appstore: "https://apps.apple.com/us/app/etheria-restart/id6737684676"
+  status: "Live"
+sword-of-convallaria:
+  name: "Sword of Convallaria"
+  publisher: "XD Entertainment"
+  appstore: "https://apps.apple.com/us/app/sword-of-convallaria/id6451019582"
+  status: "Live"
+path-to-nowhere:
+  name: "Path to Nowhere"
+  publisher: "AISNO Games"
+  appstore: "https://apps.apple.com/us/app/path-to-nowhere/id1606685106"
+  status: "Live"

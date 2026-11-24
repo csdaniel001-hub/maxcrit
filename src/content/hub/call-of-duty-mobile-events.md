@@ -23,7 +23,7 @@ tldr:
 - 'First to end: Chase, on 2026-11-25.'
 - 'Longest running: Super Attack of the Undead 3.0, until 2026-12-09.'
 image: "/assets/img/call-of-duty-mobile-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/56/0a/22560ac7-3e43-39ea-dedc-5103e3594710/Sniper_Games_2688x1242.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/64/d9/d564d958-d782-ae8a-4910-3196f0fc00ff/MilSim_Action_2688x1242-HUD.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214"
 image_credit: "Activision"
 image_alt: "Official App Store screenshot of Call of Duty®: Mobile"

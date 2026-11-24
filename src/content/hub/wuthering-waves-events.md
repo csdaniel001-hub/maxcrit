@@ -24,7 +24,7 @@ tldr:
 - 'First to end: Wuthering Waves Battle Rush, on 2026-12-10.'
 - 'Longest running: Second Coming of Solaris: Unwritten Dreams, until 2026-12-21.'
 image: "/assets/img/wuthering-waves-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/e3/1d/4ce31d02-f4ee-6adb-0cf4-14577cdabda2/2.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/58/d4/6158d4be-f475-57d0-cc2c-a5109d7a4fe8/3.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/wuthering-waves/id6475033368"
 image_credit: "Kuro Games"
 image_alt: "Official App Store screenshot of Wuthering Waves"
