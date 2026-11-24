@@ -1938,3 +1938,8 @@ html[data-gz=light] body .lr-list .hz-tabs button{white-space:nowrap!important;f
 .ga-last time{font:500 11px/1 var(--mono);color:#8f9ad6;letter-spacing:.06em}
 @media (max-width:700px){.ga-filters{margin:0 16px 16px!important}.ga-grid{padding:0 16px;grid-template-columns:1fr 1fr;gap:12px}.ga-sort{margin-left:0}.ga-art{height:80px}.ga-ico{width:48px;height:48px;border-radius:12px}.ga-nm b{font-size:15px}.ga-last{display:none}.ga-tags .ga-pl{display:none}}
 .ga-filters{padding:2px!important}
+/* hover text: the old light-theme variables were near-black on this dark design */
+html[data-gz=light]{--or-t:#ff6fb1}
+html[data-gz=light] body .hz-all li a:hover b,html[data-gz=light] body .hz-rel:hover b,html[data-gz=light] body .hz-card:hover b,html[data-gz=light] body .hz-rv-lead:hover b,html[data-gz=light] body .hz-rv-row:hover b,html[data-gz=light] body .gp-sim:hover b,html[data-gz=light] body .cc-nr:hover b{color:#ff6fb1!important}
+html[data-gz=light] body .hz-nav button:hover,html[data-gz=light] body .hz-moreb:hover,html[data-gz=light] body .mc-stores a:hover,html[data-gz=light] body .gz-grp a.sub:hover{color:#fff!important}
+@media (max-width:700px){.ga-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.ga-genres{flex-wrap:nowrap!important;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}.ga-genres::-webkit-scrollbar{display:none}}
