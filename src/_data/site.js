@@ -20,7 +20,7 @@ export default {
     address: "[REGISTERED ADDRESS]",
     registry: "[COMPANY REGISTRY NO. or SOLE TRADER REGISTRY NO.]",
     tax: "[TAX NUMBER]",
-    host: { name: "[HOSTING PROVIDER]", address: "[HOSTING PROVIDER ADDRESS]", email: "[HOSTING PROVIDER EMAIL]" },
+    host: { name: "Rackhost Zrt.", address: "6722 Szeged, Tisza Lajos körút 41., Hungary", email: "info@rackhost.hu" },
     logDays: 30, // how long the host keeps server logs; confirm with the host
     updated: "2026-11-24",
   },
