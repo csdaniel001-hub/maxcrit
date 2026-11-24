@@ -440,3 +440,16 @@ survivor-io:
   appstore: "https://apps.apple.com/us/app/survivor-io/id1528941310"
   googleplay: "https://play.google.com/store/apps/details?id=com.dxx.firenow"
   status: "Live"
+diablo-immortal:
+  name: "Diablo Immortal"
+  publisher: "Blizzard Entertainment"
+  official: "https://diabloimmortal.blizzard.com/"
+  appstore: "https://apps.apple.com/us/app/diablo-immortal/id1492005122"
+  googleplay: "https://play.google.com/store/apps/details?id=com.blizzard.diablo.immortal"
+  status: "Live"
+epic-seven:
+  name: "Epic Seven"
+  publisher: "Smilegate"
+  official: "https://page.onstove.com/epicseven/global"
+  appstore: "https://apps.apple.com/us/app/epic-seven/id1322399438"
+  status: "Live"
