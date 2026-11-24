@@ -3,7 +3,7 @@ title: "Old School RuneScape's Quest Month week 3 adds two surprise quests and a
 seo_title: "OSRS Quest Month week 3: two quests and TFA Practice Mode"
 summary: "Week 3 of Old School RuneScape's Quest Month adds two surprise quests, pushes total Quest Points past 350 and gives the Fractured Archive raid a Practice Mode."
 keyword: "OSRS Quest Month week 3"
-published_at: 2026-11-24T17:05:00Z
+published_at: 2026-11-18T12:00:00Z
 genres: [mmorpg]
 platforms: [ios, android, pc]
 titles: [old-school-runescape]

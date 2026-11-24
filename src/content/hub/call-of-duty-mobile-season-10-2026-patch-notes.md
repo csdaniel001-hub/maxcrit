@@ -4,7 +4,7 @@ seo_title: COD Mobile Season 10 2026 patch notes
 summary: COD Mobile Season 10 brings Verdansk, seventh-anniversary rewards, new Battle Royale mechanics and Ford Racing collaborations to the game.
 keyword: 'Call of Duty: Mobile patch notes'
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-11T09:00:00Z'
 genres:
 - shooter
 platforms:

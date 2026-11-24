@@ -3,7 +3,7 @@ title: "Albion Online's Dragonfire Patch 4 triples Tier 8 Firewing Drake Egg cha
 seo_title: "Albion Online Dragonfire Patch 4: eggs, potions, mobile"
 summary: "Dragonfire Patch 4 shifts Firewing Drake Egg drops toward Tier 8, cuts Large Ancient Lands boss health by 40%, trims Healing Potions and fixes four mobile bugs."
 keyword: "Albion Online Dragonfire Patch 4"
-published_at: 2026-11-24T17:10:00Z
+published_at: 2026-11-02T12:00:00Z
 type: short
 genres: [mmorpg]
 platforms: [ios, android, pc]

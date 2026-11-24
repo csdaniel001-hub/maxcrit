@@ -4,7 +4,7 @@ seo_title: Delta Force November 12 patch notes
 summary: Delta Force's November 12 update adjusts Martelo, Zenith Port, vehicle servicing and fixes several mobile gameplay issues.
 keyword: Delta Force patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-12T09:00:00Z'
 genres:
 - shooter
 platforms:

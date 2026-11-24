@@ -4,7 +4,7 @@ seo_title: Pokémon UNITE Echoes of Aeos patch notes
 summary: Pokémon UNITE's November 12 patch rebalances Goodra, Slowbro, Urshifu, Toxtricity and more, with new exchange and library features.
 keyword: Pokémon UNITE patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-12T09:00:00Z'
 genres:
 - moba
 platforms:

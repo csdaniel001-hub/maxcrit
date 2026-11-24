@@ -4,7 +4,7 @@ seo_title: Epic Seven November 19 patch notes
 summary: Epic Seven's November 19 update adds Call of Chaos Season 2, seven hero balance changes, Foundry Guild War and major combat fixes.
 keyword: Epic Seven patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-19T09:00:00Z'
 genres:
 - rpg
 platforms:

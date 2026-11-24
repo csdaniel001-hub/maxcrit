@@ -4,7 +4,7 @@ seo_title: Diablo Immortal November 2026 patch notes
 summary: Diablo Immortal's November 18–19 update adjusts five classes, adds Harvest Treasures and Phantom Gallery, and changes competitive systems.
 keyword: Diablo Immortal patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-18T09:00:00Z'
 genres:
 - mmorpg
 platforms:

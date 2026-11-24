@@ -4,7 +4,7 @@ seo_title: 'Honkai: Star Rail 4.7 patch notes and changes'
 summary: 'Explore Honkai: Star Rail 4.7, including Aeon Aha, Affinitive Eidolons, new stages, rewards and quality-of-life changes.'
 keyword: 'Honkai: Star Rail patch notes'
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-11T09:00:00Z'
 genres:
 - rpg
 platforms:

@@ -453,3 +453,26 @@ epic-seven:
   official: "https://page.onstove.com/epicseven/global"
   appstore: "https://apps.apple.com/us/app/epic-seven/id1322399438"
   status: "Live"
+black-desert-mobile:
+  name: "Black Desert Mobile"
+  publisher: "Pearl Abyss"
+  official: "https://www.world.blackdesertm.com/"
+  appstore: "https://apps.apple.com/us/app/black-desert-mobile/id1477186880"
+  status: "Live"
+toram-online:
+  name: "Toram Online"
+  publisher: "Asobimo"
+  appstore: "https://apps.apple.com/us/app/toram-online/id988683886"
+  googleplay: "https://play.google.com/store/apps/details?id=com.asobimo.toramonline"
+  status: "Live"
+once-human:
+  name: "Once Human"
+  publisher: "NetEase Games"
+  appstore: "https://apps.apple.com/us/app/once-human/id1573906210"
+  status: "Live"
+monster-hunter-now:
+  name: "Monster Hunter Now"
+  publisher: "Niantic / Capcom"
+  appstore: "https://apps.apple.com/us/app/monster-hunter-now/id6445906110"
+  googleplay: "https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter"
+  status: "Live"

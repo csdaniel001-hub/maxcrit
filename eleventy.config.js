@@ -57,7 +57,7 @@ export default function (eleventyConfig) {
   // Lists
   // Responsive article images (see lib/build/images.js)
   const wbase = (img) => String(img || "").replace(/^\/assets\/img\//, "/assets/img/w/").replace(/\.[^.]+$/, "");
-  eleventyConfig.addFilter("wsrc", (img, w) => `${wbase(img)}-${w || 960}.webp`);
+  eleventyConfig.addFilter("wsrc", (img, w) => `${wbase(img)}-${WIDTHS.find((x) => x >= (w || 960)) || WIDTHS.at(-1)}.webp`);
   eleventyConfig.addFilter("srcset", function (img) { return WIDTHS.map((w) => `${eleventyConfig.getFilter("rel").call(this, wbase(img) + "-" + w + ".webp")} ${w}w`).join(", "); });
   // Stable pick from a list by page URL (character heads at article ends)
   eleventyConfig.addFilter("pick", (url, list) => { let h = 0; for (const c of String(url)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return list[h % list.length]; });
@@ -107,8 +107,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("news", (api) => api.getFilteredByGlob("src/content/news/*.md").sort((a, b) => new Date(b.data.published_at) - new Date(a.data.published_at)));
   eleventyConfig.addCollection("hub", (api) => api.getFilteredByGlob("src/content/hub/*.md").sort(newest));
   eleventyConfig.addCollection("everything", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").sort(newest));
-  // Feeds, homepage, genre and platform pages leave out redeem-code pages, so 20+ code lists do not bury the news (2026-11-24)
-  eleventyConfig.addCollection("stories", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").filter((n) => n.data.hub_type !== "codes").sort(newest));
+  // Feeds, homepage, genre and platform pages leave out redeem-code and live-event pages, so dozens of schedule pages do not bury the news (2026-11-24)
+  eleventyConfig.addCollection("stories", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").filter((n) => !["codes", "events"].includes(n.data.hub_type)).sort(newest));
 
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },

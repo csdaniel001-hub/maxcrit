@@ -4,7 +4,7 @@ seo_title: 'PUBG Mobile 4.7 patch notes: every key change'
 summary: PUBG Mobile 4.7 adds Arctic Chronicles, winter events, Classic Mode improvements and a new Metro Royale PvE map. Here are the key changes.
 keyword: PUBG MOBILE patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-11T09:00:00Z'
 genres:
 - shooter
 platforms:

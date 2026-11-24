@@ -4,7 +4,7 @@ seo_title: Wuthering Waves 3.8 patch notes and changes
 summary: Wuthering Waves 3.8 introduces Lily, the A Bouquet for Tomorrow story and faster material farming. Here are the key changes in the patch.
 keyword: Wuthering Waves patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-12T09:00:00Z'
 genres:
 - rpg
 platforms:

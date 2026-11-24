@@ -4,7 +4,7 @@ seo_title: Clash of Clans Town Hall 19 patch notes
 summary: Town Hall 19 brings new defenses, troop squads, a Heroic Spell, Star Bonus changes and the Prestige Shop to Clash of Clans.
 keyword: Clash of Clans patch notes
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-16T09:00:00Z'
 genres:
 - strategy
 platforms:

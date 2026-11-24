@@ -4,7 +4,7 @@ seo_title: 'TFT 18.7 patch notes: traits and augments'
 summary: TFT patch 18.7 closes out Enchanted Wilds with trait reshuffles, reroll buffs, new unit affiliations and Augment tuning before Prismatic Tour.
 keyword: 'TFT: Teamfight Tactics patch notes'
 hub_type: patch-trackers
-published_at: '2026-11-24T17:00:00Z'
+published_at: '2026-11-17T09:00:00Z'
 genres:
 - strategy
 platforms:
