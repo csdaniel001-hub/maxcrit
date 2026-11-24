@@ -1,16 +1,16 @@
 ---
-layout: base.njk
-bodyClass: gz-art
+layout: legal.njk
 permalink: /about.html
 title: About
 summary: "MaxCrit covers mobile games for players: news from official sources, plus patch trackers, tier lists and guides that are kept up to date."
 ---
-<article class="gz-article"><div class="gz-prose" style="max-width:760px;padding-top:28px">
-
-# About {{ site.name }}
-
 {{ site.name }} covers mobile games for the people who play them: news straight from developers and publishers, and a Player Hub of patch trackers, tier lists, redeem codes and guides that we keep up to date.
 
-Publisher: {{ site.publisher }} · Editor: {{ site.editor }} · Contact: {{ site.email }}
+## Who runs it
 
-</div></article>
+{{ site.name }} is published by {{ site.legal.operator }}. Contact: [{{ site.email }}](mailto:{{ site.email }}). Legal details are on the [Contact and legal notice](contact.html) page.
+
+## How we work
+
+Every story starts from the developer's or publisher's own announcement and lists its sources at the end. The [Editorial policy](editorial-policy.html) explains how we check facts, credit images and correct mistakes.
+

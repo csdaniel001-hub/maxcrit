@@ -1,14 +1,9 @@
 ---
-layout: base.njk
-bodyClass: gz-art
+layout: legal.njk
 permalink: /editorial-policy.html
 title: Editorial policy
 summary: "How MaxCrit reports on mobile games: official sources only, clear labels for anything unconfirmed, real images with credits, and visible update dates."
 ---
-<article class="gz-article"><div class="gz-prose" style="max-width:760px;padding-top:28px">
-
-# Editorial policy
-
 ## Official sources only
 
 Every news story starts from the developer's or publisher's own announcement: their website, patch notes, press release or official social account. We do not rewrite other news sites. Each story lists its sources at the bottom, with the primary source marked.
@@ -33,4 +28,11 @@ Patch trackers, tier lists, code lists and guides carry a "last checked" date. W
 
 We only write reviews or impressions of games we have actually played, and say so.
 
-</div></article>
+## Corrections
+
+If we get something wrong, we fix it and add a note at the end of the article saying what changed and when. Send corrections to [{{ site.email }}](mailto:{{ site.email }}) with a link to the article.
+
+## Independence
+
+MaxCrit is not affiliated with any developer or publisher, and we do not accept payment for news coverage. If that ever changes for a piece of content, it will be clearly labelled as sponsored.
+

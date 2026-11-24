@@ -183,3 +183,30 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 /* lock-on hover for the side menu too */
 (function(){function go(){document.querySelectorAll('.gz-side nav > a:not(.on),.gz-side .sub:not(.on)').forEach(function(b){if(b.querySelector(':scope > .kx-fx'))return;var f=document.createElement('i');f.className='kx-fx';f.setAttribute('aria-hidden','true');b.insertBefore(f,b.firstChild);});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();
+
+/* Cookie consent: asks only when site.consent lists an optional service. Gated scripts are written as
+   <script type="text/plain" data-consent="analytics|ads" ...> and start only after consent. */
+(function(){
+  var KEY='mc-consent',DAYS=365;
+  function read(){try{var v=JSON.parse(localStorage.getItem(KEY)||'null');if(v&&Date.now()-v.t<DAYS*864e5)return v;}catch(e){}return null;}
+  function run(c){
+    document.querySelectorAll('script[type="text/plain"][data-consent]').forEach(function(s){
+      if(!c[s.dataset.consent]||s.dataset.done)return;s.dataset.done='1';var n=document.createElement('script');
+      [].slice.call(s.attributes).forEach(function(a){if(a.name!=='type'&&a.name!=='data-consent')n.setAttribute(a.name,a.value);});n.text=s.text;s.parentNode.insertBefore(n,s.nextSibling);});
+    if(window.gtag)gtag('consent','update',{analytics_storage:c.analytics?'granted':'denied',ad_storage:c.ads?'granted':'denied',ad_user_data:c.ads?'granted':'denied',ad_personalization:c.ads?'granted':'denied'});
+  }
+  function go(){
+    var p=document.getElementById('kxConsent');if(!p)return;
+    var boxes=p.querySelectorAll('input[data-cat]'),saved=read();
+    function open(){var c=read()||{};boxes.forEach(function(b){b.checked=!!c[b.dataset.cat];});p.hidden=false;var f=p.querySelector('button');if(f)f.focus({preventScroll:true});}
+    function close(){p.hidden=true;}
+    function save(c){c.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(c));}catch(e){}run(c);close();}
+    p.addEventListener('click',function(e){var a=e.target.closest('[data-cc]');if(!a)return;var k=a.dataset.cc,c={};
+      if(k==='close'){close();return;}
+      boxes.forEach(function(b){c[b.dataset.cat]=k==='accept'?true:k==='reject'?false:b.checked;});save(c);});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!p.hidden&&!p.dataset.auto)close();});
+    document.querySelectorAll('.kx-cookie-open').forEach(function(b){b.addEventListener('click',open);});
+    if(saved)run(saved);else if(p.dataset.auto)open();
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();
+})();
