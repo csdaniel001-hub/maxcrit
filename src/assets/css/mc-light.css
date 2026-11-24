@@ -1984,7 +1984,7 @@ html[data-gz=light] body .gz-main > .gz-sr,html[data-gz=light] body .gz-main > s
 html[data-gz=light] body .gz-phead{background:linear-gradient(180deg,rgba(15,21,54,.9),rgba(10,14,40,.9))!important;border:1.5px solid #2c3f86!important;border-radius:6px 18px 6px 18px!important;padding:18px 24px 20px!important;margin-left:32px!important;margin-right:32px!important;box-shadow:0 10px 30px rgba(0,0,0,.3)}
 html[data-gz=light] body .gz-phead .gz-phead-d{color:#d3d8ff!important;margin-bottom:0!important}
 html[data-gz=light] body .gz-phead h1{margin-top:6px!important}
-.gp-lead-d{margin:-14px 0 0!important;padding:12px 18px 14px;background:rgba(10,13,40,.92);border:1.5px solid #2c3f86;border-top:0;border-radius:0 0 6px 18px;color:#d3d8ff!important}
+.gp-lead-d{margin:10px 0 0!important;padding:12px 18px 14px;background:rgba(10,13,40,.92);border:1.5px solid #2c3f86;border-radius:6px 18px 6px 18px;color:#d3d8ff!important}
 @media (max-width:700px){html[data-gz=light] body .gz-phead{margin-left:16px!important;margin-right:16px!important;padding:14px 16px 16px!important}}
 
 /* ===== Latest bar on phones: compact, two clean lines ===== */
@@ -2160,3 +2160,14 @@ html[data-gz=light] body .ar .ar-crumbs{margin:4px 2px 10px!important;padding:0!
 .axh-ib svg{flex:none}
 .axh-meta{flex-basis:100%;margin:10px 0 0!important}
 @media (max-width:760px){.axh-ib{padding:0 12px 0 10px;font-size:12px;height:38px!important}}
+/* Hero frame cleanup (2026-11-24): even corner cuts with parallel inner edge, no wedge behind the arrows */
+html body #gzHero{--hx:polygon(22px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 22px),calc(100% - 22px) 100%,8px 100%,0 calc(100% - 8px),0 22px);clip-path:var(--hx)!important}
+html body #gzHero .hz-in{clip-path:polygon(20.8px 0,calc(100% - 6.8px) 0,100% 6.8px,100% calc(100% - 20.8px),calc(100% - 20.8px) 100%,6.8px 100%,0 calc(100% - 6.8px),0 20.8px)!important}
+html body #gzHero .hz-in::after{display:none!important}
+html body #gzHero .cc-s3{top:20px!important;right:24px!important}
+html body #gzHero .hz-nav{right:24px!important;bottom:20px!important;top:auto!important;left:auto!important;display:flex;gap:8px}
+html body #gzHero .hz-nav button{width:36px;height:36px;display:grid;place-items:center;background:rgba(8,12,36,.78)!important;border:1.5px solid rgba(53,224,240,.7)!important;border-radius:6px 12px 6px 12px!important;color:#fff!important;backdrop-filter:blur(4px)}
+html body #gzHero .hz-nav button:hover{border-color:#fb2186!important;background:rgba(251,33,134,.25)!important}
+html body #gzHero .cc-sc b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+html body #gzHero .cc-sc{padding-top:8px!important;padding-bottom:8px!important}
+html body #gzHero .cc-sc b{flex:none;line-height:1.1!important}
