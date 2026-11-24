@@ -530,3 +530,7 @@ section[aria-labelledby="h-hub"] .hz-in{background:linear-gradient(135deg,#142a6
 .gz-side .sub{margin:3px 0!important}
 .gz-side nav > a:not(.on):not(.topic):hover::after,.gz-grp summary:hover::after,.gz-side .sub:not(.on):hover::after{box-shadow:0 0 8px rgba(255,61,154,.35)}
 @keyframes mxGlow{0%{box-shadow:0 0 0 rgba(255,61,154,0)}35%{box-shadow:0 0 12px rgba(255,61,154,.8)}100%{box-shadow:0 0 8px rgba(255,61,154,.35)}}
+
+/* sidebar: still scrolls, but without a visible scrollbar */
+.gz-side,.gz-side nav{scrollbar-width:none;-ms-overflow-style:none}
+.gz-side::-webkit-scrollbar,.gz-side nav::-webkit-scrollbar{display:none;width:0;height:0}
