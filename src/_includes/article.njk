@@ -7,7 +7,8 @@ bodyClass: gz-art
 {% set tocItems = content | toc %}
 {% set isHub = hub_type %}
 {% set ht = hubTypes | find('slug', hub_type) %}
-<article class="gz-article article{% if isHub %} is-hub{% endif %}">
+<article class="gz-article article ar{% if isHub %} is-hub{% endif %}">
+<div class="ar-top nf"><div class="nf-in">
 <header class="gz-ahead">
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / {% if isHub %}<a href="{{ '/hub.html' | rel }}">Player Hub</a> / <a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% else %}<a href="{{ '/news.html' | rel }}">News</a>{% endif %}{% for gs in genres or [] %} / <a href="{{ ('/genre/' + gs + '.html') | rel }}">{{ (genreNav | find('slug', gs)).name }}</a>{% endfor %}{% for t in topics or [] %} / <a href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name }}</a>{% endfor %}</p>
 <h1>{{ title }}</h1>
@@ -20,6 +21,7 @@ bodyClass: gz-art
 </dl>
 </header>
 <figure class="gz-afig"><span class="gz-pic"><img src="{{ image | wsrc(960) | rel }}" srcset="{{ image | srcset }}" sizes="(max-width: 700px) 100vw, (max-width: 1400px) 70vw, 960px" width="1600" height="900" alt="{{ image_alt or title }}" style="object-position:{{ image_pos or '50% 50%' }}" fetchpriority="high" decoding="async"></span><figcaption class="mono">Image: {{ image_credit }} · <a href="{{ image_source }}" target="_blank" rel="noopener">source ↗</a></figcaption></figure>
+</div></div>
 <div class="gz-agrid">
 <div class="gz-abody">
 {% if tldr %}<div class="gz-tldr"><h2>The short version</h2><ul>{% for t in tldr %}<li>{{ t | safe }}</li>{% endfor %}</ul></div>{% endif %}
@@ -33,6 +35,7 @@ bodyClass: gz-art
 <ul class="mc-gamelist">{% for slug in titles %}{% set g = games[slug] %}{% if g %}<li><a href="{{ ('/games/' + slug + '.html') | relp(pre) }}">{{ g.name }} →</a><span>{{ g.publisher }}</span></li>{% endif %}{% endfor %}</ul></div>
 {% else %}{% for slug in titles or [] %}{{ getgame(slug, pre) }}{% endfor %}{% endif %}
 {% if tocItems.length > 1 %}<nav class="gz-toc" aria-label="Contents"><h2 class="mono">Contents</h2><ol>{% for t in tocItems %}<li><a href="#{{ t.id }}">{{ t.text }}</a></li>{% endfor %}</ol></nav>{% endif %}
+{% set side = collections.everything | exclude(page.url) | limit(5) %}<section class="cc-news nf ar-latest" aria-labelledby="h-arl"><div class="nf-in"><header class="cc-h"><h2 id="h-arl">Latest news</h2><a class="hz-link" href="{{ '/news.html' | rel }}">All</a></header>{% for n in side %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt"><img src="{{ n.data.image | wsrc(480) | rel }}" alt="" width="480" height="270" loading="lazy" decoding="async"></span><span class="cc-nx"><b>{{ n.data.title }}</b><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate | capitalize }}</time></span></a>{% endfor %}</div></section>
 </aside>
 </div>
 </article>
