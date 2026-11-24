@@ -2,16 +2,47 @@
 layout: base.njk
 permalink: /games.html
 activeNav: games
+bodyClass: gz-home ga-page
 title: Games A–Z
-summary: Every mobile game we cover, with its news, patch trackers and guides in one place, plus links to the official store listings.
+seo_title: "Mobile games A–Z: news, patches and guides by game"
+summary: Every mobile game we cover, with its news, patch trackers and guides in one place. Filter by genre, platform or gacha, and find the official store links.
 ---
-{% from "macros.njk" import clock with context %}
-<header class="gz-phead kx-has-peek"><img class="kp-hood" src="{{ '/assets/img/chars/cat-hood-gamer.webp' | rel }}" alt="" width="{{ chars['cat-hood-gamer'][0] }}" height="{{ chars['cat-hood-gamer'][1] }}" aria-hidden="true">
+{% from "macros.njk" import arr with context %}
+{% set all = collections.everything %}
+{% set gl = [] %}{% for slug, g in games %}{% if (all | byGame(slug)).length %}{% set gl = (gl.push(slug), gl) %}{% endif %}{% endfor %}
+<header class="gz-phead lr-head kx-has-peek"><img class="kp-hood" src="{{ '/assets/img/chars/cat-hood-gamer.webp' | rel }}" alt="" width="{{ chars['cat-hood-gamer'][0] }}" height="{{ chars['cat-hood-gamer'][1] }}" aria-hidden="true">
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / Games</p>
 <h1>Games A–Z</h1>
 <p class="gz-phead-d">Every game we cover, with all of its news and hub pages on one page, plus links to its store listings.</p>
-{% set gl = [] %}{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}{% set gl = (gl.push(slug), gl) %}{% endif %}{% endfor %}
 </header>
-<section class="gz-rovat gz-rovat-first"><div class="gz-cgrid">
-{% for slug in gl | sort %}{% set g = games[slug] %}{% set items = collections.everything | byGame(slug) %}<a class="gz-tc" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="gz-pic"><img src="{{ items[0].data.image | wsrc(480) | rel }}" alt="" width="480" height="270" loading="lazy" decoding="async"></span><b class="kx-tb">{% if not g.noicon %}<img class="kx-ico s" src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="32" height="32" loading="lazy">{% endif %}{{ g.name }}</b><time class="mono">{{ g.publisher | upper }}</time></a>{% endfor %}
+
+<section class="ga-filters nf" aria-label="Filter games"><div class="nf-in">
+<label class="ga-search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="gz-sr">Search games</span><input type="search" id="gaQ" placeholder="Search a game or publisher" autocomplete="off"></label>
+<div class="ga-row ga-genres" role="group" aria-label="Genre"><button type="button" class="on" data-g="">All genres</button>{% for g in genreNav %}{% set has = false %}{% for s in gl %}{% if (all | gameGenre(s)) == g.slug %}{% set has = true %}{% endif %}{% endfor %}{% if has %}<button type="button" data-g="{{ g.slug }}"><img src="{{ ('/assets/img/micons/' + g.slug + '.webp') | rel }}" alt="" width="24" height="24">{{ g.name }}</button>{% endif %}{% endfor %}</div>
+<div class="ga-row ga-opts"><div role="group" aria-label="Platform" class="ga-plat">{% for p in platformNav %}<button type="button" data-p="{{ p.slug }}" aria-pressed="false">{{ p.name }}</button>{% endfor %}</div><button type="button" class="ga-gacha" data-gacha aria-pressed="false"><img src="{{ '/assets/img/micons/gacha.webp' | rel }}" alt="" width="24" height="24">Gacha only</button>
+<label class="ga-sort"><span>Sort</span><select id="gaSort"><option value="az">A to Z</option><option value="new">Latest update</option></select></label></div>
 </div></section>
+
+<div class="ga-grid" id="gaGrid">
+{% for slug in gl | sort %}{% set g = games[slug] %}{% set items = all | byGame(slug) %}{% set n = (all | ownByGame(slug))[0] or items[0] %}{% set gen = all | gameGenre(slug) %}{% set gn = genreNav | find('slug', gen) %}{% set plats = all | gamePlatforms(slug) %}{% set gacha = all | gameGacha(slug) %}{% set pic = n.data.image %}
+<a class="ga-card nf" href="{{ ('/games/' + slug + '.html') | rel }}" data-name="{{ g.name | lower }} {{ (g.publisher or '') | lower }}" data-g="{{ gen }}" data-p="{{ plats | join(' ') }}" data-gacha="{{ 'y' if gacha else '' }}" data-t="{{ (n.data.updated_at or n.data.published_at) | isoDate }}" data-az="{{ g.name | lower }}"><span class="nf-in">
+<span class="ga-art"><img src="{{ pic | wsrc(480) | rel }}" alt="" width="480" height="270" loading="lazy" decoding="async"></span>
+<span class="ga-id">{% if not g.noicon %}<img class="ga-ico" src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="64" height="64" loading="lazy">{% endif %}<span class="ga-nm"><b>{{ g.name }}</b><small>{{ g.publisher }}</small></span></span>
+<span class="ga-tags">{% if gn.name %}<i class="hz-chip">{{ gn.name }}</i>{% endif %}{% if gacha %}<i class="hz-chip hz-gacha">Gacha</i>{% endif %}{% for p in plats %}<i class="ga-pl">{{ (platformNav | find('slug', p)).name }}</i>{% endfor %}</span>
+<span class="ga-last"><em>Latest</em>{{ n.data.title }}<time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | longDate }}</time></span>
+</span></a>
+{% endfor %}
+</div>
+<div id="gaNone" hidden>{% from "macros.njk" import moment with context %}{{ moment('moon-fox', true, 'No games match', 'Try another genre or platform, or clear the search.', [['Show all games','/games.html'],['Latest news','/news.html']]) }}</div>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","url":"{{ site.url }}/games.html","name":"Mobile games A–Z","mainEntity":{"@type":"ItemList","itemListElement":[{% for slug in gl | sort %}{"@type":"ListItem","position":{{ loop.index }},"item":{"@type":"VideoGame","name":{{ games[slug].name | jsonify | safe }},"url":"{{ site.url }}/games/{{ slug }}.html"}}{% if not loop.last %},{% endif %}{% endfor %}]}}</script>
+<script>
+(function(){var grid=document.getElementById('gaGrid'),cards=[].slice.call(grid.children),q=document.getElementById('gaQ'),srt=document.getElementById('gaSort'),none=document.getElementById('gaNone'),st={g:'',p:{},gacha:false};
+function run(){var v=q.value.trim().toLowerCase(),n=0,ps=Object.keys(st.p).filter(function(k){return st.p[k]});
+cards.forEach(function(c){var ok=(!v||c.dataset.name.indexOf(v)>-1)&&(!st.g||c.dataset.g===st.g)&&(!st.gacha||c.dataset.gacha)&&ps.every(function(p){return (' '+c.dataset.p+' ').indexOf(' '+p+' ')>-1});c.hidden=!ok;if(ok)n++;});none.hidden=n>0;}
+function sort(){var k=srt.value;cards.sort(function(a,b){return k==='new'?(b.dataset.t>a.dataset.t?1:-1):(a.dataset.az>b.dataset.az?1:-1)});cards.forEach(function(c){grid.appendChild(c)});}
+document.querySelectorAll('.ga-genres button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.ga-genres button').forEach(function(x){x.classList.toggle('on',x===b)});st.g=b.dataset.g;run();});});
+document.querySelectorAll('.ga-plat button').forEach(function(b){b.addEventListener('click',function(){var on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',on);b.classList.toggle('on',on);st.p[b.dataset.p]=on;run();});});
+var gb=document.querySelector('.ga-gacha');gb.addEventListener('click',function(){st.gacha=!st.gacha;gb.setAttribute('aria-pressed',st.gacha);gb.classList.toggle('on',st.gacha);run();});
+q.addEventListener('input',run);srt.addEventListener('change',function(){sort();run();});})();
+</script>

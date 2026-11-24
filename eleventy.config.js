@@ -82,6 +82,7 @@ export default function (eleventyConfig) {
   const tally = (list) => { const c = {}; list.forEach((x) => { c[x] = (c[x] || 0) + 1; }); return Object.keys(c).sort((a, b) => c[b] - c[a]); };
   eleventyConfig.addFilter("gameGenre", (arr, g) => tally(own(arr, g).flatMap((n) => (n.data.genres || []).slice(0, 1)))[0] || "");
   eleventyConfig.addFilter("gamePlatforms", (arr, g) => tally(own(arr, g).flatMap((n) => n.data.platforms || [])));
+  eleventyConfig.addFilter("gameGacha", (arr, g) => (arr || []).some((n) => (n.data.titles || []).includes(g) && (n.data.topics || []).includes("gacha")));
   eleventyConfig.addFilter("gamesInGenre", (games, arr, genre, not) => Object.keys(games || {}).filter((s) => s !== not && genre && tally(own(arr, s).flatMap((n) => (n.data.genres || []).slice(0, 1)))[0] === genre));
   // Game slugs ordered by how many stories they have
   eleventyConfig.addFilter("gameRank", (games, arr) => Object.keys(games || {}).map((g) => ({ slug: g, n: soloOf(arr, g).length })).filter((x) => x.n).sort((x, y) => y.n - x.n));
