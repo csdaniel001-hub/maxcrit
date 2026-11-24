@@ -534,3 +534,6 @@ section[aria-labelledby="h-hub"] .hz-in{background:linear-gradient(135deg,#142a6
 /* sidebar: still scrolls, but without a visible scrollbar */
 .gz-side,.gz-side nav{scrollbar-width:none;-ms-overflow-style:none}
 .gz-side::-webkit-scrollbar,.gz-side nav::-webkit-scrollbar{display:none;width:0;height:0}
+.mc-gintro{max-width:900px;margin:28px auto 8px;padding:18px 20px}
+.mc-gintro p{margin:0 0 10px;line-height:1.6}
+.mc-gintro p:last-child{margin-bottom:0}

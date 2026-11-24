@@ -14,3 +14,4 @@ eleventyComputed:
 {% from "macros.njk" import listing with context %}
 {% set tabs = "" %}
 {{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc, 'Pages', tabs, g.slug) }}
+{% set gi = genreIntro[g.slug] %}{% if gi %}<section class="gz-box mc-gintro" aria-label="About {{ g.name }} on MaxCrit"><div class="gz-box-h"><h2>About {{ g.name }} on MaxCrit</h2></div>{% for p in (gi | trim).split("\n\n") %}<p>{{ p }}</p>{% endfor %}</section>{% endif %}
