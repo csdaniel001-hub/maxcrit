@@ -8,7 +8,7 @@ summary: "MaxCrit covers mobile games for players: news from official sources, p
 
 ## Who runs it
 
-{{ site.name }} is published by {{ site.legal.operator }}. Contact: [{{ site.email }}](mailto:{{ site.email }}). Legal details are on the [Contact and legal notice](contact.html) page.
+{{ site.name }} is an independent site, published and edited by {{ site.publisher }}. Contact: [{{ site.email }}](mailto:{{ site.email }}). Legal details are on the [Contact and legal notice](contact.html) page.
 
 ## How we work
 

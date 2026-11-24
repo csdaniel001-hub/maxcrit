@@ -12,14 +12,14 @@ export default {
   hot: ["pokemon-go", "pubg-mobile", "clash-of-clans", "brawl-stars", "marvel-snap", "clash-royale"],
   build: Date.now().toString(36),
   today: new Date().toISOString().slice(0, 10),
-  publisher: "[PUBLISHER NAME]",
-  editor: "[EDITOR IN CHIEF]",
+  publisher: "Dániel Csáki",
+  editor: "Dániel Csáki",
   // Legal notice (Hungarian Ekertv. 4. §, GDPR Art. 13). Fill in before launch; lib/check.js warns while any "[...]" remains.
   legal: {
-    operator: "[OPERATOR: full name, or company name and legal form]",
+    operator: "Dániel Csáki (private individual)",
     address: "[REGISTERED ADDRESS]",
-    registry: "[COMPANY REGISTRY NO. or SOLE TRADER REGISTRY NO.]",
-    tax: "[TAX NUMBER]",
+    registry: "", // only for a company or sole trader
+    tax: "", // only for a company or sole trader
     host: { name: "Rackhost Zrt.", address: "6722 Szeged, Tisza Lajos körút 41., Hungary", email: "info@rackhost.hu" },
     logDays: 30, // how long the host keeps server logs; confirm with the host
     updated: "2026-11-24",

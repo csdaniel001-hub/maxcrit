@@ -20,11 +20,11 @@ Information required by Hungarian law on electronic commerce (Act CVIII of 2001,
 
 | | |
 |---|---|
-| Service provider | {{ site.legal.operator }} |
+| Service provider and editor | {{ site.legal.operator }} |
 | Address | {{ site.legal.address }} |
 | Email | [{{ site.email }}](mailto:{{ site.email }}) |
-| Registration number | {{ site.legal.registry }} |
-| Tax number | {{ site.legal.tax }} |
-| Hosting provider | {{ site.legal.host.name }}, {{ site.legal.host.address }}, {{ site.legal.host.email }} |
+{% if site.legal.registry %}| Registration number | {{ site.legal.registry }} |
+{% endif %}{% if site.legal.tax %}| Tax number | {{ site.legal.tax }} |
+{% endif %}| Hosting provider | {{ site.legal.host.name }}, {{ site.legal.host.address }}, {{ site.legal.host.email }} |
 
 Editorial principles: [Editorial policy](editorial-policy.html) · [Terms of use](terms.html) · [Cookie policy](cookies.html)
