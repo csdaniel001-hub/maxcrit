@@ -1,5 +1,6 @@
 import { buildImages, WIDTHS } from "./lib/build/images.js";
 import { buildCss } from "./lib/build/css.js";
+import { inlineIcons } from "./lib/build/preview-inline.js";
 import * as yaml from "js-yaml";
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -21,6 +22,7 @@ export default function (eleventyConfig) {
     if (made) console.log(`[img] encoded ${made} responsive images`);
     const r = await buildCss(dir.output);
     console.log(`[css] site.css ${Math.round(r.before / 1024)} KB -> ${Math.round(r.after / 1024)} KB`);
+    if (process.env.MC_PREVIEW) console.log(`[preview] inlined game icons in ${inlineIcons(dir.output)} pages`);
   });
 
   // Relative links, so the built site works from any folder (preview or host root)

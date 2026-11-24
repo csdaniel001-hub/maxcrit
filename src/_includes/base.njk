@@ -74,7 +74,7 @@
 </details>
 <details class="gz-grp" open>
 <summary>{{ mico('mobile') }}Genres<i aria-hidden="true"></i></summary>
-{% for g in genreNav %}{% set gc = (collections.stories | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
+{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
 {% endif %}{% endfor %}
 </details>
 </nav>

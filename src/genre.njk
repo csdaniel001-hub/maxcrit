@@ -8,9 +8,9 @@ eleventyComputed:
   seo_title: "{{ g.name }} games: news, patches and guides"
   summary: "{{ g.desc }}"
   activeNav: "g-{{ g.slug }}"
-  noindex: "{{ '' if (collections.stories | byGenre(g.slug)).length else 'yes' }}"
-  shareImage: "{{ (collections.stories | byGenre(g.slug) | featured | first).data.image if (collections.stories | byGenre(g.slug) | featured).length else '' }}"
+  noindex: "{{ '' if (collections.everything | byGenre(g.slug)).length else 'yes' }}"
+  shareImage: "{{ (collections.everything | byGenre(g.slug) | featured | first).data.image if (collections.everything | byGenre(g.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs = "" %}
-{{ listing(collections.stories | byGenre(g.slug), pre, 'Genre', g.name, g.desc, 'Pages', tabs, g.slug) }}
+{{ listing(collections.everything | byGenre(g.slug), pre, 'Genre', g.name, g.desc, 'Pages', tabs, g.slug) }}
