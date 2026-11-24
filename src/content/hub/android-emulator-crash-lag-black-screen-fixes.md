@@ -1,7 +1,7 @@
 ---
 title: 'Android Emulator Troubleshooting: Fix Crashes, Lag and Black Screens'
 seo_title: Android Emulator Troubleshooting
-summary: Diagnose common emulator problems, including startup errors, missing textures, login issues, storage and performance drops.
+summary: Step-by-step fixes for Android emulator crashes, lag, black screens, games that will not install and emulators that will not start, for BlueStacks and others.
 keyword: Android Emulator Troubleshooting
 hub_type: guides
 published_at: '2026-11-24T15:00:00Z'
@@ -30,49 +30,84 @@ sources:
   url: https://support.microsoft.com/en-us/windows/experience/enable-virtualization-on-windows
   primary: true
 tldr:
-- Note the emulator name and build, Android version, game version, Windows version, graphics driver and exact error.
-- Restart Windows and launch just one instance.
-- Update the GPU driver through the GPU vendor or PC manufacturer's official distribution channel.
-image: "/assets/img/android-emulator-crash-lag-black-screen-fixes.jpg"
-image_url: "https://cdn-www.bluestacks.com/bs-images/OG-Image-.jpg"
-image_source: "https://www.bluestacks.com/"
-image_credit: "BlueStacks"
-image_alt: "Official BlueStacks artwork"
-image_status: "candidate"
+- Most emulator problems come from virtualization being off, an outdated graphics driver, the wrong renderer or a clash with Hyper-V.
+- For black screens, switch the graphics renderer and update drivers; for unsupported games, try a fresh instance with a newer Android version.
+- Link your game account before reinstalling or deleting anything, so you do not lose progress.
+image: /assets/img/android-emulator-crash-lag-black-screen-fixes.jpg
+image_url: https://cdn-www.bluestacks.com/bs-images/OG-Image-.jpg
+image_source: https://www.bluestacks.com/
+image_credit: BlueStacks
+image_alt: Official BlueStacks artwork
+image_status: candidate
 ---
 
-A black screen can be a graphics problem, an incompatible Android version or a game that has just stopped supporting the environment. Guessing at random fixes wastes time and can erase local progress. Work from symptoms and preserve the original configuration.
+When an emulator misbehaves, the cause is usually one of a few things: virtualization, graphics drivers, the graphics renderer, a clash with another Windows feature, or a game that needs a different Android version. This guide is organised by symptom, so you can jump to your problem and work through the fixes in order, from quickest to most involved.
 
-## First, record the failure
+## Before you start: protect your progress
 
-Note the emulator name and build, Android version, game version, Windows version, graphics driver and exact error. Determine whether the emulator itself fails to start, every app crashes, or only one game fails. Check the publisher's maintenance and known-issue notices before changing your PC.
+Some fixes involve reinstalling the emulator or deleting an instance. Before you try those, make sure your game account is linked to a proper login, such as Google, Apple, Facebook or the publisher's own account. Progress on a guest account lives inside the emulator and disappears with it.
 
-| Symptom | First checks |
-|---|---|
-| Emulator will not launch | Reboot, free storage, virtualization, current compatible build |
-| Black screen in one game | Game maintenance, Android instance, renderer, graphics driver |
-| Stuttering | Frame cap, host RAM, CPU/GPU use, resolution, temperatures |
-| Installation unavailable | Android version, architecture, regional catalog, game requirements |
-| Progress missing | Original login provider, game server, linked account |
-| Keymap stops working | HUD changes, orientation, control profile |
-| Unsupported device warning | Publisher policy and approved devices; do not bypass |
+## The emulator will not start
 
-## Fix startup errors
+1. Check virtualization. Open Task Manager, go to Performance, then CPU, and look for Virtualization. If it says Disabled, turn it on in the BIOS. Our virtualization guide shows how.
+2. Restart Windows. A pending Windows update or a stuck background process is a common cause.
+3. Check Hyper-V compatibility. Windows features such as Hyper-V, Windows Hypervisor Platform and Virtual Machine Platform can clash with older emulator builds. BlueStacks 5.20 and newer run with Hyper-V on or off, and the official installer picks the right build for your setup. For other emulators, check whether they offer a separate Hyper-V version.
+4. Update the emulator. Old versions often stop working after Windows updates.
+5. Check your antivirus. Some security software blocks emulator components. Follow the emulator's own instructions for adding an exclusion rather than turning protection off.
+6. Reinstall. Uninstall through Windows Settings, restart, then install the latest version from the official site.
 
-Restart Windows and launch just one instance. Check Task Manager to verify virtualization and confirm that the system drive and installation drive have enough free space. Update through the vendor's official channel. If the software reports a hypervisor conflict, use its current supported Hyper-V configuration rather than following old instructions to disable security features.
+## Black screen, flickering or graphical glitches
 
-## Fix graphics problems
+1. Switch the graphics renderer. In BlueStacks this is under Settings, then Graphics, where recent versions offer OpenGL, DirectX and Vulkan. Restart the emulator after switching and test again.
+2. Update graphics drivers. Download the latest from NVIDIA, AMD or Intel rather than relying on Windows Update.
+3. Use the right GPU. On laptops with two graphics chips, set the emulator to the dedicated one in Windows Settings, under System, Display, Graphics.
+4. Lower the resolution in the emulator's display settings, then try again.
+5. Turn off overlays. Screen recorders, FPS counters and chat overlays from other apps can interfere with rendering.
 
-Update the GPU driver through the GPU vendor or PC manufacturer's official distribution channel. In the emulator's graphics settings, record the default renderer, then test one available alternative. Restart the emulator for each change. If only one game fails, try a fresh Android instance that meets its published requirements. Preserve the original instance and do not clear its data until the account has been backed up or verified in the new installation.
+## Lag and low FPS
 
-## Fix stutters and memory pressure
+1. Confirm virtualization is on. Lag everywhere, even in menus, almost always means it is off.
+2. Give the emulator more resources. Raise CPU cores and RAM in the performance settings, leaving enough for Windows.
+3. Cap the frame rate sensibly. A steady 60 FPS cap usually feels better than an uncapped setting that jumps around.
+4. Lower in-game graphics. Reduce shadows, anti-aliasing and effects before resolution.
+5. Close background apps. Browsers, launchers and video tools compete for the same resources.
+6. Check heat. If performance drops after 15 to 20 minutes on a laptop, plug it in, lower the frame-rate cap and clean the vents.
+7. Move to an SSD. Stutter when loading new areas often comes from installing on a slow hard drive.
 
-Close unused instances and other demanding apps. Set the game to a stable lower FPS cap, then lower resolution or game effects. Watch CPU, GPU, RAM and disk use during a repeatable scene. If the game is network-lagging rather than rendering slowly, check official server status and compare a stable connection before changing graphics settings.
+Our performance settings guide covers all of these in more detail.
 
-## Fix login and download issues safely
+## The game will not install, or says the device is not supported
 
-Check that date and time are correct, the store login is genuine, and the game's region is supported. An unavailable listing is not a reason to download a modified APK. Update the store or game using its legitimate channel, and follow the publisher's recovery instructions if a linked account fails. Clearing app data, deleting an instance and reinstalling the emulator should be last-resort steps after confirming save recovery.
+1. Try a different Android version. BlueStacks lets you create instances with different Android versions in the Multi-instance Manager. Create a fresh instance with a newer version, such as Android 11, and install the game there.
+2. Keep the old instance until the new one works and your account is linked.
+3. Check storage. Large games need several gigabytes plus room for downloads. Use the emulator's disk cleanup tool if it has one.
+4. Check the publisher's rules. Some games block emulators on purpose. No setting changes that, and trying to hide the emulator can get an account banned.
 
-## Escalate with useful information
+## The game crashes during play
 
-Send vendor support the exact error and the steps needed to reproduce it. Include a screenshot with personal information removed. Never share passwords, two-factor codes, recovery keys or session tokens. If the game officially does not support the environment, move to an approved platform instead of trying to conceal the emulator.
+1. Update the game and the emulator. Crashes after a game update often need an emulator update too.
+2. Switch the graphics renderer and restart.
+3. Clear the game's cache from Android settings inside the emulator. This keeps your account but removes temporary files.
+4. Lower graphics settings in the game, especially if crashes happen in busy scenes.
+5. Reinstall the game if crashes continue, after confirming your account is linked.
+
+## Login and account problems
+
+- **Google "new sign-in" alerts**: these are normal the first time you sign in on a new emulator install.
+- **Google Play Games on PC will not install**: follow Google's steps. Turn on Windows Hypervisor Platform when asked, uninstall through Apps and features and reinstall, and restart your PC.
+- **The game rejects the emulator**: check the publisher's support pages. Some games allow emulators, some limit them to certain modes, and some ban them.
+
+## Problem and fix summary
+
+| Symptom | First thing to try | If that fails |
+|---|---|---|
+| Will not start | Turn on virtualization | Check Hyper-V compatibility, update, reinstall |
+| Black screen | Switch renderer | Update graphics drivers, use dedicated GPU |
+| Lag everywhere | Turn on virtualization | Raise CPU and RAM, close background apps |
+| Lag after a while | Plug in, lower FPS cap | Clean laptop vents, lower graphics |
+| Device not supported | New instance with newer Android | Check publisher rules |
+| Crashes in game | Update game and emulator | Switch renderer, clear cache |
+
+## When to stop troubleshooting
+
+If you have tried everything above and the game still will not run, it may simply not support emulators, or the current game version may conflict with your emulator until one of them updates. In that case, check whether the game has a native PC version or is available on Google Play Games on PC, or wait for the next emulator update.

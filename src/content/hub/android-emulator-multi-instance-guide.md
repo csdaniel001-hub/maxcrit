@@ -1,7 +1,7 @@
 ---
 title: 'Android Emulator Multi-Instance Guide: Managing Games and Resources'
 seo_title: Android Emulator Multi-Instance Guide
-summary: Learn to run independent Android instances, organize game profiles and limit RAM and CPU usage while respecting game rules.
+summary: 'How to run several emulator instances at once: creating and managing them, how much RAM and CPU each needs, sync tools and the account rules.'
 keyword: Android Emulator Multi-Instance Guide
 hub_type: guides
 published_at: '2026-11-24T15:00:00Z'
@@ -27,47 +27,93 @@ sources:
   url: https://supercell.com/en/terms-of-service/
   primary: true
 tldr:
-- In BlueStacks, open the Multi-Instance Manager and create a fresh instance using an Android version offered by your installed build.
-- '| Host memory | Conservative experiment |'
-- Name each instance by game and Android environment.
-image: "/assets/img/android-emulator-multi-instance-guide.jpg"
-image_url: "https://cdn-www.bluestacks.com/bs-images/OG-Image-.jpg"
-image_source: "https://www.bluestacks.com/"
-image_credit: "BlueStacks"
-image_alt: "Official BlueStacks artwork"
-image_status: "candidate"
+- Each instance is a separate Android device with its own games, accounts and settings, and each one needs its own RAM and CPU.
+- On 8 GB of RAM, plan for one or two light instances; 16 GB comfortably handles two or three.
+- Check each game's rules before running multiple accounts, and never use sync or macro tools in competitive modes.
+image: /assets/img/android-emulator-multi-instance-guide.jpg
+image_url: https://cdn-www.bluestacks.com/bs-images/OG-Image-.jpg
+image_source: https://www.bluestacks.com/
+image_credit: BlueStacks
+image_alt: Official BlueStacks artwork
+image_status: candidate
 ---
 
-An emulator instance is a separate virtual Android environment. It can be useful for keeping incompatible games in different Android versions or testing settings without touching a working installation. Running multiple instances is more demanding than opening multiple tabs, and account rules still apply.
+Multi-instance lets you run more than one copy of an emulator at the same time. Each copy, or instance, behaves like a separate Android device with its own games, accounts and settings. Players use it to run two different games side by side, keep a test instance for updates, or play more than one account in games that allow it. This guide covers how it works, how many instances your PC can handle and how to stay within the rules.
 
-## Create a separate environment
+## What an instance is
 
-In BlueStacks, open the Multi-Instance Manager and create a fresh instance using an Android version offered by your installed build. Other emulators provide their own instance tools. The list of available Android images changes over time; recent BlueStacks documentation notes that some older images are no longer offered for new instances in newer builds.
+An instance is a complete virtual Android device. That means:
 
-Choose the environment based on the game requirements, give it a descriptive name and install the legitimate game. Keep the original instance until you confirm the new installation is stable. If you clone an existing environment, remember it may carry local account data. Do not share cloned environments or export credentials.
+- It has its own Google sign-in, installed games and game data.
+- It can run a different Android version from your other instances.
+- It needs its own share of RAM, CPU and disk space while it is running.
+- Deleting it deletes everything stored inside, including guest-account progress.
 
-## Plan resource usage
+## Creating instances in BlueStacks 5
 
-| Host memory | Conservative experiment |
+BlueStacks manages instances through the Multi-instance Manager, opened from the side toolbar or as a separate app.
+
+1. Open the Multi-instance Manager and click to add a new instance.
+2. Choose a fresh instance to start clean, or clone an existing one to copy its settings and apps.
+3. Pick the Android version. Newer games may need a newer version, while older ones may run better on the default.
+4. Set CPU, RAM and performance mode for the new instance before you start it.
+5. Start it, sign in to the Play Store and install your game.
+
+The Multi-instance Manager also lets you rename, sort, start, stop and delete instances, and change each instance's settings without opening it.
+
+Other emulators, including MuMuPlayer, have their own multi-instance managers that work in a similar way.
+
+## How many instances can your PC run?
+
+Every running instance takes resources from the same pool. These are realistic starting points for light to medium games:
+
+| Your PC | Realistic number of instances | Per-instance settings to start with |
+|---|---|---|
+| 4 cores, 8 GB RAM | 1 to 2 | 2 cores, 2 to 3 GB RAM, 720p, 30 to 60 FPS |
+| 6 to 8 cores, 16 GB RAM | 2 to 3 | 2 cores, 3 GB RAM, 720p to 900p, 60 FPS |
+| 8+ cores, 32 GB RAM | 4 or more | 2 to 4 cores, 3 to 4 GB RAM, 720p to 1080p |
+
+Heavy 3D games and MMORPGs need more per instance, so expect fewer at once. Watch Task Manager: if total RAM use goes above about 85 percent, close an instance or lower its allocation.
+
+## Getting more out of the same PC
+
+- **Lower the settings on background instances.** An instance you are not watching does not need 1080p or 60 FPS. Drop it to 720p and a lower frame rate.
+- **Use the emulator's background mode.** BlueStacks offers an Eco mode in the Multi-instance Manager that cuts the frame rate of instances running in the background. Other emulators have similar options.
+- **Stagger start-ups.** Starting several instances at the same moment hits the disk hard. Start them one after another.
+- **Keep everything on an SSD.** Multiple instances reading game files at once are painful on a hard drive.
+- **Turn on virtualization.** Multi-instance on a PC without it is close to unusable.
+
+## Sync and macro tools
+
+Some emulators can copy your actions from one instance to the others in real time, and record macros that repeat a sequence of inputs. They can save time in single-player chores, but they carry real risks:
+
+- In online games, synced or macro-driven play across accounts can look exactly like botting, and many terms of service forbid it.
+- In competitive modes, any automated input is a fast route to a ban.
+- Even where a game tolerates them, keep sync and macro use to tasks the game's own systems already support, such as daily rewards.
+
+## Account rules: read before running alts
+
+Running several accounts is where multi-instance meets game rules. Publishers handle it differently:
+
+- Some games allow multiple accounts but forbid transferring items or currency between them.
+- Some forbid more than one account per person outright.
+- Some allow alts but forbid running them simultaneously or with automation.
+
+Check the game's terms of service before setting up alts. Supercell's terms are a good example of the level of detail to look for.
+
+## Keeping your instances organised
+
+- **Name each instance** after the game or account it runs, so you never delete the wrong one.
+- **Link every account** to a proper login before relying on an instance.
+- **Keep one clean instance** for testing updates, so a broken update does not take down your main setup.
+- **Delete instances you no longer use** to free disk space, after checking the accounts inside are linked.
+
+## Fixing common multi-instance problems
+
+| Problem | What to try |
 |---|---|
-| 8 GB | One active instance |
-| 16 GB | One active instance; test a second light game only with sufficient headroom |
-| 32 GB+ | Test two independent instances, then increase only after monitoring |
-
-These are suggested starting points, not capacity guarantees. Two guests assigned 4 GB each do not describe total Windows memory usage; overhead, graphics allocations and other applications also matter. Check actual host usage. Reduce background frame caps where supported and permitted, and close idle instances rather than leaving them consuming resources.
-
-## Separate games from profiles
-
-Name each instance by game and Android environment. Record the account provider and server without storing passwords in plain text. Keep control schemes and graphics settings documented. Export or back up only through the vendor's supported methods, and remember that a local backup is not a substitute for a properly linked game account.
-
-## Multi-instance performance check
-
-Run your primary game alone and record FPS and responsiveness. Open the second instance and repeat the same gameplay sequence. If the first game's performance drops sharply, reduce the second instance's graphics load or close it. If disk activity rises and RAM is almost full, increasing allocations will make the problem worse. Test independent sessions rather than using automation to create load.
-
-## What is allowed?
-
-Some games restrict simultaneous accounts, external automation, coordinated inputs or account sharing. Do not assume a multi-instance manager or synchronization button grants permission. Use independent manual sessions only where the game's rules allow them. Avoid farming loops and shared input broadcasts that undermine fair play.
-
-## Recovering from a broken instance
-
-Try a fresh environment before deleting anything. Confirm the game's cloud progress, keep the original until the replacement works, and preserve any legitimate local backups. If the Android version is no longer supported, use a currently available compatible instance or the approved desktop client.
+| Everything slows down when a second instance starts | Lower resolution, FPS and RAM on the background instance, or run fewer |
+| An instance will not start | Check free disk space and RAM, then restart the Multi-instance Manager |
+| A game will not install on a new instance | Create the instance with a newer Android version |
+| Instances crash after a few hours | Lower allocations slightly, check temperatures, and restart them periodically |
+| Lost progress after deleting an instance | Progress on unlinked guest accounts cannot be recovered; link accounts before deleting |
