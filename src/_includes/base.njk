@@ -1,41 +1,53 @@
-{%- macro ico(d) -%}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{{ d }}"/></svg>{%- endmacro -%}
+{%- from "logo.njk" import logo with context -%}
+{%- macro mico(name) -%}<img class="kx-mico" src="{{ ('/assets/img/micons/' + name + '.webp') | rel }}" alt="" width="34" height="34" aria-hidden="true">{%- endmacro -%}
+{%- set ogImg = image or shareImage or '/assets/img/share/maxcrit.jpg' -%}
+{%- set ogTitle = title or (site.name + ': ' + site.tagline) -%}
+{%- set desc = summary or site.description -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang }}" data-gz="light">
 <head>
-<script>try{var t=localStorage.getItem("mc-theme");if(t)document.documentElement.setAttribute("data-gz",t)}catch(e){}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ seo_title or title }}{% if title %} · {% endif %}{{ site.name }}</title>
-<meta name="description" content="{{ summary or site.description }}">
-<meta name="robots" content="max-image-preview:large">
-<meta name="theme-color" content="#f1efe9">
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<title>{% if seo_title or title %}{{ seo_title or title }} · {{ site.name }}{% else %}{{ site.name }}: {{ site.tagline }}{% endif %}</title>
+<meta name="description" content="{{ desc }}">
+<meta name="robots" content="{% if noindex %}noindex, follow{% else %}index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1{% endif %}">
+<meta name="theme-color" content="#0e0924">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace('/index.html', '/') }}">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="{% if published_at %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{{ title or site.name }}">
-<meta property="og:description" content="{{ summary or site.description }}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-{% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}"><meta name="twitter:card" content="summary_large_image">{% endif %}
+<meta property="og:title" content="{{ ogTitle }}">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url | replace('/index.html', '/') }}">
+<meta property="og:image" content="{{ site.url }}{{ ogImg }}">
+<meta property="og:image:width" content="{% if ogImg == '/assets/img/share/maxcrit.jpg' %}1200{% else %}1600{% endif %}">
+<meta property="og:image:height" content="{% if ogImg == '/assets/img/share/maxcrit.jpg' %}630{% else %}900{% endif %}">
+<meta property="og:image:alt" content="{{ image_alt or ogTitle }}">
+{% if published_at %}<meta property="article:published_time" content="{{ published_at | isoDate }}">
+<meta property="article:modified_time" content="{{ (updated_at or published_at) | isoDate }}">
+{% for gs in genres or [] %}<meta property="article:section" content="{{ (genreNav | find('slug', gs)).name }}">{% endfor %}
+{% for t in titles or [] %}{% if games[t] %}<meta property="article:tag" content="{{ games[t].name }}">{% endif %}{% endfor %}
+{% endif %}<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ ogTitle }}">
+<meta name="twitter:description" content="{{ desc }}">
+<meta name="twitter:image" content="{{ site.url }}{{ ogImg }}">
 <link rel="icon" href="{{ '/assets/img/favicon.svg' | rel }}" type="image/svg+xml">
-<link rel="preload" href="{{ '/assets/fonts/chakra-petch-latin-700-normal.woff2' | rel }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/barlow-condensed-latin-700-normal.woff2' | rel }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/barlow-latin-400-normal.woff2' | rel }}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | rel }}">
-<link rel="stylesheet" href="{{ '/assets/css/gz.css' | rel }}">
-<link rel="stylesheet" href="{{ '/assets/css/mc.css' | rel }}">
-<link rel="stylesheet" id="mxL" href="{{ '/assets/css/mc-light.css' | rel }}">
+{% if lcp %}<link rel="preload" as="image" href="{{ lcp | rel }}" fetchpriority="high">
+{% endif %}<link rel="stylesheet" href="{{ '/assets/css/site.css' | rel }}?v={{ site.build }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | rel }}">
-</head>
+{% if page.url == '/' or page.url == '/index.html' %}<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"{{ site.url }}/#org","name":"{{ site.name }}","url":"{{ site.url }}/","logo":{"@type":"ImageObject","url":"{{ site.url }}/assets/img/share/logo.png","width":512,"height":512},"email":"{{ site.email }}","description":{{ site.description | jsonify | safe }}},{"@type":"WebSite","@id":"{{ site.url }}/#site","name":"{{ site.name }}","url":"{{ site.url }}/","inLanguage":"en","publisher":{"@id":"{{ site.url }}/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"{{ site.url }}/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}]}</script>
+{% endif %}</head>
 <body class="{{ bodyClass or 'gz-home' }}">
 <a class="gz-skip" href="#content">Skip to content</a>
 
 <input type="checkbox" id="gzMenu" class="gz-mchk" aria-label="Open or close the menu">
 <header class="gz-head">
 <div class="gz-head-in">
-<a class="gz-logo" href="{{ '/index.html' | rel }}" aria-label="{{ site.name }} home"><span class="gz-bot" aria-hidden="true">{% include "pixel/logo.svg" %}</span><b><span>{{ site.wordA }}</span>{{ site.wordB }}<i class="gz-cur" aria-hidden="true">_</i></b></a>
-<nav class="gz-hot" aria-label="Popular games"><span class="gz-hot-l">Popular</span>{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}<a href="{{ ('/games/' + slug + '.html') | rel }}">{{ g.name }}</a>{% endif %}{% endfor %}</nav>
+<a class="gz-logo" href="{{ '/index.html' | rel }}" aria-label="{{ site.name }} home">{{ logo(34) }}</a>
+<nav class="gz-hot kx-apps" aria-label="Popular games">{% for slug in site.hot %}{% set g = games[slug] %}<a href="{{ ('/games/' + slug + '.html') | rel }}"><img src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="32" height="32"><span>{{ g.name }}</span></a>{% endfor %}</nav>
 <form class="gz-search" action="{{ '/search.html' | rel }}" role="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><label><span class="gz-sr">Search</span><input type="search" name="q" placeholder="Search…"></label></form>
-<button class="gz-ibtn" id="themeBtn" type="button" aria-label="Switch to dark theme"><svg class="i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
 <a class="gz-ibtn gz-rss" href="{{ '/feed.xml' | rel }}" aria-label="RSS"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 19h.01 M5 12a7 7 0 0 1 7 7 M5 5a14 14 0 0 1 14 14"/></svg></a>
 <label class="gz-ibtn gz-menu" for="gzMenu"><span class="gz-sr">Menu</span><span></span><span></span></label>
 </div>
@@ -45,26 +57,26 @@
 <aside class="gz-side" aria-label="Side menu">
 <form class="gz-side-search" action="{{ '/search.html' | rel }}" role="search"><label><span class="gz-sr">Search</span><input type="search" name="q" placeholder="Search news, games and guides"></label></form>
 <nav>
-<a class="{% if page.url == '/' or page.url == '/index.html' %}on{% endif %}" href="{{ '/index.html' | rel }}">{{ ico("M3 11l9-7 9 7v9H3z M9 20v-6h6v6") }}Home</a>
-<a class="{% if activeNav == 'news' %}on{% endif %}" href="{{ '/news.html' | rel }}">{{ ico("M4 5h16 M4 10h16 M4 15h10 M4 20h7") }}Latest news</a>
-<a class="{% if activeNav == 'games' %}on{% endif %}" href="{{ '/games.html' | rel }}">{{ ico("M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z M10 18h4") }}Games A–Z</a>
-{% for t in topicNav %}{% set c = (collections.everything | byTopic(t.slug)).length %}<a class="topic{% if activeNav == 't-' + t.slug %} on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ ico(t.icon) }}{{ t.name }}</a>
+<a class="{% if page.url == '/' or page.url == '/index.html' %}on{% endif %}" href="{{ '/index.html' | rel }}">{{ mico('home') }}Home</a>
+<a class="{% if activeNav == 'news' %}on{% endif %}" href="{{ '/news.html' | rel }}">{{ mico('news') }}Latest news</a>
+<a class="{% if activeNav == 'games' %}on{% endif %}" href="{{ '/games.html' | rel }}">{{ mico('games') }}Games A–Z</a>
+{% for t in topicNav %}<a class="topic{% if activeNav == 't-' + t.slug %} on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ mico(t.mico) }}{{ t.name }}</a>
 {% endfor %}
 <details class="gz-grp" open>
-<summary>{{ ico("M12 3l9 5-9 5-9-5z M3 13l9 5 9-5 M3 17.5l9 5 9-5") }}Player Hub<i aria-hidden="true"></i></summary>
-<a class="sub{% if activeNav == 'hub' %} on{% endif %}" href="{{ '/hub.html' | rel }}"><span class="mc-si">{{ ico("M4 4h7v7H4z M13 4h7v7h-7z M4 13h7v7H4z M13 13h7v7h-7z") }}</span><span class="mc-st">All hub pages</span></a>
-{% for h in hubTypes %}{% set hc = (collections.hub | byHubType(h.slug)).length %}{% if hc %}<a class="sub{% if activeNav == 'h-' + h.slug %} on{% endif %}" href="{{ ('/hub/' + h.slug + '.html') | rel }}"><span class="mc-si">{{ ico(h.icon) }}</span><span class="mc-st">{{ h.name }}</span></a>
+<summary>{{ mico('hub') }}Player Hub<i aria-hidden="true"></i></summary>
+<a class="sub{% if activeNav == 'hub' %} on{% endif %}" href="{{ '/hub.html' | rel }}"><span class="mc-si">{{ mico('star') }}</span><span class="mc-st">All hub pages</span></a>
+{% for h in hubTypes %}{% set hc = (collections.hub | byHubType(h.slug)).length %}{% if hc %}<a class="sub{% if activeNav == 'h-' + h.slug %} on{% endif %}" href="{{ ('/hub/' + h.slug + '.html') | rel }}"><span class="mc-si">{{ mico(h.mico) }}</span><span class="mc-st">{{ h.name }}</span></a>
 {% endif %}{% endfor %}
 </details>
 <details class="gz-grp" open>
-<summary>{{ ico("M6 11h4 M8 9v4 M15 12h.01 M18 10h.01 M17.32 5H6.68a4 4 0 0 0-3.98 3.59C2.6 9.42 2 14.46 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.41-1.41A2 2 0 0 1 9.83 16h4.34a2 2 0 0 1 1.41.59L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.55-.6-6.58-.69-7.26A4 4 0 0 0 17.32 5z") }}Genres<i aria-hidden="true"></i></summary>
-{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ ico(g.icon) }}</span><span class="mc-st">{{ g.name }}</span></a>
+<summary>{{ mico('mobile') }}Genres<i aria-hidden="true"></i></summary>
+{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
 {% endif %}{% endfor %}
 </details>
 </nav>
 </aside>
 <div class="gz-col">
-<div class="gz-tick"><span class="gz-tick-l mx-tl"><i></i>Latest</span>
+<div class="gz-tick"><span class="gz-tick-l mx-tl"><img class="kx-gem" src="{{ '/assets/img/ui/el-p05.webp' | rel }}" alt="" width="22" height="22" aria-hidden="true">Latest</span>
 <div class="gz-marq" aria-label="Latest stories"><div class="gz-marq-in">{% for rep in [0,1] %}<span{% if rep %} aria-hidden="true"{% endif %}>{% for n in collections.everything | limit(8) %}<a href="{{ n.url | rel }}"{% if rep %} tabindex="-1"{% endif %}><b>{{ (n.data.updated_at or n.data.published_at) | shortDate }}</b>{{ n.data.title }}</a>{% endfor %}</span>{% endfor %}</div></div>
 </div>
 <main id="content" class="gz-main">
@@ -75,15 +87,15 @@
 
 <footer class="gz-foot">
 <div class="gz-foot-in">
-<div class="gz-foot-brand"><b>{{ site.wordA }}<span>{{ site.wordB }}</span></b><p>{{ site.tagline }}, from official sources.</p></div>
+<div class="gz-foot-brand">{{ logo(44) }}<p>{{ site.tagline }}.</p></div>
 <nav aria-label="Sections"><h2 class="mono">Sections</h2><a href="{{ '/news.html' | rel }}">Latest news</a>{% for t in topicNav %}<a href="{{ ('/' + t.slug + '.html') | rel }}">{{ t.name }}</a>{% endfor %}<a href="{{ '/games.html' | rel }}">Games A–Z</a></nav>
 <nav aria-label="Player Hub"><h2 class="mono">Player Hub</h2><a href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav>
 <nav aria-label="About"><h2 class="mono">About</h2><a href="{{ '/editorial-policy.html' | rel }}">Editorial policy</a><a href="{{ '/about.html' | rel }}">About</a><a href="{{ '/privacy.html' | rel }}">Privacy</a><a href="{{ '/feed.xml' | rel }}">RSS</a></nav>
 </div>
 <div class="gz-foot-bot mono"><span>© 2026 {{ site.name | upper }}</span><span>Images are official press and store material from their rights holders.</span></div>
 </footer>
-<script src="{{ '/assets/js/site.js' | rel }}"></script>
+<button class="kx-top" type="button" aria-label="Back to top"><img src="{{ '/assets/img/ui/cat-pink.webp' | rel }}" alt="" width="40" height="40"><span>TOP</span></button>
+<script src="{{ '/assets/js/site.js' | rel }}?v={{ site.build }}" defer></script>
 {% block scripts %}{% endblock %}
-<script>(function(){var h=document.documentElement,l=document.getElementById("mxL");function f(){l.disabled=h.getAttribute("data-gz")==="dark"}f();new MutationObserver(f).observe(h,{attributes:true,attributeFilter:["data-gz"]})})();</script>
 </body>
 </html>

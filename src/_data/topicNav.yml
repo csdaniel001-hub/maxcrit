@@ -1,3 +1,3 @@
 # Cross-cutting sections that sit on top of genres. An article keeps one main genre and can
 # carry any number of topics: topics: [gacha]
-- { slug: gacha, name: "Gacha games", desc: "Every gacha game we cover, whatever the genre: version updates, banners, pity and rate changes, betas and launches.", icon: "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z M3 12h6.5 M14.5 12H21 M12 9.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z" }
+- { slug: gacha, mico: gacha, name: "Gacha games", desc: "Every gacha game we cover, whatever the genre: version updates, banners, pity and rate changes, betas and launches.", icon: "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z M3 12h6.5 M14.5 12H21 M12 9.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z" }

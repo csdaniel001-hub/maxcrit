@@ -14,5 +14,9 @@
     "@11ty/eleventy": "^3.1.8",
     "js-yaml": "^5.5.0",
     "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.33.0",
+    "purgecss": "^9.1.0"
   }
 }

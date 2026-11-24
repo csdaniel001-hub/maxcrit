@@ -8,6 +8,9 @@ export default {
   description: "Mobile gaming news from official sources, plus patch trackers, tier lists and guides for the iOS and Android games people actually play.",
   lang: "en",
   locale: "en_US",
+  // Top bar: the six games with app icons, in order.
+  hot: ["pokemon-go", "pubg-mobile", "clash-of-clans", "brawl-stars", "marvel-snap", "clash-royale"],
+  build: Date.now().toString(36),
   today: new Date().toISOString().slice(0, 10),
   publisher: "[PUBLISHER NAME]",
   editor: "[EDITOR IN CHIEF]",

@@ -250,6 +250,7 @@ chasing-kaleidorider:
   publisher: "Fizzglee Studio (Tencent)"
   official: "https://kaleidorider.com/"
   status: "Doki Test from December 17, 2026"
+  noicon: true  # not in the stores yet, so no official app icon
 cookierun-kingdom:
   name: "CookieRun: Kingdom"
   publisher: "Devsisters"

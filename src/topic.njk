@@ -6,6 +6,7 @@ eleventyComputed:
   title: "{{ t.name }}: news, banners and guides"
   summary: "{{ t.desc }}"
   activeNav: "t-{{ t.slug }}"
+  shareImage: "{{ (collections.everything | byTopic(t.slug) | featured | first).data.image if (collections.everything | byTopic(t.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs %}{% include "gtabs.njk" %}{% endset %}

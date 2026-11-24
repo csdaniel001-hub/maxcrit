@@ -7,6 +7,7 @@ eleventyComputed:
   title: "{{ g.name }} mobile games: news, patches and guides"
   summary: "{{ g.desc }}"
   activeNav: "g-{{ g.slug }}"
+  shareImage: "{{ (collections.everything | byGenre(g.slug) | featured | first).data.image if (collections.everything | byGenre(g.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs %}{% include "gtabs.njk" %}{% endset %}

@@ -6,13 +6,12 @@ title: Games A–Z
 summary: Every mobile game we cover, with its news, patch trackers and guides in one place, plus links to the official store listings.
 ---
 {% from "macros.njk" import clock with context %}
-<header class="gz-phead">
+<header class="gz-phead kx-has-peek"><img class="kp-hood" src="{{ '/assets/img/chars/cat-hood-gamer.webp' | rel }}" alt="" aria-hidden="true">
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / Games</p>
 <h1>Games A–Z</h1>
-<p class="gz-phead-d">Every game we cover, with all of its news and hub pages on one page. Store links go to the official listings.</p>
+<p class="gz-phead-d">Every game we cover, with all of its news and hub pages on one page, plus links to its store listings.</p>
 {% set gl = [] %}{% for slug, g in games %}{% if (collections.everything | byGame(slug)).length %}{% set gl = (gl.push(slug), gl) %}{% endif %}{% endfor %}
-<dl class="gz-spec mono"><div><dt>Games</dt><dd>{{ gl.length }}</dd></div></dl>
 </header>
 <section class="gz-rovat gz-rovat-first"><div class="gz-cgrid">
-{% for slug in gl | sort %}{% set g = games[slug] %}{% set items = collections.everything | byGame(slug) %}<a class="gz-tc" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="gz-pic"><img src="{{ items[0].data.image | rel }}" alt="" loading="lazy"></span><b>{{ g.name }}</b><time class="mono">{{ g.publisher | upper }}</time></a>{% endfor %}
+{% for slug in gl | sort %}{% set g = games[slug] %}{% set items = collections.everything | byGame(slug) %}<a class="gz-tc" href="{{ ('/games/' + slug + '.html') | rel }}"><span class="gz-pic"><img src="{{ items[0].data.image | wsrc(480) | rel }}" alt="" width="480" height="270" loading="lazy" decoding="async"></span><b class="kx-tb">{% if not g.noicon %}<img class="kx-ico s" src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="32" height="32" loading="lazy">{% endif %}{{ g.name }}</b><time class="mono">{{ g.publisher | upper }}</time></a>{% endfor %}
 </div></section>

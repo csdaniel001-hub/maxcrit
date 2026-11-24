@@ -1,3 +1,5 @@
+import { buildImages, WIDTHS } from "./lib/build/images.js";
+import { buildCss } from "./lib/build/css.js";
 import * as yaml from "js-yaml";
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -13,6 +15,13 @@ const slugify = (t) => String(t).toLowerCase().normalize("NFD").replace(/[̀-ͯ]
 export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml,yaml", (contents) => yaml.load(contents));
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  // One stylesheet per page: joined, unused rules removed, minified (lib/build/css.js)
+  eleventyConfig.on("eleventy.after", async ({ dir }) => {
+    const made = await buildImages(dir.output);
+    if (made) console.log(`[img] encoded ${made} responsive images`);
+    const r = await buildCss(dir.output);
+    console.log(`[css] site.css ${Math.round(r.before / 1024)} KB -> ${Math.round(r.after / 1024)} KB`);
+  });
 
   // Relative links, so the built site works from any folder (preview or host root)
   eleventyConfig.addFilter("rel", function (target) {
@@ -46,6 +55,12 @@ export default function (eleventyConfig) {
   });
 
   // Lists
+  // Responsive article images (see lib/build/images.js)
+  const wbase = (img) => String(img || "").replace(/^\/assets\/img\//, "/assets/img/w/").replace(/\.[^.]+$/, "");
+  eleventyConfig.addFilter("wsrc", (img, w) => `${wbase(img)}-${w || 960}.webp`);
+  eleventyConfig.addFilter("srcset", function (img) { return WIDTHS.map((w) => `${eleventyConfig.getFilter("rel").call(this, wbase(img) + "-" + w + ".webp")} ${w}w`).join(", "); });
+  // Stable pick from a list by page URL (character heads at article ends)
+  eleventyConfig.addFilter("pick", (url, list) => { let h = 0; for (const c of String(url)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return list[h % list.length]; });
   eleventyConfig.addFilter("limit", (arr, n) => (arr || []).slice(0, n));
   eleventyConfig.addFilter("exclude", (arr, url) => (arr || []).filter((x) => x.url !== url));
   eleventyConfig.addFilter("notIn", (arr, others) => { const u = new Set((others || []).map((x) => x.url)); return (arr || []).filter((x) => !u.has(x.url)); });

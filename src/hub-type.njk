@@ -7,6 +7,7 @@ eleventyComputed:
   title: "Mobile game {{ h.name | lower }}"
   summary: "{{ h.desc }}"
   activeNav: "h-{{ h.slug }}"
+  shareImage: "{{ (collections.hub | byHubType(h.slug) | featured | first).data.image if (collections.hub | byHubType(h.slug) | featured).length else '' }}"
 ---
 {% from "macros.njk" import listing with context %}
 {% set tabs %}<nav class="gz-ptabs" aria-label="Player Hub"><a href="{{ '/hub.html' | rel }}">All hub pages</a>{% for x in hubTypes %}{% if (collections.hub | byHubType(x.slug)).length %}<a class="{% if x.slug == h.slug %}on{% endif %}" href="{{ ('/hub/' + x.slug + '.html') | rel }}">{{ x.name }}</a>{% endif %}{% endfor %}</nav>{% endset %}

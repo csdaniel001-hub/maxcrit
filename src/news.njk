@@ -4,15 +4,15 @@ permalink: /news.html
 activeNav: news
 bodyClass: "gz-home"
 title: Latest mobile gaming news
-summary: Mobile gaming news from official sources only, newest first. Updates, betas, launches and balance changes for iOS and Android games.
+summary: The latest mobile gaming news, newest first. Updates, betas, launches and balance changes for iOS and Android games.
 ---
 {% from "macros.njk" import allrow with context %}
 {% set all = collections.news %}
 <header class="gz-phead">
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / News</p>
 <h1>Latest news</h1>
-<p class="gz-phead-d">Mobile gaming news from official sources only, newest first. Dates in UTC.</p>
-<dl class="gz-spec mono"><div><dt>Stories</dt><dd>{{ all.length }}</dd></div>{% if all.length %}<div><dt>Last updated</dt><dd>{{ all[0].data.published_at | longDate }}</dd></div>{% endif %}</dl>
+<p class="gz-phead-d">Updates, launches, betas and balance changes for the iOS and Android games people play, newest first.</p>
+<dl class="gz-spec mono">{% if all.length %}<div><dt>Last updated</dt><dd>{{ all[0].data.published_at | longDate }}</dd></div>{% endif %}</dl>
 </header>
 {% include "gtabs.njk" %}
 <section class="hz-all" aria-label="All news" style="margin-top:22px">

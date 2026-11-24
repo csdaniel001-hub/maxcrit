@@ -2,5 +2,6 @@
 layout: base.njk
 permalink: /404.html
 title: Page not found
+noindex: true
 ---
-<header class="gz-phead"><h1>Not found</h1><p class="gz-phead-d">This page does not exist, or it has moved. Try the <a href="{{ '/news.html' | rel }}">news feed</a> or the <a href="{{ '/hub.html' | rel }}">Player Hub</a>.</p></header>
+{% from "macros.njk" import moment with context %}<header class="gz-phead"><h1>Not found</h1></header>{{ moment('baby-dragon', true, 'This page wandered off', 'It may have moved, or the link has a typo. The newest stories and the Player Hub are a click away.', [['Latest news','/news.html'],['Player Hub','/hub.html'],['Home','/index.html']]) }}
