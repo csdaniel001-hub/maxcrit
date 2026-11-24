@@ -2143,3 +2143,15 @@ html[data-gz=light] body .ar .ar-tx .hz-btns{display:flex;flex-wrap:wrap;gap:10p
 }
 .axh-r,.axh-r img{border-radius:0!important}
 @media (max-width:760px){.axh-r{margin-top:0!important;aspect-ratio:auto;height:calc(var(--th) + 56vw)}.axh-r img{object-position:50% 70%}}
+/* ===== article header v10: image fades under the title block ===== */
+.axh-in{grid-template-columns:minmax(0,1fr) minmax(0,.9fr)!important}
+.axh-l{grid-column:1;grid-row:1;position:relative;z-index:2}
+.axh-r{grid-column:1 / 3;grid-row:1;justify-self:end;width:72%;z-index:1;border:0!important;border-image:none!important;
+ -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.35) 18%,rgba(0,0,0,.85) 38%,#000 52%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.35) 18%,rgba(0,0,0,.85) 38%,#000 52%)}
+.axh-t,.axh-s{text-shadow:0 2px 14px rgba(11,16,38,.9)}
+@media (max-width:760px){
+ .axh-in{grid-template-columns:1fr!important}
+ .axh-r{grid-column:1;grid-row:1;width:100%;justify-self:stretch;height:calc(var(--th) + 62vw)!important;
+  -webkit-mask-image:linear-gradient(180deg,#000 0%,#000 55%,rgba(0,0,0,.4) 80%,transparent 100%);mask-image:linear-gradient(180deg,#000 0%,#000 55%,rgba(0,0,0,.4) 80%,transparent 100%)}
+ .axh-l{grid-row:2;margin-top:-64px!important}
+}
