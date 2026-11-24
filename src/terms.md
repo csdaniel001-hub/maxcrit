@@ -21,7 +21,7 @@ Game names, logos, characters and artwork belong to their respective owners. Max
 
 ## Accuracy
 
-We report from official sources and list them under every article. Games change quickly, though: events end, numbers get patched and dates move. Always check the game or the publisher's own announcement before spending money or making a decision. If you spot a mistake, tell us and we will correct it (see the [Editorial policy](editorial-policy.html)).
+We aim to report from official sources and list our sources under each article. Games change quickly, though: events end, numbers get patched and dates move. Always check the game or the publisher's own announcement before spending money or making a decision. If you spot a mistake, tell us and we will correct it (email us; see [About](about.html)).
 
 ## Links to other sites
 

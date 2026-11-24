@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 - [Player Hub]({{ site.url }}/hub.html): patch trackers and guides
 {% for t in topicNav %}{% if (collections.everything | byTopic(t.slug)).length %}- [{{ t.name }}]({{ site.url }}/{{ t.slug }}.html): {{ t.desc }}
 {% endif %}{% endfor %}- [Games A–Z]({{ site.url }}/games.html): one page per game with all its coverage and store links
-- [Editorial policy]({{ site.url }}/editorial-policy.html): how stories are sourced, checked and updated
+- [About]({{ site.url }}/about.html): who runs the site and how stories are sourced
 
 ## Player Hub
 {% for n in collections.hub %}- [{{ n.data.title | safe }}]({{ site.url }}{{ n.url }}): {{ n.data.summary | safe }}

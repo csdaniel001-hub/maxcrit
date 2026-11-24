@@ -36,4 +36,4 @@ MaxCrit is a non-commercial, independent site run by {{ site.legal.operator }}, 
 | Email | [{{ site.email }}](mailto:{{ site.email }}) |
 | Hosting provider | {{ site.legal.host.name }}, {{ site.legal.host.address }}, {{ site.legal.host.email }} |
 {% endif %}
-Editorial principles: [Editorial policy](editorial-policy.html) · [Terms of use](terms.html) · [Cookie policy](cookies.html)
+More: [About](about.html) · [Terms of use](terms.html) · [Cookie policy](cookies.html)
