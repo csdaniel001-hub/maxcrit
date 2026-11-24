@@ -359,7 +359,7 @@ subway-surfers:
   status: "Live"
 mobile-legends-bang-bang:
   name: "Mobile Legends: Bang Bang"
-  publisher: "Skystone Games (US) / Moonton"
-  appstore: "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655"
-  googleplay: "https://play.google.com/store/apps/details?id=com.mobile.legends.usa"
+  publisher: "Moonton"
+  appstore: "https://apps.apple.com/gb/app/mobile-legends-bang-bang/id1160056295"
+  googleplay: "https://play.google.com/store/apps/details?id=com.mobile.legends"
   status: "Live"

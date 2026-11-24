@@ -9,8 +9,8 @@ genres: [moba]
 platforms: [ios, android]
 titles: [mobile-legends-bang-bang]
 sources:
-  - { title: "Mobile Legends: Bang Bang.US on the App Store: release notes (November 11, 2026)", url: "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655", primary: true }
-  - { title: "Mobile Legends: Bang Bang.US on Google Play", url: "https://play.google.com/store/apps/details?id=com.mobile.legends.usa" }
+  - { title: "Mobile Legends: Bang Bang on the App Store: release notes for version 2.2.23 (November 11, 2026)", url: "https://apps.apple.com/gb/app/mobile-legends-bang-bang/id1160056295", primary: true }
+  - { title: "Mobile Legends: Bang Bang.US on the App Store: the same release notes for the US app", url: "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655" }
   - { title: "Liquipedia: Patch 2.2.23 (copy of the in-game patch notes)", url: "https://liquipedia.net/mobilelegends/Patch_2.2.23" }
   - { title: "MLBBHub: Patch 2.2.23, Original Server (copy of the in-game patch notes)", url: "https://mlbbhub.com/patch-notes/original/2.2.23" }
 tldr:
@@ -21,7 +21,7 @@ tldr:
 image: "/assets/img/mobile-legends-popol-and-kupa-revamp-card-brawl.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/80/13/b18013a4-37a2-2e4b-0ea0-6a7099779df8/4-en.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655"
-image_credit: "Skystone Games / Moonton"
+image_credit: "Moonton"
 image_alt: "Official App Store screenshot of Mobile Legends: Bang Bang.US"
 image_status: "candidate"
 ---
@@ -67,4 +67,6 @@ The designer note gives the reason for the wider changes: fighters had been taki
 
 Card Brawl opened on November 20 and runs until December 15, server time.
 
-The detailed figures come from MLBBHub's copy of the in-game patch notes, because Moonton does not post them on a public page. The store notes we cite are for the US app, Mobile Legends: Bang Bang.US, published by Skystone Games. Other regions use a different app.
+The detailed figures come from MLBBHub's copy of the in-game patch notes, because Moonton does not post them on a public page.
+
+This is the global update. The US has its own app, Mobile Legends: Bang Bang.US from Skystone Games, which received the same version, 2.2.23, with the same release notes on the same day.
