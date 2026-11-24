@@ -6,6 +6,6 @@ bodyClass: gz-art lg-page
 <div class="lr-grid lg-grid">
 <article class="gz-abody lg-body"><div class="gz-prose">{{ content | safe }}</div></article>
 <aside class="lr-side lg-side" aria-label="Site information"><div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Site information</h2></header>
-{% for l in [['About','/about.html'],['Editorial policy','/editorial-policy.html'],['Contact and legal notice','/contact.html'],['Privacy policy','/privacy.html'],['Cookie policy','/cookies.html'],['Terms of use','/terms.html']] %}<a class="cc-li{% if page.url == l[1] %} on{% endif %}" href="{{ l[1] | rel }}">{{ l[0] }}</a>{% endfor %}
+{% for l in [['About','/about.html'],['Editorial policy','/editorial-policy.html'],['Contact','/contact.html'],['Privacy policy','/privacy.html'],['Cookie policy','/cookies.html'],['Terms of use','/terms.html']] %}<a class="cc-li{% if page.url == l[1] %} on{% endif %}" href="{{ l[1] | rel }}">{{ l[0] }}</a>{% endfor %}
 <button type="button" class="cc-btn cy kx-cookie-open">Cookie settings</button></div></div></aside>
 </div>

@@ -1,9 +1,9 @@
 ---
 layout: legal.njk
 permalink: /contact.html
-title: Contact and legal notice
-seo_title: "Contact and legal notice"
-summary: "How to reach MaxCrit for corrections, tips, rights holder requests and privacy questions, plus the site operator's legal details."
+title: Contact
+seo_title: "Contact MaxCrit"
+summary: "How to reach MaxCrit for corrections, tips, rights holder requests and privacy questions, plus who runs the site."
 ---
 ## Contact
 
@@ -14,9 +14,9 @@ Email [{{ site.email }}](mailto:{{ site.email }}) for anything:
 - **Rights holders:** tell us which image or text, and what you would like us to do.
 - **Privacy and data requests:** see the [Privacy policy](privacy.html) for your rights.
 
-## Legal notice
+{% if site.legal.commercial %}## Legal notice
 
-Information required by Hungarian law on electronic commerce (Act CVIII of 2001, section 4):
+Information required by Hungarian law on information society services (Act CVIII of 2001, section 4):
 
 | | |
 |---|---|
@@ -26,5 +26,14 @@ Information required by Hungarian law on electronic commerce (Act CVIII of 2001,
 {% if site.legal.registry %}| Registration number | {{ site.legal.registry }} |
 {% endif %}{% if site.legal.tax %}| Tax number | {{ site.legal.tax }} |
 {% endif %}| Hosting provider | {{ site.legal.host.name }}, {{ site.legal.host.address }}, {{ site.legal.host.email }} |
+{% else %}## Who runs MaxCrit
 
+MaxCrit is a non-commercial, independent site run by {{ site.legal.operator }}, who also edits it. It carries no advertising, affiliate links or paid content.
+
+| | |
+|---|---|
+| Operator and editor | {{ site.legal.operator }} |
+| Email | [{{ site.email }}](mailto:{{ site.email }}) |
+| Hosting provider | {{ site.legal.host.name }}, {{ site.legal.host.address }}, {{ site.legal.host.email }} |
+{% endif %}
 Editorial principles: [Editorial policy](editorial-policy.html) · [Terms of use](terms.html) · [Cookie policy](cookies.html)

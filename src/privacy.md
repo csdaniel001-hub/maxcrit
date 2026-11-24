@@ -9,7 +9,7 @@ This policy explains what personal data MaxCrit processes, why, and what rights 
 
 ## Who is responsible
 
-The data controller is {{ site.legal.operator }}, {{ site.legal.address }}, email [{{ site.email }}](mailto:{{ site.email }}). Full details are on the [Contact and legal notice](contact.html) page.
+The data controller is {{ site.legal.operator }}{% if site.legal.commercial %}, {{ site.legal.address }}{% endif %}, email [{{ site.email }}](mailto:{{ site.email }}). Full details are on the [Contact](contact.html) page.
 
 ## The short version
 

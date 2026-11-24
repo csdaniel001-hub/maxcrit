@@ -16,6 +16,9 @@ export default {
   editor: "Dániel Csáki",
   // Legal notice (Hungarian Ekertv. 4. §, GDPR Art. 13). Fill in before launch; lib/check.js warns while any "[...]" remains.
   legal: {
+    // false while the site earns nothing (no ads, affiliate links or paid content): a simple operator box, no address.
+    // Set to true when monetising: the full legal notice (Ekertv. 4. §) with address, registration and tax number appears.
+    commercial: false,
     operator: "Dániel Csáki (private individual)",
     address: "[REGISTERED ADDRESS]",
     registry: "", // only for a company or sole trader
