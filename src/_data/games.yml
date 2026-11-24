@@ -385,3 +385,17 @@ pokemon-unite:
   appstore: "https://apps.apple.com/us/app/pokemon-unite/id1512321575"
   googleplay: "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"
   status: "Live until March 23, 2027 (end of service announced)"
+albion-online:
+  name: "Albion Online"
+  publisher: "Sandbox Interactive"
+  official: "https://albiononline.com/"
+  appstore: "https://apps.apple.com/us/app/albion-online/id1202788573"
+  googleplay: "https://play.google.com/store/apps/details?id=com.albiononline"
+  status: "Live"
+the-sims-freeplay:
+  name: "The Sims FreePlay"
+  publisher: "Electronic Arts"
+  official: "https://www.ea.com/games/the-sims/the-sims-freeplay"
+  appstore: "https://apps.apple.com/us/app/the-sims-freeplay/id466965151"
+  googleplay: "https://play.google.com/store/apps/details?id=com.ea.games.simsfreeplay_na"
+  status: "Live"
