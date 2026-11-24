@@ -207,6 +207,8 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
       boxes.forEach(function(b){c[b.dataset.cat]=k==='accept'?true:k==='reject'?false:b.checked;});save(c);});
     document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!p.hidden&&!p.dataset.auto)close();});
     document.querySelectorAll('.kx-cookie-open').forEach(function(b){b.addEventListener('click',open);});
+    // Global Privacy Control: treat as a refusal, don't ask
+    if(!saved&&navigator.globalPrivacyControl===true){var g={};boxes.forEach(function(b){g[b.dataset.cat]=false;});g.gpc=true;save(g);return;}
     if(saved)run(saved);else if(p.dataset.auto)open();
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();

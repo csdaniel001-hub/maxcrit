@@ -26,7 +26,7 @@ These only run after you say yes in the cookie settings. If you say no, nothing 
 {% endif %}
 {% endif %}## Changing your choice
 
-Use the **Cookie settings** link in the footer of any page to see or change your choice. Rejecting is as easy as accepting. If you withdraw consent, the Google Analytics cookies are deleted. You can also clear stored data in your browser settings; the site will then ask again.
+Use the **Cookie settings** link in the footer of any page to see or change your choice. Rejecting is as easy as accepting. If your browser sends a Global Privacy Control signal, Google Analytics stays off unless you switch it on yourself. If you withdraw consent, the Google Analytics cookies are deleted. You can also clear stored data in your browser settings; the site will then ask again.
 
 ## If this changes
 

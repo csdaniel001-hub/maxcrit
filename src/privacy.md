@@ -5,7 +5,7 @@ title: Privacy policy
 seo_title: "Privacy policy"
 summary: "How MaxCrit handles personal data: no accounts, no tracking, no ads. What the server logs, what happens when you email us, and your rights under the GDPR."
 ---
-This policy explains what personal data MaxCrit processes, why, and what rights you have. It follows the EU General Data Protection Regulation (GDPR) and Hungarian law (Infotv.).
+This policy explains what personal data MaxCrit processes, why, and what rights you have. MaxCrit is read worldwide but run from Hungary, so it follows the EU General Data Protection Regulation (GDPR), one of the strictest privacy laws in the world. We give the same protections and rights to every visitor, wherever you live.
 
 ## Who is responsible
 
@@ -27,7 +27,7 @@ MaxCrit has no accounts, no comments, no newsletter and no advertising. We count
 
 **Your cookie choice.** If the site ever asks for cookie consent, your choice is saved in your browser (see the [Cookie policy](cookies.html)). We do not receive it.
 
-We do not sell personal data, build profiles or make automated decisions about you.
+We do not sell or share personal data for advertising, build profiles or make automated decisions about you.
 
 ## Who else sees it
 
@@ -41,11 +41,15 @@ Articles link to app stores, publishers' sites and official social accounts. Tho
 
 You can ask us for access to your personal data, and to correct, delete or restrict it. You can object to processing based on legitimate interest, ask for a copy in a portable format, and withdraw any consent at any time without affecting earlier processing. Write to [{{ site.email }}](mailto:{{ site.email }}); we answer within one month.
 
-If you think we handle your data unlawfully, you can complain to the data protection authority in the country where you live or work, or where the problem happened. The European Data Protection Board keeps [a list of all national authorities in the EU and EEA](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en). Because MaxCrit is operated from Hungary, our lead authority is the Hungarian National Authority for Data Protection and Freedom of Information (NAIH), [naih.hu](https://naih.hu). You can also take legal action in court.
+If you think we handle your data unlawfully, you can complain to the data protection authority in the country where you live or work, or where the problem happened. In the EU and EEA, the European Data Protection Board keeps [a list of all national authorities](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en); in the UK it is the [Information Commissioner's Office](https://ico.org.uk). Because MaxCrit is operated from Hungary, our lead authority is the Hungarian National Authority for Data Protection and Freedom of Information (NAIH), [naih.hu](https://naih.hu). You can also take legal action in court.
+
+## Visitors outside Europe
+
+The rights above apply to you too, wherever you live. For visitors in the United States: we do not sell personal information or share it for cross-context behavioural advertising, and if your browser sends a Global Privacy Control signal, we treat it as a refusal of Google Analytics.
 
 ## Children
 
-MaxCrit is a general-audience site and does not knowingly collect data from anyone. If you are under 16 and have emailed us, a parent or guardian can ask us to delete the message.
+MaxCrit is a general-audience site. It is not directed at children under 13 and does not knowingly collect personal data from them. If you believe a child has sent us personal data, for example by email, a parent or guardian can ask us to delete it.
 
 ## Changes
 
