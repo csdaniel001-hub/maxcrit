@@ -576,3 +576,10 @@ terraria:
   appstore: "https://apps.apple.com/us/app/terraria/id640364616"
   googleplay: "https://play.google.com/store/apps/details?id=com.and.games505.TerrariaPaid"
   status: "Live"
+starsavior:
+  name: "StarSavior"
+  publisher: "STUDIOBSIDE"
+  official: "https://starsavior.com/intro"
+  appstore: "https://apps.apple.com/us/app/starsavior/id6443597557"
+  googleplay: "https://play.google.com/store/apps/details?id=com.studiobside.starMain"
+  status: "Live"
