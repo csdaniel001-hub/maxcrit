@@ -346,6 +346,12 @@ reverse-1999:
   appstore: "https://apps.apple.com/us/app/reverse-1999/id1672933190"
   googleplay: "https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999"
   status: "Live"
+summoners-war:
+  name: "Summoners War"
+  publisher: "Com2uS"
+  appstore: "https://apps.apple.com/us/app/summoners-war/id852912420"
+  googleplay: "https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common"
+  status: "Live"
 whiteout-survival:
   name: "Whiteout Survival"
   publisher: "Century Games"
