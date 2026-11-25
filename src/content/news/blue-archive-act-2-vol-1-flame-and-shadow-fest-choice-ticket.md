@@ -20,7 +20,7 @@ image_alt: "Official App Store screenshot of Blue Archive-Free Fest Choice"
 image_status: "candidate"
 ---
 
-NEXON's November 10 update for Blue Archive started Main Story Act 2 Vol. 1, Flame and Shadow, and packed the month with recruitment events. The main story chapter has no end date, so you can start it whenever you like. The recruitment side is more time-sensitive. Here's the schedule from the release notes, with what's still running.
+Most of Blue Archive's November recruitment closes on November 23, less than two weeks after NEXON's November 10 update started Main Story Act 2 Vol. 1, Flame and Shadow. The story chapter has no end date and can wait. The banners and events around it can't, and the full schedule is below.
 
 | Dates | Event |
 |---|---|
@@ -31,6 +31,6 @@ NEXON's November 10 update for Blue Archive started Main Story Act 2 Vol. 1, Fla
 | Nov 17 – Nov 23 | Total Assault: Hieronymus (Urban Warfare) |
 | Nov 10 – Nov 23 | Set Sail! Pandemonium Ship: Chair Makoto's Lux Summer Getaway! event story |
 
-The first week, which has already ended, ran Makoto (Swimsuit) and Satsuki (Swimsuit) Pick-Ups and a 200-Free Recruitment event from November 10 to 16.
+The first week, which has already ended, ran Makoto (Swimsuit) and Satsuki (Swimsuit) Pick-Ups and a 200-Free Recruitment event from November 10 to 16. After today, only the Choice Ticket and Final Restriction Release: The Fury of Set (Light Armor) are left, both until December 7.
 
-Today, November 23, is the last day for the doubled 3-Star rates, the Iroha and Ibuki Pick-Ups, Total Assault: Hieronymus and the Pandemonium Ship event story. The Special 3-Star Fest Student Choice Ticket stays until December 7, so there's no rush on that one. It lets you pick a Fest student, and since Fest students are the ones you can't get on ordinary banners, it's best spent after checking which of them your roster is missing.
+Today, November 23, is the last day for the doubled 3-Star rates, the Iroha and Ibuki Pick-Ups, Total Assault: Hieronymus and the Pandemonium Ship event story. The Special 3-Star Fest Student Choice Ticket stays until December 7, so there's no rush on that one. It lets you pick a Fest student, and since Fest students are the ones you can't get on ordinary banners, spend it on whichever of them your roster is missing.

@@ -11,10 +11,6 @@ titles: [pokemon-go]
 sources:
   - { title: "Pokémon GO: Save the dates for next Season's Community Days!", url: "https://pokemongo.com/news/save-the-date-s25", primary: true }
   - { title: "Pokémon GO: Twilight Trails season page", url: "https://pokemongo.com/seasons/twilight-trails" }
-tldr:
-  - "December Community Day runs over <b>two days, December 12–13, 2026</b>."
-  - "January has a <b>Community Day Classic on January 2</b> and a regular Community Day on January 16. February's is on February 6."
-  - "Seven more event days are dated, from a Max Battle Day on December 5 to a Raid Day on February 13."
 image: "/assets/img/pokemon-go-community-day-dates-december-2026-february-2027.jpg"
 image_url: "https://lh3.googleusercontent.com/GMESDlJRw5GMsmroW_oK6TLXA4OerLjNY43b0JkjCoSXrez97CwCflnTBTh-uzMhJZYQvQbtA8nK8YPEknYHu0tearwDyBVUoi8=s0"
 image_source: "https://pokemongo.com/news/save-the-date-s25"
@@ -23,9 +19,9 @@ image_alt: "Pokémon GO Community Day logo from the official announcement"
 image_status: "candidate"
 ---
 
-The Pokémon GO team has published the dates for every Community Day of the next season, plus seven other event days running from early December 2026 to mid-February 2027. The featured Pokémon for December were announced separately on November 20, and we cover them in their own story.
+11 Saturdays in a row, from December 5 through February 13, now have a dated Pokémon GO event. The Pokémon GO team has published every Community Day of the next season, December 2026 to February 2027, plus seven other event days to fill the gaps.
 
-The current season, Twilight Trails, ends on December 1, 2026 at 10:00 a.m. local time, so these dates belong to the season that follows it.
+The current season, Twilight Trails, ends on December 1, 2026 at 10:00 a.m. local time, so all of these dates belong to the season that follows it. December's featured Pokémon were announced separately on November 20, and we cover them in their own story.
 
 ## Community Day dates
 
@@ -36,7 +32,7 @@ The current season, Twilight Trails, ends on December 1, 2026 at 10:00 a.m. loca
 | Saturday, January 16, 2027 | Community Day |
 | Saturday, February 6, 2027 | Community Day |
 
-December's Community Day runs over a full weekend, so you get two chances instead of one. January has two: a Community Day Classic on the 2nd and a regular one on the 16th.
+December's Community Day takes a full weekend, which gives you two chances at it. January gets two as well, in a different shape: a Community Day Classic on the 2nd and a regular one on the 16th.
 
 ## Other event days
 
@@ -50,8 +46,8 @@ December's Community Day runs over a full weekend, so you get two chances instea
 | Saturday, January 30, 2027 | Super Mega Raid Day |
 | Saturday, February 13, 2027 | Raid Day |
 
-Put the two tables together and you get eleven Saturdays in a row with a dated event, from December 5 through February 13. There is no free Saturday in that stretch, so if you only play on event days, the whole winter is covered.
+Put both tables together and there's no free Saturday in that stretch. Players who only log in on event days have the whole winter covered.
 
-January 9 and January 30 are both Super Mega Raid Days, three weeks apart. If you raid with a local group, those are the two Saturdays to agree on early.
+Raid groups should look at January first. January 9 and January 30 are both Super Mega Raid Days, three weeks apart, and those are the two Saturdays to agree on early.
 
-The team notes that upcoming events are subject to change, so check the official news page before you plan travel around a date.
+Upcoming events are subject to change, so confirm a date on the official news page before you book travel around it.

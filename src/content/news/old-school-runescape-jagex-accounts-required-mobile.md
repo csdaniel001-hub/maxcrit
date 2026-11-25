@@ -24,7 +24,7 @@ image_alt: "Official App Store screenshot of Old School RuneScape"
 image_status: "candidate"
 ---
 
-Jagex finished moving Old School RuneScape to Jagex Accounts on November 17, 2026. From that day, an old-style account has to be upgraded before it can log in again. The change covers RuneScape too, and it matters most on phones, where many players have stayed logged in for years and may not have typed their password in a long time.
+If you've stayed logged into Old School RuneScape on your phone for years, that session won't last much longer. Jagex finished moving the game to Jagex Accounts on November 17, 2026, and from that day an old-style account has to be upgraded before it can log in again. RuneScape is covered too, but phones are where it bites: plenty of mobile players haven't typed their password in a long time.
 
 ## Who has to upgrade
 
@@ -32,7 +32,7 @@ The change targets legacy accounts, the ones you log into directly with an email
 
 If you play through an Apple, Google, Game Center or Steam login, nothing changes for signing in. You will still need a Jagex Account to use the Jagex Launcher on desktop and for some features on the website.
 
-On mobile, legacy players who already have an active session can keep playing for now. Jagex says those sessions will be logged out "in the near future" and recommends upgrading now rather than waiting to be kicked out mid-session.
+On mobile, legacy players who already have an active session can keep playing for now. Jagex says those sessions will be logged out "in the near future" and recommends upgrading before that happens, so nobody gets kicked out mid-session.
 
 Accounts that are not upgraded are not deleted. They stay safe, and you can upgrade them whenever you are ready, but you cannot play those characters until you do.
 
@@ -49,4 +49,4 @@ Linking is permanent. A character you add to a Jagex Account cannot be removed f
 
 If you have forgotten your password or lost your authenticator, the upgrade will not get you past that. Jagex asks you to send a recovery appeal through Player Support first, then upgrade once the account is back in your hands.
 
-For mobile players, the safest moment to do this is now, while your session still works and you can check your bank and settings afterwards. The step-by-step guide on the RuneScape Support site walks through each screen.
+The step-by-step guide on the RuneScape Support site walks through each screen. For mobile players, the safest moment to follow it is today, while the old session still works and you can check your bank and settings straight after the upgrade.

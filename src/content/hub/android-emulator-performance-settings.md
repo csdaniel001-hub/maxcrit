@@ -41,7 +41,7 @@ image_alt: Official MuMuPlayer artwork showing Android games on PC and Mac
 image_status: candidate
 ---
 
-Most "lag" in Android emulators comes from a handful of settings: virtualization being off, too little RAM or CPU given to the emulator, a frame-rate cap the game cannot hold, or the wrong graphics chip doing the work. This guide goes through the settings in order of impact, gives starting profiles for common PC specs, and covers how to test changes properly. The menu names below follow BlueStacks 5, but MuMuPlayer, LDPlayer and other emulators have equivalent options.
+Most "lag" in Android emulators comes from a handful of settings: virtualization being off, too little RAM or CPU given to the emulator, a frame-rate cap the game cannot hold, or the wrong graphics chip doing the work. Fix those and most of the problem goes away. The settings below are ordered by impact, with starting profiles for common PC specs and a way to test each change. The menu names below follow BlueStacks 5, but MuMuPlayer, LDPlayer and other emulators have equivalent options.
 
 ## Fix the foundations first
 
@@ -49,7 +49,7 @@ These three make more difference than everything else combined:
 
 - **Virtualization on**: check Task Manager, under Performance, then CPU. If Virtualization says Disabled, turn it on in the BIOS first. Our virtualization guide shows how.
 - **SSD storage**: install the emulator and its games on an SSD. Loading screens, texture streaming and updates are all much faster.
-- **Current graphics drivers**: install the latest driver from NVIDIA, AMD or Intel rather than relying on the one Windows installed.
+- **Current graphics drivers**: install the latest driver from NVIDIA, AMD or Intel. Don't rely on the one Windows installed.
 
 Also close heavy background apps while playing: browsers with many tabs, video editors and other launchers all compete for the same RAM and CPU.
 
@@ -110,9 +110,9 @@ The game's own options matter as much as the emulator's:
 
 ## Windows settings that help
 
-- **Power plan**: use Balanced or High performance, not a battery-saver plan, while gaming.
+- **Power plan**: use Balanced or High performance while gaming, and leave battery-saver plans for when you're not playing.
 - **Game Mode**: leave Windows Game Mode on.
-- **Antivirus**: if scans slow the emulator down, follow the emulator's own guide to adding an exclusion, rather than turning protection off.
+- **Antivirus**: if scans slow the emulator down, follow the emulator's own guide to adding an exclusion and keep protection on.
 - **Startup apps**: disable launchers and updaters you do not need running in the background.
 
 ## How to test properly
@@ -122,7 +122,7 @@ The game's own options matter as much as the emulator's:
 3. Play the same route for ten minutes while watching the FPS counter and Task Manager.
 4. Change one setting, restart if the emulator asks, and repeat the same test.
 
-A steady 60 FPS feels smoother than a frame rate that jumps between 60 and 120. Judge by how the game feels after ten minutes, not by the peak number in a menu.
+A steady 60 FPS feels smoother than a frame rate that jumps between 60 and 120. Ten minutes in is the real test. The peak number in a menu tells you very little.
 
 ## Quick fixes for common performance problems
 

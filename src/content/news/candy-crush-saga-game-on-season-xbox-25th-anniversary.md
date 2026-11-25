@@ -37,8 +37,8 @@ Some of the pins also exist as real ones. VIP players in the US can enter a cont
 
 ## Candyfied music
 
-Six of the franchises got their music reworked in Candy Crush style: Halo, Fallout, Sea of Thieves, Forza, DOOM and Banjo-Kazooie. Composer Federico Truzzi arranged them, and they were recorded by the German Film Orchestra Babelsberg, the BoChorBerlin choir and an accordion player. You hear them while you play, and the album is also on Spotify and other streaming services if you want to listen outside the game.
+Six of the franchises got their music reworked in Candy Crush style: Halo, Fallout, Sea of Thieves, Forza, DOOM and Banjo-Kazooie. Composer Federico Truzzi arranged them, and they were recorded by the German Film Orchestra Babelsberg, the BoChorBerlin choir and an accordion player. You hear them while you play, and the album is also on Spotify and other streaming services.
 
 Crash Bandicoot and Spyro appear in the pin collection but not in the music.
 
-Game On Season is available on iOS, Android, Amazon and the Windows App store. With two weeks left, the pins are the part with a deadline. The season ends on December 6.
+Game On Season is available on iOS, Android, Amazon and the Windows App store. The pins are the part with a deadline: the collection closes with the season on December 6.

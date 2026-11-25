@@ -18,9 +18,9 @@ image_alt: "Pikachu, Meowth, Chatot and Lucario in the official Pokémon GO and 
 image_status: "candidate"
 ---
 
-Pokémon GO and Duolingo have started a cross-app event, and the Pokémon GO side of it is a Timed Research you earn by studying.
+Seven Duolingo lessons on seven different days earn you a Pokémon GO Timed Research in the two apps' cross-app event, which started on November 17. The language study happens in one app and the payoff lands in the other.
 
-On Duolingo, the limited-time quest is called Duo's Pokémon Party. It started on November 17 at 10:00 a.m. JST, and you need the latest version of the Duolingo app. Doing at least one lesson in any course unlocks a daily reward, including up to four Pokémon suits for your Duolingo avatar. After seven lessons on seven different days, you get an Offer Code for Pokémon GO.
+On Duolingo, the limited-time quest is called Duo's Pokémon Party. It began at 10:00 a.m. JST, and you need the latest version of the Duolingo app. Doing at least one lesson in any course unlocks a daily reward, including up to four Pokémon suits for your Duolingo avatar. The seventh lesson day gives you an Offer Code for Pokémon GO.
 
 Redeem the code and you get event-themed Timed Research in Pokémon GO. You pick a language and the tasks appear in it, with hints from Professor Willow if you get stuck. Rewards are XP, Stardust and encounters with Pikachu, Meowth, Chatot and Lucario, all with a Special Background and a chance of being Shiny.
 

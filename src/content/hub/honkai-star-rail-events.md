@@ -32,9 +32,9 @@ image_alt: "Official App Store screenshot of Honkai: Star Rail"
 image_status: "candidate"
 ---
 
-Version 4.7 includes comic-themed gameplay, relic acquisition and cosmetic campaigns.
+Every Honkai: Star Rail event on this list closes between December 21 and 23, so the end of this version comes down to one short stretch. Version 4.7 mixes a comic-themed event, relic farming, a cosmetic draw and a Resonance campaign for Affinitive Eidolons.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Dates come from the official announcements as of November 24, 2026. All times are UTC+8, so convert them to your own server before you count on a late-night finish.
 
 ## Current event schedule
 
@@ -55,8 +55,6 @@ Event dates below are copied from each game's official announcements as of Novem
 Finish the comic-themed event and its challenges.
 
 - **Rewards**: Event inheritance and challenge rewards.
-
-- **Eligibility**: Check event panel.
 
 ### Relic Recon
 
@@ -86,16 +84,14 @@ Use eligible Star Rail Special Passes or Fashion Invites to accumulate Resonance
 
 - **Rewards**: Affinitive Eidolons.
 
-- **Eligibility**: Check event rules and spending requirements.
-
 ### Version 4.7 Discord Quest reward redemption
 
 - **Event window**: 2026-11-11 to 2026-12-21 11:00 (UTC+8).
 
-Accept the official Discord Quest and follow the instructions if participation is still offered. This is the redemption window, not a confirmed quest acceptance window.
+Accept the official Discord Quest and follow its instructions if it is still offered. The dates above are for redeeming rewards, so anyone who already took part should redeem before December 21 at 11:00.
 
 - **Rewards**: Chance to receive Stellar Jades and other rewards.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+The Discord redemption goes first, on December 21 at 11:00. The four in-game events all end together on December 23 at 03:59, which makes the last session before then the time to finish The Fluffy Movie: Overheated challenges, wrap up Relic Recon and claim whatever you have unlocked. Schedules can move after publication, and a long campaign window still doesn't promise that every activity is open on every day of it.

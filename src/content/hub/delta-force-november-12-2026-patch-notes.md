@@ -31,7 +31,7 @@ image_alt: "Official App Store screenshot of Delta Force"
 image_status: "candidate"
 ---
 
-Delta Force received a no-downtime follow-up to its Aurora season on November 12. The regional Garena patch addresses operator balance, map flow and a substantial list of bugs.
+Two days after the full Aurora season began, Delta Force got a no-downtime follow-up patch on November 12. The regional Garena patch covers operator balance, map flow and a substantial list of bugs.
 
 ## Operator and mission changes
 - Martelo's Smoke Halo audio attenuation now reaches 50m, with more attenuation beyond 30m. Camera-turning mechanical audio while holding it is audible only to Martelo.
@@ -48,5 +48,7 @@ Vehicle Supply Stations now share the servicing cooldown once a vehicle finishes
 - Controller ADS delay, loadout binding displays, share-code visibility and Firing Range camera alignment.
 - Various animation, localization, fishing and profile display issues.
 
-## What players should know
-The full Aurora season began November 10, just outside this roundup. These changes are specifically the November 12 follow-up. Garena's official announcement is the reference for regional availability; check the corresponding client notice if you play another distribution.
+## Who should read this
+Zenith Port attackers get the biggest change here, with new deployment positions in Sector B and more after the Riptide event. Martelo players, and the people hunting them, both have new Smoke Halo audio to learn.
+
+Everything above belongs to the November 12 follow-up; the Aurora season's own launch on November 10 sits outside this roundup. Garena's announcement covers its own regions, so players on another distribution go by that client's notice.

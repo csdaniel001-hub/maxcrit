@@ -24,7 +24,7 @@ image_alt: "Official App Store screenshot of eFootball™"
 image_status: "candidate"
 ---
 
-Konami's Black Friday campaign is already underway, with a second objective round and a new English Clubs event due on November 26. Players still have time to pick up login rewards and progress through the Campaign Hub.
+eFootball's Black Friday campaign is live, and its last stretch starts on November 26 with a new objective round and an English Clubs event. Everything Konami has lined up runs until December 3, so the login rewards and Campaign Hub progress are still there for the taking.
 
 ## Schedule (UTC)
 
@@ -38,8 +38,8 @@ Konami's Black Friday campaign is already underway, with a second objective roun
 
 The login campaign includes an Arsenal Highlight Chance Deal, two Random Skill Tokens, two Random Position Tokens, 110,000 GP and 60,000 EXP across its rewards. Daily bonuses renew at 02:00 UTC.
 
-Eligible AI and PvP matches advance the Campaign Hub. Platinum Tickets can award up to 5,000 Coins through a draw; this is a chance-based prize, not a guaranteed login reward. Thierry Henry also receives a themed stadium decoration.
+Eligible AI and PvP matches advance the Campaign Hub. Platinum Tickets can award up to 5,000 Coins through a draw. That top prize is down to chance, so don't count it as part of your login haul. Thierry Henry also receives a themed stadium decoration.
 
 Team Effort requires roster rotation: players used in a winning lineup cannot be reused in subsequent matches in that event. London Clubs is AI-based; English Clubs adds PvP from November 26. Training and exhibition matches do not advance the Hub.
 
-Prioritize daily claims and eligible matches before the deadline.
+Claim the daily bonus each time it renews at 02:00 UTC, and play Hub matches in eligible modes. Both stop counting at 01:59 UTC on December 3.

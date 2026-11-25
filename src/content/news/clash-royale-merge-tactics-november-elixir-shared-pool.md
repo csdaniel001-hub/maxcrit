@@ -18,9 +18,9 @@ image_alt: "Merge Tactics November traits artwork from the official Clash Royale
 image_status: "candidate"
 ---
 
-Clash Royale's Merge Tactics mode has been on its November rotation since October 27. Season 11 has no Starsteel reset, but each month brings its own troop pool and modifiers.
+Missed the Rider trait? It's back in Clash Royale's Merge Tactics, part of a November rotation that has been live since October 27. Season 11 has no Starsteel reset, but each month brings its own troop pool and modifiers, and this one also changes the Elixir economy.
 
-The changes that affect every game:
+These apply to every game:
 
 - **Elixir per round**: back to 5. Supercell says 4 was too little and made the early game too slow.
 - **Shared pool**: copies of each 2-Elixir Troop go from 4 to 8, and of each 3-Elixir Troop from 4 to 6. Since Supers joined the shared pool, cheap troops had become hard to upgrade, and this is meant to make 3- and 4-Star versions reachable again.
@@ -29,4 +29,4 @@ The changes that affect every game:
 
 Each league also gets its own pair of modifiers this month, from Merge Training and Trait Training in Bronze I to Trait Gift and Trait Dummy in Diamond.
 
-The shared pool change is the one to build around. With twice as many 2-Elixir copies available, chasing a 3-Star cheap carry is far less likely to be blocked by other players buying the same troop.
+For lobbies, the shared pool matters most. With twice as many 2-Elixir copies to go around, a 3-Star cheap carry is far less likely to be blocked by someone else buying the same troop, so it's a plan you can commit to again.

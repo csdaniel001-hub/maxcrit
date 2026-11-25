@@ -63,7 +63,7 @@ Let p be the pulls since the last 5-star on the relevant banner type. With hard 
 | Light Cone, 50 pity, unguaranteed | 110 | 17,600 |
 | Light Cone, 50 pity, guaranteed | 30 | 4,800 |
 
-These are spending ceilings under the ordinary rules. They do not predict the actual number of pulls or model the chance of reaching the target early. Check the current in-game Details for special or collaboration Warps before using this calculation there.
+Treat these as spending ceilings under the ordinary rules. They don't predict how many pulls you will actually need or the chance of an early hit; they tell you the most a target can cost. Special and collaboration Warps carry their own in-game Details page; read it before using this calculation there.
 
 ## How Celestial Invitation changes the character pool
 
@@ -75,7 +75,7 @@ The 62.5% case only applies when the featured character can be added to your Cel
 
 In Version 4.7, A Comedy of Stars and Indelible Coterie share guarantee progress, and Brilliant Fixation and Coalesced Truths share a different counter. Progress carries across phases and future Event Warps of the same type. Character progress cannot be applied to a Light Cone Warp, or vice versa. Standard and collaboration Warps also have their own rules.
 
-Pulling for a rerun 4-star can unexpectedly produce a 5-star and consume the pity or guarantee you meant to reserve. If you would regret receiving the featured 5-star on that banner, save the Special Passes instead.
+Chasing a rerun 4-star has a hidden cost: it can produce a 5-star and consume the pity or guarantee you meant to reserve. If you would regret receiving the featured 5-star on that banner, save the Special Passes instead.
 
 ## Create a budget before choosing a banner
 
@@ -92,4 +92,4 @@ For example, an account with 18 Special Passes and 12,000 Jade has 93 pulls avai
 
 The 4.7 Journey Highlights screen tracks earned and remaining Jade and Special Pass rewards, making it a useful place to audit potential income. Count unclaimed rewards only once and leave uncertain rewards outside the guaranteed budget. Check the [current event calendar](/hub/events/honkai-star-rail-events.html) and [banner schedule](/hub/banners/honkai-star-rail-banners.html) together, because rewards arriving after a Warp closes cannot pay for that target.
 
-A 5-star received early frees resources. It does not justify continuing to pull automatically. Recalculate after every 5-star and decide whether the next target still fits your reserve.
+An early 5-star frees resources. Spending them on autopilot is how reserves disappear, so recalculate after every 5-star and ask whether the next target still fits.

@@ -25,7 +25,7 @@ image_alt: "Official App Store screenshot of Melon: Sandbox"
 image_status: "candidate"
 ---
 
-Melon Sandbox is expanding its multiplayer experiments beyond spawning objects. The iOS store changelog for version 40.0 introduces playable avatars, customizable outfits and dedicated worlds for building and PvP.
+Melon Sandbox's multiplayer is no longer only about spawning objects. Version 40.0 on iOS gives you a playable avatar with customizable outfits, plus dedicated worlds for building and PvP.
 
 ## What's new in 40.0
 
@@ -39,4 +39,4 @@ Melon Sandbox is expanding its multiplayer experiments beyond spawning objects. 
 
 On Android, the store page still describes 39.4, which introduced protected cooperative construction, vehicle use and item handling for Living characters, plus three additional characters and 218 reported fixes.
 
-If you are organizing a multiplayer session, compare version numbers first. Until the Android listing moves to 40.0, the avatars, the new worlds and the six-player rooms are only described for iPhone and iPad, so mixed groups should check that everyone is on the same build.
+That gap matters for mixed groups. Until the Android listing moves to 40.0, the avatars, the new worlds and the six-player rooms are only described for iPhone and iPad, so compare version numbers before anyone sets up a room.

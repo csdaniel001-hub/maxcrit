@@ -36,9 +36,9 @@ image_alt: "Official App Store screenshot of Genshin Impact"
 image_status: "candidate"
 ---
 
-Version 7.2 has a limited digging challenge and ongoing story and exploration reward campaigns. The next photography event is not yet live.
+Only one thing on Genshin Impact's Version 7.2 calendar is in a hurry. Stress Block Smashing Project, the limited digging challenge, closes on November 30, while the story and exploration reward campaigns run into December and, for Where Kristall Roots Run Deep, late January. The next photography event hasn't gone live.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Dates are as of November 24, 2026. Most are server time and date-only; the table shows the basis for each.
 
 ## Current event schedule
 
@@ -57,7 +57,7 @@ Event dates below are copied from each game's official announcements as of Novem
 
 - **Event window**: 2026-11-20 10:00 to 2026-11-30 03:59 (Server time).
 
-Use Diggytron to break blocks and reach score thresholds. All five stages are scheduled to be unlocked by Nov 24.
+Diggytron breaks the blocks, and score thresholds pay out. All five stages are scheduled to be unlocked by Nov 24, so the whole event is open for its final week.
 
 - **Rewards**: Primogems, Hero’s Wit, Mystic Enhancement Ore, Mora and other rewards.
 
@@ -67,13 +67,13 @@ Use Diggytron to break blocks and reach score thresholds. All five stages are sc
 
 - **Event window**: 2026-11-04 version window.
 
-Complete the event challenges and claim the selection reward before the event closes.
+Clear the event challenges and claim the selection reward before the event closes. A free four-star of your choice is the best roster value on this page.
 
 - **Rewards**: Free selectable four-star character.
 
 ### Hour of Ruin limited quest rewards
 
-- **Event window**: 2026-11-04 version update to 2026-12-15 (Server time.
+- **Event window**: 2026-11-04 version update to 2026-12-15 (Server time).
 
 Complete the eligible Archon Quest and claim the limited rewards.
 
@@ -81,15 +81,15 @@ Complete the eligible Archon Quest and claim the limited rewards.
 
 ### Where Kristall Roots Run Deep
 
-- **Event window**: 2026-11-04 version window to 2027-01-26 (Server time.
+- **Event window**: 2026-11-04 version window to 2027-01-26 (Server time).
 
-Complete the exploration objectives for the featured area.
+Complete the exploration objectives for the featured area. With the longest window here, this is the one to leave for last.
 
 - **Rewards**: 400 Primogems reported.
 
 ### Encounter: Interlude of the Long Journey
 
-- **Event window**: 2026-11-04 version window to 2026-12-15 (Server time.
+- **Event window**: 2026-11-04 version window to 2026-12-15 (Server time).
 
 Complete the featured Repertoire of Myriad Melodies album activities.
 
@@ -97,10 +97,10 @@ Complete the featured Repertoire of Myriad Melodies album activities.
 
 - **Event window**: 2026-11-24 to 2026-12-15 23:59:59 (UTC+8).
 
-Follow the official sharing instructions and add your Genshin UID to HoYoLAB. This is a competition, not guaranteed currency.
+Follow the official sharing instructions and add your Genshin UID to HoYoLAB. It is a competition, and only selected winners collect.
 
 - **Rewards**: 120 Primogems for selected winners in specified prize tiers.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Clear the digging challenge this week, then work through the three December 15 events before Grand Defense closes on December 16. Dates can still move after publication, and an open window does not promise every activity on every day.

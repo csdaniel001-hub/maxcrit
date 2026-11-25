@@ -19,15 +19,15 @@ image_alt: "Official Subway Surfers feature graphic from its Google Play listing
 image_status: "candidate"
 ---
 
-SYBO Games released Subway Surfers version 3.72.0 on November 23, 2026. The new season takes the crew to Las Vegas and is a collaboration with the card game Balatro.
+Jimbo, the joker from Balatro, is now a Subway Surfers character. He arrives with version 3.72.0, released by SYBO Games on November 23, 2026, in a season that takes the crew to Las Vegas.
 
-What the release notes list:
+What the season brings:
 
 - **Queen of Cards**: a new Mega Character for the season.
 - **Jimbo**: Balatro's joker joins as a character. You unlock him by playing Floor is Lava, the mode where you keep your feet off the ground.
 - **Season Hunt**: completing it wins the Joker Board and the Grand Juke's Jackpot Outfit.
 - **Thanksgiving and Cyber Week**: exclusive rewards and new special Bundle deals.
 
-The two unlocks work differently, which is worth knowing before you start. Jimbo comes from Floor is Lava, so you earn him by playing that mode. The Joker Board and the Jackpot Outfit come from the Season Hunt, which runs across your normal runs for the whole season.
+The two unlocks work differently. Jimbo comes from Floor is Lava, so you earn him by playing that mode. The Joker Board and the Jackpot Outfit come from the Season Hunt, which runs across your normal runs for the whole season.
 
 If you want everything, play Floor is Lava for Jimbo first and let the Season Hunt fill up in the background.

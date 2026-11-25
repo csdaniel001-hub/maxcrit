@@ -22,7 +22,7 @@ image_alt: "Crown Series Leagues artwork from the official Clash Royale announce
 image_status: "candidate"
 ---
 
-Supercell has announced the Crown Series, a recurring competition in Clash Royale that runs every season. You play head-to-head Duels against players of a similar skill level and collect rewards at the end of each run. It opens from Arena 17, at 6,000 Trophies.
+Thirteen Leagues, up to four decks and no card used twice. That is the shape of the Crown Series, a new Clash Royale competition announced on November 23 that runs every season and opens from Arena 17, at 6,000 Trophies. You play head-to-head Duels against players of a similar skill level and collect rewards at the end of each run.
 
 ## Duel Decks and the Deck Wizard
 
@@ -51,6 +51,6 @@ Each season has 3 or 4 Duel Weekends, depending on its length: a few regular Due
 - **Grand Duel, Leagues 1 to 8**: the target rises to 12 wins before 4 losses.
 - **Grand Duel, King's League**: up to 20 battles and a leaderboard. Wins are capped, so ties are broken by fewer losses, then more individual battles won across your Duels, then stronger opponents beaten, then who reached their final score first.
 
-Grand Duel rewards arrive in the days after the event ends, not straight away.
+Grand Duel rewards arrive in the days after the event ends.
 
-The 8-win rewards climb steeply. The lowest League pays 4,800 Gold for a perfect run, and the King's League pays 120,000, so your League placement matters more than any single weekend.
+The 8-win rewards climb steeply. The lowest League pays 4,800 Gold for a perfect run, and the King's League pays 120,000. Over a season, climbing a League is worth more than any single good weekend, so treat the early Duels as a ladder.

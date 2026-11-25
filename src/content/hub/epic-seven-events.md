@@ -30,10 +30,9 @@ image_credit: "Smilegate"
 image_alt: "Official App Store screenshot of Epic Seven"
 image_status: "candidate"
 ---
+Epic Seven's 3,000-Day Celebration lands on top of the winter challenge season and a stack of Foundry-server activities. Six events overlap this week, and two of them close on November 26.
 
-The 3,000-day celebration and winter challenge season overlap with several Foundry-server activities.
-
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Every date below comes from the official announcements as of November 24, 2026. All six windows are calendar dates without a time of day, so the countdown on your own server decides the exact cut-off.
 
 ## Current event schedule
 
@@ -48,66 +47,48 @@ Event dates below are copied from each game's official announcements as of Novem
 
 ## Event details
 
+Some activities apply to Foundry servers only. Where that is the case, the event's own requirements in the menu say so.
+
 ### 3,000-Day Celebration Server Cooperation
 
-- **Event window**: 2026-11-12 to 2026-11-26 (Calendar dates.
+- **Event window**: 2026-11-12 to 2026-11-26 (calendar dates).
+- **What to do**: complete the server cooperation objectives in the event menu.
+- **Rewards**: cooperation milestone rewards.
 
-Complete the server cooperation objectives in the event menu.
-
-- **Rewards**: Cooperation milestone rewards.
-
-- **Eligibility**: Foundry only where specified; check event requirements.
+This and Emergency Dispatch are the first windows to close, so clear them before anything else.
 
 ### Emergency Dispatch: Ruins Reclamation
 
-- **Event window**: 2026-11-19 to 2026-11-26 (Calendar dates.
-
-Complete eligible emergency dispatch missions.
-
-- **Rewards**: Mission rewards.
-
-- **Eligibility**: Foundry only where specified; check event requirements.
+- **Event window**: 2026-11-19 to 2026-11-26 (calendar dates).
+- **What to do**: complete eligible emergency dispatch missions.
+- **Rewards**: mission rewards.
 
 ### The Call of Chaos: Winter 2026
 
-- **Event window**: 2026-11-19 to 2026-12-10 (Calendar dates.
-
-Participate in the seasonal Call of Chaos challenge.
-
-- **Rewards**: Seasonal challenge rewards.
-
-- **Eligibility**: Foundry only where specified; check event requirements.
+- **Event window**: 2026-11-19 to 2026-12-10 (calendar dates).
+- **What to do**: take part in the seasonal Call of Chaos challenge.
+- **Rewards**: seasonal challenge rewards.
 
 ### Dirge of the End: Rewind
 
-- **Event window**: 2026-11-19 to 2026-12-17 (Calendar dates.
+- **Event window**: 2026-11-19 to 2026-12-17 (calendar dates).
+- **What to do**: enter the rerun content and complete eligible stages.
+- **Rewards**: event rewards.
 
-Enter the rerun content and complete eligible stages.
-
-- **Rewards**: Event rewards.
-
-- **Eligibility**: Foundry only where specified; check event requirements.
+With an end date of December 17, the rerun has the most slack of the stage events.
 
 ### Secret Rabbit♥Hole side story
 
-- **Event window**: 2026-10-29 to 2026-12-10 (Calendar dates.
-
-Complete the side story and its reward objectives.
-
-- **Rewards**: Side-story rewards.
-
-- **Eligibility**: Foundry only where specified; check event requirements.
+- **Event window**: 2026-10-29 to 2026-12-10 (calendar dates).
+- **What to do**: complete the side story and its reward objectives.
+- **Rewards**: side-story rewards.
 
 ### Foundry growth buffs
 
-- **Event window**: 2026-10-29 to 2026-12-31 (Calendar dates.
-
-Check active boosts on Foundry server; not a universal global-server bonus.
-
-- **Rewards**: Growth bonuses.
-
-- **Eligibility**: Foundry only where specified; check event requirements.
+- **Event window**: 2026-10-29 to 2026-12-31 (calendar dates).
+- **What to do**: look at the active boosts on your Foundry server. The buffs belong to Foundry and don't apply across global servers.
+- **Rewards**: growth bonuses.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Work through the list by end date: the two November 26 events first, then The Call of Chaos and the side story before December 10. Finish the required activities and claim any unlocked rewards before each timer runs out. Dates can change after publication, and a campaign window does not mean every activity is open every day.

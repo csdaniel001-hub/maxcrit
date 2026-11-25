@@ -18,7 +18,7 @@ image_alt: "Official App Store screenshot of Honor of Kings"
 image_status: "candidate"
 ---
 
-The Grand Hero Fiesta started in Honor of Kings on November 17. It's a cross-game celebration that links Honor of Kings' China and International servers with Arena of Valor, and the hero at its center is Butterfly, who launches or gets updated in all three games. In Honor of Kings, she gets refreshed visuals and gameplay.
+Three log-in days are all it takes to keep Butterfly for good in Honor of Kings' Grand Hero Fiesta, which started on November 17. The cross-game event links Honor of Kings' China and International servers with Arena of Valor, and Butterfly launches or gets updated in all three. In Honor of Kings, that means refreshed visuals and gameplay.
 
 Free rewards in the event:
 
@@ -27,4 +27,4 @@ Free rewards in the event:
 - **Match-3 minigame**: collect tokens and redeem them for a free skin adapted from the default look of a hero from the China server or Arena of Valor.
 - **Global skin vote**: vote for the skins you'd like to see brought across the three games.
 
-If you want Butterfly for free, get your three log-in days done early rather than waiting.
+Bank the three log-in days early. Leave them to the last stretch of the event and one missed day costs you a hero you could have had for free.

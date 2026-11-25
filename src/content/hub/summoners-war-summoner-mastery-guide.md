@@ -43,13 +43,13 @@ image_status: "candidate"
 
 Your first visit to Summoner Mastery after updating to v9.4.0 may leave you with a surprisingly uneven score. A veteran account can have strong dungeon records and a large monster collection while still showing unfinished Trial of Ascension milestones. Before rebuilding teams or spending Mana Stones on runes, check which achievements actually need another run.
 
-The most useful approach is to separate permanent progression from temporary events. You can work on dungeon speed records next month; a missed seasonal battle deadline is a different problem.
+Sort the work into two piles: permanent progression and temporary events. Dungeon speed records will still be there next month. A missed seasonal battle deadline won't come back.
 
 ## How Summoner Mastery works
 
 Go to Summoner's Tower, select Profile and open Mastery. Com2uS introduced ten scoring categories, with your own score updating immediately and ranking information refreshed periodically. Achievement records persist after completion, including rune records after the qualifying rune is sold. Collaboration monsters and their corresponding original monsters share collection credit. Our [v9.4.0 update story](/news/summoners-war-v9-4-0-summoner-mastery-siege-season-23.html) covers the rest of the patch.
 
-Use the score as an account audit. A low category can tell you where you have left progression unfinished, but a high category does not necessarily mean your current PvP or farming teams are well built. Check the specific requirements before committing resources.
+Read the score as an account audit. A low category points at progression you left unfinished. A high one says little about whether your current PvP or farming teams are well built. Check the specific requirements before committing resources.
 
 ## Which Mastery records count retroactively?
 
@@ -72,7 +72,7 @@ For example, if you are trying to improve your Giant's Keep record, start by com
 3. Re-enter eligible ongoing seasonal content before deciding that older results have been lost.
 4. Reserve rune upgrades, skill-ups and monster development for objectives that also improve an actual farming or PvP team.
 
-Players who are still developing a reliable dungeon team should avoid sacrificing farming consistency for a single faster Mastery record. A stable team is a better foundation for future rune upgrades. Endgame players with established farming teams can focus more selectively on individual speed thresholds or collection gaps.
+Still building a reliable dungeon team? Then one faster Mastery record is not worth losing farming consistency over. A stable team is what pays for future rune upgrades. Endgame players with established farming teams can focus more selectively on individual speed thresholds or collection gaps.
 
 ## What to finish before the December reset
 
@@ -85,7 +85,7 @@ The November events overlap with the new account progression system. Use the fol
 | SWC Special Battle | Ends Dec 6, 6:59 AM PST | Play before the battle window closes. |
 | SWC Special Battle Pass sale | Ends Dec 13, 6:59 AM PST | Check your earned rewards and the in-game purchase terms before spending. |
 
-The SWC event provides World Finals support monsters with their equipment already assigned, in a single pre-ban format. It offers a useful opportunity to observe unfamiliar drafts without first investing in equivalent monsters on your own account. Use the opponent's opening choices to identify their intended strategy. A tournament lineup is only useful if you understand its draft matchups.
+The SWC event provides World Finals support monsters with their equipment already assigned, in a single pre-ban format. That makes it a cheap way to see unfamiliar drafts before you invest in the same monsters on your own account. Use the opponent's opening choices to identify their intended strategy. A tournament lineup is only useful if you understand its draft matchups.
 
 For players in Central Europe, the SWC battle cutoff converts to December 6 at 3:59 PM CET. Siege uses the game's server clock, so do not automatically apply the SWC conversion to the guild schedule.
 

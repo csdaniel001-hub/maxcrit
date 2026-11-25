@@ -29,9 +29,9 @@ image_alt: "Official App Store screenshot of Diablo Immortal"
 image_status: "candidate"
 ---
 
-Blizzard’s November update offers a task-based treasure event, a random-draw gallery and a new Battle Pass.
+Diablo Immortal's November calendar has three very different asks: a treasure event that pays for routine play, a random-draw gallery that eats Litra, and a new Battle Pass. They also close in a neat order, Phantom Gallery first on December 1, Harvest Treasures on December 8 and the Maiden’s Chains Battle Pass on December 17.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+The dates are as of November 24, 2026. Two events run on PST (UTC−8) and the Battle Pass on server time, so read each deadline against the time basis in the table.
 
 ## Current event schedule
 
@@ -47,7 +47,7 @@ Event dates below are copied from each game's official announcements as of Novem
 
 - **Event window**: 2026-11-18 02:00 after maintenance to 2026-12-08 02:59 (PST (UTC−8); regional maintenance applies).
 
-Complete activities such as login and Helliquary boss kills to uncover squares on 3×3 treasure cards. Track progress in Abundance and Treasure in the Events UI.
+Everyday activities such as logging in and killing Helliquary bosses uncover squares on 3×3 treasure cards, with progress tracked under Abundance and Treasure in the Events UI. It rewards what most players do anyway, so it needs little planning.
 
 - **Rewards**: Random rewards from revealed squares.
 
@@ -55,7 +55,7 @@ Complete activities such as login and Helliquary boss kills to uncover squares o
 
 - **Event window**: 2026-11-18 02:00 to 2026-12-01 02:00 (PST (UTC−8)).
 
-Spend Litra for non-repeatable draws from a ten-item pool; cost rises after each draw. Extra rewards at draws 2, 4, 5, 7, 9 and 10.
+Each draw costs Litra and pulls from a ten-item pool without repeats, and the price climbs after every draw. Extra rewards land at draws 2, 4, 5, 7, 9 and 10. If your Litra runs out early, stop right after one of those milestones so the last draw you pay for also pays a bonus.
 
 - **Rewards**: Legendary Gems, Crests and Gem Fragments.
 
@@ -63,10 +63,10 @@ Spend Litra for non-repeatable draws from a ten-item pool; cost rises after each
 
 - **Event window**: 2026-11-19 03:00 to 2026-12-17 02:59 (Server time).
 
-Progress through Battle Pass ranks; distinguish free and paid tracks.
+Battle Pass ranks pay out on a free track and a paid one. With the longest window of the three, it can wait while you clear the shorter events.
 
 - **Rewards**: Legendary gear, Legendary Crests, gems and cosmetics.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Work through them in end-date order and claim unlocked rewards as you go. Two caveats: dates can move after publication, and an open campaign window does not mean every activity is available every day.

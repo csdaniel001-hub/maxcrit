@@ -38,7 +38,7 @@ image_alt: Official Google Play Games on PC artwork
 image_status: candidate
 ---
 
-Hardware virtualization is the single setting that makes the biggest difference to Android emulators. With it, the emulator can run Android almost directly on your processor. Without it, everything is slower, some emulators refuse to start, and Google Play Games on PC will not install at all. Most modern PCs support it, but many ship with it switched off. This guide shows how to check, how to turn it on, and how to handle the Windows features that sit on top of it.
+Does Task Manager list Virtualization as Disabled? Then the single setting that makes the biggest difference to Android emulators is switched off on your PC. With it, the emulator can run Android almost directly on your processor. Without it, everything is slower, some emulators refuse to start, and Google Play Games on PC will not install at all. Most modern PCs support it, but many ship with it off. Below: how to check, how to turn it on, and how to handle the Windows features that sit on top of it.
 
 ## Check whether it is already on
 

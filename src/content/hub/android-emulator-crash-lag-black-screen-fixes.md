@@ -41,7 +41,7 @@ image_alt: Official BlueStacks artwork
 image_status: candidate
 ---
 
-When an emulator misbehaves, the cause is usually one of a few things: virtualization, graphics drivers, the graphics renderer, a clash with another Windows feature, or a game that needs a different Android version. This guide is organised by symptom, so you can jump to your problem and work through the fixes in order, from quickest to most involved.
+Black screen, stutter in menus, a crash mid-match, an emulator that won't open at all: these look like different problems, but most trace back to the same short list. Virtualization, graphics drivers, the graphics renderer, a clash with another Windows feature, or a game that needs a different Android version. The sections below go by symptom, so jump to yours and work through the fixes in order, quickest first.
 
 ## Before you start: protect your progress
 
@@ -53,13 +53,13 @@ Some fixes involve reinstalling the emulator or deleting an instance. Before you
 2. Restart Windows. A pending Windows update or a stuck background process is a common cause.
 3. Check Hyper-V compatibility. Windows features such as Hyper-V, Windows Hypervisor Platform and Virtual Machine Platform can clash with older emulator builds. BlueStacks 5.20 and newer run with Hyper-V on or off, and the official installer picks the right build for your setup. For other emulators, check whether they offer a separate Hyper-V version.
 4. Update the emulator. Old versions often stop working after Windows updates.
-5. Check your antivirus. Some security software blocks emulator components. Follow the emulator's own instructions for adding an exclusion rather than turning protection off.
+5. Check your antivirus. Some security software blocks emulator components. Follow the emulator's own instructions for adding an exclusion, and keep protection on.
 6. Reinstall. Uninstall through Windows Settings, restart, then install the latest version from the official site.
 
 ## Black screen, flickering or graphical glitches
 
 1. Switch the graphics renderer. In BlueStacks this is under Settings, then Graphics, where recent versions offer OpenGL, DirectX and Vulkan. Restart the emulator after switching and test again.
-2. Update graphics drivers. Download the latest from NVIDIA, AMD or Intel rather than relying on Windows Update.
+2. Update graphics drivers. Download the latest straight from NVIDIA, AMD or Intel; don't rely on Windows Update for it.
 3. Use the right GPU. On laptops with two graphics chips, set the emulator to the dedicated one in Windows Settings, under System, Display, Graphics.
 4. Lower the resolution in the emulator's display settings, then try again.
 5. Turn off overlays. Screen recorders, FPS counters and chat overlays from other apps can interfere with rendering.
@@ -110,4 +110,4 @@ Our performance settings guide covers all of these in more detail.
 
 ## When to stop troubleshooting
 
-If you have tried everything above and the game still will not run, it may simply not support emulators, or the current game version may conflict with your emulator until one of them updates. In that case, check whether the game has a native PC version or is available on Google Play Games on PC, or wait for the next emulator update.
+If you have worked through everything above and the game still will not run, it may simply not support emulators, or the current game version may conflict with your emulator until one of them updates. In that case, check whether the game has a native PC version or is available on Google Play Games on PC, or wait for the next emulator update.

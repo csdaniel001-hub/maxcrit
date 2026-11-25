@@ -37,19 +37,19 @@ image_alt: "Official App Store screenshot of Epic Seven"
 image_status: "candidate"
 ---
 
-Epic Seven's second Version 8.7 update went live after maintenance ended at 09:30 UTC on November 19. Its biggest changes concern repeatable content, hero balance and the Foundry server.
+Foundry players get Guild War in Epic Seven's second Version 8.7 update, which went live after maintenance ended at 09:30 UTC on November 19. The rest of the patch covers repeatable content, seven hero adjustments and a long list of combat fixes.
 
 ## New content and schedule
 - Call of Chaos Season 2 runs through December 10, 02:59 UTC, with new Fate-related gameplay.
 - Foundry gains Guild War: defense setup opens November 21, and the first war is scheduled for November 23 at 03:00 UTC.
-- Bunny Girl Maid Cecilia's featured recruitment is scheduled for November 26–December 17, 02:59 UTC. It is not live as of November 24.
-- Additional events include Dirge of the End: Rewind and Emergency Mission! Catalyst Search.
+- Bunny Girl Maid Cecilia's featured recruitment is scheduled for November 26–December 17, 02:59 UTC. As of November 24 it has not started.
+- Dirge of the End: Rewind and Emergency Mission! Catalyst Search round out the events.
 
 ## Hero balance
-Seven heroes receive adjustments: Death Dealer Ray, Requiem Roana, Eternal Wanderer Ludwig, Hellion Lua, Summertime Iseria, Guard Captain Krau and Victorika. Refer to the official balance preview for individual skill values; direction and numerical detail are not asserted here where the original article body could not be retrieved.
+Seven heroes receive adjustments: Death Dealer Ray, Requiem Roana, Eternal Wanderer Ludwig, Hellion Lua, Summertime Iseria, Guard Captain Krau and Victorika. Guild War arrives on Foundry in the same patch, so the changes reach defense teams just as the first war opens.
 
 ## Major fixes
-The update addresses extra-turn handling after hero deaths, Tactical Archetype Coli's incorrect Soul generation, Luna's health-dependent attack/defense effects, duplicate effects from Salome's Salvation on Abyss Floor 115, and several tooltip/UI problems. World Arena replays from before maintenance are no longer available.
+The fix list covers extra-turn handling after hero deaths, Tactical Archetype Coli's incorrect Soul generation, Luna's health-dependent attack/defense effects, duplicate effects from Salome's Salvation on Abyss Floor 115, and several tooltip/UI problems. World Arena replays from before maintenance are no longer available.
 
 ## What to do now
-Foundry guild members should verify defense assignments, and players using the seven adjusted heroes should retest their builds. The November 19 update mail's two-Leif claim window ended November 21.
+Foundry guild members should confirm their defense assignments before each war, and anyone using the seven adjusted heroes should retest those builds. One deadline has already passed: the two Leif in the November 19 update mail had to be claimed by November 21.

@@ -23,7 +23,7 @@ image_alt: "Official TFT Set 19 Prismatic Tour key art"
 image_status: "candidate"
 ---
 
-Riot's next Teamfight Tactics set, Prismatic Tour, goes live on December 2. It's a music festival theme, with traits built around bands and genres. The App Store notes for today's patch say this is the last Enchanted Wilds patch before the switch.
+Enchanted Wilds is down to its final patch in Teamfight Tactics. The next set, Prismatic Tour, goes live on December 2 with a music festival theme and traits built around bands and genres.
 
 ## Unlocks and Prismatic Quests
 
@@ -35,9 +35,9 @@ Riot sorts the unlocks into three kinds:
 - **Capstones**: 5-costs locked behind playing their vertical trait, which are game-winning at full strength.
 - **Chases**: unlocks that need a specific situation you won't see every game.
 
-Prismatic Quests are new. They're rare, trait-specific quests you get through Augments, and finishing one grants that trait's prismatic tier. Riot says this lets emblems be stronger and more common without players hitting prismatic all the time. It hasn't revealed what the quests are.
+Prismatic Quests are new. They're rare, trait-specific quests you get through Augments, and finishing one grants that trait's prismatic tier. Riot says this lets emblems be stronger and more common without players hitting prismatic all the time.
 
-There's also a dynamic music system: as you add units to your board, their music tracks blend into your own soundtrack during combat.
+There's also a dynamic music system: as you add units to your board, their music tracks blend into your own soundtrack during combat. For a set built around bands, it's a fitting touch.
 
 ## The traits
 

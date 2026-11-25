@@ -19,7 +19,7 @@ image_alt: "Official App Store screenshot of PUBG MOBILE FLASH"
 image_status: "candidate"
 ---
 
-PUBG MOBILE FLASH, the official lightweight version of PUBG MOBILE, launched worldwide on November 13 on the App Store and Google Play. It had 27 million pre-registrations before release.
+27 million pre-registrations piled up for PUBG MOBILE FLASH, the official lightweight version of PUBG MOBILE, before it launched worldwide on November 13. It's out now on the App Store and Google Play.
 
 What's different from the main app:
 
@@ -28,6 +28,6 @@ What's different from the main app:
 - **Simpler screens**: cleaner lobby and resource displays to keep the app light.
 - **Wider device support**: optimised performance across more devices.
 
-It's not a separate game. FLASH has cross-play with PUBG MOBILE, your account carries over between the two apps, and it stays synchronised with the main game's key features as PUBG MOBILE changes.
+FLASH shares a lot with the main game. It has cross-play with PUBG MOBILE, your account carries over between the two apps, and it stays synchronised with the main game's key features as PUBG MOBILE changes.
 
 That makes FLASH useful for two kinds of players: anyone whose phone can't fit or run the full app, and anyone who only plays Classic on Erangel and doesn't want gigabytes of modes they never touch. With cross-play, switching apps doesn't cut you off from friends who stay on the main one.

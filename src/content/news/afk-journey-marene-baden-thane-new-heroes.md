@@ -20,7 +20,7 @@ image_alt: "Official App Store screenshot of AFK Journey"
 image_status: "candidate"
 ---
 
-FARLIGHT's November update for AFK Journey, on the App Store since November 9, 2026, adds three heroes and new story content.
+Three heroes join AFK Journey in FARLIGHT's November update, which reached the App Store on November 9, 2026. Two come with the version update itself, and Thane follows on November 13, alongside a new Side Quest and fresh story content.
 
 - **Marene, the Roaring Tempest**: a Celestial hero, out after the version update. You can get her through Stargaze Station and the Guild Store.
 - **Baden, the Abomination**: a Graveborn hero, released in the new version.
@@ -28,6 +28,6 @@ FARLIGHT's November update for AFK Journey, on the App Store since November 9, 2
 
 On the story side, there's a new Side Quest, Everlasting Memories, which unlocks after you finish the Main Quest Ode to Fate. Sylphira gets an exclusive story, Where Music Finds Us, in Starry Tales. Harak - Deepsea Ravager gets Level 2 Enhance Force.
 
-Marene is the only one of the three whose sources are named, and the Guild Store route means you can work toward her without pulling. If you're short on summoning currency, that makes her the easiest of the three to plan for.
+For anyone short on summoning currency, Marene is the easiest of the three to plan for. The Guild Store route lets you work toward her without pulling at all.
 
-The Everlasting Memories quest needs Ode to Fate finished first, so newer players will need to catch up on the Main Quest before they can play it.
+Newer players have some homework before the story half of the update opens up: Everlasting Memories stays locked until Ode to Fate is done, so push through the Main Quest first.

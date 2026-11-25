@@ -50,7 +50,7 @@ image_alt: "Official Names Forged Beneath Blazing Skies Chronicled Wish banner"
 image_status: "candidate"
 ---
 
-Phase II of Genshin Impact 7.2 runs three event wishes at once, all from November 24, 18:00 to December 15, 14:59 server time. That is a lot of 5-star choice for one set of Intertwined Fates, so this guide sorts the options by what they add to an account, not by raw strength.
+Phase II of Genshin Impact 7.2 runs three event wishes at once, all from November 24, 18:00 to December 15, 14:59 server time. That is a lot of 5-star choice for one stack of Intertwined Fates. Raw strength is a poor guide here; what matters is what each option adds to the account you already have.
 
 ## What's on the banners
 
@@ -65,7 +65,7 @@ Zibai's and Linnea's wishes share pity with each other. The Chronicled Wish has 
 
 ## Zibai and Linnea are a package
 
-Zibai is an on-field Geo DPS whose damage comes from Lunar-Crystallize, the reaction Geo triggers on an enemy with Hydro on it. She builds DEF rather than ATK, and her strongest hits need the party's Moonsign at Ascendant Gleam, which takes two Moonsign characters. Linnea is a Geo support built for exactly that: she shreds Geo RES, raises Lunar-Crystallize damage and heals.
+Zibai is an on-field Geo DPS whose damage comes from Lunar-Crystallize, the reaction Geo triggers on an enemy with Hydro on it. She builds DEF instead of ATK, and her strongest hits need the party's Moonsign at Ascendant Gleam, which takes two Moonsign characters. Linnea is a Geo support built for exactly that: she shreds Geo RES, raises Lunar-Crystallize damage and heals.
 
 So the decision is about the team. If you already own Zibai, Linnea is the upgrade that makes her team work. If you own neither, pulling Zibai alone means you also need a Hydro applier and a second Moonsign character. Aino, the Hydro 4-star on this banner, is one option for the Hydro side. If you don't want to build a Lunar-Crystallize team at all, skip both.
 
@@ -91,11 +91,11 @@ The four DPS options each need a specific team around them. Pick the one whose s
 - **Worst case: 180 wishes**, or 28,800 Primogems from zero.
 - **Pity carries over to the next Chronicled Wish, but Fate Points don't.** They reset to 0 when this wish ends on December 15, and changing your target also resets them.
 
-That last point matters most. If you lose the 50/50 and can't reach the next 5-star before December 15, the guarantee is gone. Only start the Chronicled Wish if you can afford the worst case, or are fine walking away with whichever 5-star you get first.
+The reset is where people get caught. On the Chronicled Wish, if you lose the 50/50 and can't reach the next 5-star before December 15, the guarantee is gone. Only start the Chronicled Wish if you can afford the worst case, or are fine walking away with whichever 5-star you get first.
 
 ## Budgeting the phase
 
-Peak Patrol Song is in Chronicled Wish during Phase II, so obtaining it can cost up to 180 wishes from zero pity with no Fate Point, rather than the 160-wish maximum for a selected Epitome Invocation weapon. Obtaining Xilonen and then her sword on separate fresh Chronicled paths can require up to 360 wishes combined. Early drops reduce these ceilings.
+Peak Patrol Song is in Chronicled Wish during Phase II, so obtaining it can cost up to 180 wishes from zero pity with no Fate Point. A selected Epitome Invocation weapon tops out at 160. Obtaining Xilonen and then her sword on separate fresh Chronicled paths can require up to 360 wishes combined. Early drops reduce these ceilings.
 
 For a player with 120 wishes saved, the amount available after guaranteeing Zibai or Linnea depends on Character Event Wish pity and the featured-character guarantee.
 

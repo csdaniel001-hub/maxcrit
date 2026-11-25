@@ -57,7 +57,7 @@ image_alt: "Official App Store screenshot of Zenless Zone Zero"
 image_status: "candidate"
 ---
 
-A signature W-Engine can improve a well-built Agent, but it cannot supply an extra teammate for an unfinished squad. In Zenless Zone Zero, the decision starts with which role is missing and how many searches you can afford if the featured item does not arrive early.
+Should your next Encrypted Master Tapes go to a new Agent or a signature W-Engine? In Zenless Zone Zero, the answer starts with which role your squad is missing and how many searches you can afford if the featured item does not arrive early. A signature W-Engine can improve a well-built Agent, but it cannot supply an extra teammate for an unfinished squad.
 
 ## Budget for the featured item
 
@@ -71,7 +71,7 @@ Ordinary Exclusive Channels have 90-search hard pity and a 50% featured chance o
 
 For a guaranteed Agent at 40 pity, the ceiling drops to 50 searches. For an unguaranteed W-Engine at 30 pity, it is 130. A player with 120 searches available can therefore reserve 50 for the Agent but cannot guarantee the W-Engine with the remaining 70. Spending those 70 anyway risks leaving the equipment unfinished.
 
-The current V3.3 Phase II official notice also confirms S-Rank Signal Customization. You can choose six eligible non-featured S-Rank Agents or W-Engines for the relevant pool. This improves the usefulness of a potential loss but does not guarantee a particular one of those six outcomes. Choose options that your roster could actually use.
+V3.3 Phase II also has S-Rank Signal Customization: you can choose six eligible non-featured S-Rank Agents or W-Engines for the relevant pool. This improves the usefulness of a potential loss but does not guarantee a particular one of those six outcomes. Choose options that your roster could actually use.
 
 ## Special rerun channels use a different first guarantee
 
@@ -92,6 +92,6 @@ Do not assume every duplicate or signature offers the same gain. The value depen
 
 ## Protect the next banner's reserve
 
-List the desired Agent and W-Engine separately, with their existing pity and guarantee status. Deduct the worst-case cost of your first priority from the total available Tapes and converted Polychrome. Leave rewards you have not yet earned in a separate column. The official Signal Search Statistical Tool announced November 20 can assist with checking history; consult the current in-game channel Details for guarantee rules.
+List the desired Agent and W-Engine separately, with their existing pity and guarantee status. Deduct the worst-case cost of your first priority from the total available Tapes and converted Polychrome. Leave rewards you have not yet earned in a separate column. The official Signal Search Statistical Tool announced November 20 helps with checking your history, and each channel's Details screen holds its current guarantee rules.
 
 The [current events calendar](/hub/events/zenless-zone-zero-events.html) helps identify obtainable rewards and deadlines. Check the exact end time before counting an event's currency toward a pull. A signature can wait for a rerun if getting it now would prevent a more important team investment.

@@ -27,7 +27,7 @@ image_alt: "Official Call of Duty: Mobile Season 10 7th Anniversary key art"
 image_status: "candidate"
 ---
 
-Call of Duty: Mobile's seventh anniversary season launched on November 11 at 4 p.m. PT (November 12 UTC). Verdansk is the headline addition, bringing a familiar Battle Royale location into the mobile game.
+Seven years in, Call of Duty: Mobile is celebrating with Verdansk. The anniversary season launched on November 11 at 4 p.m. PT (November 12 UTC), and the familiar Battle Royale location is its headline addition, with the Gulag coming along for the ride.
 
 ## Major gameplay additions
 - Verdansk adds a new Battle Royale environment and the Gulag. On the first elimination, winning the Gulag duel grants redeployment; otherwise teammates can buy a return at a Buy Station.
@@ -42,6 +42,6 @@ Call of Duty: Mobile's seventh anniversary season launched on November 11 at 4 p
 - The World Championship prediction event offers rewards; the Final Snow Battle Pass returns via the Vault.
 
 ## What to try first
-Use the narrative playlist to learn Verdansk before entering competitive Battle Royale. Test the new weapon-mod combinations in your usual playstyle rather than assuming that an old loadout remains optimal.
+Create Your Truth is the gentle way in. Unlimited respawns make it a low-stakes place to learn Verdansk's layout before you drop into competitive Battle Royale, where a lost Gulag duel leaves your return up to your squad's spending at a Buy Station.
 
-This is a publisher-confirmed season overview, not a complete weapon-stat balance changelog. Exact numerical tuning not supplied in the announcement is intentionally omitted.
+Then spend a few matches with the new weapon mods in your usual playstyle. The new tracking, reload, movement and precision bonuses mean an old favorite loadout may no longer be its best version. As the new seasonal weapon, the Signal 50 makes a natural first test.

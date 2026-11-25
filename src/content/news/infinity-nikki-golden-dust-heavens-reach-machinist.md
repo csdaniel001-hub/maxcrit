@@ -20,13 +20,15 @@ image_alt: "Official App Store screenshot of Infinity Nikki"
 image_status: "candidate"
 ---
 
-Infold Games released Infinity Nikki's "Golden Dust" version on November 2, 2026.
+Infinity Nikki's map got bigger on November 2, 2026. Infold Games' "Golden Dust" version opened Heaven's Reach, a new open-world region, along with a permanent main quest, Beyond the Haven Veil, and a region-specific ability called Machinist.
 
 - **New main story**: Beyond the Haven Veil, a permanent main quest.
 - **New region**: Heaven's Reach, a new open-world area to explore.
 - **New ability**: Machinist, a region-specific ability (Default: Machinist).
 - **Fun Games**: aerial racing, Coocoo Copters, ring toss challenges, repairing Cogbuds and woodcarving blind boxes.
 
-The main quest is permanent, so there's no deadline on the story, and you can play it whenever suits you. That leaves time for the region and the minigames first if you prefer.
+Because the main quest is permanent, the story has no deadline. You can explore the region and play the minigames first, then come back to Beyond the Haven Veil whenever it suits you.
 
-Machinist is tied to Heaven's Reach, the way earlier region abilities were tied to their own areas, so expect to use it mainly in the new region's puzzles and traversal. The release notes point to the official announcements for the full details, including the limited-time content. Golden Dust went out on the App Store on November 2, so it has been live for three weeks now.
+Machinist is tied to Heaven's Reach, the way earlier region abilities were tied to their own areas, so expect to use it mainly in the new region's puzzles and traversal.
+
+Golden Dust also carries limited-time content, and that is where the clock matters. The version has been live for three weeks now, so the limited parts deserve your time before the story does.

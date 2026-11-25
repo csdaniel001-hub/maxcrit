@@ -23,7 +23,7 @@ image_alt: "Venom, Deadpool and Galactus in an official MARVEL SNAP App Store sc
 image_status: "candidate"
 ---
 
-MARVEL SNAP's November 17 patch has no balance changes; those came in the separate November 12 balance update. This one is about the shop, Alliances and one rule change for merging cards, plus a long list of fixes for the 59.x builds.
+Blob decks running Man-Spider come out of MARVEL SNAP's November 17 patch stronger, thanks to one rule change for merging cards. There are no balance changes this time, since those came in the separate November 12 balance update; the rest is about the shop, Alliances and a long list of fixes for the 59.x builds.
 
 ## Daily Offer Shop and Alliances
 
@@ -32,9 +32,9 @@ The Daily Offer Shop is now split into dedicated sections, for a total of eighte
 - **New Variants**: three slots for variants released in the past week, marked with a "New" badge.
 - **Focused Shop**: three slots for a featured artist or theme, rotating weekly.
 
-Legacy Variants, the Premium Mystery Variant and the general selection work as before. Second Dinner says pricing, rarity and eligibility haven't changed, and every variant purchase still counts toward the Daily Offer Shop punchcard. If a section doesn't have enough eligible variants for you that day, its slots fill from the general selection.
+Legacy Variants, the Premium Mystery Variant and the general selection work as before. Pricing, rarity and eligibility haven't changed, and every variant purchase still counts toward the Daily Offer Shop punchcard. If a section doesn't have enough eligible variants for you that day, its slots fill from the general selection.
 
-The Focused Shop matters most if you are working on an album, since the developer pitches it as a way to fill one. The Eastern Fantasy "Qi to My Heart" album and its Shop Takeover arrive on November 24.
+Album collectors have the most to gain from the Focused Shop, which is pitched as a way to fill one. The Eastern Fantasy "Qi to My Heart" album and its Shop Takeover arrive on November 24.
 
 Alliance search changes:
 
@@ -51,11 +51,11 @@ When several cards merge into one at the same time, that now counts as a single 
 
 Before the patch, if Blob merged Man-Spider, Blob doubled his Power on the spot and then kept merging cards. Now Blob keeps merging until he reaches 13 or more Power, and only then does Man-Spider's merge trigger double whatever Blob ended up with. That is a stronger result for Blob decks running Man-Spider, since the doubling now applies to the bigger number.
 
-Blob still gains Power from each merge one at a time, so Venus still triggers once per card merged. Second Dinner says the change frees up design space: a future card with "after one of your cards merges" text shouldn't fire five or more times off one Blob.
+Blob still gains Power from each merge one at a time, so Venus still triggers once per card merged. The point of the change is design space: a future card with "after one of your cards merges" text shouldn't fire five or more times off one Blob.
 
 ## Bug fixes
 
-The patch lists dozens of fixes. The ones you are most likely to have run into:
+There are dozens of fixes. The ones you are most likely to have run into:
 
 - Playing Gorr or Galactus (First Steps) with or against Zombie Blade and Vampire Killmonger no longer crashes the game.
 - Rare "Aw Snap" errors are fixed for Nimrod being destroyed, Archangel (Horseman of Death) and Adamantium Infusion bringing back destroyed cards, and Dormammu's Summoning Ritual merging a destroyed card.
@@ -65,4 +65,4 @@ The patch lists dozens of fixes. The ones you are most likely to have run into:
 
 Draft gets the longest list. Players should no longer get stuck at launch when a past Draft result is missing, conceding a 1–4 win run now shows all rewards, and several menu and tap issues are fixed. Draft is back for its third run from November 19 to December 1, with the new Series 4 card Knight's Vow on its reward path.
 
-Still to come this season: Sir Percy Black Knight arrives in Seasonal SNAP Packs on November 24, and the Round Table location, where 4-Cost or more cards cost 1 less, premieres on November 25.
+Two more drops close out the season: Sir Percy Black Knight arrives in Seasonal SNAP Packs on November 24, and the Round Table location, where 4-Cost or more cards cost 1 less, premieres on November 25.

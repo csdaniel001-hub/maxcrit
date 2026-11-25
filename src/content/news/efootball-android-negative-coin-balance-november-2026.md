@@ -24,7 +24,7 @@ image_alt: "Official App Store screenshot of eFootball™"
 image_status: "candidate"
 ---
 
-Konami issued an Android-specific account notice on November 24 explaining what happens when a Google Play refund removes more eFootball Coins than a player has left in their account. This is an account-policy clarification, not a gameplay patch or a new player pack.
+A Google Play refund can leave an eFootball account in the red. Konami's November 24 notice for Android players covers what happens when a refund removes more eFootball Coins than the account still holds, and it changes account rules only: there is no gameplay patch or new player pack attached.
 
 ## What players need to know
 
@@ -34,6 +34,6 @@ Transferring the account to another operating system will not lift the restricti
 
 ## Before you request a refund
 
-Check your balance before requesting a refund, especially if you have already spent the Coins from that purchase, since that is the situation that pushes the balance below zero. If a transaction is disputed, use Konami's official support channels rather than a refund request alone.
+Check your balance before requesting a refund, especially if you have already spent the Coins from that purchase, since that is the situation that pushes the balance below zero. If a transaction is disputed, contact Konami's official support channels instead of relying on a refund request alone.
 
-The announcement was published in Japanese on Konami's official website. The account rules above are paraphrased in English.
+Konami published the notice in Japanese, and the rules above are our English paraphrase of it.

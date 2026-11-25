@@ -23,13 +23,13 @@ image_alt: "Official Love and Deepspace feature graphic from its Google Play lis
 image_status: "candidate"
 ---
 
-Infold Games released Love and Deepspace version 6.5.0, called Rebooting Dreams, on November 5, 2026. The update is built around one limited-time event with new 5-Star Memories, and it adds several ways to earn pulls and outfits without paying.
+Love and Deepspace players can pick their own event-limited 5-Star Memories in version 6.5.0, Rebooting Dreams, which Infold Games released on November 5, 2026. One limited-time event carries the update, and three smaller ones hand out free rewards, from pulls and outfits to a photo pose.
 
 ## New 5-Star Memories in Rebooting Dreams
 
 The headline event shares its name with the version. Rebooting Dreams lets you obtain event-limited Memories through limited-time pulls, along with Memory-themed Outfits and selectable event-limited 5-Star Memories.
 
-"Selectable" is the useful word. It means the event includes a way to choose which limited 5-Star Memory you receive, so you aren't relying on luck alone for the character you want.
+The selectable part matters most to anyone chasing one specific Memory. The event includes a way to choose which limited 5-Star Memory you receive, so luck isn't the only route to the one you want.
 
 ## Events that give rewards for free
 

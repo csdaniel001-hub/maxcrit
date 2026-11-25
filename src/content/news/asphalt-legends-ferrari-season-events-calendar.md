@@ -23,7 +23,7 @@ image_alt: "Official Asphalt Legends Ferrari Season header"
 image_status: "candidate"
 ---
 
-Gameloft's Ferrari Season has been live in Asphalt Legends since November 11. The headline car is the Ferrari F80 in the Ferrari Spotlight, joined by the Ferrari 296 GTB, Ferrari F12 Berlinetta, Ferrari LaFerrari Aperta and Ferrari SF90 Stradale. The season also leads into Black Friday and Cyber Monday events, and it brings the Bugatti Bolide back.
+The Ferrari F80 leads Asphalt Legends' Ferrari Season, which Gameloft started on November 11 with the car at the top of the Ferrari Spotlight. The Ferrari 296 GTB, Ferrari F12 Berlinetta, Ferrari LaFerrari Aperta and Ferrari SF90 Stradale join it, and the calendar, which runs to December 24, takes in Black Friday and Cyber Monday events and a Bugatti Bolide comeback.
 
 ## Special events and Grand Prix dates
 
@@ -38,7 +38,7 @@ Gameloft's Ferrari Season has been live in Asphalt Legends since November 11. Th
 | Aston Martin Valhalla Concept Car Special Hunt | Dec 3 – Dec 18 | Aston Martin Valhalla Concept Car |
 | Ford GT MK II Grand Prix | Dec 7 – Dec 24 | Ford GT MK II |
 
-The 849 Testarossa is the one with the shortest window, so it's the Special Event to play first if you want it. It ends on November 26, the same day the Bolide's Burst of Speed starts.
+Play the 849 Testarossa Special Event first if you want the car. Its window is the shortest on the table, and it closes on November 26, the same day the Bolide's Burst of Speed opens.
 
 The Bolide event comes with a long support list: the Mercedes-Benz Vision One-Eleven, Aston Martin Vulcan, Porsche 919 Street, Nissan GTR Nismo, SSC Tuatara, Ferrari J50, Deus Vayanne, Icona Vulcano Titanium, Tushek Aeon E, Ferrari FXXK, Zenvo Aurora Tur and W Motors Lykan Hypersport. Six of them also get companion TLEs from November 26 to December 10.
 
@@ -54,10 +54,10 @@ The rest of the calendar, in order:
 - **Club TLE**: Dec 4 – Dec 7, for credits and Blueprints of the season cars
 - **Glickenhaus 007S TLE**: Dec 4 – Dec 11
 
-Car Hunts: the Ferrari 488 GTB until November 24, the Mazda Furai from November 25 to December 8, and the VLF Force 1 V10 from December 4 to December 17.
+The Car Hunts run alongside: the Ferrari 488 GTB until November 24, the Mazda Furai from November 25 to December 8, and the VLF Force 1 V10 from December 4 to December 17.
 
 ## Club Milestones changes
 
 Club Milestones now have 28 steps instead of 24. The first half includes Blueprints for all the season cars, and the second half has the EIPs for those cars. The total Reputation needed to unlock everything stays at 6,000,000. Gameloft says other rewards, such as currencies and resources, are unchanged overall, though they may be spread differently.
 
-For clubs that already hit the full 6,000,000 every season, that's four extra milestones and season car parts for the same effort. Clubs that stall halfway still get the Blueprints, since those sit in the first half.
+Clubs that already hit the full 6,000,000 every season get four extra milestones and season car parts for the same effort. Clubs that stall halfway still walk away with the Blueprints, because those sit in the first half, so even a casual club has a reason to reach the midpoint.

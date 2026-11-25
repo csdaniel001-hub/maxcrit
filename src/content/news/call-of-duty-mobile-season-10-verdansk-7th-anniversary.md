@@ -22,11 +22,11 @@ image_alt: "Official Call of Duty: Mobile Season 10 7th Anniversary key art"
 image_status: "candidate"
 ---
 
-Call of Duty: Mobile turned seven with Season 10, which went live on November 11 at 4PM PT. Activision calls it a new era for Battle Royale, and the changes go further than a new map: movement, Scorestreaks, Wildcards and the respawn rules all work differently on Verdansk.
+Battle Royale players in Call of Duty: Mobile have a lot to relearn. Season 10, the game's 7th Anniversary season, went live on November 11 at 4PM PT, and on Verdansk the movement, Scorestreaks, Wildcards and respawn rules all work differently. Activision calls it a new era for the mode, and for once the label fits the size of the patch.
 
 ## Verdansk and the Gulag
 
-Verdansk is a large Battle Royale map with 15+ major points of interest. The ones Activision lists are Superstore, Airport, Storage Town, Dam, Scrapyard, Train Station, TV Station, Promenade, Hospital, Downtown, Park, Port, Prison, Farmland, Stadium, Lumber, Quarry and Military Base.
+Verdansk is a large Battle Royale map with 15+ major points of interest. Among them: Superstore, Airport, Storage Town, Dam, Scrapyard, Train Station, TV Station, Promenade, Hospital, Downtown, Park, Port, Prison, Farmland, Stadium, Lumber, Quarry and Military Base.
 
 The first time you are eliminated in a Verdansk match, you go to the Gulag and fight another player for a way back in. Win and you redeploy. Lose and you're out until a teammate buys your redeployment at a Buy Station.
 
@@ -47,7 +47,7 @@ In Battle Royale, Scorestreaks are now called Field Assets. You can equip them t
 
 Wildcards become Perks, only in Battle Royale. You can find them in matches or equip them to your Loadout, then get them through Loadout Drops and Buy Stations. There are 14 of them, from Wild Hip Fire and Tracking Ammo to Sniper Expert and Reload Rush.
 
-If you built Battle Royale loadouts around the old Wildcards, those builds need to be redone.
+Any Battle Royale loadout built around the old Wildcards needs a rebuild.
 
 ## DMZ: Recon, events and the Battle Pass
 
@@ -55,6 +55,6 @@ Verdansk is also in DMZ: Recon. The new boss is the Chemist, who sits in the rad
 
 The main event is Operation: Verdansk Convergence. You join one of three factions, Makarov, Task Force 141 or the Observers, and finish tasks across several acts. Rewards include the Desert Ghost Operator Skin for Ghost, and the final prize is Pharoah's Decree, a Legendary AK47 Blueprint. After you finish one faction you can join another, so all the rewards can be earned.
 
-Two more events are on the list. Mail Call is a dice board with anniversary rewards, including an Epic Kilo 141 Blueprint. Ready Set Ford starts a week after launch and pays out over 20 rewards for basic tasks such as logging in and getting kills.
+Two smaller events fill out the season. Mail Call is a dice board with anniversary rewards, including an Epic Kilo 141 Blueprint. Ready Set Ford starts a week after launch and pays out over 20 rewards for basic tasks such as logging in and getting kills.
 
 The Anniversary Battle Pass adds the new Signal 50 Sniper Rifle. The Store has two new Mythic Drops, one weapon and one Operator, alongside Ford Racing Draws with Legendary vehicles.

@@ -60,6 +60,6 @@ Apple singles out BALL x PIT for reworking the brick breaker, DAVE THE DIVER for
 
 ## What the two lists tell you
 
-The two stores reward different things. Google hands out finished awards by play style, from multiplayer to story, plus a separate award for a game that kept updating all year. Apple's game shortlists are split by device, so the same game can only compete where Apple's editors placed it, and Endfield competes on iPad rather than iPhone.
+The two stores reward different things. Google hands out finished awards by play style, from multiplayer to story, plus a separate award for a game that kept updating all year. Apple's game shortlists are split by device, so a game only competes where Apple's editors placed it. Endfield's slot is iPad Game of the Year, and it isn't on the iPhone list.
 
-For players, the overlap is the useful part. If you want one game that the editors of both stores picked this year, it is Arknights: Endfield. Whether it also wins on iPad is still open, and Apple will settle that when it names the winners.
+For players, the overlap tells you most. The one game both sets of editors picked this year is Arknights: Endfield. Whether it also takes the iPad award stays open until Apple names its winners in the coming weeks.

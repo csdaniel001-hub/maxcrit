@@ -18,7 +18,7 @@ image_alt: "Bentley cars in the official PUBG MOBILE collaboration artwork"
 image_status: "candidate"
 ---
 
-PUBG MOBILE has added three Bentley 2025 models as purchasable vehicles. The collaboration started on November 20, 2026 and runs until January 12, 2027. The release gives the end date once as January 12th 2027 and once as January 12th 2026, and since the start is November 2026, January 2027 is the one that fits.
+Three Bentley 2025 models went on sale in PUBG MOBILE on November 20, 2026, as purchasable vehicles. The collaboration runs until January 12, 2027: the release prints the end date once as January 12th 2027 and once as January 12th 2026, and with a November 2026 start, only 2027 fits.
 
 The cars and their finishes:
 
@@ -30,4 +30,4 @@ You can customise each car with seven brake calliper colours (Red, Orange, Green
 
 Beyond the cars, there's the Bentley Parachute 2026, a Driver Set and matching Driver Sunglasses in Green and Pink.
 
-Everything in the collaboration is sold rather than earned. From today that leaves about seven weeks if you want one of the cars.
+Nothing in the collaboration is earned through play: every item is sold. Anyone set on a Bentley has about seven weeks from today.

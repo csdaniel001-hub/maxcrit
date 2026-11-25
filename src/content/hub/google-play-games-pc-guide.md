@@ -38,11 +38,11 @@ image_alt: Official Google Play Games on PC artwork
 image_status: candidate
 ---
 
-Google Play Games on PC is Google's own app for playing Android games on Windows. Unlike a general emulator, it only runs games that have been approved for PC, but those games get keyboard and mouse support, sync with your phone, and the same Google Play purchases and Play Points you use on mobile. For some games, including Supercell's Clash of Clans and Clash Royale, it is the publisher's official route to PC.
+For Supercell's Clash of Clans and Clash Royale, the publisher's official route to a Windows PC runs through Google Play Games on PC, Google's own app for playing Android games on Windows. Unlike a general emulator, it only runs games that have been approved for PC. In return, those games get keyboard and mouse support, sync with your phone, and the same Google Play purchases and Play Points you use on mobile.
 
 ## What you need
 
-Google checks your PC during installation. These are the requirements it lists:
+Google checks your PC during installation, against this list:
 
 - **Windows**: Windows 10 (version 2004) or newer.
 - **Account**: a Windows administrator account.
@@ -82,7 +82,7 @@ To play across devices, sign in with the same Google Account on your phone and y
 
 Games on Google Play Games on PC are tested for keyboard and mouse. Some have full native PC controls, while others run in a compatibility mode that maps mouse clicks to taps. Games built for PC typically use the scroll wheel for zooming and offer keyboard shortcuts for common actions.
 
-A few features worth knowing:
+What you get on PC:
 
 - **Progress sync**: sign in with the same account on phone and PC and your progress follows you.
 - **Play Points**: purchases on PC earn Google Play Points, just like on your phone, and you can redeem points for perks and in-game items on PC.
@@ -106,7 +106,7 @@ If your game is missing, it has not been brought to the platform yet. In that ca
 
 ## Fixing installation problems
 
-Google suggests these steps if installation fails:
+If installation fails, work down this table:
 
 | Problem | What to try |
 |---|---|

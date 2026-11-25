@@ -21,11 +21,11 @@ image_alt: "Official App Store screenshot of Clash of Clans"
 image_status: "candidate"
 ---
 
-Supercell has announced a third Equipment rarity for Clash of Clans. Legendary Equipment sits above Common and Epic, and the first piece is the Blizzard Axe for the Barbarian King. The gameplay reveal is still to come; this announcement covers how the rarity works, how to get the Axe and how the Ore economy changes around it, so you can plan your Ore before it lands.
+Equipment in Clash of Clans has come in two rarities, Common and Epic. Supercell is adding a third: Legendary Equipment, starting with the Blizzard Axe for the Barbarian King. The gameplay reveal comes later, but how the rarity works, how to get the Axe and how the Ore economy shifts around it are all out now, which is enough to start planning your Ore.
 
 ## How to get the Blizzard Axe
 
-The Axe will be free to earn through a new Crafting Event, available from Town Hall 8. It is December's Crafting Event, and it also gives you more chances to earn Ore, including ways to help your clanmates earn Ore for their own upgrades.
+The Axe will be free to earn through a new Crafting Event, available from Town Hall 8. That is December's Crafting Event, and it doubles as an Ore source, with ways to help clanmates earn Ore for their own upgrades too.
 
 If you miss the event, the Axe will come back through other sources such as the Trader, Equipment Blast Events and Hero Journey. Every new piece of Equipment, Legendaries included, will stay earnable for free through events.
 
@@ -33,7 +33,7 @@ For faster progress there is an optional Craft Pass at US$9.99 (with regional pr
 
 ## How strong, and how expensive
 
-At max level, Legendary Equipment is designed to be slightly stronger than Common and Epic Equipment, "but not dramatically so", in Supercell's words. The stated goal is for all three rarities to stay viable, with Legendaries bringing more complex abilities and flashier effects rather than just bigger numbers.
+At max level, Legendary Equipment is designed to be slightly stronger than Common and Epic Equipment, "but not dramatically so", in Supercell's words. The stated goal is for all three rarities to stay viable. Legendaries are meant to stand out through more complex abilities and flashier effects, with bigger numbers playing a smaller part.
 
 The upgrade path is longer:
 
@@ -53,4 +53,4 @@ Supercell also listed the Ore changes it has made since June, from Hero Journey 
 
 ## What to do with your Ore now
 
-Supercell's advice is to set some Ore aside if you want the Blizzard Axe. You'll get the Axe itself free in the event and can try it before deciding how far to upgrade it. Otherwise, keep upgrading the Equipment you actually use. Nobody has seen the Axe's abilities yet, so there's no reason to stop upgrading altogether; just keep some Ore back.
+Supercell's own advice is to set some Ore aside if you want the Blizzard Axe. The Axe itself is free in the event, so you can try it before deciding how far to take it. Until then, keep upgrading the Equipment you actually use. Nobody has seen the Axe's abilities yet, which is a good reason to hold some Ore back and a poor reason to stop upgrading altogether.

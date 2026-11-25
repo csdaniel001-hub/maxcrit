@@ -20,13 +20,13 @@ image_alt: "Official DRAGON BALL LEGENDS feature graphic from its Google Play li
 image_status: "candidate"
 ---
 
-Bandai Namco released DRAGON BALL LEGENDS version 6.32.0 on November 17, 2026. The release notes describe it as the update ahead of the massive "Legends Festival" campaign, and its main change is two new tools for building parties.
+Copy the top players, or build around the fighter you actually want to use? DRAGON BALL LEGENDS version 6.32.0, released by Bandai Namco on November 17, 2026, adds a party tool for each approach as the update ahead of the massive "Legends Festival" campaign.
 
 - **Trending**: shows popular party formations and lets you copy the Characters and Equipment that top players are using.
 - **Recommended**: shows characters that players often use together with your current Leader, so you can build a party around the character you want to play.
 
-The notes also say new functions will be added for an all-new Event, without naming it or giving a date.
-
 The two tools solve different problems. Trending is for when you want a proven setup and have the units to copy it. Recommended starts from a character you like and fills in the rest, which matters more if your box doesn't match the top teams.
 
-Legends Festival is the campaign this update prepares for.
+The update also lays groundwork for later: new functions are being added for an all-new Event.
+
+With Legends Festival next on the calendar, Trending is the tab to keep open. Once the campaign starts, it's the quickest way to see which formations top players settle on, and whether your own box can follow them.

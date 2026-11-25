@@ -22,7 +22,7 @@ image_alt: "Official App Store screenshot of Zenless Zone Zero"
 image_status: "candidate"
 ---
 
-HoYoverse has dated Zenless Zone Zero Version 3.4, "The Finality of the Day", for December 2, 2026. It closes out the Sky Island of Roscaelifer story and starts the Zenless Zone Zero × Honkai: Star Rail crossover, which brings Robin and Kafka to New Eridu. Everyone who logs in after the update gets Robin for free.
+Log in after Zenless Zone Zero's Version 3.4 update and Robin is yours for free. The update, called "The Finality of the Day", is dated for December 2, 2026. It closes out the Sky Island of Roscaelifer story and starts the Zenless Zone Zero × Honkai: Star Rail crossover, which brings Robin and Kafka to New Eridu.
 
 ## What's on the Signal Search channels
 
@@ -44,10 +44,10 @@ Robin is a support who keeps her Concerto performance going off-field, giving te
 - From January 1, daily login check-ins add up to 1,600 Polychromes.
 - The collab event "Lost in a Theatrical Dream" rewards the Bangboo Pom-Pom and Polychromes, and the new "Opening Act: Enter the Knight" combat mode and a "Dark Dungeon Survival" season of Enigma of the Labyrinth add more Polychromes and cosmetics.
 
-Because Robin is free, you only need to pull on her channel for duplicates. The decision in 3.4 is between Sunbringer, who is available for the whole version, and Kafka, who only shows up in the second half.
+A free Robin changes the pull plan. Her channel is only for duplicates, which leaves the real choice between Sunbringer, on offer for the whole version, and Kafka, who arrives in the second half. Since Sunbringer's channel stays open the entire time, we see little downside in waiting to see Kafka first.
 
 ## Spending event and outfits
 
 The "Filmgoer Thank-You Gift" top-up event runs during the version: buying Monochromes, the New Eridu City Fund, the Inter-Knot Membership or cash bundles earns ticket stubs, and enough stubs unlock rewards including an S-Rank Agent and W-Engine of your choice. Kafka's signature W-Engine Requiem Araneae is in that W-Engine pool.
 
-New outfits include Robin's Cosmic Beat and the Sunbringers' Moonlit Promenade, with a matching Starlit Stroll Limited Gift. Version 3.4 releases on PlayStation 5, Xbox Series X|S, PC, iOS and Android.
+New outfits include Robin's Cosmic Beat and the Sunbringers' Moonlit Promenade, with a matching Starlit Stroll Limited Gift. Version 3.4 lands on PlayStation 5, Xbox Series X|S, PC, iOS and Android on December 2.

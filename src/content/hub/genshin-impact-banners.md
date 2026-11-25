@@ -33,7 +33,7 @@ image_alt: "Official App Store screenshot of Genshin Impact"
 image_status: "candidate"
 ---
 
-Banner dates below come from the official Genshin Impact announcements, with server times kept as published. A banner listed with a date and no hour switches over at the time shown in the game.
+Zibai and Linnea took over Genshin Impact's character event wish on November 24 at 18:00 server time, both as reruns, with the Chronicled Wish Names Forged Beneath Blazing Skies opening alongside them. Dates below come from the official announcements with server times kept as published; a banner listed with a date and no hour switches over at the time shown in the game.
 
 ## Current and upcoming banners
 
@@ -47,6 +47,6 @@ Banner dates below come from the official Genshin Impact announcements, with ser
 
 ## What players should know
 
-Phase II changes over at different real-world times: Asia opens Nov 24 at 10:00 UTC, Europe at 17:00 UTC and America at 23:00 UTC. The corresponding closing times on Dec 15 are 06:59, 13:59 and 19:59 UTC. Check your account server rather than your physical location.
+Phase II changes over at different real-world times: Asia opens Nov 24 at 10:00 UTC, Europe at 17:00 UTC and America at 23:00 UTC. The corresponding closing times on Dec 15 are 06:59, 13:59 and 19:59 UTC. Your account server sets these times, wherever you happen to be.
 
-The Chronicled Wish also contains Vivid Notions, Astral Vulture's Crimson Plumage, Peak Patrol Song, Surf's Up and Fang of the Mountain King. Featured four-star characters include Ifa, Iansan, Ororon and Kachina. Character event wishes share pity with each other, not with the Chronicled Wish. Open the Wish menu, select the intended pool and inspect its Details before using Intertwined Fates.
+The Chronicled Wish also contains Vivid Notions, Astral Vulture's Crimson Plumage, Peak Patrol Song, Surf's Up and Fang of the Mountain King. Featured four-star characters include Ifa, Iansan, Ororon and Kachina. Character event wishes share pity with each other, and the Chronicled Wish counts separately, so pulls on one never carry over to the other. Open the Wish menu, select the intended pool and inspect its Details before using Intertwined Fates.

@@ -31,9 +31,9 @@ image_alt: "Official Monster Hunter Now logo artwork"
 image_status: "candidate"
 ---
 
-The Wave 3 campaign has increased monster appearances and limited login rewards ahead of Carnival.
+Log in each day through November 29 and Monster Hunter Now's Carnival countdown quests pay out up to six Wyvern Gem Shards. Around them, the Wave 3 campaign raises monster appearances, with Riftborne Assault featuring Pink Rathian and Coral Pukei-Pukei over the same week.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+All times below are as published in the official announcements on November 24, 2026, and they run on player local time, so a window closes at 23:59 wherever you play.
 
 ## Current event schedule
 
@@ -73,6 +73,6 @@ Hunt large monsters and slay or repel elder dragons to earn exchange tokens.
 
 - **Rewards**: Exchange rewards include Wyvern Gem Shards; combined Wave 3 login and exchange campaigns offer up to 35 shards, not 35 from this event alone.
 
-## Before the event ends
+## Planning the run-up to Carnival
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Riftborne Assault and the login quests both end on November 29, so those are the week's priorities. Exchange Tokens keep coming until December 15, which leaves them as the one thing you can spread out. Dates may change after publication, and a campaign window does not guarantee every activity is available every day.

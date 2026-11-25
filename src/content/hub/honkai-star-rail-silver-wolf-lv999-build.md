@@ -57,7 +57,7 @@ image_alt: "Official Honkai: Star Rail art of Silver Wolf LV.999"
 image_status: "candidate"
 ---
 
-Silver Wolf LV.999 is an Imaginary Elation damage dealer and a separate character from Silver Wolf (Nihility: Quantum). Her equipment choices make much more sense once you understand why Speed and the team's Punchline production matter more than conventional attack stats. This guide assumes E0 unless noted.
+Speed first, then the team's Punchline production: that order explains almost every gear choice for Silver Wolf LV.999, and it's why conventional attack stats sit lower on her list than you might expect. She is an Imaginary Elation damage dealer and a separate character from Silver Wolf (Nihility: Quantum), so treat her as her own character when you plan relics. This guide assumes E0 unless noted.
 
 ## Relics and planar ornaments
 
@@ -74,7 +74,7 @@ The in-game Build Guide and HSRZone recommend this combination. Diviner of Dista
 
 False Ending Speedrun activates at 160 SPD, adding 50% Elation and another 2% per point above that threshold, counting at most 100 extra SPD. At 180 SPD, that contribution is 90%; at 200 it is 130%. These figures measure the Trace's Elation contribution. Above 160 SPD, additional Speed continues to help until the Trace cap; her signature makes higher totals easier to reach.
 
-Hidden MMR supplies CRIT Rate during combat. Once the rate reaches 100%, further MMR contributes CRIT DMG instead. Build adequate CRIT for the early part of her damage window rather than assuming every excess point is wasted. When comparing relics, prioritize meeting the Speed breakpoint and then evaluate CRIT across the full cycle.
+Hidden MMR supplies CRIT Rate during combat. Once the rate reaches 100%, further MMR contributes CRIT DMG instead. Build enough CRIT for the early part of her damage window, and don't write off every excess point as wasted. When comparing relics, prioritize meeting the Speed breakpoint and then evaluate CRIT across the full cycle.
 
 ## How Aeon ★ Aha changes the build
 
@@ -101,7 +101,7 @@ These compositions illustrate documented synergies without performance rankings.
 | Silver Wolf LV.999 / Sparxie / Yao Guang / Gallagher | Double-damage setup with Skill Point interactions |
 | Silver Wolf LV.999 / Trailblazer (Elation: Lightning) / Asta / Gallagher | Lower-cost setup using Punchline support and SPD buffs |
 
-Gallagher is an example sustain; another built sustain can fill that slot. The in-game guide also lists Silver Wolf LV.999 / Sparxie / Yao Guang / Pearl as an Elation-focused lineup. Yao Guang helps feed her resource generation; Sparxie can spend Skill Points to trigger loot effects while also contributing damage. The Trailblazer (Elation: Lightning) is the accessible starting point when the limited supports are missing. Asta's Speed buff can help the third team, but it is not a substitute for an Elation teammate.
+Gallagher is an example sustain; another built sustain can fill that slot. Silver Wolf LV.999 / Sparxie / Yao Guang / Pearl is a fourth, Elation-focused lineup. Yao Guang helps feed her resource generation; Sparxie can spend Skill Points to trigger loot effects while also contributing damage. The Trailblazer (Elation: Lightning) is the accessible starting point when the limited supports are missing. Asta's Speed buff can help the third team, but it is not a substitute for an Elation teammate.
 
 ## Gameplay and Trace investment
 

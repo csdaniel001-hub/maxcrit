@@ -18,13 +18,13 @@ image_alt: "Official App Store screenshot of NBA 2K Mobile Basketball Game"
 image_status: "candidate"
 ---
 
-2K released an NBA 2K Mobile update today, November 23, 2026, built around the real Emirates NBA Cup.
+Calling real Emirates NBA Cup games correctly now earns rewards in NBA 2K Mobile, thanks to an update released on November 23, 2026. The same update touches the online modes and how Player Card Pips work.
 
 - **NBA Cup predictions**: predict the winners of real NBA Cup matchups. Correct predictions earn rewards, which you exchange for NBA Cup-themed players.
 - **Tournaments and Head-to-Head**: 2K says it has improved both online modes and made competitive play easier to get into.
 - **Mentor and Gear**: the systems were optimized to improve how Player Card Pips work, which 2K describes as a boost to upgrading stats.
 - Plus additional bug fixes.
 
-The predictions follow the real tournament, so the rewards depend on how many matchups you call while they're still open. Checking in on game days, before results are in, is the way to get the most out of it.
+Because the predictions follow the real tournament, your haul depends on how many matchups you call while they're still open. Game days, before the results are in, are when to check in.
 
-The Pips change is the one that affects every roster. If you were holding Mentor or Gear items, it's worth looking at what they do after the update before spending them.
+The Pips change reaches every roster. Anyone sitting on Mentor or Gear items should see what they do now before spending them.

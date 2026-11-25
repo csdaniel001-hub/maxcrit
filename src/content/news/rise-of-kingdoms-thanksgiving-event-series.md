@@ -19,7 +19,7 @@ image_alt: "Official App Store screenshot of Rise of Kingdoms"
 image_status: "candidate"
 ---
 
-Lilith Games' November 20, 2026 update for Rise of Kingdoms brings a Thanksgiving event series with seven parts.
+Rise of Kingdoms is treating Thanksgiving as a team holiday. Lilith Games' November 20, 2026 update brings a seven-part Thanksgiving event series, and most of it works best with an alliance behind you.
 
 - **Thanksgiving Dinner**: collect points for rewards for you and your alliance members.
 - **Thanksgiving Gifts**: redeem festive gifts.
@@ -29,6 +29,6 @@ Lilith Games' November 20, 2026 update for Rise of Kingdoms brings a Thanksgivin
 - **Arms Training**: fight Armsmaster Lohar, who gets stronger with each battle, and see how long you last.
 - **Riches Unveiled**: clean murals to reveal treasures underneath.
 
-Four of the seven depend on other players: Thanksgiving Dinner shares rewards with your alliance, Team Draw needs other governors, and the Feast and A Cordial Invitation are built around alliance members gathering. An active alliance gets noticeably more out of this series than a solo player.
+Four of the seven depend on other players: Thanksgiving Dinner shares rewards with your alliance, Team Draw needs other governors, and the Feast and A Cordial Invitation are built around alliance members gathering. Governors in a quiet alliance will feel left out of most of the series.
 
 Arms Training is the one with a skill ceiling. Lohar scales up each fight, so your score depends on how far your commanders can push before they fall.

@@ -51,7 +51,7 @@ image_alt: "Official Honkai: Star Rail Character Recap art of Acheron"
 image_status: "candidate"
 ---
 
-Acheron turns enemy debuffs into Ultimate access instead of building ordinary Energy. That changes both her relic priorities and the value of a teammate: a support who frequently applies debuffs may matter more than a support with an impressive damage buff on paper. The default build below is for E0 and does not assume her new Affinitive Eidolon is active.
+Acheron doesn't build ordinary Energy. Her Ultimate charges from enemy debuffs, and that one rule reshapes both her relics and her teammates: a support who applies debuffs often can matter more than one with a big damage buff on paper. The default build below is for E0 and does not assume her new Affinitive Eidolon is active.
 
 ## Relics and stats
 
@@ -64,7 +64,7 @@ Acheron turns enemy debuffs into Ultimate access instead of building ordinary En
 | Planar sphere | ATK% or Lightning DMG |
 | Link rope | ATK% |
 
-Pioneer rewards debuffed targets with direct damage and CRIT bonuses. Eagle of Twilight Line advances Acheron's action by 25% after each Ultimate, creating more opportunities to generate stacks and, with her Affinitive Eidolon, reset the follow-up trigger. StarGuide recommends Eagle for turn cycling, and a current indexed Icy Veins excerpt explains the same advantage. An older Prydwen snapshot favors Pioneer. Keep a strong existing Pioneer set when the extra turns would yield little benefit. Izumo adds 12% CRIT Rate when another Nihility ally is present; E1 adds 18% against debuffed targets.
+Pioneer rewards debuffed targets with direct damage and CRIT bonuses. Eagle of Twilight Line advances Acheron's action by 25% after each Ultimate, creating more opportunities to generate stacks and, with her Affinitive Eidolon, reset the follow-up trigger. StarGuide recommends Eagle for turn cycling, and a current indexed Icy Veins excerpt explains the same advantage. An older Prydwen snapshot favors Pioneer. If the extra turns would add little in your team, keep a strong Pioneer set you already own. Izumo adds 12% CRIT Rate when another Nihility ally is present; E1 adds 18% against debuffed targets.
 
 For a character with 65% CRIT Rate before conditional bonuses, Izumo alone gives 77%, or 95% with E1. This example excludes Pioneer entirely. Its four-piece bonus supplies 4% CRIT Rate, increasing to 8% for one turn after the wearer inflicts a debuff. Account for any amount already shown on the stat screen before adding the set's bonus. Aim to avoid exceeding 100% during the Ultimate window.
 
@@ -81,7 +81,7 @@ The signature's extra debuff can help generate Slashed Dream faster. Good Night 
 
 ## Teams and the E2 decision
 
-The Abyss multiplies Acheron's Basic, Skill and Ultimate damage to 115% with one other Nihility teammate and 160% with two. At E2 the maximum requires only one other Nihility character. These multipliers describe her kit rather than final team damage.
+The Abyss multiplies Acheron's Basic, Skill and Ultimate damage to 115% with one other Nihility teammate and 160% with two. At E2 the maximum requires only one other Nihility character. These multipliers describe her kit; final team damage is a separate question.
 
 | Example team | Reason to use it |
 |---|---|
@@ -92,16 +92,20 @@ The Abyss multiplies Acheron's Basic, Skill and Ultimate damage to 115% with one
 | Acheron E2 / Jiaoqiu / Sunday / Gallagher | Harmony action advance while preserving the full Trace at E2 |
 | Acheron / Mortenax Blade / Ashveil / Hyacine | Dual-carry alternative; at E0 The Abyss is only 115%, traded for Ashveil's damage and DEF reduction |
 
-StarGuide rates Mortenax Blade highly as an amplifier. Jiaoqiu's frequent debuffs remain particularly useful for stack generation; In Version 4.7, Jiaoqiu and Those Many Springs are available in the Stellar Convergence Store. Compare actual debuff frequency, Skill Points and survival before changing the sustain or second Nihility slot. The accessible lineup is a starting point for smaller rosters.
+StarGuide rates Mortenax Blade highly as an amplifier. Jiaoqiu's frequent debuffs remain particularly useful for stack generation, and in Version 4.7 Jiaoqiu and Those Many Springs are available in the Stellar Convergence Store. Compare actual debuff frequency, Skill Points and survival before changing the sustain or second Nihility slot. The accessible lineup is a starting point for smaller rosters.
 
-## Rotation and investment
+## Rotation
 
-Build nine Slashed Dream points, maintain useful enemy debuffs, then target enemies carrying Crimson Knot during the Ultimate. Red Oni provides five Slashed Dream at battle start and stores up to three overflow points as Quadrivalent Ascendance, which returns them after her Ultimate. Short delays around wave transitions can preserve value; longer delays waste stack generation. Prioritize Ultimate, followed by Skill and Talent; unlock The Abyss and Thunder Core.
+The loop is simple to describe: build nine Slashed Dream points, keep useful debuffs on the enemies, then aim the Ultimate at whoever carries Crimson Knot. Red Oni hands her five Slashed Dream at battle start and stores up to three overflow points as Quadrivalent Ascendance, which come back after her Ultimate. A short hold around a wave transition can save value. Hold too long and the stack generation is wasted.
+
+## Trace priority
+
+Ultimate first, then Skill and Talent. Unlock The Abyss and Thunder Core.
 
 ## Version 4.7 Affinitive Eidolon
 
 A Glance Through Rime to Bone grants a follow-up when a teammate attacks a Crimson Knot target. The attack counts as Ultimate damage, benefits from The Abyss and grants one Slashed Dream. The trigger is limited to once until Acheron's next turn resets it. This gives extra turns and frequent teammate attacks more value. It does not change The Abyss's Nihility requirement; only E2 lowers it.
 
-During Grab Your Opening Gifts, Acheron is one of three choices in both Magic Invitation (character acquisition) and Affinitive Starveil (Affinitive Eidolon). The latter is a free event choice independent of her normal Eidolon level; choose based on your roster. Myriad Symphony is a second route to an Affinitive Eidolon, earned by spending Star Rail Special Passes or Fashion Invites during the event.
+During Grab Your Opening Gifts, Acheron is one of three choices in both Magic Invitation (character acquisition) and Affinitive Starveil (Affinitive Eidolon). The latter is a free event choice independent of her normal Eidolon level, so let your roster decide. Myriad Symphony is a second route to an Affinitive Eidolon, earned by spending Star Rail Special Passes or Fashion Invites during the event.
 
-See the [current HSR banner schedule](/hub/banners/honkai-star-rail-banners.html) for availability, and retain your existing relics until you know which teammate improvements matter most.
+Hold on to your existing relics until you know which teammate upgrades matter most, and keep an eye on the [current HSR banner schedule](/hub/banners/honkai-star-rail-banners.html) for availability.

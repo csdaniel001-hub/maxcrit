@@ -24,17 +24,17 @@ image_alt: "Official App Store screenshot of Arena Breakout: Realistic FPS"
 image_status: "candidate"
 ---
 
-Arena Breakout's update from November 2, 2026 adds two maps, changes how vehicles work and brings a batch of new weapons and gear.
+An airport that went from tourist terminal to military command post is one of two new maps in Arena Breakout's November 2, 2026 update. Guoyapos International Airport and the Bay Area peninsula arrive with keyless vehicles and a batch of new weapons and gear.
 
 ## Airport and Bay Area
 
-Guoyapos International Airport sits in the south of Guoyapos. In the game's story, it first served foreign tourists, then handled the evacuation of expatriates when the North-South Conflict began, and was later used by both sides as a frontline command center, with military modifications to match.
+Guoyapos International Airport sits in the south of Guoyapos. Its backstory runs in three stages: foreign tourists first, then the evacuation of expatriates when the North-South Conflict began, and finally a frontline command center for both sides, with the military modifications to show for it.
 
-The Bay Area is a peninsula northeast of Guoyapos Port. Before the war it was the tourist hotspot, with an exhibition hall, commercial streets and a medical complex along the coast.
+The Bay Area is a peninsula northeast of Guoyapos Port and was the tourist hotspot before the war. Expect an exhibition hall, commercial streets and a medical complex along the coast.
 
 ## Keyless vehicles
 
-New drivable vehicles are on the Northridge and Valley maps, and they no longer need keys. You walk up and use them.
+Northridge and Valley get new drivable vehicles, and none of them need keys anymore. Walk up, get in, go.
 
 | Vehicle | Seats | Trunk space |
 |---|---|---|
@@ -42,7 +42,7 @@ New drivable vehicles are on the Northridge and Valley maps, and they no longer 
 | Pickup Truck | 4 | 7x10 |
 | Jeep | 4 | 7x4 |
 
-The Pickup Truck's 7x10 trunk is the big one for loot runs. It holds far more than the Jeep, which seats as many people.
+Same four seats as the Jeep, but a 7x10 trunk against 7x4: the Pickup Truck is the one to grab for loot runs.
 
 ## Weapons and gear
 
@@ -53,4 +53,4 @@ The Pickup Truck's 7x10 trunk is the big one for loot runs. It holds far more th
 - **Conventional accessories**: SVDS Integrated Stock, SCAR-L Tactical Stock, MDR Rail Handguard, GROZA Extended Barrel and AK-12 Horizontal Muzzle Brake.
 - **Equipment**: DK9 Enhanced Mask.
 
-Moving the Negev-7 and EVOLYS to conventional supplies makes both easier to get. For anyone who couldn't find them in the season pool, that's the quietest but most useful change here.
+The quietest line may be the most useful one. Moving the Negev-7 and EVOLYS to conventional supplies makes both easier to get, which is good news for anyone who kept missing them in the season pool.

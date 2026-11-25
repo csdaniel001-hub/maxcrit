@@ -55,7 +55,7 @@ image_alt: "Official Wuthering Waves profile art of Camellya"
 image_status: "candidate"
 ---
 
-Camellya is a Havoc Sword carry who spends most of her damage window on extended Basic Attack sequences. Her main build decisions are how to support those attacks and how to finish her Forte burst without an early swap. The setup below assumes Sequence 0.
+Camellya is a Havoc Sword carry who spends most of her damage window swinging through extended Basic Attack sequences. Two questions shape her build: how to feed those attacks, and how to finish her Forte burst without swapping out early. The setup below assumes Sequence 0.
 
 ## Weapons and Echoes
 
@@ -66,7 +66,7 @@ Camellya is a Havoc Sword carry who spends most of her damage window on extended
 | Emerald of Genesis (R1) | Permanent five-star alternative with CRIT Rate and Energy Regen. |
 | Feather Edge (R5) | Battle Pass alternative if already owned. |
 
-Do not replace a usable permanent five-star sword simply because a limited sword has a CRIT secondary stat. A weapon with a passive dedicated to another character's damage type may give little beyond its base stats.
+A CRIT secondary stat alone is no reason to retire a usable permanent five-star sword for a limited one. A weapon with a passive dedicated to another character's damage type may give little beyond its base stats.
 
 Use five-piece Sun-sinking Eclipse and Nightmare: Crownless as the Main Echo. A 4-3-3-1-1 setup is a straightforward place to start.
 
@@ -77,7 +77,7 @@ Use five-piece Sun-sinking Eclipse and Nightmare: Crownless as the Main Echo. A 
 | 3 | ATK% or Havoc DMG Bonus |
 | 1 and 1 | ATK% |
 
-Prefer Havoc DMG with non-signature weapons when choosing between comparable pieces. Look for sufficient Energy Regen to use Liberation consistently, then CRIT, ATK% and Basic Attack DMG. A higher stat-sheet CRIT value is not useful if it forces you to skip an important part of the rotation through insufficient Energy.
+Prefer Havoc DMG with non-signature weapons when choosing between comparable pieces. Look for sufficient Energy Regen to use Liberation consistently, then CRIT, ATK% and Basic Attack DMG. Extra CRIT on the stat sheet is worth nothing if a lack of Energy makes you skip part of the rotation.
 
 ## Teams
 
@@ -89,12 +89,14 @@ Prefer Havoc DMG with non-signature weapons when choosing between comparable pie
 | Camellya / Lynae / Mornye | Newer generalist buffing alternative for players who own both. |
 | Camellya / Lynae / Shorekeeper | Flexible support pairing when Mornye is unavailable. |
 
-These lineups are playable roster options; performance varies by Tower and Whimpering Wastes encounter. In fights with spread-out enemies, the value of grouping and the ability to stay on target can outweigh a small theoretical buff advantage.
+All five are playable; how well each does varies by Tower and Whimpering Wastes encounter. In fights with spread-out enemies, the value of grouping and the ability to stay on target can outweigh a small theoretical buff advantage.
 
 ## Rotation
 
-Prepare both support buffs before Camellya's Intro. Cast Resonance Skill Crimson Blossom to enter Blossom Mode, use Vining Waltz and Blazing Waltz to spend Crimson Pistils and build Crimson Buds, then use Liberation and Ephemeral when the Forte and Concerto requirements are met. Continue the empowered attacks during Budding Mode, finish with Floral Ravage as available, and Outro after the burst. The exact Echo cancel and dodge timing is optional for learning the sequence; do not force cancels at the cost of missed hits on mobile.
+Prepare both support buffs before Camellya's Intro. Cast Resonance Skill Crimson Blossom to enter Blossom Mode, use Vining Waltz and Blazing Waltz to spend Crimson Pistils and build Crimson Buds, then use Liberation and Ephemeral when the Forte and Concerto requirements are met. Continue the empowered attacks during Budding Mode, finish with Floral Ravage as available, and Outro after the burst. Echo cancels and dodge timing can wait while you learn the sequence. On mobile, a forced cancel that drops hits costs more than it saves.
 
 The alternative White Hair sequence can help against mobile enemies that escape the spin's tracking, although it can take longer. Swapping prematurely during Budding Mode ends its enhanced window. That matters more than perfecting an animation cancel.
+
+## Forte and skill priority
 
 Level Resonance Skill first, since Crimson Blossom, Vining Waltz, Blazing Waltz and Floral Ravage all sit under it, then Forte Circuit, Resonance Liberation and Intro Skill. Basic Attack comes last unless you play the White Hair rotation, which Prydwen says benefits from it. If the team cannot finish the burst safely, use a defensive support instead of sacrificing the full window to repeated interruption. Camellya is worth gearing when you already own her, but her older kit does not automatically make her the best new pull for every account.

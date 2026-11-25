@@ -31,9 +31,9 @@ image_alt: "Official App Store screenshot of Wuthering Waves"
 image_status: "candidate"
 ---
 
-Version 3.8 offers a leisure event and a community combat-video contest.
+Two events make up the Wuthering Waves Version 3.8 schedule: Second Coming of Solaris: Unwritten Dreams, a leisure event running until December 21, and Battle Rush, a community contest for combat videos that closes on December 10.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Dates come from the official announcements as of November 24, 2026. The two use different time bases, server time for one and Pacific time for the other, so read each row's basis before planning.
 
 ## Current event schedule
 
@@ -54,7 +54,7 @@ Complete the event activities and claim milestone rewards from the event menu.
 
 ### Wuthering Waves Battle Rush
 
-- **Event window**: 2026-11-12 to 2026-12-10 (PT.
+- **Event window**: 2026-11-12 to 2026-12-10 (PT, date only).
 
 Submit qualifying combat videos using the community contest instructions.
 
@@ -62,4 +62,4 @@ Submit qualifying combat videos using the community contest instructions.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Battle Rush closes first, on December 10 (PT). Unwritten Dreams stays open until December 21 at 11:59 server time, so its milestone rewards have more than a week of runway after the contest ends. Both dates can still move after publication.

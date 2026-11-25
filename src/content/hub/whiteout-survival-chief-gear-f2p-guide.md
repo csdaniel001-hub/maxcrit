@@ -50,9 +50,9 @@ image_alt: "Official Whiteout Survival art of heroes fighting a giant polar bear
 image_status: "candidate"
 ---
 
-A free-to-play account can reach a new Furnace milestone and still struggle to contribute in alliance fights. The problem usually becomes apparent when your troops start taking losses you cannot afford to replace. Chief Gear and Charms give you permanent troop bonuses, so investing in these systems is particularly valuable once the initial rush to unlock buildings is over.
+A free-to-play account in Whiteout Survival can hit a new Furnace milestone and still pull little weight in alliance fights. You notice it when your troops start taking losses you can't afford to replace. Chief Gear and Charms give permanent troop bonuses, which makes them especially valuable once the early rush of building unlocks is over.
 
-Use the following priorities as a general-purpose plan for F2P players who join rallies, defend with their alliance and occasionally fight in the field. A dedicated Bear Hunt account can shift investment toward damage.
+The plan below is for F2P players who join rallies, defend with their alliance and fight in the field now and then. A dedicated Bear Hunt account can tilt the same plan toward damage.
 
 ## Which Furnace levels matter most?
 
@@ -63,9 +63,9 @@ Use the following priorities as a general-purpose plan for F2P players who join 
 | 29 | Prerequisite for the next Furnace upgrade | Embassy and Marksman Camp upgrades |
 | 30 | Progression toward Fire Crystal buildings and level 30 troop camps | Embassy, Research Center and state unlocks |
 
-Level 30 on the Furnace alone does not upgrade your troops. Raise the appropriate camps and train or promote troops as the next tier becomes available. Fire Crystal progression also depends on your state's development. The first Fire Crystal Furnace stage requires a level 30 Embassy and Research Center.
+A level 30 Furnace on its own doesn't upgrade your troops. You still raise the camps and train or promote troops as each tier opens. Fire Crystal progression also depends on your state's development. The first Fire Crystal Furnace stage requires a level 30 Embassy and Research Center.
 
-Keep one construction plan for the next Furnace prerequisite and one for the systems supporting your army. If you are struggling to heal, train or afford upgrades, use the interval before the next major building milestone to address that weakness. A high Furnace with underdeveloped troops is expensive to defend.
+Run two construction plans side by side: one for the next Furnace prerequisite, one for the systems behind your army. If healing, training or upgrade costs are holding you back, fix that in the gap before the next big building milestone. A high Furnace with weak troops is expensive to defend.
 
 ## Chief Gear upgrade order for F2P
 
@@ -77,11 +77,11 @@ Chief Gear consists of six slots. Each pair improves Attack and Defense for a di
 | Marksman | Ring, Weapon | 2 |
 | Lancer | Cap, Watch | 3 |
 
-Start with Infantry because your front line absorbs damage while your other troops fight. Marksmen are a sensible second investment for a general-purpose account. If your alliance assigns you a specialized march, adapt the order to the troops you actually send.
+Infantry comes first because your front line soaks damage while the rest of your troops fight. Marksmen are the natural second pick for a general-purpose account. If your alliance assigns you a specialized march, adapt the order to the troops you actually send.
 
-The order above is a starting point for spending, and you should also track the set bonuses. Three matching-quality pieces provide a troop-wide Defense bonus; a six-piece matching-quality set adds an Attack bonus. If you already have two pieces at your next quality tier, upgrading the cheapest useful third piece may give more immediate value than another upgrade to your strongest Infantry item. Check the set markers in your Chief profile before committing materials.
+That order is where spending starts, but set bonuses can jump the queue. Three matching-quality pieces provide a troop-wide Defense bonus; a six-piece matching-quality set adds an Attack bonus. If you already have two pieces at your next quality tier, upgrading the cheapest useful third piece may give more immediate value than another upgrade to your strongest Infantry item. Check the set markers in your Chief profile before committing materials.
 
-A practical approach is to establish all six pieces, bring the Infantry pair toward the next quality, then use your remaining budget to complete the relevant three- and six-piece milestones. Compare the previewed bonuses and upgrade costs each time.
+In practice: get all six pieces, push the Infantry pair toward the next quality, then spend what's left on the three- and six-piece milestones. Compare the previewed bonus with the upgrade cost every time.
 
 ## Where to get Chief Gear materials
 
@@ -92,11 +92,11 @@ A practical approach is to establish all six pieces, bring the Infantry pair tow
 | Design Plans | Foundry, Alliance Championship, Power Region and Canyon shops |
 | Amber | Material Exchanges and packs |
 
-Design Plans enter the upgrade path at Blue (Rare) quality, and Amber from Red (Mythic) gear onward. Check your next upgrade before shopping: accumulating large quantities of a material you already have can delay your next quality milestone if another component is scarce.
+Design Plans enter the upgrade path at Blue (Rare) quality, and Amber from Red (Mythic) gear onward. Look at your next upgrade before shopping. A big pile of one material does nothing for your next quality milestone if another component is the one you're short of.
 
 ## Chief Charms and rally priorities
 
-Charms add percentage bonuses for each troop type. They have their own upgrade materials, so opening the system at Furnace 25 adds a separate investment decision.
+Charms add percentage bonuses for each troop type and use their own upgrade materials, so Furnace 25 opens a second spending decision alongside Chief Gear.
 
 For general PvP, prioritize Infantry Charms when your front line consistently collapses. For a Bear Hunt-oriented account, Marksman Charms are a reasonable early focus if Marksmen make up a large share of your march. Lancer upgrades become more valuable when your alliance's recommended formation or available heroes favor that troop type. Compare actual troop composition before spending.
 
@@ -116,4 +116,4 @@ If your Furnace upgrade is ready but an important event starts tomorrow, waiting
 
 ## What should you upgrade next?
 
-Open the Chief Gear screen and look at the six pieces. Identify your cheapest path to a useful set bonus, then compare it with the next Infantry upgrade. Open Charms separately and check whether your current march is limited by survival or damage. Finally, check the next Furnace prerequisite and the event calendar. That short review provides a better spending plan than a fixed endgame tier list for every F2P player.
+Open the Chief Gear screen and look at the six pieces. Identify your cheapest path to a useful set bonus, then compare it with the next Infantry upgrade. Open Charms separately and check whether your current march is limited by survival or damage. Finally, check the next Furnace prerequisite and the event calendar. That quick pass through four screens gives you a better spending plan than any one-size endgame tier list.

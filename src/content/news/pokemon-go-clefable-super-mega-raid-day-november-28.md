@@ -49,4 +49,4 @@ The US$4.99 ticket is in the in-game shop until November 28 at 5:00 p.m. local t
 
 Super Mega Raids only appear at certain Gyms. The in-game Map shows where they may spawn and lists nearby community meetups in advance, which helps, since these raids need a group.
 
-The free Raid Passes are the reason to plan ahead. Six passes over three hours is a lot of raiding if you have a group, and the ticket only makes sense if your group can clear more than six.
+Six free passes across a three-hour window is plenty of raiding for most groups. The ticket earns its US$4.99 only if your group can realistically clear more than six raids in that time.

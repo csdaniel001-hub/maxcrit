@@ -37,12 +37,12 @@ image_alt: "Lilies in a Dying Dream key art from the official Wuthering Waves Ap
 image_status: "candidate"
 ---
 
-Wuthering Waves 3.8, Lilies in a Dying Dream, launched after maintenance on November 12 (UTC+8). The update adds another chapter of the main quest and changes several everyday farming systems.
+Lily, a five-star Spectro pistol user, leads Wuthering Waves 3.8, Lilies in a Dying Dream, which launched after maintenance on November 12 (UTC+8). Around her, the update adds another chapter of the main quest and changes several everyday farming systems.
 
 ## New content
-- Lily joins the five-star Resonator roster as a Spectro pistol user, with the Bloom of Yesterday's Dreamsoil featured Convene listed for the version.
+- Lily joins the five-star Resonator roster, with the Bloom of Yesterday's Dreamsoil featured Convene listed for the version.
 - Main Quest Chapter IV, Act V: A Bouquet for Tomorrow.
-- Phase I includes a featured Sigrika Convene, with increased rates for Youhu, Aalto and Yangyang. Version content is not necessarily available on day one; check the in-game banner timer before pulling.
+- Phase I includes a featured Sigrika Convene, with increased rates for Youhu, Aalto and Yangyang. Not everything in the version is live on day one, so look at a banner's own timer before you pull.
 - Second Coming of Solaris: Unwritten Dreams offers 1,200 Astrite and themed cosmetics, with a scheduled end on December 21 at 11:59 server time.
 
 ## Quality-of-life changes
@@ -51,7 +51,7 @@ Wuthering Waves 3.8, Lilies in a Dying Dream, launched after maintenance on Nove
 - Rover's Resonance Conversion interface switches to the Echo set associated with the new attribute.
 - Resonator animation adjustments aim to improve control responsiveness.
 
-## What this means for players
-The farming improvements are particularly valuable if you are developing multiple teams. Check the locator before manually searching for ascension items, and review Rover's Echo setup after changing attributes.
+## Who gains most
+Players building several teams at once get the most from the farming changes. Blitz Mode cuts the wait between material runs, and the Material Locator saves you hunting for ascension items by hand, so open it before you go searching.
 
-The official patch page is linked below, but its body did not render in the research browser. The developer's App Store release notes and secondary coverage support the summarized features; the complete minor-fix list was not independently extracted.
+Rover mains have one job after switching attributes: review the Echo setup, since the Resonance Conversion screen now jumps to the matching set. Second Coming of Solaris stays open until December 21, so its 1,200 Astrite can wait while you decide which Convene to pull on.

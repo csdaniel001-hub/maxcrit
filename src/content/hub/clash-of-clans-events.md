@@ -28,9 +28,9 @@ image_alt: "Official App Store screenshot of Clash of Clans"
 image_status: "candidate"
 ---
 
-The Clash of Titans season is in its final stretch, with Clan Games and limited backup troops.
+You have until November 26 to use Snackable Troops, the limited backup troops of the Clash of Titans season's final stretch, and November Clan Games close two days later.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+The dates come from Supercell's official calendar as of November 24, 2026. That calendar gives days without hours, so the countdown on your own server is the one to trust near a deadline.
 
 ## Current event schedule
 
@@ -75,6 +75,6 @@ Progress through the November track; Grand Titan is the featured Grand Warden sk
 
 - **Rewards**: Track rewards; featured skin subject to pass eligibility.
 
-## Before the event ends
+## Before the season ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+The November Gold Pass runs the whole month and closes on November 30, with Grand Titan as its featured Grand Warden skin. The Fully Forged Challenge is the last to close, on December 1. With no end hours published, aim to finish each event and claim its rewards the day before it closes. Dates may change after publication, and a campaign window does not guarantee every activity is available every day.

@@ -22,24 +22,24 @@ image_alt: "Official Kingshot feature graphic from its Google Play listing"
 image_status: "candidate"
 ---
 
-Century Games released Kingshot version 1.14.28 on November 16, 2026. The release notes list 14 changes under "Optimizations & Adjustments". Most are quality-of-life fixes, but a few change how you fight, fish and recruit.
+Squads, fishing and recruitment all work a little differently in Kingshot after version 1.14.28, which Century Games released on November 16, 2026. The update makes 14 changes under "Optimizations & Adjustments", and while most are quality-of-life fixes, a handful touch how you fight, fish and recruit.
 
 ## Four new formations
 
-The update adds 4 formations that unlock progressively based on your Town Center Level. The notes describe them as more options for squad strategies.
+The update adds 4 formations that unlock progressively based on your Town Center Level. They are there to widen your options for squad strategies.
 
 The Deployment screen also changes: you can now remove the first Hero on its own, which makes it easier to rearrange a squad without clearing it.
 
 ## Fishing Tournament changes
 
-The Fishing Tournament gets the longest entry in the notes:
+The Fishing Tournament gets the biggest set of changes:
 
 - **Seaweed Guide**: a new guide that unlocks automatically once you meet its requirements. Raising your collection progress earns a limited Chat Skin.
 - **10x Power Cast**: once you reach the specified progress, Power Cast gets a 10x option, and your initial Fishing Kit starts at max level.
 - **Seasonal Missions**: new missions that earn Fishing Points and Island Decorations.
 - **Claim All**: a button to collect rewards in one tap, plus clearer Bait descriptions.
 
-The 10x option is the time saver here. If you fish every tournament, working toward the progress requirement first will cut down the tapping for the rest of the event.
+The 10x option is the time saver. Regular fishers should work toward its progress requirement first, since everything after that takes far less tapping.
 
 ## Hero Recruitment and Alliance tools
 

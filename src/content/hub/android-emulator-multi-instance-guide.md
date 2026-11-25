@@ -38,7 +38,7 @@ image_alt: Official BlueStacks artwork
 image_status: candidate
 ---
 
-Multi-instance lets you run more than one copy of an emulator at the same time. Each copy, or instance, behaves like a separate Android device with its own games, accounts and settings. Players use it to run two different games side by side, keep a test instance for updates, or play more than one account in games that allow it. This guide covers how it works, how many instances your PC can handle and how to stay within the rules.
+Two games side by side, a spare copy for testing updates, a second account in a game that allows it: that is what multi-instance is for. It runs more than one copy of an emulator at the same time, and each copy, or instance, behaves like a separate Android device with its own games, accounts and settings. The sections below cover how it works, how many instances a PC can handle and how to stay within the rules.
 
 ## What an instance is
 

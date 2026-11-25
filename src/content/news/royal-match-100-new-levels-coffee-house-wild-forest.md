@@ -19,7 +19,7 @@ image_alt: "Official Royal Match feature graphic from its Google Play listing"
 image_status: "candidate"
 ---
 
-Dream Games has put out a new Royal Match update today, November 23, 2026. Its release notes call it a cinematic update, and it has three parts.
+A Film Projector that rolls out power-ups is the new toy in Royal Match, arriving with the cinematic update Dream Games released today, November 23, 2026. The update comes in three parts.
 
 - **100 new levels**: they introduce Film Rolls, which you collect to make the Film Projector roll out power-ups.
 - **A new area**: the Coffee House, the next room to restore once you've cleared enough levels.
@@ -27,6 +27,6 @@ Dream Games has put out a new Royal Match update today, November 23, 2026. Its r
 
 Dream Games repeats that new levels arrive every two weeks, so the 100 here are the latest batch, with more planned.
 
-Film Rolls are the new mechanic in these levels. Collecting them fills the projector, which then hands out power-ups, so in the new levels it pays to aim matches at Film Rolls early instead of saving boosters.
+Since every Film Roll you collect feeds the projector, the smart play in the new levels is to aim matches at them early instead of saving boosters for later.
 
-Wild Forest is the part with a time limit. If you want the Grand Prize, play through the waves while the event is live rather than waiting. The update is out on the App Store now and needs to be installed before the new levels show up.
+Wild Forest is the part with a clock on it, so anyone after the Grand Prize should start on the waves while the event is live. The update is out on the App Store now, and the new levels only show up once it's installed.

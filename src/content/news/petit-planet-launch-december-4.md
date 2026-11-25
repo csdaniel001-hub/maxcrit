@@ -22,11 +22,11 @@ image_alt: "Official App Store screenshot of Petit Planet"
 image_status: "candidate"
 ---
 
-HoYoverse has confirmed that Petit Planet, which it calls its first cozy galactic life simulation game, launches worldwide on December 4, 2026 on PC, iOS and Android, with cross-platform play between them. The date was announced during the game's Pre-Launch Special Program on November 1, together with a Nintendo Switch 2 version planned for 2027.
+Plant a seed, grow a tree, and let it reshape a whole planet: that is the loop at the heart of Petit Planet, which HoYoverse calls its first cozy galactic life simulation game. It launches worldwide on December 4, 2026 on PC, iOS and Android, with cross-platform play between them. The date came during the game's Pre-Launch Special Program on November 1, along with a Nintendo Switch 2 version planned for 2027.
 
 ## What you do in Petit Planet
 
-You play a Planet Tender, travelling to the Starsea on the back of Oumuamua, a Starsea Spirit. On your own planet you plant a Luca Seed that grows into a Luca Arbor, and that tree shapes the planet's landscape, seasons and ecosystem over time.
+You play a Planet Tender, travelling to the Starsea on the back of Oumuamua, a Starsea Spirit. The seed is a Luca Seed, and the Luca Arbor it grows into shapes your planet's landscape, seasons and ecosystem over time.
 
 You won't be alone for long. Planet Coordinator Mobai and Starsea Racer Elsasani are the first Neighbors to welcome you, and more arrive over time, each with their own story. Beyond your home planet, you can sail across the Starsea to explore its scattered Islets, or visit the Galactic Bazaar for games, auctions and sharing your creations.
 
@@ -38,4 +38,4 @@ You won't be alone for long. Planet Coordinator Mobai and Starsea Racer Elsasani
 - **Seasonal Creation Event**: the first one starts on launch day, with cash prizes, in-game rewards and official merchandise for selected fan creations.
 - A pre-registration lucky draw runs on the official website.
 
-Pre-registration is open on the App Store, Google Play and the Epic Games Store. Since progress is shared across platforms, you can start on your phone and continue on PC.
+Pre-registration is open on the App Store, Google Play and the Epic Games Store, and the team-of-three reward makes it worth rounding up two friends. Progress is shared across platforms, so a planet started on your phone carries on at your PC.

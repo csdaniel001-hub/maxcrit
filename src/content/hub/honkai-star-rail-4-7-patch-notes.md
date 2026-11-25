@@ -34,7 +34,7 @@ image_alt: "Official App Store screenshot of Honkai: Star Rail"
 image_status: "candidate"
 ---
 
-Version 4.7, Now, Lay Laughter to All Stars, concludes another stretch of Planarcadia's story while changing how players develop Elation teams and farm materials.
+Version 4.7, Now, Lay Laughter to All Stars, closes another stretch of Planarcadia's story. For anyone not following the plot, the bigger news is how Elation teams are built and how materials are farmed.
 
 ## Characters, gear and story
 - The new permanent Trailblaze Mission opens at Trailblaze Level 21; Finality's Vision allows early access during the version.
@@ -49,4 +49,4 @@ Version 4.7, Now, Lay Laughter to All Stars, concludes another stretch of Planar
 - Quick Farm now supports up to 24 Calyx runs; dialogue speed-up extends to missions from versions 1.0–3.8. Lower difficulties of The Comedy of Doom are easier.
 
 ## What to do first
-Claim eligible maintenance and bug compensation (300 Stellar Jade each). Bug compensation must be claimed by December 11, 23:59 UTC+8. Prioritize the permanent story and check whether your existing characters qualify for Affinitive Eidolons. Version 4.7 ends December 23 at 06:00 UTC+8.
+Claim eligible maintenance and bug compensation (300 Stellar Jade each). Bug compensation must be claimed by December 11, 23:59 UTC+8. Then start the permanent story, and look at whether Acheron, Dan Heng • Imbibitor Lunae or Jing Yuan on your account can take an Affinitive Eidolon. Version 4.7 ends December 23 at 06:00 UTC+8.

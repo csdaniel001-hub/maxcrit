@@ -21,7 +21,7 @@ image_alt: "Official Steam screenshot of Tree of Savior M"
 image_status: "candidate"
 ---
 
-IMC GAMES has opened pre-registration for the global version of Tree of Savior M, its hack-and-slash MMORPG. You can sign up on Google Play, pre-order free on the App Store, or wishlist it on Steam, where it runs on Windows and macOS.
+How many sign-ups does it take to unlock the top pre-registration reward in Tree of Savior M? The answer is 200,000, now that IMC GAMES has opened pre-registration for the global version of its hack-and-slash MMORPG: you can sign up on Google Play, pre-order free on the App Store, or wishlist it on Steam, where it runs on Windows and macOS.
 
 The rewards are shared: the more people sign up worldwide, the more everyone gets.
 
@@ -33,6 +33,6 @@ The rewards are shared: the more people sign up worldwide, the more everyone get
 
 Joining the official Discord adds the Sprout hair accessory and the Chick Mount. There are also three community missions on Facebook, YouTube and X, and clearing all three unlocks the Herald of Dawn title.
 
-On Steam, IMC GAMES describes a game built around switching between subclasses within each class, with Fellows and Kupoles as companions you collect. PvE covers Field Bosses that spawn once enough monsters fall, plus Rift, Conquest, the 4-player Outer World dungeon and the solo Vestige Realm. PvP is the Dual Arena, where you set up separate attack and defence teams.
+The game itself is built around switching between subclasses within each class, with Fellows and Kupoles as companions you collect. PvE covers Field Bosses that spawn once enough monsters fall, plus Rift, Conquest, the 4-player Outer World dungeon and the solo Vestige Realm. PvP is the Dual Arena, where you set up separate attack and defence teams.
 
-The Little Laima Kupole at 200,000 is the reward worth pushing for, since it is a companion rather than a cosmetic.
+Little Laima is the milestone worth sharing the sign-up link for. Every tier below it leads with a piece of the Child of Wood outfit, while the 200,000 reward is a UR Kupole, one of the companions the game is built around collecting.

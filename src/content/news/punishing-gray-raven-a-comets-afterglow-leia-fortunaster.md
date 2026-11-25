@@ -20,9 +20,9 @@ image_alt: "Official App Store screenshot of Punishing: Gray Raven"
 image_status: "candidate"
 ---
 
-Kuro Games released Punishing: Gray Raven version 4.9, "A Comet's Afterglow," on November 5, 2026.
+Leia: Fortunaster is the new S-Rank Character in Punishing: Gray Raven version 4.9, "A Comet's Afterglow," which Kuro Games released on November 5, 2026. The update pairs her with a new Main Story, her affection story and a run of new modes and events.
 
-New for Leia:
+What arrives with her:
 
 - **S-Rank Character**: Leia: Fortunaster.
 - **6-Star Weapon**: Edges of the Twisted Ribbon, her exclusive.
@@ -32,7 +32,7 @@ New for Leia:
 
 Returning coatings are Cradled Moonfrost for Ishmael: Parhelion, Sanguine Justice for Vera: Geiravor and Starward Dragon for Nanami: Startrail.
 
-The new content:
+What's new to play:
 
 - **Main Story**: A Comet's Afterglow.
 - **Endeavorer's Charm**: learn character mechanics and clear combat challenges.
@@ -42,4 +42,4 @@ The new content:
 - **Dreamhouse Tycoon**: a building event.
 - **Munchy Pixels**: collect pixel beans with Leia while clearing stages.
 
-Endeavorer's Charm is the one to do first if you pull Leia. It's built to teach character mechanics, so it's the fastest way to learn her before the boss stages in Astral Obscura.
+Pulled Leia? Start with Endeavorer's Charm. It exists to teach character mechanics, which makes it the quickest way to learn her before taking her into the Astral Obscura boss stages.

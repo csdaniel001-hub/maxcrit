@@ -19,7 +19,7 @@ image_alt: "Official App Store screenshot of Brawl Stars"
 image_status: "candidate"
 ---
 
-Supercell released Brawl Stars Update 70, "Ranked Refresh & Brawlidays," on November 17, 2026. It covers November and December, and the App Store notes list what's in it.
+Brawl Stars Update 70, "Ranked Refresh & Brawlidays," went live on November 17, 2026, and it reworks Ranked for solo players while adding Ruby & Rey and the Thunder Frogs. Supercell's update covers both November and December.
 
 - **Ranked**: a refined experience for solo players, with new cosmetics, improved matching and better pick and ban options.
 - **Ruby & Rey**: a royal couple who are more powerful when played together.
@@ -27,8 +27,8 @@ Supercell released Brawl Stars Update 70, "Ranked Refresh & Brawlidays," on Nove
 - **Also new**: extra Pin slots, new game modes, Hypercharges and Buffies.
 - **Brawl Pass**: Season 56, Brawl Vice, followed by Season 57, Brawlidays.
 
-That's three new Brawlers in one update, counting Ruby & Rey and the Thunder Frogs as the release notes do, with Ruby & Rey sold on playing as a pair.
+Count Ruby & Rey and the Thunder Frogs the way Supercell does and that's three new Brawlers in one update. Ruby & Rey are the ones built around teamwork: two characters who get stronger when they play together.
 
-The Ranked changes are aimed at solo players, with better matching and more pick and ban options. If you stopped playing Ranked alone, this update gives you a reason to try it again.
+Ranked is the bigger shift for anyone who queues alone. Better matching and more pick and ban options are aimed squarely at solo players, so if you gave up on solo Ranked, this is the update to try it again.
 
-For the November balance numbers, Brawler by Brawler, see our Brawl Stars patch tracker.
+The Brawler-by-Brawler balance numbers for November live in our Brawl Stars patch tracker.

@@ -23,16 +23,16 @@ tldr:
 - 'First to end: Popularity Annual Gala battle phase, on 2026-12-20.'
 - 'Longest running: S33 Classic and Casual Season, until 2027-01-14.'
 image: "/assets/img/pubg-mobile-events.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/df/52/d9df52bf-3188-0e4f-c238-da9792d5da50/5.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/af/36/13af36d6-92d8-cb04-1f19-e8edd220ef48/3.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/pubg-mobile/id1330123889"
 image_credit: "Tencent / KRAFTON"
 image_alt: "Official App Store screenshot of PUBG MOBILE"
 image_status: "candidate"
 ---
 
-Version 4.7 includes Arctic Chronicles, multiple ranked seasons and a popularity competition.
+PUBG MOBILE's Version 4.7 calendar is a long one: of the six events running, five last into January 2027. The version includes Arctic Chronicles, several ranked seasons and a popularity competition, plus the weekend Crazy Chicken Day sessions.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+The schedule reflects the official announcements as of November 24, 2026, with every time given in UTC.
 
 ## Current event schedule
 
@@ -69,7 +69,7 @@ Play eligible matches and climb the seasonal progression ladder.
 
 Join the competitive ruleset if eligible.
 
-- **Rewards**: Rank rewards; check current ladder.
+- **Rewards**: Rank rewards.
 
 ### Metro Royale Season
 
@@ -91,8 +91,6 @@ Registered entrants compete in the battle phase; registration closed Nov 18. Res
 
 Active sessions are Friday through Sunday; Tuesday Nov 24 is outside the recurring session.
 
-- **Rewards**: Check event-specific rewards.
-
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+The Popularity Annual Gala battle phase closes first, on December 20 at 09:00, with results scheduled for 23:59 that day. Everything else runs into the new year: Crazy Chicken Day on January 11, Arctic Chronicles, Ultimate Royale and Metro Royale on January 12, and the Classic and Casual season on January 14. Season rewards depend on rank, so those January dates are the ones to plan a final climb around. Keep in mind that dates can shift after publication and that Crazy Chicken Day only runs on its weekend sessions.

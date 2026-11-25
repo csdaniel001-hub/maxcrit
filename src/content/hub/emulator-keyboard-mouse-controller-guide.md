@@ -38,7 +38,7 @@ image_alt: Official Google Play Games on PC artwork
 image_status: candidate
 ---
 
-Mobile games are built for touchscreens, so emulators translate keys, mouse clicks and gamepad buttons into touches on the screen. Good mapping makes a game feel like it was built for PC. Bad mapping makes it harder than playing on a phone. This guide covers how mapping works, how to set it up in the main emulators, and sensible layouts for different kinds of games.
+Every key you press in an emulator ends up as a fake finger on a touchscreen. Get that translation right and a mobile game feels like it was made for PC. Get it wrong and it plays worse than on your phone. Below: how mapping works, how to set it up in the main emulators, and layouts that suit each kind of game.
 
 ## How key mapping works
 
@@ -86,7 +86,7 @@ Games on Google Play Games on PC are tested for mouse and keyboard. Some have pr
 - **Mouse** to aim, left click to fire, right click to scope or aim down sights.
 - **C** or Ctrl to crouch, Z for prone, Space to jump.
 - **R** to reload, 1 and 2 for weapons, G for grenades, F to interact or loot.
-- Set mouse sensitivity in the game itself, not only in the emulator.
+- Set mouse sensitivity in the game's own settings as well as in the emulator.
 
 ### MOBAs
 
@@ -115,7 +115,7 @@ Games on Google Play Games on PC are tested for mouse and keyboard. Some have pr
 
 ## Macros and automation: where the line is
 
-Emulators often include macro recorders, rapid-fire toggles and multi-instance sync. These are fine for repetitive single-player tasks where a game allows them, but they are a real risk in competitive and online modes:
+Emulators often ship with macro recorders, rapid-fire toggles and multi-instance sync. In single-player grinds where a game allows them, they save time. In competitive and online modes they can cost you the account:
 
 - **Never** use rapid-fire, recoil compensation or aim assist tools in shooters.
 - **Never** use macros in ranked or PvP modes.

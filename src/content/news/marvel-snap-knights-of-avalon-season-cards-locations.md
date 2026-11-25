@@ -23,14 +23,14 @@ image_alt: "Official MARVEL SNAP App Store screenshot"
 image_status: "candidate"
 ---
 
-MARVEL SNAP's Knights of Avalon season is built around 4-Cost or more cards, and nearly every new card and location rewards playing them. Here's the full season and what's still to come.
+Big cards are the theme of MARVEL SNAP's Knights of Avalon season: nearly every new card and location rewards playing 4-Cost or more. With Sir Percy Black Knight out on November 24 and the Round Table premiering on November 25, the last pieces of the plan arrive this week.
 
 ## Season Pass cards
 
 - **Arthur Pendragon** (Series 5, Premium Pass): On Reveal, pull Excalibur free to here. Excalibur is Ongoing: your 4-Cost or more cards have +2 Power.
 - **Merlin of Avalon** (Series 5, Super Premium Pass): On Reveal, add The Grand Design to your hand. The Grand Design costs 1 less per created card played, and On Reveal gives one of your cards at each other location +5 Power.
 
-Buying the Premium or Super Premium pass on the Web Shop adds bonuses, including a Series 5 SNAP Pack. You have to log in to the game during the season first, buy directly on the Web Shop, then reload the game to claim. Upgrading from Premium to Super Premium does not trigger the bonus.
+Buy the Premium or Super Premium pass on the Web Shop and you get bonuses on top, including a Series 5 SNAP Pack. The order matters: log in to the game during the season first, buy directly on the Web Shop, then reload the game to claim. Upgrading from Premium to Super Premium doesn't trigger the bonus, so pick your tier the first time.
 
 ## New cards and locations
 
@@ -54,4 +54,4 @@ Two new locations premiere this season: Niamh's Lake, which draws a 4-Cost card 
 - **Mini-events**: Cube Collect November 23 to 25 and XP Sprint November 27 to 29, each with 2 Draft Tickets.
 - **Draft**: until December 1, with Knight's Vow on the reward track.
 
-Sir Percy and the Round Table land a day apart, and both push the same plan: a hand full of 4-Cost or more cards. If you're building for the end of the season, Sir Percy gets cheaper with every other big card in your hand, and the Round Table cuts their cost again when it shows up as a location.
+Sir Percy and the Round Table land a day apart and want the same thing: a hand full of 4-Cost or more cards. Sir Percy gets cheaper with every other big card you hold, and the Round Table knocks another 1 off their cost when it turns up as a location.

@@ -38,13 +38,13 @@ image_alt: "Official App Store screenshot of Delta Force"
 image_status: "candidate"
 ---
 
-A successful Operations run in Delta Force Mobile ends when you extract with your loot. A beginner can make useful progress without winning every fight. Each successful return adds equipment or Tekniq Alloy, the main currency, to your stash and helps pay for the next deployment.
+In Delta Force Mobile's Operations mode, the scoreboard that matters is the exit. A run counts when you extract with your loot, so a beginner can make real progress while losing plenty of fights. Every successful return adds equipment or Tekniq Alloy, the main currency, to your stash and pays toward the next deployment.
 
-The first priority is learning one map with a kit you can afford to replace. Garena's beginner guide points new players to Zero Dam, so start there and build a repeatable routine before entering more expensive runs.
+Start with one map and a kit you can afford to lose. Zero Dam is the recommended map for new players, and it is where to build a routine you can repeat before moving on to pricier runs.
 
 ## Prepare a budget kit
 
-Gear Tickets are a convenient starting point. They supply armor, weapons, ammunition and medical items. You earn more through missions and events. Dying still costs you everything you carry outside the Safe Box, including loot and any extra gear you added to the ticket kit.
+Gear Tickets are the easy start: armor, weapons, ammunition and medical items in one package, with more tickets coming from missions and events. They don't make death free. You still lose everything outside the Safe Box, including loot and any extra gear you bolted onto the ticket kit.
 
 When you assemble a kit yourself, check these slots in Loadout before matchmaking.
 
@@ -56,17 +56,17 @@ When you assemble a kit yourself, check these slots in Loadout before matchmakin
 | Backpack | Leave room for mission items and loot |
 | Safe Box | Reserve space for small, valuable items you can secure during the run |
 
-Armor and ammunition each use six levels. Flesh damage hits HP and armor penetration wears down armor durability, both of which affect how quickly enemies go down, so buying a costly attachment while carrying unsuitable ammunition can leave your kit poorly balanced. Avoid committing all your currency to one expensive loadout. Keep enough resources in reserve to recover from several unsuccessful runs.
+Armor and ammunition each come in six levels. Flesh damage hits HP and armor penetration wears down armor durability, and both decide how fast enemies go down. A costly attachment on a gun loaded with the wrong ammunition is money in the wrong place. Don't sink all your currency into one expensive loadout either: keep enough back to survive several failed runs in a row.
 
-Health doesn't regenerate in Operations, and injuries from gunfire or operator abilities each need a matching basic med item. Carry HP recovery supplies plus those treatments, and put them in accessible slots before you deploy. An expensive kit is of little use if you spend a fight searching for the item you need.
+Health doesn't regenerate in Operations, and injuries from gunfire or operator abilities each need a matching basic med item. Pack HP recovery supplies plus those treatments, and put them in accessible slots before you deploy. The best armor in the game won't help while you dig through your backpack mid-fight.
 
 ## Read the mobile HUD and plan extraction
 
-The mobile client provides visual sound indicators beneath the compass. Red indicates gunfire, white indicates footsteps, and the size of the indicator communicates distance. Use the compass direction when communicating with squadmates and pause looting when new activity appears nearby.
+The mobile client shows sound as markers beneath the compass: red for gunfire, white for footsteps, and the marker's size tells you the distance. Call out the compass direction to your squad, and stop looting when a new marker pops up nearby.
 
-Check your extraction options as soon as you spawn. Garena documents fixed, conditional, lever-activated, random and paid extraction types. Some require additional actions or resources. Identify a backup exit before committing to a loot route, then check its availability as the match progresses.
+Look at your extraction options the moment you spawn. Exits come in fixed, conditional, lever-activated, random and paid types, and some ask for extra actions or resources. Pick a backup exit before you commit to a loot route, and keep an eye on whether it is still open as the match goes on.
 
-Move compact high-value loot into the Safe Box when appropriate. It protects eligible stored items on death. Save the remainder of your inventory for the items you need to extract for missions or sell. When your backpack is full, prioritize useful loot and your planned exit over a risky detour to another hotspot.
+Small, valuable loot goes in the Safe Box, which protects eligible items when you die. The rest of your inventory is for mission items and things worth selling. Once the backpack is full, the run is about getting out: a risky detour to one more hotspot is how full backpacks get lost.
 
 ## Build your stash across several runs
 
@@ -78,8 +78,8 @@ Use this routine for your first sessions.
 4. Extract once you have useful mission progress or loot. Review what you spent and what you recovered.
 5. Back at base, keep equipment needed for your next kit and use the Supply Station or sell surplus items as appropriate. Complete Department rewards and work toward Black Site improvements.
 
-Department levels expand access to Supply Station items and are prerequisites for certain Black Site upgrades. The Black Site can produce items and provide bonuses, so mission progress matters beyond the immediate value of extracted loot.
+Department levels open up more Supply Station items and gate certain Black Site upgrades. The Black Site produces items and grants bonuses, so a mission completed is worth more than the loot you carried out on that run.
 
-Track your results over multiple runs. If you repeatedly lose kits, return to a cheaper setup and concentrate on consistent extraction. Once you can replace your usual loadout comfortably and navigate the map without confusion, try a higher difficulty.
+Judge yourself over several runs. If kits keep dying, drop back to a cheaper setup and work on extracting consistently. When you can replace your usual loadout without wincing and find your way around the map without thinking, step up a difficulty.
 
-Season rules and entry requirements can change. Consult the current matchmaking screen before purchasing a kit for a particular difficulty. Follow our [Delta Force patch tracker](/hub/patch-trackers/delta-force-november-12-2026-patch-notes.html) for seasonal changes.
+Season rules and entry requirements change, so read the matchmaking screen before you buy a kit for a specific difficulty. Seasonal changes land in our [Delta Force patch tracker](/hub/patch-trackers/delta-force-november-12-2026-patch-notes.html).

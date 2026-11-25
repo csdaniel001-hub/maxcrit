@@ -22,7 +22,7 @@ image_alt: "Official December Community Day 2026 key art with this year's Commun
 image_status: "candidate"
 ---
 
-The Pokémon GO team has announced December Community Day 2026, and as in past years it is a recap event. Pokémon from this year's Community Days return over two days, Saturday, December 12, and Sunday, December 13, 2026, from 2:00 p.m. to 5:00 p.m. local time each day.
+Missed a Community Day this year? Pokémon GO's December Community Day 2026 is a recap event, as in past years, and brings back Pokémon from this year's Community Days on Saturday, December 12, and Sunday, December 13, 2026, from 2:00 p.m. to 5:00 p.m. local time each day.
 
 Shiny odds match the original Community Days, and some of these Pokémon can appear with a Special Background. Outside the three-hour windows, any of the featured Pokémon may still appear from 9:00 a.m. to 9:00 p.m. local time on either day.
 

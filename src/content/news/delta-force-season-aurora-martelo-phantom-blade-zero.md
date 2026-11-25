@@ -19,7 +19,7 @@ image_alt: "Official App Store screenshot of Delta Force"
 image_status: "candidate"
 ---
 
-Delta Force's Season Aurora went live with the November 10, 2026 mobile update. The release notes list five headline changes.
+Midway through a match on Zenith Port, a wave floods the streets and pushes the fight upward. The new Warfare map arrived in Delta Force's Season Aurora with the November 10, 2026 mobile update, along with a new Operator, a reworked Brakkesh and a Phantom Blade Zero collaboration.
 
 - **Martelo**: a new Assault Operator. Veronica Cardozo joined G.T.I. after a close friend was murdered while investigating a cross-border smuggling operation. She fights with Ariete and gets faster under fire.
 - **Brakkesh 2.0**: a fully reworked layout with clearer routes. The new High Value: Bounty Huntdown objective is faction-based: one side takes the contract, and the other decides whether to answer it.
@@ -27,6 +27,8 @@ Delta Force's Season Aurora went live with the November 10, 2026 mobile update. 
 - **Phantom Blade Zero collaboration**: a wuxia-inspired Legendary Melee Weapon Appearance and themed Firearm Appearances.
 - **Firing Range**: lateral-moving targets and a Training Mode.
 
-Zenith Port is the map that changes how you play. When the water rises, ground routes disappear, so the high ground you hold before the wave matters more than where you started.
+Zenith Port is the change that will shape matches. Once the water rises, ground routes vanish, so the high ground you hold before the wave counts for more than where you started.
 
-The Phantom Blade Zero items are cosmetic appearances, so they don't affect balance.
+Brakkesh 2.0 adds a choice of its own. In Bounty Huntdown, one faction takes the contract and the other decides whether to answer it.
+
+The Phantom Blade Zero items are appearances only, so they leave balance untouched.

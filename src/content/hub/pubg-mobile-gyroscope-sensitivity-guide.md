@@ -39,7 +39,7 @@ image_status: "candidate"
 
 A sensitivity code can make PUBG Mobile feel fantastic on one phone and nearly unplayable on another. Your grip, available thumb travel, display size and comfort with motion aiming determine how much correction you can make before the crosshair runs away from the target. A good setup lets you acquire an enemy, track their movement and correct recoil without repeatedly lifting your thumb or twisting your wrists into an awkward position.
 
-The best way to find that setup is to separate looking, tracking and firing into different tests. Start with the Red Dot and your most-used mid-range scope. You can tune the remaining optics once those two are comfortable. The approach below is a calibration procedure you can run yourself on the standard mobile client, starting from whatever settings you use now.
+Finding that setup gets much easier once looking, tracking and firing are separate tests. Start with the Red Dot and your most-used mid-range scope. You can tune the remaining optics once those two are comfortable. The approach below is a calibration procedure you can run yourself on the standard mobile client, starting from whatever settings you use now.
 
 ## What each sensitivity setting controls
 
@@ -117,4 +117,4 @@ An imported code is a configuration shortcut. It cannot remove recoil, eliminate
 
 If the device becomes hot or frame pacing deteriorates, stop the comparison and allow it to return to normal operating conditions. A high frame-rate cap that the phone cannot maintain may produce inconsistent feedback. A sensitivity slider cannot repair stuttering, latency or a malfunctioning motion sensor.
 
-Keep the final settings unchanged for a few sessions. If a recurring problem survives that practice, adjust only the affected optic and input category. For current content and balance changes, check our [PUBG Mobile 4.7 patch notes](/hub/patch-trackers/pubg-mobile-4-7-patch-notes.html). Retest your main weapon after a relevant balance update or a change of phone. The goal is a stable, repeatable setup that survives actual matches.
+Keep the final settings unchanged for a few sessions. If a recurring problem survives that practice, adjust only the affected optic and input category. For current content and balance changes, check our [PUBG Mobile 4.7 patch notes](/hub/patch-trackers/pubg-mobile-4-7-patch-notes.html). Retest your main weapon after a relevant balance update or a change of phone. A setup that holds up in real matches beats one that only looks good in Training Grounds.

@@ -21,7 +21,7 @@ image_alt: "Official App Store screenshot of Clash of Clans"
 image_status: "candidate"
 ---
 
-Supercell's Clash of Titans update went live on November 16 and brings Town Hall 19 to Clash of Clans. You don't need to be at Town Hall 18 to get something out of it: Squads unlock from Town Hall 8, and the Star Bonus rework changes Ore income for almost everyone.
+You don't need to be anywhere near Town Hall 18 to get something out of Clash of Clans' Clash of Titans update. Supercell's update went live on November 16 with Town Hall 19 at the top, but Squads unlock from Town Hall 8, and the Star Bonus rework changes Ore income for almost everyone.
 
 ## Squads deploy with one tap and save housing space
 
@@ -52,3 +52,5 @@ New Magic Snacks fill those packs: Battle Bakes (2x, 3x and 4x loot from your ne
 ## Economy changes
 
 Supercharges were removed from every building that got a new level, such as Air Defense, X-Bow and the resource collectors. Unfinished Supercharge upgrades were refunded in full, completed ones were not. Upgrade costs and times dropped for most Town Hall 16 to 18 content, and Ore is cheaper in Gems: Glowy Ore went from 5 to 3 Gems and Starry Ore from 35 to 20.
+
+Town Hall 16 to 18 is now cheaper to push through than before the update, so anyone sitting there with free builders has fewer reasons to wait.

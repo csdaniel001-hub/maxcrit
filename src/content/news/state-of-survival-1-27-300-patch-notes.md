@@ -24,8 +24,8 @@ image_alt: "Official App Store screenshot of State of Survival: Zombie War"
 image_status: "candidate"
 ---
 
-FunPlus released State of Survival version 1.27.300 on November 15. The main change is a higher Chief level cap. It rises each season until it reaches level 85, and every new level gives more Talent Points and rewards.
+A higher Chief level cap leads State of Survival version 1.27.300, which FunPlus released on November 15. From here the cap rises each season until it reaches level 85, and every new level brings more Talent Points and rewards.
 
-The VIP Store, Alliance Store and Market Stall now stock more upgrade items for Behemoths, Aircraft, gear, Hero Assignment and Genetic Recombination. If you save alliance or VIP currency for these systems, check the new stock before buying elsewhere.
+The VIP Store, Alliance Store and Market Stall now stock more upgrade items for Behemoths, Aircraft, gear, Hero Assignment and Genetic Recombination. Anyone saving alliance or VIP currency for these systems now has more to spend it on before looking elsewhere.
 
 Smaller changes cover the interface. Recruitment alerts and New Wounded Troop alerts now have separate on and off switches under Avatar > Settings > Game Settings, so you can silence one without losing the other. On the zoomed-out world map, the Bone Colossus icon is blue instead of red to make it easier to spot. Tapping a fully upgraded Aircraft component now shows its detailed stats, so you no longer need to compare maxed parts from memory when planning the next Aircraft upgrade.

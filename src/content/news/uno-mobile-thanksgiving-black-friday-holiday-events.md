@@ -28,8 +28,8 @@ UNO!'s November 20, 2026 update lays out its holiday calendar for the rest of th
 | Nov 30 – Dec 27 | Wheel of Styles | Spin to dress your pet in festive outfits |
 | Dec 1 – Dec 27 | Holiday Delights | Log in daily to claim festive decorations from the Holiday Calendar |
 
-The update also adds Pet Achievements, which earn Medals, plus other improvements to the pet system.
+The update also adds Pet Achievements, which earn Medals, plus other improvements to the pet system. Pet owners do best out of this stretch, with Wheel of Styles dressing pets in festive outfits from November 30 right up to December 27.
 
 The Limited Holiday Frame is the reward with a short window, since Baking Partners lasts only a week and needs a partner. If you play with a regular friend, this week is the time to pair up.
 
-The Holiday Calendar is the easy one. It runs almost the whole of December and only asks you to log in each day, so missing a day or two costs you a single decoration each time rather than the whole set. The "up to 6400% extra" figure in Black Friday Bonanza is the best case on the wheel, so treat it as the top prize rather than what every spin pays.
+The Holiday Calendar is the easy one. It runs almost the whole of December and only asks you to log in each day, so a missed day or two costs you one decoration each time and the rest of the set stays within reach. As for Black Friday Bonanza, "up to 6400% extra" is the best case on the wheel. Most spins will pay less.

@@ -42,9 +42,9 @@ image_alt: "Official App Store screenshot of Black Desert Mobile"
 image_status: "candidate"
 ---
 
-The November 24 maintenance adds weekly progression campaigns while the Adventure ON class competition continues on weekends.
+10,000 Restoration Scrolls go to every Black Desert Mobile player who types "Black Desert Friday" in Server chat on November 27, the easiest reward on this page. Around it, the November 24 maintenance added weekly progression campaigns, and the Adventure ON class competition carries on at weekends.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Dates and times are as published in the official announcements on November 24, 2026. Each row notes its time basis, and where it says to check the server clock, your server's countdown is the one that counts.
 
 ## Current event schedule
 
@@ -111,13 +111,13 @@ Campaign window remains open; the next actual Hot Time session is November 27, 0
 
 - **Event window**: 2026-11-17 after maintenance to 2026-11-29 23:59 (Publisher schedule; check server clock).
 
-Campaign covers weekend activities; check the exact mission and quiz times in the game.
+Campaign covers weekend activities; mission and quiz times depend on each weekend's sessions.
 
 ### Aim to be the Best of the Class
 
 - **Event window**: 2026-11-21 12:00 to 2026-12-06 17:55 (Published tournament schedule; confirm server clock).
 
-Class-specific competitions take place on Saturdays and Sundays. November 28: Striker 12:00, Maehwa 13:15, Lahn 14:30, Mystic 15:45, Wizard 17:00. Each listed slot lasts one hour. See official schedule for other classes.
+Class-specific competitions take place on Saturdays and Sundays. November 28: Striker 12:00, Maehwa 13:15, Lahn 14:30, Mystic 15:45, Wizard 17:00. Each listed slot lasts one hour, and the other classes have their own slots on the official schedule.
 
 - **Rewards**: Black Pearls, Restoration Scrolls and a title.
 
@@ -139,6 +139,6 @@ The December Check-in needs a daily mission before the check-in counts: defeat 5
 
 - **Rewards**: 25 days of check-in rewards plus 5-day, 15-day and 25-day bonuses.
 
-## Before the event ends
+## Planning the last week of November
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+The Daily To-Do List, Restoration Scroll Rush and Help Wanted all close on November 30 at 22:30, and November Check-in ends at 23:59 that night, so the final days of the month are when to clear the event panel and claim what you've unlocked. November 27 is the busiest date: the chat event and the day-long Hot Time both fall on it. Dates may change after publication, and a campaign window does not guarantee every activity is available every day.

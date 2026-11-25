@@ -19,7 +19,7 @@ image_alt: "Official App Store screenshot of Hill Climb Racing 2"
 image_status: "candidate"
 ---
 
-Fingersoft marked 10 years of Hill Climb Racing 2 with an anniversary update, released on the App Store on November 6, 2026.
+10 Legendary parts in, 1 Mythic part out: the Fuse-O-Matic is the change long-time Hill Climb Racing 2 players will feel first in Fingersoft's 10th-anniversary update, released on the App Store on November 6, 2026. The same update adds The Climb, a roguelike deck-building challenge, plus new tracks and a new cup.
 
 - **The Climb**: a roguelike deck-building challenge.
 - **The Great Below**: new floating underground tracks.
@@ -29,6 +29,8 @@ Fingersoft marked 10 years of Hill Climb Racing 2 with an anniversary update, re
 - **Lore Pages**: collectibles that reveal secrets in the Canyon Chronicle.
 - Plus 10th-anniversary skins, offers and fixes.
 
-The Fuse-O-Matic is the change long-time players will feel first. Ten spare Legendary parts that were doing nothing can now become a Mythic, so count your duplicates before you sell or scrap any.
+Spare Legendary parts that were sitting idle now have a use, so count your duplicates before you sell or scrap any.
 
 The Climb is the bigger departure from how the game has played for a decade. A roguelike deck-builder inside a physics racer is new ground for the series, and it's the mode to try first if the main cups have gone stale for you.
+
+Completionists get two more things to chase: Loyalty Bits for the Loyalty Shop, and Lore Pages that fill in the Canyon Chronicle.

@@ -32,7 +32,7 @@ image_alt: Official MuMuPlayer artwork showing Android games on PC and Mac
 image_status: candidate
 ---
 
-MuMuPlayer is NetEase's Android emulator. It is popular with gacha and MMORPG players, and it is one of the few emulators with a dedicated version for Apple Silicon Macs. This guide covers both versions: what they need, how to install them, the settings worth changing and how to fix the usual problems.
+Few Android emulators have a dedicated version for Apple Silicon Macs, and NetEase's MuMuPlayer is one of them. It is popular with gacha and MMORPG players, and since the Windows and Mac versions are separate apps, each gets its own requirements, install steps, settings and fixes below.
 
 ## Windows or Mac: which version you need
 
@@ -46,7 +46,7 @@ Download only from MuMuPlayer's official website. Search results often show olde
 
 ## Windows requirements
 
-MuMuPlayer lists these as its Windows requirements:
+MuMuPlayer's Windows requirements:
 
 | Part | Requirement |
 |---|---|
@@ -77,7 +77,7 @@ Link your game account to a proper login, such as Google, Apple, Facebook or the
 
 If installation fails on an Apple Silicon Mac, MuMuPlayer's FAQ has a dedicated entry for it. Remember the trial: if you plan to keep playing on Mac, budget for the membership.
 
-## Settings worth changing
+## Settings to change
 
 Open the settings menu from the top-right of the emulator window. Names can shift between versions, but these are the options to look for.
 

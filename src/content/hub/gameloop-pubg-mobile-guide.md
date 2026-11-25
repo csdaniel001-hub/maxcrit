@@ -37,7 +37,7 @@ image_alt: The Ancient Beast in an official PUBG MOBILE 4.7 App Store screenshot
 image_status: candidate
 ---
 
-GameLoop is Tencent's Android emulator, previously known as Tencent Gaming Buddy, and it is the way PUBG Mobile supports playing on Windows. It installs the game for you, comes with a keyboard layout already set up, and puts you in matches with other emulator players. This guide covers installation, the settings that give a steady frame rate, controls, how matchmaking works and what to do when the game will not start.
+GameLoop is Tencent's Android emulator, previously known as Tencent Gaming Buddy, and it is the way PUBG Mobile supports playing on Windows. It installs the game for you, arrives with a keyboard layout ready to go, and puts you in matches with other emulator players. What follows covers installation, the settings behind a steady frame rate, controls, matchmaking and what to do when the game refuses to start.
 
 ## Why GameLoop for PUBG Mobile
 
@@ -46,7 +46,7 @@ PUBG Mobile can technically run on several emulators, but GameLoop is the one Te
 - **Support**: GameLoop has a dedicated PUBG Mobile page and installs the game directly, so updates and compatibility fixes arrive with the client.
 - **Fair matchmaking**: PUBG Mobile detects emulators and places those players in separate lobbies. Using the expected emulator keeps you on the right side of that system.
 
-If you mainly want to play PUBG Mobile on PC, start with GameLoop rather than a general emulator.
+If PUBG Mobile is the main reason you want an emulator on PC, GameLoop is where to start, ahead of any general-purpose emulator.
 
 ## Before you install
 
@@ -66,7 +66,7 @@ If you mainly want to play PUBG Mobile on PC, start with GameLoop rather than a 
 
 ## Graphics and FPS settings
 
-Start simple and only push higher once the basics are stable.
+Start simple. Push higher only once the basics hold steady.
 
 ### In GameLoop
 

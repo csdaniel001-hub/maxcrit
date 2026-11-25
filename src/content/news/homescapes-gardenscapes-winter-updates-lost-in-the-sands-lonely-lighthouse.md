@@ -21,7 +21,7 @@ image_alt: "Official Homescapes feature graphic from its Google Play listing"
 image_status: "candidate"
 ---
 
-Playrix has updated both of its match-3 renovation games this month, each with a new story event.
+Both of Playrix's match-3 renovation games have a new story event this month. Homescapes updated on November 21, 2026, and Gardenscapes got its Winter Update on November 6, and Lisa and Patrick turn up in both.
 
 Homescapes, updated November 21, 2026:
 
@@ -33,6 +33,6 @@ Gardenscapes, updated November 6, 2026, as its Winter Update:
 - **Lonely Lighthouse**: help Lisa and Patrick save a ship from sinking as a storm approaches.
 - **Winter Collection**: collect winter-themed cards over the season.
 
-Lisa and Patrick appear in both games this time, in the Gardenscapes lighthouse event and in the apartment story in Homescapes, so players of both get two sides of their story.
+The crossover is the nice touch. The couple turn up in the Gardenscapes lighthouse event and in the Homescapes apartment story, so anyone playing both games sees two halves of the same pair's winter.
 
-Neither set of release notes gives an end date for the events, so if you want the Lost in the Sands rewards, it's safer to play it now than to assume it will stay around.
+Lost in the Sands is the one with rewards attached at the finish, which makes it the event to start first. Don't leave it for later in the season.

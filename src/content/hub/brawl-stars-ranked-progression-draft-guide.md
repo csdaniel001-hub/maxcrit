@@ -31,7 +31,7 @@ image_alt: "Official App Store screenshot of Brawl Stars"
 image_status: "candidate"
 ---
 
-For players entering Ranked for the first time, the November rework increases the cost of preparation as well as the Trophy threshold. A small collection of favorite Brawlers may carry you through ordinary matches, but an inflexible roster leaves fewer ways to respond to bans and the selected map.
+New to Ranked? The November rework raises the Trophy bar and the amount of preparation you need before you get there. A few favourite Brawlers can carry ordinary matches. In a draft with bans and a fixed map, a narrow roster runs out of answers fast.
 
 ## Entry requirements
 
@@ -44,28 +44,28 @@ For players entering Ranked for the first time, the November rework increases th
 | Brawl Arena unlock | 1,000 Trophies |
 | Masters I and above | Solo queue |
 
-Existing Ranked players retain access and earn a Chaos Drop at 5,000 Trophies. The seasonal roster provides extra choices.
+Players already in Ranked keep their access and earn a Chaos Drop at 5,000 Trophies. The seasonal roster adds extra choices on top of your own.
 
 ## Where to invest first
 
-Build a permanent roster that covers several distinct roles. Our suggested investment framework is to prioritize the Brawlers you can play confidently across different map layouts, then fill the gaps in your roster. Avoid spending all available upgrade resources on one narrow composition.
+Spread your upgrades across a permanent roster that covers several distinct roles. Our advice: level the Brawlers you play confidently on different map layouts first, then fill the gaps. Pouring every upgrade into one narrow composition is the mistake to avoid.
 
-Two November changes illustrate the difference between role coverage and raw damage. Lou can help contest space through freezing effects; his Avalanche Gadget now applies 40% freeze after the November 11 maintenance. Berry can support teammates with healing, including the corrected Super dash that heals nearby allies. If your roster already contains multiple damage dealers but lacks those functions, a control or sustain pick could broaden your draft options.
+Two November changes show why role coverage beats raw damage. Lou contests space with freezes, and since the November 11 maintenance his Avalanche Gadget applies 40% freeze. Berry heals teammates, including through the corrected Super dash that heals nearby allies. A roster full of damage dealers with neither function gets a lot more draft options from one control or sustain pick.
 
 ## Draft with a plan
 
-Before selecting a Brawler, decide what your team still needs: a way to contest space, a response to the opposing pick, or a teammate capable of supporting an objective. The updated draft interface includes Brawler filtering, class sorting, ban suggestions and quick chat for class, counter, role and position requests. Early pick-order swaps let a teammate with a flexible choice select before someone who wants to respond to the opponent.
+Before you pick, work out what the team still lacks: a way to contest space, an answer to the opposing pick, or someone who can support the objective. The updated draft interface includes Brawler filtering, class sorting, ban suggestions and quick chat for class, counter, role and position requests. Early pick-order swaps let a teammate with a flexible choice select before someone who wants to respond to the opponent.
 
-For example, if two teammates have already selected damage-focused Brawlers, use the class request to discuss coverage before locking your pick. If an opponent reveals a problematic matchup, request a counter instead of assuming your allies know which role you intend to fill. Coordinate positions again on the final preparation screen.
+Say two teammates have already locked damage-focused Brawlers. Use the class request to talk coverage before you lock in. If the other side reveals a bad matchup, request a counter; your allies can't read which role you mean to fill. Then confirm positions once more on the final preparation screen.
 
 ## Make the new Elo rules work for you
 
 In best-of-three matches, an Epic Win (2-0) earns extra Elo; a Close Match loss (1-2) costs less. Earlier and middle ranks also receive higher Elo gains. The monthly reset now reduces your rank by two, with the existing boost unchanged.
 
-After a close loss, compare the round-by-round Battle Log. Look at objective contribution alongside damage and defeats. If your second round was worse than the first, ask whether your team repeated a failed approach. Choose one positioning or coordination adjustment for the next match. The new stats make this exercise much more useful than reviewing the final result alone.
+A close loss is worth two minutes in the round-by-round Battle Log. Look at objective contribution next to damage and defeats. A worse second round often means the team repeated an approach that already failed. Pick one positioning or coordination fix and take it into the next match. The final score alone could never tell you this much.
 
 Play Again is available at the end of Ranked matches. At Masters and above it becomes Queue Again; other restrictions include excessive rank gaps, too few eligible Brawlers for your rank, and the end of the season.
 
-The three-month Pro Pass season announced in November grants 60 Pro Pass XP per Ranked win, up to 1,200 Pro Pass XP a week; Pro Pass owners get double both amounts. Reaching Pro no longer qualifies players for BSC 2027; qualification runs through the Championship Challenge and Challengers Program.
+For the long game, the three-month Pro Pass season announced in November grants 60 Pro Pass XP per Ranked win, up to 1,200 Pro Pass XP a week; Pro Pass owners get double both amounts. Reaching Pro no longer qualifies players for BSC 2027; qualification runs through the Championship Challenge and Challengers Program.
 
 For individual balance changes, see our [November balance tracker](/hub/patch-trackers/brawl-stars-november-2026-balance-changes.html).

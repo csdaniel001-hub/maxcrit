@@ -19,9 +19,9 @@ image_alt: "Official App Store screenshot of Albion Online"
 image_status: "candidate"
 ---
 
-Sandbox Interactive's Dragonfire Patch 4 for Albion Online went out on November 2, 2026, and it is mostly about the dragon content from the Dragonfire update.
+Tier 8 Firewing Drake Eggs are up 300% in Albion Online's Dragonfire Patch 4, which Sandbox Interactive released on November 2, 2026. Most of the patch tunes the dragon content from the Dragonfire update, with potion, weapon and mobile fixes on the side.
 
-- **Firewing Drake Eggs**: in the Dragon Sanctuary, the overall chance of an Egg rises by roughly 40%, weighted toward higher tiers. Tier 8 Eggs are up 300%, Tier 7 is unchanged and Tier 6 drops by roughly 66%. Other Sanctuary loot is untouched.
+- **Firewing Drake Eggs**: in the Dragon Sanctuary, the overall chance of an Egg rises by roughly 40%, weighted toward higher tiers. Beside the Tier 8 boost, Tier 7 is unchanged and Tier 6 drops by roughly 66%. Other Sanctuary loot is untouched.
 - **Ancient Lands**: bosses in Large Ancient Lands lose 40% of their health. Groups of two or three get 10% tougher mobs and about 10% less chest loot.
 - **Potions**: Healing Potions heal less at every item power, from 7% to 6% at 500 IP up to 24% to 21% at 1200 IP. The Lifeward Potion's range grows from 11m to 14m.
 - **Mobile fixes**: inspecting gear in your inventory no longer equips or unequips it by accident, minimap pings no longer open the Region Map, single taps no longer count as double taps, and Old White's Aspects can be gathered again.
@@ -29,4 +29,4 @@ Sandbox Interactive's Dragonfire Patch 4 for Albion Online went out on November 
 
 Weapon balance includes buffs to Bloody Reap on the Infernal Scythe, Charge on the Claymore (pass-through damage 66% to 100%) and Majestic Smash on the Kingmaker (aura 20% to 30%).
 
-If you farm the Sanctuary, the change favours groups that push higher tiers: fewer Tier 6 Eggs, many more Tier 8.
+Sanctuary farmers who stop at Tier 6 come out behind on this patch. The Eggs now pay for pushing into the higher tiers.

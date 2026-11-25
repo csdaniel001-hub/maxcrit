@@ -26,7 +26,7 @@ image_alt: "Official App Store screenshot of Mobile Legends: Bang Bang.US"
 image_status: "candidate"
 ---
 
-Mobile Legends: Bang Bang Patch 2.2.23 went live on the Original Server on November 11, 2026. The store release notes name only two things: the revamped Popol and Kupa, "Icefield Companions", and Card Brawl. The full patch notes are published inside the game, and they are much longer.
+Popol can ride Kupa now, and when Kupa falls, Popol can bring Kupa back. That revamp of the "Icefield Companions" leads Mobile Legends: Bang Bang Patch 2.2.23, which went live on the Original Server on November 11, 2026, and the patch also brings the Card Brawl mode. The full patch notes inside the game go much further, with a long list of hero and lane changes.
 
 ## How the Popol and Kupa revamp works
 
@@ -42,7 +42,7 @@ The role is the same as before: a Marksman who fights beside a companion and con
 
 ## Who got stronger and who got weaker
 
-The notes list six buffs, three nerfs and several adjustments.
+Six heroes get buffs, three get nerfs and a few more are adjusted.
 
 - **Xavier**: his Mystic Field damage doubles, from 220-345 (+65% Total Magic Power) to 440-690 (+130%), and his passive movement speed bonus rises from 50% to 60%. In exchange Mystic Barrier loses its direct damage.
 - **Lunox**: her passive now grants 10% Spell Vamp when the balance shifts to the Power of Order and 10% Magic Penetration when it shifts to the Power of Chaos. Skill 2 extra damage starts at 3.5% instead of 2.5%, and the Ultimate changes from 250-450 (+100% Total Magic Power) to 150-300 (+135%), which favours built-up magic power.

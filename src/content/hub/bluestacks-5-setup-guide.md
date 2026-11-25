@@ -38,7 +38,7 @@ image_alt: Official BlueStacks artwork
 image_status: candidate
 ---
 
-BlueStacks 5 is the most widely used Android emulator on Windows, and it can run almost any mobile game. The defaults are fine for casual play, but a few minutes in the settings menu usually makes it smoother and quieter. This guide covers installation, the settings that matter, controls, multi-instance and the fixes for the most common problems.
+Almost any mobile game will run on BlueStacks 5, the most widely used Android emulator on Windows, and its defaults are fine for casual play. A few minutes in the settings menu usually makes it smoother and quieter. Installation comes first below, then those settings, controls, multi-instance and fixes for the most common problems.
 
 ## Before you install
 
@@ -72,11 +72,11 @@ Before you play seriously, link your game account to Google, Facebook, Apple or 
 
 BlueStacks 5 can run instances with different Android versions, created from the Multi-instance Manager. Most current games run on the default instance. If a game refuses to install, crashes on launch or says your device is not supported, create a fresh instance with a newer Android version, such as Android 11, and try it there.
 
-Do not delete your old instance until the new one works and your account is safely linked. Recent BlueStacks versions have also changed which older Android versions can still be created, so use the options your installed version offers rather than following old tutorials.
+Do not delete your old instance until the new one works and your account is safely linked. Recent BlueStacks versions have also changed which older Android versions can still be created, so go by the options your installed version offers. Old tutorials may list choices that are gone.
 
 ## The settings that matter
 
-Open Settings from the gear icon on the side toolbar. These are the tabs worth visiting.
+Open Settings from the gear icon on the side toolbar. The tabs that matter:
 
 ### Performance
 

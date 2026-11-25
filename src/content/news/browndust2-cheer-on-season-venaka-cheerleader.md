@@ -20,7 +20,7 @@ image_alt: "Official App Store screenshot of BrownDust2 - Full Burst RPG"
 image_status: "candidate"
 ---
 
-NEOWIZ released BrownDust2's "Cheer On!" season with its November 18, 2026 update. The story follows Venaka as a baseball cheerleader.
+BrownDust2's November 18, 2026 update opened the "Cheer On!" season, a story that casts Venaka as a baseball cheerleader. NEOWIZ built the season around her: Cheers to Victory Venaka is the only new costume this time, and the season event tells her story.
 
 - **New costume**: Cheers to Victory Venaka.
 - **Season event**: "Cheer On!", live now.
@@ -28,8 +28,8 @@ NEOWIZ released BrownDust2's "Cheer On!" season with its November 18, 2026 updat
 - **Rerun event pack**: the winter season pack "Meltdown Bunnies" returns, and NEOWIZ says it's back to stay.
 - **Quality of life**: improvements to team formations, Bulk Buy and Bulk Sell, Feed and more.
 
-Cheers to Victory Venaka is the only new costume this season, and the season event tells her story, so the two go together.
+That makes this an easy season to plan if Venaka is your pick. The costume and the story arrive together, so there's one thing to want and one event to play for it.
 
-The Meltdown Bunnies line is the detail that saves money. Since the pack is "back to stay" rather than another limited rerun, there's no reason to rush a purchase before a deadline.
+Meltdown Bunnies is the line that saves money. A pack that's "back to stay" has no deadline attached, so there's no reason to rush the purchase. (Not a phrase gacha shops use often.)
 
-The Bulk Buy and Bulk Sell changes are small, but they'll save time for anyone who clears their inventory often.
+Last Hope Loen is the second chance for anyone who missed that costume the first time. The Bulk Buy and Bulk Sell changes are small, but players who clear their inventory often will notice them every session.

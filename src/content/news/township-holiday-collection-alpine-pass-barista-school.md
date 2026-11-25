@@ -19,7 +19,7 @@ image_alt: "Official Township feature graphic from its Google Play listing"
 image_status: "candidate"
 ---
 
-Playrix released Township version 40.1.0 on November 18, 2026, and it's the game's winter and Christmas update.
+Christmas has come to Township. Version 40.1.0, released by Playrix on November 18, 2026, is the winter update, with a Holiday Collection, two Season passes and a Barista School.
 
 - **Holiday Collection**: a new card collection. Completing it gives a unique badge and other prizes.
 - **Season Adventures**: the Alpine Pass and the Christmas Passes, both with rewards for expanding and decorating your town.
@@ -27,6 +27,6 @@ Playrix released Township version 40.1.0 on November 18, 2026, and it's the game
 - **Regatta**: a new season themed as a Christmas Cruise.
 - **Barista School**: a new town building.
 
-Two Season passes running side by side is the main change for regular players. The Alpine Pass and the Christmas Passes are listed separately, and both pay out for town building and decoration, so if you plan to buy one, it's worth checking which rewards each offers before you commit.
+Regular players will feel the two Season passes most. The Alpine Pass and the Christmas Passes run separately and both reward town building and decoration, so if you only plan to buy one, compare the reward tracks first.
 
-The Holiday Collection works like earlier card collections: cards come in over the season and the badge goes to players who finish the set.
+The Holiday Collection is the long game of the update. Finish the set and the unique badge is yours, along with the other prizes.

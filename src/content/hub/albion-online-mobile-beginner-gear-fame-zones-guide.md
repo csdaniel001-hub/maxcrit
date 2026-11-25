@@ -48,11 +48,11 @@ image_alt: "Official App Store screenshot of Albion Online"
 image_status: "candidate"
 ---
 
-A new Albion Online character can change combat roles by changing equipment. For a mobile beginner, the first milestone is a gear set you can afford to use repeatedly. If one death would consume all your savings, your equipment is too expensive for a first trip into lethal territory.
+If one death would wipe out your savings, your gear is too expensive for a first trip into lethal territory. That is the first lesson of Albion Online, where a character changes combat role by changing equipment, and the first milestone on mobile is a set you can afford to lose and rebuy again and again.
 
 ## Two Tier 4 starting builds
 
-Sandbox Interactive's 2023 Basic Builds series offers two useful equipment examples. These are historical starter templates; the current Armory provides a better reference for recent balance changes.
+Sandbox Interactive's 2023 Basic Builds series has two good starting points. Treat them as historical templates: the current Armory is the better reference for recent balance changes.
 
 | Slot | Battleaxe starter | Spear starter |
 |---|---|---|
@@ -62,15 +62,15 @@ Sandbox Interactive's 2023 Basic Builds series offers two useful equipment examp
 | Chest | Mercenary Jacket | Mercenary Jacket |
 | Feet | Mercenary Shoes | Soldier Boots |
 
-Battleaxe's Blood Bandit combines damage and recovery. The Spear template offers mobility and consistent damage. Pick whichever feels more natural on a touchscreen, then practice its movement and skill timing. Our recommendation is to compare affordable equipment before committing Silver to a more expensive version of the build.
+Battleaxe's Blood Bandit mixes damage with recovery. The Spear template trades that for mobility and steady damage. Pick whichever feels more natural on a touchscreen and drill its movement and skill timing. We would compare the affordable versions of each piece before sinking Silver into a pricier copy of the same build.
 
 ## Where to earn your first Fame
 
-The official beginner guide identifies Expeditions, Solo Dungeons and Arena as starting activities. Expeditions are accessible via the Expedition Master, with a bonus for the first completed expedition of the day. Tier 3 Solo Dungeons are an early combat option. Arena is useful for learning PvP in a lower-risk setting.
+Expeditions, Solo Dungeons and Arena are the three starting activities. You reach Expeditions through the Expedition Master, and the first one you finish each day pays a bonus. Tier 3 Solo Dungeons are the early combat option, and Arena teaches PvP where the stakes are lower.
 
-Use these as a progression sequence: start with an Expedition, practice your chosen equipment line in Solo Dungeons, then try Arena when you want to learn how opponents move and react. Combat Fame advances your equipment progression. Avoid spreading your initial investment across too many equipment lines before you have a set you enjoy using.
+They work best in that order: an Expedition first, then Solo Dungeons to practice your chosen equipment line, then Arena once you want to learn how real opponents move and react. Combat Fame drives your equipment progression. Hold off on spreading your early investment across too many equipment lines until you have one set you enjoy using.
 
-The Armory, added in Radiant Wilds, provides build suggestions informed by gameplay data. Look for the activity you intend to play, then compare the recommendations with the gear you already own. A build intended for organized group PvP may assume teammates perform functions that you need to cover yourself when playing alone.
+The Armory, added in Radiant Wilds, suggests builds based on gameplay data. Filter by the activity you plan to play and hold the results up against the gear you already own. Be careful with group PvP builds: they may assume teammates cover jobs you would have to handle yourself when playing alone.
 
 ## Zone risks and Ancient Lands portals
 
@@ -81,14 +81,14 @@ The Armory, added in Radiant Wilds, provides build suggestions informed by gamep
 | Red | PvP death drops equipped gear and inventory |
 | Black | PvP is always enabled; full-loot death |
 
-Portals in Yellow Zones carry their own risk. The Dragonfire update introduced portals from Yellow Zones to partial-loot, orange-zone Ancient Lands, where only inventory is dropped on death. Black-zone portals lead to full-loot Ancient Lands. Small Portals in Red and Black Zones kept their higher Fame and loot in Patch 3. Dragonfire Patch 3 increased the frequency of Small Portals in Yellow Zones and reduced their Fame and loot rewards by 30%. Treat these portal routes separately from ordinary Yellow Zone farming. Unrestricted PvP subzones follow their surrounding zone's death rules.
+Yellow Zone portals are a separate risk. The Dragonfire update introduced portals from Yellow Zones to partial-loot, orange-zone Ancient Lands, where only inventory is dropped on death. Black-zone portals lead to full-loot Ancient Lands. Small Portals in Red and Black Zones kept their higher Fame and loot in Patch 3. Dragonfire Patch 3 increased the frequency of Small Portals in Yellow Zones and reduced their Fame and loot rewards by 30%. So a portal from a Yellow Zone can put you somewhere far less forgiving than the zone you stepped in from. Unrestricted PvP subzones follow their surrounding zone's death rules.
 
-Our suggested budget is three complete replacement sets before risking a full-loot trip. For example, an assumed 60,000 Silver loadout requires 180,000 Silver for three replacements. Include the mount and consumables when calculating that budget. Keep spare equipment at your Home or last visited city, the possible respawn destinations after a lethal death.
+Our rule of thumb: have three complete replacement sets before you risk a full-loot trip. An assumed 60,000 Silver loadout means 180,000 Silver in reserve, and the mount and consumables belong in that sum. Keep spare equipment at your Home or last visited city, the possible respawn destinations after a lethal death.
 
 ## Mobile combat settings
 
 Albion supports the same account across desktop and mobile. Dragonfire Patch 3 introduced targeting modes for All, Enemies, Party, Allies and Automatic. Enable them under Settings > Controls > Auto-Targeting; the HUD then lets you switch modes. They are disabled by default. Double Tap to Self-Cast is enabled by default under Settings > Controls > General and can be disabled to avoid unintended self-casts.
 
-Practice in a non-lethal zone. Start with movement and normal attacks, then repeat comparable encounters while deliberately selecting targets and aiming abilities. Change one setting at a time so you can identify what improved your control. The aim is to make ordinary fights repeatable before adding the pressure of inventory loss.
+Practice in a non-lethal zone. Get movement and normal attacks comfortable first, then repeat similar fights while picking targets and aiming abilities on purpose. Change one setting at a time so you know which one helped. Once ordinary fights feel repeatable, you are ready to add the pressure of losing your inventory.
 
-For time-limited bonuses, see the [Albion Online events hub](/hub/events/albion-online-events.html) and the [Dragonfire Patch 4 update](/news/albion-online-dragonfire-patch-4-firewing-drake-eggs-ancient-lands.html).
+Time-limited bonuses are tracked in the [Albion Online events hub](/hub/events/albion-online-events.html) and the [Dragonfire Patch 4 update](/news/albion-online-dragonfire-patch-4-firewing-drake-eggs-ancient-lands.html).
