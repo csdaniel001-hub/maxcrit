@@ -28,7 +28,7 @@ image_alt: "Official App Store screenshot of TFT: Teamfight Tactics"
 image_status: "candidate"
 ---
 
-Riot's final Enchanted Wilds patch before Prismatic Tour is designed to revive experimental and previously popular compositions. The official notes were published November 17.
+Teamfight Tactics gets one last Enchanted Wilds patch before Prismatic Tour, and 18.7 is built to bring back experimental and once-popular compositions. The notes went up on November 17.
 
 ## Major trait changes
 - Ivern joins Elderwood; Kennen joins Sprykin. Both traits have their higher breakpoints adjusted to compensate for easier access.
@@ -52,4 +52,4 @@ Riot's final Enchanted Wilds patch before Prismatic Tour is designed to revive e
 Advanced Loan gives 22 instead of 20 gold; Forged In Strength grants three instead of two components. Corrosion, Electrocharge II, Focused Fire, Investment Strategy and We Stick Together receive reductions or corrections. Other Augments are also adjusted.
 
 ## Meta watch
-Try revamped reroll boards and reassess high-breakpoint Elderwood/Sprykin compositions. These are changes to test, not a claim that any composition has become statistically strongest. See Riot's full tables for exact values and bug fixes.
+This is a patch for experimenting. Try the revamped reroll boards, and give high-breakpoint Elderwood and Sprykin compositions another look now that Ivern and Kennen make them easier to reach. Treat all of it as something to test: none of these changes proves a composition is now statistically strongest. Riot's full tables have the exact values and bug fixes.

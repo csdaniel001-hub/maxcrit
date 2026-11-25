@@ -28,7 +28,7 @@ image_alt: "Official App Store screenshot of League of Legends: Wild Rift"
 image_status: "candidate"
 ---
 
-Wild Rift Patch 7.3 has received seven sets of official patch notes since September. This page lists them in order, with the date of each and what it changed, so you can see how the current game got here. Everything comes from Riot's patch notes. Riot releases content throughout each patch, so a change can arrive a few days after its notes.
+7 sets of patch notes have landed on Wild Rift Patch 7.3 since September, and the first one alone rebuilt how marksmen and critical strikes work. Below they are in order, each with its date and what it changed, so you can trace how the current game got here. Riot rolls content out throughout a patch, so a change can arrive a few days after its notes.
 
 ## Every 7.3 patch at a glance
 
@@ -44,7 +44,7 @@ Wild Rift Patch 7.3 has received seven sets of official patch notes since Septem
 
 ## Patch 7.3: the system changes
 
-The first patch rebuilt how marksmen and critical strikes work:
+Start here if you play marksman. The first patch reworked the stats your build runs on:
 
 - **Critical strikes**: base Critical Strike Damage went from 175% to 200%. Infinity Edge's passive now raises it to 230%, up from 200%.
 - **Attack Speed**: the cap rose from 2.5 to 3 attacks per second, and each champion now has an individual Attack Speed ratio.
@@ -57,7 +57,7 @@ Ranked Season S23 began on September 23. Players from Platinum through Diamond n
 
 ## Patch 7.3a
 
-The first follow-up touched champions on both sides of the marksman changes.
+8 days later, the first follow-up touched champions on both sides of the marksman changes.
 
 - **Champions**: Hwei, Samira, Rammus, Malphite, Tristana, Draven, Caitlyn, Senna, Syndra, Swain, Yuumi, Viego, Fiddlesticks and Nasus.
 - **Items**: Yun Tal Wildarrows, Whispering Circlet, Diadem of Songs and Death's Dance.
@@ -93,4 +93,4 @@ The newest patch added Sylas, the Unshackled. It nerfed Kalista, Shen, Kassadin 
 
 ## Other 7.3 patches and events
 
-Patches 7.3c and 7.3e are about AAA ARAM and event content, so they have no entry of their own here. The exact numbers for each change are in Riot's notes, linked in the sources. The Reindeer Mini Pass, with Reindeer Smolder, is listed in the 7.3 notes for December 3.
+Patches 7.3c and 7.3e cover AAA ARAM and event content, so they get no entry of their own here; Riot's notes in the sources box carry every number. The next date to circle is December 3, when the Reindeer Mini Pass arrives with Reindeer Smolder.

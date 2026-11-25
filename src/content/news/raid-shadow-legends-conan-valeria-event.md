@@ -12,10 +12,6 @@ platforms:
 - android
 titles:
 - raid-shadow-legends
-tldr:
-- "<b>Valeria is free</b>: log in on 7 days between November 23 and January 7, 2027. The days don't need to be in a row."
-- Start the Valeria Chase Event before December 28, 2026 to finish it in time.
-- Conan is the last reward on the paid Elite Champion Pass, which runs until February 23, 2027.
 sources:
 - title: Official RAID Shadow Legends event announcement
   url: https://raidshadowlegends.com/news/crush-your-enemies-conan-the-barbarian-comes-to-raid-shadow-legends/
@@ -30,15 +26,16 @@ image_alt: "Official App Store screenshot of RAID: Shadow Legends"
 image_status: "candidate"
 ---
 
-Plarium has started a Conan the Barbarian crossover in RAID: Shadow Legends. It adds two Legendary Champions: Valeria, who every player can get for free, and Conan the Barbarian himself, who sits at the end of the paid Champion Pass.
+
+RAID: Shadow Legends is handing out a Legendary Champion for 7 login days. Plarium's Conan the Barbarian crossover started on November 23 with two Legendaries: Valeria, free to every player, and Conan the Barbarian himself, who sits at the end of the paid Champion Pass.
 
 ## How to get Valeria for free
 
-Valeria comes from the Valeria Chase Event. Log in on 7 days between November 23, 2026 and January 7, 2027 and she is yours. The 7 days don't have to be consecutive, so missing a day costs you nothing.
+Valeria comes from the Valeria Chase Event. Log in on 7 days between November 23, 2026 and January 7, 2027 and she is yours. The 7 days don't have to be consecutive, so a missed day costs you nothing.
 
 Another 7 login days, also non-consecutive, unlock extra rewards that make Valeria stronger, the same way earlier Chase Events worked.
 
-Plarium says to start the Valeria Chase Event before December 28, 2026. After that date there aren't enough days left to collect her before the event closes.
+Start the Valeria Chase Event before December 28, 2026, because after that date there aren't enough days left to collect her before the event closes.
 
 ## How to get Conan the Barbarian
 
@@ -47,7 +44,7 @@ Conan is tied to the Champion Pass, which runs from November 23, 2026 to Februar
 - **Basic Champion Pass**: free for everyone, with rewards aimed at raiding.
 - **Elite Champion Pass**: a one-time purchase that adds a second reward track ending with Conan. You can also buy every Elite level at once to get him straight away.
 
-To finish the pass and claim every reward, you need to start it by January 22, 2027.
+To finish the pass and claim every reward, start it by January 22, 2027.
 
 | Event | Runs | Start by |
 |---|---|---|
@@ -56,8 +53,8 @@ To finish the pass and claim every reward, you need to start it by January 22, 2
 
 ## Community activities
 
-Plarium says the RAID: Shadow Legends community team will run extra activities around the crossover and posts the details on the game's social media channels. The event page also carries a promotional video for the Conan the Barbarian collaboration.
+The RAID: Shadow Legends community team will run extra activities around the crossover, with details posted on the game's social media channels. The event page also carries a promotional video for the Conan the Barbarian collaboration.
 
 ## What to do
 
-If you play free, log in for Valeria and ignore the pass pressure: she costs nothing but 7 visits. Conan only makes sense if you already planned to buy the Elite Champion Pass, since the free Basic track never reaches him.
+Free players should log in for Valeria and ignore the pass pressure: she costs nothing but 7 visits. Conan only makes sense if you already planned to buy the Elite Champion Pass, since the free Basic track never reaches him.

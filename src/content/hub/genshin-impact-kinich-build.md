@@ -47,7 +47,9 @@ image_alt: "Official Genshin Impact art for Kinich"
 image_status: "candidate"
 ---
 
-Kinich is a Dendro claymore carry whose damage depends on firing Scalespiker Cannons during his Skill. His Names Forged Beneath Blazing Skies Chronicled Wish appearance ends December 15 at 14:59 server time. The team must support his point generation; simply equipping the strongest available claymore does not solve inconsistent Burning uptime.
+A better claymore won't fix Kinich if his Burning keeps dropping. He is a Dendro claymore carry whose damage depends on firing Scalespiker Cannons during his Skill, and the team has to support the point generation behind those cannons. His Names Forged Beneath Blazing Skies Chronicled Wish appearance runs until 14:59 server time on December 15.
+
+So build the team before the weapon. Off-field Pyro keeps his Nightsoul points coming, and the gear below assumes that part of the team already works.
 
 ## Artifacts and talent priority
 
@@ -59,7 +61,7 @@ Kinich is a Dendro claymore carry whose damage depends on firing Scalespiker Can
 | Circlet | CRIT Rate or CRIT DMG |
 | Substats | CRIT, ATK%, situational ER |
 
-Kinich's cannon damage scales with his Elemental Skill, making that the priority. Burst is secondary and Normal Attack is low priority for his standard Skill playstyle. Building enough ER to use Burst every rotation can cost offensive stats, particularly when he is the only Dendro character. Decide on a Burst schedule before farming ER.
+Kinich's cannon damage scales with his Elemental Skill, making that the priority. Burst is secondary and Normal Attack is low priority for his standard Skill playstyle. Building enough ER to use Burst every rotation can cost offensive stats, particularly when he is the only Dendro character. Decide on a Burst schedule before farming ER, and keep the rest of the budget for CRIT and ATK.
 
 Obsidian Codex gives 40% CRIT Rate when its effect activates. With 60% displayed CRIT Rate, the active total reaches 100% before other buffs. Unfinished Reverie is a reasonable alternative if its existing pieces are strong or a CRIT Rate weapon makes Codex difficult to balance.
 
@@ -85,10 +87,10 @@ Off-field Pyro is important because Kinich needs to keep generating Nightsoul po
 
 Assign a teammate to Deepwood Memories when practical so Kinich can keep his offensive artifact set while benefiting from Dendro resistance reduction. In a Burgeon team, Thoma's own build should prioritize the Elemental Mastery and energy needed for his reaction role; Kinich retains an ATK and CRIT damage build.
 
-Set up off-field Pyro and support effects, enter Kinich's Skill, fire Loop Shots and move through the indicated Blind Spots when practical. Use Scalespiker Cannon when sufficient points are available. Avoid prescribing a fixed cannon count across all encounters, because movement, enemy behavior and reaction uptime can change the result.
+Set up off-field Pyro and support effects, enter Kinich's Skill, fire Loop Shots and move through the indicated Blind Spots when practical. Use Scalespiker Cannon when sufficient points are available. Don't hold yourself to a fixed cannon count across all encounters, because movement, enemy behavior and reaction uptime can change the result.
 
 ## Where to spend upgrade resources
 
 Start by checking whether your Pyro applicator can sustain the full field window and whether the team has a reliable source of Dendro resistance reduction. Then compare the claymore's passive condition and Kinich's offensive stats. An expensive weapon is a poor first fix for a rotation that regularly loses its Burning aura.
 
-See the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html) for availability and the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) for comparisons across featured characters.
+His dates are on the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html). If he is competing with another featured character for your wishes, the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) compares them.

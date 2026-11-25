@@ -66,15 +66,15 @@ image_alt: "Official Honkai: Star Rail App Store screenshot of a city district"
 image_status: "candidate"
 ---
 
-Robin is the Physical Harmony support introduced in Version 2.2. The original Robin's advantage is her ability to turn an entire team's completed turns into another opportunity to attack.
+Robin turns a finished round of ally turns into another round of attacks. That one trick is why the original Robin, the Physical Harmony support from Version 2.2, is worth building: her Ultimate pulls the other three forward, every ally attack refills her Energy, and inside Concerto each of those attacks also adds a Physical hit of her own.
 
 ## What Robin adds to a team
 
-Robin works best when several characters contribute meaningful attacks. A Feixiao team can take advantage of both the extra turns at the beginning of Concerto and the attacks that happen between those turns. A hypercarry can still benefit from Robin's broad buffs and team advance; teams with fewer separate attacks must budget her Energy more carefully. A team that primarily deals Break or Elation damage also needs to examine whether its primary damage actually benefits from her ATK and CRIT buffs.
+Robin is at her best when several characters contribute meaningful attacks, and Feixiao teams are the clean example: they cash in on the extra turns at the start of Concerto and on the attacks between those turns. A hypercarry still gets her broad buffs and the team advance, but with fewer separate attacks you have to budget her Energy more carefully. A team that mainly deals Break or Elation damage should check first whether that damage actually benefits from her ATK and CRIT buffs.
 
-At level 10, Pinion's Aria provides 50% DMG Bonus for three of Robin's turns. Tonal Resonance adds 20% CRIT DMG and restores two Energy to Robin per eligible allied attack. Her Impromptu Flourish Trace grants another 25% CRIT DMG specifically to follow-up attacks during Concerto. A character whose important damage comes from follow-ups therefore has a different incentive to use Robin than a character who only attacks on their own turn.
+At level 10, Pinion's Aria provides 50% DMG Bonus for three of Robin's turns. Tonal Resonance adds 20% CRIT DMG and restores two Energy to Robin per eligible allied attack. Her Impromptu Flourish Trace grants another 25% CRIT DMG specifically to follow-up attacks during Concerto. Follow-up carries collect all three bonuses, which gives them more reason to run Robin than a character who only attacks on their own turn.
 
-At level 10, Concerto grants 200 ATK plus 22.8% of Robin's own ATK. Consider the following equipment-screen examples before external buffs:
+At level 10, Concerto grants 200 ATK plus 22.8% of Robin's own ATK. Here is what that looks like from the equipment screen, before external buffs:
 
 | Robin ATK | ATK granted during Concerto |
 |---:|---:|
@@ -100,7 +100,7 @@ Robin's own additional Physical hit uses fixed CRIT values. Its value scales wit
 
 Start with 120 SPD for Vonwacq. Robin has an opening action advance from her Trace, so speed requirements depend on the rest of the party. Check the opening sequence against especially fast allies before replacing ATK boots. Combine ATK and SPD two-piece sets if that makes the sequence work with fewer sacrifices.
 
-Her Ultimate's additional damage has fixed CRIT stats. A CRIT body is therefore a poor default investment for supporting the team. ATK improves the buff as well as Robin's additional damage. Energy downtime is the other major constraint: a higher character-sheet ATK value offers little help during a missing Concerto window.
+Since her Ultimate's additional damage has fixed CRIT stats, a CRIT body is a poor default investment for a support. ATK improves the buff as well as Robin's additional damage. Energy downtime is the other major constraint, and a higher character-sheet ATK value offers little help during a Concerto window that never arrives.
 
 ### How to budget SPD and Energy
 
@@ -188,3 +188,5 @@ For an account with frequent Energy problems, first improve the relic rope, cone
 ## Diagnose a disappointing clear
 
 If Robin acts after the carry, fix the opening SPD or planar set. If the song runs out before your planned burst, inspect the countdown and the carry's available resources. If the team stalls immediately after the action advance, reserve SP before pressing Ultimate. If her second song comes too late, examine attack count and Energy recovery before farming more ATK. Finally, if a different support consistently helps your particular damage type more, use Robin in the other team.
+
+Almost everything on that list comes back to timing and Energy. Once the song lands on time and comes back quickly, extra ATK is the finishing touch.

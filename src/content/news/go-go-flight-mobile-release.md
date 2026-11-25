@@ -27,14 +27,11 @@ image_alt: "Official App Store screenshot of Go Go Flight"
 image_status: "candidate"
 ---
 
-Go Go Flight! takes the familiar problem of connecting a growing transport network and puts it in the sky. The new mobile puzzle game from Lunar Eclipse Team asks players to draw routes between airports while managing passenger queues and increasingly complicated weather.
 
-## What makes it different
+What happens to a transport-network puzzle when the network moves into the sky and the weather gets a vote? Go Go Flight!, a new mobile puzzle game from Lunar Eclipse Team, is out on Android and iOS, and recent reporting places the mobile launch on November 20.
 
-Routes follow the player's finger rather than a fixed straight connection. Storms, wind and growing demand can make a previously efficient network less useful, forcing players to adapt their layouts. Upgrades add new ways to manage capacity and aircraft speed.
+You draw routes between airports while managing passenger queues, and each route follows your finger instead of snapping to a fixed straight connection. Storms, wind and growing demand can turn a network that used to run smoothly into a bottleneck, so layouts have to be redrawn as conditions change. Upgrades add new ways to manage capacity and aircraft speed.
 
-The publisher describes 22 real-world regions, an additional world mode, 53 achievements, weekly upgrade choices and daily and weekly leaderboard challenges. The shared challenge maps let players compete under comparable conditions.
+There is plenty to work through: 22 real-world regions, an additional world mode, 53 achievements, weekly upgrade choices, and daily and weekly leaderboard challenges. The challenge maps are shared, so everyone on a leaderboard is solving the same problem under comparable conditions.
 
-## Release and platforms
-
-Singular Sunshine Studios links both iOS and Android editions from its official game page. Recent reporting places the mobile launch on November 20, while the iOS listing previously showed November 19 as its expected date. The exact storefront rollout therefore varies or remains uncertain. This is a current-week release article, not a launch announced today.
+Singular Sunshine Studios links both the iOS and Android editions from its official game page. The iOS listing previously showed November 19 as its expected date, a day earlier than the reported launch, so the first day you could download it may have depended on your storefront. Either way, it is on both stores now.

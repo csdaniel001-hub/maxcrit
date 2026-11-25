@@ -31,15 +31,18 @@ image_alt: "The Ancient Beast in an official PUBG MOBILE 4.7 App Store screensho
 image_status: "candidate"
 ---
 
-PUBG Mobile's 4.7 update brings a winter-themed version running through January 12, 2027. Its biggest additions extend beyond the seasonal map makeover, with changes to core Battle Royale and Metro Royale.
+PUBG Mobile 4.7 brings a winter-themed version that runs through January 12, 2027. Snow on the map is the obvious part. The bigger additions sit in core Battle Royale and Metro Royale.
 
 ## Arctic Chronicles and seasonal content
 - Ancient Beast encounters introduce new exploration areas and a Pegasus mount for eligible players.
 - Pochinki, Rozhok and Mansion receive Norse-inspired scenery in the themed mode.
-- Erangel Subzero is scheduled for December 3, alongside additional winter mobility options and snow-themed content. This is upcoming within the version, not already live on November 24.
+- Erangel Subzero is scheduled for December 3, with more winter mobility options and snow-themed content, so it arrives later in the version.
 - Frost Festival, New Year activities, Godzilla's return and a Bentley collaboration are part of the seasonal lineup.
 
 ## Classic Mode and other systems
+
+The Classic changes are small quality-of-life fixes, and reloading and healing are where you'll notice them first.
+
 - Staged Reload preserves completed reload progress after an interruption.
 - Vehicle cameras have been adjusted; Med Kits and bandages are quicker to use, with inventory-size improvements for several healing items.
 - Fishing and additional Classic Mode improvements arrive alongside changes to Erangel missions.
@@ -48,6 +51,6 @@ PUBG Mobile's 4.7 update brings a winter-themed version running through January 
 - PUBG Mobile FLASH offers a smaller-footprint alternative with streamlined downloads and lobby presentation.
 
 ## Competitive calendar and events
-Season 33 and Royale Pass A22 accompany the update. Ultimate Royale S33 starts November 23; Ranked Arena starts November 26 (UTC). The Home Competition submission window runs through November 28 at 08:59 UTC.
+Season 33 and Royale Pass A22 arrive with the update, and Ultimate Royale S33 started on November 23.
 
-The publisher's full notes are linked below. Its page did not render the article text in the research browser; the publisher's syndicated press release and mirrored announcement provide the content above.
+Two dates need action from you: Ranked Arena opens on November 26 (UTC), and Home Competition entries close on November 28 at 08:59 UTC.

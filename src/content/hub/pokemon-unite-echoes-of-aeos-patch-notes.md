@@ -30,7 +30,7 @@ image_alt: "Official screenshot of the Pokémon UNITE Library screen"
 image_status: "candidate"
 ---
 
-Echoes of Aeos arrived November 12 at 04:00 UTC, updating both combat balance and account features. Goodra gains staying power, while several dominant picks lose damage or uptime.
+Good week to be a Goodra main. Echoes of Aeos went live in Pokémon UNITE on November 12 at 04:00 UTC, giving Goodra more staying power while several dominant picks lose damage or uptime, and it adds new account features on top of the balance pass.
 
 ## Pokémon balance changes
 | Pokémon | Main adjustments |
@@ -46,7 +46,7 @@ Echoes of Aeos arrived November 12 at 04:00 UTC, updating both combat balance an
 | Darkrai | Dark Pulse damage −8%; upgraded shield duration 2.5 → 2s |
 
 ## Other changes
-Unite Coin Exchange and Library features debut. The Grand Shop Sale and upcoming ranked matches are noted in the official forum announcement. Bug fixes address Morpeko's Spark+ follow-up and Blaziken's Overheat interaction with resistance-ignoring hindrances.
+The Unite Coin Exchange and the Library both debut, and the Grand Shop Sale and upcoming ranked matches are on the way. Bug fixes address Morpeko's Spark+ follow-up and Blaziken's Overheat interaction with resistance-ignoring hindrances.
 
 ## What to test
-Goodra's sustained-fight build is worth revisiting; Slowbro and Urshifu players will need to account for longer cooldowns and shorter combo windows.
+If you shelved Goodra, bring its sustained-fight build back out: a 33% Gooey trigger and a 3-second Muddy Water defense window both reward staying in the fight. Slowbro and Rapid Strike Urshifu players have the adjusting to do, with Scald and Amnesia coming back slower and the follow-up strike window down to 3 seconds.

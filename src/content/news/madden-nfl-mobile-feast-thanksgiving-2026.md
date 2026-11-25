@@ -24,19 +24,17 @@ image_alt: "Official App Store screenshot of Madden NFL 27 Mobile Football"
 image_status: "candidate"
 ---
 
-Madden Feast brings a seasonal progression program to Madden NFL 27 Mobile. The next date to watch is November 26, when special games are scheduled to unlock alongside real NFL Thanksgiving matchups.
 
-## Build the dual card
+Madden NFL 27 Mobile's Thanksgiving games unlock on November 26, lined up with the real NFL Thanksgiving matchups. They are the next stop in Madden Feast, the game's seasonal progression program.
 
-A free Uncommon item pairs Jahmyr Gibbs with Calvin Johnson. Players can progress through 21 variants from Uncommon to Mythic using Golden Sprouts and other upgrade requirements. The card also grants bonuses to Feast players as its rarity rises.
+The card to build toward is a free Uncommon dual card pairing Jahmyr Gibbs with Calvin Johnson. It climbs through 21 variants from Uncommon to Mythic, paid for with Golden Sprouts and other upgrade requirements, and it grants bonuses to Feast players as its rarity rises. Every tier you add early keeps paying back for the rest of the program.
 
-## How to progress
+The Feast loop runs on food:
 
-- Food Blitz challenges award ingredients used to fulfill Orders Map requests.
-- Orders provide Golden Sprouts, with additional opportunities through trades and event milestones.
-- Turkey Trot adds three challenges per day, offering Feast Tokens or Packs.
-- Food Blitz refreshes daily at 10:30 AM Eastern time (15:30 UTC during November).
+- Food Blitz challenges award ingredients for Orders Map requests. They refresh daily at 10:30 AM Eastern time (15:30 UTC during November).
+- Orders pay out Golden Sprouts, with more available through trades and event milestones.
+- Turkey Trot adds three challenges a day, with Feast Tokens or Packs as rewards.
 
-Featured player items range from 112 OVR at Epic to 136 OVR at Mythic. The pool includes Josh Allen, Chris Jones, Patrick Surtain II and Joe Thuney. Another dual card pairs Vernon Davis with Lawrence Taylor.
+Featured player items range from 112 OVR at Epic to 136 OVR at Mythic. Josh Allen, Chris Jones, Patrick Surtain II and Joe Thuney are in the pool, and a second dual card pairs Vernon Davis with Lawrence Taylor.
 
-The publisher's November 17 overview does not provide a single final event cutoff. Confirm the remaining time in-game, especially before spending resources.
+Plan your sessions around the 15:30 UTC Food Blitz reset. Ingredients become Orders, Orders become Sprouts, and Sprouts are what move the Gibbs and Johnson card up the ladder.

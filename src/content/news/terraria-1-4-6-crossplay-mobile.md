@@ -31,13 +31,14 @@ image_alt: "Official App Store screenshot of Terraria"
 image_status: "candidate"
 ---
 
-Terraria 1.4.6 came out on November 24, on PC and on iOS and Android, and it starts Crossplay Phase One. Any device running 1.4.6 can now see and join games on the same Wi-Fi or wired network, without a multiplayer subscription: Xbox, PlayStation, Switch, Android, Apple devices, PC and Mac.
+
+Can your phone join a friend's Terraria world on PC? Since 1.4.6 arrived on November 24 on PC, iOS and Android, it can, as long as you share a network. The update starts Crossplay Phase One: any device running 1.4.6 can see and join games on the same Wi-Fi or wired network without a multiplayer subscription, across Xbox, PlayStation, Switch, Android, Apple devices, PC and Mac.
 
 ## How crossplay works on mobile
 
-Phase One is about the local network. One player hosts a world, and the others find it in the Local section of the new multiplayer menu. On mobile, the new Online and Crossplay buttons at the top right of that menu are always on and can't be turned off, because that is how mobile multiplayer works.
+Phase One is built around the local network. One player hosts a world, and everyone else finds it in the Local section of the new multiplayer menu. On mobile, the new Online and Crossplay buttons at the top right of that menu are always on and can't be turned off, because that is how mobile multiplayer works.
 
-You can also play across the internet with friends if you set up your router: the host shares an IP address, and the others connect to it as a server. Phase Two, which Re-Logic is still working on, is meant to make joining friends online easy on any platform.
+Playing across the internet already works for anyone willing to set up a router: the host shares an IP address, and the others connect to it as a server. Phase Two, which Re-Logic is still working on, is meant to make joining friends online easy on any platform.
 
 ## Dedicated servers
 
@@ -45,7 +46,7 @@ You can also play across the internet with friends if you set up your router: th
 
 There are limits. Xbox and PlayStation players need an online subscription to join an online server. Switch can't join any privately hosted dedicated server, local or online, because of Nintendo's rules, so Switch players can only join player-hosted worlds. The Chinese mobile versions aren't part of crossplay, as they use a different multiplayer system.
 
-If you play with a Switch owner, have someone host a world from their game instead of running a dedicated server. Also make sure everyone in the group has updated to 1.4.6 first, since local games only show up between devices on that version.
+Groups with a Switch owner should have someone host a world from their game and skip the dedicated server. And get everyone onto 1.4.6 before the session starts, since local games only show up between devices on that version.
 
 ## New seed and balance changes
 

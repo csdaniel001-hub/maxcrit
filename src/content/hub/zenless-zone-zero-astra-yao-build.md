@@ -57,7 +57,9 @@ image_alt: "Official Zenless Zone Zero art of Astra Yao"
 image_status: "candidate"
 ---
 
-Astra Yao is an Ether Support whose build is mainly about making other agents stronger. With max Core Skill, approximately 3,430 initial ATK is the first stat goal. Energy Regen becomes especially valuable after that point because her assist-driven attacks consume Energy.
+You gear Astra Yao for the other two agents. She is an Ether Support, and with max Core Skill her first stat goal is approximately 3,430 initial ATK, because initial ATK is what her Core Passive buff scales from. Past that point Energy Regen becomes especially valuable, since her assist-driven attacks consume Energy.
+
+Most of her work happens off-field. She stays present after you switch away and enables Quick Assists, so the build is about her numbers on the sheet more than her own combos.
 
 ## Drive Discs and stats
 
@@ -69,7 +71,7 @@ Astra Yao is an Ether Support whose build is mainly about making other agents st
 | Disc 5 | ATK% |
 | Disc 6 | ATK% until the target, then Energy Regen |
 
-Moonlight Lullaby is the alternative four-piece set if Astral Voice pieces are poor.
+Astral Voice is the set to farm. Moonlight Lullaby is the alternative four-piece if your Astral Voice pieces are poor.
 
 Choose ATK% and flat ATK substats before offensive rolls for Astra herself. The Core Passive scales with initial ATK; temporary combat ATK buffs don't count. At a maxed Core Skill, stacking more ATK beyond the cap stops improving that particular buff, though it can still improve her personal damage. Choose Energy Regen instead if you can maintain the required initial ATK with Disc 6 swapped.
 
@@ -82,7 +84,7 @@ Choose ATK% and flat ATK substats before offensive rolls for Astra herself. The 
 | Kaboom the Cannon (S5) | Energy Regen and team ATK, but requires more ATK from Discs to cap the Core Passive. |
 | The Vault (S5) | Energy-oriented alternative when already owned; short target-specific damage buff. |
 
-Bashful Demon and Kaboom the Cannon are A-Rank signatures of other agents, so S5 copies aren't guaranteed. Do not spend limited Signal Searches just to obtain a particular S5 example if your current Engine already reaches the target.
+Bashful Demon and Kaboom the Cannon are A-Rank signatures of other agents, so S5 copies aren't guaranteed. If your current Engine already reaches the target, don't spend limited Signal Searches chasing a particular S5 copy.
 
 ## Teams
 
@@ -103,4 +105,4 @@ The first rows follow ZZZ-Build's Version 3.3 usage data; the rest are establish
 
 Start with Special Attack to enter Idyllic Cadenza and switch to the other agents. Astra remains present while off-field and enables Quick Assists; each Chord represents 25 Energy. Take relevant assist prompts to maintain her buffs while moving between the two active agents. Avoid pointless switching when your carry needs uninterrupted time for a combo.
 
-Her Ultimate heals the squad and changes the next two Quick Assists into Chain Attacks. Time these for a carry that benefits from Chain Attack damage or related resources, especially Evelyn. She does not need sustained on-field Basic Attack strings to perform her primary role. Max Core Skill first, then Special Attack and Chain Attack; Assist, Dodge and Basic Attack are lower priorities for support. Keep the investment focused on reliable buffs before farming personal CRIT or Anomaly damage.
+Her Ultimate heals the squad and changes the next two Quick Assists into Chain Attacks. Time these for a carry that benefits from Chain Attack damage or related resources, especially Evelyn. She does not need sustained on-field Basic Attack strings to perform her primary role. Max Core Skill first, then Special Attack and Chain Attack; Assist, Dodge and Basic Attack are lower priorities for support. Keep the investment focused on reliable buffs before farming personal CRIT or Anomaly damage. Once the ATK target is met, her job is mostly timing.

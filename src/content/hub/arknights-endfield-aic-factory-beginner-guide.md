@@ -49,13 +49,13 @@ image_alt: "Official App Store screenshot of Arknights: Endfield"
 image_status: "candidate"
 ---
 
-Your first AIC factory in Arknights: Endfield should solve a practical problem: producing the materials you need to keep progressing without repeatedly collecting them yourself. The factory becomes a source of building materials, outpost supplies and power fuel as the story opens up.
+Your first AIC factory in Arknights: Endfield has one job, which is to make the materials you need to keep progressing so you stop gathering them by hand. As the story opens up, it turns into your supply of building materials, outpost supplies and power fuel.
 
-Start with manageable production lines in Valley IV. Once you have automated the basics, expand into Wuling's more complex manufacturing systems, including the Exclusion Zone Rebuilding mode added on November 25, 2026.
+Keep the first lines small and get them running in Valley IV. Wuling's more complex manufacturing can wait until the basics run on their own, and that includes including the Exclusion Zone Rebuilding mode added on November 25, 2026.
 
 ## Get the first production lines working
 
-The Protocol Automation-Core (PAC) is the hub for your region's factory, depot and electrical network. Start with an output connected to a processing machine, then connect the machine's output to storage. Configure the supply item before expecting the machine to work.
+The Protocol Automation-Core (PAC) is the hub for your region's factory, depot and electrical network. Start with an output connected to a processing machine, then connect the machine's output to storage. Set the supply item first, or the machine will sit there doing nothing.
 
 | First priority | Facility or technology | Purpose |
 |---|---|---|
@@ -65,13 +65,13 @@ The Protocol Automation-Core (PAC) is the hub for your region's factory, depot a
 | Finished products | Packaging Unit | Manufacture batteries and other useful consumables |
 | Expanded logistics | Depot Bus | Use independent Depot Loaders and Unloaders |
 
-Complete the factory Simulations as you unlock them. The game teaches individual machines and provides starter blueprints. Use those layouts to establish dependable production, then change one section at a time as your needs grow.
+Do the factory Simulations as they unlock. They teach each machine and hand you starter blueprints, which are the quickest way to dependable production. Once those run, change one section at a time as your needs grow.
 
 The AIC Plan requires Basic AIC Index, including points collected from Protocol Dataloggers. Explore for these while connecting mining sites to your regional grid. Follow the main missions for initial technology unlocks, then work toward the production and power technologies needed for batteries.
 
 ## Automate LC Valley Batteries
 
-Battery production is an excellent early project because it solves a recurring constraint: the electrical capacity needed by the rest of your factory. Thermal Banks consume fuel to generate additional power for the regional grid. Make sure each bank has the required electrical connection and a reliable supply route.
+Batteries make a strong early project, because sooner or later every factory runs short of electrical capacity. Thermal Banks consume fuel to generate additional power for the regional grid. Make sure each bank has the required electrical connection and a reliable supply route.
 
 The LC Valley Battery recipe requires 10 Originium Powder and 5 Amethyst Part in a Packaging Unit. One completed recipe takes 10 seconds.
 
@@ -94,7 +94,7 @@ These are calculated steady-state figures from documented machine recipes and fu
 
 ## How to diagnose a stalled factory
 
-A stopped production line can have several different causes. Inspect the first machine where material stops moving and trace the flow in both directions.
+A stalled line can have several causes, so don't start by building more. Find the first machine where material stops moving and trace the flow both ways from there.
 
 | Symptom | What to inspect | Fix to try |
 |---|---|---|
@@ -104,13 +104,13 @@ A stopped production line can have several different causes. Inspect the first m
 | Several facilities lose power | Regional power balance and Thermal Bank fuel | Restore the fuel supply or reduce electrical demand |
 | Battery line intermittently stops | Powder and part supply rates | Compare output per minute against the recipe budget |
 
-Adding another Packaging Unit will not increase battery output if the existing unit is waiting for Amethyst Part. Make the missing upstream material first. The same principle applies to capsule lines and later Wuling recipes.
+A second Packaging Unit won't raise battery output while the first one is waiting for Amethyst Part. Fix the missing upstream material first. The same principle applies to capsule lines and later Wuling recipes.
 
 ## Using blueprints without breaking production
 
 Blueprints save facility layouts, which makes them useful when expanding or relocating a proven line. Before importing one from another player, check that you have its facilities, sufficient space and the right regional code. Once placed, inspect all inputs and confirm the required materials reach the first machines.
 
-A large imported battery layout may promise far more output than your mining network currently supplies. Begin with a single section, measure whether it stays supplied, and duplicate it when your resource budget permits. Keep the original working line running while you build the replacement.
+Be wary of big imported battery layouts: one may promise far more output than your mining network can supply today. Begin with a single section, measure whether it stays supplied, and duplicate it when your resource budget permits. Keep the original working line running while you build the replacement.
 
 ## What changed in the November 25 update?
 
@@ -118,6 +118,6 @@ The Meeting You in the World o'Shrooms update expands manufacturing in Wuling. C
 
 Array Building: Mend the Old Gash runs for the whole version and pays up to 1,000 Oroberyl. Its construction-task rewards end with the event, but the rebuilding mode itself is permanent.
 
-If you are still in Valley IV, keep developing the basic mining, logistics and power systems. A stable factory with a fuel reserve and predictable material income gives you room to experiment when Wuling introduces new production requirements.
+Still in Valley IV? Keep building out mining, logistics and power, because a stable factory with a fuel reserve and predictable material income is what gives you room to experiment once Wuling brings new production requirements.
 
 For the full update details, see our [World o'Shrooms patch notes](/news/arknights-endfield-world-o-shrooms-patch-notes.html).

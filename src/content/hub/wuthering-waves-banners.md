@@ -36,7 +36,9 @@ image_alt: "Official App Store screenshot of Wuthering Waves"
 image_status: "candidate"
 ---
 
-Banner dates below come from the official Wuthering Waves announcements, with server times kept as published. A banner listed with a date and no hour switches over at the time shown in the game.
+Pull for Lily now, or hold out for December? The current Wuthering Waves banners run until 2026-12-03 at 09:59 server time, and three reruns take over a minute later.
+
+Server times are kept as published. A banner listed with a date and no hour switches over at the time shown in the game.
 
 ## Current and upcoming banners
 
@@ -50,4 +52,6 @@ Banner dates below come from the official Wuthering Waves announcements, with se
 
 ## What players should know
 
-Lily is a new Spectro pistol support/healer; Sigrika and Qiuyuan return alongside her. The three December reruns give players a second selection of Resonators and weapons. Enter Convene and check the relevant Resonator or weapon pool. Keep Reverb and regular featured Convenes separate when tracking guarantees; the in-game rules are authoritative. Phase II timing is reconstructed from the published version schedule.
+Lily is the new face, a Spectro pistol support and healer, with Sigrika and Qiuyuan returning beside her. If none of the three fits your team, the December reruns offer a second, different selection of Resonators and weapons, so waiting is a fair choice.
+
+Before you pull, open Convene and look at the Resonator or weapon pool you actually want. Track Reverb Convene and the regular featured Convenes separately for guarantees; the in-game rules are authoritative. Phase II timing is reconstructed from the published version schedule.

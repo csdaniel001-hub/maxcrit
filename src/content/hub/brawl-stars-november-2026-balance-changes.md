@@ -22,13 +22,13 @@ image_alt: "Official App Store screenshot of Brawl Stars"
 image_status: "candidate"
 ---
 
-This page collects every balance change from Supercell's November 2026 release notes for Brawl Stars, including the follow-up maintenance on November 11. All values are copied from the official notes. Where the notes give a percentage instead of a before and after value, so do we.
+Amber, Wendy, Shade and Gus mains have the most homework this month. Every balance change from the November 2026 Brawl Stars release notes is below, along with the follow-up maintenance on November 11, with values exactly as published. When a change only comes as a percentage, that is how it appears here too.
 
-One rule from Supercell applies to the whole list: unless stated otherwise, when a Brawler's Main Attack or Super damage changes, its Super charge rate is adjusted so the number of hits needed to charge the Super stays the same.
+One rule covers the whole list: unless stated otherwise, when a Brawler's Main Attack or Super damage changes, its Super charge rate is adjusted so the number of hits needed to charge the Super stays the same.
 
 ## November 11 maintenance
 
-These changes came in the maintenance after the update went live. They mostly target reworked Gadgets and two of the three new Brawlers, Thunder Frogs and Rey.
+The maintenance landed after the update was already live, and it went mostly after reworked Gadgets and two of the three new Brawlers, Thunder Frogs and Rey.
 
 | Brawler | What changed | Before → after |
 |---|---|---|
@@ -53,9 +53,9 @@ These changes came in the maintenance after the update went live. They mostly ta
 | Thunder Frogs | Leech Landing Star Power: healing | 75% → 50% |
 | Rey | Queen's Gambit Gadget: cooldown | 15s → 18s |
 
-The Buffied Caramelize speed boost changed the same way as the slow (flat 350 → 25% maximum, flat 70 → 10% minimum). Cookie Crumbs and Caramelize also now correctly grant Super charge, which was a bug fix rather than a balance change.
+The Buffied Caramelize speed boost changed the same way as the slow (flat 350 → 25% maximum, flat 70 → 10% minimum). Cookie Crumbs and Caramelize also now correctly grant Super charge. That part is a bug fix, so treat it separately from the balance changes.
 
-Wendy's change cuts both ways: she deals less damage per hit but gets a bigger share of it back as shield.
+Wendy's change cuts both ways. Each hit does less damage, and a bigger share of it comes back as shield.
 
 ## Buffs
 
@@ -78,7 +78,7 @@ Wendy's change cuts both ways: she deals less damage per hit but gets a bigger s
 
 Draco's Super was also reworked to apply its damage more consistently. Chuck, Darryl and Melodie no longer lose unused Super charges on death, which matters most for Brawlers that bank charges and spend them in bursts.
 
-Ziggy is listed under buffs, but his Star Power bonus drops from 18% to 7%, so builds that leaned on The Great Ziggini lose most of the gain.
+Ziggy sits under buffs, yet his Star Power bonus falls from 18% to 7%. Builds that leaned on The Great Ziggini give back most of the gain.
 
 ## Nerfs
 
@@ -123,7 +123,7 @@ Ziggy is listed under buffs, but his Star Power bonus drops from 18% to 7%, so b
 | Rico | Robo Retreat Star Power: movement speed | 35% → 25% |
 | Rico | Robo Retreat Buffie: max movement speed | 50% → 40% |
 
-Amber and Wendy appear in both this list and the November 11 maintenance, so check both tables for them. Shade and Gus take the broadest cuts: each loses ground on Super charge, a Gadget and a Star Power, and Gus can now keep only 3 spirits on the map instead of 10.
+Amber and Wendy show up here and in the November 11 maintenance, so read both tables if you play either. Shade and Gus take the broadest cuts: each loses ground on Super charge, a Gadget and a Star Power, and Gus can now keep only 3 spirits on the map instead of 10.
 
 ## Reworks and mixed changes
 
@@ -146,7 +146,7 @@ Amber and Wendy appear in both this list and the November 11 maintenance, so che
 
 ## Brawl Arena only
 
-These scaling changes apply only in Brawl Arena and do not affect other modes.
+Nothing in this table touches other modes. These scaling changes are for Brawl Arena alone.
 
 | Brawler | What changed | Before → after |
 |---|---|---|
@@ -171,3 +171,5 @@ These scaling changes apply only in Brawl Arena and do not affect other modes.
 ## Also in the November update
 
 Balance was only part of the release. The same notes add three new Brawlers (Thunder Frogs, a Legendary Artillery made up of Zap, Zee and Volt; Rey, a Mythic Marksman; and Ruby, a Mythic Damage Dealer) and a Ranked Refresh: every rank now requires Power 11 Brawlers (up from Power 9 in Bronze through Diamond), Diamond needs 12 Brawlers instead of 9, and Ranked unlocks at 5,000 Trophies instead of 1,000. Players who already unlocked Ranked keep their access.
+
+If Ranked is where you play, the Power 11 requirement is the change to plan around: count how many of your Brawlers are there before your next session.

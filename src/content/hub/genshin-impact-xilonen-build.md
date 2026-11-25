@@ -52,7 +52,7 @@ image_alt: "Official Genshin Impact App Store artwork of Natlan"
 image_status: "candidate"
 ---
 
-Xilonen is a 5-star Geo sword support whose build is unusually forgiving. Her resistance reduction depends on her Skill talent and team composition, while DEF improves her healing. That makes a functional support build considerably cheaper than chasing a damage dealer's artifact rolls. She returns on the [Version 7.2 Chronicled Wish](/hub/banners/genshin-impact-banners.html) until December 15 at 14:59 server time. For investment decisions, see the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html).
+Compared with chasing a damage dealer's artifact rolls, a functional Xilonen build is considerably cheaper. The 5-star Geo sword support is unusually forgiving: her resistance reduction depends on her Skill talent and team composition, and DEF improves her healing, so the hard part of building her is the party around her. She returns on the [Version 7.2 Chronicled Wish](/hub/banners/genshin-impact-banners.html) until December 15 at 14:59 server time. For investment decisions, see the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html).
 
 ## How to activate her support effects
 
@@ -81,7 +81,7 @@ If another teammate already wears Scroll, consider Instructor for reaction teams
 | Flute of Ezpitzal | Craftable DEF option when energy is already sufficient |
 | Skyrider Sword | Inexpensive Energy Recharge placeholder |
 
-Peak Patrol Song adds 8 percentage points of party Elemental DMG Bonus per 1,000 DEF at R1 once its two-stack condition is met, capped at 25.6%. The weapon also grants the wielder 8% DEF and 10% All Elemental DMG Bonus per stack. The 3,200 DEF target is her effective DEF after the two stacks are active. The following examples show the nominal buff at different DEF values, not a measured increase in team DPS.
+Peak Patrol Song adds 8 percentage points of party Elemental DMG Bonus per 1,000 DEF at R1 once its two-stack condition is met, capped at 25.6%. The weapon also grants the wielder 8% DEF and 10% All Elemental DMG Bonus per stack. The 3,200 DEF target is her effective DEF after the two stacks are active. The following examples show the nominal buff at different DEF values and do not measure an increase in team DPS.
 
 | Effective DEF | R1 party Elemental DMG Bonus |
 |---:|---:|
@@ -91,7 +91,7 @@ Peak Patrol Song adds 8 percentage points of party Elemental DMG Bonus per 1,000
 | 3,200 | 25.6% |
 | 3,500 | 25.6% |
 
-If your equipped weapon is Favonius, the 3,200 DEF target has no special significance. Build enough healing and energy for your team, then stop farming. Extra DEF beyond the signature cap still affects healing, but it does not increase that weapon's capped party buff.
+If your equipped weapon is Favonius, the 3,200 DEF target has no special significance. Build enough healing and energy for your team, then stop farming. Xilonen rewards you for knowing when to stop. Extra DEF beyond the signature cap still affects healing, but it does not increase that weapon's capped party buff.
 
 ## Energy and rotation
 
@@ -107,6 +107,6 @@ For a support rotation, apply the desired aura, switch to Xilonen, use her Skill
 | Mualani, Xiangling, Sucrose or Kazuha, Xilonen | Hydro support and Nightsoul interaction; Mualani and Xiangling already provide two converted Samples, leaving room for Anemo support |
 | Navia, Bennett, Xiangling, Xilonen | Geo support with two eligible teammates; Navia still needs shard generation |
 
-These are example configurations, not a version-wide team ranking. Xilonen's limited off-field Geo application matters in Navia teams, while replacing Kazuha in other lineups can cost grouping utility.
+These are example configurations and do not rank teams across the version. Xilonen's limited off-field Geo application matters in Navia teams, while replacing Kazuha in other lineups can cost grouping utility.
 
 Raise the Skill first, then the Burst if you need more healing. Normal Attack talent investment is unnecessary for this support build. Once the artifact set, energy and weapon conditions are met, spend the next batch of Resin on the character doing most of the team's damage. A marginal healing upgrade is unlikely to solve an underbuilt carry.

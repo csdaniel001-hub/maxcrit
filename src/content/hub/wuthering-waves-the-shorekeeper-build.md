@@ -59,11 +59,13 @@ image_alt: "Official Wuthering Waves profile art of the Shorekeeper"
 image_status: "candidate"
 ---
 
-The Shorekeeper is a Spectro Rectifier support whose value depends on how reliably the party reaches the strongest stage of her Stellarealm. A build with more healing or personal damage loses value if it delays her Resonance Liberation or prevents the team from receiving its full CRIT buffs. The setup here assumes Sequence 0.
+250% Energy Regen while her field is active is the number a Shorekeeper build works toward. The Shorekeeper is a Spectro Rectifier support whose value depends on how reliably the party reaches the strongest stage of her Stellarealm, so more healing or personal damage loses its worth if it delays her Resonance Liberation or keeps the team from its full CRIT buffs. The setup here assumes Sequence 0.
+
+Those CRIT buffs are general-purpose, which is why the team table below runs from Camellya to Zani to Augusta. Specialist supports can still be the better pick for some carries, and the team section covers when.
 
 ## Energy Regen and Echoes
 
-Her fully developed field can grant up to 12.5% CRIT Rate and 25% CRIT DMG. The full bonus requires 250% Energy Regen while the field is active. The out-of-combat stat screen can show less.
+Her fully developed field can grant up to 12.5% CRIT Rate and 25% CRIT DMG. The full bonus requires 250% Energy Regen while the field is active, and the out-of-combat stat screen can show less.
 
 | Setup | Pre-buff target | In combat with field passive |
 |---|---:|---:|
@@ -80,7 +82,7 @@ The first row assumes you actually cast Fallacy and that the passive is active. 
 | Both 3-cost | Energy Regen until target is met |
 | Both 1-cost | HP% |
 
-Keep the cheapest pieces that satisfy the ER target before chasing double-CRIT rolls. Rejuvenating Glow grants team ATK through healing, and Fallacy supplies an extra team buff. Bell-Borne Geochelone is a survivability alternative; recalculate the ER target when switching. Moonlit Clouds supplies 10% Energy Regen from its two-piece effect and, with Impermanence Heron, is an alternative for buffing the next damage dealer after Outro; Rejuvenating Glow benefits the whole team through healing. In Jingran teams without a shield applier, WuWaBuild lists 5-piece Halo of Starry Radiance as a niche alternative to Rejuvenating Glow.
+Echo farming follows the same logic. Keep the cheapest pieces that satisfy the ER target before chasing double-CRIT rolls. Rejuvenating Glow grants team ATK through healing, and Fallacy supplies an extra team buff. Bell-Borne Geochelone is a survivability alternative; recalculate the ER target when switching. Moonlit Clouds supplies 10% Energy Regen from its two-piece effect and, with Impermanence Heron, is an alternative for buffing the next damage dealer after Outro; Rejuvenating Glow benefits the whole team through healing. In Jingran teams without a shield applier, WuWaBuild lists 5-piece Halo of Starry Radiance as a niche alternative to Rejuvenating Glow.
 
 ## Rectifiers
 
@@ -106,4 +108,4 @@ Start by charging Shorekeeper's Concerto using her Basic Attacks, Forte and Skil
 
 At S0, returning with Intro Skill Discernment ends the Supernal Stellarealm. Time this return near the end of its useful window; S1 removes the field-ending effect. Prioritize Intro Skill for its guaranteed-CRIT Discernment damage. Wutheringlab recommends Liberation next for healing, while Prydwen prioritizes Resonance Skill next. Choose based on your healing needs. Compare rotations by whether the next Liberation is available on time; the displayed ER number alone can mislead.
 
-If resources are tight, level the weapon and the ER main-stat Echoes before spending Tuners on offensive pieces. A working rotation and full field buffs are much more useful than an impressive personal CRIT line. For current availability, use the [Wuthering Waves banner schedule](/hub/banners/wuthering-waves-banners.html).
+If resources are tight, level the weapon and the ER main-stat Echoes before spending Tuners on offensive pieces. A working rotation and full field buffs are much more useful than an impressive personal CRIT line. Start every Shorekeeper build from that 250% in-combat target. For current availability, use the [Wuthering Waves banner schedule](/hub/banners/wuthering-waves-banners.html).

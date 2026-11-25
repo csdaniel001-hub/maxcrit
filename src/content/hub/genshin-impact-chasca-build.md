@@ -47,7 +47,9 @@ image_alt: "Official Genshin Impact character introduction art for Chasca"
 image_status: "candidate"
 ---
 
-Chasca is an Anemo bow carry whose damage profile depends heavily on the elements of her party. She is available on the Names Forged Beneath Blazing Skies Chronicled Wish until December 15 at 14:59 server time. At C0, party composition is one of the first things to solve before optimizing a weapon.
+At C0, Chasca's party shapes her damage before her bow does. She is an Anemo bow carry whose damage profile depends heavily on the elements around her, and she is on the Names Forged Beneath Blazing Skies Chronicled Wish until 14:59 server time on December 15.
+
+Solve the party early. The weapon and artifact advice below is easier to apply once you know which three elements are standing next to her.
 
 ## How converted shells change the build
 
@@ -75,7 +77,7 @@ Marechaussee Hunter is an alternative in a Furina team, but Codex is the straigh
 | Song of Stillness | Craftable option with healing |
 | Chain Breaker | Craftable alternative, check party-dependent passive |
 
-Pick the bow together with the artifact set. An existing CRIT DMG weapon can be easier to balance with Codex than a CRIT Rate weapon that pushes the active total above 100%. Song of Stillness is attractive if the team can trigger its healing condition reliably.
+Pick the bow together with the artifact set, because the two share one CRIT budget. An existing CRIT DMG weapon can be easier to balance with Codex than a CRIT Rate weapon that pushes the active total above 100%. Song of Stillness is attractive if the team can trigger its healing condition reliably.
 
 ## Choose the three support elements
 
@@ -92,6 +94,6 @@ Apply support abilities before entering Chasca's Skill, then hold the attack inp
 
 Chasca can exploit a broad range of elemental supports, but that flexibility does not mean every support is equally useful. At C0, filling a slot with a non-converting element can reduce the value of her shell mechanic. If a proposed team needs a specific shield or healer, compare the resulting loss of eligible elemental slots against the practical survivability gain.
 
-This roster check is more useful than choosing a bow solely from a theoretical damage ranking.
+This roster check is more useful than choosing a bow solely from a theoretical damage ranking. Get the three elements right, then spend on the bow.
 
-See the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html) for availability and the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) for comparisons across featured characters.
+Check how long she stays on the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html), then use the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) if she is competing with another featured character for your wishes.

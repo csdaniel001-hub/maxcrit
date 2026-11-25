@@ -36,9 +36,9 @@ image_alt: "Official App Store screenshot of Zenless Zone Zero"
 image_status: "candidate"
 ---
 
-Phase II of Version 3.3 brings a detective investigation and a seven-day Bangboo login campaign.
+Got a poisoning case to crack and a week of logins to spare? Phase II of Version 3.3 runs a detective investigation alongside a seven-day Bangboo login campaign, and the two close within a day of each other.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+The dates below are current as of November 24, 2026. Times follow the basis shown in the table, so go by the countdown on your own server when you plan around a deadline.
 
 ## Current event schedule
 
@@ -53,7 +53,7 @@ Event dates below are copied from each game's official announcements as of Novem
 
 - **Event window**: 2026-11-11 10:00 to 2026-11-30 03:59 (Server time).
 
-Assist the detective agency with a poisoning investigation and complete its objectives.
+This is the one with story attached: you help the detective agency with a poisoning investigation and work through its objectives. It also closes first.
 
 - **Rewards**: Event rewards.
 
@@ -63,7 +63,7 @@ Assist the detective agency with a poisoning investigation and complete its obje
 
 - **Event window**: 2026-11-11 10:00 to 2026-12-01 03:59 (Server time).
 
-Log in for seven cumulative days during the campaign.
+The low-effort one. Seven cumulative days of logging in during the campaign is all it asks, and the days don't have to be in a row.
 
 - **Rewards**: 10 Boopons.
 
@@ -71,4 +71,4 @@ Log in for seven cumulative days during the campaign.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Work on Trails of the Hobbling Crow first, since it ends on 2026-11-30 at 03:59 server time, and claim rewards as they unlock instead of saving them for the last evening. Dates can change after publication, and a campaign window doesn't mean every activity is open every day.

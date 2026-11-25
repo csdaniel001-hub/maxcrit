@@ -29,8 +29,9 @@ image_alt: "Official App Store screenshot of BLEACH Soul Resonance"
 image_status: "candidate"
 ---
 
-BLEACH: Soul Resonance is one year old, and its biggest anniversary addition arrives on November 25: SSR Ichigo Kurosaki (Full Hollowfication). He is a Slash-type DPS character and comes with his own character banner, an exclusive SSR Weapon Stamp banner and special trial stages.
 
-The anniversary started on November 20 with a rerun banner of every earlier limited SSR character. If you're deciding where to spend, the trial stages let you test Full Hollowfication Ichigo before you pull, and his character banner and Stamp banner are two separate investments.
+BLEACH: Soul Resonance is one year old, and the anniversary saves its biggest addition for November 25: SSR Ichigo Kurosaki (Full Hollowfication). The Slash-type DPS character arrives with his own character banner, an exclusive SSR Weapon Stamp banner and special trial stages.
 
-The celebration also hands out login rewards, including Spiritual Jade and an anniversary avatar frame, plus a character selector and a Stamp selector. Pick your selector choices before spending pulls on the reruns, since a selector can cover a character you would otherwise chase on a banner. More anniversary challenges continue into December. BLEACH: Soul Resonance is published by Crunchyroll Games and is free to play on iOS and Android.
+The celebration began on November 20 with a rerun banner of every earlier limited SSR character. If you're deciding where to spend, the trial stages let you test Full Hollowfication Ichigo before you pull. His character banner and Stamp banner are two separate investments, so play the trials first and then decide whether he is worth one banner or both.
+
+Login rewards include Spiritual Jade and an anniversary avatar frame, plus a character selector and a Stamp selector. Decide on your selector picks before pulling on the reruns, since a selector can cover a character you would otherwise chase on a banner. More anniversary challenges carry on into December. BLEACH: Soul Resonance is published by Crunchyroll Games and is free to play on iOS and Android.

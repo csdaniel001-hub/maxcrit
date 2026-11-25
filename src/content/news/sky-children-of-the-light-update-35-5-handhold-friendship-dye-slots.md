@@ -25,11 +25,14 @@ image_alt: "Official App Store screenshot of Sky: Children of the Light"
 image_status: "candidate"
 ---
 
-Sky: Children of the Light update 35.5 went out on November 24 for Android, Huawei, iOS, PlayStation, Switch and Steam. Its main fix is for handhold groups: when the leader changes level, the whole chain now follows. Returning home, travelling to another area or teleporting from a spirit no longer leaves players behind.
+
+Handhold chains in Sky: Children of the Light now survive a level change. Update 35.5 went out on November 24 for Android, Huawei, iOS, PlayStation, Switch and Steam, and when the leader changes level, the whole chain follows.
+
+Returning home, travelling to another area or teleporting from a spirit no longer leaves players behind, so a group travelling hand in hand stays together.
 
 ## Friendship, Dye Slots and Message Boats
 
-The Friendship system now covers the core game Spirits, every past Season Quest Giver and the Elder shops. Doing dailies with friends adds a little Friendship, although Elders cannot be taken as Companions. Players can also earn 2 more Dye Slots, and clover-shaped Message Boats can now be placed on land.
+Friendship now reaches the core game Spirits, every past Season Quest Giver and the Elder shops. Doing dailies with friends adds a little Friendship too, though Elders cannot be taken as Companions. Players can also earn 2 more Dye Slots, and clover-shaped Message Boats can now be placed on land.
 
 ## Fixes players reported
 
@@ -41,4 +44,4 @@ The Friendship system now covers the core game Spirits, every past Season Quest 
 - The Season of Van Gogh Postman Cape shows its star on Android, and Oreo and Bunny form spell effects are visible to other players.
 - Travelling directly from Sanctuary Islands to Prairie Peaks is no longer possible.
 
-The update also fixes an Android crash, improves frame-rate stutter in several levels and makes the Friendship Preview readable on some PC and PS4 devices.
+The update also fixes an Android crash, reduces frame-rate stutter in several levels and makes the Friendship Preview readable on some PC and PS4 devices.

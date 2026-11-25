@@ -24,18 +24,16 @@ image_alt: "Official App Store screenshot of Black Desert Mobile"
 image_status: "candidate"
 ---
 
-Pearl Abyss has adjusted one of Black Desert Mobile's shared combat systems to reduce the differences between classes. Black Spirit's Rage now has a minimum four-second execution at base attack speed. Both the regular ability and its Absorb variant provide Super Armor, damage reduction and immunity to grabs.
 
-## Other important changes
+Black Spirit's Rage in Black Desert Mobile is now built for holding ground. Pearl Abyss reworked the shared combat system in the November 24 patch to narrow the gaps between classes, and Rage now has a minimum four-second execution at base attack speed.
 
-- Class-specific Rage damage values have been revised; check the official class tables before changing a build.
-- Co-op Rush entry multiplier cap doubles from 50 to 100.
+Both the regular ability and its Absorb variant give Super Armor, damage reduction and immunity to grabs. In PvP that turns Rage into more of a battlefield-control tool than a single-target finisher, something you use to contest space. Rage damage values have also been revised class by class, so compare your class against the official tables before reworking a build around it.
+
+The patch touches several other systems:
+
+- Co-op Rush's entry multiplier cap doubles from 50 to 100.
 - Martial God Tournament points earned against an Adventurer's Specter are capped at 3,000.
-- Gear enhancement gains additional confirmation safeguards.
+- Gear enhancement gets additional confirmation safeguards.
 - Entry to Spoils of Twisted Nightmare: Capital is temporarily closed until November 29 at 18:00.
 
-## New events
-
-Daily To-Do List and Restoration Scroll Rush run from maintenance completion through November 30 at 22:30. A server Hot Time on November 27 runs from 00:00 to 23:59, with additional experience and drop bonuses.
-
-The update changes how players can contest space in PvP: Rage is intended more as a battlefield-control tool than a single-target finisher.
+Two events run from the end of maintenance through November 30 at 22:30: the Daily To-Do List and the Restoration Scroll Rush. On November 27 a server Hot Time from 00:00 to 23:59 adds experience and drop bonuses, which makes it the day to save your farming for.

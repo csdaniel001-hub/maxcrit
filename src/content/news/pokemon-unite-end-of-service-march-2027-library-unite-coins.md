@@ -24,13 +24,14 @@ image_alt: "Official screenshot of the Pokémon UNITE Library screen"
 image_status: "candidate"
 ---
 
+
 Pokémon UNITE has an end date. The game closes on Tuesday, March 23, 2027 at 00:00 UTC, on both the Nintendo Switch and the mobile versions. After that, nobody can log in or play battles. The game first launched on Switch on July 21, 2021.
 
 The months until then are set up as a farewell: a big shop sale, a way to earn past items for free, and a Library mode that keeps part of your account viewable after the servers go dark.
 
 ## What has already stopped
 
-Aeos gem sales ended at 05:00 UTC on October 27, 2026. Gems already in your account still work, but only until the shutdown, so any you hold are worth spending now rather than later.
+Aeos gem sales ended at 05:00 UTC on October 27, 2026. Gems already in your account still work, but only until the shutdown. Any left unspent on March 23 are simply gone, so spend them while the sale is on.
 
 UNITE Club stopped taking new members at the same time, and automatic renewals were suspended. If you are already a member, your benefits run until your current membership period ends.
 
@@ -38,7 +39,7 @@ UNITE Club stopped taking new members at the same time, and automatic renewals w
 
 The Grand Shop Sale started on October 27 and runs until service ends, with discounts of up to 80%. Past items are back in the shop, including Holowear and Trainer fashion that was previously limited to events and battle passes. Some of it has never been sold in the shop before.
 
-The November 12 update (04:00 UTC) added a second way to get them. The Unite Coin Exchange trades special Unite Coins for previously released Unite licenses, Holowear, Trainer fashion and Unite Snapshot items. You earn the coins from a daily log-in bonus and from Unite Coin Missions, where winning a ranked match or a battle in another mode grants one or more coins. If there is a license or outfit you always wanted, playing a few matches a day is now the free route to it.
+The November 12 update (04:00 UTC) added a second way to get them. The Unite Coin Exchange trades special Unite Coins for previously released Unite licenses, Holowear, Trainer fashion and Unite Snapshot items. You earn the coins from a daily log-in bonus and from Unite Coin Missions, where winning a ranked match or a battle in another mode grants one or more coins. For a license or outfit you always wanted, a few matches a day is now the free route to it.
 
 ## Download the Library before the deadline
 
@@ -51,7 +52,7 @@ The Library is the part that survives the shutdown. It lets you keep browsing yo
 - **Battle Items, Held Items and Boost Emblems**: view only.
 - **Achievements and Tournaments**: your Trainer and Pokémon records up to the shutdown.
 
-The catch is the data download. It happens during normal play or the first time you open the Library, and it has to finish before March 23, 2027 at 00:00 UTC. If it doesn't, the Library never activates. Items you earn after the first download are added automatically. The data generally doesn't move to a new device, and there is no support for the Library once service ends, so do the download on the phone or Switch you plan to keep.
+The catch is the data download, and it is the one deadline here that can't be fixed later. It happens during normal play or the first time you open the Library, and it has to finish before March 23, 2027 at 00:00 UTC. If it doesn't, the Library never activates. Items you earn after the first download are added automatically. The data generally doesn't move to a new device, and there is no support for the Library once service ends, so do the download on the phone or Switch you plan to keep.
 
 The official notice also recommends finishing any Boost Emblem merging and held item levelling before the deadline, because those screens become view-only.
 

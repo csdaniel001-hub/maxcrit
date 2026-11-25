@@ -30,7 +30,7 @@ image_alt: "Official App Store screenshot of Clash of Clans"
 image_status: "candidate"
 ---
 
-Clash of Titans introduces Town Hall 19, a major expansion of Home Village progression and army design. Supercell's rollout notes identify November 16 as the planned availability date.
+Town Hall 19 lands with Clash of Titans, planned for November 16, and it reaches into both Home Village progression and the way armies are built. Defenses, Heroes and the Clan Castle all move up a tier.
 
 ## New Town Hall mechanics
 - Choose defending Barbarians, Archers or Wizards for the Town Hall, with the latter two unlocked at maximum troop level.
@@ -44,7 +44,7 @@ Clash of Titans introduces Town Hall 19, a major expansion of Home Village progr
 - Emotes and a redesigned inventory expand cosmetic collection options.
 
 ## Social and quality-of-life improvements
-Friendly Challenges in chat gain leaderboards and replay support; Global Chat supports base, army and replay sharing, plus on-device translation. Cross-game Supercell friends are synchronized.
+Clans that run Friendly Challenges in chat get leaderboards and replay support. Global Chat now takes base, army and replay sharing, with on-device translation, and Supercell friends sync across games.
 
 ## Upgrade priorities
-Review the new defensive interactions before copying an old TH19 layout or committing resources. Squad formations and the Heroic Spell may change attack planning. The official notes provide the complete level and cost tables.
+Hold off on copying an old TH19 layout or spending resources until you've looked at how the new defenses interact: a Spiky Tower that reflects part of an attacker's maximum HP is something to plan around on both sides of a raid. On offense, Squad formations and the Heroic Spell may change how you plan an attack. The complete level and cost tables are in the official notes.

@@ -28,7 +28,8 @@ image_alt: "Official MANGMI AIR X Pro teaser image"
 image_status: "candidate"
 ---
 
-MANGMI is revealing its next Android handheld, the AIR X Pro, one spec at a time on its official X account. The latest reveal is the chip: a Qualcomm Snapdragon 865, an octa-core 1+3+4 chip clocked at up to 2.84GHz.
+
+MANGMI is revealing its next Android handheld the slow way, one spec at a time on its official X account. The AIR X Pro's latest reveal is the chip: a Qualcomm Snapdragon 865, an octa-core 1+3+4 design clocked at up to 2.84GHz.
 
 | Part | AIR X Pro | AIR X |
 |---|---|---|
@@ -40,8 +41,8 @@ MANGMI is revealing its next Android handheld, the AIR X Pro, one spec at a time
 | Brightness | 450 nits | 400 nits |
 | Colour gamut | 110% sRGB | 100% sRGB |
 
-The screen size and resolution stay the same as on the AIR X, so the jump is in performance. The Adreno 650 is a big step up from the Adreno 610 for 3D Android games and for emulation, and UFS 3.1 is much faster storage than the AIR X's eMMC.
+Put the two side by side and the story is performance. Screen size and resolution stay the same as on the AIR X, while the Adreno 650 is a big step up from the Adreno 610 for 3D Android games and emulation, and UFS 3.1 is much faster storage than the AIR X's eMMC. The brighter, wider-gamut screen is a small extra on top.
 
-If you already own an AIR X, the Pro keeps the same 5.5-inch landscape size with a much faster chip and storage. It makes the most sense if you have hit the AIR X's limits in 3D Android games or heavier emulation, and the brighter, wider-gamut screen is a small extra on top.
+For AIR X owners, the Pro keeps the same 5.5-inch landscape size you already know, so the upgrade case rests entirely on speed. It makes the most sense if you have hit the AIR X's limits in 3D Android games or heavier emulation.
 
 The original AIR X sells for $99.99 on MANGMI's store. MANGMI says full specs, key features and release details are coming soon.

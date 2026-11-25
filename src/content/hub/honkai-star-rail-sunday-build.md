@@ -53,7 +53,9 @@ image_alt: "Official Honkai: Star Rail Character Preview art of Sunday"
 image_status: "candidate"
 ---
 
-Sunday is an Imaginary Harmony support who gives a single ally and its summon an immediate turn through his Skill. His best build depends on the carry's action order. Get that order right before chasing CRIT DMG.
+Your carry's action order decides Sunday's build, so settle it before you chase a single CRIT DMG roll. He is an Imaginary Harmony support whose Skill gives one ally and its summon an immediate turn.
+
+The lineups further down pair him with Aglaea, Jing Yuan, Himeko • Nova, an E2 Acheron and Phainon, so an account with one of those carries has a clear use for him. Pick the Speed configuration first; the gear follows.
 
 ## Choose a Speed configuration
 
@@ -88,7 +90,7 @@ The in-game Build Guide also lists Messenger Traversing Hackerspace and Eagle of
 | Past and Future (S5) | Accessible Forgotten Hall option with a next-acting ally damage bonus; no Energy assistance. |
 | Dance! Dance! Dance! | Situational team advance; avoid if its timing disrupts a tuned carry. |
 
-A three-action Ultimate cycle is easier with the signature. Without it, do not assume that every rotation will recharge in exactly three turns. Choose Energy reliability over a few extra CRIT substats.
+A three-action Ultimate cycle is easier with the signature. Without it, do not assume that every rotation will recharge in exactly three turns. When in doubt, choose Energy reliability over a few extra CRIT substats.
 
 ## Teams
 
@@ -106,4 +108,6 @@ The Acheron lineup is specifically for E2; an E0 Acheron needs two other Nihilit
 
 ## Rotation and upgrades
 
-In a slower-than-carry build, let the carry finish its turn before using Sunday's Skill on it. Cast his Ultimate on that carry to maintain The Beatified and make future targeted Skills more SP-efficient. The Skill cannot advance another Harmony character. Prioritize Skill, Ultimate and Talent, with Basic ATK last. Unlock all major Traces for Energy and debuff removal. Check the actual turn order after equipment changes, especially when using Messenger Traversing Hackerspace or teamwide action advance effects.
+In a slower-than-carry build, let the carry finish its turn before using Sunday's Skill on it. Cast his Ultimate on that carry to maintain The Beatified and make future targeted Skills more SP-efficient. The Skill cannot advance another Harmony character.
+
+For upgrades, prioritize Skill, Ultimate and Talent, with Basic ATK last, and unlock all major Traces for Energy and debuff removal. Then check the actual turn order after every equipment change, especially when using Messenger Traversing Hackerspace or teamwide action advance effects. With Sunday, the turn order is the build.

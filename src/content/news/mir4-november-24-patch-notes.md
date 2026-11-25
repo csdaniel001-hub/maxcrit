@@ -32,11 +32,12 @@ image_alt: "Official App Store screenshot of MIR4"
 image_status: "candidate"
 ---
 
-Wemade's November 24 update for MIR4 is live. Maintenance ran from 1:00 to 4:20 on November 24 in EU time (UTC+2), and the servers reopened region by region. All event times below are UTC+8, as in the official notices.
+
+MIR4's PvP players have two Divine Charts worth chasing after Wemade's November 24 update. Four new charts arrived after maintenance from 1:00 to 4:20 on November 24 in EU time (UTC+2), along with the Silver Frost events, and the servers reopened region by region. All event times below are UTC+8, matching the official notices.
 
 ## Four new Divine Charts
 
-The update adds four Divine Charts: Hongyeop, Seolhwa, Jilpung and Hyeonbing. Restoring every page of one grade in a chart unlocks its passive, and the passive gets stronger at Rare, Epic and Legendary. These are the Legendary values:
+The four charts are Hongyeop, Seolhwa, Jilpung and Hyeonbing. Restoring every page of one grade in a chart unlocks its passive, and the passive gets stronger at Rare, Epic and Legendary. These are the Legendary values:
 
 | Chart | Passive | Trigger | Legendary effect | Cooldown |
 |---|---|---|---|---|
@@ -45,9 +46,9 @@ The update adds four Divine Charts: Hongyeop, Seolhwa, Jilpung and Hyeonbing. Re
 | Jilpung | Wind White Tiger's Erosion | 20% chance when attacking a Character | Vitality and MP -30%, target cannot gain Vitality for 10 sec | 70 sec |
 | Hyeonbing | Black Tortoise's Benediction | Fatal damage | 1 sec of Immortality, then 30% Max HP and Vitality restored | 80 sec |
 
-The lower grades are much weaker. Hongyeop at Rare needs a 10% Max HP hit and gives ATK DMG +5% with no damage reduction. Seolhwa only starts reducing PHYS DEF at Epic (-100), and Spell DEF only at Legendary. Jilpung's Rare passive takes 10% Vitality with no MP drain. Hyeonbing at Rare and Epic triggers at 10% HP and heals 15% or 20% of Max HP, and only Legendary turns it into a fatal-damage save.
+Don't judge a chart by its Legendary line, because the lower grades are much weaker. Hongyeop at Rare needs a 10% Max HP hit and gives ATK DMG +5% with no damage reduction. Seolhwa only starts reducing PHYS DEF at Epic (-100), and Spell DEF only at Legendary. Jilpung's Rare passive takes 10% Vitality with no MP drain. Hyeonbing at Rare and Epic triggers at 10% HP and heals 15% or 20% of Max HP, and only Legendary turns it into a fatal-damage save.
 
-For PvP, Jilpung and Hyeonbing are the two to look at. Jilpung only triggers against Characters, and Hyeonbing's Legendary passive works like an 80-second extra life.
+For PvP, Jilpung and Hyeonbing are the two to chase. Jilpung only triggers against Characters, and Hyeonbing's Legendary passive works like an extra life on an 80-second timer.
 
 ## Silver Frost events
 
@@ -60,7 +61,7 @@ For PvP, Jilpung and Hyeonbing are the two to look at. Jilpung only triggers aga
 
 Cheonho's Gift Box does not drop from Raid monsters or from monsters 40 or more levels away from you. In the Legendary Magic Stone event, filling the Event Incense Burner to 300 points guarantees a Legendary Magic Stone. The check-in and the Magic Stone event both sit behind the firecracker icon in the top left corner.
 
-If you plan to push Solitude Training, do it before December 7 while Osher's Miraculous Fortune is running.
+Anyone planning to push Solitude Training should do it before December 7, while Osher's Miraculous Fortune makes it cheaper.
 
 ## Ara's Training Memoir and the Shop
 

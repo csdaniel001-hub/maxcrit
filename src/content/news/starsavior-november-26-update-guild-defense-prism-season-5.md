@@ -26,11 +26,12 @@ image_alt: "Official StarSavior November 26 update key art"
 image_status: "candidate"
 ---
 
-StarSavior goes offline on November 26 from 01:00 to 03:00 UTC for a two-hour update. STUDIOBSIDE pays 100 Stellagems and 2 Standard Savior Observation Tickets as maintenance compensation. Progress in an Unfinished Journey is reset by the maintenance, so finish or abandon a run before 01:00 UTC.
+
+100 Stellagems and 2 Standard Savior Observation Tickets are STUDIOBSIDE's compensation for StarSavior's November 26 update, which takes the game offline from 01:00 to 03:00 UTC. The maintenance also resets progress in an Unfinished Journey, so finish or abandon any run before 01:00 UTC.
 
 ## Guild Defense Prism Season 5
 
-Season 5 starts when maintenance ends and runs until December 2 at 19:00 UTC, with Carbonpunk Khan as the boss. Settlement follows from December 2, 19:00 to December 9, 19:00 UTC. EX Stages open on Tuesdays, Thursdays and Saturdays, cost 2 Entry Currency and cannot be cleared with Battle Skip. The Base Investigation Boost Missions event runs on the same schedule.
+Carbonpunk Khan is the boss of Season 5, which starts when maintenance ends and runs until December 2 at 19:00 UTC. Settlement follows from December 2, 19:00 to December 9, 19:00 UTC. EX Stages open on Tuesdays, Thursdays and Saturdays and cost 2 Entry Currency, and Battle Skip can't clear them, so set aside time to play them by hand on those days. The Base Investigation Boost Missions event runs on the same schedule.
 
 ## New pulls, passes and shop items
 
@@ -40,4 +41,4 @@ Season 5 starts when maintenance ends and runs until December 2 at 19:00 UTC, wi
 - Black Friday Packages and Black Friday Step Up Packages arrive in the Cash Shop.
 - The 30-Day Willpower Supply package raises Reobserve Blessings by 10, to 15 per Journey.
 
-The patch also makes the Noir Replica Code easier to see in the Overload Cube, shows applied stats in Battle Formation, and fixes several Japanese voice and subtitle errors for Carmen.
+Quality-of-life work rounds out the patch. The Noir Replica Code is easier to see in the Overload Cube, Battle Formation shows applied stats, and several Japanese voice and subtitle errors for Carmen are fixed.

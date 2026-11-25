@@ -30,7 +30,9 @@ image_alt: "Official December Community Day 2026 key art with this year's Commun
 image_status: "candidate"
 ---
 
-Every Pokémon GO date the official site has announced from now until mid-February, in order. Times are local unless a Pacific time is given, because that is how the Pokémon GO team publishes them. Each row links to the official post through our sources list, and the bigger events have their own stories.
+Keep your Saturdays free. Between now and mid-February, almost every Saturday in Pokémon GO carries a Raid Day, Max Battle Day, Hatch Day or Community Day, and every announced date is below, in order.
+
+Times are local unless a Pacific time is given, which is how the Pokémon GO team publishes them. The official post behind each row is in the sources list, and the bigger events have their own stories.
 
 ## The rest of November
 
@@ -42,7 +44,7 @@ Every Pokémon GO date the official site has announced from now until mid-Februa
 | November 28 and 29, all day | No daily limit on GO Points for the GO Pass |
 | Until November 29, 8:00 p.m. PST | Double bonus PokéCoins on Web Store bundles over $19.99 |
 
-The uncapped GO Points weekend overlaps Clefable Super Mega Raid Day, so raiding on Saturday also pushes your GO Pass rank. [Clefable Super Mega Raid Day in full]({{ '/news/pokemon-go-clefable-super-mega-raid-day-november-28.html' | rel }}).
+The uncapped GO Points weekend overlaps Clefable Super Mega Raid Day, so Saturday's raids double as GO Pass progress. [Clefable Super Mega Raid Day in full]({{ '/news/pokemon-go-clefable-super-mega-raid-day-november-28.html' | rel }}).
 
 ## December
 
@@ -75,9 +77,11 @@ The featured Pokémon for these days are announced closer to each event. [Next s
 
 ## What costs money, and what is free
 
-Most of these days need nothing but time, but a few come with paid extras worth knowing about before you spend.
+Most of these days cost nothing but time. A few come with paid extras, so here is what each one gets you.
 
 - **Clefable Super Mega Raid Day ticket**: US$4.99 in the in-game shop until November 28 at 5:00 p.m. local time. It gives up to 14 Raid Passes from Gyms, a higher chance of Rare Candy XL from raids and an extra 5,000 XP and 5,000 Stardust per Super Mega Raid. Without it you still get up to six free Raid Passes from spinning Gym Photo Discs that day.
 - **November GO Pass**: the free track includes a Groudon encounter and 400 PokéCoins. GO Pass Deluxe costs US$7.99 and adds 1,000 more PokéCoins.
 - **December Community Day Special Research**: US$4.99, with Special Background encounters, an Elite Charged TM, an Elite Fast TM and a Rocket Radar. It has no medal, so skipping it costs you nothing towards collection goals.
 - **Kingambit shortcut**: free. During December Community Day weekend, Bisharp as your buddy only needs one Dark- or Steel-type Raid Boss defeated to evolve, until December 13 at 9:00 p.m. local time.
+
+Free players give up little by passing on the paid extras. The deadline easiest to miss is December 3 at 10:00 a.m., when unclaimed November GO Pass rewards expire, so claim them as soon as the pass ends on December 1.

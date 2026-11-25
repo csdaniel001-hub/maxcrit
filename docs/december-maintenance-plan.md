@@ -6,7 +6,7 @@ Scope: 29 codes pages, 15 event pages, 5 banner pages (all last updated Nov 24�
 
 | Date (UTC) | Pages | Trigger | Work |
 |---|---|---|---|
-| Nov 30 – Dec 1 | All 30 codes pages | Month change | Re-check every listed code against the page's trackers and official posts. Remove expired or disputed codes, add new ones with the date first reported, update the "Checked" date, and change the title month only after this. A game with no reported active code loses its page from the menus (codes rule). |
+| Nov 30 – Dec 1 | All 30 codes pages | Month change | Re-check every listed code against the page's trackers and official posts. Rewrite each page's intro in its own words (stylecheck --site flags the shared boilerplate; keep the required deactivated/used up/region-locked line). Remove expired or disputed codes, add new ones with the date first reported, update the "Checked" date, and change the title month only after this. A game with no reported active code loses its page from the menus (codes rule). |
 | Dec 1 | All 15 event pages | November events end (Black Desert Nov 30, PUBG and others) | Remove ended events. Add December schedules from the official notices, normalise dates to UTC where the source gives a timezone, and rewrite "check the server clock" padding into the actual time basis or drop it. |
 | Dec 1–2 | ZZZ banner rows, HSR banner page | ZZZ 3.3 Phase II ends Dec 1; HSR Indelible Coterie / Coalesced Truths end Dec 2 11:59 | Replace with the next official channel or warp notice. Update the Aha build and HSR warp guide `review_by` (Dec 2). |
 | Dec 3 | WuWa banner page | 3.8 Phase I ends Dec 3 09:59 server time | Phase II notice. Starpath Reverbs II stays out until Kuro's official notice exists. |

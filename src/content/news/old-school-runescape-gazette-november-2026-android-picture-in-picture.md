@@ -25,14 +25,17 @@ image_alt: "Official App Store screenshot of Old School RuneScape"
 image_status: "candidate"
 ---
 
-Jagex's November Gielinor Gazette, published on November 20, lists two changes aimed at mobile players. Android Picture in Picture is coming as an opt-in beta before the end of 2026, and iPhone Duo support gets tweaks in the same timeframe.
 
-## Other plans in the Gazette
+Old School RuneScape is getting Picture in Picture on Android as an opt-in beta before the end of 2026. The November Gielinor Gazette, published on November 20, puts tweaks to iPhone Duo support on the same timeline.
 
-- **Tumeken's Shadow**: a rework with a mix of buffs and nerfs is planned, framed as future-proofing. Jagex will share the full plans in January or February 2027.
-- **Mokhaiotl Cloth**: it will become tradeable, following the approach used for the Araxyte Fang.
-- **Dragonfire Shield**: it will get the same interface treatment as the Rondache.
-- **New Renderer**: it moves into a further stage of internal testing. It is groundwork and brings no visual changes yet, while the separate HD project continues.
+The rest of the Gazette is a mix of reworks, tradeables and groundwork:
+
+- **Tumeken's Shadow**: a rework with a mix of buffs and nerfs is planned, framed as future-proofing. The full plans arrive in January or February 2027.
+- **Mokhaiotl Cloth**: it becomes tradeable, following the approach used for the Araxyte Fang.
+- **Dragonfire Shield**: it gets the same interface treatment as the Rondache.
+- **New Renderer**: it moves into a further stage of internal testing. This is groundwork with no visual changes yet, and the separate HD project continues alongside it.
 - **Pet dogs**: A Ruff Situation added pups in 12 breeds with 3 colours each. Cat breeds are research only for now.
 
-Jagex also says the polled Sailing content from the 2025 Winter Summit (Barracuda Trial, Pirate Encounters and Sea Expansions) will not move forward soon, because the team's focus is on its RuneFest announcements. Hard Mode for The Fractured Archive is not being worked on.
+Some plans are on hold. Jagex says the polled Sailing content from the 2025 Winter Summit (Barracuda Trial, Pirate Encounters and Sea Expansions) will not move forward soon, because the team's focus is on its RuneFest announcements. Hard Mode for The Fractured Archive is not being worked on.
+
+Android players have something to try before New Year. The beta is opt-in, so nothing changes on your phone until you switch it on.

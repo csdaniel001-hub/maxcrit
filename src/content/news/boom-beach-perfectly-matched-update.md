@@ -24,7 +24,8 @@ image_alt: "Official App Store screenshot of Boom Beach: War Strategy Game"
 image_status: "candidate"
 ---
 
-Boom Beach is changing the way opponents appear across the Archipelago. Supercell's Perfectly Matched update separates AI encounters from dedicated player-versus-player islands and introduces recurring rivalries.
+
+Boom Beach now gives grudges a 21-day lifespan. Supercell's Perfectly Matched update splits the Archipelago's opponents into AI encounters and dedicated player-versus-player islands, and players who keep beating each other become recurring rivals.
 
 ## How matchmaking works
 
@@ -35,6 +36,6 @@ Boom Beach is changing the way opponents appear across the Archipelago. Supercel
 
 ## Progression and combat changes
 
-Mega Crab difficulty increases faster after level 70. The update also revises Boom Academy, adds unlockable profile portraits and frames, introduces Rifleman Sergeant as a Cyber Leader, and changes forced-movement priorities. Supercell ID registration now awards 250 Diamonds, including for existing registered players.
+Mega Crab difficulty climbs faster after level 70. Boom Academy is revised, profile portraits and frames can be unlocked, Rifleman Sergeant joins as a Cyber Leader, and forced-movement priorities change. Registering a Supercell ID now awards 250 Diamonds, and players who registered earlier get them too.
 
-Early-game unlocks have also changed: the Submarine moves to HQ6 and Season Pass to HQ7. Players returning after a break should check their new map layout and reward tracks.
+Early-game unlocks move as well: the Submarine now opens at HQ6 and the Season Pass at HQ7. If you are coming back after a break, look over your map layout and reward tracks before you spend anything, because both have shifted.

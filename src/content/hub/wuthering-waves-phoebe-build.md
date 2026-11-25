@@ -59,7 +59,9 @@ image_alt: "Official Wuthering Waves profile art of Phoebe"
 image_status: "candidate"
 ---
 
-Phoebe is a Spectro Rectifier character with two combat modes. In Absolution she is the damage dealer and wants someone else to apply Spectro Frazzle. In Confession she supplies Frazzle herself to enable another damage dealer. Choosing the wrong mode for the team is a bigger loss than choosing the second-best weapon.
+Phoebe is a Spectro Rectifier with two combat modes, and picking the wrong one for the team costs more than settling for the second-best weapon. In Absolution she is the damage dealer and wants someone else to apply Spectro Frazzle. In Confession she supplies Frazzle herself so another damage dealer can cash in.
+
+Your roster usually makes the call. A Zani team puts her in Confession. Pairing her with Rover: Spectro or Ciaccona puts her in Absolution, with them handling the Frazzle.
 
 ## Two builds, two jobs
 
@@ -71,11 +73,11 @@ Phoebe is a Spectro Rectifier character with two combat modes. In Absolution she
 | 3-costs | Spectro DMG + Spectro DMG/ATK% | Spectro DMG/ATK%, with enough Energy Regen for Liberation |
 | 1-costs | ATK% twice | ATK% twice |
 
-In Absolution, check your CRIT Rate after applicable buffs before adding more of it. In Confession, the value of a reliable Liberation and fast Outro can exceed a small improvement in personal damage. Moonlit Clouds is designed to pass a buff to the incoming teammate, so plan to switch directly into the intended carry.
+In Absolution, check your CRIT Rate after applicable buffs before adding more of it. In Confession, the value of a reliable Liberation and fast Outro can exceed a small improvement in personal damage. Moonlit Clouds is designed to pass a buff to the incoming teammate, so plan to switch directly into the intended carry. Two modes, two different shopping lists.
 
 ## Weapons
 
-Luminous Hymn is the signature option for both builds. For damage-focused Phoebe, Lethean Elegy or Stringmaster can be alternatives if already owned. Cosmic Ripples is a permanent five-star Rectifier; it trades CRIT for other stats. Ocean's Gift came from the Version 2.1 Old Man and the Whale event and has only returned since as a limited-time exchange reward. Augment is a paid Battle Pass weapon. Avoid spending limited pulls on another character's signature merely to replace an adequate permanent weapon.
+Luminous Hymn is the signature option for both builds, so it works whichever mode you settle on. For damage-focused Phoebe, Lethean Elegy or Stringmaster can be alternatives if already owned. Cosmic Ripples is a permanent five-star Rectifier; it trades CRIT for other stats. Ocean's Gift came from the Version 2.1 Old Man and the Whale event and has only returned since as a limited-time exchange reward. Augment is a paid Battle Pass weapon. Avoid spending limited pulls on another character's signature merely to replace an adequate permanent weapon.
 
 ## Team choices
 
@@ -94,4 +96,6 @@ Prydwen rates Phrolova as one of Phoebe's best Absolution partners when Phrolova
 
 Full Prayer is required to enter either mode, restoring Divine Voice for Starflash. Hold Basic Attack for Absolution Litany, or hold Resonance Skill for Utter Confession. Use Resonance Skill To Where Light Shines to summon the Ring of Mirrors and activate Liberation after entering the intended mode. With Divine Voice available, Basic Attack Stage 3 or a Dodge Counter turns the next Heavy Attack into Starflash; inside the Ring of Mirrors her Basic Attack becomes Chamuel's Star.
 
-Absolution permits four Starflash uses from a full Divine Voice bar, while Confession permits two. Apply external Frazzle before Absolution's heavy attacks; repeat application when a new enemy wave appears. In Confession, finish the shorter sequence and Outro directly into Zani so her damage benefits from the support window. Prioritize Forte Circuit and Liberation before less impactful skill levels, with personal damage investment less urgent for Confession. The two modes serve different teams.
+Absolution permits four Starflash uses from a full Divine Voice bar, while Confession permits two. Apply external Frazzle before Absolution's heavy attacks; repeat application when a new enemy wave appears. In Confession, finish the shorter sequence and Outro directly into Zani so her damage benefits from the support window. Prioritize Forte Circuit and Liberation before less impactful skill levels, with personal damage investment less urgent for Confession.
+
+The two modes serve different teams. Settle which one yours needs, and the Echo set, the weapon and the rotation follow from that choice.

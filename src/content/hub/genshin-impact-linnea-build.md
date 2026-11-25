@@ -51,7 +51,9 @@ image_alt: "Official Genshin Impact art for Linnea"
 image_status: "candidate"
 ---
 
-Linnea is a Geo bow support whose value comes from strengthening Lunar-Crystallize teams while contributing damage and healing. Her Character Event Wish ends December 15 at 14:59 server time. Zibai owners have an obvious use for her, but Navia and Itto can also benefit from teams built around Linnea and Lunar-Crystallize.
+If you own Zibai, Linnea has an obvious place on your account. She is a Geo bow support who strengthens Lunar-Crystallize teams while chipping in damage and healing, and her Character Event Wish runs until 14:59 server time on December 15.
+
+Zibai is only the first answer, though. Navia and Itto can also benefit from teams built around Linnea and Lunar-Crystallize, so Geo players without Zibai have a use for her too.
 
 ## Build around the DEF threshold
 
@@ -63,7 +65,7 @@ Linnea is a Geo bow support whose value comes from strengthening Lunar-Crystalli
 | Circlet | CRIT or DEF% |
 | Substats | Required ER, CRIT, DEF%, then EM |
 
-At 2,000 DEF, Linnea reaches the 14% cap on her Lunar-Crystallize base damage bonus. KQM documents this breakpoint. Extra DEF still contributes to her other DEF-scaling effects, so reaching the cap does not make the stat worthless. A DEF Goblet supports more of her kit than a conventional Geo damage Goblet.
+At 2,000 DEF, Linnea reaches the 14% cap on her Lunar-Crystallize base damage bonus. KQM documents this breakpoint. Extra DEF still contributes to her other DEF-scaling effects, so reaching the cap does not make the stat worthless. That is why a DEF Goblet supports more of her kit than a conventional Geo damage Goblet.
 
 KQM favors Husk of Opulent Dreams, while Mobalytics favors Aubade of Morningstar and Moon. Both are competitive choices. If you already have a strong set, check your DEF and healing needs before farming a replacement. With Aubade, start with DEF% on both Sands and Goblet: at level 90, 907 base DEF multiplied by 2.166 gives about 1,965 DEF before weapon bonuses and substats. An ER Sands makes the 2,000 DEF threshold harder to reach.
 
@@ -76,7 +78,7 @@ KQM favors Husk of Opulent Dreams, while Mobalytics favors Aubade of Morningstar
 | Elegy for the End | Existing team-oriented premium bow |
 | Favonius Warbow | Team energy is the limiting factor |
 
-Slingshot is especially attractive because Linnea's DEF scaling makes its low base ATK less problematic. Do not spend wishes replacing it until you have identified what the team actually lacks.
+Slingshot is the sleeper here. Linnea's DEF scaling makes its low base ATK less problematic, so do not spend wishes replacing it until you have identified what the team actually lacks.
 
 Linnea's Burst heals the party and refreshes Lumi's duration; it does not deal damage. If the party can comfortably survive without healing every cycle, offensive substats become more attractive than building enough ER to Burst on cooldown. With Furina or HP-dependent weapon passives, more frequent healing can justify a different artifact or weapon choice.
 
@@ -95,6 +97,6 @@ These examples follow KQM’s documented lineups. In the Navia team, Furina incr
 
 ## Should you invest in Linnea?
 
-Check whether your roster can support Lunar-Crystallize with consistent Hydro and a Geo damage dealer. Linnea is a candidate for established Navia and Itto teams as well as Zibai teams. Consider whether building a new reaction-focused lineup improves your existing roster before committing wishes. For Zibai specifically, read the [Zibai build](/hub/builds/genshin-impact-zibai-build.html) before committing to both characters.
+Start with your roster: can it support Lunar-Crystallize with consistent Hydro and a Geo damage dealer? Linnea is a candidate for established Navia and Itto teams as well as Zibai teams. If she would mean building a reaction lineup from scratch, ask whether that lineup improves what you already field before committing wishes. For Zibai specifically, read the [Zibai build](/hub/builds/genshin-impact-zibai-build.html) before committing to both characters.
 
-See the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html) for availability and the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) for comparisons across featured characters.
+Before you wish, line her up against the other featured characters in the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html), and confirm her dates on the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html).

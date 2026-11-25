@@ -47,7 +47,9 @@ image_alt: "Official Genshin Impact art for Varesa"
 image_status: "candidate"
 ---
 
-Varesa turns a catalyst build into a plunge-focused melee playstyle. She is available through the Names Forged Beneath Blazing Skies Chronicled Wish until December 15 at 14:59 server time. Her strongest investment opportunities depend on whether you already have Iansan and a functional Overloaded team.
+Varesa is a catalyst user who plays like a plunge-focused melee fighter. She is available through the Names Forged Beneath Blazing Skies Chronicled Wish until December 15 at 14:59 server time.
+
+Her strongest investment opportunities come down to two things on your account: Iansan, and a functional Overloaded team. Have both, and her artifacts and weapon are the next step. Missing them, the team is the first thing to fix.
 
 ## Artifacts and talent investment
 
@@ -61,7 +63,7 @@ Varesa turns a catalyst build into a plunge-focused melee playstyle. She is avai
 
 Long Night's Oath rewards her repeated plunges. Obsidian Codex offers 40% CRIT Rate during its active effect. With Codex active, 60% displayed CRIT Rate already reaches the 100% cap before any additional buffs. That is a useful check before equipping a CRIT Rate catalyst or farming a new Circlet.
 
-The set choice should therefore follow the weapon and existing substats. A well-built Codex set can save substantial farming effort, especially if it is already available on your account. If CRIT Rate is being wasted, Long Night's Oath becomes more appealing.
+Let the weapon and your existing substats pick the set. A well-built Codex set can save substantial farming effort, especially if it is already available on your account. If CRIT Rate is being wasted, Long Night's Oath becomes more appealing.
 
 Upgrade Normal Attack and Burst before spending heavily on Skill levels. Varesa's plunge damage relies on Normal Attack talent scaling, while her Burst contributes meaningful additional damage. Her special Burst usage depends on the combo and available energy; do not sacrifice a strong offensive build to meet an ER target copied from a different rotation.
 
@@ -74,7 +76,7 @@ Upgrade Normal Attack and Burst before spending heavily on Skill levels. Varesa'
 | Lost Prayer to the Sacred Winds | Existing premium CRIT Rate option |
 | Flowing Purity | Craftable option when healing supports its passive |
 
-The Widsith's rotating buffs make individual attempts inconsistent. Judge the build across repeated rotations rather than one unusually large plunge. Flowing Purity is worth considering for accounts without a suitable gacha catalyst, but its healing condition should be part of the team plan.
+The Widsith's rotating buffs make individual attempts inconsistent. Judge the build across repeated rotations instead of one unusually large plunge. Flowing Purity is worth considering for accounts without a suitable gacha catalyst, but its healing condition should be part of the team plan.
 
 ## Overloaded teams and rotations
 
@@ -84,12 +86,12 @@ The Widsith's rotating buffs make individual attempts inconsistent. Judge the bu
 | Varesa, Iansan, Chevreuse, Bennett | Accessible support roster |
 | Varesa, Iansan, Furina, Xianyun | Alternative when Chevreuse is unavailable |
 
-Chevreuse's resistance reduction requires an exclusively Pyro and Electro party. Adding an Anemo or Geo support to that lineup disables the relevant passive. The Furina and Xianyun team is a separate archetype, not a replacement for one slot in a Chevreuse team.
+Chevreuse's resistance reduction requires an exclusively Pyro and Electro party. Adding an Anemo or Geo support to that lineup disables the relevant passive. The Furina and Xianyun team is a separate archetype; it does not drop into one slot of a Chevreuse team.
 
 Set up the support buffs and then use Varesa's Skill-assisted Charged Attacks and plunges, weaving in her special Burst when available. Varesa’s repeated plunge movement helps maintain the maximum buff from Iansan’s Burst. In the Bennett lineup, Pyro application and staying within his field can constrain practical performance.
 
 ## Pull or improve the team?
 
-If you already own Varesa, compare the value of her signature against gaps in your support roster. A premium catalyst cannot restore Chevreuse's disabled passive or maintain a missing buff. Start with the intended team and a working rotation, then refine artifacts and weapon investment.
+If you already own Varesa, compare the value of her signature against gaps in your support roster. A premium catalyst cannot restore Chevreuse's disabled passive or maintain a missing buff. Start with the intended team and a working rotation, then refine artifacts and weapon investment. The plunges only hit as hard as the team behind them allows.
 
-See the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html) for availability and the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) for comparisons across featured characters.
+If you are still deciding, the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) compares her with the other featured characters, and the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html) shows how long she stays.

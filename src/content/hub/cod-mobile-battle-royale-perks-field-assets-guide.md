@@ -30,11 +30,11 @@ image_alt: "Official Call of Duty: Mobile Season 10 Battle Royale art on Verdans
 image_status: "candidate"
 ---
 
-Season 10 introduces a new equipment vocabulary in Call of Duty: Mobile Battle Royale. A player returning to the mode will see Perks where Wildcards used to be, and Field Assets in place of Scorestreaks. The change creates a useful question for every loadout: which problem are you trying to solve in the next fight?
+If you return to Call of Duty: Mobile Battle Royale in Season 10, the loadout screen speaks a new language. Perks sit where Wildcards used to be, and Field Assets have taken over from Scorestreaks. Every loadout now starts from one question: which problem are you trying to solve in the next fight?
 
 ## Choosing a Perk
 
-These are the Season 10 options for Battle Royale. Perks appear during matches and are available through loadouts at Loadout Drops and Buy Stations. The recommendations in the final column are our practical interpretations of the published effects.
+Here are the Season 10 options. Perks turn up during matches and come through loadouts at Loadout Drops and Buy Stations. The last column is our own interpretation of each published effect.
 
 | Perk | Published effect in brief | When to prioritize it |
 |---|---|---|
@@ -55,16 +55,16 @@ These are the Season 10 options for Battle Royale. Perks appear during matches a
 
 ## Three decisions before your next match
 
-For a close-range player, decide whether the main difficulty is landing shots before aiming, reaching cover, or being caught while reloading. Wild Hip Fire, Slide Reload and Reload Rush address those problems respectively. Hunter's Rhythm is a more conditional option: its faster aiming effect comes after a kill, so it is a weaker fit for a player whose first engagement is the sticking point.
+Close-range players should start by naming what loses them fights: missing shots before aiming, failing to reach cover, or getting caught mid-reload. Wild Hip Fire, Slide Reload and Reload Rush answer those three in that order. Hunter's Rhythm is a more conditional option: its faster aiming effect comes after a kill, so it is a weaker fit for a player whose first engagement is the sticking point.
 
-For a rifle player, separate horizontal recoil from flinch. ADS Movement Speed addresses the former and Flinch Reduction the latter. Sustained Fire Correction is worth considering when accuracy degrades during extended bursts. Compare one change at a time on a familiar weapon.
+Rifle players need to tell horizontal recoil and flinch apart, because each has its own fix: ADS Movement Speed for the first, Flinch Reduction for the second. When accuracy falls apart in long bursts, Sustained Fire Correction is the one to try. Change one Perk at a time on a weapon you know well, or you won't know which one helped.
 
-For ranged fights, Ballistic Calibration is the candidate when projectile travel makes a moving target difficult to hit. Sniper Expert suits semi-automatic sniper rifles, because it lets them fire continuously. Tracking Ammo tightens your spread while aiming and marks an enemy you hit for a short time.
+At range, reach for Ballistic Calibration when projectile travel keeps you missing moving targets. Sniper Expert suits semi-automatic sniper rifles, because it lets them fire continuously. Tracking Ammo tightens your spread while aiming and marks an enemy you hit for a short time.
 
 ## Field Assets and the Verdansk redeployment budget
 
 Field Assets can be included in loadouts or bought at Buy Stations. Season 10 adds Death Machine and EMP Systems, changes prices and adds a scope mechanism for Field Assets such as Strafing Run and Stealth Chopper.
 
-Your spending priorities change when a teammate is eliminated on Verdansk. Winning the first-elimination Gulag fight returns that teammate to the match; a loss leaves the squad responsible for buying their redeployment. Reserve enough resources for that possibility before making optional purchases. For example, if your squad already has a teammate waiting to redeploy, bringing that player back may matter more than acquiring another offensive asset. Assign one squad member to keep track of that shared priority.
+On Verdansk, a downed teammate changes the shopping list. Win the first-elimination Gulag fight and they're back in the match; lose it and the squad has to buy their redeployment. Keep enough in reserve for that before you spend on extras. For example, if your squad already has a teammate waiting to redeploy, bringing that player back may matter more than acquiring another offensive asset. Give one squad member the job of tracking that shared budget.
 
-For the wider update, see the [Season 10 patch tracker](/hub/patch-trackers/call-of-duty-mobile-season-10-2026-patch-notes.html) and [COD Mobile events](/hub/events/call-of-duty-mobile-events.html).
+Pick your Perk for the problem that keeps losing you fights, and let the squad's redeployment budget decide the rest. For the wider update, see the [Season 10 patch tracker](/hub/patch-trackers/call-of-duty-mobile-season-10-2026-patch-notes.html) and [COD Mobile events](/hub/events/call-of-duty-mobile-events.html).

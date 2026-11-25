@@ -27,9 +27,10 @@ image_alt: "Official REDMAGIC banner for the 2026 PUBG MOBILE Global Championshi
 image_status: "candidate"
 ---
 
-REDMAGIC is the Official Gaming Phone Sponsor of the 2026 PUBG MOBILE Global Championship, which starts on November 26. The phone it is showcasing at the event is the REDMAGIC 11S Pro, not the newer 12 Pro.
 
-The championship is organised by KRAFTON and Level Infinite. 39 teams play for a US$3 million prize pool, and 16 teams reach the Grand Finals on December 11 to 13 at the Turkcell Basketbol Gelişim Merkezi in Istanbul. Our [PMGC 2026 schedule](/news/pubg-mobile-global-championship-2026-istanbul-schedule.html) has the full format and dates.
+39 teams and a US$3 million prize pool head into the 2026 PUBG MOBILE Global Championship, which starts on November 26 with REDMAGIC as its Official Gaming Phone Sponsor. The phone REDMAGIC is showcasing at the event is the REDMAGIC 11S Pro, the model that came before the newer 12 Pro.
+
+KRAFTON and Level Infinite organise the championship, and 16 teams reach the Grand Finals on December 11 to 13 at the Turkcell Basketbol Gelişim Merkezi in Istanbul. Our [PMGC 2026 schedule](/news/pubg-mobile-global-championship-2026-istanbul-schedule.html) has the full format and dates.
 
 | Part | REDMAGIC 11S Pro |
 |---|---|
@@ -39,6 +40,6 @@ The championship is organised by KRAFTON and Level Infinite. 39 teams play for a
 | Triggers | 520Hz shoulder triggers |
 | Battery | 7,500mAh, 80W wired and wireless |
 
-REDMAGIC says it will showcase the 11S Pro at the event as a phone for competitive gamers.
+REDMAGIC is pitching the 11S Pro at the event as a phone for competitive gamers, and the 3,000Hz touch sampling and 520Hz shoulder triggers are the specs that back that up.
 
-If the sponsorship has you looking at REDMAGIC, the 11S Pro is the older model. The [REDMAGIC 12 Pro](/news/redmagic-12-pro-dual-loop-liquid-cooling.html) moves to the Snapdragon 8 Elite Extreme Gen 6, a 185Hz screen, an 8,400mAh battery and a dual-loop cooling system, so check the price gap between the two before buying.
+If the sponsorship has you shopping for a REDMAGIC, look at both models. The [REDMAGIC 12 Pro](/news/redmagic-12-pro-dual-loop-liquid-cooling.html) moves to the Snapdragon 8 Elite Extreme Gen 6, a 185Hz screen, an 8,400mAh battery and a dual-loop cooling system, so compare the price gap before you buy.

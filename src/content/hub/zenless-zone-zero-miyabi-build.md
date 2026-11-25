@@ -55,7 +55,9 @@ image_alt: "Official Zenless Zone Zero art of Hoshimi Miyabi"
 image_status: "candidate"
 ---
 
-Hoshimi Miyabi is a Frost Anomaly agent whose build behaves differently from most Anomaly characters. She wants CRIT Rate to accelerate Frost buildup and rewards a team that repeatedly generates Disorder. Farming Anomaly Proficiency alone misses the part of her kit that makes her charged attacks reliable. The following setup assumes Mindscape 0.
+Gear Miyabi like most Anomaly characters and you miss the part of her kit that makes her charged attacks reliable. Hoshimi Miyabi is a Frost Anomaly agent who wants CRIT Rate to accelerate Frost buildup, so farming Anomaly Proficiency alone leaves her short. The following setup assumes Mindscape 0.
+
+She also rewards a team that repeatedly generates Disorder. In team terms, you also need a Support agent or Section 6 teammate to switch on Bask in Frost, and every lineup below meets that condition.
 
 ## Drive Discs and CRIT targets
 
@@ -69,7 +71,7 @@ Hoshimi Miyabi is a Frost Anomaly agent whose build behaves differently from mos
 
 Branch & Blade Song grants 30% extra CRIT DMG at 115 or more Anomaly Mastery and a conditional 12% CRIT Rate after Freeze or Shatter. Miyabi's buildup conversion caps at 80% CRIT Rate. CRIT Rate above 80% still improves her direct critical hit consistency. Icy Veins recommends getting as close to 100% as practical.
 
-For example, if the stat screen shows 70% CRIT Rate before the set's conditional effect, the active bonus would bring her to 82%. Before that bonus activates, she has only 70%. Choose your Disc 4 around how consistently you maintain the buff, and count it once. A two-piece Woodpecker set helps when CRIT is scarce; Polar Metal is an alternative after the rate is comfortable.
+For example, if the stat screen shows 70% CRIT Rate before the set's conditional effect, the active bonus would bring her to 82%. Before that bonus activates, she has only 70%. Choose your Disc 4 around how consistently you maintain the buff, and count it once. A two-piece Woodpecker set helps when CRIT is scarce; Polar Metal is an alternative after the rate is comfortable. Either way, CRIT comes first on this character.
 
 ## W-Engines
 
@@ -107,4 +109,4 @@ The resource ceiling means sequencing matters. At five points, using Ultimate im
 
 Prioritize Core Skill and Basic Attack, then invest in Ultimate and other important damage skills. Use the charged attack during a useful damage window. Don't force a long combo while the enemy is moving away.
 
-For more account resources, see [Zenless Zone Zero redeem codes](/hub/codes/zenless-zone-zero-codes.html). Miyabi's equipment recommendations do not depend on a specific current rerun.
+Miyabi's equipment recommendations do not depend on a specific current rerun, so CRIT discs you farm now stay useful. For more account resources while you farm, see [Zenless Zone Zero redeem codes](/hub/codes/zenless-zone-zero-codes.html).

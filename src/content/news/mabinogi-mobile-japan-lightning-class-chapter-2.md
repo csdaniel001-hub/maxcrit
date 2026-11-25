@@ -11,11 +11,6 @@ platforms:
 - pc
 titles:
 - mabinogi-mobile
-tldr:
-- "<b>New class</b>: 電撃術師 (dengeki jutsushi), a ranged lightning caster with its own weapons, gear and accessory runes."
-- Chapter 2 of the 女神降臨 (Megami Kōrin) story, 荒野の魔女, adds a new area north of Dunbarton and the mining town Bangor.
-- The new Enchant system lets you add stats and bonus effects to weapons and armor with Enchant Scrolls.
-- The White Succubus raid arrives on December 7, and the class levelling event runs until December 9.
 sources:
 - title: "NEXON Japan official press release, November 25, 2026"
   url: https://jp.nexon.com/news/136044?category=0
@@ -30,13 +25,16 @@ image_alt: "Official App Store screenshot of マビノギモバイル"
 image_status: "candidate"
 ---
 
-NEXON's November 25 update for the Japanese version of Mabinogi Mobile, developed by devCAT, is live on mobile and PC with cross-play. It adds a new class, the next story chapter, a gear system and four events. The Japanese release has no official English names for the new class and events yet, so this article keeps NEXON Japan's names with a reading.
+
+Mabinogi Mobile's Japanese version has a new way to fight as of November 25: 電撃術師, a ranged caster who calls down lightning. NEXON's update for the devCAT-developed game is live on mobile and PC with cross-play, and it also brings the next story chapter, a gear system and four events.
+
+The new class and events only have Japanese names for now, so they appear here as NEXON Japan writes them, with a reading.
 
 ## 電撃術師, the new lightning class
 
 電撃術師 (dengeki jutsushi, roughly "lightning arts user") is a ranged magic attacker built around electricity. It charges mana and calls down lightning with 落雷 (rakurai), and damages enemies in an area with Electric Field. The class comes with its own weapons, equipment, accessory runes and fashion items.
 
-If you want to try it, the 閃光の主 event runs until December 9 at 5:59 JST and pays out at each 電撃術師 class level milestone. Rewards include Silver Coins, Fashion Tickets, dye ampoules and an Elite accessory rune for the class so it pays to level the class before the event ends.
+The timing favours anyone who starts now. The 閃光の主 event runs until December 9 at 5:59 JST and pays out at each 電撃術師 class level milestone, with Silver Coins, Fashion Tickets, dye ampoules and an Elite accessory rune for the class among the rewards, so levelling the class before the event ends gets you gear for it on the way.
 
 ## Chapter 2 and the new areas
 
@@ -44,7 +42,7 @@ The main story continues with 荒野の魔女 ("The Witch of the Wilds"), Chapte
 
 Two more locations open with it: a new dungeon, バリ鉱区, and a new hunting ground, 雲の荒野.
 
-The update also adds Enchant. Enchant Scrolls attach stats and bonus effects to weapons and armor, and you choose the slot and effect to fit your build.
+Enchant is the new gear system. Enchant Scrolls attach stats and bonus effects to weapons and armor, and you choose the slot and effect to fit your build.
 
 ## Raid, fashion and events
 

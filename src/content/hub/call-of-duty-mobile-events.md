@@ -30,9 +30,9 @@ image_alt: "Official App Store screenshot of Call of Duty®: Mobile"
 image_status: "candidate"
 ---
 
-Season 10 celebrates the seventh anniversary and introduces Verdansk. The published community calendar uses UTC dates.
+7 years in, Call of Duty: Mobile marks its anniversary with Season 10 and the arrival of Verdansk. 6 of the 8 events below run until December 9, while two playlists close much sooner.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+The dates are UTC calendar dates, current as of November 24, 2026. Times follow the basis shown in the table, so go by the countdown in your own game when a deadline is close.
 
 ## Current event schedule
 
@@ -53,7 +53,7 @@ Event dates below are copied from each game's official announcements as of Novem
 
 - **Event window**: 2026-11-12 to 2026-12-09 (UTC calendar dates; hours unpublished).
 
-Complete the Verdansk story objectives.
+Work through the Verdansk story objectives. This one carries the most concrete rewards on the list.
 
 - **Rewards**: Ghost Operator skin and Legendary assault rifle blueprint.
 
@@ -115,4 +115,4 @@ Select Chase from the multiplayer playlist.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Play Firing Range 10v10 and Chase first if you want them, because both end on 2026-11-25. Everything else gives you until December 9, and the Verdansk story is where to spend that time if you're after the Ghost Operator skin and the Legendary assault rifle blueprint. Claim rewards as they unlock. Dates can change after publication, and a campaign window doesn't mean every activity is open every day.

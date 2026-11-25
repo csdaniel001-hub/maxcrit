@@ -93,7 +93,7 @@ image_alt: 'Official App Store screenshot of Arknights: Endfield'
 image_status: candidate
 ---
 
-This page collects the current banner schedules for nine more gacha games, from Zenless Zone Zero to Path to Nowhere. Dates come from each game's official announcements, with server times kept as published, so a banner listed with a date and no hour switches over at the time shown in the game.
+9 more gacha games, one page: the current banner schedules from Zenless Zone Zero to Path to Nowhere. Server times are kept as published, so a banner listed with a date and no hour switches over at the time shown in the game.
 
 ## Zenless Zone Zero
 
@@ -106,7 +106,7 @@ This page collects the current banner schedules for nine more gacha games, from 
 
 
 
-The December 2 update introduces Sunbringer and Robin. HoYoverse also announced Kafka for the second half, after January 1. Robin has a free acquisition route, so verify the login reward before spending Encrypted Master Tapes. The exact crossover closing times and future W-Engine lineup have not been confirmed from accessible official text here. Use Signal Search and its Details panel for current rates and featured A-ranks.
+The December 2 update introduces Sunbringer and Robin. HoYoverse also announced Kafka for the second half, after January 1. Robin has a free acquisition route, so look at the login reward before you spend any Encrypted Master Tapes on her. The exact crossover closing times and future W-Engine lineup have not been confirmed from accessible official text here. Use Signal Search and its Details panel for current rates and featured A-ranks.
 
 ## Arknights: Endfield
 
@@ -117,7 +117,7 @@ The December 2 update introduces Sunbringer and Robin. HoYoverse also announced 
 
 
 
-The other possible six-star operators in Argent Flow are Si, Typhoeus, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. Complete Chapter I Process I: Break the Siege to access this recruitment. The banner has bonus recruitment milestones at 30 and 60 attempts; banner-specific permits can expire. The exact maintenance cutoff is reported by the wiki as Nov 25 05:59 Asia and Nov 24 16:59 Americas/Europe; keep the publisher's maintenance-dependent cutoff authoritative. Kay is a tracker-reported successor, not a directly verified official notice.
+The other possible six-star operators in Argent Flow are Si, Typhoeus, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. Complete Chapter I Process I: Break the Siege to access this recruitment. The banner has bonus recruitment milestones at 30 and 60 attempts; banner-specific permits can expire. The exact maintenance cutoff is reported by the wiki as Nov 25 05:59 Asia and Nov 24 16:59 Americas/Europe; keep the publisher's maintenance-dependent cutoff authoritative. Kay as the successor comes from a tracker report and has no directly verified official notice.
 
 ## Goddess of Victory: NIKKE
 
@@ -128,7 +128,7 @@ The other possible six-star operators in Argent Flow are Si, Typhoeus, Ember, Li
 
 
 
-Scarlet: Goddeath closes at 19:59:59 UTC on November 25, before Sky closes at 19:59:59 UTC on December 2. Open Recruit and choose the specific recruitment pool rather than Ordinary Recruit. Check mileage eligibility and the listed rates in the game. No subsequent recruitment is verified here. The patch-note mirror is the available source; publisher text was not directly established.
+Scarlet: Goddeath closes at 19:59:59 UTC on November 25, before Sky closes at 19:59:59 UTC on December 2. In Recruit, pick the specific recruitment pool; Ordinary Recruit is a separate pool. Check mileage eligibility and the listed rates in the game. No subsequent recruitment is verified here. The patch-note mirror is the available source; publisher text was not directly established.
 
 ## Arknights
 
@@ -138,7 +138,7 @@ Scarlet: Goddeath closes at 19:59:59 UTC on November 25, before Sky closes at 19
 
 
 
-This is a reported rotating headhunting pool rather than a verified complete list of all active Global banners. Open Headhunt and consult the specific pool's details, including the other featured operators and the closing time. No CN schedule has been substituted for Global.
+Weedy and Phantom come from a reported rotating headhunting pool, and the list may leave out other active Global banners. Open Headhunt and consult the specific pool's details, including the other featured operators and the closing time. No CN schedule has been substituted for Global.
 
 ## Reverse: 1999
 
@@ -148,7 +148,7 @@ This is a reported rotating headhunting pool rather than a verified complete lis
 
 
 
-The Brilliance Within gives Global players another opportunity to recruit Brume. Open the Summon menu and select this pickup rather than the permanent pool.
+The Brilliance Within gives Global players another opportunity to recruit Brume. In the Summon menu, select this pickup and leave the permanent pool alone.
 
 ## Chaos Zero Nightmare
 
@@ -158,7 +158,7 @@ The Brilliance Within gives Global players another opportunity to recruit Brume.
 
 
 
-This Rescue rotation is tied to maintenance, not midnight. Inspect the specific Rescue pool and confirm the maintenance announcement before using a countdown.
+This Rescue rotation changes at maintenance, so a midnight countdown won't line up with it. Inspect the specific Rescue pool and confirm the maintenance announcement before using a countdown.
 
 ## Etheria: Restart
 
@@ -189,3 +189,5 @@ The reported debut period runs through December 3 on the published clock (Decemb
 
 
 The reported Fated Pursuit lineup is active until December 8. Check the Arrest interface for the featured characters, rarity, eligibility and actual server countdown.
+
+Across the page, 7 of the 9 games have a banner ending between December 1 and 3, which makes that the week most of your pulls get decided. NIKKE's Scarlet: Goddeath goes earlier still, on November 25 at 19:59:59 UTC.

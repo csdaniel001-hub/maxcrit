@@ -20,18 +20,17 @@ image_alt: "Official App Store screenshot of Marvel Contest of Champions"
 image_status: "candidate"
 ---
 
-Kabam started the Empire of Doom Saga in Marvel Contest of Champions with the November 2, 2026 update. Stellar-Forged Doom has taken over The Battlerealm, and the game's menus, theming and monthly intro comics have changed to match.
 
-New and reworked champions:
+Stellar-Forged Doom now rules The Battlerealm in Marvel Contest of Champions. Kabam's November 2, 2026 update started the Empire of Doom Saga, and the game's menus, theming and monthly intro comics have changed to suit the new landlord.
+
+New and reworked champions lead the Saga:
 
 - **Star-Lord (Kitty Pryde)**: Kitty takes over as Star-Lord after Peter had to give up leading the team.
 - **Beast**: a rework.
 - **Victorious Four**: a quartet transformed by a cosmic accident, who regained control with Victor Von Doom's help and now defend Latveria.
 
-New events:
+Reclamation War is the weekly backbone. These Realm Events sit in the hub and send you to win back territory from Stellar-Forged Doctor Doom, with newly Ascendable Champions and Victorious Four Champions among the rewards. Sieges add a co-op mode in which Summoners chip away at Defenders with huge Health Pools before time runs out.
 
-- **Reclamation War**: weekly Realm Events in the hub to win back territory from Stellar-Forged Doctor Doom. Rewards include newly Ascendable Champions and Victorious Four Champions.
-- **Sieges**: a co-op mode where Summoners chip away at Defenders with huge Health Pools before time runs out.
-- **Empire of Doom Recruitment**: share a referral code to bring old players back. Both sides earn rewards, and players who have been away longer are worth more points.
+Empire of Doom Recruitment is aimed at lapsed players. Share a referral code, and both sides earn rewards when an old player comes back. Players who have been away longer are worth more points.
 
-Alliance War is also getting pre-authored maps, which Kabam says open up design space and guide entry-level players, so alliances no longer have to place a full map of defenders themselves.
+Alliance War is getting pre-authored maps, so alliances no longer have to place a full map of defenders themselves. Kabam says the change opens up design space and guides entry-level players. For officers who spent war prep arranging defender placements, it is one less job.

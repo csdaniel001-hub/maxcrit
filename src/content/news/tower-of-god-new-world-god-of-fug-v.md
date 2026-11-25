@@ -12,10 +12,6 @@ platforms:
 - android
 titles:
 - tower-of-god-new-world
-tldr:
-- "<b>[God of FUG] V</b> is a FUG-grade Blue Element Mage and Wave Controller, the same grade as Luslec, Gustang and Urek Mazino."
-- The Advent Summon and the Labyrinth of Memories V story event both run until December 9.
-- Growth Exchange moves Limit Break, Revolution and Potential between SSR+ Teammates. Everyone gets 1 exchange, returning players up to 5.
 sources:
 - title: Netmarble press release via Games Press
   url: https://www.gamespress.com/en-US/TOWER-OF-GOD-NEW-WORLD-UNVEILS-NEW-FUG-GRADE-TEAMMATE-GOD-OF-FUG-V
@@ -32,13 +28,16 @@ image_alt: "Official App Store screenshot of Tower of God: NEW WORLD"
 image_status: "candidate"
 ---
 
-Netmarble has added [God of FUG] V to Tower of God: New World. He is a FUG-grade Teammate, one of the game's highest grades, on par with [Head of FUG] Luslec, [Family Head] Gustang and [Wolhaiksong] Urek Mazino.
+
+In the original story V founded FUG, and in Tower of God: New World, where Netmarble has just added [God of FUG] V, he has become its god. The FUG-grade Teammate arrives with an Advent Summon and a story event that both run until December 9.
+
+FUG is one of the game's highest grades, which puts V on par with [Head of FUG] Luslec, [Family Head] Gustang and [Wolhaiksong] Urek Mazino.
 
 ## Who V is and how he fights
 
-V is a Blue Element Mage with the Wave Controller role. In the original story he founded FUG with Luslec and Arlene. This version is an alternate take in which he has become the god of FUG.
+V is a Blue Element Mage with the Wave Controller role. In the original story he founded FUG with Luslec and Arlene, and this version is an alternate take in which he has become the god of FUG.
 
-His ultimate summons a water dragon made of Shinsu. It hits hard and stops enemies from recovering HP for a set time. He holds up well against enemy skill attacks but is vulnerable to basic attacks, so he fits best into fights against skill-heavy teams.
+His ultimate summons a water dragon made of Shinsu. It hits hard and stops enemies from recovering HP for a set time. He holds up well against enemy skill attacks but is vulnerable to basic attacks, so he is at his best against skill-heavy teams and exposed against teams built on basic attacks.
 
 ## Events running until December 9
 
@@ -46,10 +45,10 @@ His ultimate summons a water dragon made of Shinsu. It hits hard and stops enemi
 - **Labyrinth of Memories: V**: a story event about him. Event points exchange for Revolution Fragments and Soul Dice.
 - **TapTap Plus**: part of the release celebration, with chances at Black Market Tickets and V himself.
 
-A limited Black Friday package with extra in-game items is on sale alongside the update. The official forum is also running a release celebration relay with a coupon schedule, so check it for free codes during the event.
+A limited Black Friday package with extra in-game items is on sale alongside the update. The official forum is also running a release celebration relay with a coupon schedule, so keep an eye on it for free codes during the event.
 
 ## Growth Exchange
 
-Growth Exchange lets you move the growth progress of SSR+ Teammates from one character to another: Limit Break, Revolution and Potential. Every player gets 1 exchange. Players who came back to the game after November 1 at 9:00 KST get up to 5.
+Growth Exchange moves the growth progress of SSR+ Teammates from one character to another: Limit Break, Revolution and Potential. Every player gets 1 exchange. Players who came back to the game after November 1 at 9:00 KST get up to 5.
 
-Use it to fix a real gap in your roster, for example moving investment from an SSR+ you no longer field to one your team needs. The exchange covers SSR+ Teammates, so it doesn't move growth onto FUG-grade V.
+With a single exchange unless you are a returning player, spend it on a real gap in your roster, for example moving investment from an SSR+ you no longer field to one your team needs. It only covers SSR+ Teammates, so it can't move growth onto FUG-grade V.

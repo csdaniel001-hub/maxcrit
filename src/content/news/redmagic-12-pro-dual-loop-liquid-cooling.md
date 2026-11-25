@@ -9,10 +9,6 @@ genres:
 platforms:
 - android
 titles: []
-tldr:
-- "<b>Two coolant loops</b> now cover both the chip and the battery, replacing the single loop of the 11 Pro."
-- REDMAGIC claims 27% better heat spreading, a 130% larger flow channel and a 25,500 RPM fan.
-- The 12 Pro starts at $899 for 12GB/256GB, with Snapdragon 8 Elite Extreme Gen 6 and an 8,400mAh battery.
 sources:
 - title: "REDMAGIC official cooling article, November 20, 2026"
   url: https://global.redmagic.gg/blogs/product-information/redmagic-12-pro-dual-loop-liquid-cooling
@@ -27,13 +23,14 @@ image_alt: "Official REDMAGIC image of the back of the 12 Pro"
 image_status: "candidate"
 ---
 
-REDMAGIC has published a breakdown of the cooling inside the REDMAGIC 12 Pro. The headline change is AquaCore Cooling System 3.0, which replaces the single liquid loop of the REDMAGIC 11 Pro with two.
+
+Turn the REDMAGIC 12 Pro over and an RGB halo lights up the coolant channels through the back. REDMAGIC's new breakdown of the phone's cooling explains what runs through them: AquaCore Cooling System 3.0, which replaces the single liquid loop of the REDMAGIC 11 Pro with two.
 
 ## Two loops instead of one
 
 The upper and lower loops cover the battery and the chipset, and the channels reach into the area where the fan pushes air out. A piezoelectric micro pump drives the coolant, a fluorinated liquid that REDMAGIC says is electrically insulating and stays liquid from -60°C to 108°C. The system is sealed, and REDMAGIC says it uses a new ultra-low-temperature bonding process to keep it leak-proof.
 
-The rest of the stack moves heat from the chip outwards. Liquid Metal 4.0 sits on a copper foil base between the chip and the vapor chamber. The vapor chamber has no fill ports, which REDMAGIC calls an industry first, and a raised-step design. The turbo fan has a labyrinth design, reinforced shafts and an anti-puncture membrane, and the coolant channels are lit by an RGB halo you can see through the back.
+The rest of the stack pulls heat away from the chip. Liquid Metal 4.0 sits on a copper foil base between the chip and the vapor chamber. The vapor chamber has no fill ports, which REDMAGIC calls an industry first, and a raised-step design. The turbo fan has a labyrinth design, reinforced shafts and an anti-puncture membrane, and the halo on the back is there to show it all off.
 
 REDMAGIC's numbers for the new system:
 
@@ -50,9 +47,9 @@ These are manufacturer figures. REDMAGIC's own FAQ adds that the system manages 
 
 ## What it means in games
 
-Cooling the battery as well as the chip matters in long sessions, because a phone throttles once the whole body gets hot, not only the processor. Spreading the heat and blowing it out with a fan is REDMAGIC's answer to that, aimed at long sessions of games like Genshin Impact or Wuthering Waves.
+Cooling the battery as well as the chip matters in long sessions, because a phone throttles once the whole body gets hot, and the processor is only one part of it. Spreading the heat and blowing it out with a fan is REDMAGIC's answer, aimed at long sessions of games like Genshin Impact or Wuthering Waves.
 
-The 185Hz screen gives room for high frame rates, but the game decides how many frames it renders. Check which frame rate options your main game supports on this chip before paying for the refresh rate.
+The 185Hz screen leaves room for high frame rates, but the game decides how many frames it renders. Before paying for the refresh rate, look up which frame rate options your main game offers on this chip.
 
 ## Specs and price
 

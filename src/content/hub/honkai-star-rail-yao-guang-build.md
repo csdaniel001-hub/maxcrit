@@ -62,7 +62,9 @@ image_alt: "Official Honkai: Star Rail Character Preview art of Yao Guang"
 image_status: "candidate"
 ---
 
-Yao Guang makes Elation teams more dangerous without competing for the main damage dealer's turns. Her build needs to solve two problems: keeping her Ultimate available and providing enough Speed and Elation to improve the party's damage. At E0, a fast, well-equipped Yao Guang is more useful than one geared like a conventional Physical DPS.
+Want an Elation team that hits harder without handing the main damage dealer's turns to someone else? That is Yao Guang's job. Her build has two problems to solve: keeping her Ultimate available, and carrying enough Speed and Elation to lift the party's damage.
+
+At E0, a fast, well-equipped Yao Guang is more useful than one geared like a conventional Physical DPS. If you play Elation, build her around Speed, Energy, CRIT and her own Elation, with ATK pieces left in the bag.
 
 ## How Yao Guang supports the team
 
@@ -91,7 +93,9 @@ Prioritize SPD substats, followed by CRIT Rate and CRIT DMG. Prydwen's stat targ
 
 During Version 4.7, Grab Your Opening Gifts includes Asat Pramad's Gift, which creates one custom max-level 5-star Relic from sets released up to 4.7. Diviner of Distant Reach SPD boots are the most direct use for her.
 
-Amaze-In Grace adds 30% Elation at 120 SPD and another 1% for every point above 120, counting up to 200 extra SPD, so Speed past 120 also raises her Elation. Diviner of Distant Reach and Sprightly Vonwacq also check 120 SPD, and Diviner's larger CRIT Rate bonus checks 160. A practical goal is 160 SPD. Prydwen's best-in-slot target is 200 SPD, which needs her signature. With no action advance or delay, action value is 10,000 / SPD: 62.5 AV at 160 SPD and 50 AV at 200 SPD, which puts her third natural action exactly on the 150 AV boundary, so 201 SPD is the safe target for three actions in that window. Prydwen also tunes Aha to 134 SPD, a breakpoint that needs a second Elation ally, and Version 4.7 raises the Aha Instant's base SPD when Aeon ★ Aha is in the team. Keep a working four-piece set unless a Speed change reaches one of these breakpoints.
+Speed does double duty on her. Amaze-In Grace adds 30% Elation at 120 SPD and another 1% for every point above 120, counting up to 200 extra SPD, so Speed past 120 also raises her Elation. Diviner of Distant Reach and Sprightly Vonwacq also check 120 SPD, and Diviner's larger CRIT Rate bonus checks 160. A practical goal is 160 SPD.
+
+Prydwen's best-in-slot target is 200 SPD, which needs her signature. With no action advance or delay, action value is 10,000 / SPD: 62.5 AV at 160 SPD and 50 AV at 200 SPD, which puts her third natural action exactly on the 150 AV boundary, so 201 SPD is the safe target for three actions in that window. Prydwen also tunes Aha to 134 SPD, a breakpoint that needs a second Elation ally, and Version 4.7 raises the Aha Instant's base SPD when Aeon ★ Aha is in the team. Keep a working four-piece set unless a Speed change reaches one of these breakpoints.
 
 ## Light Cones
 
@@ -101,7 +105,7 @@ Amaze-In Grace adds 30% Elation at 120 SPD and another 1% for every point above 
 | Mushy Shroomy's Adventures (S5) | Forgotten Hall shop option for Elation teams; weaker Ultimate economy. |
 | See You at the World's End! (S5) | Free from the 4.7 Trailblaze Mission; raises only her own CRIT DMG (10% per Elation character at S5, plus 20% while Aeon ★ Aha is on the field), with no SPD, Energy or team buff. |
 
-The signature smooths her rotation, and the build works without it. Do not assume that a different Elation cone provides the same Energy generation.
+The signature smooths her rotation, and the build works without it. The two other options trade in different directions: Mushy Shroomy's Adventures is the shop pick for Elation teams but costs Ultimate economy, while See You at the World's End! only raises her own CRIT DMG. Do not assume that a different Elation cone provides the same Energy generation.
 
 ## Teams
 
@@ -153,4 +157,6 @@ Prydwen's view is that she plays well at E0 and that no Eidolon is required. Our
 
 ## How Aeon ★ Aha changes her
 
-Version 4.7 adds Faces of Elation ★ Mind Reading, active when Aeon ★ Aha makes the Path of Elation ascend. At Aha E0, Great Boon's DMG multiplier rises by 20% of its original value, and after her Ultimate Yao Guang regenerates a fixed 12 Energy and gains 10 Bliss. At Aha E2 those become 40% and 30 Energy, with the same 10 Bliss. The fixed Energy refund shortens the wait for her 180-Energy Ultimate, so Aha's Eidolons affect her Ultimate economy as well as her damage. Avoid an ATK-only build, and don't spend all your SP refreshing her Zone early.
+Version 4.7 adds Faces of Elation ★ Mind Reading, active when Aeon ★ Aha makes the Path of Elation ascend. At Aha E0, Great Boon's DMG multiplier rises by 20% of its original value, and after her Ultimate Yao Guang regenerates a fixed 12 Energy and gains 10 Bliss. At Aha E2 those become 40% and 30 Energy, with the same 10 Bliss. The fixed Energy refund shortens the wait for her 180-Energy Ultimate, so Aha's Eidolons affect her Ultimate economy as well as her damage.
+
+Whatever the roster, the build stays the same at heart. SPD and Energy come first, an ATK-only build is off the table, and Skill Points belong to the carry's big turns instead of early Zone refreshes.

@@ -28,8 +28,9 @@ image_alt: "Official App Store screenshot of Vampire Therapist"
 image_status: "candidate"
 ---
 
-Little Bat Games released Vampire Therapist on iOS and Android on November 24. The BAFTA-nominated visual novel came out on PC in 2024 and reached Nintendo Switch, Xbox and PlayStation in February this year.
 
-You play Sam, a reformed Wild West gunslinger turned vampire, who now helps other vampires with their problems. Instead of fighting, you listen to your clients and spot the faulty thinking in what they say. The therapy ideas behind the sessions were made with licensed therapists, and the voice cast includes Matthew Mercer, Sarah Grayson, Francesca Meaux, Kylie Clark and creator Cyrus Nemati.
+Sam used to be a Wild West gunslinger. Now he is a vampire who helps other vampires with their problems, and since November 24 he has been doing it on iOS and Android, where Little Bat Games has released Vampire Therapist.
 
-The mobile version is rebuilt for touch and includes the base game, all free content updates and the Couples Therapy DLC pack. The download is free on the App Store and Google Play and covers the tutorial and the first two full sessions, so you can find out whether the slow, conversation-led play suits you before buying the full game.
+The BAFTA-nominated visual novel came out on PC in 2024 and reached Nintendo Switch, Xbox and PlayStation in February this year. There is no combat to speak of: you listen to your clients and spot the faulty thinking in what they say. The therapy ideas behind the sessions were made with licensed therapists, and the voice cast includes Matthew Mercer, Sarah Grayson, Francesca Meaux, Kylie Clark and creator Cyrus Nemati.
+
+The mobile version is rebuilt for touch and includes the base game, all free content updates and the Couples Therapy DLC pack. The free download on the App Store and Google Play covers the tutorial and the first two full sessions. That is enough to tell whether slow, conversation-led play is for you before you pay for the full game.

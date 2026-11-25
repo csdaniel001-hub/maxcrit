@@ -31,11 +31,14 @@ image_alt: "Official App Store screenshot of Arknights: Endfield"
 image_status: "candidate"
 ---
 
-GRYPHLINE's full notes for the Meeting You in the World o'Shrooms update are out. The update is mandatory: iOS players update through the App Store, Android players through the in-game prompt. On mobile it needs about 4 GB plus another 4 GB of free space during extraction.
+
+1,800 Oroberyl is waiting in two mails for every Arknights: Endfield character created before the Meeting You in the World o'Shrooms update, double what the pre-download notice promised. GRYPHLINE's full notes for the update are out, and they bring 6★ Kay, the new Wuling - Old Dam area and a free Mimino from December 16.
+
+The update is mandatory. iOS players update through the App Store, Android players through the in-game prompt, and on mobile it needs about 4 GB plus another 4 GB of free space during extraction.
 
 ## Compensation: 1,800 Oroberyl in two mails
 
-The pre-download notice promised 900 Oroberyl. The final notes add a second payment, so every character created before the update gets two separate mails once Mail unlocks:
+The pre-download notice promised 900 Oroberyl. A second payment came with the final notes, so each eligible character gets two separate mails once Mail unlocks:
 
 - **Update & Maintenance Compensation**: Oroberyl x900
 - **Bug Fix Compensation**: Oroberyl x900
@@ -56,7 +59,7 @@ Factory players get Exclusion Zone Rebuilding, a permanent mode that unlocks aft
 
 ## Free Oroberyl from events
 
-Most of the version's Oroberyl comes from events:
+The compensation is the small part. Most of the version's Oroberyl comes from events:
 
 | Event | Runs | Oroberyl |
 |---|---|---|

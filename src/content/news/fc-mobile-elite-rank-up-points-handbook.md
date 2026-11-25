@@ -24,22 +24,11 @@ image_alt: "Official App Store screenshot of EA SPORTS FC Soccer Mobile 27"
 image_status: "candidate"
 ---
 
-EA announced FC Mobile progression changes on November 19 that give managers who have already maxed out their favorite cards a new decision: improve their performance further or preserve their transfer-market flexibility.
 
-## What Rank 6 adds
+FC Mobile cards that have already reached Rank 5 can now climb to Rank 6, and the price is permanent: an upgraded item can never be traded again. EA announced the change on November 19, together with a personalized Handbook for the main screen.
 
-| Upgrade | Effect |
-|---|---|
-| Overall rating | +1 OVR |
-| Skill Points | +1 |
-| Appearance | Animated card border |
+Rank 6 adds +1 OVR, +1 Skill Point and an animated card border. Upgrading a Rank 5 player item takes Elite Rank Up Points, which come from main events, with extra chances through the paid Monthly Card and Premium Star Pass.
 
-Rank 5 player items are eligible for this additional upgrade using Elite Rank Up Points. The material can be obtained through main events, with additional opportunities through the paid Monthly Card and Premium Star Pass.
+Once the upgrade is applied the item is untradable for good, and the game shows a confirmation before it goes through. For a starter you plan to keep in the squad long term, a rating point and a Skill Point are a fair return. For a card you might sell on the transfer market later, leave it at Rank 5 until you are sure.
 
-The catch: Rank 6 permanently removes the ability to trade the item. The game displays a confirmation before applying the upgrade. Managers building a squad around long-term starters may value the extra attributes, but cards intended for resale deserve more caution.
-
-## A new Handbook for navigation
-
-EA also previews a personalized Handbook on the main screen. Its recommendations direct players toward relevant systems and activities; horizontal swiping reveals further suggestions. New and returning players are particularly likely to benefit from the navigation shortcut.
-
-Check availability in the client before treating it as live.
+EA has also previewed the personalized Handbook. It sits on the main screen and points you toward relevant systems and activities, and swiping horizontally brings up more suggestions. New and returning managers stand to gain the most from the shortcut.

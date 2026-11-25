@@ -21,12 +21,15 @@ image_alt: "Official App Store screenshot of Everything is Crab"
 image_status: "candidate"
 ---
 
-Two indie releases landed on phones on November 24, and they could hardly be further apart: a roguelike about evolving a creature to survive, and a quiet puzzle game about becoming a parent.
+
+What does a creature-evolution roguelike have in common with a hand-drawn puzzle game about becoming a parent? A release date: Everything is Crab and Escape the Baby Alarm both reached iOS and Android on November 24.
 
 ## Everything is Crab
 
-Odd Dreams Digital's evolutionary action roguelike is now out on iOS and Android, published by Secret Mode, which says the mobile edition keeps all the content and features of the PC version. Each run takes place in a changing ecosystem where you evolve your own creature to deal with the threats around it, instead of collecting a roster of heroes. On the App Store it is a free download with in-app purchases and needs iOS 15 or later.
+Odd Dreams Digital's evolutionary action roguelike comes to phones through publisher Secret Mode, which says the mobile edition keeps all the content and features of the PC version. Each run takes place in a changing ecosystem, and you evolve a creature of your own to deal with the threats around it instead of collecting a roster of heroes. On the App Store it is a free download with in-app purchases and needs iOS 15 or later.
 
 ## Escape the Baby Alarm
 
-Danish developer and illustrator Julie Normann Bjørnskov's game arrived on iOS, Android and Steam on the same day. It borrows escape-room puzzle design to explore the everyday complications of parenthood, with hand-drawn rooms and a slower, story-led pace. It is a one-off paid puzzle adventure rather than a live-service game: the French App Store listed it at €9.99, and prices vary by country and store.
+Danish developer and illustrator Julie Normann Bjørnskov released her game on iOS, Android and Steam the same day. It takes escape-room puzzle design and turns it on the everyday complications of parenthood, with hand-drawn rooms and a slower, story-led pace. This one is a one-off paid puzzle adventure with no live-service model: the French App Store listed it at €9.99, and prices vary by country and store.
+
+Everything is Crab is free to download, so it is the easier one to sample. Escape the Baby Alarm asks for its price up front, so decide first whether a quiet puzzle game about parenting suits you.

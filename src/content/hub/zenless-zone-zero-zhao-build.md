@@ -66,11 +66,11 @@ image_alt: "Official Zenless Zone Zero Agent Record art of Zhao"
 image_status: "candidate"
 ---
 
-Zhao is an Ice Defense Agent who fills a support slot through team buffs, parries and Ether Veil: Wellspring. She was offered as a free limited Agent in the Version 2.5 benefits event. She was also available on the Version 2.5 Priceless Heart Signal Search.
+If you claimed Zhao as the free limited Agent in the Version 2.5 benefits event, you already own a support that needs very little field time. She is an Ice Defense Agent who fills a support slot through team buffs, parries and Ether Veil: Wellspring, and she was also available on the Version 2.5 Priceless Heart Signal Search.
 
 ## How Zhao supports a damage dealer
 
-Zhao's appeal is the combination of short field time, offensive support and the ability to parry attacks. She does not need to play as a traditional Ice carry to make a meaningful contribution. The key is to bring her onto the field when her gauge is ready, activate her Veil and return control to the Agent who can spend the team's buffs. This makes her particularly convenient when you need a second support for endgame and already have a specialist assigned elsewhere.
+Zhao's appeal is the combination of short field time, offensive support and the ability to parry attacks. She does not need to play as a traditional Ice carry to make a meaningful contribution. Her job is to come onto the field when her gauge is ready, activate her Veil and return control to the Agent who can spend the team's buffs. That makes her particularly convenient when you need a second support for endgame and already have a specialist assigned elsewhere.
 
 At full Core investment, Wellspring activation grants the team 1,000 ATK for 50 seconds. The Veil itself provides 5% Max HP and lasts 40 seconds. Crystallization's DMG Bonus requires Zhao to be within an Ether Veil; it therefore has a different duration constraint from the ATK buff. Keep the two effects separate when planning when to swap. An ATK buff can remain active even when the Veil has expired.
 
@@ -123,7 +123,7 @@ Equip four Bunny in Wonderland pieces first and use the remaining slots to meet 
 
 Original Transmorpher makes sense for players who already own Zhao and want to build her without another limited banner. Its relevant stat contribution is available even when the weapon's defensive effects do not match the encounter. Half-Sugar Bunny can ease the competition between HP and resource recovery. Tusks of Fury is a possible reuse option on an account that already has it; it is more difficult to meet the HP goal, so the comparison should include the full disc set. Do not purchase another expensive engine solely because Zhao lacks a perfect sheet stat.
 
-Bunny in Wonderland provides team utility. Keep its activation opportunity in the opening route.
+Whatever else you swap, Bunny in Wonderland is there for team utility, so keep its activation opportunity in the opening route.
 
 ## Teams
 
@@ -165,3 +165,5 @@ When a boss is about to enter Stun, check three conditions: the current Wellspri
 M1 gives the team 15% All-Attribute RES ignore for 50 seconds after Zhao switches off-field. This is especially relevant to her intended short-field-time playstyle. M2 ties to her healing: it raises Zhao's ATK by 20% and the other squad members' ATK by 15% for 50 seconds. Its trigger needs to occur in the actual rotation. M4 adds Decibels on Veil activation and buffs several of her own attacks. M6 raises the CRIT Rate from her Core Passive to 125% of its value and stops her attacks from consuming Final Verdict's stored charge, which moves her toward an on-field damage role. That is an expensive direction for a character whose main job is enabling the carry.
 
 At M0, prioritize the Core Skill and useful HP gear. Consider the signature if the HP and resource budgets are difficult to reconcile with owned options. M1 is an optional offensive upgrade once the rest of the squad is built; it does not address missing core teammates or inconsistent field execution. Players who obtained Zhao during her original free distribution can get a great deal of practical account value without spending premium currency on either upgrade.
+
+At M0, what she gives the team comes down to HP gear and swap timing. Both are earned through farming and practice, which is a good deal for a support that may have cost you nothing.

@@ -47,7 +47,9 @@ image_alt: "Official Genshin Impact art for Mualani"
 image_status: "candidate"
 ---
 
-Mualani is an HP-scaling Hydro catalyst carry built around large, spaced-out hits. Her Names Forged Beneath Blazing Skies Chronicled Wish appearance ends December 15 at 14:59 server time. The important question for a new owner is whether the team can reliably Vaporize her bites.
+Can your team reliably Vaporize Mualani's bites? For a new owner, that question comes first. She is an HP-scaling Hydro catalyst carry built around large, spaced-out hits, and her Names Forged Beneath Blazing Skies Chronicled Wish appearance ends December 15 at 14:59 server time.
+
+A few big hits means each one counts, which is why reliable CRIT and a steady Pyro aura come up in every section below.
 
 ## Artifacts and stat balance
 
@@ -59,7 +61,7 @@ Mualani is an HP-scaling Hydro catalyst carry built around large, spaced-out hit
 | Circlet | Usually CRIT DMG, adjust for balance |
 | Substats | CRIT, HP%, EM, rotation-dependent ER |
 
-Her enhanced attacks scale through the Elemental Skill even though they count as Normal Attack damage. Prioritize Skill and character level, followed by Burst. Raising the Normal Attack talent is unnecessary for the enhanced bite multipliers.
+Her enhanced attacks scale through the Elemental Skill even though they count as Normal Attack damage. Prioritize Skill and character level, followed by Burst. Raising the Normal Attack talent is unnecessary for the enhanced bite multipliers, so those books can go elsewhere.
 
 Obsidian Codex adds 40% CRIT Rate while active. A build with 60% displayed CRIT Rate reaches the cap during that window without additional buffs. Because Mualani deals damage through a small number of substantial hits, reliability matters more than chasing a screenshot-friendly CRIT DMG number.
 
@@ -71,7 +73,7 @@ Obsidian Codex adds 40% CRIT Rate while active. A build with 60% displayed CRIT 
 | Ring of Yaxche | Craftable and consistent baseline |
 | The Widsith | Variable buffs; useful existing alternative |
 
-Sacrificial Jade is difficult to balance with Obsidian Codex: at level 90, its 36.8% CRIT Rate, Mualani’s 24.2% total innate CRIT Rate and Codex’s 40% already add up to 101% before artifact substats. Ring of Yaxche is a sensible starting point for a new account build. The Widsith can perform well, but its ATK buff contributes little to Mualani's HP-scaling bites. Compare performance over several rotations rather than assuming the favorable buff will always appear.
+Sacrificial Jade is difficult to balance with Obsidian Codex: at level 90, its 36.8% CRIT Rate, Mualani’s 24.2% total innate CRIT Rate and Codex’s 40% already add up to 101% before artifact substats. Ring of Yaxche is a sensible starting point for a new account build. The Widsith can perform well, but its ATK buff contributes little to Mualani's HP-scaling bites. Judge it over several rotations instead of assuming the favorable buff will always appear.
 
 ## Build the team around Pyro aura
 
@@ -80,16 +82,16 @@ Sacrificial Jade is difficult to balance with Obsidian Codex: at level 90, its 3
 | Mualani, Xiangling, Xilonen, Sucrose | Forward Vaporize with resistance reduction and EM support |
 | Mualani, Mavuika, Xilonen, Sucrose | Alternative buff and Pyro core |
 
-Mualani wants enemies affected by Pyro when her important Hydro hits land. A character providing substantial off-field Hydro or poorly timed Cryo can consume that aura and change which attacks Vaporize. This is why adding an otherwise powerful support can make a lineup less consistent.
+Mualani wants enemies affected by Pyro when her important Hydro hits land. A character providing substantial off-field Hydro or poorly timed Cryo can consume that aura and change which attacks Vaporize. This is why adding an otherwise powerful support can make a lineup less consistent. Guard the aura first.
 
 Prepare buffs and Pyro application before entering Mualani's Skill state. Build stacks by contacting enemies, then release the enhanced bite. Repeat while the Skill permits, using Burst when appropriate for the chosen rotation. Avoid forcing an extra hit if the enemy is no longer affected by Pyro.
 
-Xiangling's energy requirements depend on the team and particle generation; check that her Burst returns on schedule before treating the lineup as complete. For the Mavuika variant, account for her own cooldowns and buff timing rather than copying the Xiangling sequence unchanged.
+Xiangling's energy requirements depend on the team and particle generation; check that her Burst returns on schedule before treating the lineup as complete. For the Mavuika variant, account for her own cooldowns and buff timing instead of copying the Xiangling sequence unchanged.
 
 ## Diagnose weak damage before pulling a weapon
 
 If Mualani's damage fluctuates sharply, first check whether the bite was fully stacked, whether it Vaporized and whether support buffs were active. Then check the CRIT result. These are separate failure points; replacing her catalyst only addresses part of the problem.
 
-The practical recommendation is to establish a repeatable Vaporize rotation with Ring of Yaxche before spending additional wishes on Surf's Up.
+Establish a repeatable Vaporize rotation with Ring of Yaxche first, and spend additional wishes on Surf's Up only after that.
 
-See the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html) for availability and the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) for comparisons across featured characters.
+Her dates are on the [current Genshin Impact banner schedule](/hub/banners/genshin-impact-banners.html), and the [Phase II pull guide](/hub/guides/genshin-impact-names-forged-beneath-blazing-skies-pull-guide.html) weighs her against the rest of the phase.

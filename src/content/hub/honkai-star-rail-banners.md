@@ -38,7 +38,9 @@ image_alt: "Official App Store screenshot of Honkai: Star Rail"
 image_status: "candidate"
 ---
 
-Banner dates below come from the official Honkai: Star Rail announcements, with server times kept as published. A banner listed with a date and no hour switches over at the time shown in the game.
+You have until December 22 for Aeon ★ Aha, but the Silver Wolf LV.999, Sparxie and Yao Guang reruns leave on December 2 at 11:59 server time. In this Honkai: Star Rail version, the reruns are where the clock is running.
+
+Server times are kept as published. A banner listed with a date and no hour switches over at the time shown in the game.
 
 ## Current and upcoming banners
 
@@ -52,4 +54,4 @@ Banner dates below come from the official Honkai: Star Rail announcements, with 
 
 ## What players should know
 
-Aha remains available through both phases, so the December 2 rotation affects the reruns rather than Aha's own deadline. The Phase II characters also have a free selection associated with Magic Invitation; check eligibility before spending passes. Use the Warp screen to select the desired character or Light Cone and read the guarantee details. Phase II Light Cone names are omitted pending direct confirmation.
+Aha stays up through both phases, so the December 2 rotation only moves the reruns. Acheron, Dan Heng • Imbibitor Lunae and Jing Yuan then come with a free selection tied to Magic Invitation, and it pays to confirm your eligibility before spending a single pass. When you're ready, pick the character or Light Cone on the Warp screen and read its guarantee details first. Phase II Light Cone names are omitted pending direct confirmation.

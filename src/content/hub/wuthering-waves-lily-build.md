@@ -55,11 +55,13 @@ image_alt: "Official Wuthering Waves profile art of Lily"
 image_status: "candidate"
 ---
 
-Lily is a five-star Spectro Pistols support introduced in Wuthering Waves Version 3.8. Her gearing has two different priorities: satisfying the Energy Regen requirement and selecting a Sonata Effect that matches the team's damage type. Her specialized buffs are most valuable when the carry uses Unison or Echo Skill damage.
+Lily's specialized buffs pay off most when the carry deals Unison or Echo Skill damage. She is a five-star Spectro Pistols support introduced in Wuthering Waves Version 3.8, and her gearing has two separate priorities: meeting the Energy Regen requirement and picking a Sonata Effect that matches the team's damage type.
+
+Hsin, Sigrika and Galbrena are the carries her team table is built around. Get the ER right first, because her ER conversions set the size of her ER-dependent team bonuses.
 
 ## Energy Regen and weapons
 
-Lily's official kit caps its Energy Regen conversions at 260%. Fairytale's Finale, Phantasm's End and Eternal Bloom gain CRIT Rate and CRIT DMG from ER above 100%. Dream Aroma and Silvered Dream scale from ER above 190%; at 190% or below, their ER-dependent team bonuses are zero. Build past 190% first and work toward 260% to maximize these bonuses. Her ordinary Outro amplification still applies independently.
+Lily's official kit caps its Energy Regen conversions at 260%. Fairytale's Finale, Phantasm's End and Eternal Bloom gain CRIT Rate and CRIT DMG from ER above 100%. Dream Aroma and Silvered Dream scale from ER above 190%; at 190% or below, their ER-dependent team bonuses are zero. Build past 190% first, then work toward 260% to maximize these bonuses. Her ordinary Outro amplification still applies independently.
 
 | Weapon | Reason to consider it |
 |---|---|
@@ -99,4 +101,4 @@ Build Lily's Forte resources, then use Fairytale's Finale or Phantasm's End to g
 
 Avoid returning Lily to the field early: swapping her in removes Cradle Lullaby and Dream Aroma, and Eternal Bloom ends Slumberland. Time her return around the end of the 25-second Cradle Lullaby window. Level Forte Circuit first. For extra healing, Wutheringlab puts Resonance Liberation next, while WuWaBuild puts Intro Skill next and Liberation last. The fixed support buff percentages do not increase with skill levels; reach the ER targets through equipment.
 
-If you already own The Shorekeeper, the practical reason to add Lily is to support an appropriate specialized team or free your existing healer for another lineup. Whether to pull depends on which carries you own. See the [Wuthering Waves banner schedule](/hub/banners/wuthering-waves-banners.html) for availability.
+If you already own The Shorekeeper, the practical reason to add Lily is to support an appropriate specialized team or free your existing healer for another lineup. Whether to pull depends on which carries you own, so check them against the team table above. See the [Wuthering Waves banner schedule](/hub/banners/wuthering-waves-banners.html) for availability.
