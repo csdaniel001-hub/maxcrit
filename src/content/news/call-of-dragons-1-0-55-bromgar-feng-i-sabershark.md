@@ -13,11 +13,10 @@ sources:
   url: https://apps.apple.com/us/app/call-of-dragons/id1605558677
   primary: true
 image: "/assets/img/call-of-dragons-1-0-55-bromgar-feng-i-sabershark.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/6a/9a/006a9aa1-983d-ad42-811a-0e9d0c52b686/05.jpg/2600x2600bb.jpg"
-image_source: "https://apps.apple.com/us/app/call-of-dragons/id1605558677"
+image_source: "https://store.epicgames.com/p/call-of-dragons-d85ee6"
 image_credit: "Farlight Games"
-image_alt: "Official App Store screenshot of Call of Dragons"
-image_status: "candidate"
+image_alt: "Official Call of Dragons key art"
+image_status: "approved"
 ---
 
 Infantry players have two new Legendary heroes to chase. Call of Dragons 1.0.55, which reached the App Store on November 25, adds Bromgar and Feng I, two infantry artifacts, the Sabershark War Pet and an autumn event series built around seven days of logins.
