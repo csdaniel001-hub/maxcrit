@@ -129,6 +129,7 @@ subway-surfers-city:
   publisher: "SYBO"
   official: "https://sybogames.com/"
   appstore: "https://apps.apple.com/us/app/subway-surfers-city/id6504188939"
+  googleplay: "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game"
   status: "Live"
 township:
   name: "Township"
@@ -156,6 +157,7 @@ aniimo:
   publisher: "Pawprint Interactive"
   official: "https://apps.apple.com/us/app/aniimo/id6759098797"
   appstore: "https://apps.apple.com/us/app/aniimo/id6759098797"
+  googleplay: "https://play.google.com/store/apps/details?id=com.x.aniimos"
   status: "Live"
 dragon-ball-legends:
   name: "DRAGON BALL LEGENDS"
@@ -176,6 +178,7 @@ nba-2k-mobile:
   publisher: "2K"
   official: "https://apps.apple.com/us/app/nba-2k-mobile-basketball-game/id1252850847"
   appstore: "https://apps.apple.com/us/app/nba-2k-mobile-basketball-game/id1252850847"
+  googleplay: "https://play.google.com/store/apps/details?id=com.catdaddy.nba2km"
   status: "Live"
 hill-climb-racing-2:
   name: "Hill Climb Racing 2"
@@ -231,6 +234,7 @@ mlb-9-innings-rivals:
   publisher: "Com2uS"
   official: "https://apps.apple.com/us/app/mlb-9-innings-rivals-26/id1580691683"
   appstore: "https://apps.apple.com/us/app/mlb-9-innings-rivals-26/id1580691683"
+  googleplay: "https://play.google.com/store/apps/details?id=com.com2us.futuremlb.android.google.global.normal"
   status: "Live"
 infinity-nikki:
   name: "Infinity Nikki"
@@ -244,6 +248,7 @@ pubg-mobile-flash:
   publisher: "Tencent"
   official: "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489"
   appstore: "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489"
+  googleplay: "https://play.google.com/store/apps/details?id=com.tencent.igfit"
   status: "Live"
 chasing-kaleidorider:
   name: "Chasing Kaleidorider"
@@ -333,6 +338,7 @@ top-eleven:
   publisher: "Nordeus"
   official: "https://apps.apple.com/us/app/top-eleven-be-a-soccer-manager/id459035295"
   appstore: "https://apps.apple.com/us/app/top-eleven-be-a-soccer-manager/id459035295"
+  googleplay: "https://play.google.com/store/apps/details?id=eu.nordeus.topeleven.android"
   status: "Live"
 love-and-deepspace:
   name: "Love and Deepspace"
@@ -423,6 +429,7 @@ arknights-endfield:
   publisher: "GRYPHLINE"
   official: "https://endfield.gryphline.com/"
   appstore: "https://apps.apple.com/us/app/arknights-endfield/id6752642477"
+  googleplay: "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp"
   status: "Live"
 honkai-impact-3rd:
   name: "Honkai Impact 3rd"
@@ -435,16 +442,19 @@ neverness-to-everness:
   name: "Neverness to Everness"
   publisher: "Hotta Studio"
   appstore: "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077"
+  googleplay: "https://play.google.com/store/apps/details?id=com.hottagames.nte"
   status: "Live"
 girls-frontline-2-exilium:
   name: "Girls' Frontline 2: Exilium"
   publisher: "Sunborn"
   appstore: "https://apps.apple.com/us/app/girls-frontline-2-exilium/id6502505286"
+  googleplay: "https://play.google.com/store/apps/details?id=com.Sunborn.SnqxExilium.Glo"
   status: "Live"
 chaos-zero-nightmare:
   name: "Chaos Zero Nightmare"
   publisher: "Smilegate"
   appstore: "https://apps.apple.com/us/app/chaos-zero-nightmare/id6502326151"
+  googleplay: "https://play.google.com/store/apps/details?id=com.smilegate.chaoszero.stove.google"
   status: "Live"
 survivor-io:
   name: "Survivor!.io"
@@ -464,12 +474,14 @@ epic-seven:
   publisher: "Smilegate"
   official: "https://page.onstove.com/epicseven/global"
   appstore: "https://apps.apple.com/us/app/epic-seven/id1322399438"
+  googleplay: "https://play.google.com/store/apps/details?id=com.stove.epic7.google"
   status: "Live"
 black-desert-mobile:
   name: "Black Desert Mobile"
   publisher: "Pearl Abyss"
   official: "https://www.world.blackdesertm.com/"
   appstore: "https://apps.apple.com/us/app/black-desert-mobile/id1477186880"
+  googleplay: "https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm.gl"
   status: "Live"
 toram-online:
   name: "Toram Online"
@@ -481,6 +493,7 @@ once-human:
   name: "Once Human"
   publisher: "NetEase Games"
   appstore: "https://apps.apple.com/us/app/once-human/id1573906210"
+  googleplay: "https://play.google.com/store/apps/details?id=com.h73.jhqyna"
   status: "Live"
 monster-hunter-now:
   name: "Monster Hunter Now"
@@ -493,33 +506,39 @@ arknights:
   publisher: "Yostar"
   official: "https://www.arknights.global/"
   appstore: "https://apps.apple.com/us/app/arknights/id1464872022"
+  googleplay: "https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights"
   status: "Live"
 etheria-restart:
   name: "Etheria: Restart"
   publisher: "XD Entertainment"
   appstore: "https://apps.apple.com/us/app/etheria-restart/id6737684676"
+  googleplay: "https://play.google.com/store/apps/details?id=com.xd.etheria.gp.glb"
   status: "Live"
 sword-of-convallaria:
   name: "Sword of Convallaria"
   publisher: "XD Entertainment"
   appstore: "https://apps.apple.com/us/app/sword-of-convallaria/id6451019582"
+  googleplay: "https://play.google.com/store/apps/details?id=com.xd.ssrpgen"
   status: "Live"
 path-to-nowhere:
   name: "Path to Nowhere"
   publisher: "AISNO Games"
   appstore: "https://apps.apple.com/us/app/path-to-nowhere/id1606685106"
+  googleplay: "https://play.google.com/store/apps/details?id=com.zy.wqmt.global"
   status: "Live"
 efootball:
   name: "eFootball"
   publisher: "Konami"
   official: "https://www.konami.com/efootball/"
   appstore: "https://apps.apple.com/us/app/efootball/id1117270703"
+  googleplay: "https://play.google.com/store/apps/details?id=jp.konami.pesam"
   status: "Live"
 fc-mobile:
   name: "EA SPORTS FC Mobile"
   publisher: "Electronic Arts"
   official: "https://www.ea.com/games/ea-sports-fc/fc-mobile"
   appstore: "https://apps.apple.com/us/app/ea-sports-fc-mobile-soccer/id1094930513"
+  googleplay: "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile"
   status: "Live"
 afk-arena:
   name: "AFK Arena"
@@ -567,6 +586,7 @@ vampire-therapist:
   publisher: "Little Bat Games"
   official: "https://store.steampowered.com/app/2481020/Vampire_Therapist/"
   appstore: "https://apps.apple.com/us/app/vampire-therapist/id6742189122"
+  googleplay: "https://play.google.com/store/apps/details?id=com.LittleBatGames.VampireTherapist"
   status: "Live"
 mir4:
   name: "MIR4"
@@ -580,6 +600,7 @@ mabinogi-mobile:
   publisher: "NEXON"
   official: "https://mabinogimobile.nexon.co.jp/"
   appstore: "https://apps.apple.com/jp/app/id6775403879"
+  googleplay: "https://play.google.com/store/apps/details?id=com.nexon.devcat.mm.jp"
   status: "Live in Japan"
 terraria:
   name: "Terraria"
