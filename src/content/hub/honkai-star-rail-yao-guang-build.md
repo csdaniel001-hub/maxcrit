@@ -117,9 +117,7 @@ Outside Elation, Prydwen notes that she fits an Archer team with Sparkle.
 
 ## Rotation and how to play
 
-Use her Technique before a fight. The next battle then starts with her Skill already cast and no Skill Point spent, so the Zone is up for the carry's first turn.
-
-1. Keep the Zone running. It lasts 3 turns and ticks down at the start of her turn, so recast the Skill on the turn it would expire. The carry's big turns should land while it is up, because Great Boon uses her shared Elation at that moment.
+1. Keep the Zone running. It lasts 3 turns, so recast the Skill on the turn it would expire. The carry's big turns should land while it is up, because Great Boon uses her shared Elation at that moment.
 2. Use Basic ATK on her other turns. It regenerates 30 Energy and gives 3 Punchline without spending a Skill Point.
 3. Cast the Ultimate at 180 Energy. Aha takes an extra turn counting a fixed 20 Punchline without spending the existing pool, and every ally gets 20% All-Type RES PEN for 3 turns. Line up the carry's next attacks inside that window.
 4. Her Elation Skill returns 1 Skill Point to the team through Poised and Sated, which helps pay for Zone refreshes.
