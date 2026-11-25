@@ -43,7 +43,7 @@ image_alt: "Official App Store screenshot of BLEACH Soul Resonance"
 image_status: "candidate"
 ---
 
-BLEACH: Soul Resonance's anniversary has brought new reports of gift codes for Spiritual Jade, Gacha Tickets and a Monthly Pass. Availability can vary between regional versions of the game, so our November 25, 2026 list keeps only codes that trackers currently report as active. MaxCrit has not redeemed these codes in a live account. Some codes may already be deactivated, used up or region-locked, so if one fails, move on to the next.
+BLEACH: Soul Resonance's anniversary has brought new reports of gift codes for Spiritual Jade, Gacha Tickets and a Monthly Pass. Availability can vary between regional versions of the game, so our November 25, 2026 list keeps only codes that trackers currently report as active. We haven't put them through Treasure Redeem on a live account, and a few may be deactivated already, region-locked to one regional client or used up once their claim count runs out. A failed code costs nothing, so carry on down the table.
 
 ## Anniversary and countdown codes
 

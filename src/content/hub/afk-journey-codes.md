@@ -32,7 +32,7 @@ image_status: "candidate"
 
 A few extra Invite Letters can make a difference when building your Esperia roster. These three gifts are supported by multiple recent community trackers.
 
-These AFK Journey codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+We gathered them on November 24, 2026 and haven't claimed any ourselves. Expect the odd dud: a gift may be deactivated without warning, used up once it hits its claim ceiling, or region-locked elsewhere. The Promo Code box is case-sensitive, so paste each one unchanged.
 
 ## Latest AFK Journey codes
 
@@ -46,7 +46,7 @@ A number of older invite-letter and Diamond codes appear on conflicting lists. T
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+None of the three shows an expiry, so the order is up to you. Each gift is claimable once on your account, and hopping to another server doesn't reset that. The Invite Letters and Gold should appear once the code is accepted, with mail as the place to look if they don't.
 
 ## How to redeem AFK Journey codes
 
@@ -57,8 +57,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Typos are the first suspect: a swapped letter, a capital in the wrong spot or a trailing space. Even a perfectly typed code can bounce because it expired, reached its redemption cap, was already claimed on this account, or comes from another server. Codes go into the game's Settings menu or the publisher's own redemption service and nowhere else.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Fresh AFK Journey codes tend to surface in official news posts, update broadcasts and the AFK Journey community. Short-lived ones can lapse before this page gets its next refresh, so redeem them the day they appear.

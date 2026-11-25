@@ -31,7 +31,7 @@ image_status: "candidate"
 
 Whether you play ranked Multiplayer or Battle Royale, promotional drops may add cosmetics or other items to your CODM account.
 
-These Call of Duty: Mobile codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Both lists come from public trackers, last rounded up on November 24, 2026. None of the codes has been through the Activision Redemption Center on our side. A promotion may be tied to a single region's edition, may be deactivated when its campaign closes, or can be used up after a set number of claims. Enter each string with the capitals shown.
 
 ## Latest Call of Duty: Mobile reward codes
 
@@ -59,23 +59,23 @@ Global and Garena editions use different promotions.
 
 ### Garena edition: reported codes
 
-`CTPBZBZMCS`, `CVRMZCZAJ8`, `CVQTZBZJGK`, `CVRNZCZK4S`, `CRDQZBZ5QG`, `CVROZCZ7M3`, `CVNAZBZEV7`. These are separately reported for Garena; use your regional publisher’s instructions, not the global portal by default.
+`CTPBZBZMCS`, `CVRMZCZAJ8`, `CVQTZBZJGK`, `CVRNZCZK4S`, `CRDQZBZ5QG`, `CVROZCZ7M3`, `CVNAZBZEV7`. These are separately reported for Garena; follow your regional publisher’s instructions and leave the global portal aside.
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+None of the global codes lists a reward or an end date, so work down the table in order. A reward normally reaches one UID only, so claiming it there won't open it for a second UID. Once the form accepts a code, the item waits in the mailbox in the game.
 
 ## How to redeem Call of Duty: Mobile rewards
 
 1. Copy your UID from the in-game player profile.
 2. Open the [Activision Redemption Center](https://www.callofduty.com/redemption).
 3. Fill in your UID, reward code and the displayed verification code.
-4. Submit and check your in-game mailbox.
+4. Submit, then open your mailbox in the game.
 
 ## Why might a code fail?
 
-Check capitalization and whitespace, account eligibility, region and the campaign deadline. Some offers are single-use, have a fixed claim limit or require an updated game client. Never share your password with a third-party code generator.
+Capitals and stray spaces cause most rejections. Beyond that, the account may not be eligible, the region may be wrong or the campaign may be over; some rewards are single-use, capped at a fixed number of claims or tied to an updated client. The Redemption Center asks for your UID and a verification code, and no generator ever needs your password.
 
 ## Where to find new rewards
 
-Follow the publisher’s official game announcements, store and community channels. Check event deadlines before attempting older offers.
+CODM rewards are announced through official game news, the store and community channels. Garena runs separate promotions, so follow the edition you play, and look at an offer's deadline before spending time on it.

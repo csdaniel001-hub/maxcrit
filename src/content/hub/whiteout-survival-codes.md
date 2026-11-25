@@ -42,7 +42,7 @@ image_status: "candidate"
 
 Gift codes are the free way to top up Whiteout Survival's Gems, speedups and building resources, and most of them only stay live for a short window.
 
-These Whiteout Survival codes were rounded up on November 25, 2026. One comes straight from the game's official X account; the rest are listed as active by several independent code trackers. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or state, so if one fails, move on to the next. Codes are case-sensitive: copy them exactly as written.
+This roundup is from November 25, 2026. One code comes straight from the game's official X account; the rest are listed as active by several independent code trackers. None has been through MaxCrit's own account, and any of them may be deactivated, region-locked to certain states or used up, so if the Gift Code Center refuses one, move on. Capitals count, so enter each string as shown.
 
 ## Latest Whiteout Survival gift codes
 
@@ -56,7 +56,7 @@ Redeem OFFICIALSTORE1124 first, since it is the only one with an official deadli
 
 ## How to use this list
 
-Each code can be claimed once per character. If you play several characters in different states, each one has its own Player ID and can redeem separately. Rewards land in your in-game mail, so open the message after redeeming or the items won't reach your inventory.
+Each code can be claimed once per character. If you play several characters in different states, each one has its own Player ID and can redeem separately. Rewards land in the mail inside the game, so open the message after redeeming or the items won't reach your inventory.
 
 ## Recently expired codes
 

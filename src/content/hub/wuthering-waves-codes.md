@@ -33,7 +33,7 @@ image_status: "candidate"
 
 If you missed the latest special program, do not waste time trying its expired codes. There is still a standing gift code worth claiming if you have not used it already.
 
-These Wuthering Waves codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Trackers are the source here, and the list was put together on November 24, 2026. MaxCrit has not redeemed WUTHERINGGIFT itself, and like any code it may be deactivated, or end up region-locked or used up. Type it in capitals, as shown.
 
 ## Latest Wuthering Waves codes
 
@@ -45,7 +45,7 @@ The version 3.8 broadcast codes ended on November 8 at 23:59 UTC+8. The standing
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Only WUTHERINGGIFT is active, so there is no order to plan. WUTHERINGGIFT is good for one claim per account, and switching to another server won't unlock a second. The Astrite and items arrive as a mail attachment once Union Level 2 unlocks Mail.
 
 ## Expired or retired codes
 
@@ -61,8 +61,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+A mistyped letter or a trailing space is the usual problem. If the entry is right, the code could be expired or at its claim limit, already used on your account or intended for another server. Codes go in under Other Settings in the game or on the official website, nowhere else.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Wuthering Waves codes arrive with official announcements, version special programs and community channels. The 3.8 program codes have already ended, so redeem new ones while they last.

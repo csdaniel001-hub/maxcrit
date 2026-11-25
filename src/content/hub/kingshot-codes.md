@@ -32,7 +32,7 @@ image_status: "candidate"
 
 Town upgrades and hero development consume resources quickly. These gift codes can help cover part of the cost.
 
-These Kingshot codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Kingshot's list is drawn from public trackers, gathered November 24, 2026, and MaxCrit has not tried the codes in the Gift Code Center. A few may be deactivated, some region-locked, the rest used up once their claim limit is reached. Type them with the capitals shown.
 
 ## Latest Kingshot reward codes
 
@@ -49,7 +49,7 @@ Prioritize the two dated codes. The Nov 24 offer may already have ended by the t
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+The four undated codes can follow in any order, starting with KS27TGS for its Gems. One claim per Player ID is the normal limit. Rewards arrive as a message to claim.
 
 ## Recently expired or retired codes
 
@@ -65,8 +65,8 @@ KS1104, KS1102, TREAT4U, Kingshot888.
 
 ## Why might a code fail?
 
-Check capitalization and whitespace, account eligibility, region and the campaign deadline. Some offers are single-use, have a fixed claim limit or require an updated game client. Never share your password with a third-party code generator.
+Kingshot rejects codes with the wrong capitals or stray spaces, so start there. Next suspects: an account or region that doesn't qualify, or a campaign past its deadline. Some codes are single-use, run out after a capped number of redemptions or need the latest game version, and no code generator should ever get your password.
 
 ## Where to find new rewards
 
-Follow the publisher’s official game announcements, store and community channels. Check event deadlines before attempting older offers.
+New Kingshot codes appear in official posts, on the store page and in community channels. Look at an offer's date before trying an older one.

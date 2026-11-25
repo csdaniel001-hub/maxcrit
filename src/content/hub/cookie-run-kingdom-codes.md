@@ -35,7 +35,7 @@ image_status: "candidate"
 
 Need Crystals for Cookie pulls or Rainbow Cubes for a costume? These community-reported coupons can help you build a small stockpile, with some also offering rarer progression items.
 
-These CookieRun: Kingdom codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Our November 24, 2026 roundup is based on tracker reports, and none of these coupons have gone through the DevPlay form on a MaxCrit account. Some may be deactivated already, others capped and used up, and a few region-locked, so a single failure tells you nothing about the rest. The form treats capitals as different characters.
 
 ## Latest CookieRun: Kingdom codes
 
@@ -51,7 +51,7 @@ Some older coupons are still listed by multiple trackers but their latest redemp
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+None of the five has a listed expiry, so 2MSUBSCRIBERSCRK, with the most Crystals, is the one to start with. One redemption per DevPlay account is the norm, and other characters on it don't get a second go. After claiming, open Mail, restarting the game if the gift hasn't arrived.
 
 ## How to redeem CookieRun: Kingdom codes
 
@@ -62,8 +62,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+A coupon with a typo, a lowercase letter or a hidden space gets refused, so compare it with the table. If it matches, the coupon has likely expired, hit its redemption limit, already gone to your account, or belongs to a different server. Keep coupon entry to the official DevPlay form.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Coupons for CookieRun: Kingdom go out in official announcements, update broadcasts and the community channels. The short-lived ones may be gone before this page's monthly refresh, so redeem them early.

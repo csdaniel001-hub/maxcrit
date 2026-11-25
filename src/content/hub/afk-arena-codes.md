@@ -34,7 +34,7 @@ image_status: "candidate"
 
 AFK Arena now runs two editions, Classic and Companions, and each one gets its own gift codes. The six codes below are the leftovers of three autumn events: National Day, Mid-Autumn Festival and Halloween. Each event produced one code per edition, and all six close before the end of November.
 
-These codes come from a public code tracker that marks them as officially listed, and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server. Codes are case-sensitive, so copy them exactly as written, including the lowercase ones.
+All six were pulled from a public tracker that flags them as officially listed, and this list dates from November 24, 2026. Nobody at MaxCrit has entered them on a live UID, so a few could fail: a string may be deactivated early, hit its claim cap and count as used up, or turn out region-locked to a server you don't play on. The Lilith portal treats lowercase letters as different characters, so paste each string as it appears in the table.
 
 ## Latest AFK Arena gift codes
 
@@ -61,4 +61,4 @@ Each code can be claimed once per UID. If you play both editions, use the Classi
 
 ## Why might a code fail?
 
-The most common cause is using a code from the other edition. After that, check capitalization, the deadline in the table and whether the UID belongs to the right server. Never give your password to a third-party code site; the official portal only asks for your UID and its own verification.
+The usual mistake is a code from the other edition. After that, look at capitals, the deadline in the table and whether the UID belongs to the right server. The official portal asks for nothing beyond your UID and its own verification step, so keep your password away from outside code sites.

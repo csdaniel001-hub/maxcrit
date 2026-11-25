@@ -35,7 +35,7 @@ image_status: "candidate"
 
 Need another batch of Signal Amplification Anchors? Three November-ending gifts are supported by a dated roundup of official coupons, with a newer Crystal reward also reported.
 
-These Chaos Zero Nightmare codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Trackers are the source for all four, gathered on November 24, 2026. Nobody here has run them through the official coupon page. A coupon may be deactivated before its listed date, region-locked, or capped until it's used up, so one failure says little about the others. Keep the capitals exactly as listed.
 
 ## Latest Chaos Zero Nightmare codes
 
@@ -49,7 +49,7 @@ The three Anchor coupons have a reported November 30 cutoff. The newer Crystal g
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+The three Anchor coupons are the dated ones, so register them before trying the newer Crystal gift. Each coupon should pay out a single time per account, with no repeat claim on another server. Items land in your mail in the game after you confirm on the site.
 
 ## Expired or retired codes
 
@@ -64,8 +64,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Retype the coupon if it fails, watching for capitals and stray spaces. When the spelling holds, the likely reasons are an expired coupon, a claim limit already reached, a previous claim on your account or a code meant for another server. Register coupons only through the Support page of the official site.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Chaos Zero Nightmare coupons are posted in official news and broadcasts and passed around community channels. Three of the current ones end with the month, so claim new arrivals without waiting for our next update.

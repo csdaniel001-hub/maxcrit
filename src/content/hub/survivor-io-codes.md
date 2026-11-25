@@ -31,7 +31,7 @@ image_status: "candidate"
 
 A few extra Gems, Energy or chest keys can make the next run easier, especially when building a new loadout.
 
-These Survivor!.io codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Public trackers reported both codes, and this list is dated November 24, 2026. Neither has been redeemed by MaxCrit. Either may be deactivated already. A claim pool that is used up, or a region-locked offer, would also stop it. Both strings mix capitals and lowercase, so type them exactly.
 
 ## Latest Survivor.io reward codes
 
@@ -44,7 +44,7 @@ Reported by recent trackers; the older seasonal code may be capped or retired.
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Neither code has a listed end date, so start with 4thAnniversary for its 1,000 Gems. One claim per Player ID is the normal limit, with no second claim on a different character. Rewards wait in the mailbox after you reopen the game.
 
 ## Recently expired or retired codes
 
@@ -59,8 +59,8 @@ newseason26 (November 21).
 
 ## Why might a code fail?
 
-Check capitalization and whitespace, account eligibility, region and the campaign deadline. Some offers are single-use, have a fixed claim limit or require an updated game client. Never share your password with a third-party code generator.
+Casing and spaces matter on the Habby portal. If the code is typed correctly, the account or region may not qualify or the campaign has perhaps ended. Some codes are single-use or capped, and some need a newer game client, and the portal never needs your password.
 
 ## Where to find new rewards
 
-Follow the publisher’s official game announcements, store and community channels. Check event deadlines before attempting older offers.
+Habby posts new Survivor.io codes in official game announcements, the store and community channels. Older seasonal codes like newseason26 expire, so look at the date first.

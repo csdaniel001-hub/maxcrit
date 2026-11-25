@@ -38,7 +38,7 @@ image_status: "candidate"
 
 The latest Hunter update brings another batch of reported coupon codes. Start with the three November releases, then check the anniversary rewards to strengthen your roster without spending Essence Stones.
 
-These Solo Leveling:Arise codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Trackers provided the coupons for this November 24, 2026 list, and no MaxCrit account has redeemed the coupons. Coupons may be deactivated at short notice, region-locked per server or used up once the claim cap fills, so if one is refused, carry on with the next. Enter them with the exact capitals in Redeem Code or on Netmarble's portal.
 
 ## Latest Solo Leveling:Arise codes
 
@@ -57,7 +57,7 @@ Some sources carry dozens of legacy coupons, including ones with conflicting exp
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+The four Dec 16 codes have the only listed deadline, so claim them before the open-ended ones. A coupon is a one-time reward per account; switching servers doesn't allow a second redemption. Rewards are sent to the Mailbox.
 
 ## Expired or retired codes
 
@@ -78,8 +78,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Look first for a typo, a missing capital or an extra space. Codes like HUNT3RGU1DE mix numbers and letters, so read them carefully. A clean entry that still fails may have expired, hit its cap, been used already or been issued for another server. Use only the in-game menu or Netmarble's coupon portal.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Solo Leveling:Arise coupons arrive with Netmarble's announcements, update notes and community channels, including the anniversary posts. Some expire before the next pass over this page, so redeem them soon after release.

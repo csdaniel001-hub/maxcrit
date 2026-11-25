@@ -35,7 +35,7 @@ image_status: "candidate"
 
 Lords Mobile is running its Transformers collaboration, and IGG has put out codes for it alongside the usual seasonal ones. The list below combines the dated PUMPKIN2026 code with the other codes a public tracker still listed as active on November 22.
 
-These Lords Mobile codes come from public code trackers. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Every code here was taken from public trackers, and none has been redeemed on a MaxCrit account. IGG codes may be deactivated early, run out of claims and be used up, or stay locked to certain regions' servers, so if the Exchange Center refuses one, try another. Several codes use lowercase letters, so match the case exactly.
 
 ## Latest Lords Mobile gift codes
 
@@ -70,4 +70,4 @@ In the game, you can also tap the settings gear and scroll to Redemption Code.
 
 ## Why might a code fail?
 
-Check capitalization, especially on the lowercase codes, and the deadline. Some offers have a fixed claim limit or need an updated client. Never share your password with a third-party code generator.
+Capitals trip up the lowercase codes most often, and an expired deadline comes next. Some offers stop at a fixed claim limit or need an updated client. The Exchange Center asks for your IGG ID or player name only, so keep your password off any outside generator.

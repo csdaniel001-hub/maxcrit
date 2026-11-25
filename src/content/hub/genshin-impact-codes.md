@@ -35,7 +35,7 @@ image_status: "candidate"
 
 Saving for your next five-star character? Claim these Primogems and upgrade materials before spending any of your resin or currency. The current list includes several version 7.2 rewards.
 
-These Genshin Impact codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Trackers supplied this list on November 24, 2026. We have not redeemed any of the codes on our end, so treat each as a maybe: it may have been deactivated or used up, or it may be region-locked to another server. Paste them into Redeem Code in the game or on HoYoverse's gift page, keeping the capitals as shown.
 
 ## Latest Genshin Impact codes
 
@@ -52,7 +52,7 @@ Prioritize ARCHONSANSWERS, which has a published cutoff. Livestream codes genera
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+After the dated code, the other five can go in any order. Each one pays out a single time per account; a character on another server can't claim it again. Rewards arrive in Mail, where they wait until you collect them.
 
 ## Expired or retired codes
 
@@ -74,8 +74,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Most failures are typing errors: a wrong character, the wrong case or a space at the end. If the code is typed correctly, it may have lapsed, reached its redemption cap, already been redeemed by you or been released for another server. Redeem only in the Paimon menu or on HoYoverse's own gift page.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Genshin codes appear in official announcements, version livestreams and community channels. Livestream codes close fast, sometimes before this monthly page catches up, so redeem them as soon as they go live.

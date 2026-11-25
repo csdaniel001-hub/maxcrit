@@ -36,7 +36,7 @@ image_status: "candidate"
 
 Commanders still have a chance to collect recruitment vouchers after the fourth-anniversary celebrations. Several anniversary codes reached their deadline earlier today, so start with the remaining November gift.
 
-These Goddess of Victory: NIKKE codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Public trackers are behind this list, last updated November 24, 2026. Nothing has gone through the CD-Key Redemption Portal from our account. Some codes may be deactivated, region-locked to a server you don't play on, or used up. Keep the capitals exactly as shown.
 
 ## Latest Goddess of Victory: NIKKE codes
 
@@ -48,7 +48,7 @@ The five broadcast gifts had a reported cutoff of November 24 at 14:59 UTC.
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Only one code remains, and its deadline is November 30 at 14:59 UTC. A CD key is normally single-use per account, server switches included. The Recruit Vouchers go to the in-game Mailbox.
 
 ## Expired or retired codes
 
@@ -63,8 +63,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Mistyped keys fail first, so compare letters, capitals and spacing. If the key matches, it may have expired, reached its claim limit, been used on your account or been tied to another server. If the portal asks for server details, pick the server your Commander plays on. Keys go only through the in-game portal under Notices.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+NIKKE keys are handed out in official notices, anniversary and update broadcasts, and on community channels. Broadcast keys can expire quickly, so redeem them early.

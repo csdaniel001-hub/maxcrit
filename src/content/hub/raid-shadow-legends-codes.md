@@ -45,7 +45,7 @@ image_alt: "Official App Store screenshot of RAID: Shadow Legends"
 image_status: "candidate"
 ---
 
-RAID: Shadow Legends offers new accounts a choice of free Champions through Plarium's starter promo codes. The official November 2026 list includes 13 offers, with published deadlines stretching into 2027. You can claim only one new-player code, so choose a Champion that fills a useful role in your early roster before redeeming anything else. Some codes may already be deactivated, used up or region-locked, so if one fails, move on to the next.
+RAID: Shadow Legends offers new accounts a choice of free Champions through Plarium's starter promo codes. The official November 2026 list includes 13 offers, with published deadlines stretching into 2027. You can claim only one new-player code, so choose a Champion that fills a useful role in your early roster before redeeming anything else. MaxCrit has not redeemed any of them, and an offer may be deactivated, some are region-locked, and others are used up, so if one is refused, pick another Champion's code.
 
 ## Official RAID new-player promo codes
 
@@ -65,7 +65,7 @@ RAID: Shadow Legends offers new accounts a choice of free Champions through Plar
 | `GETMADAME` | Madame Serris | Sep 30, 2027 |
 | `GETUUGO` | Uugo | Sep 30, 2027 |
 
-Source: [Plarium's official November new-player table](https://raidshadowlegends.com/promo-codes-new-players/), checked November 25, 2026. All 13 are publisher-listed offers; MaxCrit has not redeemed these codes. The campaign expiry is separate from your personal 72-hour eligibility window. BORN2BURN, BURNITUP, POISONPOWER and STRIKEFAST are unavailable in Belarus and Russia under the published terms.
+Source: [Plarium's official November new-player table](https://raidshadowlegends.com/promo-codes-new-players/), checked November 25, 2026. All 13 are publisher-listed offers. The campaign expiry is separate from your personal 72-hour eligibility window. BORN2BURN, BURNITUP, POISONPOWER and STRIKEFAST are unavailable in Belarus and Russia under the published terms.
 
 ## Which starter code should you choose?
 

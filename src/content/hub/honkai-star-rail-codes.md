@@ -36,7 +36,7 @@ image_status: "candidate"
 
 Every extra Stellar Jade counts when you are saving for a Warp. These codes offer currency, Fuel and other Trailblazing supplies.
 
-These Honkai: Star Rail codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+This list was compiled from code trackers' public lists on November 24, 2026. We have not used the codes ourselves, and any could end up used up or region-locked, or may be deactivated by the time you try it. Copy the capitals exactly into Redemption Code or the HoYoverse gift page.
 
 ## Latest Honkai: Star Rail codes
 
@@ -57,7 +57,7 @@ Older codes may already have been used on your Trailblazer account. The sources 
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+All ten are undated, so start with the 60 Stellar Jade codes. A code goes to one account only, and a Trailblazer on a different server can't claim it twice. Rewards are sent to Mail, so collect them before you plan the next Warp.
 
 ## Expired or retired codes
 
@@ -78,8 +78,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Retype a failed code with care: capitals, spelling and no extra spaces. If that doesn't help, it might have expired, run out of redemptions, been claimed on your account already or belong to another server. Rely only on the phone menu's Redemption Code option or the official gift page.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Star Rail codes come out in official announcements, version broadcasts and community channels. Broadcast codes can end before a monthly list is updated, so redeem them right away.

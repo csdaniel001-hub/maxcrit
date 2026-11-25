@@ -31,7 +31,7 @@ image_status: "candidate"
 
 Redeem these gifts before committing resources to your next building, research or commander upgrade.
 
-These Rise of Kingdoms codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Both codes were rounded up from public trackers' reports on November 24, 2026; MaxCrit hasn't redeemed them on a governor account. Either code may be deactivated by now. A claim cap could also leave one used up, and region-locked codes fail outside their region. A2tmhrjdye mixes capitals and lowercase, so type it exactly.
 
 ## Latest Rise of Kingdoms reward codes
 
@@ -42,19 +42,19 @@ These Rise of Kingdoms codes come from public code trackers and were rounded up 
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+ROKHALLOW1 has a reported November 30 cutoff, so redeem it before A2tmhrjdye. A gift code goes to one account, and a governor in another kingdom can't claim it again. Rewards come through in-game mail or a reward notification, so open both after redeeming.
 
 ## How to redeem Rise of Kingdoms rewards
 
 1. Open your governor profile by tapping the avatar.
 2. Enter Settings and select Redeem.
 3. Paste the gift code and confirm the exchange.
-4. Check your in-game mail or reward notification.
+4. Look for the in-game mail or reward notification.
 
 ## Why might a code fail?
 
-Check capitalization and whitespace, account eligibility, region and the campaign deadline. Some offers are single-use, have a fixed claim limit or require an updated game client. Never share your password with a third-party code generator.
+Wrong capitals or a stray space break most codes, so retype first, paying extra attention to the lowercase letters in A2tmhrjdye. If that fails, the account or region may not qualify or the campaign could have closed. Some gifts are single-use, limited to a fixed number of claims or need the current game version, and no third-party generator should see your password.
 
 ## Where to find new rewards
 
-Follow the publisher’s official game announcements, store and community channels. Check event deadlines before attempting older offers.
+Rise of Kingdoms codes come out in official news, store promotions and community channels. Before trying an older offer, look at its deadline.

@@ -31,7 +31,7 @@ image_status: "candidate"
 
 Store promotions can unlock emotes and banner cosmetics without requiring a new deck or a purchase.
 
-These Clash Royale codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Code trackers reported this batch, and our list is dated November 24, 2026. MaxCrit has not entered any of them in the Supercell Store. Store offers may be deactivated once a promotion closes, run dry after a claim cap, or be region-locked, and some may simply be used up. Type punctuation and capitals exactly, exclamation marks included.
 
 ## Latest Clash Royale reward codes
 
@@ -50,7 +50,7 @@ Dexerto reports these codes on November 23; RoyaleAPI also tracks separate claim
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Since none of the eight lists an expiry, pick the emotes and banner items you want most first. Expect a single claim per Supercell ID. The rewards show up after you reopen the game.
 
 ## How to redeem Clash Royale rewards
 
@@ -61,8 +61,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why might a code fail?
 
-Check capitalization and whitespace, account eligibility, region and the campaign deadline. Some offers are single-use, have a fixed claim limit or require an updated game client. Never share your password with a third-party code generator.
+Look at capitals, spaces and punctuation, then at whether your account and region qualify and whether the campaign has ended. A store code can be single-use, stop after a set claim count or need the newest version of Clash Royale. Code generators that ask for your password have nothing to do with the store.
 
 ## Where to find new rewards
 
-Follow the publisher’s official game announcements, store and community channels. Check event deadlines before attempting older offers.
+Supercell announces store codes through official game news, the Supercell Store itself and community channels. Older offers are often past their deadline, so look at the date before trying one.

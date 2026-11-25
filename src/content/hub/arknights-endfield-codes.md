@@ -34,7 +34,7 @@ image_status: "candidate"
 
 Claim some extra T-Creds and Operator development materials before heading back into Talos-II. The Steam celebration code is especially time-sensitive.
 
-These Arknights: Endfield codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Our tracker sweep for this list ran on November 24, 2026, and none of the codes went through a MaxCrit account first. Each may be deactivated by now, used up by a claim cap or region-locked outside your server. Type them into Exchange Code with the same capitals shown here.
 
 ## Latest Arknights: Endfield codes
 
@@ -50,19 +50,19 @@ Prydwen lists five active entries as of November 24, while another tracker confi
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+ENDFIELDSTEAM has the nearest cutoff, and AKEGACHAGAMING runs until the end of 2027, so the undated three can sit between them. A code normally pays out once for each account; a character elsewhere can't stack a second claim. Rewards travel by in-game mail, which stays locked until the main story has progressed far enough.
 
 ## How to redeem Arknights: Endfield codes
 
 1. Open the Protocol Synchronizer menu (Esc on PC).
 2. Go to Settings, then Platform & Account.
 3. Choose Exchange Code and paste your code.
-4. Select Exchange and collect your in-game mail. If mail is locked, advance the main story.
+4. Select Exchange, then collect the in-game mail. If mail is locked, advance the main story.
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+A rejected Endfield code is most often a typing slip: a misread letter, a lowercase character or a space copied along with the string. If the spelling is right, the code has probably expired, reached its limit, been used by this account before or belongs to a different server. Stick to the in-game Exchange Code screen or an official redemption page.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Endfield codes turn up in developer posts, update streams and community spaces. Claim new ones promptly, since this monthly list can fall behind them.

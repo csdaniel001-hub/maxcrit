@@ -36,7 +36,7 @@ image_status: "candidate"
 
 Stock up on Polychrome for your next Signal Search and pick up a few extra Denny and upgrade materials while you are at it.
 
-These Zenless Zone Zero codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+We built this list from what public code trackers reported on November 24, 2026 and have not put the codes through our own account. Several may be deactivated, others used up, and a few region-locked by server. Paste them into Redemption Code, matching every capital.
 
 ## Latest Zenless Zone Zero codes
 
@@ -56,7 +56,7 @@ The version 3.4 codes are the most recent entries. The SUNCHASER livestream code
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+None of the nine has a listed end date; ZZZ34SUNBRINGER gives the most Polychrome, so start there. Each one works once per account, and the same account can't redeem it again on another server. The Polychrome and Denny come through Mail, ready for your next Signal Search.
 
 ## Expired or retired codes
 
@@ -77,8 +77,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Capitals, spelling and spaces cause most failures, so retype first. After that, suspect expiry, a full redemption cap, an earlier claim by you or a lock to another server. The More menu and the official ZZZ page are the only places to redeem.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+ZZZ codes are released through official posts, version livestreams and fan channels. Livestream codes such as SUNCHASER expire quickly, so claim new ones before our monthly refresh.

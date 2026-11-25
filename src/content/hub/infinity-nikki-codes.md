@@ -33,7 +33,7 @@ image_status: "candidate"
 
 Miraland’s anniversary celebrations have brought new coupon strings, alongside a few longer-running gifts for outfit collectors. Claim them before the next wardrobe upgrade or banner.
 
-These Infinity Nikki codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Our roundup is dated November 24, 2026 and built from public tracker lists. No one at MaxCrit has entered these in a Pear-Pal of their own. Coupons can be used up fast, and some may be deactivated or region-locked as well, so move down the table when one fails. Capitals matter, so paste the string as listed.
 
 ## Latest Infinity Nikki codes
 
@@ -46,7 +46,7 @@ The secondary lists disagree about many of the older community codes. The two da
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+BIRTHDAYWISHESFORNIKKI closes on December 31 and the headwear code runs until August 2027, so the birthday code comes first. Codes are normally single-claim per account, regardless of server or character. Rewards appear as an in-game notification or in the mailbox.
 
 ## How to redeem Infinity Nikki codes
 
@@ -58,8 +58,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+A refused coupon is usually mistyped: wrong letter, wrong case, stray space. If it is typed correctly, it has probably expired, hit its redemption limit, been used on this account or is meant for another server. Coupons belong only in the Pear-Pal or on the game's official site.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Miraland coupons appear in official posts, anniversary and update streams, and fan communities. Limited ones can lapse between our monthly updates, so claim them while they're fresh.

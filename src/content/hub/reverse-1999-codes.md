@@ -32,7 +32,7 @@ image_status: "candidate"
 
 Build up your supply of Clear Drops and character-development resources before your next summons. Several older gifts are still reported on community lists, although their actual availability can change without notice.
 
-These Reverse: 1999 codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Public trackers gave us these codes on November 24, 2026, and we have not tested any code in a real save. Clear Drop gifts may be deactivated without warning, and a few can be region-locked or used up. Paste each one exactly, since mixed-case strings such as GhostAlert must match letter for letter.
 
 ## Latest Reverse: 1999 codes
 
@@ -46,11 +46,11 @@ These Reverse: 1999 codes come from public code trackers and were rounded up on 
 | `5YRBRF9` | 19,999 Dust; 19,999 Sharpodonty; 3 Fine Insight Packages | No end date given |
 | `Gachagaming1999` | 15,000 Dust; 3 Enlighten II; 1 Jar of Picrasma Candy; 1 Delicate Insight Casket | No end date given |
 
-These seven codes were corroborated by a dated secondary roundup; the newest November 24 tracker counts differ. No direct account redemption was performed.
+These seven codes were corroborated by a dated secondary roundup; the newest November 24 tracker counts differ.
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Nothing in the table carries an end date, so 1999GIFT, with the most Clear Drops, is a good first pick. Claims are normally one per account, with no second helping on another server. The rewards arrive after you confirm in Exchange Code Reward.
 
 ## How to redeem Reverse: 1999 codes
 
@@ -61,8 +61,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Mixed-case codes trip people up, so match every capital and leave out spaces. A correctly typed code that still fails has probably expired, run out of claims, already gone to this account or been made for another server. Redeem through the game's Account settings or the publisher's official service and nowhere else.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Reverse: 1999 codes come from official posts, version broadcasts and the community. Limited ones may vanish before our monthly update, so claim new codes on the day they are posted.

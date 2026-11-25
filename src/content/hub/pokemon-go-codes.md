@@ -42,7 +42,7 @@ image_alt: "Official Pokémon GO artwork for the Pokémon x Crocs avatar items"
 image_status: "candidate"
 ---
 
-Pokémon GO has two publisher-confirmed public offer codes for avatar footwear as of November 25, 2026. Both are redeemable online and have published end dates. The Gengar and Jigglypuff Crocs clogs are separate offers that come with a matching Crocs purchase. Some codes may already be deactivated, used up or region-locked, so if one fails, move on to the next.
+Pokémon GO has two publisher-confirmed public offer codes for avatar footwear as of November 25, 2026. Both are redeemable online and have published end dates. The Gengar and Jigglypuff Crocs clogs are separate offers that come with a matching Crocs purchase. We haven't redeemed either public code ourselves, and an offer may be deactivated before its end date, and some are region-locked or simply used up, so a failed code is no reason to skip the other one.
 
 ## Current Pokémon GO offer codes
 
@@ -51,7 +51,7 @@ Pokémon GO has two publisher-confirmed public offer codes for avatar footwear a
 | `POKEMONGOxCROCSxELECTRIFYING` | Pikachu Classic Clog avatar item | Dec 31, 2027 | Publisher-confirmed |
 | `ADIDASxPOKEMON` | adidas avatar shoes | Jan 15, 2027 | Publisher-confirmed |
 
-The [official Crocs announcement](https://pokemongo.com/news/pokemon-crocs-2026) publishes the Pikachu string. The [adidas announcement](https://pokemongo.com/en/news/pokemon-x-adidas-2026) confirms the shoes code. We checked the published offers on November 25; MaxCrit has not redeemed them on an account.
+The [official Crocs announcement](https://pokemongo.com/news/pokemon-crocs-2026) publishes the Pikachu string. The [adidas announcement](https://pokemongo.com/en/news/pokemon-x-adidas-2026) confirms the shoes code. We checked the published offers on November 25.
 
 ## Purchase-linked Crocs offers
 

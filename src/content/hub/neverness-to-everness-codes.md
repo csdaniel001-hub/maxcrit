@@ -32,9 +32,9 @@ image_alt: "Official App Store screenshot of NTE: Neverness to Everness"
 image_status: "candidate"
 ---
 
-If you are exploring Hethereau, check the most recent gift before you head back into the city. Community trackers disagree about the older strings, so treat them as optional rather than guaranteed rewards.
+If you are exploring Hethereau, check the most recent gift before you head back into the city. Community trackers disagree about the older strings, so count them as a bonus if they work.
 
-These Neverness to Everness codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+We gathered these from public trackers on November 24, 2026 and have not redeemed them on our own account. Some may be used up or region-locked, and others may have been deactivated already. Enter each one in Redeem Code with the capitals unchanged.
 
 ## Latest Neverness to Everness codes
 
@@ -46,7 +46,7 @@ CALLELYMS is attributed to the official Discord by a November 24 tracker; Prydwe
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+CALLELYMS runs until November 30, so claim it before anything else. Each code should pay out one time on an account, whatever server you switch to. Rewards go to the mailbox once the prologue has unlocked it.
 
 ## Expired or retired codes
 
@@ -62,8 +62,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Retyping fixes a lot: look for a wrong letter, a lowercase character or a space. If the code still fails, it has most likely expired, hit its limit, already been claimed on this account or been released for a server other than yours. Use the in-game Redeem Code screen or the publisher's official service only.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+CALLELYMS reportedly appeared on the official Discord, and official announcements and update broadcasts carry codes too. Limited codes can end before our next refresh, so redeem new ones quickly.

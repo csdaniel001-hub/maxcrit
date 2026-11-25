@@ -34,7 +34,7 @@ image_status: "candidate"
 
 Captains can pick up a batch of Asterite, stamina items and Crystals on the Global servers. Several of the newest gifts have published December deadlines.
 
-These Honkai Impact 3rd codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Public code trackers supplied this Global list on November 24, 2026, and MaxCrit has not tried any on a Captain account. A code may already be deactivated, and others can stay region-locked to SEA or another edition or used up after a claim limit. Enter them under Exchange Rewards character for character, capitals included.
 
 ## Latest Honkai Impact 3rd codes
 
@@ -53,7 +53,7 @@ This list targets the Global edition; SEA and other editions may have different 
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+QPAS261QC8 closes first, on November 30, followed by the two December codes; the FLAVOR set and LBWY2YI5V4 have no listed end date. Each is one claim per account, so a second Captain on another server can't reuse it. Rewards are delivered as the game shows on confirmation.
 
 ## Expired or retired codes
 
@@ -68,8 +68,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Spelling, capitals and spacing explain most failures, so compare the code with the table. After that, the likely causes are expiry, a reached redemption limit, an earlier claim on your account or a code meant for another edition's server. Use only the in-game Exchange Rewards field.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+Honkai Impact 3rd codes go out in official notices, version broadcasts and community channels, and several current ones carry deadlines. Redeem new codes when you see them.

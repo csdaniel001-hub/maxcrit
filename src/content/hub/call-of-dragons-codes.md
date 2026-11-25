@@ -33,7 +33,7 @@ image_status: "candidate"
 
 Farlight Games hands out Call of Dragons gift codes with events and leagues, usually as one-month offers. Four codes were still listed as active on November 24, two of them added in the last ten days.
 
-These Call of Dragons codes come from public code trackers. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: League2026 in particular mixes upper and lower case.
+All four were taken from public trackers; nobody at MaxCrit has tried them on a lord. Farlight can retire a code early, a claim cap can leave one used up, and some may not work outside a given region or server. Capitals count, which matters most for League2026 with its mix of upper and lower case.
 
 ## Latest Call of Dragons gift codes
 
@@ -61,4 +61,4 @@ Each code works once per account, so a second lord on another server needs to cl
 
 ## Why might a code fail?
 
-Check capitalization and the deadline first. Some offers have a claim limit or need the latest client version, so update the game if a new code is rejected. Never share your account login with a third-party code site.
+Start with the capitals and the deadline. Some offers stop at a claim limit or need the latest client, so update the game if a new code is refused. No outside code site needs your login, so keep it to yourself.

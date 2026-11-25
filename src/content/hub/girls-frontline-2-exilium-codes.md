@@ -36,7 +36,7 @@ image_status: "candidate"
 
 The second anniversary brings seven reported gift codes for Commanders. The same December deadline is listed for all seven, although compatibility can depend on your publisher and server.
 
-These Girls' Frontline 2: Exilium codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+We rounded these up from public trackers on November 24, 2026 and haven't redeemed them on our own account. Expect gaps: any one of them may be deactivated ahead of the December 30 date, used up once its claims run out, or region-locked to one publisher's edition. Paste each string with its capitals intact.
 
 ## Latest Girls' Frontline 2: Exilium codes
 
@@ -54,7 +54,7 @@ Darkwinter and Haoplay operate separate editions. Use your own edition’s redem
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+All seven share one deadline, so the order is up to you. The usual rule is a single redemption per Commander account, on whichever server you play. Delivery to the mailbox can take a while, so allow some time before retrying.
 
 ## How to redeem Girls' Frontline 2: Exilium codes
 
@@ -65,8 +65,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Look for a wrong letter, a capital in the wrong place or an extra space first. A correctly typed code can still fail if it has expired, reached its cap, been claimed on your account or is tied to the other publisher's servers. Redeem only in the game or through your edition's official service.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+New GFL2 codes come through each edition's official news, anniversary broadcasts and community groups. Anniversary codes like these have deadlines, so claim new ones soon after they appear.

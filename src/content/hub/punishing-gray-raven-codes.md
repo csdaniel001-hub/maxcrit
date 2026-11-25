@@ -30,7 +30,7 @@ image_status: "candidate"
 
 Global Commandants have two recently reported codes to try. The Taiwan edition has separate promotions, so check the server before copying anything.
 
-These Punishing: Gray Raven codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Our list comes from public code trackers and is dated November 24, 2026; no MaxCrit account has redeemed either code. Either may already be deactivated, and either could be region-locked to an edition other than Global or used up. Type the capitals exactly.
 
 ## Latest Punishing: Gray Raven codes
 
@@ -43,7 +43,7 @@ Both codes are reported for Global by Pocket Gamer on November 22. The reward co
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Neither code shows a reward or expiry in the table, so try both. Expect a single redemption per Commandant account. Rewards usually reach the in-game mail.
 
 ## Expired or retired codes
 
@@ -58,8 +58,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+A wrong letter, capital or space is the most common reason a Commandant's code fails. If the entry is clean, the code may be past its date or capped, already used on this account, or tied to another region's server. The gift-code field in the game and the publisher's own site are the only safe places to enter it.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+PGR codes are shared through official posts, update streams and community chats, and the Taiwan edition runs its own. New ones can lapse before this page is next updated, so redeem promptly.

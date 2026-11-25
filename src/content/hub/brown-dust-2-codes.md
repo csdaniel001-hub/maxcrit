@@ -32,7 +32,7 @@ image_status: "candidate"
 
 November’s monthly coupon is a good way to pick up three extra Draw Tickets before the next costume banner. There are also radio and community gifts worth checking separately.
 
-These BrownDust2 codes come from public code trackers and were rounded up on November 24, 2026. We have not redeemed them on a MaxCrit account, and some may already be deactivated, used up or limited to another region or server, so if one fails, try the next. Codes are case-sensitive: copy them exactly as written.
+Trackers supplied every BrownDust2 code here, and the roundup is dated November 24, 2026. We haven't registered any of them in our own game. Some coupons may be deactivated sooner than expected, others used up, and the radio ones in particular may be region-locked. Enter them capital for capital, either in Register Coupon or on the coupon form.
 
 ## Latest Brown Dust 2 codes
 
@@ -45,7 +45,7 @@ The monthly coupon has the clearest provenance. Radio coupons may originate from
 
 ## How to use this list
 
-Start with any code that shows a deadline in the table, then work down the ones without a listed end date. Each code can normally be claimed once per account, so redeeming it on one server or character does not let you claim it again on another. Check your in-game mail after redeeming, since that is where most games send code rewards.
+Both active coupons close on November 30, so neither should wait. Each coupon counts once against your account, and a second character elsewhere doesn't get a fresh one. Whichever route you use, the Draw Tickets come as mail to collect in the game.
 
 ## Expired or retired codes
 
@@ -65,8 +65,8 @@ Start with any code that shows a deadline in the table, then work down the ones 
 
 ## Why is my code not working?
 
-Check the spelling, capitalization and any extra spaces first. If the code still fails, it may have expired, reached a redemption limit, been used on your account already or been released for a different server. Only enter codes in the game or on the publisher’s official redemption service.
+Before blaming the coupon, compare it letter by letter, capitals and spaces included. A clean entry that still fails points to an expired or capped coupon, one your account has already used, or one meant for a different server. Only type coupons into the game or the official coupon form.
 
 ## Where to find new codes
 
-Watch the game’s official announcements, update broadcasts and community channels. Limited-time codes may expire before a monthly roundup is refreshed, so claim new rewards as soon as possible.
+New BrownDust2 coupons come out with official notices and update broadcasts, plus the radio and community gifts shared in fan channels. Limited ones can expire between our monthly refreshes, so claim them as they appear.
