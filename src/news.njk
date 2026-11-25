@@ -17,7 +17,7 @@ summary: The latest mobile gaming news, newest first. Updates, betas, launches a
 <div class="lr-grid">
 <div class="lr-main">
 {% if all.length %}{% set f = all[0] %}<a class="cc-f cc-fg nf gp-lead" href="{{ f.url | rel }}"><span class="nf-in"><img class="cc-fbg" src="{{ f.data.image | wsrc(960) | rel }}" srcset="{{ f.data.image | srcset }}" sizes="(max-width: 700px) 100vw, 900px" alt="" width="960" height="540" fetchpriority="high" decoding="async"><span class="cc-tab">{{ kick(f) }}</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>
-<p class="gp-lead-d">{{ f.data.summary }}</p>{% endif %}
+{% endif %}
 <section class="hz-all lr-list" aria-label="All news">
 <header class="hz-sh"><div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (all | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div></header>
 <ol id="gzAll">{% for n in all %}{% if not loop.first %}{{ allrow(n, pre) }}{% endif %}{% endfor %}</ol>

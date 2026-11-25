@@ -32,7 +32,7 @@
 <div class="lr-grid">
 <div class="lr-main">
 {% if items.length %}{% set f = items[0] %}<a class="cc-f cc-fg nf gp-lead" href="{{ f.url | relp(pre) }}"><span class="nf-in"><img class="cc-fbg" src="{{ f.data.image | wsrc(960) | relp(pre) }}" srcset="{{ f.data.image | srcset }}" sizes="(max-width: 700px) 100vw, 900px" alt="" width="960" height="540" fetchpriority="high" decoding="async"><span class="cc-tab">{{ kick(f) }}</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>
-<p class="gp-lead-d">{{ f.data.summary }}</p>
+
 {% if items.length > 1 %}<section class="hz-all lr-list" aria-label="More"><ol>{% for n in items %}{% if not loop.first %}{{ allrow(n, pre) }}{% endif %}{% endfor %}</ol></section>{% endif %}
 {% else %}{{ moment(['head-aqua-girl','head-cat-boy','head-shrine-girl'][heading | length % 3], false, 'Nothing here yet', 'This section is still being prepared. Patch trackers and guides are ready in the meantime.', [['Patch trackers','/hub/patch-trackers.html'],['Guides','/hub/guides.html']]) }}{% endif %}
 </div>

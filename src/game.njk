@@ -39,7 +39,7 @@ eleventyComputed:
 <div class="gp-main">
 {% if news.length %}{% set f = news[0] %}
 <a class="cc-f cc-fg nf gp-lead" href="{{ f.url | rel }}"><span class="nf-in">{{ pic(f.data.image, 960, 'cc-fbg') }}<span class="cc-tab">Latest {{ g.name }} news</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>
-<p class="gp-lead-d">{{ f.data.summary }}</p>
+
 {% endif %}
 {% if news.length > 1 %}<section class="cc-news nf gp-list" aria-labelledby="h-gnews"><div class="nf-in"><header class="cc-h"><h2 id="h-gnews">More {{ g.name }} news</h2></header>
 {% for n in news %}{% if not loop.first %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt">{{ pic(n.data.image, 480) }}</span><span class="cc-nx"><i class="cc-tab">{{ kick(n) }}</i><b>{{ n.data.title }}</b><span class="gp-sum">{{ n.data.summary }}</span><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | longDate }}</time></span>{{ arr() }}</a>{% endif %}{% endfor %}
