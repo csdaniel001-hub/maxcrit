@@ -69,3 +69,8 @@ The full text is in `docs/editorial-standard.md`, with the operational amendment
 - **Maintenance:** event triggers (banner end, patch, rework) and `review_by` dates. `check.js` warns when a review is due. Keep URLs, and only update dates for substantive changes.
 - **Originality:** competitor pages are for spotting gaps, never for paraphrasing. Write in our own structure and words, and credit specialist analysis by name.
 - **Working with Mira (Daniel's ChatGPT editor, agreed 2026-11-25):** Mira owns the Tier 2 and 3 packages. Claude owns Tier 1, codes, routine events, hardware news, implementation and publishing. Claude reviews Mira's packages adversarially: searching independently, checking completeness as well as correctness, and returning a failed-claims report (PASS / REVISION REQUIRED / BLOCKED, with severity, evidence and downstream impact). Claude fixes formatting and unambiguous facts directly; anything touching conclusions goes back to Mira. After two rounds, Daniel decides, and factual uncertainty can't be overruled into fact.
+- **Clarifications with Mira (2026-11-25):**
+  - `primary: true` marks the one official source the checker needs. Other official sources are listed normally and still count as primary evidence.
+  - Decision-relevant uncertainty is stated in the article, in plain terms of what it means for the player (for example "if you can't reach the next 5-star before December 15, the guarantee is lost"). Only "the source doesn't say" filler stays banned.
+  - `published_at` is set by Claude at actual publication.
+  - Failed-claims reports are kept in `verification/reviews/<slug>-r<n>.md` so recurring weaknesses can be tracked.
