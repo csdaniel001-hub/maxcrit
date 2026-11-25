@@ -5,14 +5,14 @@ bodyClass: hz-home
 ---
 {% from "macros.njk" import arr, clock, chip, kick, ago, allrow with context %}
 {% set all = collections.stories %}
-{% set hero = all | notGenre('hardware') | featured | limit(4) %}
-{% set fresh = all | notIn(hero) | limit(3) %}
+{% set news = collections.news %}
+{% set hero = news | notGenre('hardware') | diverseFeatured(4) %}
 {% macro pic(img, w, cls='', lazy=true, pos='') %}<img{% if cls %} class="{{ cls }}"{% endif %} src="{{ img | wsrc(w) | rel }}" alt="" width="{{ w }}" height="{{ (w * 9 / 16) | round }}"{% if pos %} style="object-position:{{ pos }}"{% endif %}{% if lazy %} loading="lazy"{% endif %} decoding="async">{% endmacro %}
 {% macro ui(f) %}{{ ('/assets/img/ui/' + f) | rel }}{% endmacro %}
 {% macro go() %}<svg class="mx-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg>{% endmacro %}
 {% macro card(n) %}<a class="hz-card" href="{{ n.url | rel }}"><span class="hz-card-in"><span class="hz-card-pic">{{ pic(n.data.image, 480, '', true, n.data.image_pos or '50% 50%') }}<i class="hz-chip">{{ kick(n) }}</i></span><span class="hz-card-tx"><b>{{ n.data.title }}</b></span></span></a>{% endmacro %}
 {% set rank = games | gameRank(all) %}
-{% set gi = all | byTopic('gacha') | notIn(hero.concat(fresh)) %}
+{% set gi = all | byTopic('gacha') | notIn(hero) %}
 {% set gl = [] %}{% for slug, g in games %}{% if (all | byGame(slug)).length %}{% set gl = (gl.push(slug), gl) %}{% endif %}{% endfor %}
 
 <h1 class="gz-sr">{{ site.name }}: mobile gaming news, patch trackers and guides</h1>
@@ -33,7 +33,7 @@ bodyClass: hz-home
 {% if gi.length %}{% set f = gi[0] %}<a class="cc-f cc-fg nf" href="{{ f.url | rel }}"><span class="nf-in"><img class="cc-fbg" src="{{ f.data.image | wsrc(960) | rel }}" srcset="{{ f.data.image | srcset }}" sizes="(max-width: 700px) 100vw, 640px" alt="" width="960" height="540" decoding="async"><span class="cc-tab">Gacha spotlight</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>{% endif %}
 {% set gd = collections.hub | byHubType('guides') %}{% if gd.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Guides</h2></header>{% for n in gd | limit(2) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<img class="cc-fart" src="{{ ui('chest-magic.webp') }}" alt="" width="84" height="70" loading="lazy"><a class="cc-btn cy" href="{{ '/hub/guides.html' | rel }}">All guides {{ arr() }}</a></div></div>{% endif %}
 {% set pt = collections.hub | byHubType('patch-trackers') %}{% if pt.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Patch tracker</h2></header>{% for n in pt | limit(2) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<a class="cc-btn" href="{{ '/hub/patch-trackers.html' | rel }}">All patch trackers {{ arr() }}</a></div></div>{% endif %}
-</div></div><aside class="cc-news nf" aria-labelledby="h-cn"><div class="nf-in"><header class="cc-h"><h2 id="h-cn">Latest news</h2><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>{% for n in all | notGenre('hardware') | limit(6) %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt">{{ pic(n.data.image, 480) }}</span><span class="cc-nx"><i class="cc-tab">{{ kick(n) }}</i><b>{{ n.data.title }}</b><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate | capitalize }}</time></span>{{ arr() }}</a>{% endfor %}</div></aside></div>
+</div></div><aside class="cc-news nf" aria-labelledby="h-cn"><div class="nf-in"><header class="cc-h"><h2 id="h-cn">Latest news</h2><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>{% for n in news | notGenre('hardware') | notIn(hero) | limit(6) %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt">{{ pic(n.data.image, 480) }}</span><span class="cc-nx"><i class="cc-tab">{{ kick(n) }}</i><b>{{ n.data.title }}</b><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate | capitalize }}</time></span>{{ arr() }}</a>{% endfor %}</div></aside></div>
 
 {# Popular games: the most-covered games #}
 <section class="mc-sec" aria-labelledby="h-pop">
@@ -44,11 +44,18 @@ bodyClass: hz-home
 {# Latest news: one feed with genre filters #}
 <section class="hz-all" aria-labelledby="h-all">
 <header class="hz-sh kx-has-peek"><h2 id="h-all">Latest news</h2><i aria-hidden="true">//</i>
-<div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (all | limit(24) | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div>
+<div class="hz-tabs"><button type="button" class="on" data-f="all">All</button>{% for g in genreNav %}{% if (news | limit(24) | byGenre(g.slug)).length %}<button type="button" data-f="{{ g.slug }}">{{ g.name }}</button>{% endif %}{% endfor %}</div>
 </header>
-<ol id="gzAll">{% for n in all | limit(24) %}{{ allrow(n, pre) }}{% endfor %}</ol>
+<ol id="gzAll">{% for n in news | limit(24) %}{{ allrow(n, pre) }}{% endfor %}</ol>
 <div class="hz-all-f"><button type="button" class="hz-moreb" id="gzMoreB" hidden>Load more <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg></button><a class="hz-link" href="{{ '/news.html' | rel }}">News archive {{ arr() }}</a></div>
 </section>
+
+{# Latest guides and builds: evergreen hub content gets its own block so it never crowds the news surfaces #}
+{% set gb = collections.hub | guidesBuilds | limit(6) %}
+{% if gb.length %}<section class="mc-sec mc-gb" aria-labelledby="h-gb">
+<header class="hz-sh"><img class="nx-ic" src="{{ ui('el-p46.webp') }}" alt="" width="28" height="28"><h2 id="h-gb">Latest guides &amp; builds</h2><i aria-hidden="true">//</i>{% if (collections.hub | byHubType('builds')).length %}<a class="hz-link" href="{{ '/hub/builds.html' | rel }}">Character builds {{ arr() }}</a>{% endif %}{% if (collections.hub | byHubType('guides')).length %}<a class="hz-link" href="{{ '/hub/guides.html' | rel }}">Guides {{ arr() }}</a>{% endif %}</header>
+<div class="mc-gs">{% for n in gb %}{{ card(n) }}{% endfor %}</div>
+</section>{% endif %}
 
 {# Gacha games #}
 {% if gi.length %}

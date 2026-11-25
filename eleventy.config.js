@@ -138,6 +138,25 @@ export default function (eleventyConfig) {
     return [...m.entries()].filter(([, c]) => c >= BUILD_HUB_MIN).map(([slug]) => slug).sort();
   });
 
+  // Homepage selection (2026-11-25): news surfaces show only news; the carousel picks important news
+  // (full articles before shorts) and spreads it across games and genres instead of taking the newest 4.
+  eleventyConfig.addFilter("fullNews", (arr) => (arr || []).filter((n) => n.data.type !== "short"));
+  eleventyConfig.addFilter("diverseFeatured", (arr, n = 4, pool = 40) => {
+    const c = (arr || []).filter((x) => x.data.image).slice(0, pool);
+    const out = [], games = new Set(), genres = new Set();
+    const key = (x) => [((x.data.titles || [])[0] || x.url), ((x.data.genres || [])[0] || "none")];
+    const passes = [
+      (x) => x.data.type !== "short" && !games.has(key(x)[0]) && !genres.has(key(x)[1]),
+      (x) => x.data.type !== "short" && !games.has(key(x)[0]),
+      (x) => !games.has(key(x)[0]) && !genres.has(key(x)[1]),
+      (x) => !games.has(key(x)[0]),
+      () => true,
+    ];
+    for (const ok of passes) for (const x of c) { if (out.length >= n) break; if (!out.includes(x) && ok(x)) { out.push(x); const [g, ge] = key(x); games.add(g); genres.add(ge); } }
+    return out;
+  });
+  eleventyConfig.addFilter("guidesBuilds", (arr) => (arr || []).filter((x) => ["builds", "guides"].includes(x.data.hub_type)));
+
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },
     markdownTemplateEngine: "njk",

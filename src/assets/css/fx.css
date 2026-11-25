@@ -236,3 +236,4 @@ html[data-gz] body .bd-pic{position:relative}
 html[data-gz] body .bd-ban{position:absolute;left:0;bottom:0;font-style:normal;font-size:10.5px;letter-spacing:.04em;padding:5px 8px;background:#35d6ec;color:#06101f;font-weight:700}
 html[data-gz] body .bd-ban,html[data-gz] body .bd-meta{white-space:nowrap}
 @media (max-width:700px){html[data-gz] body .bd-ban{font-size:9.5px;padding:4px 6px;letter-spacing:0}html[data-gz] body .bd-meta{font-size:10px;letter-spacing:0}}
+@media (max-width:700px){html[data-gz] body .mc-gb .hz-sh{flex-wrap:wrap;row-gap:6px}html[data-gz] body .mc-gb .hz-sh>i{display:none}}
