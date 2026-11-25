@@ -1,6 +1,6 @@
 {%- set tlist = timers | sort(false, false, 'ends') -%}
 <section class="mc-timers" aria-labelledby="h-timers">
-<header class="hz-sh mt-h"><h2 id="h-timers">Ending soon</h2><i aria-hidden="true">//</i><span class="mt-sub mono"><span class="mt-dot" aria-hidden="true"></span>Live · UTC</span></header>
+<header class="hz-sh mt-h"><h2 id="h-timers">Events Ending Soon</h2><i aria-hidden="true">//</i><span class="mt-sub mono">Times in UTC</span></header>
 <ol class="mt-list">{% for t in tlist %}{% set g = games[t.game] %}
 <li class="mt-it mt-{{ t.kind }}" data-end="{{ t.ends }}"><a href="{{ t.url | rel }}">
 {% if g and not g.noicon %}<img class="mt-ic" src="{{ ('/assets/img/icons/' + t.game + '.webp') | rel }}" alt="" width="40" height="40">{% endif %}
