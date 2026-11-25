@@ -3,7 +3,7 @@ title: 'Genshin Impact Xilonen support build: weapons, artifacts and teams'
 seo_title: Genshin Impact Xilonen support build and teams
 summary: Build Xilonen for resistance reduction and healing in Genshin Impact, with weapon choices, artifact priorities, energy targets and practical team examples.
 keyword: Genshin Impact Xilonen build
-published_at: '2026-11-25T11:15:00Z'
+published_at: '2026-11-25T11:04:00Z'
 genres:
 - rpg
 platforms:

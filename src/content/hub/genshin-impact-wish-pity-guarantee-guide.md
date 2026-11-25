@@ -3,7 +3,7 @@ title: 'Genshin Impact wish planning: pity, guarantees and Fate Points'
 seo_title: Genshin Impact pity and wish guarantee guide
 summary: Calculate how many wishes you need to guarantee a target in Genshin Impact, track separate pity counters and avoid losing expiring banner Fate Points.
 keyword: Genshin Impact pity guarantee guide
-published_at: '2026-11-25T11:15:00Z'
+published_at: '2026-11-25T11:04:00Z'
 genres:
 - rpg
 platforms:
