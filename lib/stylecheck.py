@@ -152,6 +152,8 @@ def colon_head(h):
 def check_file(path):
     issues = []
     text = open(path, encoding="utf-8").read()
+    if not text.lstrip().startswith("---"):
+        return []  # evidence notes, READMEs and other files without front matter are not articles
     fm, body, start = parse_front_matter(text)
 
     def add(level, msg, line=None):
