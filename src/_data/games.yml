@@ -152,6 +152,12 @@ blue-archive:
   appstore: "https://apps.apple.com/us/app/blue-archive/id1571873795"
   googleplay: "https://play.google.com/store/apps/details?id=com.nexon.bluearchive"
   status: "Live"
+where-winds-meet:
+  name: "Where Winds Meet"
+  publisher: "NetEase Games"
+  official: "https://www.wherewindsmeetgame.com/"
+  appstore: "https://apps.apple.com/us/app/where-winds-meet/id6472396866"
+  status: "Live"
 aniimo:
   name: "Aniimo"
   publisher: "Pawprint Interactive"
