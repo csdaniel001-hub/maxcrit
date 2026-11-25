@@ -248,3 +248,8 @@ html[data-gz] body .axh-fb:hover{color:#fff;background:#1877f2;border-color:#187
 /* Neon frame alignment (2026-11-25): the sr-lines frame draws inner lines ~8px in and cuts a 14px corner, so content must clear it */
 html[data-gz] body .mc-gintro{padding:20px 24px 22px!important}
 html[data-gz] body :is(.cc-fg,.gp-lead,.lr-spot) .cc-tab{left:22px!important;top:22px!important}
+
+/* Tagline under the logo (Daniel, 2026-11-25) */
+html[data-gz] body .gz-logo .mc-brand{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;line-height:1}
+html[data-gz] body .gz-logo .mc-tag{font:600 10.5px/1 var(--cnd);letter-spacing:.22em;text-transform:uppercase;color:#35e0f0!important;-webkit-text-fill-color:#35e0f0!important;opacity:.85;white-space:nowrap;padding-left:42px}
+@media (max-width:560px){html[data-gz] body .gz-logo .mc-tag{display:none}}
