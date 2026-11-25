@@ -18,9 +18,7 @@ image_alt: "Warships battle in an official Boom Beach App Store screenshot"
 image_status: "candidate"
 ---
 
-Supercell's November calendar for Boom Beach has one busy week left, and it ends with a new Warships season.
-
-What's still ahead:
+Four Boom Beach events are still ahead on Supercell's calendar, and the last of them opens a new Warships season: Season 94 runs from November 30 to December 20. Before it, Joker Crab closes November's Mega Crab schedule from November 27 to 29.
 
 - **Explosive Drones**: November 23 to 25. The drones rush nearby defenses and detonate, clearing priority targets before your main force moves in.
 - **Leader Deployment Event**: November 23 to 29. Supercell says the Lt. will be announced closer to the date.
@@ -29,4 +27,4 @@ What's still ahead:
 
 Earlier in the month the game ran Cryo Bomb, Leader Blitz, Crystal Critters, Sonar Ops, Super Warrior and the Proto Crab challenge, plus two troop Mania weekends with Rocket Choppas, one with Tanks and one with Medics.
 
-The two Mega Crab events bookend the second half of the month. If you skipped Proto Crab on November 20 to 22, Joker Crab is the last Crab of November. It closes the day before Warships Season 94 begins.
+If you missed Proto Crab on November 20 to 22, Joker Crab is your second shot at a Mega Crab this month, and your last. It closes the day before Warships Season 94 begins, so the two never compete for your time.

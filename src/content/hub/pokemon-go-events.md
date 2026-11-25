@@ -28,9 +28,9 @@ image_alt: "Official December Community Day 2026 key art with this year's Commun
 image_status: "candidate"
 ---
 
-Twilight Wishes is the season finale, bringing costumed Pokémon and a dedicated GO Pass.
+Sun and moon crown Pikachu in one-star raids, scarf-wearing Espeon and Umbreon in three-star raids, themed Mega Raids: Twilight Wishes is the season finale, and it brings costumed Pokémon and a dedicated GO Pass.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Both run on your local time, from November 24 at 10:00 to November 30 at 20:00, so each region goes live as its own clock reaches the start. The dates come from the official announcement as of November 24, 2026.
 
 ## Current event schedule
 
@@ -61,4 +61,4 @@ Collect GO Points through Pass Tasks. Free pass is automatic; optional Deluxe of
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+The Field Research switch on November 26 at 10:00 is the first deadline: work through the Applin and Maschiff tasks before costumed Gengar, Drifblim and Bramblin take over. GO Pass rewards stay claimable until December 2 at 20:00 local time, after the event itself has closed. Dates may change after publication, and an event window does not guarantee every activity is available every day.

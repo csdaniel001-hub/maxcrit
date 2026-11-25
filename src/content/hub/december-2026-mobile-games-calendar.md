@@ -38,7 +38,7 @@ image_alt: "Official App Store screenshot of Petit Planet, which launches Decemb
 image_status: "candidate"
 ---
 
-This page collects every December 2026 date that a developer or publisher has officially announced for the mobile games we cover. Dates are as the official source gives them. Where a source gives a time zone, it's noted, and "local" means your own local time. We add new dates as they're announced and remove nothing that has already happened, so you can see the whole month.
+December starts at full speed for mobile players: Zenless Zone Zero 3.4 and TFT Set 19 both land on December 2, and Petit Planet launches two days later. Below is every December 2026 date that a developer or publisher has officially announced for the mobile games we cover, as the official source gives it. Where a source gives a time zone, it's noted, and "local" means your own local time. We add new dates as they're announced and remove nothing that has already happened, so you can see the whole month.
 
 ## Launches and big updates
 
@@ -81,8 +81,6 @@ Pokémon GO has a dated event every Saturday of December. December Community Day
 
 ## How to use this page
 
-The first week is the crowded one. Zenless Zone Zero 3.4, TFT Set 19 and Petit Planet all land between December 2 and 4, and Candy Crush's season ends on the 6th. If you play several of these, that's the week to plan around.
+Plan around the first week. Three of the four big arrivals land between December 2 and 4, and Candy Crush's season ends on the 6th, so anyone playing several of these games will feel the squeeze there first.
 
 The Pokémon GO × Duolingo deadlines are easy to miss because there are three of them. The one that decides whether you get the research at all is December 21, the last day to join the Duolingo quest.
-
-For the details behind each date, see the individual news stories for each game on MaxCrit.

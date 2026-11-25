@@ -11,11 +11,6 @@ titles: [genshin-impact]
 sources:
   - { title: "HoYoverse press release: Genshin Impact Version 7.2 Arrives on November 4 as Teyvat's Seven Nations Unite Against Looming Annihilation (October 23, 2026)", url: "https://www.gamespress.com/Genshin-Impact-Version-72-Arrives-on-November-4-as-Teyvats-Seven-Natio", primary: true }
   - { title: "Genshin Impact Version 7.2 trailer (official YouTube)", url: "https://youtu.be/6gFCnMLSw-Y" }
-tldr:
-  - "Version 7.2, Hour of Ruin, went live on <b>November 4</b>."
-  - "A new region in eastern Snezhnaya opens: the underground city of Novokitezhgrad and Wingspan Peak, home to Old Kitezhgrad."
-  - "Mitya (5-star Electro Catalyst) and Valeriy (4-star Electro Sword) debut in the first phase alongside a Furina rerun."
-  - "The second phase brings back Zibai and Linnea with a Chronicled Wish of Natlan characters."
 image: "/assets/img/genshin-impact-7-2-hour-of-ruin-mitya-valeriy.jpg"
 image_url: "https://i.ytimg.com/vi/6gFCnMLSw-Y/maxresdefault.jpg"
 image_source: "https://youtu.be/6gFCnMLSw-Y"
@@ -24,11 +19,13 @@ image_alt: "Frame from the official Genshin Impact Version 7.2 trailer"
 image_status: "candidate"
 ---
 
-Genshin Impact Version 7.2, "Hour of Ruin," has been live since November 4. The story brings representatives of all seven nations to Snezhnaya at the Tsaritsa's call, as the Nails of Retribution awaken and the Holy Soil phenomenon spreads across Teyvat. You fight alongside the Archons and Neuvillette, and finishing the Archon Quest within the designated period pays 560 Primogems plus Ascension Materials for Mitya.
+Representatives of all seven nations answer the Tsaritsa's call to Snezhnaya in Genshin Impact Version 7.2, "Hour of Ruin," which has been live since November 4. The update opens a new region in eastern Snezhnaya, Novokitezhgrad and Wingspan Peak, and adds 5-star Mitya and 4-star Valeriy to the Event Wishes.
+
+As the Nails of Retribution awaken and the Holy Soil phenomenon spreads across Teyvat, you fight alongside the Archons and Neuvillette. Finishing the Archon Quest within the designated period pays 560 Primogems plus Ascension Materials for Mitya.
 
 ## Novokitezhgrad and Wingspan Peak
 
-The new region sits in eastern Snezhnaya. You take the railway to Novokitezhgrad, Snezhnaya's main producer of Kresnik Kristall, a city built entirely underground and encased in the crystal. Further east is Wingspan Peak, shaped like a giant wing, where you find Old Kitezhgrad, Snezhnaya's first city, founded by the Belyi Tsar.
+Getting there means taking the railway to Novokitezhgrad, Snezhnaya's main producer of Kresnik Kristall, a city built entirely underground and encased in the crystal. Further east is Wingspan Peak, shaped like a giant wing, where you find Old Kitezhgrad, Snezhnaya's first city, founded by the Belyi Tsar.
 
 Exploration is built around the Holy Soil phenomenon that Ronova set loose. You use new Prime Ice Constructs and two elemental shotguns to clear contaminated Kresnik Kristall deposits. Meeting Point quests follow Danica on a cleanup job for the Tsaritsa and Mitya investigating the soil near Teplo Oasis, and a colossal creature from the ocean depths waits for challengers in Novokitezhgrad. The latest Secret Tsarist Assignments add a Snezhnaya-themed Wind Glider.
 
@@ -49,4 +46,4 @@ The main event unlocks through the 7.2 Archon Quest, or right away with Quick St
 
 Miliastra Wonderland gets a masquerade-themed lobby, a free 4-star cosmetic set and more stage-editing components.
 
-If you're saving Primogems, the Archon Quest's 560 and the free 4-star are the easy wins this version. Deciding on Mitya comes down to whether you already run Superconduct teams, since his whole kit rewards building around Stellar-Conduct.
+Whether Mitya deserves your Primogems comes down to Superconduct. His whole kit rewards building around Stellar-Conduct, so accounts that already run Superconduct teams get the most out of him. Either way, collect the Archon Quest's 560 Primogems and the free 4-star first.

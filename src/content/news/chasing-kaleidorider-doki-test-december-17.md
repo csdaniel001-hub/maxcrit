@@ -19,16 +19,15 @@ image_alt: "Official Chasing Kaleidorider key art"
 image_status: "candidate"
 ---
 
-Fizzglee Studio, a Tencent label for anime-style games, will run a limited global test of Chasing Kaleidorider from December 17, 2026. The studio calls it a 3D RIDER girl Dokidoki romance RPG, and the test is called the Doki Test.
+How many characters can you date before a game is even out? In the Doki Test for Chasing Kaleidorider, a limited global beta that Fizzglee Studio starts on December 17, 2026, the answer is 16 RIDERS.
 
-What the test is:
+Fizzglee is a Tencent label for anime-style games, and it calls this one a 3D RIDER girl Dokidoki romance RPG. The test runs on Android, iOS and PC.
 
 - **A closed beta**: limited capacity and non-monetized. All data is wiped when it ends.
-- **Platforms**: Android, iOS and PC.
 - **Content**: 16 RIDERS to meet, date and eventually confess to, plus a main story with 3D cutscenes and over 300 minutes of free voiced ASMR.
 
 Sign-ups for the Doki Test are open now through a survey link in the announcement, and pre-registration runs at the same time on the official website, kaleidorider.com.
 
-The game itself is set in Terminus. You fight alongside the RIDERS against an invading enemy called HYSTERIA, and the bonds you build in combat and daily scenes uncover each character's secrets. The developer says the official global launch will follow shortly after the test, without a date.
+The game is set in Terminus. You fight alongside the RIDERS against an invading enemy called HYSTERIA, and the bonds you build in combat and daily scenes uncover each character's secrets. The developer says the official global launch will follow shortly after the test, without giving a date.
 
-Since nothing carries over from the test, it's a free look rather than a head start.
+Nothing from the test carries over, so treat December 17 as a free preview. Your account proper starts at the global launch.

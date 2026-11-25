@@ -47,9 +47,9 @@ Ferrari Season gives Asphalt Legends players a choice between pursuing a feature
 | Club TLE | Dec 4–7 | Season-car Blueprints and Credits |
 | Cyber Monday | Nov 30–Dec 5 | Trion Nemesis and Icona Vulcano Titanium feature in the event |
 
-Gameloft's November 10 notes provide the dates above.
+All dates are from Gameloft's November 10 patch notes.
 
-The two Hunts overlap from December 4 through 8. If you already have progress toward the Furai, prioritize finishing that target before its deadline. The VLF hunt continues after the Furai window closes. That leaves a later stretch of time to concentrate on the second car. Our suggested approach is to choose one main target when event windows overlap, especially if time is limited.
+The two Hunts overlap from December 4 through 8. If you already have progress toward the Furai, prioritize finishing that target before its deadline. The VLF hunt keeps running after the Furai window closes, which leaves a later stretch to concentrate on the second car. Our suggested approach is to choose one main target when event windows overlap, especially if time is limited.
 
 ## Make the Club event count
 
@@ -57,7 +57,7 @@ The season's Club TLE falls inside both Car Hunts. It is the clearest scheduled 
 
 Club Milestones increased from 24 to 28, with the full Reputation target remaining 6,000,000. The first half contains Blueprints for season cars, while the second half contains their EIPs. A useful team target is the next Blueprint milestone. If the club can reach all 28 milestones, the later parts are an additional benefit.
 
-For illustration, dividing the full 6,000,000 Reputation by 15 equally contributing players (the September full-reward threshold) yields 400,000 each. Actual contributions will vary. 
+For illustration, dividing the full 6,000,000 Reputation by 15 equally contributing players (the September full-reward threshold) yields 400,000 each. Actual contributions will vary.
 
 ## Decide when to commit upgrade resources
 

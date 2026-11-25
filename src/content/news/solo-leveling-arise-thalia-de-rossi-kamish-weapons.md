@@ -21,7 +21,7 @@ image_alt: "Official App Store screenshot of Solo Leveling:Arise"
 image_status: "candidate"
 ---
 
-Netmarble released a Solo Leveling:Arise update on November 20, 2026. Here's what the release notes list:
+The two new weapons in Solo Leveling:Arise's November 20, 2026 update, Kamish's Roar and Kamish's Wrath, are for Sung Jinwoo, the one character every player uses. Netmarble also added SSR Hunter Thalia De Rossi, reworked Power of Calamity and brought in a new Guild Boss.
 
 - **New SSR Hunter**: Thalia De Rossi.
 - **New Sung Jinwoo weapons**: Kamish's Roar and Kamish's Wrath.
@@ -34,11 +34,11 @@ Netmarble released a Solo Leveling:Arise update on November 20, 2026. Here's wha
 
 Thalia De Rossi is a Dark-element Supporter from the Rivera Guild, with the exclusive weapon Rosa Nera. She fights with mana flowers and thorny briars: Paradiso creates a damaging garden of thorns and butterflies, and her Ultimate, Estremo Fiore, hits enemies with a bloom of flowers and piercing vines.
 
-Both new weapons are Fire-element SSR weapons that only Sung Jinwoo can use, and they play differently. Kamish's Wrath is the pair of daggers from the original series, built for rapid attacks with both blades held in a reverse grip. Kamish's Roar is original to the game: thrusting attacks that spread Fire-element infusion over a wide area and build up stacks. Since every player uses Jinwoo, the weapons matter to more accounts than the new Hunter.
+Both new weapons are Fire-element SSR weapons that only Sung Jinwoo can use, and they play differently. Kamish's Wrath is the pair of daggers from the original series, built for rapid attacks with both blades held in a reverse grip. Kamish's Roar is original to the game: thrusting attacks that spread Fire-element infusion over a wide area and build up stacks. That gives them a bigger audience than the new Hunter.
 
 ## Power of Calamity, reworked
 
-Netmarble's announcement spells out the rework:
+Four things change:
 
 - **Tiers instead of difficulties**: the three difficulty options are replaced by tiers you climb by defeating bosses, and you keep your highest tier when a season changes.
 - **Every element is a weakness**, so you no longer need a specific element to compete.

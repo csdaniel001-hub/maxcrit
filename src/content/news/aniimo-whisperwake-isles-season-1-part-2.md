@@ -19,15 +19,15 @@ image_alt: "Official App Store screenshot of Aniimo"
 image_status: "candidate"
 ---
 
-Aniimo, one of Apple's three finalists for iPad Game of the Year, released version 1.1.1 on November 9, 2026. It's the second part of Season 1, Departure with the Wind.
+Aniimo, one of Apple's three finalists for iPad Game of the Year, released version 1.1.1 on November 9, 2026, and collectors get the most out of it: 51 new Aniimo and an isolated new map, the Whisperwake Isles. The update is the second part of Season 1, Departure with the Wind.
 
 - **Whisperwake Isles**: a new, isolated map that Pathfinders reach along their adventure.
 - **New Aniimo**: 51 of them join the continent of Idyll. The headliners are the season-exclusive Prismana Eklue and Jaguaraun, which the developer calls a co-created Aniimo.
 - **Prismana Forms**: several Aniimo now have multiple new Prismana Forms spread across the world.
-- **Operation: Egg Heist**: a new PvP mode the notes describe as fair competitive play.
+- **Operation: Egg Heist**: a new PvP mode pitched as fair competitive play.
 - **1v1 duels**: real-time duels between players.
 - **Halloween Parade**: a limited-time event that came with the update.
 
-Prismana Eklue is the one with a clock on it. It is exclusive to Season 1. With 51 new Aniimo at once, Whisperwake Isles is the obvious first stop if you're working on your collection.
+Prismana Eklue is the one with a clock on it, because it only exists for Season 1. That, plus 51 new creatures at once, makes Whisperwake Isles the obvious first stop for anyone working on their collection.
 
-Apple picked Aniimo for its fantasy quests and creatures, and its winners are due in the coming weeks.
+Apple shortlisted Aniimo for its fantasy quests and creatures. The winners are due in the coming weeks.

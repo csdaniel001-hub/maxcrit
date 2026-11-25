@@ -18,12 +18,12 @@ image_alt: "Official Pokémon GO GO Pass: November artwork"
 image_status: "candidate"
 ---
 
-Pokémon GO's November GO Pass has a week left, and the last weekend matters most for catching up.
+Pokémon GO's November GO Pass ends on Tuesday, December 1 at 10:00 a.m. local time, and its final weekend is the best catch-up window of the month. From Saturday, November 28 at 12:00 a.m. to Sunday, November 29 at 11:59 p.m. local time, there's no daily limit on how many GO Points you can earn.
 
-The pass runs until Tuesday, December 1 at 10:00 a.m. local time. From Saturday, November 28 at 12:00 a.m. to Sunday, November 29 at 11:59 p.m. local time, there's no daily limit on how many GO Points you can earn. That uncapped weekend lands on Clefable Super Mega Raid Day, so a busy raid Saturday doubles as a chance to rank up.
-
-Rewards you've unlocked expire on Thursday, December 3 at 10:00 a.m. local time, two days after the pass ends, so claim them before then.
+That uncapped weekend lands on Clefable Super Mega Raid Day, so a busy raid Saturday doubles as a chance to rank up.
 
 The free pass includes a Groudon encounter, 400 PokéCoins, a Lucky Egg, Rare Candy XL and Stardust. GO Pass Deluxe costs US$7.99 and adds 1,000 more PokéCoins (1,400 in total), a Super Incubator and more encounters. GO Pass Deluxe + 10 Ranks costs US$9.99 and adds enough GO Points to reach Rank 11. You can upgrade at any time and still collect the rewards from ranks you've already unlocked.
 
-If you haven't upgraded yet, the timing argues against it unless you're close to the top ranks. With a week left, the uncapped weekend is the free way to push further.
+Paying this late only makes sense if you're close to the top ranks. For everyone else, the uncapped weekend is the free way to push further with a week left.
+
+One more date for the calendar: unlocked rewards expire on Thursday, December 3 at 10:00 a.m. local time, two days after the pass ends. Claim them before then.

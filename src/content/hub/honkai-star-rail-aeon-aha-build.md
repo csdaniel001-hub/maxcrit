@@ -76,7 +76,7 @@ Aeon ★ Aha is a Quantum Elation support whose biggest selling point is what TH
 
 Aim for 150 SPD. The major trace grants 120% Elation at 125 SPD and 150% at 150 SPD. Further Speed can still affect turn timing, but it no longer increases that conversion bonus. StarGuide and Prydwen both recommend this set combination.
 
-A build with a slightly weaker CRIT ratio that reaches the second Speed threshold is a sensible starting point. Check the actual turn order before replacing an otherwise usable piece. High in-combat CRIT Rate also means that additional CRIT Rate can be wasted, so judge the final value with buffs active rather than chasing a fixed sheet number.
+A build with a slightly weaker CRIT ratio that reaches the second Speed threshold is a sensible starting point. Check the actual turn order before replacing an otherwise usable piece. High in-combat CRIT Rate also means that additional CRIT Rate can be wasted, so judge the final value with buffs active and don't chase a fixed sheet number.
 
 ## Light Cones and Wishpower
 
@@ -101,4 +101,4 @@ Pearl and Yao Guang can accelerate the opening Wishpower buildup. Aha can be les
 
 Aventurine • Waveflair needs a different roster. His solo-Elation package permits Aha as the only other Elation character, so adding Pearl or Yao Guang disables that configuration. Consider Waveflair, Aha, Mortenax Blade and Hyacine instead. Treat it as its own team archetype. It gives no reason to drop Pearl from a Silver Wolf LV.999 or Evanescia team.
 
-If you already own a functioning core, Aha at E0 with the shop Light Cone is a practical first investment. Otherwise, consider securing the missing Phase I teammate before December 2, rather than using all available Warps on Aha's signature. The [Star Rail banner schedule](/hub/banners/honkai-star-rail-banners.html) is the starting point for checking availability.
+If you already own a functioning core, Aha at E0 with the shop Light Cone is a practical first investment. Otherwise, consider securing the missing Phase I teammate before December 2 instead of using all available Warps on Aha's signature. The [Star Rail banner schedule](/hub/banners/honkai-star-rail-banners.html) is the starting point for checking availability.

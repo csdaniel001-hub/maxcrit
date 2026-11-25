@@ -10,11 +10,6 @@ platforms: [ios, android, pc]
 titles: [wuthering-waves]
 sources:
   - { title: "Kuro Games press release: Wuthering Waves Version 3.8 \"Lilies in a Dying Dream\" Introduces Lily (November 6, 2026)", url: "https://www.gamespress.com/Wuthering-Waves-Version-38-Lilies-in-a-Dying-Dream-Introduces-Lily-a-N", primary: true }
-tldr:
-  - "Version 3.8, Lilies in a Dying Dream, launched on <b>November 12</b>."
-  - "New Resonator Lily arrives with her weapon, Lullaby. Both lead the Phase I Convenes."
-  - "The story continues with Chapter IV Act V, A Bouquet for Tomorrow, and starts setting up Version 4.0."
-  - "Farming gets faster with a Material Locator button and a Blitz Mode that restarts challenges without reloading."
 image: "/assets/img/wuthering-waves-3-8-lilies-in-a-dying-dream-lily.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/ee/72/04ee7258-27cd-2bac-836c-3df50345c708/_U82f1_U6587.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/wuthering-waves/id6475033368"
@@ -23,11 +18,11 @@ image_alt: "Lilies in a Dying Dream key art from the official Wuthering Waves Ap
 image_status: "candidate"
 ---
 
-Kuro Games released Wuthering Waves Version 3.8, "Lilies in a Dying Dream," on November 12. It continues the main story with Chapter IV Act V, A Bouquet for Tomorrow, and Kuro says it also introduces the world and setting of Version 4.0. The new endgame challenge is Tactical Hologram: Calamity Effigy.
+Wuthering Waves Version 3.8, "Lilies in a Dying Dream," is already looking ahead: next to Chapter IV Act V, A Bouquet for Tomorrow, it introduces the world and setting of Version 4.0. Kuro Games released it on November 12 with a new Resonator, Lily, her weapon Lullaby and a new endgame challenge, Tactical Hologram: Calamity Effigy.
 
 ## Lily and the Convenes
 
-The new Resonator is Lily, and her new weapon is Lullaby. Hiyuki also gets a Deluxe Outfit, Lune Noire, and an accessory, Flaming Sakura.
+Lily and Lullaby head the Phase I Convenes. On the cosmetic side, Hiyuki gets a Deluxe Outfit, Lune Noire, and an accessory, Flaming Sakura.
 
 | Phase | Featured Resonator Convenes | Featured Weapon Convenes |
 |---|---|---|
@@ -38,7 +33,7 @@ Version 3.8 also runs Starpath Reverbs II, a Reverb Resonator Convene, and Tidef
 
 ## Quality-of-life changes
 
-The bigger news for daily play is the farming changes:
+For daily play, the farming changes are the bigger story:
 
 - **Material Locator**: a new button in the Guidebook's Material Collection page and the Resonator Ascension Planner. It teleports you to an unlocked challenge that drops what you need, or starts the challenge straight away.
 - **Blitz Mode**: when you claim rewards after a material challenge, you can restart it at once without reloading.
@@ -51,4 +46,4 @@ On PC, a limited test lets you choose between Full Resources and Basic Resources
 
 The leisure events are Second Coming of Solaris: Unwritten Dreams, Lahai-Roi Blocks: Turnabout and Lollo Campaign: Groundwork. The combat event is Dreamfield Odyssey. There are also two login events, Gifts of Bygone Dreams for seven days and Whither the Wind.
 
-Kuro positions 3.8 as the lead-in to Version 4.0 and says more details on it are coming. If you're deciding whether to pull for Lily or save for 4.0, the Reverb Convenes are the flexible option, since you can switch your target whenever you like.
+Kuro says more details on Version 4.0 are coming. For anyone torn between Lily and saving for it, the Reverb Convenes are the flexible option, because you can switch your target whenever you like.

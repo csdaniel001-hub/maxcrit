@@ -59,7 +59,7 @@ Many of the biggest titles in both genres now ship a proper Windows version that
 - **HoYoverse games**: Genshin Impact, Honkai: Star Rail and Zenless Zone Zero all have official PC clients, downloaded from their official websites or the HoYoPlay launcher.
 - **Kuro Games**: Wuthering Waves has an official PC version.
 - **Albion Online**: Sandbox Interactive's MMORPG is fully cross-platform, with the same world on PC, Mac, Linux and mobile.
-- **Other games**: several newer gacha and MMORPG releases, including Diablo Immortal and Goddess of Victory: NIKKE, also have PC versions. Check each game's official site.
+- **Other games**: several newer gacha and MMORPG releases, including Diablo Immortal and Goddess of Victory: NIKKE, also have PC versions.
 
 Why this is the best option:
 
@@ -86,7 +86,7 @@ For games with neither option, an emulator such as BlueStacks 5 or MuMuPlayer ru
 
 ## Before you switch: link your account
 
-This step prevents most horror stories. Before playing on a second device:
+This is the step that keeps your progress safe. Before playing on a second device:
 
 1. Link your game account to the publisher's own account, or to Google, Apple or Facebook, depending on what the game supports.
 2. Log in on the new device with that same login. Do not start a new guest account by accident.

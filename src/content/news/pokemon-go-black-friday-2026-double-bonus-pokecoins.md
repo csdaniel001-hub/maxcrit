@@ -18,11 +18,11 @@ image_alt: "Official Pokémon GO Black Friday Web Store sale artwork"
 image_status: "candidate"
 ---
 
-The Pokémon GO Web Store started its Black Friday sale early, and two deadlines are coming up this week.
+Two Pokémon GO Web Store deals close this week, two days apart: the Seasonal Delights Box on November 27 and double bonus PokéCoins on November 29. Both are part of a Black Friday sale that started early.
 
-The double bonus PokéCoin offer applies to PokéCoin bundles over $19.99 bought on the Web Store. The bonus PokéCoins per purchase are doubled, up to 2,000 bonus PokéCoins on select bundles. It runs until November 29, 2026 at 8:00 p.m. PST, with a limit of one purchase per discounted bundle per customer.
+The double bonus offer applies to PokéCoin bundles over $19.99 bought on the Web Store. The bonus PokéCoins per purchase are doubled, up to 2,000 bonus PokéCoins on select bundles. It runs until November 29, 2026 at 8:00 p.m. PST, with a limit of one purchase per discounted bundle per customer.
 
-The Seasonal Delights Box costs 6,095 PokéCoins and is also Web Store only. It contains:
+The Seasonal Delights Box costs 6,095 PokéCoins and contains:
 
 - 40 Incubators
 - 40 Super Incubators
@@ -32,4 +32,4 @@ The Seasonal Delights Box costs 6,095 PokéCoins and is also Web Store only. It 
 
 You can buy it up to three times, until November 27, 2026 at 8:00 p.m. PST.
 
-The order matters if you want both. The box ends two days before the coin sale, so buying coins in the sale first and then spending them on the box before November 27 gets you the doubled bonus and the box. Both offers exist only on the Web Store, not in the in-game shop, and the Pokémon GO team pitches them as preparation for Pokémon GO Wild Area.
+Want both? Then the order matters. Buy your coins in the sale first and spend them on the box before November 27, and you get the doubled bonus and the box. Neither offer appears in the in-game shop, as both are Web Store only, and the Pokémon GO team pitches them as preparation for Pokémon GO Wild Area.

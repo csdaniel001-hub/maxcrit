@@ -18,15 +18,15 @@ image_alt: "Official App Store screenshot of Top Eleven Be a Soccer Manager"
 image_status: "candidate"
 ---
 
-Nordeus added a new competition to Top Eleven with today's update, November 23, 2026. It's called the Hype Derby, and unlike most of the game, it's played as a group.
+Who's in your squad? That is the main decision in the Hype Derby, a new competition Nordeus added to Top Eleven with today's update, November 23, 2026. Unlike most of the game, it's played as a group.
 
-How it works, according to the release notes:
+How it works:
 
 - **Squads**: you gather your Manager friends into one squad.
 - **Rivals**: your squad takes on rival teams competing for the same prize.
-- **Hype**: every training session and every match you play raises your squad's hype, which the notes describe as waking up the crowd.
+- **Hype**: every training session and every match you play raises your squad's hype, which Nordeus describes as waking up the crowd.
 - **Winning**: the squad with the biggest hype wins the derby.
 
-Since hype comes from training and matches rather than only from results, the Hype Derby rewards showing up regularly. A squad of managers who log in every day and run their sessions should build more hype than a squad with one strong club and a few inactive members.
+Hype builds from training and matches, and results are only part of the picture, so the Hype Derby rewards showing up regularly. A squad of managers who log in every day and run their sessions should build more hype than a squad with one strong club and a few inactive members.
 
-That makes the choice of squadmates the main decision.
+When you gather your squad, look past club strength. Pick the friends who actually play every day.

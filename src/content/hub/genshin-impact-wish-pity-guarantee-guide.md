@@ -17,7 +17,7 @@ topics:
 tldr:
 - Character Event Wish guarantees a 5-star within 90 wishes; Epitome Invocation within 80.
 - '<b>Pity and Fate Points are different</b>: a path-specific guarantee can expire while pity survives.'
-- Budget from your own wish history rather than a predicted soft-pity drop.
+- Budget from your own wish history and leave predicted soft-pity drops out of the plan.
 - Count saved Intertwined Fates separately from Primogems to avoid double counting.
 sources:
 - title: 'HoYoverse Help Center: Wish guarantees'
@@ -91,4 +91,4 @@ A regular character guarantee can be saved for a future Character Event Wish. An
 
 Before beginning a path, reserve the maximum cost or consciously accept the risk of leaving without your target. If your available wishes do not cover the worst case, waiting preserves your ability to make a fully funded choice later. Do not spend additional money merely to avoid losing a point.
 
-Use the [banner schedule](/hub/banners/genshin-impact-banners.html) to confirm dates and target pools, then write down the amount you are willing to commit. Treat a successful early pull as saved resources for a future character rather than an obligation to spend the remainder.
+Use the [banner schedule](/hub/banners/genshin-impact-banners.html) to confirm dates and target pools, then write down the amount you are willing to commit. If an early pull succeeds, treat what's left as savings for a future character. Nothing obliges you to spend the remainder.

@@ -21,7 +21,9 @@ image_alt: "Official App Store screenshot of CookieRun: Kingdom"
 image_status: "candidate"
 ---
 
-Devsisters released a CookieRun: Kingdom update on November 17, 2026. The release notes list:
+Steel teams are the big winners of CookieRun: Kingdom's November 17, 2026 update. Devsisters added Traffic Candy Cookie, an Epic who powers up the other Steel-type Cookies on her team, and a Magic Candy for Mercurial Knight Cookie, alongside the headline Legendary, Bouchéael Cookie, and a new Kingdom Policies system.
+
+Everything in the update:
 
 - **New Cookies**: Bouchéael Cookie (LEGENDARY) and Traffic Candy Cookie (EPIC).
 - **New story**: Timeline of Fate episodes 15 and 16.
@@ -35,11 +37,11 @@ Devsisters released a CookieRun: Kingdom update on November 17, 2026. The releas
 
 Bouchéael Cookie is a Legendary Support who fights from the rear. His skill, Shadowless Sanctuary, creates a sanctuary on your side that gives allies continuous protection. Once per battle, when he is defeated, he is briefly frozen and Invulnerable, regains HP and casts Shadowless Sanctuary again. On teams without a Healing Cookie, the same effect can also save another ally who is about to be defeated, once per battle, as long as Bouchéael is still standing.
 
-Traffic Candy Cookie is an Epic Charge Cookie for the front line. Red Light Enforcement lashes enemies three times, and the final lash launches and Stuns the target. She works best with other Steel-type Cookies: her bonus PvE damage grows with each one on the team, and she boosts their CRIT%, ATK and ATK SPD and reduces the damage they take.
+Traffic Candy Cookie is an Epic Charge Cookie for the front line. Red Light Enforcement lashes enemies three times, and the final lash launches and Stuns the target. The more Steel-type Cookies you field with her, the better she gets: her bonus PvE damage grows with each one, and she boosts their CRIT%, ATK and ATK SPD and reduces the damage they take.
 
 ## Mercurial Knight's Magic Candy and the new Treasure
 
-The Magic Candy for Mercurial Knight Cookie is the change that affects existing teams. Mercurial Knight's Resolution grants Silver Oath to allied Steel-type skill users, makes enhanced regular attacks apply longer Mercury Poisoning that raises Steel-type damage taken, and lets the Final Hit Stun non-Cookie enemies. Together with Traffic Candy, it makes this a strong update for Steel teams.
+Of everything here, the Magic Candy for Mercurial Knight Cookie does the most for teams you already run. Mercurial Knight's Resolution grants Silver Oath to allied Steel-type skill users, makes enhanced regular attacks apply longer Mercury Poisoning that raises Steel-type damage taken, and lets the Final Hit Stun non-Cookie enemies. Stack that with Traffic Candy and a Steel lineup gets two upgrades from one patch.
 
 The new Treasure, Twinkling Tube of First Light, gives all allies a Max HP buff and HP Shields at the start of battle and at set intervals.
 
@@ -48,4 +50,3 @@ The new Treasure, Twinkling Tube of First Light, gives all allies a Max HP buff 
 Trials of the Nether Realm changes how runs work. Topping bonuses, Tart unique effects and Beascuit effects no longer apply there, only base stats. After each win you pick a Relic that lasts until the run ends, Hard difficulty has up to 10 zones, and Trial Tickets now refill by 10 at the start of each season instead of 5 a week.
 
 On Starlight Island, a Wandering Merchant can appear when you visit other Islands and sells decor for Starlight Island Coins, and five new Memory Islands arrive. Kingdom Policies are managed from the Throne Room in the Cookie Castle and enacted through a new Kingdom Policy Event.
-

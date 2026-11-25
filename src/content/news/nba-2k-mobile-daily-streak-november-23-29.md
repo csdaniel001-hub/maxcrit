@@ -24,7 +24,7 @@ image_alt: "Official App Store screenshot of NBA 2K Mobile Basketball Game"
 image_status: "candidate"
 ---
 
-The NBA 2K Mobile web reward track for November 23 to 29 is live. Its most important condition is simple: missing a daily claim forfeits eligibility for the final reward.
+20 Giants of the Game Collectibles are on offer in NBA 2K Mobile's Daily Streak for November 23 to 29, and half of them only arrive if you claim every day. The web reward track is live now, and missing a single daily claim forfeits eligibility for the final reward.
 
 ## Daily rewards
 
@@ -40,10 +40,10 @@ The NBA 2K Mobile web reward track for November 23 to 29 is live. Its most impor
 
 Completing the streak unlocks a Hot Streak Spinner, one piece of Legendary Gear and ten additional Giants of the Game Collectibles.
 
-Added up, a full week pays 20 Giants of the Game Collectibles: five on day 2, five on day 5 and ten for finishing. That makes the completion bonus the biggest single drop of the set, which is why skipping even one day costs more than that day's reward.
+The Collectibles add up to 20 over the full week: five on day 2, five on day 5 and ten for finishing. That makes the completion bonus the biggest single drop of the set, and it is why skipping even one day costs more than that day's reward.
 
 ## How to participate
 
-Visit the official Daily Streak page, sign in through its available account flow, and claim the reward displayed for the day. Repeat throughout the seven-day period. Players can also set a calendar reminder from the page.
+Visit the official Daily Streak page, sign in through its available account flow, and claim the reward displayed for the day. Repeat throughout the seven-day period. You can also set a calendar reminder from the page, which is the easiest insurance against a missed day.
 
-This is a weekly reward campaign, not a new game version.
+It's a weekly web campaign with no new game version attached, so the whole job is seven claims in seven days.

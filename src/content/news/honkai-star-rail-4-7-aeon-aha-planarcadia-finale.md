@@ -20,15 +20,14 @@ image_alt: "Official App Store screenshot of Honkai: Star Rail"
 image_status: "candidate"
 ---
 
-Honkai: Star Rail Version 4.7, "Now, Lay Laughter to All Stars", is live. HoYoverse published the update on the App Store on November 10, 2026, and the release notes list five additions.
+An Aeon joins the playable roster in Honkai: Star Rail Version 4.7, "Now, Lay Laughter to All Stars," which HoYoverse put on the App Store on November 10, 2026. Aeon • Aha arrives as an Elation character of the Quantum type, next to a new Planarcadia Trailblaze Mission, new events and a fresh Currency Wars season.
 
 - **New character**: Aeon • Aha, an Elation character with the Quantum type.
 - **New story**: a Planarcadia Trailblaze Mission that shares the version's title, "Now, Lay Laughter to All Stars".
 - **New events**: "The Fluffy Movie: Overheated" and "Interastral Peace Gala: Road to Fame", with more to follow.
 - **Gameplay update**: a new Currency Wars season called "Currency Wars: Voyage Into the Canvas".
-- **Extras**: the notes also mention multiple rewards, new maps and new outfits.
+- **Extras**: multiple rewards, new maps and new outfits.
 
-Aha is the name that stands out. In the game's story the Aeons are the beings behind each Path, and Aha is the Aeon of Elation, so this version puts one of them in your team as a character you can pull for.
+In the game's story the Aeons are the beings behind each Path, and Aha is the Aeon of Elation. That is what makes this version stand out: one of them is now a character you can pull for and put in your team.
 
-If you play mainly for the story, the Trailblaze Mission is the place to start, because it continues the Planarcadia chapters. If you log in for the modes, the new Currency Wars season is the part that changes your weekly routine.
-
+Story players should head for the Trailblaze Mission first, since it continues the Planarcadia chapters. Players who log in for the modes will feel the new Currency Wars season most, because it changes the weekly routine.

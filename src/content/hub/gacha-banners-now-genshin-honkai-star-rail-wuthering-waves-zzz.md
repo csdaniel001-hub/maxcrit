@@ -32,7 +32,9 @@ image_alt: "Frame from the official Genshin Impact Version 7.2 trailer"
 image_status: "candidate"
 ---
 
-One page for the big gacha games: who is on the banners in the current version, what comes next, and the free pulls worth collecting first. Each section comes from the publisher's own version announcement or store release notes, and links to our full story on that version.
+Mitya, Aeon • Aha, Lily, Hedone and Narcissus headline the current versions of the big gacha games, and Sunbringer leads Zenless Zone Zero 3.4's Signal Search channels from December 2.
+
+Each section below covers who is on the banners, what comes next and the free pulls to collect first. All of it comes from the publisher's own version announcement or store release notes, with a link to our full story on that version.
 
 ## Genshin Impact 7.2, Hour of Ruin
 
@@ -47,7 +49,7 @@ Free before you pull: 560 Primogems for finishing the 7.2 Archon Quest in its pe
 
 ## Honkai: Star Rail 4.7, Now, Lay Laughter to All Stars
 
-HoYoverse's release notes for Version 4.7 (published on the App Store on November 10) list one new character: Aeon • Aha, an Elation character of the Quantum type. The same version adds a Planarcadia Trailblaze Mission and a new Currency Wars season, Voyage Into the Canvas. [Full story on Honkai: Star Rail 4.7]({{ '/news/honkai-star-rail-4-7-aeon-aha-planarcadia-finale.html' | rel }}).
+Version 4.7 reached the App Store on November 10 with one new character: Aeon • Aha, an Elation character of the Quantum type. The same version adds a Planarcadia Trailblaze Mission and a new Currency Wars season, Voyage Into the Canvas. [Full story on Honkai: Star Rail 4.7]({{ '/news/honkai-star-rail-4-7-aeon-aha-planarcadia-finale.html' | rel }}).
 
 ## Wuthering Waves 3.8, Lilies in a Dying Dream
 

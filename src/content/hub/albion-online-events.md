@@ -31,9 +31,9 @@ image_alt: "Official App Store screenshot of Albion Online"
 image_status: "candidate"
 ---
 
-Guild Season 35 is a long competitive season with separate regional clocks and an extra territory reset.
+Albion Online's Guild Season 35 has been running since November 21 and lasts until February 8, 2027, a long competitive season on separate regional clocks and with an extra territory reset.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+Every time below is in UTC and comes from the official announcements as of November 24, 2026. Asia starts and ends at 00:00, Europe and the Americas at 11:00, so match the row to the server your guild plays on.
 
 ## Current event schedule
 
@@ -69,6 +69,6 @@ Earn guild season points through eligible activities. Territory resets are sched
 
 - **Rewards**: Season ranking and Conqueror’s Challenge rewards; exact tiers depend on progress.
 
-## Before the event ends
+## Before the season ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+Plan guild pushes around the territory resets on December 19, January 16 and February 6, and finish your Conqueror’s Challenge progress before your region's February 8 deadline. Dates can still change after publication, and a season window doesn't mean every activity is open every day.

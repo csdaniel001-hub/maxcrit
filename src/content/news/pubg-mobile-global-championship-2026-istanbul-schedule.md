@@ -9,11 +9,6 @@ platforms: [ios, android]
 titles: [pubg-mobile]
 sources:
   - { title: "PUBG MOBILE press release: Final Preparations Underway as 2026 PUBG MOBILE Global Championship Gears Up for The Gauntlet and Group Stage (November 23, 2026)", url: "https://www.mynewsdesk.com/uk/swipe-right/pressreleases/final-preparations-underway-as-2026-pubg-mobile-global-championship-gears-up-for-the-gauntlet-and-group-stage-3481549", primary: true }
-tldr:
-  - "The 2026 PMGC runs from <b>November 26 to December 13</b> in Istanbul, Türkiye, with a $3,000,000 prize pool."
-  - "39 teams play across four stages: The Gauntlet, the Group Stage, Last Chance and the Grand Finals."
-  - "Host Country Invitee ULF Esports goes straight to the Grand Finals, where 16 teams play for the title."
-  - "S2G Esports lead the PMGC Points leaderboard after winning the 2026 PUBG MOBILE World Cup in Paris."
 image: "/assets/img/pubg-mobile-global-championship-2026-istanbul-schedule.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/a7/85/89a7858f-912a-02bf-5a52-702149a563e6/1.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/pubg-mobile/id1330123889"
@@ -22,7 +17,7 @@ image_alt: "Version 4.7 key art from the official PUBG MOBILE App Store listing"
 image_status: "candidate"
 ---
 
-The 2026 PUBG MOBILE Global Championship, the last event of the year's PUBG MOBILE Esports circuit, starts on November 26 in Istanbul, Türkiye. 39 teams compete for a $3,000,000 prize pool until December 13.
+The last event of the year's PUBG MOBILE Esports circuit starts on November 26 in Istanbul, Türkiye: the 2026 PUBG MOBILE Global Championship. 39 teams compete for a $3,000,000 prize pool there until December 13, and 16 of them make the Grand Finals.
 
 ## Dates and format
 
@@ -57,6 +52,6 @@ Nigma Galaxy, Bigetron by Vitality and Alpha7 make their first 2026 PMGC appeara
 
 ## Where to watch
 
-For where to watch, match schedules and rosters, the release points to the official PUBG MOBILE Esports accounts on Facebook, Instagram, TikTok and YouTube.
+The official PUBG MOBILE Esports accounts on Facebook, Instagram, TikTok and YouTube are the place to find where to watch, match schedules and rosters.
 
-The Gauntlet is the stage that sets up the rest. Six of its 16 teams skip ahead to the Grand Finals, so November 26 and 27 decide a good part of the final lineup before most of the field has played.
+Mark November 26 and 27 if you only follow part of the event. Six of the 16 teams in The Gauntlet skip straight to the Grand Finals, so those two days settle a good part of the final lineup before most of the field has played a match.

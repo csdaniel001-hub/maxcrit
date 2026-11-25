@@ -78,7 +78,7 @@ At +10 and +15, compare the revealed substats and remaining slots against what y
 
 Recycling a leveled Echo recovers part of its EXP and some of the Tuners already spent. The refund does not make testing candidates free. Check the preview before confirming, especially if your Tuner supply is already low. Repeatedly finishing candidates and discarding them can drain resources even with recycling.
 
-Keep the old equipped Echo locked until the new one is ready. Prefer recycling clearly failed candidates rather than treating every partially leveled piece as fodder without checking other characters' needs.
+Keep the old equipped Echo locked until the new one is ready. Recycle the clearly failed candidates first, and check other characters' needs before you treat a partially leveled piece as fodder.
 
 Version 3.8 improves the Echo Backpack's Batch Management filters and changes selection behavior when filters are adjusted. Recheck selected items before discarding them. Kuro's new Resonator Ascension Planner also includes a Recommended Lineup section in testing; use it to identify the team you are actually building around before choosing Echo priorities.
 

@@ -29,9 +29,9 @@ image_alt: "Official App Store screenshot of Toram Online"
 image_status: "candidate"
 ---
 
-Toram is celebrating 16 million downloads with limited boss encounters, daily emblems, crafting and a login gift.
+16 million downloads is Toram Online's reason to celebrate, and the party comes as limited boss encounters, daily emblems, special crafting recipes and a login gift.
 
-Event dates below are copied from each game's official announcements as of November 24, 2026. Times follow the basis given in the table, so check the countdown on your own server before you plan around a deadline.
+The schedule mixes two clocks. Limited Special Emblems run on Japan time (JST, UTC+9), while the other events open after or close before the publisher's scheduled maintenance. All dates are from the official announcement as of November 24, 2026.
 
 ## Current event schedule
 
@@ -82,4 +82,4 @@ Log in; claim via Menu > Community > Mailbox > Present.
 
 ## Before the event ends
 
-Check the event timer on your own server, finish the required activities and claim any unlocked rewards. Dates may change after publication; a campaign window does not guarantee every activity is available every day.
+The boss battle and the Potum Hood gift both close before maintenance on November 26, so deal with those two first. Emblems follow on November 27 at 05:00 JST, and the crafting recipes stay until December 10. Announced dates can shift after publication, and some activities may not run on every day of a window.
