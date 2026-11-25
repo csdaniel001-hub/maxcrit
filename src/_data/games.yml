@@ -536,3 +536,23 @@ state-of-survival:
   appstore: "https://apps.apple.com/us/app/state-of-survival-zombie-war/id1452474937"
   googleplay: "https://play.google.com/store/apps/details?id=com.kingsgroup.sos"
   status: "Live"
+tower-of-god-new-world:
+  name: "Tower of God: NEW WORLD"
+  publisher: "Netmarble"
+  official: "https://forum.netmarble.com/towerofgod_en"
+  appstore: "https://apps.apple.com/us/app/tower-of-god-new-world/id1599435437"
+  googleplay: "https://play.google.com/store/apps/details?id=com.netmarble.tog"
+  status: "Live"
+bleach-soul-resonance:
+  name: "BLEACH: Soul Resonance"
+  publisher: "Crunchyroll Games"
+  official: "https://www.playbleachsr.com/"
+  appstore: "https://apps.apple.com/us/app/bleach-soul-resonance/id6751220183"
+  googleplay: "https://play.google.com/store/apps/details?id=com.crunchyroll.bleachsoulres"
+  status: "Live"
+vampire-therapist:
+  name: "Vampire Therapist"
+  publisher: "Little Bat Games"
+  official: "https://store.steampowered.com/app/2481020/Vampire_Therapist/"
+  appstore: "https://apps.apple.com/us/app/vampire-therapist/id6742189122"
+  status: "Live"
