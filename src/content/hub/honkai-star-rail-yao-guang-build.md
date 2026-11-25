@@ -8,6 +8,10 @@ hub_type: builds
 tier: 3
 review_by: '2026-12-02'
 published_at: '2026-11-25T13:50:00Z'
+updated_at: '2026-11-25T16:20:00Z'
+build_spec: 1
+spec_omit:
+- materials
 genres:
 - rpg
 platforms:
@@ -23,6 +27,7 @@ tldr:
 - Diviner of Distant Reach supports the entire Elation team.
 - Mushy Shroomy's Adventures is a shop alternative.
 - Aeon ★ Aha improves Great Boon and Ultimate economy.
+- E2 adds 12% SPD and 16% Elation to the whole team while her Zone is up.
 sources:
 - title: HoYoverse Version 4.7 Phase I Warp
   url: https://www.hoyolab.com/article/47385253?reply=1
@@ -35,6 +40,8 @@ sources:
   url: https://www.icy-veins.com/honkai-star-rail/yao-guang-guide-best-builds
 - title: HSR Build Yao Guang 4.7
   url: https://www.hsr-build.com/characters/yao-guang/build
+- title: Icy Veins Yao Guang profile (Eidolons, Traces, skills)
+  url: https://www.icy-veins.com/honkai-star-rail/yao-guang-profile
 - title: HoYoverse Version 4.7 update
   url: https://www.hoyolab.com/article/47394097?reply=1
 - title: HSRZone Silver Wolf LV.999 build (Mushy Shroomy's Adventures shop)
@@ -57,6 +64,18 @@ image_status: "candidate"
 
 Yao Guang makes Elation teams more dangerous without competing for the main damage dealer's turns. Her build needs to solve two problems: keeping her Ultimate available and providing enough Speed and Elation to improve the party's damage. At E0, a fast, well-equipped Yao Guang is more useful than one geared like a conventional Physical DPS.
 
+## How Yao Guang supports the team
+
+Her kit is built around the Elation team's two shared systems, Punchline and Aha Instants:
+
+- **Basic ATK (Whistlebolt Sings Joy)**: Physical damage to one target and its neighbours, and it regenerates 30 Energy.
+- **Skill (Decalight Unveils All)**: deploys a 3-turn Zone that raises every ally's Elation by a share of hers. Her Basic ATK and Skill each add 3 Punchline.
+- **Ultimate (Hexagram of Feathered Fortune, 180 Energy)**: gives Punchline and an extra Aha turn, and grants allies All-Type RES PEN.
+- **Talent (Behold Wherever Light Unfolds)**: while she holds Certified Banger, allied attacks trigger extra Elation damage through Great Boon. If the attacker's Elation is lower than hers, that hit uses her Elation instead.
+- **Elation Skill (Let Thy Fortune Burst in Flames)**: an AoE attack that applies Woe's Whisper and adds extra hits on one random enemy.
+
+That last Talent rule is why her own Elation matters: she raises the floor for every ally's Great Boon hits. Everything in the build below either keeps her Zone and Ultimate cycling or pushes her Elation higher.
+
 ## Relics and stats
 
 | Slot | Starting build |
@@ -68,7 +87,7 @@ Yao Guang makes Elation teams more dangerous without competing for the main dama
 | Sphere | HP% or DEF% |
 | Rope | Energy Regeneration Rate |
 
-Prioritize SPD substats, followed by CRIT Rate and CRIT DMG. Elation damage does not directly scale with ATK, so a defensive sphere is preferable. Lushaka's first-slot ATK buff helps allies with ATK conversions and adds nothing to Elation damage directly.
+Prioritize SPD substats, followed by CRIT Rate and CRIT DMG. Prydwen's stat targets are 160 to 200 SPD, 100% CRIT Rate in combat, 100% CRIT DMG before combat buffs, 3,000 to 4,000 HP and 1,000 to 1,100 DEF. Elation damage does not directly scale with ATK, so a defensive sphere is preferable. Lushaka's first-slot ATK buff helps allies with ATK conversions and adds nothing to Elation damage directly.
 
 During Version 4.7, Grab Your Opening Gifts includes Asat Pramad's Gift, which creates one custom max-level 5-star Relic from sets released up to 4.7. Diviner of Distant Reach SPD boots are the most direct use for her.
 
@@ -84,7 +103,7 @@ Amaze-In Grace adds 30% Elation at 120 SPD and another 1% for every point above 
 
 The signature smooths her rotation, and the build works without it. Do not assume that a different Elation cone provides the same Energy generation.
 
-## Teams and gameplay
+## Teams
 
 | Team | Purpose |
 |---|---|
@@ -96,6 +115,35 @@ The signature smooths her rotation, and the build works without it. Do not assum
 
 Outside Elation, Prydwen notes that she fits an Archer team with Sparkle.
 
-Use Skill to establish her Elation-sharing Zone. Use Basic ATKs between refreshes to conserve SP and generate Punchline. Her 180-Energy Ultimate supplies an additional Aha Instant using a fixed 20 Punchline without spending the existing pool. Level Ultimate and Elation Skill first, then Skill and Talent, with Basic ATK last, as the in-game Build Guide recommends; unlock her major Traces for resource and buff uptime.
+## Rotation and how to play
+
+Use Skill to establish her Elation-sharing Zone. Use Basic ATKs between refreshes to conserve SP and generate Punchline. Her 180-Energy Ultimate supplies an additional Aha Instant using a fixed 20 Punchline without spending the existing pool. Keep the Zone up before the carry's big turns: Great Boon's value depends on her Elation being shared at that moment.
+
+## Traces and skill priority
+
+The in-game Build Guide levels Ultimate and Elation Skill first, then Skill and Talent, with Basic ATK last. Prydwen ranks Skill and Ultimate equally ahead of Talent, with Basic ATK last. Both agree that Basic ATK can wait; level the Ultimate first if materials are short, since it sits at the top of both lists.
+
+| Major Trace | Effect | Priority |
+|---|---|---|
+| Poised and Sated (A4) | +60% CRIT DMG; recovers 1 Skill Point for the team after her Elation Skill | 1 |
+| Amaze-In Grace (A2) | +30% Elation at 120 SPD, plus 1% per SPD point above 120 (up to 200 extra) | 2 |
+| Felicity Ensemble (A6) | Certified Banger lasts 1 turn longer | 3 |
+
+Prydwen ranks the Skill Point refund first; it is the only major Trace that returns Skill Points to the team.
+
+## Eidolons: which copies change the build
+
+| Eidolon | Effect | What it changes |
+|---|---|---|
+| E1 Chuckle Chimes Where Jade Falls | Ultimate's Aha turn uses a fixed 40 Punchline instead of 20; allies' Elation DMG ignores 20% DEF | Doubles the guaranteed Punchline from each Ultimate |
+| E2 Blind Arrows Guided by Feathers | While her Zone is active, all allies gain 12% SPD and 16% Elation | Team-wide SPD can move allies past the breakpoints above |
+| E3 Auspices Mirrored In Decalight | Skill +2, Basic ATK +1, Elation Skill +1 | Level boosts |
+| E4 Threads of Fate Colored by Plumes | In the Ultimate's Aha turn, allies' Elation Skill DMG becomes 150% | Large damage gain, late in the chain |
+| E5 Bejeweled in Radiant Grace | Ultimate +2, Talent +2, Elation Skill +1 | Level boosts |
+| E6 Ferried Along the Astral Arc | Allies' Elation DMG gets 25% Merrymake; her Elation Skill multiplier doubles | Stacks with E4 for very high numbers |
+
+Prydwen's view is that she plays well at E0 and that no Eidolon is required. Our reading of the table (interpretation): E1 and E2 are the copies that change how the team plays, E1 through Punchline economy and E2 through team SPD. E4 and E6 add the most raw damage but sit at the end of the chain, so they matter only once the first two copies are in place.
+
+## How Aeon ★ Aha changes her
 
 Version 4.7 adds Faces of Elation ★ Mind Reading, active when Aeon ★ Aha makes the Path of Elation ascend. At Aha E0, Great Boon's DMG multiplier rises by 20% of its original value, and after her Ultimate Yao Guang regenerates a fixed 12 Energy and gains 10 Bliss. At Aha E2 those become 40% and 30 Energy, with the same 10 Bliss. The fixed Energy refund shortens the wait for her 180-Energy Ultimate, so Aha's Eidolons affect her Ultimate economy as well as her damage. Avoid an ATK-only build, and don't spend all your SP refreshing her Zone early.

@@ -32,3 +32,12 @@ Source of each fix: review/honkai-star-rail-yao-guang-build-r1.md. Release data 
 
 Not changed: published_at. The evidence file and sources.json are outside this copy set; mirror the new HSRZone source there before publishing.
 
+
+## Build-spec expansion (Claude, 2026-11-25), pending fresh-agent Tier 3 check
+Authored by Claude at Daniel's request ("can you fix the guides?"), to docs/build-page-spec.md.
+- Added: kit overview, Prydwen stat targets, Rotation section, Traces and skill priority (with major Trace table), Eidolons section, separate Aeon ★ Aha heading.
+- Eidolons E1-E6 (names, effects) and major Traces A2/A4/A6: VERIFIED by two independent specialist sources that agree (Icy Veins profile, Prydwen), method per amendments section 9. Gachabase was declined by WebFetch (robots) and was not used.
+- Skill names and one-line effects: Icy Veins profile; consistent with the previously verified body (Zone, Great Boon, 180 Energy, fixed 20 Punchline).
+- Stat targets and Trace priority: Prydwen, credited by name in the text. In-game Build Guide skill order kept from the earlier verified version; the two orders are presented side by side.
+- Eidolon value judgement labelled INTERPRETATION in the text, premise VERIFIED (effects above); Prydwen quoted for "no Eidolon required".
+- spec_omit: materials. Ascension totals appear in one source only (Icy Veins); Trace materials and the weekly boss item in none reachable. A second source needed WebFetch approval while Daniel was away. Fill in when verified.
