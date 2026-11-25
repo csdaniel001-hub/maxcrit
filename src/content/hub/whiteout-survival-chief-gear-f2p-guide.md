@@ -106,6 +106,7 @@ State progression matters: Century Games moved the unlock for Charm levels 12 th
 
 ## A weekly spending routine
 
+- Redeem the current [Whiteout Survival gift codes](/hub/codes/whiteout-survival-codes.html) for free Gems and speedups.
 - Join the most active alliance you can reliably participate in. Rally rewards, shop currencies and coordinated events matter more to F2P income than an impressive personal power ranking.
 - Compare upcoming event tasks before committing large construction speedups or equipment upgrades. Spend during an appropriate scoring window when the delay is affordable.
 - Prioritize claimable milestone rewards over leaderboard placement against heavy spenders. Avoid burning an entire reserve for a ranking you cannot reasonably maintain.

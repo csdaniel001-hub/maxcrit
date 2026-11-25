@@ -1,10 +1,11 @@
 ---
 title: 'Whiteout Survival codes (November 2026): every reported code and reward'
 seo_title: 'Whiteout Survival codes: November 2026 rewards'
-summary: 4 reported Whiteout Survival gift codes for November 2026, with rewards, the official deadline, redemption steps and fixes for codes that fail.
+summary: 3 reported Whiteout Survival gift codes for November 2026, with rewards, the official deadline, redemption steps and fixes for codes that fail.
 keyword: Whiteout Survival codes
 hub_type: codes
 published_at: '2026-11-25T14:45:00Z'
+updated_at: '2026-11-25T16:31:00Z'
 genres:
 - strategy
 platforms:
@@ -27,7 +28,7 @@ sources:
 - title: boostbot.org
   url: https://boostbot.org/blog/whiteout-survival-gift-codes/
 tldr:
-- <b>4 codes</b> were reported as active on November 25, 2026.
+- <b>3 codes</b> were reported as active on November 25, 2026.
 - 'OFFICIALSTORE1124 comes from the official X account and runs until Nov 30, 23:59 UTC.'
 - WOS27TGS carries the biggest listed reward, 2,207 Gems plus Mythic manuals and Gold Keys.
 - Some codes may already be deactivated, used up or region-locked.
@@ -47,10 +48,9 @@ These Whiteout Survival codes were rounded up on November 25, 2026. One comes st
 
 | Code | Reward | Expiry |
 | --- | --- | --- |
-| `OFFICIALSTORE1124` | Gift code from the official store promotion | Nov 30, 2026, 23:59 UTC (official post) |
+| `OFFICIALSTORE1124` | 500 Gems; 50 min of General Speedups; 200 VIP XP; 3-day Primal Vibe Avatar Frame (reported to need Furnace 9) | Nov 30, 2026, 23:59 UTC (official post) |
 | `WOS27TGS` | 2,207 Gems; 2 Mythic Exploration Manuals; 2 Mythic Expedition Skill Manuals; 2 Gold Keys | Reported active Nov 25 |
 | `WORKERSTHANKS` | 1,000 Gems; 2 Gold Keys; 2x 100 Enhancement XP Components; 50,000 Meat; 50,000 Wood; 10,000 Coal; 5,000 Iron | Reported active Nov 25 |
-| `A7K9M2` | Reward pack sent to in-game mail | Reported active Nov 25 |
 
 Redeem OFFICIALSTORE1124 first, since it is the only one with an official deadline, then WOS27TGS for its Gems and Mythic manuals. The posts announcing the official store code also mention a 5% Frost Star bonus on purchases through the official web store; the gift code itself is free.
 
@@ -76,4 +76,4 @@ Check capitalization and stray spaces first. After that, the usual causes are a 
 
 ## Where to find new codes
 
-New Whiteout Survival codes appear on the game's official X account, Facebook page and Discord server, and in in-game mail announcements.
+New Whiteout Survival codes appear on the game's official X account, Facebook page and Discord server, and in in-game mail announcements. If you're deciding where the Gems and materials should go, our [Chief Gear, Charms and Furnace guide](/hub/guides/whiteout-survival-chief-gear-f2p-guide.html) covers the F2P upgrade order.
