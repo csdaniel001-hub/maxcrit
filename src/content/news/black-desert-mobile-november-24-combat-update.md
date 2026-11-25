@@ -1,6 +1,6 @@
 ---
 title: Black Desert Mobile overhauls Black Spirit's Rage in November 24 update
-seo_title: Black Desert Mobile overhauls Black Spirit's Rage in
+seo_title: Black Desert Mobile reworks Black Spirit's Rage
 summary: Black Desert Mobile reworks Black Spirit's Rage and changes Co-op Rush and gear enhancement safeguards in its November 24, 2026 patch.
 keyword: Black Desert
 published_at: '2026-11-24T10:00:00Z'
@@ -36,6 +36,6 @@ Pearl Abyss has adjusted one of Black Desert Mobile's shared combat systems to r
 
 ## New events
 
-Daily To-Do List and Restoration Scroll Rush run from maintenance completion through November 30 at 22:30. A server Hot Time on November 27 runs from 00:00 to 23:59, with additional experience and drop bonuses. Check server timing in-game.
+Daily To-Do List and Restoration Scroll Rush run from maintenance completion through November 30 at 22:30. A server Hot Time on November 27 runs from 00:00 to 23:59, with additional experience and drop bonuses.
 
 The update changes how players can contest space in PvP: Rage is intended more as a battlefield-control tool than a single-target finisher.
