@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import { cleanUrls } from "./lib/build/cleanurls.js";
 import { buildImages, WIDTHS } from "./lib/build/images.js";
 import { buildCss } from "./lib/build/css.js";
@@ -156,6 +158,19 @@ export default function (eleventyConfig) {
     return out;
   });
   eleventyConfig.addFilter("guidesBuilds", (arr) => (arr || []).filter((x) => ["builds", "guides"].includes(x.data.hub_type)));
+
+  // Real pixel size of a local JPEG/PNG for og:image:width/height (Facebook uses the declared size).
+  const _dims = new Map();
+  eleventyConfig.addFilter("imgDims", (src) => {
+    if (_dims.has(src)) return _dims.get(src);
+    let out = [1200, 630];
+    try {
+      const b = fs.readFileSync(path.join("src", src));
+      if (b[0] === 0x89 && b[1] === 0x50) out = [b.readUInt32BE(16), b.readUInt32BE(20)];
+      else { let i = 2; while (i < b.length) { if (b[i] !== 0xff) break; const m = b[i + 1], len = b.readUInt16BE(i + 2); if (m >= 0xc0 && m <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(m)) { out = [b.readUInt16BE(i + 7), b.readUInt16BE(i + 5)]; break; } i += 2 + len; } }
+    } catch (e) {}
+    _dims.set(src, out); return out;
+  });
 
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },

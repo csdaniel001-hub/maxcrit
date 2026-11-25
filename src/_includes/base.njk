@@ -23,8 +23,11 @@
 <meta property="og:description" content="{{ desc }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | replace('/index.html', '/') }}">
 <meta property="og:image" content="{{ site.url }}{{ ogImg }}">
-<meta property="og:image:width" content="{% if ogImg == '/assets/img/share/maxcrit.jpg' %}1200{% else %}1600{% endif %}">
-<meta property="og:image:height" content="{% if ogImg == '/assets/img/share/maxcrit.jpg' %}630{% else %}900{% endif %}">
+{%- set ogD = ogImg | imgDims %}
+<meta property="og:image:secure_url" content="{{ site.url }}{{ ogImg }}">
+<meta property="og:image:type" content="image/{{ 'png' if ogImg.endsWith('.png') else 'jpeg' }}">
+<meta property="og:image:width" content="{{ ogD[0] }}">
+<meta property="og:image:height" content="{{ ogD[1] }}">
 <meta property="og:image:alt" content="{{ image_alt or ogTitle }}">
 {% if published_at %}<meta property="article:published_time" content="{{ published_at | isoDate }}">
 <meta property="article:modified_time" content="{{ (updated_at or published_at) | isoDate }}">
@@ -43,7 +46,7 @@
 {% endif %}<link rel="stylesheet" href="{{ '/assets/css/site.css' | rel }}?v={{ site.build }}">
 {% if gaId %}<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});</script>
 {% endif %}<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | rel }}">
-{% if page.url == '/' or page.url == '/index.html' %}<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"{{ site.url }}/#org","name":"{{ site.name }}","url":"{{ site.url }}/","logo":{"@type":"ImageObject","url":"{{ site.url }}/assets/img/share/logo.png","width":512,"height":512},"email":"{{ site.email }}","description":{{ site.description | jsonify | safe }}},{"@type":"WebSite","@id":"{{ site.url }}/#site","name":"{{ site.name }}","url":"{{ site.url }}/","inLanguage":"en","publisher":{"@id":"{{ site.url }}/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"{{ site.url }}/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}]}</script>
+{% if page.url == '/' or page.url == '/index.html' %}<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"{{ site.url }}/#org","name":"{{ site.name }}","url":"{{ site.url }}/","sameAs":["{{ site.social.facebook }}"],"logo":{"@type":"ImageObject","url":"{{ site.url }}/assets/img/share/logo.png","width":512,"height":512},"email":"{{ site.email }}","description":{{ site.description | jsonify | safe }}},{"@type":"WebSite","@id":"{{ site.url }}/#site","name":"{{ site.name }}","url":"{{ site.url }}/","inLanguage":"en","publisher":{"@id":"{{ site.url }}/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"{{ site.url }}/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}]}</script>
 {% endif %}</head>
 <body class="{{ bodyClass or 'gz-home' }}">
 <a class="gz-skip" href="#content">Skip to content</a>
@@ -54,6 +57,7 @@
 <a class="gz-logo" href="{{ '/index.html' | rel }}" aria-label="{{ site.name }} home">{{ logo(34) }}</a>
 {% set hotRank = (games | gameRank(collections.everything)) %}{% set hot = [] %}{% for r in hotRank %}{% if not games[r.slug].noicon and hot.length < 24 %}{% set hot = (hot.push(r.slug), hot) %}{% endif %}{% endfor %}<nav class="gz-hot kx-apps" aria-label="Popular games"><div class="hot-track" style="--hot-dur:{{ hot.length * 3 }}s">{% for pass in [0, 1] %}{% for slug in hot %}{% set g = games[slug] %}<a href="{{ ('/games/' + slug + '.html') | rel }}" aria-label="{{ g.name }}" title="{{ g.name }}"{% if pass %} aria-hidden="true" tabindex="-1"{% endif %}><img src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="32" height="32"{% if pass %} loading="lazy"{% endif %}><span>{{ g.name }}</span></a>{% endfor %}{% endfor %}</div></nav>
 <form class="gz-search" action="{{ '/search.html' | rel }}" role="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><label><span class="gz-sr">Search</span><input type="search" name="q" placeholder="Search…"></label></form>
+<a class="gz-ibtn gz-fb" href="{{ site.social.facebook }}" target="_blank" rel="noopener me" aria-label="MaxCrit on Facebook" title="MaxCrit on Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3.1h-3V8.5c0-.9.3-1.5 1.6-1.5h1.6V4.2c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.3H7.9v3.1h2.6V21h3z"/></svg></a>
 <a class="gz-ibtn gz-rss" href="{{ '/feed.xml' | rel }}" aria-label="RSS"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 19h.01 M5 12a7 7 0 0 1 7 7 M5 5a14 14 0 0 1 14 14"/></svg></a>
 <label class="gz-ibtn gz-menu" for="gzMenu"><span class="gz-sr">Menu</span><span></span><span></span></label>
 </div>
@@ -94,10 +98,10 @@
 
 <footer class="gz-foot">
 <div class="gz-foot-in">
-<div class="gz-foot-brand">{{ logo(44) }}<p>{{ site.tagline }}.</p></div>
+<div class="gz-foot-brand">{{ logo(44) }}<p>{{ site.tagline }}.</p><div class="gz-foot-social"><a href="{{ site.social.facebook }}" target="_blank" rel="noopener me" aria-label="MaxCrit on Facebook" title="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3.1h-3V8.5c0-.9.3-1.5 1.6-1.5h1.6V4.2c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.3H7.9v3.1h2.6V21h3z"/></svg><span>Facebook</span></a><a href="{{ '/feed.xml' | rel }}" aria-label="RSS feed" title="RSS"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 19h.01 M5 12a7 7 0 0 1 7 7 M5 5a14 14 0 0 1 14 14"/></svg><span>RSS</span></a></div></div>
 <nav aria-label="Sections"><h2 class="mono">Sections</h2><a href="{{ '/news.html' | rel }}">Latest news</a>{% for t in topicNav %}<a href="{{ ('/' + t.slug + '.html') | rel }}">{{ t.name }}</a>{% endfor %}<a href="{{ '/games.html' | rel }}">Games A–Z</a></nav>
 <nav aria-label="Player Hub"><h2 class="mono">Player Hub</h2><a href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav>
-<nav aria-label="About"><h2 class="mono">About</h2><a href="{{ '/about.html' | rel }}">About</a><a href="{{ '/contact.html' | rel }}">Contact</a><a href="{{ '/feed.xml' | rel }}">RSS</a></nav>
+<nav aria-label="About"><h2 class="mono">About</h2><a href="{{ '/about.html' | rel }}">About</a><a href="{{ '/contact.html' | rel }}">Contact</a><a href="{{ site.social.facebook }}" target="_blank" rel="noopener me">Facebook</a><a href="{{ '/feed.xml' | rel }}">RSS</a></nav>
 <nav aria-label="Legal"><h2 class="mono">Legal</h2><a href="{{ '/privacy.html' | rel }}">Privacy policy</a><a href="{{ '/cookies.html' | rel }}">Cookie policy</a><a href="{{ '/terms.html' | rel }}">Terms of use</a><button type="button" class="kx-cookie-open gz-foot-btn">Cookie settings</button></nav>
 </div>
 <div class="gz-foot-bot mono"><span>© 2026 {{ site.name | upper }}</span><span>Images are official press and store material from their rights holders.</span></div>

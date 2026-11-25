@@ -8,6 +8,8 @@ export default {
   wordA: "MAX",
   wordB: "CRIT",
   tagline: "Mobile gaming news and player hub",
+  // Official social profiles: header and footer icons, Organization sameAs.
+  social: { facebook: "https://www.facebook.com/maxcritdotcom/" },
   url: "https://maxcrit.com",
   description: "Mobile gaming news from official sources, plus patch trackers, tier lists and guides for the iOS and Android games people actually play.",
   lang: "en",
