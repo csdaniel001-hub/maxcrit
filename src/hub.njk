@@ -7,5 +7,5 @@ title: Player Hub
 summary: "Evergreen pages for mobile players, kept up to date: patch trackers, tier lists, redeem codes and guides, each built from official sources."
 ---
 {% from "macros.njk" import listing with context %}
-{% set tabs %}<nav class="gz-ptabs" aria-label="Player Hub"><a class="on" href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav>{% endset %}
+{% set tabs %}<nav class="gz-ptabs" aria-label="Player Hub"><a class="on" href="{{ '/hub.html' | rel }}">All hub pages</a>{% for h in hubTypes %}{% if (collections.hub | byHubType(h.slug)).length %}<a href="{{ ('/hub/' + h.slug + '.html') | rel }}">{{ h.name }}</a>{% endif %}{% endfor %}</nav><script>/*mcTabsScroll*/(function(){var n=document.currentScript.previousElementSibling,a=n&&n.querySelector(".on");if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-12})()</script>{% endset %}
 {{ listing(collections.hub, pre, 'Player Hub', 'Player Hub', 'Patch trackers and guides that stay current, so you can check what is true in the game right now. Each page shows when it was last checked.', 'Pages', tabs, '') }}
