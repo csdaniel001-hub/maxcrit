@@ -244,6 +244,7 @@ def check_file(path):
     colon_heads = []
     contrast_hits = 0
     attr_hits = 0
+    attr_lines = []
     for i, line in enumerate(body.split("\n")):
         ln = start + i
         low = line.lower()
@@ -279,12 +280,16 @@ def check_file(path):
             for sent in re.findall(r"[^.!?]+[.!?]?", line):
                 if ATTR_ACC.search(sent) or (ATTR_SRC.search(sent) and ATTR_VERB.search(sent)):
                     attr_hits += 1
-                    add("WARN", f'source attribution in the text: "{sent.strip()[:70]}..." (state official facts plainly; attribute only reported, disputed or quoted claims)', ln)
+                    attr_lines.append(ln)
         for rx, label in CONTRAST:
             for m in re.finditer(rx, line, re.I):
                 contrast_hits += 1
                 ctx = line[max(0, m.start() - 30): m.end() + 25].strip()
                 add("WARN", f'{label}: "...{ctx}..."', ln)
+    # Attribution is fine when it establishes origin or credibility (Daniel, 2026-11-26);
+    # only repetition is flagged.
+    if len(attr_lines) >= 3:
+        add("WARN", f"{len(attr_lines)} attribution sentences (lines {', '.join(map(str, attr_lines))}): keep the ones that establish where a claim comes from or how far to trust it, state the rest plainly")
     if len(colon_heads) > 1:
         add("ERROR", f"{len(colon_heads)} colon-built subheadings (maximum 1), lines {', '.join(map(str, colon_heads))}")
     if contrast_hits >= 3:

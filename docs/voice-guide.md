@@ -33,13 +33,13 @@ The consequence for the player. The number. The bigger picture. A comparison. A 
 
 ## Rules of thumb
 - Talk to "you" where it helps; plain third person is fine for business and industry news.
-- Facts plainly, no attribution tags for official facts. Attribute reported, disputed or quoted claims, and do it inside the sentence ("NCsoft said", "players on the Steam page report").
+- Attribute like a journalist (2026-11-26): where it establishes origin or credibility ("NCsoft said", "announced on its X account", "players on the Steam page report"), inside the sentence. Don't repeat it; routine official facts can stand plainly.
 - Tables only for schedules, numbers and codes.
 - One idea per paragraph. Cut any sentence that repeats the last.
 - End on what to do, or when to check back.
 
 ## What stays banned
-Hands-on claims without real play, invented numbers, "we don't know / check the game" filler, em dashes, bold in running text, reader-steering frames, "X, not Y" as a habit, stock phrases, fake bylines or personas.
+Hands-on claims without real play, invented numbers, redundant hedging and research commentary ("the accessible text doesn't say", "check the game"), em dashes, bold in running text, reader-steering frames, "X, not Y" as a habit, stock phrases, fake bylines or personas. (Qualifications that change a player's decision, eligibility or availability stay in.)
 
 ## Site-level variety
 `stylecheck.py --site` (planned) flags when too many recent articles share an opening move, a pet phrase or the same skeleton.
