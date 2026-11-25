@@ -5,7 +5,7 @@ summary: Every live Black Desert Mobile event on November 24, 2026, with start a
 keyword: Black Desert Mobile events
 hub_type: events
 published_at: '2026-11-24T17:10:00Z'
-updated_at: '2026-11-25T13:30:00Z'
+updated_at: '2026-11-25T15:00:00Z'
 genres:
 - mmorpg
 platforms:
@@ -28,8 +28,10 @@ sources:
   primary: true
 - title: "world.blackdesertm.com (official): Let's Hear It for Black Desert Friday!"
   url: https://www.world.blackdesertm.com/Ocean/News/Detail?boardNo=4886
+- title: "world.blackdesertm.com (official): December Check-in"
+  url: https://www.world.blackdesertm.com/Ocean/News/Detail?boardNo=4888
 tldr:
-- 9 events on the Black Desert Mobile schedule as of November 25, 2026.
+- 10 events on the Black Desert Mobile schedule as of November 25, 2026, including the December Check-in.
 - 'Friday November 27: type <b>Black Desert Friday</b> in Server chat for 10,000 Restoration Scrolls, during that day''s Hot Time.'
 - 'Longest running: Winter Update Notification Subscription, until 2026-12-28.'
 image: "/assets/img/black-desert-mobile-events.jpg"
@@ -57,6 +59,7 @@ Event dates below are copied from each game's official announcements as of Novem
 | Weekend Surprise Mission and GM Quiz | 2026-11-17 after maintenance | 2026-11-29 23:59 | Publisher schedule; check server clock | Campaign live; session-dependent |
 | Aim to be the Best of the Class | 2026-11-21 12:00 | 2026-12-06 17:55 | Published tournament schedule; confirm server clock | Campaign live; next session Nov 28 |
 | November Check-in | 2026-11-01 00:00 | 2026-11-30 23:59 | Publisher schedule | Live window |
+| December Check-in | 2026-12-01 00:00 | 2026-12-31 23:59 | Publisher schedule | Upcoming |
 
 ## Event details
 
@@ -127,6 +130,14 @@ Class-specific competitions take place on Saturdays and Sundays. November 28: St
 Log in daily and collect the check-in rewards.
 
 - **Rewards**: Daily login rewards.
+
+### December Check-in
+
+- **Event window**: 2026-12-01 00:00 to 2026-12-31 23:59 (Publisher schedule).
+
+The December Check-in needs a daily mission before the check-in counts: defeat 500 enemies, then open the Event Menu from the Gift Box icon and tap [Check-in]. The mission alone doesn't register the day. Daily missions reset between 00:00 and 01:00, and extra bonus rewards unlock at 5, 15 and 25 check-in days. No Event Tab is needed to take part.
+
+- **Rewards**: 25 days of check-in rewards plus 5-day, 15-day and 25-day bonuses.
 
 ## Before the event ends
 
