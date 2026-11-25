@@ -556,3 +556,16 @@ vampire-therapist:
   official: "https://store.steampowered.com/app/2481020/Vampire_Therapist/"
   appstore: "https://apps.apple.com/us/app/vampire-therapist/id6742189122"
   status: "Live"
+mir4:
+  name: "MIR4"
+  publisher: "Wemade"
+  official: "https://mir4global.com/"
+  appstore: "https://apps.apple.com/us/app/mir4/id1566500955"
+  googleplay: "https://play.google.com/store/apps/details?id=com.wemade.mir4global"
+  status: "Live"
+mabinogi-mobile:
+  name: "Mabinogi Mobile"
+  publisher: "NEXON"
+  official: "https://mabinogimobile.nexon.co.jp/"
+  appstore: "https://apps.apple.com/jp/app/id6775403879"
+  status: "Live in Japan"
