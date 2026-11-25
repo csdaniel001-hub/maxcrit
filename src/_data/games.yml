@@ -346,6 +346,12 @@ reverse-1999:
   appstore: "https://apps.apple.com/us/app/reverse-1999/id1672933190"
   googleplay: "https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999"
   status: "Live"
+whiteout-survival:
+  name: "Whiteout Survival"
+  publisher: "Century Games"
+  appstore: "https://apps.apple.com/us/app/whiteout-survival/id6443575749"
+  googleplay: "https://play.google.com/store/apps/details?id=com.gof.global"
+  status: "Live"
 kingshot:
   name: "Kingshot"
   publisher: "Century Games"
