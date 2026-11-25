@@ -265,3 +265,14 @@ html[data-gz] body .gz-ptabs a{padding:11px 10px!important;font-size:12px!import
 html[data-gz] body .gz-ptabs a:first-child{padding-left:10px!important}
 html[data-gz] body .gz-ptabs a:last-child{margin-right:36px}
 }
+
+/* Textured overlay on the background art: dot grid + faint scanlines over a slightly darker veil, so loose text reads cleanly (Daniel, 2026-11-25) */
+html[data-gz=light] body.hz-home::after,html[data-gz=light] body::after{background:
+ radial-gradient(rgba(6,8,26,.42) 1px,transparent 1.4px) 0 0/4px 4px,
+ repeating-linear-gradient(0deg,rgba(6,8,26,.28) 0,rgba(6,8,26,.28) 1px,transparent 1px,transparent 3px),
+ linear-gradient(90deg,rgba(6,8,26,.84) 0,rgba(6,8,26,.76) calc(50% - 1150px),rgba(6,8,26,.64) calc(50% - 900px),rgba(6,8,26,.6) calc(50% - 760px),rgba(6,8,26,.6) calc(50% + 760px),rgba(6,8,26,.64) calc(50% + 900px),rgba(6,8,26,.76) calc(50% + 1150px),rgba(6,8,26,.84) 100%),
+ linear-gradient(180deg,rgba(8,10,32,0) 0,rgba(8,10,32,.22) 60%,rgba(8,10,30,.5) 100%)!important}
+@media (max-width:700px){html[data-gz=light] body.hz-home::after,html[data-gz=light] body::after{background:
+ radial-gradient(rgba(6,8,26,.42) 1px,transparent 1.4px) 0 0/4px 4px,
+ repeating-linear-gradient(0deg,rgba(6,8,26,.28) 0,rgba(6,8,26,.28) 1px,transparent 1px,transparent 3px),
+ linear-gradient(180deg,rgba(8,10,32,.55) 0,rgba(8,10,32,.66) 60%,rgba(8,10,30,.8) 100%)!important}}
