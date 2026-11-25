@@ -1,3 +1,4 @@
+import { cleanUrls } from "./lib/build/cleanurls.js";
 import { buildImages, WIDTHS } from "./lib/build/images.js";
 import { buildCss } from "./lib/build/css.js";
 import { inlineIcons } from "./lib/build/preview-inline.js";
@@ -17,12 +18,14 @@ export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml,yaml", (contents) => yaml.load(contents));
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
+  eleventyConfig.addPassthroughCopy({ "src/htaccess.txt": ".htaccess" });
   // One stylesheet per page: joined, unused rules removed, minified (lib/build/css.js)
   eleventyConfig.on("eleventy.after", async ({ dir }) => {
     const made = await buildImages(dir.output);
     if (made) console.log(`[img] encoded ${made} responsive images`);
     const r = await buildCss(dir.output);
     console.log(`[css] site.css ${Math.round(r.before / 1024)} KB -> ${Math.round(r.after / 1024)} KB`);
+    if (!process.env.MC_PREVIEW) console.log(`[urls] clean links in ${cleanUrls(dir.output)} files`);
     if (process.env.MC_PREVIEW) console.log(`[preview] inlined game icons in ${inlineIcons(dir.output)} pages`);
   });
 
