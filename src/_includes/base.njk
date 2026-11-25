@@ -66,7 +66,8 @@
 <a class="{% if page.url == '/' or page.url == '/index.html' %}on{% endif %}" href="{{ '/index.html' | rel }}">{{ mico('home') }}Home</a>
 <a class="{% if activeNav == 'news' %}on{% endif %}" href="{{ '/news.html' | rel }}">{{ mico('news') }}Latest news</a>
 <a class="{% if activeNav == 'games' %}on{% endif %}" href="{{ '/games.html' | rel }}">{{ mico('games') }}Games A–Z</a>
-{% for t in topicNav %}<a class="topic{% if activeNav == 't-' + t.slug %} on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ mico(t.mico) }}{{ t.name }}</a>
+{% for g in genreNav %}{% if g.section and (collections.everything | byGenre(g.slug)).length %}<a class="topic{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ mico(g.slug) }}{{ g.name }}</a>
+{% endif %}{% endfor %}{% for t in topicNav %}<a class="topic{% if activeNav == 't-' + t.slug %} on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ mico(t.mico) }}{{ t.name }}</a>
 {% endfor %}
 <details class="gz-grp" open>
 <summary>{{ mico('hub') }}Player Hub<i aria-hidden="true"></i></summary>
@@ -76,7 +77,7 @@
 </details>
 <details class="gz-grp" open>
 <summary>{{ mico('mobile') }}Genres<i aria-hidden="true"></i></summary>
-{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
+{% for g in genreNav %}{% set gc = (collections.everything | byGenre(g.slug)).length %}{% if gc and not g.section %}<a class="sub{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}"><span class="mc-si">{{ mico(g.slug) }}</span><span class="mc-st">{{ g.name }}</span></a>
 {% endif %}{% endfor %}
 </details>
 </nav>

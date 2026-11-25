@@ -5,7 +5,7 @@ bodyClass: hz-home
 ---
 {% from "macros.njk" import arr, clock, chip, kick, ago, allrow with context %}
 {% set all = collections.stories %}
-{% set hero = all | featured | limit(4) %}
+{% set hero = all | notGenre('hardware') | featured | limit(4) %}
 {% set fresh = all | notIn(hero) | limit(3) %}
 {% macro pic(img, w, cls='', lazy=true, pos='') %}<img{% if cls %} class="{{ cls }}"{% endif %} src="{{ img | wsrc(w) | rel }}" alt="" width="{{ w }}" height="{{ (w * 9 / 16) | round }}"{% if pos %} style="object-position:{{ pos }}"{% endif %}{% if lazy %} loading="lazy"{% endif %} decoding="async">{% endmacro %}
 {% macro ui(f) %}{{ ('/assets/img/ui/' + f) | rel }}{% endmacro %}
@@ -33,7 +33,7 @@ bodyClass: hz-home
 {% if gi.length %}{% set f = gi[0] %}<a class="cc-f cc-fg nf" href="{{ f.url | rel }}"><span class="nf-in"><img class="cc-fbg" src="{{ f.data.image | wsrc(960) | rel }}" srcset="{{ f.data.image | srcset }}" sizes="(max-width: 700px) 100vw, 640px" alt="" width="960" height="540" decoding="async"><span class="cc-tab">Gacha spotlight</span><b>{{ f.data.title }}</b><i class="cc-go">{{ arr() }}</i></span></a>{% endif %}
 {% set gd = collections.hub | byHubType('guides') %}{% if gd.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Guides</h2></header>{% for n in gd | limit(2) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<img class="cc-fart" src="{{ ui('chest-magic.webp') }}" alt="" width="84" height="70" loading="lazy"><a class="cc-btn cy" href="{{ '/hub/guides.html' | rel }}">All guides {{ arr() }}</a></div></div>{% endif %}
 {% set pt = collections.hub | byHubType('patch-trackers') %}{% if pt.length %}<div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Patch tracker</h2></header>{% for n in pt | limit(2) %}<a class="cc-li" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}<a class="cc-btn" href="{{ '/hub/patch-trackers.html' | rel }}">All patch trackers {{ arr() }}</a></div></div>{% endif %}
-</div></div><aside class="cc-news nf" aria-labelledby="h-cn"><div class="nf-in"><header class="cc-h"><h2 id="h-cn">Latest news</h2><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>{% for n in all | limit(6) %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt">{{ pic(n.data.image, 480) }}</span><span class="cc-nx"><i class="cc-tab">{{ kick(n) }}</i><b>{{ n.data.title }}</b><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate | capitalize }}</time></span>{{ arr() }}</a>{% endfor %}</div></aside></div>
+</div></div><aside class="cc-news nf" aria-labelledby="h-cn"><div class="nf-in"><header class="cc-h"><h2 id="h-cn">Latest news</h2><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>{% for n in all | notGenre('hardware') | limit(6) %}<a class="cc-nr" href="{{ n.url | rel }}"><span class="cc-nt">{{ pic(n.data.image, 480) }}</span><span class="cc-nx"><i class="cc-tab">{{ kick(n) }}</i><b>{{ n.data.title }}</b><time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate | capitalize }}</time></span>{{ arr() }}</a>{% endfor %}</div></aside></div>
 
 {# Popular games: the most-covered games #}
 <section class="mc-sec" aria-labelledby="h-pop">

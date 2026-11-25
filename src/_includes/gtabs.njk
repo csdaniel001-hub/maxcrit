@@ -2,5 +2,5 @@
 <a class="{% if activeNav == 'news' %}on{% endif %}" href="{{ '/news.html' | rel }}">All news</a>
 {% for t in topicNav %}{% if (collections.everything | byTopic(t.slug)).length %}<a class="{% if activeNav == 't-' + t.slug %}on{% endif %}" href="{{ ('/' + t.slug + '.html') | rel }}">{{ t.name }}</a>{% endif %}{% endfor %}
 <a class="{% if activeNav == 'hub' %}on{% endif %}" href="{{ '/hub.html' | rel }}">Player Hub</a>
-{% for g in genreNav %}{% if (collections.everything | byGenre(g.slug)).length %}<a class="gz-ptab-g{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ g.name }}</a>{% endif %}{% endfor %}
+{% for g in genreNav %}{% if not g.section and (collections.everything | byGenre(g.slug)).length %}<a class="gz-ptab-g{% if activeNav == 'g-' + g.slug %} on{% endif %}" href="{{ ('/genre/' + g.slug + '.html') | rel }}">{{ g.name }}</a>{% endif %}{% endfor %}
 </nav>
