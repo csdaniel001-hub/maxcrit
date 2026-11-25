@@ -4,6 +4,14 @@ seo_title: 'Genshin Impact Kinich build: weapons and teams'
 summary: Build Kinich around Scalespiker Cannons, reliable Burning uptime and Skill damage. Compare craftable claymores and practical team investments.
 keyword: Genshin Impact Kinich build
 hub_type: builds
+character: "Kinich"
+build_meta:
+  element: Dendro
+  weapon: Claymore
+  role: DPS
+game_version: "7.2"
+banner_ends: "2026-12-15T06:59:00Z"
+banner_name: "Names Forged Beneath Blazing Skies"
 tier: 3
 review_by: '2026-12-15'
 published_at: '2026-11-25T11:27:00Z'

@@ -1,0 +1,35 @@
+{#- Character builds directory. Every value comes from the build pages' own front matter.
+    Cards are plain links, so all builds stay crawlable without JavaScript; the script only filters. -#}
+{% from "macros.njk" import phart, arr with context %}
+{% macro bcard(n, games) %}{% set gs = (n.data.titles or [])[0] %}{% set m = n.data.build_meta or {} %}{% set mq %}{% for k, v in m %} {{ v }}{% endfor %}{% endset %}
+<li class="bd-it" data-g="{{ gs }}" data-q="{{ ((n.data.character or n.data.title) + ' ' + (games[gs].name if games[gs] else '') + mq) | lower }}"{% if n.data.banner_ends %} data-end="{{ n.data.banner_ends }}"{% endif %}>
+<a class="bd-card" href="{{ n.url | rel }}"><span class="bd-pic">{% if n.data.banner_ends and (n.data.banner_ends | isFuture) %}<em class="bd-ban mono" data-end="{{ n.data.banner_ends }}">On banner · to {{ n.data.banner_ends | shortDate }}</em>{% endif %}<img src="{{ n.data.image | wsrc(480) | rel }}" alt="" width="480" height="270" loading="lazy" decoding="async" style="object-position:{{ n.data.image_pos or '50% 30%' }}"></span>
+<span class="bd-tx"><small class="mono">{{ games[gs].name if games[gs] else '' }}</small><b>{{ n.data.character or n.data.title }}</b>
+{% if m %}<span class="bd-tags">{% for k, v in m %}<i>{{ v }}</i>{% endfor %}</span>{% endif %}
+<span class="bd-meta mono">{% if n.data.game_version %}v{{ n.data.game_version }} · {% endif %}Checked <time datetime="{{ (n.data.updated_at or n.data.published_at) | isoDate }}">{{ (n.data.updated_at or n.data.published_at) | shortDate }}</time></span></span></a></li>{% endmacro %}
+
+{% macro buildDir(items, heading, intro, crumbs, gameName='') %}
+{% set list = items | byCharacter %}{% set bg = list | buildGames(games) %}{% set live = list | onBanner %}
+<header class="gz-phead lr-head">
+{{ phart(heading, pre) }}
+<p class="gz-crumbs mono">{{ crumbs | safe }}</p>
+<h1>{{ heading }}</h1>
+<p class="gz-phead-d">{{ intro }}</p>
+</header>
+{{ caller() if caller }}
+<div class="bd-wrap">
+{% if live.length and live.length < list.length %}<section class="bd-live" aria-labelledby="h-bdl" id="bd-live"><header class="cc-h"><h2 id="h-bdl">On current banners</h2></header>
+<ul class="bd-grid">{% for n in live %}{{ bcard(n, games) }}{% endfor %}</ul>
+<p class="bd-note mono">Banner windows from the official wish notices. Each build page has the exact end time.</p></section>{% endif %}
+<section aria-labelledby="h-bda"><header class="cc-h"><h2 id="h-bda">{{ ('All ' + gameName + ' builds') if gameName else 'All character builds' }}</h2><span class="bd-count mono" id="bd-count">{{ list.length }} build{{ '' if list.length == 1 else 's' }}</span></header>
+<div class="bd-tools" hidden id="bd-tools"><label class="bd-search"><span class="sr-only">Search characters</span><input type="search" id="bd-q" placeholder="Search by character, element, weapon or role" autocomplete="off"></label>
+{% if bg.length > 1 %}<div class="bd-games" role="group" aria-label="Filter by game"><button type="button" class="on" data-g="">All games</button>{% for g in bg %}<button type="button" data-g="{{ g.slug }}">{{ g.name }} <span class="mono">{{ g.count }}</span></button>{% endfor %}</div>{% endif %}</div>
+<ul class="bd-grid" id="bd-all">{% for n in list %}{{ bcard(n, games) }}{% endfor %}</ul>
+<p class="bd-empty" id="bd-empty" hidden>No build matches that search yet.</p>
+{% if collections.buildGameHubs.length %}<nav class="bd-hubs" aria-label="Builds by game">{% for s in collections.buildGameHubs %}<a href="{{ ('/hub/builds/' + s + '.html') | rel }}">{{ games[s].name }} builds {{ arr() }}</a>{% endfor %}</nav>{% endif %}
+</section></div>
+<script>(function(){var now=Date.now();document.querySelectorAll('#bd-live [data-end]').forEach(function(li){if(Date.parse(li.dataset.end)<now)li.remove()});document.querySelectorAll('.bd-ban').forEach(function(b){if(Date.parse(b.dataset.end)<now)b.remove()});var lv=document.getElementById('bd-live');if(lv&&!lv.querySelector('li'))lv.remove();
+var t=document.getElementById('bd-tools'),q=document.getElementById('bd-q'),all=[].slice.call(document.querySelectorAll('#bd-all .bd-it')),c=document.getElementById('bd-count'),e=document.getElementById('bd-empty'),g='';if(!t)return;t.hidden=false;
+function run(){var s=q.value.trim().toLowerCase(),k=0;all.forEach(function(li){var ok=(!g||li.dataset.g===g)&&(!s||s.split(/\s+/).every(function(w){return li.dataset.q.indexOf(w)>-1}));li.hidden=!ok;if(ok)k++});c.textContent=k+(k===1?' build':' builds');e.hidden=k>0}
+q.addEventListener('input',run);t.querySelectorAll('.bd-games button').forEach(function(b){b.addEventListener('click',function(){g=b.dataset.g;t.querySelectorAll('.bd-games button').forEach(function(x){x.classList.toggle('on',x===b)});run()})})})();</script>
+{% endmacro %}

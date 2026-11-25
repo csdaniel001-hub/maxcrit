@@ -4,6 +4,14 @@ seo_title: 'Genshin Impact Chasca build: weapons and teams'
 summary: Build Chasca around converted Charged Attack shells, ATK and CRIT. Choose compatible elemental teammates and avoid wasting stats on Anemo alone.
 keyword: Genshin Impact Chasca build
 hub_type: builds
+character: "Chasca"
+build_meta:
+  element: Anemo
+  weapon: Bow
+  role: DPS
+game_version: "7.2"
+banner_ends: "2026-12-15T06:59:00Z"
+banner_name: "Names Forged Beneath Blazing Skies"
 tier: 3
 review_by: '2026-12-15'
 published_at: '2026-11-25T11:27:00Z'

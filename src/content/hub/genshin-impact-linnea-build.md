@@ -4,6 +4,14 @@ seo_title: 'Genshin Impact Linnea build: weapons and teams'
 summary: Build Linnea for Lunar-Crystallize damage and healing. Compare DEF-focused artifacts, accessible bows and teams featuring Zibai, Navia or Itto.
 keyword: Genshin Impact Linnea build
 hub_type: builds
+character: "Linnea"
+build_meta:
+  element: Geo
+  weapon: Bow
+  role: Support
+game_version: "7.2"
+banner_ends: "2026-12-15T06:59:00Z"
+banner_name: "Character Event Wish"
 tier: 3
 review_by: '2026-12-15'
 published_at: '2026-11-25T11:27:00Z'

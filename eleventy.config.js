@@ -117,6 +117,27 @@ export default function (eleventyConfig) {
   // Feeds, homepage, genre and platform pages leave out redeem-code and live-event pages, so dozens of schedule pages do not bury the news (2026-11-24)
   eleventyConfig.addCollection("stories", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").filter((n) => !["codes", "events"].includes(n.data.hub_type)).sort(newest));
 
+  // Character builds directory (2026-11-25): everything comes from each build's own front matter, no separate dataset.
+  const isBuild = (n) => n.data.hub_type === "builds";
+  eleventyConfig.addFilter("buildGames", (arr, games) => {
+    const m = new Map();
+    for (const n of (arr || []).filter(isBuild)) { const s = (n.data.titles || [])[0]; if (!s) continue; if (!m.has(s)) m.set(s, { slug: s, name: (games && games[s] && games[s].name) || s, count: 0 }); m.get(s).count++; }
+    return [...m.values()].sort((a, b) => a.name.localeCompare(b.name));
+  });
+  eleventyConfig.addFilter("byCharacter", (arr) => [...(arr || [])].sort((a, b) => String(a.data.character || a.data.title).localeCompare(String(b.data.character || b.data.title))));
+  // On an active banner at build time; the page script also hides cards whose banner ended since the last build.
+  eleventyConfig.addFilter("onBanner", (arr) => (arr || []).filter((n) => n.data.banner_ends && new Date(n.data.banner_ends) > new Date()).sort((a, b) => new Date(a.data.banner_ends) - new Date(b.data.banner_ends)));
+  // A game gets its own indexable build hub only once there are builds for 2+ games and at least BUILD_HUB_MIN for that game, so no hub duplicates the main directory.
+  eleventyConfig.addFilter("isFuture", (d) => !!d && new Date(d) > new Date());
+  const BUILD_HUB_MIN = 5;
+  eleventyConfig.addCollection("buildGameHubs", (api) => {
+    const all = api.getFilteredByGlob("src/content/hub/*.md").filter((n) => isBuild(n) && n.data.image);
+    const m = new Map();
+    for (const n of all) { const s = (n.data.titles || [])[0]; if (s) m.set(s, (m.get(s) || 0) + 1); }
+    if (m.size < 2) return [];
+    return [...m.entries()].filter(([, c]) => c >= BUILD_HUB_MIN).map(([slug]) => slug).sort();
+  });
+
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },
     markdownTemplateEngine: "njk",

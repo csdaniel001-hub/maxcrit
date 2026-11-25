@@ -4,6 +4,14 @@ seo_title: 'Genshin Impact Mualani build: weapons and teams'
 summary: Build Mualani for HP-scaling Sharky bites, choose a catalyst around her stat balance, and maintain Pyro for consistent forward Vaporize damage.
 keyword: Genshin Impact Mualani build
 hub_type: builds
+character: "Mualani"
+build_meta:
+  element: Hydro
+  weapon: Catalyst
+  role: DPS
+game_version: "7.2"
+banner_ends: "2026-12-15T06:59:00Z"
+banner_name: "Names Forged Beneath Blazing Skies"
 tier: 3
 review_by: '2026-12-15'
 published_at: '2026-11-25T11:27:00Z'

@@ -34,6 +34,14 @@ sources:
 - title: 'HoYoverse Help Center: Xilonen support effects'
   url: https://support.hoyoverse.com/hc/en-us/articles/50333850986777-Why-aren-t-Xilonen-s-healing-and-resistance-reduction-effects-working
 hub_type: builds
+character: "Xilonen"
+build_meta:
+  element: Geo
+  weapon: Sword
+  role: Support
+game_version: "7.2"
+banner_ends: "2026-12-15T06:59:00Z"
+banner_name: "Names Forged Beneath Blazing Skies"
 tier: 3
 review_by: '2026-12-15'
 image: "/assets/img/genshin-impact-xilonen-build.jpg"

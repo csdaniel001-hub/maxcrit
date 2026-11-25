@@ -4,6 +4,14 @@ seo_title: 'Genshin Impact Varesa build: weapons and teams'
 summary: Build Varesa for Electro Plunging Attacks with the right catalyst, artifact set and Pyro or Electro allies. Compare accessible weapon options.
 keyword: Genshin Impact Varesa build
 hub_type: builds
+character: "Varesa"
+build_meta:
+  element: Electro
+  weapon: Catalyst
+  role: DPS
+game_version: "7.2"
+banner_ends: "2026-12-15T06:59:00Z"
+banner_name: "Names Forged Beneath Blazing Skies"
 tier: 3
 review_by: '2026-12-15'
 published_at: '2026-11-25T11:27:00Z'

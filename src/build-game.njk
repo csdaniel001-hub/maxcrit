@@ -1,0 +1,13 @@
+---
+layout: base.njk
+pagination: { data: collections.buildGameHubs, size: 1, alias: gs }
+permalink: "/hub/builds/{{ gs }}.html"
+activeSection: hub
+activeNav: h-builds
+eleventyComputed:
+  title: "{{ games[gs].name }} character builds"
+  summary: "{{ games[gs].name }} character builds with weapons, equipment, stat priorities and team options, each checked against the official kits."
+---
+{% from "builds-dir.njk" import buildDir with context %}{% set items = collections.hub | byHubType('builds') | byGame(gs) %}
+{% call buildDir(items, games[gs].name + ' character builds', summary, '<a href="' + ('/index.html' | rel) + '">Home</a> / <a href="' + ('/hub.html' | rel) + '">Player Hub</a> / <a href="' + ('/hub/builds.html' | rel) + '">Character builds</a> / ' + games[gs].name, games[gs].name) %}{% endcall %}
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Player Hub","item":"{{ site.url }}/hub.html"},{"@type":"ListItem","position":3,"name":"Character builds","item":"{{ site.url }}/hub/builds.html"},{"@type":"ListItem","position":4,"name":{{ (games[gs].name + ' builds') | jsonify | safe }},"item":"{{ site.url }}{{ page.url }}"}]},{"@type":"CollectionPage","url":"{{ site.url }}{{ page.url }}","name":{{ title | jsonify | safe }},"mainEntity":{"@type":"ItemList","numberOfItems":{{ items.length }},"itemListElement":[{% for n in items | byCharacter %}{"@type":"ListItem","position":{{ loop.index }},"url":"{{ site.url }}{{ n.url }}","name":{{ n.data.title | unent | jsonify | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}}]}</script>
