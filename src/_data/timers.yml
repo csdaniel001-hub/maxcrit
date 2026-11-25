@@ -1,0 +1,12 @@
+# Live countdowns. Only deadlines with an exact, verified time; ends in UTC.
+# label: what ends; game: games.yml slug; url: our page with the details; note: server/region if it matters.
+- { label: "Indelible Coterie warps (Silver Wolf LV.999, Yao Guang)", game: honkai-star-rail, ends: "2026-12-02T03:59:00Z", url: "/hub/banners/honkai-star-rail-banners.html", kind: banner }
+- { label: "Aniimo Annual Carnival free gift box", game: aniimo, ends: "2026-12-01T12:00:00Z", url: "/news/aniimo-november-26-update-whisperwake-isles-events.html", note: "Europe server", kind: event }
+- { label: "Phantom Gallery", game: diablo-immortal, ends: "2026-12-01T10:00:00Z", url: "/hub/events/diablo-immortal-events.html", kind: event }
+- { label: "SKY ON THE ROCK, FLIGHT D-DAY and Sky Special Recruit", game: nikke, ends: "2026-12-02T19:59:59Z", url: "/hub/events/nikke-events.html", kind: event }
+- { label: "eFootball Black Friday events", game: efootball, ends: "2026-12-03T01:59:00Z", url: "/news/efootball-black-friday-2026-event.html", kind: event }
+- { label: "BLEACH: Thousand-Year Blood War collab", game: puzzle-and-dragons, ends: "2026-12-07T01:59:00Z", url: "/news/puzzle-and-dragons-bleach-thousand-year-blood-war-collab.html", kind: event }
+- { label: "Harvest Treasures", game: diablo-immortal, ends: "2026-12-08T10:59:00Z", url: "/hub/events/diablo-immortal-events.html", kind: event }
+- { label: "Gracewing reset", game: aniimo, ends: "2026-12-10T20:00:00Z", url: "/news/aniimo-november-26-update-whisperwake-isles-events.html", note: "all servers", kind: event }
+- { label: "Names Forged Beneath Blazing Skies (Chronicled Wish)", game: genshin-impact, ends: "2026-12-15T06:59:00Z", url: "/hub/banners/genshin-impact-banners.html", kind: banner }
+- { label: "A Comedy of Stars warp (Aeon ★ Aha)", game: honkai-star-rail, ends: "2026-12-22T07:00:00Z", url: "/hub/banners/honkai-star-rail-banners.html", kind: banner }

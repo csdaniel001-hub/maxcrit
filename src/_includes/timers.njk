@@ -1,0 +1,13 @@
+{%- set tlist = timers | sort(false, false, 'ends') -%}
+<section class="mc-timers" aria-labelledby="h-timers">
+<header class="hz-sh mt-h"><h2 id="h-timers">Ending soon</h2><i aria-hidden="true">//</i><span class="mt-sub mono"><span class="mt-dot" aria-hidden="true"></span>Live · UTC</span></header>
+<ol class="mt-list">{% for t in tlist %}{% set g = games[t.game] %}
+<li class="mt-it mt-{{ t.kind }}" data-end="{{ t.ends }}"><a href="{{ t.url | rel }}">
+{% if g and not g.noicon %}<img class="mt-ic" src="{{ ('/assets/img/icons/' + t.game + '.webp') | rel }}" alt="" width="40" height="40">{% endif %}
+<span class="mt-tx"><b>{{ t.label }}</b><small>{{ g.name if g else '' }}{% if t.note %} · {{ t.note }}{% endif %}</small></span>
+<span class="mt-left"><span class="mt-cd mono" data-cd>{{ t.ends | shortDate }}</span><span class="mt-bar"><i></i></span></span>
+</a></li>{% endfor %}</ol>
+</section>
+<script>(function(){var W=14*864e5,MAX=6;function fmt(ms){var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);return d>0?d+'d '+h+'h left':h>0?h+'h '+m+'m left':m+'m left'}
+function tick(){var now=Date.now(),shown=0;document.querySelectorAll('.mc-timers .mt-it').forEach(function(li){var ms=Date.parse(li.dataset.end)-now;if(ms<=0||shown>=MAX){li.hidden=true;return}shown++;li.hidden=false;li.querySelector('[data-cd]').textContent=fmt(ms);li.querySelector('.mt-bar i').style.width=Math.max(4,Math.min(100,ms/W*100))+'%';li.classList.toggle('mt-urgent',ms<864e5)});var s=document.querySelector('.mc-timers');if(s)s.hidden=shown===0}
+tick();setInterval(tick,30000)})()</script>
