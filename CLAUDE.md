@@ -80,6 +80,14 @@ The full text is in `docs/editorial-standard.md`, with the operational amendment
 - **Originality gate (Daniel and Mira, 2026-11-25):** a fact check doesn't prove originality. Before publishing a Tier 2 or 3 piece, download its non-official source pages and run `python3 lib/originality.py <folder> <article.md>`. Any shared 10-word run, or more than 15 shared 6-word runs with one source, gets rewritten. Matches on official game text (ability or set descriptions) are judged by eye. Specialist analysis is credited by name in the text when an article relies on it.
 - **Completeness safeguard (batch 02):** character recommendations must cover the established alternative teams and archetypes, not just the current banner's headline pairing. Any original team proposal needs an explicit mechanical justification.
 
+## Review efficiency (Daniel and Mira, 2026-11-25)
+Full rules: `docs/editorial-standard-amendments.md` section 10. In short:
+- Mira runs `lib/stylecheck.py` before delivery (the file is standalone: send her the current copy whenever it changes); packages arrive with 0 errors. `check.js` runs the same file and warns on filler, steering frames, "Step N:" subheads and "X, not Y" habits.
+- Evidence files carry a URL plus a short excerpt or locator for every critical claim, so review is reading, not re-research.
+- Fresh-agent review for Tier 3 and for Tier 2 with numbers or recommendations. Routine Tier 2 how-to and hardware guides are checked by Claude directly against the evidence, re-opening the source for each critical claim.
+- Reviews check the claims in the package. New sections or brands are added only when leaving them out would mislead; other gaps go to Mira or the `review_by` pass.
+- Mira proposes one official image per article (no photographed people, including people on product-shot screens).
+
 ## Builds directory metadata (2026-11-25)
 `/hub/builds.html` is generated from each build's own front matter; there is no separate dataset. Every `hub_type: builds` page sets `character`, `build_meta` (game-specific labels taken from the article's verified text, e.g. element / weapon / role for Genshin, path / combat type / role for HSR), `game_version`, and, only when the official wish notice confirms it, `banner_ends` (UTC, the earliest server's end) and `banner_name`. The game filter appears with builds for 2+ games; a game's own hub (`/hub/builds/<game>.html`) appears with 2+ games and 5+ builds for that game. The featured banner strip only shows when it is a subset of the directory.
 

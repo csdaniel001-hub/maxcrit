@@ -133,3 +133,36 @@ Rules:
 - Non-critical claims that remain ACCESS BLOCKED may stay only if an independent reputable source supports them; otherwise they are cut.
 - Article verdicts: PASS (no unresolved critical claims), REVISION REQUIRED (fixable claims listed), BLOCKED (only when a critical claim is CONTRADICTED or the article's core cannot be verified by any method).
 - Mira includes portable source evidence (excerpts, screenshots, archive links) in packages wherever available.
+
+## 10. Review efficiency (Daniel and Mira, 2026-11-25)
+
+Goal: faster publication with the same accuracy on consequential claims. Effort goes where an error would hurt a reader.
+
+### 10.1 Pre-flight style check (Mira, before delivery)
+- Run `python3 stylecheck.py articles/` (the same file as `lib/stylecheck.py`; standard library only) on every package.
+- Deliver with 0 ERROR lines. WARN lines are fixed, or kept only where the sentence really needs the construction.
+- `check.js` runs the same file on every build, so the rules cannot drift between Mira and Claude.
+
+### 10.2 Evidence that can be read, not re-researched
+For each critical claim (dates, costs, rewards, mechanics, device support, charger or setting requirements, safety advice, recommendations), the evidence file gives the source URL and a short excerpt (under 15 words) or a precise locator such as a section name or table row. With that, review is reading. Without it, the claim gets re-researched.
+
+### 10.3 Review depth by risk
+| Package | Who reviews | Method |
+|---|---|---|
+| Tier 3 (builds, pull guides, tier lists, meta) | Fresh agent, adversarial | Independent search, completeness check, failed-claims report (unchanged) |
+| Tier 2 with numbers, rewards maths or recommendations | Fresh agent | Claim check against sources; completeness only for the recommendation itself |
+| Routine Tier 2 (setup, how-to, hardware and troubleshooting guides) | Claude directly | Read the evidence, re-open the source for every critical claim, spot-check the rest. No fresh agent unless something fails or the evidence is missing |
+| Tier 1, codes, routine events | Claude | Unchanged |
+
+Rigour does not drop for consequential claims: every critical claim still ends VERIFIED or a VERIFIED-premise INTERPRETATION (section 9).
+
+### 10.4 Scope of a review
+- A review checks the claims in the package. It does not research new sections, brands, characters or features.
+- A gap is added during review only when leaving it out would mislead the reader or make a recommendation unsafe or wrong (for example a missing established team in a build). Other gaps go to Mira as a note or into the `review_by` maintenance pass.
+- One retrieval per source: if Mira's excerpt and URL match the live page, the claim is done.
+
+### 10.5 Images in the package
+Mira proposes one official image per article: URL, rights holder, source page, at least 1000 px wide, no photographed people (including people shown on a device screen in product shots). Claude still makes the final call, and the image stays `candidate` until Daniel approves it.
+
+### 10.6 Agent hygiene
+Review agents get a claims-only brief with the evidence file attached, a tool budget, and no open-ended completeness hunting. WebFetch permission for agents is set ahead of time so no agent stalls on a prompt.
