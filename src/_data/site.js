@@ -41,5 +41,5 @@ export default {
     analytics: { name: "Google Analytics 4", purpose: "see which pages are read and how people find the site", privacy: "https://policies.google.com/privacy" },
     ads: null,
   },
-  email: "editors@maxcrit.com",
+  email: "info@maxcrit.com",
 };
