@@ -16,6 +16,7 @@ const slugify = (t) => String(t).toLowerCase().normalize("NFD").replace(/[̀-ͯ]
 export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml,yaml", (contents) => yaml.load(contents));
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
   // One stylesheet per page: joined, unused rules removed, minified (lib/build/css.js)
   eleventyConfig.on("eleventy.after", async ({ dir }) => {
     const made = await buildImages(dir.output);

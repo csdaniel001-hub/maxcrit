@@ -65,11 +65,34 @@ bodyClass: hz-home
 {# Player Hub, one column per hub type that has pages #}
 {% set hubIcons = {'patch-trackers': 'el-p49.webp', 'guides': 'el-p46.webp', 'banners': 'cards2.webp', 'codes': 'cards2.webp', 'tier-lists': 'el-p05.webp'} %}
 {% if collections.hub.length %}<div class="mc-sec">
-<section class="hz-panel hz-dark mx-hub nx-hub" aria-labelledby="h-hub"><div class="hz-in">
-<header class="hz-ph kx-has-peek"><img class="kx-peek kp-blossom" src="{{ '/assets/img/chars/blossom-kitsune.webp' | rel }}" alt="" width="{{ chars['blossom-kitsune'][0] }}" height="{{ chars['blossom-kitsune'][1] }}" aria-hidden="true" loading="lazy"><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link mc-ph-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
-<div class="nx-hubgrid">{% for h in hubTypes %}{% set hp = collections.hub | byHubType(h.slug) %}{% if hp.length %}<div class="nx-hubcol"><header><img src="{{ ui(hubIcons[h.slug] or 'el-p05.webp') }}" alt="" width="40" height="40" loading="lazy"><h3>{{ h.name }}</h3><a class="hz-link" href="{{ ('/hub/' + h.slug + '.html') | rel }}">All {{ arr() }}</a></header>{% for n in hp | limit(3) %}<a class="hz-rel" href="{{ n.url | rel }}"><span class="hz-rt"><b>{{ n.data.title }}</b></span>{{ arr() }}</a>{% endfor %}</div>{% endif %}{% endfor %}</div>
-</div></section>
+<section class="ph-hub" aria-labelledby="h-hub">
+<header class="hz-sh kx-has-peek"><img class="kx-peek kp-blossom" src="{{ '/assets/img/chars/blossom-kitsune.webp' | rel }}" alt="" width="{{ chars['blossom-kitsune'][0] }}" height="{{ chars['blossom-kitsune'][1] }}" aria-hidden="true" loading="lazy"><h2 id="h-hub">Player Hub</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/hub.html' | rel }}">All hub pages {{ arr() }}</a></header>
+<div class="ph-grid">{% for h in hubTypes %}{% set hp = collections.hub | byHubType(h.slug) %}{% if hp.length %}{% set top = hp[0] %}<div class="ph-card nf"><div class="nf-in">
+<a class="ph-top" href="{{ ('/hub/' + h.slug + '.html') | rel }}">{% set hart = {'patch-trackers': ['fire', '45% 25%'], 'banners': ['lineup', '50% 20%'], 'codes': ['party', '50% 30%'], 'guides': ['dragon', '35% 20%'], 'events': ['ice', '62% 30%'], 'tier-lists': ['bird', '55% 35%']}[h.slug] %}{% if hart %}<img src="{{ ('/assets/img/kit/hdr-' + hart[0] + '.webp') | rel }}" alt="" width="1400" height="784" style="object-position:{{ hart[1] }}" loading="lazy" decoding="async">{% else %}<img src="{{ top.data.image | wsrc(480) | rel }}" alt="" width="480" height="270" style="object-position:{{ top.data.image_pos or '50% 50%' }}" loading="lazy" decoding="async">{% endif %}<span class="ph-name"><img class="ph-ico" src="{{ ui(hubIcons[h.slug] or 'el-p05.webp') }}" alt="" width="40" height="40" loading="lazy"><b>{{ h.name }}</b><small>{{ hp.length }} page{% if hp.length != 1 %}s{% endif %}</small></span></a>
+<ul class="ph-list">{% for n in hp | limit(3) %}<li><a href="{{ n.url | rel }}"><b>{{ n.data.title }}</b>{{ arr() }}</a></li>{% endfor %}</ul>
+<a class="ph-all" href="{{ ('/hub/' + h.slug + '.html') | rel }}">All {{ h.name | lower }} {{ arr() }}</a>
+</div></div>{% endif %}{% endfor %}<a class="ph-cta nf" href="{{ '/hub.html' | rel }}"><span class="nf-in"><img src="{{ '/assets/img/kit/hdr-trio.webp' | rel }}" alt="" width="1400" height="784" loading="lazy" decoding="async"><span class="ph-cta-tx"><small>Player Hub</small><b>Every tracker, code list and guide</b><em>Browse all hub pages {{ arr() }}</em></span></span></a></div>
+</section>
 </div>{% endif %}
+
+{# Genre sections: a framed panel per genre with a lead story and a list (no card grids). Small genres share "More genres". #}
+{% set gbig = [] %}{% set gsmall = [] %}
+{% for g in genreNav %}{% set fi = all | byGenre(g.slug) %}{% if fi.length >= 4 %}{% set gbig = (gbig.push({g: g, items: fi}), gbig) %}{% elif fi.length %}{% set gsmall = (gsmall.push({g: g, items: fi}), gsmall) %}{% endif %}{% endfor %}
+{% for e in gbig %}{% set g = e.g %}{% set f = e.items[0] %}
+<section class="mc-sec gs" aria-labelledby="h-g-{{ g.slug }}">
+<header class="hz-sh"><h2 id="h-g-{{ g.slug }}">{{ g.name }}</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ ('/genre/' + g.slug + '.html') | rel }}">All {{ g.name }} {{ arr() }}</a></header>
+<div class="gs-box nf"><div class="nf-in gs-in{% if loop.index0 % 2 %} flip{% endif %}">
+<a class="gs-lead" href="{{ f.url | rel }}"><span class="gs-pic">{{ pic(f.data.image, 960, '', true, f.data.image_pos or '50% 50%') }}<i class="hz-chip">{{ kick(f) }}</i></span><b>{{ f.data.title }}</b><span class="gs-d">{{ f.data.summary }}</span></a>
+<ul class="gs-list">{% for n in e.items | limit(5) %}{% if not loop.first %}<li><a href="{{ n.url | rel }}"><span class="gs-th">{{ pic(n.data.image, 480, '', true, n.data.image_pos or '50% 50%') }}</span><span class="gs-tx"><b>{{ n.data.title }}</b><small>{% if n.data.titles and n.data.titles.length %}{{ games[n.data.titles[0]].name }}{% else %}{{ kick(n) }}{% endif %} · {{ (n.data.updated_at or n.data.published_at) | shortDate }}</small></span></a></li>{% endif %}{% endfor %}</ul>
+</div></div>
+</section>
+{% endfor %}
+{% if gsmall.length %}
+<section class="mc-sec gs" aria-labelledby="h-g-more">
+<header class="hz-sh"><h2 id="h-g-more">More genres</h2><i aria-hidden="true">//</i><a class="hz-link" href="{{ '/news.html' | rel }}">All news {{ arr() }}</a></header>
+<div class="gs-box nf"><div class="nf-in gs-more">{% for e in gsmall %}<div class="gs-col"><a class="gs-colh" href="{{ ('/genre/' + e.g.slug + '.html') | rel }}"><img src="{{ ('/assets/img/micons/' + e.g.slug + '.webp') | rel }}" alt="" width="34" height="34" loading="lazy"><b>{{ e.g.name }}</b>{{ arr() }}</a>{% for n in e.items | limit(3) %}<a class="gs-row" href="{{ n.url | rel }}">{{ n.data.title }}</a>{% endfor %}</div>{% endfor %}</div></div>
+</section>
+{% endif %}
 
 {# Game spotlights: the two most-covered games #}
 {% for r in rank | limit(2) %}{% set sp = all | soloByGame(r.slug) %}

@@ -17,6 +17,7 @@ bodyClass: gz-art
 <nav class="axh-tab" aria-label="Breadcrumb"><span class="axh-tin"><a class="axh-home mono" href="{{ ('/hub.html' if isHub else '/news.html') | rel }}">{{ 'Hub' if isHub else 'News' }}</a>{% if isHub %}<a class="cc-tab" href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% endif %}{% if gn %}<a class="cc-tab" href="{{ ('/genre/' + gn.slug + '.html') | rel }}">{{ gn.name }}</a>{% endif %}{% if tn %}<a class="cc-tab axh-t2" href="{{ ('/' + tn.slug + '.html') | rel }}">{{ tn.name }}</a>{% endif %}</span></nav>
 <div class="axh-panel"><div class="axh-in">
 <div class="axh-l">
+<p class="axh-tags">{% if isHub %}<a class="cc-tab" href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% endif %}{% if gn %}<a class="cc-tab" href="{{ ('/genre/' + gn.slug + '.html') | rel }}">{{ gn.name }}</a>{% endif %}{% if tn %}<a class="cc-tab" href="{{ ('/' + tn.slug + '.html') | rel }}">{{ tn.name }}</a>{% endif %}</p>
 <h1 class="axh-t">{{ title }}</h1>
 <p class="axh-s">{{ summary }}</p>
 <div class="axh-row">

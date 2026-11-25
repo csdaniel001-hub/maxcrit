@@ -9,6 +9,7 @@ summary: The latest mobile gaming news, newest first. Updates, betas, launches a
 {% from "macros.njk" import allrow, arr, kick, listrail with context %}
 {% set all = collections.news %}
 <header class="gz-phead lr-head">
+{%- set hk = "ice" -%}{%- set hp = {"castle":"50% 30%","trio":"55% 25%","ice":"62% 30%","fire":"45% 30%"} -%}<span class="ph-art" aria-hidden="true"><img src="{{ ('/assets/img/kit/hdr-' + hk + '.webp') | rel }}" alt="" width="1400" height="784" style="object-position:{{ hp[hk] }}" decoding="async"></span>
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / News</p>
 <h1>Latest news</h1>
 <p class="gz-phead-d">Updates, launches, betas and balance changes for the iOS and Android games people play, newest first.</p>
