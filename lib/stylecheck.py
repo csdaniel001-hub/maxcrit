@@ -186,12 +186,16 @@ def check_file(path):
     if sm and not 120 <= len(sm) <= 160:
         add("ERROR", f"summary is {len(sm)} characters (120-160)")
     h2 = len(re.findall(r"^## ", body, re.M))
-    if not short:
+    words = prose_words(body, fm.get("hub_type"))
+    # News under 500 words: TL;DR and subheads optional (Daniel, 2026-11-25)
+    brief = short or (not is_hub and words < 500)
+    if not brief:
         if h2 < 2:
             add("ERROR", f"needs at least 2 H2 subheadings (has {h2})")
         if not 2 <= len(tldr) <= 5:
             add("ERROR", f"tldr needs 2-5 points (has {len(tldr)})")
-    words = prose_words(body, fm.get("hub_type"))
+    elif tldr and not 2 <= len(tldr) <= 5:
+        add("ERROR", f"tldr needs 2-5 points when used (has {len(tldr)})")
     if is_hub:
         floor = 200 if fm.get("hub_type") in ("patch-trackers", "events", "banners") else 250
     else:

@@ -23,7 +23,7 @@ Built with Eleventy 3 on the latest Geekzone design (`gz.css`, the "magazin-szer
 
 ## 3. Article standard
 - Length follows the facts. News: 300–1100 words of prose (tables don't count). `type: short` news: from 150 words, no subheads or TL;DR needed. Hub pages: from 250 words plus their tables.
-- Non-short pieces need 2+ H2 subheads and a 2–5 point `tldr`.
+- Hub pages and news of 500+ words need 2+ H2 subheads and a 2–5 point `tldr`. News under 500 words may skip both (Daniel, 2026-11-25): its first two sentences must carry the key facts (what changed, for which game, when). Tables in news only for schedules, server times, numbers and codes. Voice and desk styles: `docs/voice-guide.md`.
 - Write for a player deciding something: what changed, what it means for them, what to do. Cut anything that only restates the press release's adjectives.
 - House style: no em dashes, no stock phrases (list in `check.js`), plain verbs, numbers as numerals.
 - **Avoid the typical AI tells** (Daniel, 2026-11-23):
