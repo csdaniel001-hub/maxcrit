@@ -4,6 +4,8 @@ seo_title: "Genshin Impact Zibai build: weapons and teams"
 summary: "How to build Zibai in Genshin Impact: DEF stats, Lightbearing Moonshard and other swords, Night of the Sky's Unveiling, and Lunar-Crystallize teams."
 keyword: "Genshin Impact Zibai build"
 hub_type: builds
+tier: 3
+review_by: '2026-12-15'
 published_at: '2026-11-25T10:45:00Z'
 genres:
 - rpg

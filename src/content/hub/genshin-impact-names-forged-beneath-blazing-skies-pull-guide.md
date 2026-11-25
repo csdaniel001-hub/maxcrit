@@ -4,6 +4,8 @@ seo_title: "Genshin Impact 7.2 Phase II: who to pull"
 summary: "Who to pull in Genshin Impact 7.2 Phase II: Zibai, Linnea or one of five Natlan characters in the Names Forged Beneath Blazing Skies Chronicled Wish."
 keyword: "Genshin Impact 7.2 Phase II who to pull"
 hub_type: guides
+tier: 3
+review_by: '2026-12-15'
 published_at: '2026-11-25T10:30:00Z'
 genres:
 - rpg

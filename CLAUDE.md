@@ -54,3 +54,17 @@ Articles without `image` are dropped from the build automatically. Order of pref
 
 ## Redeem-code pages (Daniel, 2026-11-24)
 Codes pages (`hub_type: codes`) may use public code trackers as sources; no official primary source is required. Every codes page must say near the top that some codes may already be deactivated, used up or region-locked. Images still have to be official. Unconfirmed or disputed codes are left out, and a game with no reported active code gets no page.
+
+## Editorial standard (Daniel, 2026-11-25)
+The full text is in `docs/editorial-standard.md`, with the operational amendments in `docs/editorial-standard-amendments.md`. The amendments win where they differ. In short:
+- **Priorities:** accuracy, then original value, then usefulness to players, then expertise, writing, SEO/GEO, and speed last. Every article must give the reader something the announcement alone doesn't: practical consequences, comparisons, normalised dates, a decision they can make.
+- **Information types:** keep confirmed facts, calculated findings, editorial interpretation and unverified claims visibly apart. Never present one as another.
+- **Tiers:**
+  - Tier 1, news: research, official sources, practical context, a fact review and `check.js`.
+  - Tier 2, analysis (patch impact, event guides): adds historical context, original analysis and an independent review where possible.
+  - Tier 3, authority content (builds, banner/pull guides, tier lists, meta): source triangulation, an adversarial fact check by a fresh agent, Daniel's approval, `tier: 3`, `review_by` and a verification record in `verification/<slug>.md`. `check.js` enforces this, and builds are Tier 3 automatically.
+- **Gates are pass/fail, not scores.** Consequential claims must be traceable, numbers sourced or reproducible, and names, versions and dates exact. Unsupported claims, fabricated testing, plagiarism or close paraphrase, and false certainty block publication.
+- **Numbers:** reward, currency, cost and patch-difference maths is encouraged, with the method shown in the verification record. Damage or DPS figures only with validated formulas and documented assumptions, never as measured results.
+- **Length:** no minimums beyond the `check.js` floors. When something can't be verified, narrow the scope or set an update trigger. The 2026-11-24 rule still applies to article text, so no "the source doesn't say" sentences. Record the omission in the verification record instead, unless leaving it out would mislead the reader.
+- **Maintenance:** event triggers (banner end, patch, rework) and `review_by` dates. `check.js` warns when a review is due. Keep URLs, and only update dates for substantive changes.
+- **Originality:** competitor pages are for spotting gaps, never for paraphrasing. Write in our own structure and words, and credit specialist analysis by name.
