@@ -6,7 +6,7 @@ keyword: Genshin Impact Kinich build
 hub_type: builds
 tier: 3
 review_by: '2026-12-15'
-published_at: '2026-11-25T00:00:00Z'
+published_at: '2026-11-25T11:27:00Z'
 genres:
 - rpg
 platforms:
