@@ -32,7 +32,7 @@ bodyClass: gz-art
 </header>
 <div class="gz-agrid">
 <div class="gz-abody">
-{% if tldr %}<div class="gz-tldr"><h2>The short version</h2><ul>{% for t in tldr %}<li>{{ t | safe }}</li>{% endfor %}</ul></div>{% endif %}
+{% if tldr %}<div class="gz-tldr"><h2>Key points</h2><ul>{% for t in tldr %}<li>{{ t | safe }}</li>{% endfor %}</ul></div>{% endif %}
 <div class="gz-prose">{{ body | safe }}</div>
 {% if faq %}<section class="gz-faq" id="faq"><h2>FAQ</h2>{% for q in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | safe }}</div></details>{% endfor %}</section>{% endif %}
 <section class="gz-src" aria-labelledby="h-src"><h2 id="h-src" class="mono">Sources</h2><ol>{% for s in sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }} ↗</a><span class="mono">{% if s.primary %}primary{% else %}supporting{% endif %}</span></li>{% endfor %}</ol></section>

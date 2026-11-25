@@ -497,7 +497,7 @@ section[aria-labelledby="h-hub"] .hz-in{background:linear-gradient(135deg,#142a6
 .mx-hub .hz-in{padding-right:230px!important}
 @media (max-width:900px){.mx-hub .hz-in{padding-right:20px!important}}
 
-/* "The short version" box: navy with pink label and cyan bullets, in every mode */
+/* "Key points" box: navy with pink label and cyan bullets, in every mode */
 .gz-tldr{background:linear-gradient(160deg,#101a4a,#0a1236)!important;border:1.5px solid rgba(53,224,240,.45);border-radius:14px;clip-path:none!important;color:#eef1ff!important}
 .gz-tldr *{color:#eef1ff}.gz-tldr h2,.gz-tldr .mono,.gz-tldr > :first-child{color:#ff5fb0!important}
 .gz-tldr li::marker{color:#35e0f0}.gz-tldr li::before{background:#35e0f0!important}
