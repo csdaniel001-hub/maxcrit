@@ -7,10 +7,10 @@ title: Games A–Z
 seo_title: "Mobile games A–Z: news, patches and guides by game"
 summary: Every mobile game we cover, with its news, patch trackers and guides in one place. Filter by genre, platform or gacha, and find the official store links.
 ---
-{% from "macros.njk" import arr with context %}
+{% from "macros.njk" import arr, phart with context %}
 {% set all = collections.everything %}
 {% set gl = [] %}{% for slug, g in games %}{% if (all | byGame(slug)).length %}{% set gl = (gl.push(slug), gl) %}{% endif %}{% endfor %}
-<header class="gz-phead lr-head kx-has-peek"><img class="kp-hood" src="{{ '/assets/img/chars/cat-hood-gamer.webp' | rel }}" alt="" width="{{ chars['cat-hood-gamer'][0] }}" height="{{ chars['cat-hood-gamer'][1] }}" aria-hidden="true">
+<header class="gz-phead lr-head kx-has-peek">{{ phart("Games A-Z!", "") }}<img class="kp-hood" src="{{ '/assets/img/chars/cat-hood-gamer.webp' | rel }}" alt="" width="{{ chars['cat-hood-gamer'][0] }}" height="{{ chars['cat-hood-gamer'][1] }}" aria-hidden="true">
 <p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / Games</p>
 <h1>Games A–Z</h1>
 <p class="gz-phead-d">Every game we cover, with all of its news and hub pages on one page, plus links to its store listings.</p>

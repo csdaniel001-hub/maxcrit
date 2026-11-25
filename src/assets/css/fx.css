@@ -188,3 +188,15 @@ html[data-gz] body .axh .axh-ib{border-color:rgba(201,211,245,.45)!important;bac
 html[data-gz] body .axh .axh-ib:hover{border-color:#5fe6f2!important;box-shadow:0 0 12px rgba(95,230,242,.35)!important}
 html[data-gz] body .axh .axh-date{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#fff;white-space:nowrap}
 html[data-gz] body .axh .axh-home{margin-right:6px}
+html[data-gz] body .gz-phead .kp-hood{display:none!important}
+html[data-gz] body .gz-phead.kx-has-peek{min-height:0!important}
+@media (min-width:701px){html[data-gz] body .ga-filters{margin:0 16px 0 32px!important;max-width:none!important}html[data-gz] body .ga-grid{padding:0 16px 0 32px!important;max-width:none!important;margin:0!important;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))!important}}
+/* Top bar: slowly scrolling game icons */
+html[data-gz] body .gz-hot.kx-apps{padding:0!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 48px,#000 calc(100% - 48px),transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 48px,#000 calc(100% - 48px),transparent 100%)!important}
+.hot-track{display:flex;align-items:center;gap:6px;width:max-content;animation:hotScroll var(--hot-dur,60s) linear infinite;will-change:transform}
+.gz-hot:hover .hot-track,.gz-hot:focus-within .hot-track{animation-play-state:paused}
+.hot-track a{transition:transform .2s ease!important}
+.hot-track a:hover img{transform:scale(1.12);filter:drop-shadow(0 0 8px rgba(53,214,236,.6))}
+.hot-track img{transition:transform .2s ease,filter .2s ease}
+@keyframes hotScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.hot-track{animation:none}}

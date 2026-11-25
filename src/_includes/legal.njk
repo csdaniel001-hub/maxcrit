@@ -2,7 +2,7 @@
 layout: base.njk
 bodyClass: gz-art lg-page
 ---
-<header class="gz-phead lr-head"><p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / {{ title }}</p><h1>{{ title }}</h1></header>
+{% from "macros.njk" import phart with context %}<header class="gz-phead lr-head">{{ phart(title, "") }}<p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / {{ title }}</p><h1>{{ title }}</h1></header>
 <div class="lr-grid lg-grid">
 <article class="gz-abody lg-body"><div class="gz-prose">{{ content | safe }}</div></article>
 <aside class="lr-side lg-side" aria-label="Site information"><div class="cc-f nf"><div class="nf-in"><header class="cc-h"><h2 class="s">Site information</h2></header>

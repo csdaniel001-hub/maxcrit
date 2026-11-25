@@ -4,7 +4,7 @@ permalink: /search.html
 title: Search
 noindex: true
 ---
-<header class="gz-phead"><p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / Search</p><h1>Search</h1><form class="gz-search" action="" role="search" style="margin-top:14px;max-width:560px"><label><span class="gz-sr">Search</span><input type="search" id="q" name="q" placeholder="Game, patch, guide…" autocomplete="off"></label></form></header>
+{% from "macros.njk" import phart with context %}<header class="gz-phead">{{ phart("Search", "") }}<p class="gz-crumbs mono"><a href="{{ '/index.html' | rel }}">Home</a> / Search</p><h1>Search</h1><form class="gz-search" action="" role="search" style="margin-top:14px;max-width:560px"><label><span class="gz-sr">Search</span><input type="search" id="q" name="q" placeholder="Game, patch, guide…" autocomplete="off"></label></form></header>
 <p class="mono" id="sCount" style="margin:14px 0;font-size:11px;color:var(--mut)"></p>
 {% from "macros.njk" import moment with context %}<div id="sNone" hidden>{{ moment('moon-fox', true, 'No matches', 'Try a game name, a patch number or a shorter word.', [['Browse all news','/news.html'],['Games A–Z','/games.html']]) }}</div>
 <ol class="hz-all" id="sRes" style="list-style:none;padding:0"></ol>
