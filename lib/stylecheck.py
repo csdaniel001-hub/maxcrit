@@ -193,6 +193,19 @@ def check_file(path):
         add("ERROR", f"{words} words of prose, minimum {floor} (tables do not count)")
     if not is_hub and not short and words > 1100:
         add("ERROR", f"{words} words of prose, news maximum is 1100")
+    if fm.get("hub_type") == "builds":
+        # Build completeness spec (docs/build-page-spec.md): same rule as lib/check.js
+        heads = "\n".join(re.findall(r"^## .*$", body, re.M)).lower()
+        need = {"kit overview": r"how .* (plays|works|deals|fights|supports|heals)|kit|playstyle|what .* does", "stats": r"stat",
+                "weapons": r"weapon|light cone|w-engine|rectifier|bow|claymore|catalyst|sword|polearm", "sets": r"artifact|relic|echo|drive disc|ornament",
+                "teams": r"team", "rotation": r"rotation|how to play|gameplay|turn order", "skill priority": r"talent|trace|forte|skill",
+                "duplicates": r"constellation|eidolon|sequence|resonance chain|mindscape", "materials": r"material|ascension|farm"}
+        omit = [str(x).lower() for x in (fm.get("spec_omit") or [])]
+        miss = [k for k, rx in need.items() if not re.search(rx, heads) and k not in omit]
+        if miss:
+            add("ERROR", "build missing spec sections (H2 headings): " + ", ".join(miss) + " (or declare spec_omit with a reason in the verification record)")
+        if words < 700:
+            add("ERROR", f"build has {words} words of prose (spec target 900+, floor 700)")
     tier = str(fm.get("tier") or "")
     if tier in ("2", "3") and not fm.get("review_by"):
         add("WARN", f"tier {tier} piece without review_by")
