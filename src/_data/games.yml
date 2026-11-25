@@ -583,3 +583,10 @@ starsavior:
   appstore: "https://apps.apple.com/us/app/starsavior/id6443597557"
   googleplay: "https://play.google.com/store/apps/details?id=com.studiobside.starMain"
   status: "Live"
+sky-children-of-the-light:
+  name: "Sky: Children of the Light"
+  publisher: "thatgamecompany"
+  official: "https://www.thatskygame.com/"
+  appstore: "https://apps.apple.com/us/app/sky-children-of-the-light/id1462117269"
+  googleplay: "https://play.google.com/store/apps/details?id=com.tgc.sky.android"
+  status: "Live"

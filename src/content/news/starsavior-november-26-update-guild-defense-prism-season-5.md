@@ -3,7 +3,7 @@ title: StarSavior's November 26 update opens Guild Defense Prism Season 5 agains
 seo_title: StarSavior November 26 update and Guild Defense S5
 summary: StarSavior's November 26 maintenance adds Guild Defense Prism Season 5, Lydia in more Observation pools, Black Friday packs and 100 Stellagems back.
 keyword: StarSavior update
-published_at: '2026-11-25T12:30:00Z'
+published_at: '2026-11-25T12:17:00Z'
 type: short
 genres:
 - rpg
