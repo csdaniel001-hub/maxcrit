@@ -1,7 +1,7 @@
 # genshin-impact-names-forged-beneath-blazing-skies-pull-guide
 Tier: 3
 Game version: 7.2 (Phase II)
-Last verified: 2026-11-25
+Last verified: 2026-11-25 (budgeting section added the same day, written by Mira, reviewed by Claude: verification/reviews/genshin-impact-72-phase-2-wish-budget-r1.md)
 Review: 2026-12-15 (all three wishes end); unpublish or rewrite as an archive note after that
 
 ## Claims and sources
@@ -18,8 +18,11 @@ Review: 2026-12-15 (all three wishes end); unpublish or rewrite as an archive no
 | Chasca shells convert per Pyro/Hydro/Electro/Cryo teammate | KQM Chasca quick guide |
 | Kinich Burning (Emilie) or Burgeon | KQM Kinich quick guide |
 | Xilonen weapons Favonius Sword, Flute of Ezpitzal | KQM Xilonen quick guide |
+| Budgeting section (merged from Mira's pilot-01 r2): Peak Patrol Song is on the Chronicled Wish; Epitome Invocation max 80 with 1 Fate Point | 7.2 Phase II notice; official Capturing Radiance Q&A (125274) |
 
 ## Calculations
+- Budgeting section: Chronicled weapon target 2 x 90 = 180; Epitome selected weapon 2 x 80 = 160; Xilonen then Peak Patrol Song on separate fresh paths 180 + 180 = 360.
+- 120-wish table: (90 - 60) + 90 = 120 (reserve 0); 90 - 60 = 30 (reserve 90); 90 - 0 = 90 (reserve 30); 180 (60 short).
 - Worst case on a chosen 5-star: 2 x 90 = 180 wishes; 180 x 160 Primogems = 28,800.
 - UTC conversions above.
 

@@ -74,3 +74,6 @@ The full text is in `docs/editorial-standard.md`, with the operational amendment
   - Decision-relevant uncertainty is stated in the article, in plain terms of what it means for the player (for example "on the Chronicled Wish, if you can't reach the next 5-star before December 15, the Fate Point is lost"; always name the specific wish system). Only "the source doesn't say" filler stays banned.
   - `published_at` is set by Claude at actual publication.
   - Failed-claims reports are kept in `verification/reviews/<slug>-r<n>.md` so recurring weaknesses can be tracked.
+- **Safeguards from pilot 01 (Mira and Claude, 2026-11-25):**
+  - A numerical recommendation must keep the assumptions of its method, above all when they interact with the recommended build (for example, energy figures calculated without a set that the article recommends).
+  - Team recommendations are judged as a complete mechanical system: element interactions, auras and every slot. Individual character compatibility isn't enough.

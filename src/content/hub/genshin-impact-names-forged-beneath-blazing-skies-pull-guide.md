@@ -28,6 +28,8 @@ sources:
   primary: true
 - title: "Genshin Impact official Chronicled Wish rules and FAQ"
   url: https://genshin.hoyoverse.com/en/news/detail/122695
+- title: "Genshin Impact official Capturing Radiance Q&A (Epitome Invocation Fate Points)"
+  url: https://genshin.hoyoverse.com/en/news/detail/125274
 - title: "KQM Xilonen quick guide"
   url: https://keqingmains.com/q/xilonen-quickguide/
 - title: "KQM Zibai quick guide"
@@ -90,6 +92,21 @@ The four DPS options each need a specific team around them. Pick the one whose s
 - **Pity carries over to the next Chronicled Wish, but Fate Points don't.** They reset to 0 when this wish ends on December 15, and changing your target also resets them.
 
 That last point matters most. If you lose the 50/50 and can't reach the next 5-star before December 15, the guarantee is gone. Only start the Chronicled Wish if you can afford the worst case, or are fine walking away with whichever 5-star you get first.
+
+## Budgeting the phase
+
+Peak Patrol Song is in Chronicled Wish during Phase II, so obtaining it can cost up to 180 wishes from zero pity with no Fate Point, rather than the 160-wish maximum for a selected Epitome Invocation weapon. Obtaining Xilonen and then her sword on separate fresh Chronicled paths can require up to 360 wishes combined. Early drops reduce these ceilings.
+
+For a player with 120 wishes saved, the amount available after guaranteeing Zibai or Linnea depends on Character Event Wish pity and the featured-character guarantee.
+
+| Character pity | Featured guarantee | Maximum wishes still needed | Reserve from 120 wishes |
+|---:|---|---:|---:|
+| 60 | No | 120 | 0 |
+| 60 | Yes | 30 | 90 |
+| 0 | Yes | 90 | 30 |
+| 0 | No | 180 | 0 (60 short) |
+
+The reserve is the amount left after allowing for the worst case. Ordinary character pity cannot be transferred to Chronicled Wish or Epitome Invocation. With 60 character pity and no guarantee, the full 120 wishes can guarantee the chosen featured character, but a fresh Chronicled target or selected Epitome weapon may require more than that budget.
 
 ## Characters or weapons?
 
