@@ -1,0 +1,7 @@
+# Revision 2 verification: brawl-stars-ranked-progression-draft-guide
+
+Date: 2026-11-25. Publication timestamp and images are assigned by Claude. Independent round 2 review and repository/originality checks pending. No live gameplay tests were performed.
+
+S01 official release notes opened directly by Mira (Nov 25) and Claude (r1). C01 confirmed: entry requirements, lines 59–74. C02 confirmed: draft features, lines 83–102. C03 confirmed: Elo/reset, lines 75–82. C04 confirmed: Battle Log and Play Again, lines 109–127. C05 confirmed: Pro Pass and BSC, lines 139–148. C06 confirmed: Lou and Berry changes, lines 45, 53; role descriptions supported by Claude's read of Buffies sections. C07 interpretation: roster investment, role requests and post-match review method.
+
+Support portal intro-to-ranked and whats-new-10 returned cache misses in this session; indexed results are corroborative leads only, not treated as read sources. #1 removed 6+6 scenario and rotation assertion; #2 replaced Piper/Barley/Shelly with verified Lou/Berry; #3 narrowed to Tier 2 rules and editorial application rather than Tier 3 meta authority; #4 early swap; #5 official Elo labels, higher gains, unchanged boost; #6 Pro Pass reward scope; #7 Shelly removed; #8 grandfathered access; #9 Play Again; #10 shooter genre, publisher image and actual timestamp by Claude. Review when Ranked requirements change or next season starts.

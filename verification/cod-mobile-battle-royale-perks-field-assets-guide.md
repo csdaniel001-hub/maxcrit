@@ -1,0 +1,7 @@
+# Revision 2 verification: cod-mobile-battle-royale-perks-field-assets-guide
+
+Date: 2026-11-25. Publication timestamp and images are assigned by Claude. Independent round 2 review and repository/originality checks pending. No live gameplay tests were performed.
+
+S01 Activision announcement, opened directly by Mira on 2026-11-25 (sections Perks, Field Assets, Fight For Your Life in the Gulag); independently opened by Claude in r1. All effects in table from S01; recommendation column and decision examples are editorial inferences. C01 confirmed: rename and acquisition (S01 lines 76–86). C02 confirmed: all 14 effects, lines 90–117. C03 confirmed: Gulag redeployment purchase, lines 164–168. C04 interpretation: prioritize spending on redeployment and match one Perk to one problem.
+
+Review disposition #1–6: removed Signal 50 fire-mode link, shared-mark assertion, slot/price instructions, aerial asset targeting inference; added Gulag budget; narrowed article to Tier 2 patch-based guidance because one fully read official source does not satisfy Tier 3 triangulation. #7–12: recoil terminology corrected, movement tangent omitted, Slide Reload density included, official scope mechanism terminology, BR scope clarified, unnamed currency avoided. #13 image/timestamp pending implementation. No precise prices, slot counts or hotfix confirmation. Review trigger: next BR balance or equipment update. No claim that a specific loadout was tested.
