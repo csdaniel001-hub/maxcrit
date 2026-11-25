@@ -107,3 +107,29 @@ MaxCrit must never become an automated rewriting operation.
 A shorter, useful and thoroughly verified article is preferable to a longer, generic or speculative one.
 
 Operational efficiency is encouraged, but it must never become an excuse for weak research, unsupported recommendations or insufficient editorial value.
+
+## 9. Verification statuses and inaccessible sources (Daniel, 2026-11-25)
+
+Source access failures no longer reject an article automatically. Each consequential claim in a review gets one of these statuses:
+
+| Status | Meaning | What happens |
+|---|---|---|
+| VERIFIED | The reviewer inspected the evidence and it confirms the claim. | Publishable. |
+| ACCESS BLOCKED | The cited source can't be opened by the reviewer (403, bot wall, JavaScript-only page, login). | Not a rejection in itself. The claim needs an alternative verification method before it counts as VERIFIED. |
+| UNSUPPORTED | The available evidence does not establish the claim. | Correct, narrow or remove. If the claim is critical, publication waits. |
+| CONTRADICTED | Reliable evidence conflicts with the claim. | Correct or remove before publication. Always blocks if left in. |
+| INTERPRETATION | Editorial analysis built on documented factual premises. | Allowed when the premises are VERIFIED and the text presents it as analysis. |
+
+Alternative verification for ACCESS BLOCKED sources, in order of preference:
+1. Authentic excerpts of the same official page: the publisher's own mirror (Steam announcement feed, store release notes, official social post), an archived copy, or the page fetched through a real browser or GitHub Action.
+2. Screenshots or text excerpts supplied in the publication package, with URL and retrieval date.
+3. Official documentation elsewhere (help centre, patch notes, press release, press-wire copy).
+4. Independent reputable sources (specialist databases and guides allowed by section 1 of CLAUDE.md, never banned domains), preferably two that agree.
+
+Rules:
+- Request evidence per claim. Never reject a whole article only because a URL is blocked.
+- A claim stays ACCESS BLOCKED until one of the methods above confirms it; the verification record names the method used.
+- Critical claims (anything a reader acts on: dates, costs, rewards, mechanics, recommendations, safety/risk rules) must be VERIFIED, or a verified INTERPRETATION, before publication. UNSUPPORTED or CONTRADICTED critical claims are corrected or removed.
+- Non-critical claims that remain ACCESS BLOCKED may stay only if an independent reputable source supports them; otherwise they are cut.
+- Article verdicts: PASS (no unresolved critical claims), REVISION REQUIRED (fixable claims listed), BLOCKED (only when a critical claim is CONTRADICTED or the article's core cannot be verified by any method).
+- Mira includes portable source evidence (excerpts, screenshots, archive links) in packages wherever available.
