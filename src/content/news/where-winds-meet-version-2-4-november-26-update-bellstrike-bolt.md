@@ -35,23 +35,11 @@ image_alt: "Official App Store screenshot of Where Winds Meet"
 image_status: "candidate"
 ---
 
-Where Winds Meet adds a new Path on November 26, the next step in its first-anniversary Version 2.4 update. Bellstrike - Bolt pairs the Trialedge Spear (Light Spear) with the Peakwane Spear (Heavy Spear).
+Where Winds Meet's anniversary opened with the Hutuo region and a pile of free rewards. Tonight it gets a new way to fight. Bellstrike - Bolt, the Path arriving with the November 26 live update, hands you two spears that want opposite things from you: the light Trialedge Spear is for chasing enemies down, the heavy Peakwane Spear is for planting your feet and punishing whoever swings first.
 
-The two spears split the work: light to pursue, heavy to counter. Trialedge closes distance and keeps pressure on a target. Peakwane is built around a parry stance that turns a blocked hit into a chain of counterattacks.
+If you've ever lost a fight because someone kept backing out of range, Heavenfall Surge is the skill to look at: throw the spear and you flash to wherever it lands. Peakwane is the patient one. Iron Phalanx drops you into a guard, and a clean parry turns into a chain of counterattacks.
 
-## November 26 live update schedule
-
-The live update runs on November 26 from 05:00 to 10:00 (UTC+8), which is 21:00 UTC on November 25 to 02:00 UTC on November 26.
-
-| Time zone | Scheduled start | Scheduled end |
-| --- | --- | --- |
-| UTC | Nov 25, 21:00 | Nov 26, 02:00 |
-| CET | Nov 25, 22:00 | Nov 26, 03:00 |
-| UTC+8 | Nov 26, 05:00 | Nov 26, 10:00 |
-
-Players can stay logged in and keep playing, although some features and modes may be unavailable for a while. The window may end early or run long depending on server conditions.
-
-## Trialedge Spear and Peakwane Spear skills
+## How the two spears fit together
 
 | Weapon | Skill | Type | What it does |
 | --- | --- | --- | --- |
@@ -62,12 +50,22 @@ Players can stay logged in and keep playing, although some features and modes ma
 | Peakwane | Dragonheart Rush | Special Skill | Spear held behind the back, spinning forward into a charge |
 | Peakwane | Windcalm Plunder | Varied Combo | Chains after a Light Charged Skill, Special Skill or Dual-Weapon Skill |
 
-The two Varied Combos share one trigger, the Dual-Weapon Skill. That makes the weapon swap the natural pivot of the Path: open with Trialedge's gap closer and Golden Edict, swap, then let Peakwane take over when the enemy turns aggressive. Iron Phalanx is the skill to practise first, since its payoff depends on landing the parry.
+The detail that ties the Path together sits in the last column. Both Varied Combos accept the Dual-Weapon Skill as a trigger, so the weapon swap is where the two spears hand over to each other. In practice that suggests a simple loop: close in with Heavenfall Surge, knock the target back with Golden Edict, swap, and let Peakwane take over when the enemy turns aggressive.
 
-Director Yuen Woo-ping, the game's Global Action Consultant, is credited with the spear combat design, with the Yuen Clan action team performing the motion capture.
+If you only have time to drill one skill, make it Iron Phalanx. Everything else on the list works the moment you press it; the counter chain only pays off once your parry timing is there.
 
-## Which spear to try first
+The spear work comes with a serious pedigree. Director Yuen Woo-ping, the game's Global Action Consultant, designed the combat, and the Yuen Clan action team performed the motion capture.
 
-Players who already lean on parries will find Peakwane's counter chain the more familiar of the two. Players who spend fights chasing enemies across the field get the bigger change from Heavenfall Surge, which covers the distance in one throw. A first session against a familiar enemy is enough to tell which spear suits your timing.
+## When it goes live
 
-The Dual Spears are the second half of an anniversary update that opened with the Hutuo region.
+The live update runs from 21:00 UTC on November 25 to 02:00 UTC on November 26.
+
+| Time zone | Start | End |
+| --- | --- | --- |
+| UTC | Nov 25, 21:00 | Nov 26, 02:00 |
+| CET | Nov 25, 22:00 | Nov 26, 03:00 |
+| UTC+8 | Nov 26, 05:00 | Nov 26, 10:00 |
+
+You don't get kicked out: you can keep playing through it, though some features and modes may switch off for a while, and the window can finish early or run long.
+
+Parry players will feel at home with Peakwane straight away. If you spend most fights chasing people across the map, Trialedge is the bigger upgrade. One session against an enemy you know well will tell you which spear suits your timing.

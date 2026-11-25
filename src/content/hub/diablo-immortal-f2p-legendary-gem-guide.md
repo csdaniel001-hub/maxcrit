@@ -71,15 +71,15 @@ image_credit: "Blizzard Entertainment"
 image_alt: "Official App Store screenshot of Diablo Immortal"
 image_status: "candidate"
 ---
-A free-to-play Diablo Immortal account can waste months of Legendary Gem progression by putting all its Gem Power into the first five-star gem it finds. The expensive gem may add Resonance, yet its rank can stall when the required duplicate copies become harder to obtain than the generic materials. Meanwhile, cheaper gems can improve several equipment slots and provide effects that directly benefit the build.
+The classic free-to-play mistake in Diablo Immortal is pouring every bit of Gem Power into the first five-star gem that drops. It feels like progress, right up until the gem stalls because you can't find the duplicate copies it needs, while the cheap gems that could have filled your other slots sit at rank one.
 
-The early-November 2026 Auxiliary Gem changes make this decision more flexible. You can preserve an invested primary gem while using the effect of a compatible auxiliary gem at a higher effective rank than was previously possible. That is another reason to plan your investments around specific effects and upgrade costs.
+The early-November 2026 Auxiliary Gem changes take some of the sting out of that. You can keep an invested primary gem and run a compatible auxiliary gem's effect at a higher rank than before, so picking gems for their effects, and planning upgrades around them, matters even more now.
 
-This guide prioritizes sustainable PvE progression for players who spend no money. PvP has different demands, particularly against players with substantially higher Resonance and secondary attributes. There is no universal eight-gem loadout that solves those differences for every class.
+This guide is about steady PvE progress without spending. PvP is a different fight, especially against players with far more Resonance and secondary stats than you, and no single eight-gem loadout fixes that for every class.
 
 ## Understand rarity, rank and Gem Power
 
-A Legendary Gem's star category and its upgrade rank describe different things. A one-star gem can reach a high rank, while a gem in the five-star family may drop with only two filled stars. The latter is generally written as 2/5. Quality and rank influence progression, while the gem's individual effect determines how well it fits your skills.
+A Legendary Gem's star category and its upgrade rank describe different things. A one-star gem can reach a high rank, while a five-star gem can drop with only two of its stars filled, written as 2/5. Quality and rank influence progression, while the gem's individual effect determines how well it fits your skills.
 
 Gem Power is the material used to develop Legendary Gems. Duplicate copies become a separate requirement during progression. Treat Gem Power and duplicate stock as two budgets. Feeding a spare copy of your planned gem into generic Gem Power can leave you able to pay one part of an upgrade but unable to supply the required copy.
 
@@ -96,7 +96,7 @@ These are four examples of one- and two-star gems with effects suited to differe
 | Pain Clasp | 2-star | Damage against enemies with continuous damage effects | Your targets rarely suffer continuous damage |
 | Fervent Fang | 2-star | Repeated attacks against the same enemy | Short encounters finish before stacks build up, or copies are scarce |
 
-Pain Clasp works when the target is suffering continuous damage. A build that reliably applies bleed or poison can maintain that condition across a boss encounter. If you remove the skill that supplies the qualifying effect, Pain Clasp may lose much of its value. Consider the uptime of the enabling effect before choosing the gem.
+Pain Clasp works when the target is suffering continuous damage. A build that reliably applies bleed or poison can maintain that condition across a boss encounter. If you remove the skill that supplies the qualifying effect, Pain Clasp may lose much of its value. So check how often that effect is actually up before you commit.
 
 Mother's Lament rewards aligning high-damage skills with its temporary critical-hit buff. Berserker's Eye provides broader damage coverage at the cost of taking more damage yourself. Fervent Fang builds value over successive hits against an individual target. A player farming small packs may prefer an immediate damage increase, while a player spending most of a raid attacking a single boss has more opportunity to benefit from stacking damage.
 

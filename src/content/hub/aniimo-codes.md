@@ -35,7 +35,7 @@ image_alt: "Official App Store screenshot of Aniimo"
 image_status: "candidate"
 ---
 
-Aniimo gift codes are a quick source of free Glimmer and Aniipod Pro, but the game only hands them out occasionally.
+Two codes, 30 free Glimmer and 5 Aniipod Pro: that's what Aniimo has going right now, and it takes under a minute to claim.
 
 These codes were rounded up on November 25, 2026, from code trackers that list them as active as of their November updates. We have not redeemed them on a MaxCrit account, and some codes may already be deactivated, used up or region-locked, so if one fails, move on to the next. Codes are case-sensitive: copy them exactly as written.
 

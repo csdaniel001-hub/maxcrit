@@ -36,39 +36,39 @@ image_alt: "Where Winds Meet first anniversary art from the official anniversary
 image_status: "candidate"
 ---
 
-Where Winds Meet's first global anniversary gives returning Wanderers a reason to log back in even if they have fallen behind the main story. The celebration began with the Hutuo update on November 13, and its login outfit is the simplest reward to prioritize.
+Fell behind in Where Winds Meet? The first anniversary is the easiest moment all year to come back. Logging in is enough for a free outfit, and the campaign puts 42 Lingering Melody and 27 Resonating Melody draws on the table across its events. You don't need to be caught up on the story to collect most of it.
 
-The [publishing team's anniversary announcement](https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo/) puts the campaign's draw rewards at 42 Lingering Melodies and 27 Resonating Melodies. The [mobile App Store listing](https://apps.apple.com/us/app/where-winds-meet/id6472396866) also advertises the anniversary outfit and Melody rewards.
+The celebration started with the Hutuo update on November 13, and the outfit is the reward to grab first.
 
-## Free anniversary rewards checklist
+## What's on offer for free
 
-| Reward | Announced amount | Collection priority |
+| Reward | Amount | How you get it |
 | --- | --- | --- |
-| Outfit Set | Choose 1 of 12 | Log in and open the anniversary rewards |
-| Lingering Melody draws | 42 | Participate in anniversary activities |
-| Resonating Melody draws | 27 | Participate in anniversary activities |
+| Outfit Set | Choose 1 of 12 | Log in during the anniversary |
+| Lingering Melody draws | 42 | Anniversary activities |
+| Resonating Melody draws | 27 | Anniversary activities |
 
-The Melody figures are totals for the whole campaign, spread across several anniversary activities, and the two currencies are separate: 42 Lingering and 27 Resonating draws are not 69 interchangeable pulls.
+Keep the two Melody counts apart in your head. They're separate currencies, so 42 Lingering and 27 Resonating draws are not 69 pulls on the same banner. They also arrive bit by bit across the whole campaign.
 
-## Claim the free outfit first
+## Grab the outfit first
 
-The [official anniversary letter](https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html) confirms that the premium outfit is a login reward: you choose 1 of 12. The set is valued at 2,580 Echo Beads, which is the outfit's advertised price, not Echo Beads you receive.
+The outfit is a pure login reward: you pick 1 of 12 designs. It's valued at 2,580 Echo Beads, but that's the price tag on the outfit, so don't expect 2,580 beads in your wallet.
 
-Preview the designs on your character before confirming, since you only get one pick. If your play time is short, claim this reward before starting longer event quests: it only needs a login.
+You only get one pick, so try the designs on your own character before you confirm. And if your evenings are short, do this before anything else. It costs you one login, while the Melody draws take actual playtime.
 
-## Collect your Melody draws
+## Then work through the Melody draws
 
-Start with the login gifts and your mailbox, then work through the anniversary quests and reward exchanges open to your character. Claim each completed reward as you go.
+Clear your mailbox and the login gifts first, since that's free value sitting there. After that it's the anniversary quests and reward exchanges your character can access. Claim as you go instead of saving everything for the last day.
 
-## Separate free gifts from spending rewards
+## Free gifts and spending tracks are different things
 
-The [November 10 developer AMA recap](https://www.wherewindsmeetgame.com/news/official/1110ama.html) describes two cumulative spending tracks, the permanent Soaring Record and the time-limited Flow of Echoes:
+The anniversary also adds two cumulative spending tracks, and they don't work the same way:
 
 | Track | Spending that counts |
 | --- | --- |
-| Soaring Record | All eligible past spending, counted retroactively |
-| Flow of Echoes | Only spending during its active event period |
+| Soaring Record (permanent) | All eligible past spending, counted retroactively |
+| Flow of Echoes (time-limited) | Only spending during its active event period |
 
-The developers explain that progression uses the base Echo Bead amount of each purchase tier, excluding bonus beads. Returning spenders should inspect their Soaring Record progress before making another purchase. Players who intend to stay free-to-play can prioritize the anniversary login and participation rewards without buying additional Echo Beads for the outfit selector.
+Both count the base Echo Beads of each purchase tier, so bonus beads don't move your progress. If you've spent in the past, open Soaring Record before you buy anything new: your old purchases may already have earned you something. If you play free, ignore both tracks: the outfit and the Melody draws come from logging in and playing the events.
 
-For anyone returning specifically for the new weapons, our [November 26 Dual Spears update coverage](/news/where-winds-meet-version-2-4-november-26-update-bellstrike-bolt.html) explains the announced Bellstrike - Bolt combat path.
+Came back for the combat? The new Dual Spears Path arrives on November 26, and our [Bellstrike - Bolt coverage](/news/where-winds-meet-version-2-4-november-26-update-bellstrike-bolt.html) explains how the two spears play.

@@ -34,49 +34,49 @@ image_alt: "Official App Store screenshot of Aniimo"
 image_status: "candidate"
 ---
 
-Aniimo's November 26 update targets a frustrating stretch of the progression curve. Pathfinders will be able to reach the Whisperwake Isles sooner, while a series of late-November events gives established players fresh reasons to revisit Idyll. The [official Steam preview](https://store.steampowered.com/news/app/4126040/view/686396970470736784) also outlines a limited opportunity to recover resources invested in Gracewing.
+If your Aniimo account stalled somewhere short of the Whisperwake Isles, the November 26 update is for you. The story gate drops to Lv. 50 and Wayfarer III, the level ranges of five areas come down with it, and levelling from 41 to 54 now takes fewer Safaris.
 
-## Maintenance schedule
+Players who are already past all that get a different reason to log in: a stack of late-November events, a free gift box and a one-off chance to pull back everything invested in Gracewing.
 
-All three published server windows represent the same five hours on November 26, 2026.
+## The road to Whisperwake Isles gets shorter
 
-| Server | Announced window |
+Two gates moved. Rainbow of the Ground now needs Lv. 45 and Wayfarer II, and A Tale of Tide and Song, the Whisperwake Isles storyline, needs Lv. 50 and Wayfarer III. If you've finished A New Journey and meet the new requirements, the Whisperwake Isles main quest A Song from the Sea lands in your quest log on its own.
+
+| Area | New level range |
 | --- | --- |
-| Europe (UTC+0) | 06:00–11:00 |
-| Americas (UTC−4) | 02:00–07:00 |
-| APAC (UTC+8) | 14:00–19:00 |
-
-You won't be able to log in during maintenance. Compensation is 500 Glimmer for Pathfinders who complete registration before the Season 2 update.
-
-## Getting to Whisperwake Isles sooner
-
-The new story gates should help players who stalled after reaching the Breezy Plains. You will need Lv. 45 and Wayfarer II for Rainbow of the Ground, then Lv. 50 and Wayfarer III for the Whisperwake Isles storyline. Players who have finished A New Journey and meet the revised requirements should receive A Song from the Sea automatically.
-
-| Area | New starting level range |
-| --- | --- |
-| Tideblossom Coast | 52–57 |
 | Crescent Bay | 50–55 |
+| Tideblossom Coast | 52–57 |
 | Rosy Mirelands | 56–58 |
 | Wildwater Gorge | 57–59 |
 | Cloudreach Falls | 58–60 |
 
-Fewer Safaris are now needed to level up from Lv. 41 through 54, and affected Pathfinders get compensation by in-game mail. An account already at Lv. 50 and Wayfarer III that has finished A New Journey can head straight for the Whisperwake Isles after the update.
+The Safari change is the quiet part of the package and probably the one most players will feel. Fewer Safaris are needed per level between Lv. 41 and 54, and anyone affected gets compensation by mail.
 
-The new story quest Hymn of Calm brings back the Sanctum, where the Dewlops family wants to offer it a song. The largest RV model now unlocks at Lv. 16, and its skin can be changed once the RV reaches that level. Rain also waters crops at Home automatically.
+The rest is lighter. A new story quest, Hymn of Calm, brings the Sanctum back, with the Dewlops family wanting to offer it a song. The largest RV model now unlocks at Lv. 16, along with its skin options. And rain finally waters the crops at Home for you.
 
-## Events and rewards to prioritize
+## What to claim before it disappears
 
-The following deadlines use each server's published local clock unless explicitly marked UTC.
-
-| Activity | Scheduled window | What it offers |
+| Activity | Window (server time) | What you get |
 | --- | --- | --- |
-| Fantasy Resonance | After update to Dec 17, 03:59 | Event open to Student I players |
 | Annual Carnival | Nov 27, 10:00 to Dec 1, 12:00 | Free gift box, plus Starlight Echoes spending tiers |
 | Operation: Egg Heist | After update to Dec 9, 23:59 | 100% higher collectible drop rates in Team Mode |
 | Gracewing reset | After update to Dec 10, 20:00 UTC | Refund of upgrade materials |
+| Fantasy Resonance | After update to Dec 17, 03:59 | Event for Student I players |
 
-Student I players should visit Shop > Pack during Annual Carnival for the free Aniimo Gratitude Gift Box. It contains a Departure with the Wind: Collectible Blind Box, 100 Wonder Sugar Crystal and five Vein Essence. Starlight Echoes runs on the same dates but rewards Lumin Crystal spending, so it is separate from the free box.
+The Carnival box is the easy win. Log in between November 27 and December 1, open Shop > Pack and claim the Aniimo Gratitude Gift Box: a Departure with the Wind: Collectible Blind Box, 100 Wonder Sugar Crystal and 5 Vein Essence. You need to be Student I. Starlight Echoes runs alongside it, but that one rewards Lumin Crystal spending, so free players can ignore it.
 
-The reset closes on December 10 at 20:00 UTC on every server. Any Gracewing obtained before this balance update can be reset: used EXP Items, Star Up and Capability Awakening materials and Capafruit are refunded, and the matching progress is removed. It suits players who want to move those materials to another Aniimo after the balance changes.
+The Gracewing reset is the decision with a deadline. Any Gracewing you got before this balance update can be reset until December 10, 20:00 UTC, on every server. You get back the EXP Items, the Star Up and Capability Awakening materials and the Capafruit, and lose the progress they bought. If the balance changes have you second-guessing your Gracewing, that's your window to move the materials to another Aniimo. If you're happy with it, leave it alone.
 
-The update also targets mobile performance issues, including stuttering on the Galaxy S25 Ultra and unexpected Android restarts during background downloads. See our [Whisperwake Isles Season 1 coverage](/news/aniimo-whisperwake-isles-season-1-part-2.html) for the broader expansion.
+Egg Heist is worth timing your collectible farming around: Team Mode chests and Umbral Aniimo drop common and prized collectibles at double the usual rate until December 9.
+
+## Maintenance and fixes
+
+| Server | Maintenance on Nov 26 | In UTC |
+| --- | --- | --- |
+| Europe (UTC+0) | 06:00–11:00 | 06:00–11:00 |
+| Americas (UTC−4) | 02:00–07:00 | 06:00–11:00 |
+| APAC (UTC+8) | 14:00–19:00 | 06:00–11:00 |
+
+Login is off for those five hours. Everyone who registered before the Season 2 update gets 500 Glimmer for the trouble. Mobile players also get fixes for stuttering on the Galaxy S25 Ultra and for Android clients restarting during background downloads.
+
+New to the Whisperwake Isles altogether? Our [Season 1 coverage](/news/aniimo-whisperwake-isles-season-1-part-2.html) explains what's waiting there.
