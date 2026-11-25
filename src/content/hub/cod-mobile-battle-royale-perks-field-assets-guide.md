@@ -63,7 +63,7 @@ For ranged fights, Ballistic Calibration is the candidate when projectile travel
 
 ## Field Assets and the Verdansk redeployment budget
 
-Field Assets can be included in loadouts or bought at Buy Stations. Season 10 adds Death Machine and EMP Systems, changes prices and adds a scope mechanism for Strafing Run and Stealth Chopper.
+Field Assets can be included in loadouts or bought at Buy Stations. Season 10 adds Death Machine and EMP Systems, changes prices and adds a scope mechanism for Field Assets such as Strafing Run and Stealth Chopper.
 
 Your spending priorities change when a teammate is eliminated on Verdansk. Winning the first-elimination Gulag fight returns that teammate to the match; a loss leaves the squad responsible for buying their redeployment. Reserve enough resources for that possibility before making optional purchases. For example, if your squad already has a teammate waiting to redeploy, bringing that player back may matter more than acquiring another offensive asset. Assign one squad member to keep track of that shared priority.
 
