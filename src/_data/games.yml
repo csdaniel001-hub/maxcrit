@@ -152,6 +152,26 @@ blue-archive:
   appstore: "https://apps.apple.com/us/app/blue-archive/id1571873795"
   googleplay: "https://play.google.com/store/apps/details?id=com.nexon.bluearchive"
   status: "Live"
+monopoly-go:
+  name: "MONOPOLY GO!"
+  publisher: "Scopely"
+  official: "https://www.scopely.com/"
+  appstore: "https://apps.apple.com/us/app/monopoly-go/id1621328561"
+  googleplay: "https://play.google.com/store/apps/details?id=com.scopely.monopolygo"
+  status: "Live"
+csr2:
+  name: "CSR2"
+  publisher: "Zynga"
+  official: "https://www.csr-racing.com/"
+  appstore: "https://apps.apple.com/us/app/csr-2-realistic-drag-racing/id887947640"
+  googleplay: "https://play.google.com/store/apps/details?id=com.naturalmotion.customstreetracer2"
+  status: "Live"
+puzzle-and-dragons:
+  name: "Puzzle & Dragons"
+  publisher: "GungHo Online Entertainment"
+  official: "https://www.puzzleanddragons.us/"
+  appstore: "https://apps.apple.com/us/app/puzzle-dragons-english/id563474464"
+  status: "Live"
 warframe:
   name: "Warframe"
   publisher: "Digital Extremes"

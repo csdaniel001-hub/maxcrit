@@ -1,10 +1,11 @@
 ---
-title: "Wild Rift Patch 7.3 tracker: every update from 7.3 to 7.3f"
-seo_title: "Wild Rift Patch 7.3 tracker: all updates 7.3 to 7.3f"
-summary: "All seven Wild Rift 7.3 patches in one place: dates, the marksman and jungle overhaul, and which champions and items changed in 7.3a, 7.3b, 7.3d and 7.3f."
+title: "Wild Rift Patch 7.3 tracker: every update from 7.3 to 7.3g"
+seo_title: "Wild Rift Patch 7.3 tracker: all updates 7.3 to 7.3g"
+summary: "All eight Wild Rift 7.3 patches, from the marksman overhaul to 7.3g's Irelia buffs, marksman item nerfs and AAA ARAM changes."
 keyword: "Wild Rift patch 7.3"
 hub_type: patch-trackers
 published_at: 2026-11-24T06:30:00Z
+updated_at: 2026-11-25T21:56:00Z
 genres: [moba]
 platforms: [ios, android]
 titles: [wild-rift]
@@ -16,10 +17,11 @@ sources:
   - { title: "Wild Rift Patch Notes 7.3d (October 28, 2026)", url: "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3d" }
   - { title: "Wild Rift Patch Notes 7.3e (November 4, 2026)", url: "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3e" }
   - { title: "Wild Rift Patch Notes 7.3f (November 11, 2026)", url: "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3f" }
+  - { title: "Wild Rift Patch Notes 7.3g (November 25, 2026)", url: "https://wildrift.leagueoflegends.com/en-sg/news/game-updates/wild-rift-patch-notes-7-3g/" }
 tldr:
   - "Patch 7.3 raised base Critical Strike Damage <b>from 175% to 200%</b> and the Attack Speed cap from 2.5 to 3 attacks per second."
   - "Ranked Season S23 started on <b>September 23</b> and is expected to end in January 2027."
-  - "The latest patch is <b>7.3f</b> from November 11, which added Sylas and nerfed Kalista, Shen and Eclipse."
+  - "The latest patch is <b>7.3g</b> from November 25, with Irelia buffs, weaker marksman items and separate AAA ARAM changes."
 image: "/assets/img/wild-rift-patch-7-3-tracker-every-update.jpg"
 image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5e/be/12/5ebe124d-0516-c8b0-9537-9e23a4bac4f9/6D_ASO_Screenshots-Rank_Millo-2208-1242.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/league-of-legends-wild-rift/id1480616990"
@@ -28,7 +30,7 @@ image_alt: "Official App Store screenshot of League of Legends: Wild Rift"
 image_status: "candidate"
 ---
 
-7 sets of patch notes have landed on Wild Rift Patch 7.3 since September, and the first one alone rebuilt how marksmen and critical strikes work. Below they are in order, each with its date and what it changed, so you can trace how the current game got here. Riot rolls content out throughout a patch, so a change can arrive a few days after its notes.
+8 sets of patch notes have landed on Wild Rift Patch 7.3 since September, and the first one alone rebuilt how marksmen and critical strikes work. Below they are in order, each with its date and what it changed, so you can trace how the current game got here. Riot rolls content out throughout a patch, so a change can arrive a few days after its notes.
 
 ## Every 7.3 patch at a glance
 
@@ -41,6 +43,7 @@ image_status: "candidate"
 | 7.3d | October 28 | Champion and item balance, objective adjustments |
 | 7.3e | November 4 | K/DA and Star Guardian content, Minion Augments in AAA ARAM |
 | 7.3f | November 11 | Sylas, champion buffs and nerfs, jungle pacing, mage items |
+| 7.3g | November 25 | Irelia, Vayne, Garen and Sylas adjustments, Smolder nerfs, marksman item changes and AAA ARAM balance |
 
 ## Patch 7.3: the system changes
 
@@ -89,7 +92,15 @@ Turrets now ramp up less on consecutive attacks, and minions take less damage wh
 
 ## Patch 7.3f
 
-The newest patch added Sylas, the Unshackled. It nerfed Kalista, Shen, Kassadin and Eclipse, buffed Yasuo, Lucian, Rumble and several mage items, and slowed tank junglers through Smite. Our news story on 7.3f has the exact numbers.
+7.3f added Sylas, the Unshackled. It nerfed Kalista, Shen, Kassadin and Eclipse, buffed Yasuo, Lucian, Rumble and several mage items, and slowed tank junglers through Smite. Our news story on 7.3f has the exact numbers.
+
+## Patch 7.3g
+
+Irelia gets more base AD, more healing and a shorter Bladesurge cooldown. Vayne's Silver Bolts shifts its power toward the final rank, and Final Hour gives 10 more bonus AD at each rank. Smolder's Achooo! and Flap, Flap, Flap cooldowns go up.
+
+The standard item and rune changes hit marksmen hardest: Berserker's and Gunmetal Greaves lose attack speed and on-hit healing, Ardent Censer and Guinsoo's Rageblade lose attack speed, Harmonic Echo loses AP and Absolute Focus gets weaker. Immortal Shieldbow gains shielding, most of all for melee users.
+
+In AAA ARAM, new season-only Bard and Irelia mechanics open up new builds. Warmog's Armor gains 300 health and its passive cooldown drops by 5 seconds in that mode, and Original Heartsteel's charge damage goes up. Our [7.3g news story](/news/wild-rift-patch-7-3g-irelia-marksman-nerfs.html) has the exact numbers.
 
 ## Other 7.3 patches and events
 
