@@ -303,12 +303,61 @@ def collect(paths):
     return files
 
 
+
+def site_report(files):
+    """Variety across several articles: shared opening moves, shared first words, pet phrases."""
+    import collections
+    opens = {}
+    grams = collections.defaultdict(set)
+    for f in files:
+        text = open(f, encoding="utf-8").read()
+        fm, body, _ = parse_front_matter(text)
+        prose = re.sub(r"^\|.*$|^#.*$|^\s*[-*] .*$|^>.*$", "", body, flags=re.M)
+        paras = [x.strip() for x in prose.split("\n\n") if len(x.strip()) > 40]
+        if paras:
+            s1 = re.split(r"(?<=[.!?])\s", paras[0])[0]
+            low = s1.lower()
+            if s1.rstrip().endswith("?"): move = "question"
+            elif re.match(r"^if (you|your)\b", low): move = "if-you hook"
+            elif re.match(r"^\d", s1): move = "number-led"
+            elif re.search(r"\b(you|your)\b", low): move = "second person"
+            elif re.match(r"^[A-Z][\w:'\s.&-]{0,60}?\b(adds|introduces|releases|launches|has released|has launched|has added|brings|gets|opens|starts|begins|announced|has announced)\b", s1): move = "game-does-X"
+            else: move = "other"
+            opens[f] = (move, " ".join(s1.split()[:2]).lower())
+        words = re.findall(r"[a-z']+", re.sub(r"\[[^\]]*\]\([^)]*\)", " ", prose).lower())
+        for i in range(len(words) - 3):
+            grams[" ".join(words[i:i + 4])].add(f)
+    n = len(opens) or 1
+    out = []
+    moves = collections.Counter(m for m, _ in opens.values())
+    for m, c in moves.most_common():
+        if m != "other" and c / n > 0.25 and c >= 4:
+            out.append(f'opening move "{m}" used by {c} of {n} articles (keep any one move under 25%)')
+    firsts = collections.Counter(w for _, w in opens.values())
+    for w, c in firsts.most_common():
+        if c >= 4:
+            out.append(f'{c} articles open with "{w}..."')
+    common = {"the", "a", "of", "to", "and", "in", "on", "for", "is", "it", "that", "you", "with", "at", "as", "be", "your", "are", "this", "from", "or", "an", "by", "can", "will", "if", "its"}
+    thresh = max(5, n // 10)
+    for g, fs in sorted(grams.items(), key=lambda kv: -len(kv[1])):
+        if len(fs) < thresh: break
+        if sum(w in common for w in g.split()) >= 3: continue
+        out.append(f'pet phrase "{g}" appears in {len(fs)} articles')
+    return out[:25]
+
 def main(argv):
     as_json = "--json" in argv
     paths = [a for a in argv if not a.startswith("--")]
     if not paths:
         print(__doc__)
         return 2
+    if "--site" in argv:
+        files = collect(paths)
+        rep = site_report(files)
+        for line in rep:
+            print("  SITE  " + line)
+        print(f"\nstylecheck --site: {len(files)} file(s), {len(rep)} variety warning(s)")
+        return 0
     issues = []
     for f in collect(paths):
         issues += check_file(f)
