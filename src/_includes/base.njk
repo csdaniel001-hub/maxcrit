@@ -52,7 +52,7 @@
 <header class="gz-head">
 <div class="gz-head-in">
 <a class="gz-logo" href="{{ '/index.html' | rel }}" aria-label="{{ site.name }} home">{{ logo(34) }}</a>
-<nav class="gz-hot kx-apps" aria-label="Popular games">{% for slug in site.hot %}{% set g = games[slug] %}<a href="{{ ('/games/' + slug + '.html') | rel }}"><img src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="32" height="32"><span>{{ g.name }}</span></a>{% endfor %}</nav>
+<nav class="gz-hot kx-apps" aria-label="Popular games">{% for slug in site.hot %}{% set g = games[slug] %}<a href="{{ ('/games/' + slug + '.html') | rel }}" aria-label="{{ g.name }}" title="{{ g.name }}"><img src="{{ ('/assets/img/icons/' + slug + '.webp') | rel }}" alt="" width="32" height="32"><span>{{ g.name }}</span></a>{% endfor %}</nav>
 <form class="gz-search" action="{{ '/search.html' | rel }}" role="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><label><span class="gz-sr">Search</span><input type="search" name="q" placeholder="Search…"></label></form>
 <a class="gz-ibtn gz-rss" href="{{ '/feed.xml' | rel }}" aria-label="RSS"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 19h.01 M5 12a7 7 0 0 1 7 7 M5 5a14 14 0 0 1 14 14"/></svg></a>
 <label class="gz-ibtn gz-menu" for="gzMenu"><span class="gz-sr">Menu</span><span></span><span></span></label>

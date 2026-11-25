@@ -11,7 +11,7 @@ bodyClass: gz-art
 {% set gn = (genreNav | find('slug', genres[0])) if (genres and genres.length) else null %}
 {% set tn = (topicNav | find('slug', topics[0])) if (topics and topics.length) else null %}
 {% set lead = (titles[0] if titles and titles.length else '') %}
-{% set tabw = 220 %}
+{% set tabw = 300 if isHub else 260 %}
 <p class="gz-crumbs mono ar-crumbs"><a href="{{ '/index.html' | rel }}">Home</a> / {% if isHub %}<a href="{{ '/hub.html' | rel }}">Player Hub</a> / <a href="{{ ('/hub/' + hub_type + '.html') | rel }}">{{ ht.name }}</a>{% else %}<a href="{{ '/news.html' | rel }}">News</a>{% endif %}{% for gs in genres or [] %} / <a href="{{ ('/genre/' + gs + '.html') | rel }}">{{ (genreNav | find('slug', gs)).name }}</a>{% endfor %}{% for t in topics or [] %} / <a href="{{ ('/' + t + '.html') | rel }}">{{ (topicNav | find('slug', t)).name }}</a>{% endfor %}</p>
 <header class="axh no-go" style="--tw:{{ tabw }}px">
 <nav class="axh-tab" aria-label="Breadcrumb"><span class="axh-tin"><span class="axh-home mono">{% if isHub %}Checked{% else %}News{% endif %}</span><time class="axh-date mono" datetime="{{ (updated_at or published_at) | isoDate }}">{{ (updated_at or published_at) | longDate }}</time></span></nav>
