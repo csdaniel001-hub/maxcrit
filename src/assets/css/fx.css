@@ -251,7 +251,9 @@ html[data-gz] body :is(.cc-fg,.gp-lead,.lr-spot) .cc-tab{left:22px!important;top
 
 /* Tagline under the logo (Daniel, 2026-11-25) */
 html[data-gz] body .gz-logo .mc-brand{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;line-height:1}
-html[data-gz] body .gz-logo .mc-tag{font:600 10.5px/1 var(--cnd);letter-spacing:.22em;text-transform:uppercase;color:#35e0f0!important;-webkit-text-fill-color:#35e0f0!important;opacity:.85;white-space:nowrap;padding-left:42px}
+html[data-gz] body .gz-logo .mc-tag{font:600 10.5px/1 var(--cnd);letter-spacing:.185em;text-transform:uppercase;white-space:nowrap;padding-left:42px;color:#35e0f0;background:linear-gradient(100deg,#35e0f0 0%,#35e0f0 42%,#ffffff 50%,#35e0f0 58%,#35e0f0 100%) 100% 0/250% 100% no-repeat;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent!important;animation:mcTagSheen 5.5s ease-in-out 1.2s infinite}
+@keyframes mcTagSheen{0%{background-position:100% 0}35%,100%{background-position:0% 0}}
+@media (prefers-reduced-motion:reduce){html[data-gz] body .gz-logo .mc-tag{animation:none}}
 @media (max-width:560px){html[data-gz] body .gz-logo .mc-tag{display:none}}
 
 /* Article end: mascot head in a round badge so the neck crop reads as intentional (Daniel, 2026-11-25) */
@@ -265,3 +267,4 @@ html[data-gz] body .gz-ptabs a{padding:11px 10px!important;font-size:12px!import
 html[data-gz] body .gz-ptabs a:first-child{padding-left:10px!important}
 html[data-gz] body .gz-ptabs a:last-child{margin-right:36px}
 }
+
