@@ -13,7 +13,7 @@ sources:
   url: https://apps.apple.com/us/app/call-of-dragons/id1605558677
   primary: true
 image: "/assets/img/call-of-dragons-1-0-55-bromgar-feng-i-sabershark.jpg"
-image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/29/9e/c2299e19-c7c3-b3a7-83aa-fd0516cd5794/546_U5e97_U6697_U9ed1_U6734_U7d20_U7248_U56fe5__U521d_U7248__U5e38_U89c4_U7d20_U6750__U5854_U5854__U6d3e_U5927_U8398__U81ea_U5236_2208x1242_240716.jpg/2600x2600bb.jpg"
+image_url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/6a/9a/006a9aa1-983d-ad42-811a-0e9d0c52b686/05.jpg/2600x2600bb.jpg"
 image_source: "https://apps.apple.com/us/app/call-of-dragons/id1605558677"
 image_credit: "Farlight Games"
 image_alt: "Official App Store screenshot of Call of Dragons"
