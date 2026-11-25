@@ -8,7 +8,7 @@ hub_type: builds
 tier: 3
 review_by: '2026-12-02'
 published_at: '2026-11-25T13:50:00Z'
-updated_at: '2026-11-25T16:20:00Z'
+updated_at: '2026-11-25T16:04:00Z'
 build_spec: 1
 spec_omit:
 - materials
@@ -117,7 +117,16 @@ Outside Elation, Prydwen notes that she fits an Archer team with Sparkle.
 
 ## Rotation and how to play
 
-Use Skill to establish her Elation-sharing Zone. Use Basic ATKs between refreshes to conserve SP and generate Punchline. Her 180-Energy Ultimate supplies an additional Aha Instant using a fixed 20 Punchline without spending the existing pool. Keep the Zone up before the carry's big turns: Great Boon's value depends on her Elation being shared at that moment.
+Use her Technique before a fight. The next battle then starts with her Skill already cast and no Skill Point spent, so the Zone is up for the carry's first turn.
+
+1. Keep the Zone running. It lasts 3 turns and ticks down at the start of her turn, so recast the Skill on the turn it would expire. The carry's big turns should land while it is up, because Great Boon uses her shared Elation at that moment.
+2. Use Basic ATK on her other turns. It regenerates 30 Energy and gives 3 Punchline without spending a Skill Point.
+3. Cast the Ultimate at 180 Energy. Aha takes an extra turn counting a fixed 20 Punchline without spending the existing pool, and every ally gets 20% All-Type RES PEN for 3 turns. Line up the carry's next attacks inside that window.
+4. Her Elation Skill returns 1 Skill Point to the team through Poised and Sated, which helps pay for Zone refreshes.
+
+With Sparxie or another carry whose attacks spend Skill Points, each such attack triggers Great Boon one more time. Save Skill Points for those attacks and refresh the Zone only when it is about to expire.
+
+Common mistakes: letting the Zone lapse just before the carry acts, spending Skill Points on early Zone refreshes, and firing the Ultimate when the carry has no attack coming in the next 3 turns.
 
 ## Traces and skill priority
 
@@ -140,7 +149,7 @@ Prydwen ranks the Skill Point refund first; it is the only major Trace that retu
 | E3 Auspices Mirrored In Decalight | Skill +2, Basic ATK +1, Elation Skill +1 | Level boosts |
 | E4 Threads of Fate Colored by Plumes | In the Ultimate's Aha turn, allies' Elation Skill DMG becomes 150% | Large damage gain, late in the chain |
 | E5 Bejeweled in Radiant Grace | Ultimate +2, Talent +2, Elation Skill +1 | Level boosts |
-| E6 Ferried Along the Astral Arc | Allies' Elation DMG gets 25% Merrymake; her Elation Skill multiplier doubles | Stacks with E4 for very high numbers |
+| E6 Ferried Along the Astral Arc | Allies' Elation DMG gets 25% Merrymake; her Elation Skill multiplier doubles | Adds team Elation DMG and doubles her own Elation Skill multiplier |
 
 Prydwen's view is that she plays well at E0 and that no Eidolon is required. Our reading of the table (interpretation): E1 and E2 are the copies that change how the team plays, E1 through Punchline economy and E2 through team SPD. E4 and E6 add the most raw damage but sit at the end of the chain, so they matter only once the first two copies are in place.
 
