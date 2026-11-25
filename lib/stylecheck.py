@@ -195,10 +195,10 @@ def check_file(path):
         add("ERROR", f"{words} words of prose, news maximum is 1100")
     if fm.get("hub_type") == "builds":
         # Build completeness spec (docs/build-page-spec.md): same rule as lib/check.js
-        heads = "\n".join(re.findall(r"^## .*$", body, re.M)).lower()
-        need = {"kit overview": r"how .* (plays|works|deals|fights|supports|heals)|kit|playstyle|what .* does", "stats": r"stat",
-                "weapons": r"weapon|light cone|w-engine|rectifier|bow|claymore|catalyst|sword|polearm", "sets": r"artifact|relic|echo|drive disc|ornament",
-                "teams": r"team", "rotation": r"rotation|how to play|gameplay|turn order", "skill priority": r"talent|trace|forte|skill",
+        heads = "\n".join(re.findall(r"^###? .*$", body, re.M)).lower()
+        need = {"kit overview": r"how .* (plays|works|deals|fights|supports|heals|turns|changes)|kit|playstyle|what .* (does|adds|needs)", "stats": r"stat|energy regen|mastery|proficiency|hp investment|crit|speed tuning|spd",
+                "weapons": r"weapon|light cone|w-engine|rectifier|bow|claymore|catalyst|sword|polearm", "sets": r"artifact|relic|echo|drive disc|disc 5|ornament",
+                "teams": r"team", "rotation": r"rotation|how to play|gameplay|turn order", "skill priority": r"talent|trace|forte|skill|upgrade",
                 "duplicates": r"constellation|eidolon|sequence|resonance chain|mindscape", "materials": r"material|ascension|farm"}
         omit = [str(x).lower() for x in (fm.get("spec_omit") or [])]
         miss = [k for k, rx in need.items() if not re.search(rx, heads) and k not in omit]
