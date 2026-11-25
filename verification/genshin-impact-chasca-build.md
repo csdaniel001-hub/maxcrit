@@ -30,3 +30,8 @@ CRIT cap example: 60 + 40 = 100 percentage points, conditional on active Codex a
 - Independent Claude review required for exact full-team interactions, weapon passive conditions and current 7.2 changes.
 - Specialist guides may have been written for older patches; no claim of exhaustive current meta coverage.
 - No hands-on gameplay testing. Publication timestamp is provisional.
+
+## Revision 2 response
+Accepted official wish naming correction; otherwise unchanged.
+
+Evidence for revisions: Claude batch-02 r1 independent review (2026-11-25), archived with this package. No new independent source retrieval by Mira for r2; changed claims require reviewer confirmation. No dedicated plagiarism scan performed.
