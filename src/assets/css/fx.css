@@ -245,3 +245,6 @@ html[data-gz] body .gz-fb:hover{color:#35d6ec!important}
 .gz-foot-social svg{width:18px;height:18px;flex:none}
 html[data-gz] body .axh-fb:hover{color:#fff;background:#1877f2;border-color:#1877f2}
 @media (max-width:1180px){html[data-gz] body .gz-fb{margin-left:auto}}
+/* Neon frame alignment (2026-11-25): the sr-lines frame draws inner lines ~8px in and cuts a 14px corner, so content must clear it */
+html[data-gz] body .mc-gintro{padding:20px 24px 22px!important}
+html[data-gz] body :is(.cc-fg,.gp-lead,.lr-spot) .cc-tab{left:22px!important;top:22px!important}
