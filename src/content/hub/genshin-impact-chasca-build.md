@@ -86,7 +86,7 @@ Pick the bow together with the artifact set. An existing CRIT DMG weapon can be 
 
 Bennett supplies ATK and healing; Furina adds off-field Hydro and damage buffs. Ororon supplies Electro, while Citlali is an alternative for Cryo and shielding. These lineups have different reaction profiles and sustain demands. With Furina, monitor team HP and Fanfare generation instead of assuming Bennett always provides enough healing for maximum buff uptime.
 
-Apply support abilities before entering Chasca's Skill, then hold the attack input to load and release full volleys. Movement during charging helps reposition, but enemy movement and reaction order can still alter results. Use the Burst according to rotation and available energy.
+Apply support abilities before entering Chasca's Skill, then hold the attack input to load and release full volleys. Movement during charging helps reposition, but enemy movement and reaction order can still alter results. Use the Burst based on rotation and available energy.
 
 ## Evaluate roster fit before pulling
 

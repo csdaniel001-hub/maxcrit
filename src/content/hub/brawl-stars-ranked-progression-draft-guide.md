@@ -50,7 +50,7 @@ Existing Ranked players retain access and earn a Chaos Drop at 5,000 Trophies. T
 
 Build a permanent roster that covers several distinct roles. Our suggested investment framework is to prioritize the Brawlers you can play confidently across different map layouts, then fill the gaps in your roster. Avoid spending all available upgrade resources on one narrow composition.
 
-Two examples from Supercell's November release notes illustrate the difference between role coverage and raw damage. Lou can help contest space through freezing effects; his Avalanche Gadget now applies 40% freeze after the November 11 maintenance. Berry can support teammates with healing, including the corrected Super dash that heals nearby allies. If your roster already contains multiple damage dealers but lacks those functions, a control or sustain pick could broaden your draft options.
+Two November changes illustrate the difference between role coverage and raw damage. Lou can help contest space through freezing effects; his Avalanche Gadget now applies 40% freeze after the November 11 maintenance. Berry can support teammates with healing, including the corrected Super dash that heals nearby allies. If your roster already contains multiple damage dealers but lacks those functions, a control or sustain pick could broaden your draft options.
 
 ## Draft with a plan
 
@@ -66,6 +66,6 @@ After a close loss, compare the round-by-round Battle Log. Look at objective con
 
 Play Again is available at the end of Ranked matches. At Masters and above it becomes Queue Again; other restrictions include excessive rank gaps, too few eligible Brawlers for your rank, and the end of the season.
 
-The three-month Pro Pass season announced in the November release notes grants 60 Pro Pass XP per Ranked win, up to 1,200 Pro Pass XP a week; Pro Pass owners get double both amounts. Reaching Pro no longer qualifies players for BSC 2027; qualification runs through the Championship Challenge and Challengers Program.
+The three-month Pro Pass season announced in November grants 60 Pro Pass XP per Ranked win, up to 1,200 Pro Pass XP a week; Pro Pass owners get double both amounts. Reaching Pro no longer qualifies players for BSC 2027; qualification runs through the Championship Challenge and Challengers Program.
 
 For individual balance changes, see our [November balance tracker](/hub/patch-trackers/brawl-stars-november-2026-balance-changes.html).

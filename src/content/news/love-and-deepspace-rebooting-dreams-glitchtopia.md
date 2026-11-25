@@ -27,13 +27,13 @@ Infold Games released Love and Deepspace version 6.5.0, called Rebooting Dreams,
 
 ## New 5-Star Memories in Rebooting Dreams
 
-The headline event shares its name with the version. According to the release notes, Rebooting Dreams lets you obtain event-limited Memories through limited-time pulls, along with Memory-themed Outfits and selectable event-limited 5-Star Memories.
+The headline event shares its name with the version. Rebooting Dreams lets you obtain event-limited Memories through limited-time pulls, along with Memory-themed Outfits and selectable event-limited 5-Star Memories.
 
 "Selectable" is the useful word. It means the event includes a way to choose which limited 5-Star Memory you receive, so you aren't relying on luck alone for the character you want.
 
 ## Events that give rewards for free
 
-The update lists three events with free rewards:
+The update adds three events with free rewards:
 
 - **Glitchtopia**: a limited-time event. Taking part earns Deepspace Wish: Limited, new Outfits and Accessories, Photo Poses, an event-exclusive Title, Journal Items and more.
 - **Heart Wave Promise**: a new Promise track. You complete Daily Tasks to collect Activity Points and raise your Promise Level, which unlocks Accessories for free. Unlocking the Heartbeat Promise adds more rewards, including Deepspace Wishes and a "My" Selectable Outfit Crate.
@@ -43,7 +43,7 @@ Glitchtopia is the one to prioritise if you're saving. Deepspace Wish: Limited i
 
 ## Paid items and the free Illusio feature
 
-Two items in the notes cost money. The Inorganic Dimension Pack is available at a limited-time discount and contains a Limited Furniture Set and Designs. A New Couple Outfit has been on sale for a limited time since November 6, with tiered discounts if you buy both the "My" Outfit box and His Universal Outfit Box.
+Two items in the update cost money. The Inorganic Dimension Pack is available at a limited-time discount and contains a Limited Furniture Set and Designs. A New Couple Outfit has been on sale for a limited time since November 6, with tiered discounts if you buy both the "My" Outfit box and His Universal Outfit Box.
 
 The last change costs nothing. The Illusio feature for your 5-Star Memories' Kindled moments is now free, so you can change his outfits and replay those scenes without an extra unlock.
 

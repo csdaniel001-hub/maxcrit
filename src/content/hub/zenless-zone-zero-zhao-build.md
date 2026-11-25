@@ -95,7 +95,7 @@ At 23,000 HP, Zhao supplies 30% conditional DMG Bonus, which is already three qu
 
 To illustrate the diminishing impact of another five percentage points of additive DMG Bonus, assume the carry already has 60% other applicable additive DMG Bonus. Adding Zhao's 35% takes this isolated multiplier to 1.95; adding the full 40% takes it to 2.00. That is about a 2.56% relative gain in that one multiplier. This simplified calculation excludes other damage categories, enemy modifiers and any buff downtime. It explains why a costly last HP upgrade may matter less than the support rotation.
 
-The Core Passive also grants Zhao personal CRIT Rate according to initial HP, at maximum Core Skill level, 1.4 percentage points per 1,000 initial HP. At 25,000 HP that represents 35 percentage points. This is a separate effect from Crystallization. It is useful for her own attacks, but she is still primarily built to support the carry. Avoid counting an in-combat Max HP increase toward a requirement explicitly based on initial HP.
+The Core Passive also grants Zhao personal CRIT Rate based on initial HP, at maximum Core Skill level, 1.4 percentage points per 1,000 initial HP. At 25,000 HP that represents 35 percentage points. This is a separate effect from Crystallization. It is useful for her own attacks, but she is still primarily built to support the carry. Avoid counting an in-combat Max HP increase toward a requirement explicitly based on initial HP.
 
 ## W-Engines and Drive Discs
 

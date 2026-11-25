@@ -36,6 +36,13 @@ STOCK = [
     "needless to say", "in a nutshell", "the good news is", "the bad news is",
 ]
 
+# Source-attribution sentences (warnings). Official facts are stated plainly: the
+# sources box carries attribution. Keep in-text attribution for reported, disputed
+# or quoted claims only (codes pages are exempt: trackers are the point there).
+ATTR_SRC = re.compile(r"\b(?:the|its|their|this|that|[A-Z][\w']+'s)\s+(?:official\s+|\[)?(?:[\w-]+\s+){0,3}?(?:notice|notes|letter|announcement|post|preview|blog|statement|press release|feature|recap|listing|overview|FAQ|tweet|article|feed|guide)\b", re.I)
+ATTR_VERB = re.compile(r"\b(?:says|said|states|stated|lists|listed|confirms|confirmed|describes|described|outlines|puts|explains|introduces|credits|warns|announces|announced|documents|mentions|specifies)\b", re.I)
+ATTR_ACC = re.compile(r"\baccording to\b", re.I)
+
 # Extra reader-steering frames (warnings).
 STEERING = ["worth acting on", "the sensible", "here is why", "what this means for you",
             "the takeaway", "key takeaway", "the short version"]
@@ -232,6 +239,7 @@ def check_file(path):
     # body, line by line
     colon_heads = []
     contrast_hits = 0
+    attr_hits = 0
     for i, line in enumerate(body.split("\n")):
         ln = start + i
         low = line.lower()
@@ -263,6 +271,11 @@ def check_file(path):
             if m:
                 add("WARN", f'possible "we don\'t know" filler: "{m.group(0)}" (state what is known, or record the gap in the verification file)', ln)
                 break
+        if not is_table and fm.get("hub_type") != "codes":
+            for sent in re.findall(r"[^.!?]+[.!?]?", line):
+                if ATTR_ACC.search(sent) or (ATTR_SRC.search(sent) and ATTR_VERB.search(sent)):
+                    attr_hits += 1
+                    add("WARN", f'source attribution in the text: "{sent.strip()[:70]}..." (state official facts plainly; attribute only reported, disputed or quoted claims)', ln)
         for rx, label in CONTRAST:
             for m in re.finditer(rx, line, re.I):
                 contrast_hits += 1

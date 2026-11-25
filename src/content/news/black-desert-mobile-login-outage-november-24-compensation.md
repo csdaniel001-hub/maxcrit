@@ -33,7 +33,7 @@ image_status: "candidate"
 
 Black Desert Mobile players couldn't log in after the game's November 24 maintenance, on every server and on iOS, Android and the PC client alike. Pearl Abyss has since restored access, but on phones the fix is an app update, so anyone still stuck at the login screen needs to visit their store first.
 
-Downtime for the Americas and Europe was listed from 10:30 UTC on November 24 (02:30 UTC-8 and 11:30 UTC+1 in the notice). The notice was last updated at 09:35 UTC on November 25.
+Downtime for the Americas and Europe began at 10:30 UTC on November 24 (02:30 UTC-8 and 11:30 UTC+1). The notice was last updated at 09:35 UTC on November 25.
 
 ## How to get back into the game
 
@@ -41,7 +41,7 @@ The PC client was restored first. For mobile, Pearl Abyss pushed a new build to 
 
 ## Compensation for the outage
 
-All rewards arrive by in-game mail in batches once Pearl Abyss has prepared them, and the notice says some items may still change.
+All rewards arrive by in-game mail in batches once Pearl Abyss has prepared them, and some items may still change.
 
 - **Every adventurer**: the rewards from three November 24 events. From the Daily To-Do Checklist: 1,000 Sun Crystals, 15,000 Boss Stamps, 5,000 Noble Tear of the Goddess, 20,000 Ancient Tablets and 1,000 Holy Vial of Light. From the Restoration Scroll Rush Event: 12,000 Restoration Scrolls. From the Lucky Shop: 3 10-Time Black Friday Lucky Shop Tickets (Fever).
 - **iOS and Android players**: Fortune Scroll (1 Hour), Special Chicken Soup (1 Hour), Chicken Soup (1 Hour), French Toast and Special French Toast. The amount depends on the total length of the outage, and eligibility follows the mobile platform you used most recently during it.

@@ -29,9 +29,9 @@ HoYoverse has not yet published an end date or a detailed schedule for the test.
 
 ## What's new in the Final Closed Beta
 
-You play as an Animaster and set out from the town of Iia. According to HoYoverse, this build adds more story chapters, new characters, new Anima, new areas and new gameplay features. The new areas it names are all in Iia: a traditional bank, a high-rise office building and a breezy lighthouse island.
+You play as an Animaster and set out from the town of Iia. This build adds more story chapters, new characters, new Anima, new areas and new gameplay features. The named new areas are all in Iia: a traditional bank, a high-rise office building and a breezy lighthouse island.
 
-The press release lists these changes and additions:
+The build also brings these changes and additions:
 
 - **Your own RV**, where you can rest at any time.
 - **Anima habitats** that you can build while exploring.

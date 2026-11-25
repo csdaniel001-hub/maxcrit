@@ -28,7 +28,7 @@ image_alt: "Official MANGMI AIR X Pro teaser image"
 image_status: "candidate"
 ---
 
-MANGMI is revealing its next Android handheld, the AIR X Pro, one spec at a time on its official X account. The latest post confirms the chip: a Qualcomm Snapdragon 865, an octa-core 1+3+4 chip clocked at up to 2.84GHz.
+MANGMI is revealing its next Android handheld, the AIR X Pro, one spec at a time on its official X account. The latest reveal is the chip: a Qualcomm Snapdragon 865, an octa-core 1+3+4 chip clocked at up to 2.84GHz.
 
 | Part | AIR X Pro | AIR X |
 |---|---|---|

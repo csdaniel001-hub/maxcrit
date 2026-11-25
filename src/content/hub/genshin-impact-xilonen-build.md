@@ -56,7 +56,7 @@ Xilonen is a 5-star Geo sword support whose build is unusually forgiving. Her re
 
 ## How to activate her support effects
 
-Xilonen changes her Source Samples according to the other characters' elements. Pyro, Hydro, Cryo and Electro teammates contribute their respective elements. In a support lineup with at least two such teammates, her Skill followed by two Normal Attacks fills her Nightsoul gauge and activates the relevant resistance reduction. Her Burst provides active-character healing in this configuration.
+Xilonen changes her Source Samples to match the other characters' elements. Pyro, Hydro, Cryo and Electro teammates contribute their respective elements. In a support lineup with at least two such teammates, her Skill followed by two Normal Attacks fills her Nightsoul gauge and activates the relevant resistance reduction. Her Burst provides active-character healing in this configuration.
 
 A lineup containing Xilonen, two other Geo characters and just one Hydro teammate cannot use the same support sequence as a mixed-element team. Check the party before spending resources on gear. Her C0 kit also lacks interruption resistance, so replacing a shielder may make a fragile carry harder to play.
 

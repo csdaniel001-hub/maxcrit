@@ -41,7 +41,7 @@ image_alt: Official MuMuPlayer artwork showing Android games on PC and Mac
 image_status: candidate
 ---
 
-Most "lag" in Android emulators comes from a handful of settings: virtualization being off, too little RAM or CPU given to the emulator, a frame-rate cap the game cannot hold, or the wrong graphics chip doing the work. This guide goes through the settings in order of impact, gives starting profiles for common PC specs, and explains how to test changes properly. The menu names below follow BlueStacks 5, but MuMuPlayer, LDPlayer and other emulators have equivalent options.
+Most "lag" in Android emulators comes from a handful of settings: virtualization being off, too little RAM or CPU given to the emulator, a frame-rate cap the game cannot hold, or the wrong graphics chip doing the work. This guide goes through the settings in order of impact, gives starting profiles for common PC specs, and covers how to test changes properly. The menu names below follow BlueStacks 5, but MuMuPlayer, LDPlayer and other emulators have equivalent options.
 
 ## Fix the foundations first
 

@@ -75,7 +75,7 @@ The phones below are examples documented by their manufacturers. Support can var
 | REDMAGIC 11S Pro | Charge Separation | Settings > Battery, or Game Space charging settings on the 11S Pro |
 | Sony Xperia 1 VIII and Xperia 1 VII | H.S. power control | Game enhancer > Game mode |
 
-Samsung's support pages say the feature is on select models within these Galaxy families. ASUS documents its Game Genie option, REDMAGIC describes Charge Separation for its gaming phones and Sony documents H.S. power control for Xperia. If the toggle is missing on your phone, look up that specific model before spending money on accessories.
+The feature is on select models within these Galaxy families. ASUS has its Game Genie option, REDMAGIC has Charge Separation on its gaming phones and Sony has H.S. power control on Xperia. If the toggle is missing on your phone, look up that specific model before spending money on accessories.
 
 ## Enable Pause USB PD charging on a Samsung Galaxy
 
@@ -84,7 +84,7 @@ Samsung's support pages say the feature is on select models within these Galaxy 
 3. Open Gaming Hub, tap More, then Game Booster.
 4. Turn on Pause USB PD charging when gaming and launch your game.
 
-Samsung says to connect the PD charger before opening Gaming Hub. On One UI 6.0 or later, Game Booster shows whether your phone supports the feature without a charger attached. On older software, the option appears only after a PD charger has been connected once. The game also has to stay on screen: Samsung says the feature stops working if you turn the screen off or switch to another screen, even with the game still running.
+Connect the PD charger before opening Gaming Hub. On One UI 6.0 or later, Game Booster shows whether your phone supports the feature without a charger attached. On older software, the option appears only after a PD charger has been connected once. The game also has to stay on screen: the feature stops working if you turn the screen off or switch to another screen, even with the game still running.
 
 If the control is greyed out, check the charger first. A high wattage figure says nothing about PPS support. Connect the charger straight to the phone, without a controller, dock or hub in between, and use an undamaged cable rated for that charger. If the option is still missing, check whether your model and software are on Samsung's list before buying a pricier charger.
 
@@ -92,15 +92,15 @@ If the control is greyed out, check the charger first. A high wattage figure say
 
 On supported ROG phones, open the game, connect the charger to either USB-C port, swipe out Game Genie and tap Charging Mode in Game. Choose Bypass charging in-game. ASUS also offers Smart bypass in-game, which stops charging the battery automatically based on remaining power and usage, and Regular charging in-game, which charges the battery while you play. All three apply only while a game is running. Pick regular charging when you need to top up the battery before heading out.
 
-REDMAGIC's guide puts Charge Separation in Settings > Battery. On the [REDMAGIC 11S Pro](/news/redmagic-11s-pro-pmgc-2026-official-phone.html), REDMAGIC also places it in Game Space under the charging settings. You can set a charging percentage: once the battery reaches it, the phone runs directly from the power source and the battery stays untouched. REDMAGIC says Charge Separation applies to wired charging only, so wireless charging on the 11S Pro charges the battery in the usual way.
+Charge Separation is in Settings > Battery. On the [REDMAGIC 11S Pro](/news/redmagic-11s-pro-pmgc-2026-official-phone.html), it is also in Game Space under the charging settings. You can set a charging percentage: once the battery reaches it, the phone runs directly from the power source and the battery stays untouched. Charge Separation applies to wired charging only, so wireless charging on the 11S Pro charges the battery in the usual way.
 
-Sony's version is H.S. power control (Heat Suppression power control). Sony says that when you game with a charging cable connected, it powers the phone's systems directly and the battery does not charge while it is on. Start the game through Game enhancer, tap the floating Game enhancer icon, open Game mode and switch H.S. power control on. Turn it off when you want the battery to charge.
+Sony's version is H.S. power control (Heat Suppression power control). When you game with a charging cable connected, it powers the phone's systems directly and the battery does not charge while it is on. Start the game through Game enhancer, tap the floating Game enhancer icon, open Game mode and switch H.S. power control on. Turn it off when you want the battery to charge.
 
 ## Pixel and iPhone offer charge limits
 
-Google's Pixel battery guide offers Limit to 80% under Charging optimization on Pixel 6a and later. With it on, the Pixel still charges to full every 10th cycle to keep its battery capacity readings accurate. Google presents it as a battery-health setting, which puts it in the charge-limit row of the table above.
+Pixel 6a and later offer Limit to 80% under Charging optimization. With it on, the Pixel still charges to full every 10th cycle to keep its battery capacity readings accurate. It is a battery-health setting, which puts it in the charge-limit row of the table above.
 
-iPhone 15 models and later have Charge Limit in Settings > Battery > Charging, adjustable from 80 to 100 percent in 5 percent steps. Apple says the iPhone charges to within a few points of the limit and stops, then resumes charging if the level drops more than 5 percent while connected. Apple presents Charge Limit as a battery-lifespan setting, so it also belongs in the charge-limit row.
+iPhone 15 models and later have Charge Limit in Settings > Battery > Charging, adjustable from 80 to 100 percent in 5 percent steps. The iPhone charges to within a few points of the limit and stops, then resumes charging if the level drops more than 5 percent while connected. Charge Limit is a battery-lifespan setting, so it also belongs in the charge-limit row.
 
 ## Do you need a new charger?
 

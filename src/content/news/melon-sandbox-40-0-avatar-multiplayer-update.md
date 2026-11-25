@@ -37,6 +37,6 @@ Melon Sandbox is expanding its multiplayer experiments beyond spawning objects. 
 
 ## Android and iOS versions differ
 
-The Android store page checked for this article still describes 39.4, which introduced protected cooperative construction, vehicle use and item handling for Living characters, plus three additional characters and 218 reported fixes.
+On Android, the store page still describes 39.4, which introduced protected cooperative construction, vehicle use and item handling for Living characters, plus three additional characters and 218 reported fixes.
 
 If you are organizing a multiplayer session, compare version numbers first. Until the Android listing moves to 40.0, the avatars, the new worlds and the six-player rooms are only described for iPhone and iPad, so mixed groups should check that everyone is on the same build.

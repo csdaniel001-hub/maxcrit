@@ -32,7 +32,7 @@ Pearl Abyss has adjusted one of Black Desert Mobile's shared combat systems to r
 - Co-op Rush entry multiplier cap doubles from 50 to 100.
 - Martial God Tournament points earned against an Adventurer's Specter are capped at 3,000.
 - Gear enhancement gains additional confirmation safeguards.
-- Entry to Spoils of Twisted Nightmare: Capital is temporarily closed until November 29 at 18:00, according to the patch schedule.
+- Entry to Spoils of Twisted Nightmare: Capital is temporarily closed until November 29 at 18:00.
 
 ## New events
 

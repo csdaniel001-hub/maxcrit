@@ -65,7 +65,7 @@ The final nine Epic levels consume roughly 77% of the Starry Ore needed for the 
 
 ## Which equipment should you upgrade first?
 
-Choose a loadout according to the jobs your heroes perform. These are example investment paths; each pairing serves a particular attack plan.
+Choose a loadout based on the jobs your heroes perform. These are example investment paths; each pairing serves a particular attack plan.
 
 | Hero | Example loadout or investment path | What it adds to your attack |
 |---|---|---|

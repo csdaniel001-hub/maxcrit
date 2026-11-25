@@ -117,7 +117,7 @@ The December 2 update introduces Sunbringer and Robin. HoYoverse also announced 
 
 
 
-The official Argent Flow notice lists the other possible six-star operators as Si, Typhoeus, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. Complete Chapter I Process I: Break the Siege to access this recruitment. The banner has bonus recruitment milestones at 30 and 60 attempts; banner-specific permits can expire. The exact maintenance cutoff is reported by the wiki as Nov 25 05:59 Asia and Nov 24 16:59 Americas/Europe; keep the publisher's maintenance-dependent cutoff authoritative. Kay is a tracker-reported successor, not a directly verified official notice.
+The other possible six-star operators in Argent Flow are Si, Typhoeus, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. Complete Chapter I Process I: Break the Siege to access this recruitment. The banner has bonus recruitment milestones at 30 and 60 attempts; banner-specific permits can expire. The exact maintenance cutoff is reported by the wiki as Nov 25 05:59 Asia and Nov 24 16:59 Americas/Europe; keep the publisher's maintenance-dependent cutoff authoritative. Kay is a tracker-reported successor, not a directly verified official notice.
 
 ## Goddess of Victory: NIKKE
 

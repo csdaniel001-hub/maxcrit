@@ -90,7 +90,7 @@ PlayCover is a community tool for running iOS apps on Apple Silicon, but it need
 
 Apple's iPhone Mirroring lets a compatible Mac control an app running on a nearby iPhone. This differs from installing the game on macOS: the phone continues to do the app's work. It can be a convenient option for turn-based games or account management if you already own the required devices. Latency, screen scaling and game controls may make action games less comfortable.
 
-There is an important regional restriction. Apple's current support article still states that iPhone Mirroring is unavailable in the European Union. Readers in EU countries need one of the other routes above.
+There is an important regional restriction. iPhone Mirroring is still unavailable in the European Union. Readers in EU countries need one of the other routes above.
 
 ## Find a sustainable performance preset
 

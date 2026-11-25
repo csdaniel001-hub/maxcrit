@@ -40,10 +40,10 @@ The estate is the headline prize, and it comes from completing the Craft Challen
 
 The dates overlap, so the first two weeks are the busy part. From November 25 to December 5 three events run at once: the daily gifts, the Influence Island throwback event and the Craft Challenge. The Influence Island event ends first, on December 5, so if you want its throwback items, finish it before turning to the estate. The daily gifts stop on December 7 and the Craft Challenge on December 8, which leaves a week of quiet before the final gift on December 15.
 
-That last gift has the shortest window of all. EA says it arrives in your inbox on December 15 and must be claimed before December 20, so a player who logs in only occasionally over the holidays should check the inbox in that five-day stretch.
+That last gift has the shortest window of all. It arrives in your inbox on December 15 and must be claimed before December 20, so a player who logs in only occasionally over the holidays should check the inbox in that five-day stretch.
 
 ## What else the update adds
 
-According to the App Store release notes for the update, there are also Holiday Quests with festive rewards and two new Season Passes with birthday and holiday themed items. The notes also name a Plumbob Mansion among the birthday rewards.
+The update also adds Holiday Quests with festive rewards and two new Season Passes with birthday and holiday themed items. The App Store notes also name a Plumbob Mansion among the birthday rewards.
 
 EA marked the anniversary with numbers too: around 5 billion Sims living in nearly half a billion SimTowns, about 140 million engagement rings, roughly 71 million pets including dragons and teacup pigs, and 8 million custom Home Lots submitted. The first version held a single neighbourhood of up to 16 Sims; towns now hold up to 53 Sims across five regions, with more than 37,000 Build Mode and Create a Sim items.

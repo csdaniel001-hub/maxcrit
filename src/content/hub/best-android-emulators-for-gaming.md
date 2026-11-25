@@ -94,7 +94,7 @@ Long sessions and auto-play make stability the priority. Pick the emulator that 
 
 ### Competitive shooters
 
-Follow the publisher. For PUBG Mobile that means GameLoop. Call of Duty: Mobile is a different case: Activision's support FAQ says emulators are not supported, even though GameLoop lists the game. In PUBG Mobile, emulator players are placed in lobbies with other emulator players, and a mobile player who joins a squad with an emulator player is pulled into that lobby too.
+Follow the publisher. For PUBG Mobile that means GameLoop. Call of Duty: Mobile is a different case: Activision does not support emulators, even though GameLoop lists the game. In PUBG Mobile, emulator players are placed in lobbies with other emulator players, and a mobile player who joins a squad with an emulator player is pulled into that lobby too.
 
 ### Supercell games
 

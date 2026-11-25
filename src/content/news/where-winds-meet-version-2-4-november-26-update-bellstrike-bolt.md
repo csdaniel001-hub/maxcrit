@@ -35,13 +35,13 @@ image_alt: "Official App Store screenshot of Where Winds Meet"
 image_status: "candidate"
 ---
 
-Where Winds Meet adds a new Path on November 26, the next step in its first-anniversary Version 2.4 update. The [developer letter published November 25](https://www.wherewindsmeetgame.com/news/official/1125devletter.html) introduces Bellstrike - Bolt, which pairs the Trialedge Spear (Light Spear) with the Peakwane Spear (Heavy Spear).
+Where Winds Meet adds a new Path on November 26, the next step in its first-anniversary Version 2.4 update. Bellstrike - Bolt pairs the Trialedge Spear (Light Spear) with the Peakwane Spear (Heavy Spear).
 
-The letter's headline sums up the split: light to pursue, heavy to counter. Trialedge closes distance and keeps pressure on a target. Peakwane is built around a parry stance that turns a blocked hit into a chain of counterattacks.
+The two spears split the work: light to pursue, heavy to counter. Trialedge closes distance and keeps pressure on a target. Peakwane is built around a parry stance that turns a blocked hit into a chain of counterattacks.
 
 ## November 26 live update schedule
 
-The official notice lists the live update for November 26 from 05:00 to 10:00 (UTC+8).
+The live update runs on November 26 from 05:00 to 10:00 (UTC+8), which is 21:00 UTC on November 25 to 02:00 UTC on November 26.
 
 | Time zone | Scheduled start | Scheduled end |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ The official notice lists the live update for November 26 from 05:00 to 10:00 (U
 | CET | Nov 25, 22:00 | Nov 26, 03:00 |
 | UTC+8 | Nov 26, 05:00 | Nov 26, 10:00 |
 
-According to the [official news feed](https://www.wherewindsmeetgame.com/m/news/?from=nav), players can stay logged in and keep playing, although some features and modes may be unavailable for a while. The notice also says the window may end early or run long depending on server conditions.
+Players can stay logged in and keep playing, although some features and modes may be unavailable for a while. The window may end early or run long depending on server conditions.
 
 ## Trialedge Spear and Peakwane Spear skills
 
@@ -64,10 +64,10 @@ According to the [official news feed](https://www.wherewindsmeetgame.com/m/news/
 
 The two Varied Combos share one trigger, the Dual-Weapon Skill. That makes the weapon swap the natural pivot of the Path: open with Trialedge's gap closer and Golden Edict, swap, then let Peakwane take over when the enemy turns aggressive. Iron Phalanx is the skill to practise first, since its payoff depends on landing the parry.
 
-The letter credits Director Yuen Woo-ping, the game's Global Action Consultant, for the spear combat design, with the Yuen Clan action team performing the motion capture.
+Director Yuen Woo-ping, the game's Global Action Consultant, is credited with the spear combat design, with the Yuen Clan action team performing the motion capture.
 
 ## Which spear to try first
 
 Players who already lean on parries will find Peakwane's counter chain the more familiar of the two. Players who spend fights chasing enemies across the field get the bigger change from Heavenfall Surge, which covers the distance in one throw. A first session against a familiar enemy is enough to tell which spear suits your timing.
 
-According to the publisher's [Xbox Wire feature](https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo/), the Dual Spears are the second half of an anniversary update that opened with the Hutuo region.
+The Dual Spears are the second half of an anniversary update that opened with the Hutuo region.

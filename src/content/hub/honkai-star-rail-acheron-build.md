@@ -102,6 +102,6 @@ Build nine Slashed Dream points, maintain useful enemy debuffs, then target enem
 
 A Glance Through Rime to Bone grants a follow-up when a teammate attacks a Crimson Knot target. The attack counts as Ultimate damage, benefits from The Abyss and grants one Slashed Dream. The trigger is limited to once until Acheron's next turn resets it. This gives extra turns and frequent teammate attacks more value. It does not change The Abyss's Nihility requirement; only E2 lowers it.
 
-During Grab Your Opening Gifts, Acheron is one of three choices in both Magic Invitation (character acquisition) and Affinitive Starveil (Affinitive Eidolon). The latter is a free event choice independent of her normal Eidolon level; choose according to your roster. Myriad Symphony is a second route to an Affinitive Eidolon, earned by spending Star Rail Special Passes or Fashion Invites during the event.
+During Grab Your Opening Gifts, Acheron is one of three choices in both Magic Invitation (character acquisition) and Affinitive Starveil (Affinitive Eidolon). The latter is a free event choice independent of her normal Eidolon level; choose based on your roster. Myriad Symphony is a second route to an Affinitive Eidolon, earned by spending Star Rail Special Passes or Fashion Invites during the event.
 
 See the [current HSR banner schedule](/hub/banners/honkai-star-rail-banners.html) for availability, and retain your existing relics until you know which teammate improvements matter most.

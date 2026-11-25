@@ -22,7 +22,7 @@ image_alt: "Official App Store screenshot of Clash of Clans"
 image_status: "candidate"
 ---
 
-Squads arrived with the Clash of Titans update on November 16, 2026. A Squad is a fixed group of troops that deploys with one tap, in a set formation, and costs less housing space than placing the same troops one by one. This page lists every Squad Supercell released at launch, straight from the official update notes.
+Squads arrived with the Clash of Titans update on November 16, 2026. A Squad is a fixed group of troops that deploys with one tap, in a set formation, and costs less housing space than placing the same troops one by one. This page covers every Squad Supercell released at launch.
 
 ## How Squads work
 

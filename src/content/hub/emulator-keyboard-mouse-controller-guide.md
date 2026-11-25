@@ -38,7 +38,7 @@ image_alt: Official Google Play Games on PC artwork
 image_status: candidate
 ---
 
-Mobile games are built for touchscreens, so emulators translate keys, mouse clicks and gamepad buttons into touches on the screen. Good mapping makes a game feel like it was built for PC. Bad mapping makes it harder than playing on a phone. This guide explains how mapping works, how to set it up in the main emulators, and sensible layouts for different kinds of games.
+Mobile games are built for touchscreens, so emulators translate keys, mouse clicks and gamepad buttons into touches on the screen. Good mapping makes a game feel like it was built for PC. Bad mapping makes it harder than playing on a phone. This guide covers how mapping works, how to set it up in the main emulators, and sensible layouts for different kinds of games.
 
 ## How key mapping works
 

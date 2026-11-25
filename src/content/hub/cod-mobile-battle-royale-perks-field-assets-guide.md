@@ -34,7 +34,7 @@ Season 10 introduces a new equipment vocabulary in Call of Duty: Mobile Battle R
 
 ## Choosing a Perk
 
-The Season 10 announcement describes these options for Battle Royale. Perks appear during matches and are available through loadouts at Loadout Drops and Buy Stations. The recommendations in the final column are our practical interpretations of the published effects.
+These are the Season 10 options for Battle Royale. Perks appear during matches and are available through loadouts at Loadout Drops and Buy Stations. The recommendations in the final column are our practical interpretations of the published effects.
 
 | Perk | Published effect in brief | When to prioritize it |
 |---|---|---|

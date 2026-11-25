@@ -50,7 +50,7 @@ image_alt: Official Google Play Games on PC artwork
 image_status: candidate
 ---
 
-Android emulators are legitimate programs used by millions of players, and installing one is not against the law or against Google's rules. The real question is what each game's publisher allows. Some welcome emulator players, some separate them, some only allow official PC routes, and a few forbid emulators entirely. This guide explains the three kinds of risk, download safety, account bans and lost progress, and how to avoid each.
+Android emulators are legitimate programs used by millions of players, and installing one is not against the law or against Google's rules. The real question is what each game's publisher allows. Some welcome emulator players, some separate them, some only allow official PC routes, and a few forbid emulators entirely. This guide covers the three kinds of risk, download safety, account bans and lost progress, and how to avoid each.
 
 ## Unsafe downloads
 

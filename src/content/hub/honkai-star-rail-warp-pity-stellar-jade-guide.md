@@ -73,7 +73,7 @@ The 62.5% case only applies when the featured character can be added to your Cel
 
 ## Track the counters separately
 
-In Version 4.7, the official notice specifically confirms shared guarantee progress between A Comedy of Stars and Indelible Coterie, with a different shared counter for Brilliant Fixation and Coalesced Truths. Progress carries across phases and future Event Warps of the same type. Character progress cannot be applied to a Light Cone Warp, or vice versa. Standard and collaboration Warps also have their own rules.
+In Version 4.7, A Comedy of Stars and Indelible Coterie share guarantee progress, and Brilliant Fixation and Coalesced Truths share a different counter. Progress carries across phases and future Event Warps of the same type. Character progress cannot be applied to a Light Cone Warp, or vice versa. Standard and collaboration Warps also have their own rules.
 
 Pulling for a rerun 4-star can unexpectedly produce a 5-star and consume the pity or guarantee you meant to reserve. If you would regret receiving the featured 5-star on that banner, save the Special Passes instead.
 

@@ -24,7 +24,7 @@ image_alt: "Official App Store screenshot of EA SPORTS FC Soccer Mobile 27"
 image_status: "candidate"
 ---
 
-EA's November 19 progression announcement introduces a new decision for managers who have already maxed out their favorite cards: improve their performance further or preserve their transfer-market flexibility.
+EA announced FC Mobile progression changes on November 19 that give managers who have already maxed out their favorite cards a new decision: improve their performance further or preserve their transfer-market flexibility.
 
 ## What Rank 6 adds
 

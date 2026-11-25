@@ -44,7 +44,7 @@ The first priority is learning one map with a kit you can afford to replace. Gar
 
 ## Prepare a budget kit
 
-Gear Tickets are a convenient starting point. Garena's beginner guide confirms they supply armor, weapons, ammunition and medical items. You earn more through missions and events. Dying still costs you everything you carry outside the Safe Box, including loot and any extra gear you added to the ticket kit.
+Gear Tickets are a convenient starting point. They supply armor, weapons, ammunition and medical items. You earn more through missions and events. Dying still costs you everything you carry outside the Safe Box, including loot and any extra gear you added to the ticket kit.
 
 When you assemble a kit yourself, check these slots in Loadout before matchmaking.
 

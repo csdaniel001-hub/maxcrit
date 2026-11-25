@@ -33,7 +33,7 @@ HoYoverse has dated Zenless Zone Zero Version 3.4, "The Finality of the Day", fo
 | Second half of Version 3.4 | Kafka (crossover) | S-Rank Agent |
 | Second half of Version 3.4 (rerun) | Alice, with the W-Engine Practiced Perfection | S-Rank Agent |
 
-Sunbringer is a Genesis Flare Armorer Agent and, according to HoYoverse, the first Enchainer Agent and a new Void Hunter. In combat, the three Sunbringers, Eldreda, Lindverne and Dracaene, rotate in with a lance, a greatsword and a shield. Their attacks stack Gash, consuming Gash triggers Maim and builds Wishfire, and their two-stage Ultimate detonates every Embermark stack on the enemy at once for an Emberburst. A new Bangboo, Sleepwalkerboo, summons Bangboo soldiers and boosts Sunbringer's damage when she's on the squad.
+Sunbringer is a Genesis Flare Armorer Agent, the first Enchainer Agent and a new Void Hunter. In combat, the three Sunbringers, Eldreda, Lindverne and Dracaene, rotate in with a lance, a greatsword and a shield. Their attacks stack Gash, consuming Gash triggers Maim and builds Wishfire, and their two-stage Ultimate detonates every Embermark stack on the enemy at once for an Emberburst. A new Bangboo, Sleepwalkerboo, summons Bangboo soldiers and boosts Sunbringer's damage when she's on the squad.
 
 Robin is a support who keeps her Concerto performance going off-field, giving teammates shields and raising their DEF and DMG; her Ultimate can also restore Sharpness for Armorer Agents. Kafka is an S-Rank Electric Agent built around Attribute Anomalies and Disorder DMG.
 

@@ -25,9 +25,9 @@ Supercell has announced a third Equipment rarity for Clash of Clans. Legendary E
 
 ## How to get the Blizzard Axe
 
-The Axe will be free to earn through a new Crafting Event, available from Town Hall 8. Supercell's post refers to it as December's Crafting Event, and says the event also gives you more chances to earn Ore, including ways to help your clanmates earn Ore for their own upgrades.
+The Axe will be free to earn through a new Crafting Event, available from Town Hall 8. It is December's Crafting Event, and it also gives you more chances to earn Ore, including ways to help your clanmates earn Ore for their own upgrades.
 
-If you miss the event, the Axe will come back through other sources such as the Trader, Equipment Blast Events and Hero Journey. Supercell says every new piece of Equipment, Legendaries included, will stay earnable for free through events.
+If you miss the event, the Axe will come back through other sources such as the Trader, Equipment Blast Events and Hero Journey. Every new piece of Equipment, Legendaries included, will stay earnable for free through events.
 
 For faster progress there is an optional Craft Pass at US$9.99 (with regional pricing). It includes the Blizzard Axe already at level 15, alongside other rewards. That price applies only to Legendary Crafting Events; the regular Event Pass price doesn't change.
 
@@ -47,7 +47,7 @@ Up to level 27, the Blizzard Axe and future Epics share identical upgrade costs,
 
 ## Cheaper Epics, and more Ore
 
-The same post confirms that future Epic Equipment will cost less to max: 430 Starry Ore (down from 480) and 3,550 Glowy Ore (down from 3,720), with Shiny unchanged. Older Epics will also get cheaper over time, phased in as they age, but there's no schedule yet.
+Future Epic Equipment will cost less to max: 430 Starry Ore (down from 480) and 3,550 Glowy Ore (down from 3,720), with Shiny unchanged. Older Epics will also get cheaper over time, phased in as they age, but there's no schedule yet.
 
 Supercell also listed the Ore changes it has made since June, from Hero Journey to the Star Bonus rework in the November update. Clan War Ore rewards are unchanged. Its own figure: for Town Hall 16+ players active on at least 14 days a month, average monthly Starry Ore income roughly doubled, from 98 in March to 203 in September, counting free and paid sources.
 

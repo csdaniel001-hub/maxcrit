@@ -30,7 +30,7 @@ Konami issued an Android-specific account notice on November 24 explaining what 
 
 Refunded Coins are automatically deducted. If the available paid and free Coin balance cannot cover that deduction, the balance can fall below zero and certain in-game functions may be restricted.
 
-Transferring the account to another operating system will not lift the restrictions. According to the publisher, restoring a positive balance removes them.
+Transferring the account to another operating system will not lift the restrictions. Restoring a positive balance removes them.
 
 ## Before you request a refund
 
