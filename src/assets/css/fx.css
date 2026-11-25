@@ -292,3 +292,6 @@ html[data-gz] body .mt-banner .mt-bar i{background:linear-gradient(90deg,#c58bff
 html[data-gz] body .mt-urgent .mt-cd{color:#ff5aa5}html[data-gz] body .mt-urgent .mt-bar i{background:#ff2e88}
 @media (max-width:900px){html[data-gz] body .mt-list{grid-template-columns:1fr}html[data-gz] body .mt-it:nth-child(2) a{border-top:1px solid rgba(225,232,255,.12)}}
 @media (max-width:520px){html[data-gz] body .mc-timers{padding:14px 12px 6px}html[data-gz] body .mt-it a{grid-template-columns:36px minmax(0,1fr) 92px;gap:10px}html[data-gz] body .mt-ic{width:36px;height:36px}html[data-gz] body .mt-sub{display:none}html[data-gz] body .mt-cd{font-size:12px}}
+/* Gacha section banner: legible title over the bright lineup art (mobile centres the text over the faces) */
+html[data-gz] body a.hz-rbh.gx-bar h2{text-shadow:0 2px 3px rgba(6,3,20,.95),0 0 18px rgba(6,3,20,.9)}
+@media (max-width:700px){html[data-gz] body a.hz-rbh.gx-bar{background:linear-gradient(rgba(12,8,32,.62),rgba(12,8,32,.62)) padding-box,url(../img/kit/gacha-lineup.webp) 50% 40%/cover no-repeat padding-box!important}}
