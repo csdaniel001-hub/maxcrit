@@ -35,7 +35,7 @@ export default {
   // Analytics IDs. A tag is only output once its ID is filled in.
   //  - Cloudflare Web Analytics: cookieless, runs for everyone (token from the Cloudflare dashboard)
   //  - Google Analytics 4: sets cookies, so it loads only after the visitor accepts (Measurement ID "G-...")
-  analytics: { cloudflare: "[CLOUDFLARE WEB ANALYTICS TOKEN]", ga4: "[GA4 MEASUREMENT ID]", gaMonths: 14 },
+  analytics: { cloudflare: "ca97cd5a05dc41198769fd1c1493bd1d", ga4: "[GA4 MEASUREMENT ID]", gaMonths: 14 },
   // Services that need consent. The banner appears when at least one is set.
   consent: {
     analytics: { name: "Google Analytics 4", purpose: "see which pages are read and how people find the site", privacy: "https://policies.google.com/privacy" },

@@ -569,3 +569,10 @@ mabinogi-mobile:
   official: "https://mabinogimobile.nexon.co.jp/"
   appstore: "https://apps.apple.com/jp/app/id6775403879"
   status: "Live in Japan"
+terraria:
+  name: "Terraria"
+  publisher: "Re-Logic / 505 Games"
+  official: "https://terraria.org/"
+  appstore: "https://apps.apple.com/us/app/terraria/id640364616"
+  googleplay: "https://play.google.com/store/apps/details?id=com.and.games505.TerrariaPaid"
+  status: "Live"

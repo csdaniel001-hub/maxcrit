@@ -12,7 +12,7 @@ platforms:
 titles:
 - mir4
 tldr:
-- "**Four new Divine Charts**: Hongyeop, Seolhwa, Jilpung and Hyeonbing, each with a passive that grows from Rare to Legendary."
+- "<b>Four new Divine Charts</b>: Hongyeop, Seolhwa, Jilpung and Hyeonbing, each with a passive that grows from Rare to Legendary."
 - The Silver Frost 14-Day Check-in runs until December 21, Cheonho's Gift Box and Osher's Miraculous Fortune until December 7.
 - The Legendary Magic Stone Challenge Event gives one free challenge a day from November 30 to December 2.
 - Ara's Training Memoir, a new Mission Scroll for Dragonians on regular servers, unlocks on December 1.

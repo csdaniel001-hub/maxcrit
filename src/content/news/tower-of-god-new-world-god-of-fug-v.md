@@ -13,7 +13,7 @@ platforms:
 titles:
 - tower-of-god-new-world
 tldr:
-- "**[God of FUG] V** is a FUG-grade Blue Element Mage and Wave Controller, the same grade as Luslec, Gustang and Urek Mazino."
+- "<b>[God of FUG] V</b> is a FUG-grade Blue Element Mage and Wave Controller, the same grade as Luslec, Gustang and Urek Mazino."
 - The Advent Summon and the Labyrinth of Memories V story event both run until December 9.
 - Growth Exchange moves Limit Break, Revolution and Potential between SSR+ Teammates. Everyone gets 1 exchange, returning players up to 5.
 sources:

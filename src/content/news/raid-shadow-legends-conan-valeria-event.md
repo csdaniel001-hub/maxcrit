@@ -13,7 +13,7 @@ platforms:
 titles:
 - raid-shadow-legends
 tldr:
-- "**Valeria is free**: log in on 7 days between November 23 and January 7, 2027. The days don't need to be in a row."
+- "<b>Valeria is free</b>: log in on 7 days between November 23 and January 7, 2027. The days don't need to be in a row."
 - Start the Valeria Chase Event before December 28, 2026 to finish it in time.
 - Conan is the last reward on the paid Elite Champion Pass, which runs until February 23, 2027.
 sources:

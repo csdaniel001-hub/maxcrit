@@ -14,7 +14,7 @@ sources:
   - { title: "Liquipedia: Patch 2.2.23 (copy of the in-game patch notes)", url: "https://liquipedia.net/mobilelegends/Patch_2.2.23" }
   - { title: "MLBBHub: Patch 2.2.23, Original Server (copy of the in-game patch notes)", url: "https://mlbbhub.com/patch-notes/original/2.2.23" }
 tldr:
-  - "Patch 2.2.23 reached the Original Server on **November 11, 2026**."
+  - "Patch 2.2.23 reached the Original Server on <b>November 11, 2026</b>."
   - "Popol can now ride Kupa, and Popol can call Kupa back after Kupa falls."
   - "Xavier's Mystic Field damage doubles; Gloo, Masha and Atlas are nerfed."
   - "Card Brawl runs from November 20 to December 15, server time."

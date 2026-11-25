@@ -13,7 +13,7 @@ platforms:
 titles:
 - arknights-endfield
 tldr:
-- "**1,800 Oroberyl free**: 900 for the maintenance and 900 as bug fix compensation, in two mails that expire at the next version update."
+- "<b>1,800 Oroberyl free</b>: 900 for the maintenance and 900 as bug fix compensation, in two mails that expire at the next version update."
 - 6★ Kay is the Rate-UP on the Anvil, Backpack, Plus A Pot o'Honey banner until December 23, and you can trial her first in Combat Drills.
 - 5★ Mimino and the Star of Tomorrow handcannon are free from December 16 through the Workers' Guards Roll Call giveaway.
 - The new area is Wuling - Old Dam, with Waffle Piloting and a permanent Exclusion Zone Rebuilding mode.

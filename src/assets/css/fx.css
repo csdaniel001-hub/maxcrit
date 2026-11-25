@@ -128,7 +128,7 @@ html[data-gz] body .gs-in{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!impo
 .gs-lead > b{margin-top:auto!important}
 .gs-lead{justify-content:flex-end;padding-bottom:18px}
 .gs-lead > .gs-d{margin-top:8px;-webkit-line-clamp:2!important}
-.gs-list{display:grid!important;grid-template-rows:repeat(4,1fr);height:392px}
+.gs-list{display:grid!important;grid-template-rows:none;grid-auto-rows:1fr;height:392px}
 .gs-list li{display:flex;align-items:center;min-height:0}
 .gs-list li a,.gs-list li:first-child a{width:100%;padding:0!important;grid-template-columns:140px minmax(0,1fr)!important}
 .gs-list li + li{border-top:1px solid rgba(225,232,255,.16)}

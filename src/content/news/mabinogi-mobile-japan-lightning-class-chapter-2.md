@@ -12,7 +12,7 @@ platforms:
 titles:
 - mabinogi-mobile
 tldr:
-- "**New class**: 電撃術師 (dengeki jutsushi), a ranged lightning caster with its own weapons, gear and accessory runes."
+- "<b>New class</b>: 電撃術師 (dengeki jutsushi), a ranged lightning caster with its own weapons, gear and accessory runes."
 - Chapter 2 of the 女神降臨 (Megami Kōrin) story, 荒野の魔女, adds a new area north of Dunbarton and the mining town Bangor.
 - The new Enchant system lets you add stats and bonus effects to weapons and armor with Enchant Scrolls.
 - The White Succubus raid arrives on December 7, and the class levelling event runs until December 9.
