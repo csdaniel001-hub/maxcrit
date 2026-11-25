@@ -13,7 +13,7 @@ image: "/assets/img/destiny-rising-november-26-gwynn-aura.jpg"
 image_source: "https://www.playdestinyrising.com/"
 image_credit: "NetEase Games"
 image_alt: "Official Destiny: Rising key art: five characters on a snowy ridge under a large moon"
-image_status: "candidate"
+image_status: "approved"
 sources:
 - title: "Destiny: Rising Weekly Patch Notes 1126"
   url: https://www.playdestinyrising.com/news/20261125/41118_1320772.html
