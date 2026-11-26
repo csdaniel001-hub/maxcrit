@@ -690,3 +690,10 @@ hearthstone:
   appstore: "https://apps.apple.com/us/app/hearthstone/id625257520"
   googleplay: "https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone"
   status: "Live"
+free-fire:
+  name: "Free Fire"
+  publisher: "Garena"
+  official: "https://ff.garena.com/"
+  appstore: "https://apps.apple.com/us/app/free-fire-x-naruto-shippuden/id1300146617"
+  googleplay: "https://play.google.com/store/apps/details?id=com.dts.freefireth"
+  status: "Live"
