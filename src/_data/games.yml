@@ -683,3 +683,10 @@ no-mans-sky:
   official: "https://www.nomanssky.com/"
   appstore: "https://apps.apple.com/us/app/no-mans-sky/id1615755735"
   status: "Live"
+hearthstone:
+  name: "Hearthstone"
+  publisher: "Blizzard Entertainment"
+  official: "https://hearthstone.blizzard.com/"
+  appstore: "https://apps.apple.com/us/app/hearthstone/id625257520"
+  googleplay: "https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone"
+  status: "Live"
