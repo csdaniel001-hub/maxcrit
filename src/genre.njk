@@ -4,8 +4,8 @@ pagination: { data: genreNav, size: 1, alias: g }
 permalink: "/genre/{{ g.slug }}.html"
 activeSection: genres
 eleventyComputed:
-  title: "{{ g.name }} mobile games: news, patches and guides"
-  seo_title: "{{ g.name }} games: news, patches and guides"
+  title: "{{ g.adj or g.name }} mobile games: news, patches and guides"
+  seo_title: "{{ g.adj or g.name }} games: news, patches and guides"
   summary: "{{ g.desc }}"
   activeNav: "g-{{ g.slug }}"
   noindex: "{{ '' if (collections.everything | byGenre(g.slug)).length else 'yes' }}"
