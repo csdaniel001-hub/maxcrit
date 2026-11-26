@@ -10,3 +10,7 @@
 - { label: "Gracewing reset", game: aniimo, ends: "2026-12-10T20:00:00Z", url: "/news/aniimo-november-26-update-whisperwake-isles-events.html", note: "all servers", kind: event }
 - { label: "Names Forged Beneath Blazing Skies (Chronicled Wish)", game: genshin-impact, ends: "2026-12-15T06:59:00Z", url: "/hub/banners/genshin-impact-banners.html", kind: banner }
 - { label: "A Comedy of Stars warp (Aeon ★ Aha)", game: honkai-star-rail, ends: "2026-12-22T07:00:00Z", url: "/hub/banners/honkai-star-rail-banners.html", kind: banner }
+- { label: "Black Friday sale and TennoGen discount", game: warframe, ends: "2026-11-30T16:00:00Z", url: "/hub/events/warframe-events.html", kind: event }
+- { label: "Harvest Festival events and Kasia's Wish House", game: whiteout-survival, ends: "2026-11-30T23:59:59Z", url: "/news/whiteout-survival-thanksgiving-2026-harvest-festival.html", kind: event }
+- { label: "Maintenance compensation (Lunacy x300) claim deadline", game: limbus-company, ends: "2026-12-03T01:00:00Z", url: "/news/limbus-company-november-26-2026-update.html", kind: event }
+- { label: "Haute Couture Target Extraction (Gregor, Yi Sang)", game: limbus-company, ends: "2026-12-10T01:00:00Z", url: "/news/limbus-company-november-26-2026-update.html", kind: banner }
