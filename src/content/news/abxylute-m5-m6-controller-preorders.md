@@ -1,6 +1,6 @@
 ---
-title: abxylute opens M5 and M6 magnetic controller pre-orders
-seo_title: abxylute M5 and M6 controller pre-orders open
+title: Pre-orders open for abxylute's M5 and M6 magnetic controllers
+seo_title: Pre-orders open for abxylute M5 and M6 controllers
 summary: The wired abxylute M5 costs $84.99 and the Bluetooth M6 costs $89.99. Compare the magnetic controllers, their controls and estimated shipping windows.
 keyword: abxylute M5 M6 controller
 published_at: '2026-11-26T22:59:00Z'
@@ -30,7 +30,7 @@ image_alt: "Official abxylute M6 magnetic controller product image"
 image_status: "candidate"
 ---
 
-abxylute has opened retail pre-orders for the M5 and M6 magnetic phone controllers following its crowdfunding campaign. The M5 with grip costs $84.99 in the US, while the M6 with grip is $89.99. The current store estimates dispatch in late January 2027 for M5 orders and late December 2026 for M6 orders.
+Retail pre-orders are now open for abxylute's M5 and M6 magnetic phone controllers, following the brand's crowdfunding campaign. The M5 with grip costs $84.99 in the US, while the M6 with grip is $89.99. The current store estimates dispatch in late January 2027 for M5 orders and late December 2026 for M6 orders.
 
 The $5 difference buys a substantially different control layout. The M5 connects through USB-C and has no separate battery to charge. Its low-profile joysticks, tactile shoulder buttons and separated directional pad are aimed at players who want a compact setup. It also lets a compatible phone charge through the controller while playing.
 
