@@ -14,3 +14,4 @@
 - { label: "Harvest Festival events and Kasia's Wish House", game: whiteout-survival, ends: "2026-11-30T23:59:59Z", url: "/news/whiteout-survival-thanksgiving-2026-harvest-festival.html", kind: event }
 - { label: "Maintenance compensation (Lunacy x300) claim deadline", game: limbus-company, ends: "2026-12-03T01:00:00Z", url: "/news/limbus-company-november-26-2026-update.html", kind: event }
 - { label: "Haute Couture Target Extraction (Gregor, Yi Sang)", game: limbus-company, ends: "2026-12-10T01:00:00Z", url: "/news/limbus-company-november-26-2026-update.html", kind: banner }
+- { label: "Endstate Matrix: Adversity Vanguard cycle", game: wuthering-waves, ends: "2026-12-21T19:59:00Z", url: "/hub/events/wuthering-waves-events.html", kind: event }
