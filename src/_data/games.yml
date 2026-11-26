@@ -670,3 +670,16 @@ limbus-company:
   appstore: "https://apps.apple.com/us/app/limbus-company/id6444112366"
   googleplay: "https://play.google.com/store/apps/details?id=com.ProjectMoon.LimbusCompany"
   status: "Live"
+azur-promilia:
+  name: "Azur Promilia"
+  publisher: "Manjuu"
+  official: "https://azurpromilia.jp/"
+  appstore: "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AD%E3%83%9F%E3%83%AA%E3%82%A2/id6787982572"
+  googleplay: "https://play.google.com/store/apps/details?id=com.Yostar.AzurpromiliaJP"
+  status: "Live"
+no-mans-sky:
+  name: "No Man's Sky"
+  publisher: "Hello Games"
+  official: "https://www.nomanssky.com/"
+  appstore: "https://apps.apple.com/us/app/no-mans-sky/id1615755735"
+  status: "Live"
