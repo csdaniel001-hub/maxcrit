@@ -58,7 +58,7 @@ The rest is lighter. A new story quest, Hymn of Calm, brings the Sanctum back, w
 
 | Activity | Window (server time) | What you get |
 | --- | --- | --- |
-| Annual Carnival | Nov 27, 10:00 to Dec 1, 12:00 | Free gift box, plus Starlight Echoes spending tiers |
+| Annual Carnival | Nov 27, 14:00 to Dec 1, 12:00 (server time) | Free gift box, plus Starlight Echoes spending tiers |
 | Operation: Egg Heist | After update to Dec 9, 23:59 | 100% higher collectible drop rates in Team Mode |
 | Gracewing reset | After update to Dec 10, 20:00 UTC | Refund of upgrade materials |
 | Fantasy Resonance | After update to Dec 17, 03:59 | Event for Student I players |

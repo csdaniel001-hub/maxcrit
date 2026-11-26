@@ -60,4 +60,4 @@ A rejected code usually means a typo, a code your account has already used, or a
 
 ## Free rewards beyond codes
 
-Gift codes are separate from event rewards. During the Annual Carnival, from November 27, 10:00 to December 1, 12:00 server time, Student I players can claim the free Aniimo Gratitude Gift Box from Shop > Pack. It holds a Departure with the Wind: Collectible Blind Box, 100 Wonder Sugar Crystal and 5 Vein Essence. Our [November 26 update coverage](/news/aniimo-november-26-update-whisperwake-isles-events.html) has the full event schedule.
+Gift codes are separate from event rewards. During the Annual Carnival, from November 27, 14:00 to December 1, 12:00 server time, Student I players can claim the free Aniimo Gratitude Gift Box from Shop > Pack. It holds a Departure with the Wind: Collectible Blind Box, 100 Wonder Sugar Crystal and 5 Vein Essence. Our [November 26 update coverage](/news/aniimo-november-26-update-whisperwake-isles-events.html) has the full event schedule.
