@@ -99,7 +99,7 @@ Full rules: `docs/editorial-standard-amendments.md` section 10. In short:
 - Packages follow `docs/package-format.md`: repo front matter, an evidence record (URL + short exact quote) for every consequential claim, image URL with credit and alt, duplicate check, game registration data when needed.
 - Verification: fresh-agent review for Tier 3 only. Tier 1 and Tier 2 get targeted direct checks: Claude spot-checks the critical claims (dates, numbers, names, rewards, recommendations) against the quoted sources, and widens the check only when something doesn't match.
 - A draft that fails is returned to Mira with the failed claim or missing information. Claude doesn't rewrite it. Minor wording and formatting fixes are still done directly.
-- One build, commit and push per batch; check the live site once after the deploy, no repeated polling.
+- One build, commit and push per batch. Don't wait for the deploy (Daniel, 2026-11-26): report the batch as "pushed, live in about 8 minutes", never as "live". At the start of the next batch, check the previous deploy's status once (`gh run list -L 1`) and fix it if it failed. Mira and Daniel confirm the live pages in the browser.
 - An automated publisher was assessed (2026-11-26) and parked: feasible, but not built for now.
 
 ## Builds directory metadata (2026-11-25)
