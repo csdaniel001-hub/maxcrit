@@ -730,3 +730,17 @@ shard-squad:
   official: "https://play.google.com/store/apps/details?id=com.nuntiusgames.shardsquad"
   googleplay: "https://play.google.com/store/apps/details?id=com.nuntiusgames.shardsquad"
   status: "Launches December 10, 2026"
+pokemon-sleep:
+  name: "Pokémon Sleep"
+  publisher: "The Pokémon Company"
+  official: "https://www.pokemonsleep.net/en/"
+  appstore: "https://apps.apple.com/us/app/pok%C3%A9mon-sleep/id1579464667"
+  googleplay: "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonsleep"
+  status: "Live"
+dicevaders:
+  name: "Dicevaders"
+  publisher: "Playstack"
+  official: "https://www.playstack.com/games/dicevaders/"
+  appstore: "https://apps.apple.com/us/app/dicevaders-try-buy/id6795440707"
+  googleplay: "https://play.google.com/store/apps/details?id=com.playstack.dicevaders"
+  status: "Live"
