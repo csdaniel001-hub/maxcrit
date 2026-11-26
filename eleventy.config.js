@@ -72,6 +72,20 @@ export default function (eleventyConfig) {
   // Undo entity escaping done by computed front matter, so titles are escaped exactly once
   eleventyConfig.addFilter("unent", (v) => String(v ?? "").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
   eleventyConfig.addFilter("limit", (arr, n) => (arr || []).slice(0, n));
+  // Related items that don't change every time something new is published (2026-11-26):
+  // up to 2 newest from the same game, then older items from the same game, the same genre, then any older item.
+  eleventyConfig.addFilter("relatedStable", (arr, url, titles, genres, pub, n = 4) => {
+    const all = (arr || []).filter((x) => x.url !== url), t = new Date(pub), g = (titles || [])[0], ge = (genres || [])[0];
+    const same = all.filter((x) => g && (x.data.titles || []).includes(g));
+    const older = (xs) => xs.filter((x) => new Date(x.data.published_at) < t);
+    const out = [];
+    const add = (xs, max) => { for (const x of xs) { if (out.length >= n || (max !== undefined && max <= 0)) break; if (!out.includes(x)) { out.push(x); if (max !== undefined) max--; } } };
+    add(same, 2);
+    add(older(same));
+    add(older(all.filter((x) => ge && (x.data.genres || []).includes(ge))));
+    add(older(all));
+    return out;
+  });
   eleventyConfig.addFilter("exclude", (arr, url) => (arr || []).filter((x) => x.url !== url));
   eleventyConfig.addFilter("notIn", (arr, others) => { const u = new Set((others || []).map((x) => x.url)); return (arr || []).filter((x) => !u.has(x.url)); });
   eleventyConfig.addFilter("notGenre", (arr, g) => (arr || []).filter((n) => !(n.data.genres || []).includes(g)));

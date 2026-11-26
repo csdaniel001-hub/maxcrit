@@ -30,6 +30,13 @@ jobs:
 
       - run: npm ci
 
+      # Keep the encoded WebP copies between runs so only new images are converted
+      - uses: actions/cache@v4
+        with:
+          path: .cache/img
+          key: img-${{ hashFiles('src/assets/img/*.jpg', 'src/assets/img/*.png') }}
+          restore-keys: img-
+
       - name: Build
         run: npx @11ty/eleventy
 

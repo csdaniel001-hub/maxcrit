@@ -1,0 +1,6 @@
+---
+permalink: /latest.json
+eleventyExcludeFromCollections: true
+---
+{%- macro item(n) -%}{"u":{{ (n.url | replace("/", "", 1)) | jsonify | safe }},"t":{{ n.data.title | unent | jsonify | safe }},"i":{{ (n.data.image | wsrc(480) | replace("/", "", 1)) | jsonify | safe }},"d":"{{ (n.data.updated_at or n.data.published_at) | isoDate }}","s":"{{ (n.data.updated_at or n.data.published_at) | shortDate | capitalize }}","m":"{{ (n.data.updated_at or n.data.published_at) | shortDate }}"}{%- endmacro -%}
+{"latest":[{% for n in collections.news | limit(6) %}{{ item(n) }}{% if not loop.last %},{% endif %}{% endfor %}],"ticker":[{% for n in collections.news | fullNews | limit(8) %}{{ item(n) }}{% if not loop.last %},{% endif %}{% endfor %}]}

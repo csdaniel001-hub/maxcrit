@@ -295,3 +295,6 @@ html[data-gz] body .mt-urgent .mt-cd{color:#ff5aa5}html[data-gz] body .mt-urgent
 /* Gacha section banner: legible title over the bright lineup art (mobile centres the text over the faces) */
 html[data-gz] body a.hz-rbh.gx-bar h2{text-shadow:0 2px 3px rgba(6,3,20,.95),0 0 18px rgba(6,3,20,.9)}
 @media (max-width:700px){html[data-gz] body a.hz-rbh.gx-bar{background:linear-gradient(rgba(12,8,32,.62),rgba(12,8,32,.62)) padding-box,url(../img/kit/gacha-lineup.webp) 50% 40%/cover no-repeat padding-box!important}}
+/* Latest news sidebar is filled by site.js from latest.json: reserve its height so the layout doesn't shift */
+html[data-gz] body .ar-latest .ar-latest-list{min-height:430px}
+@media (max-width:1100px){html[data-gz] body .ar-latest .ar-latest-list{min-height:0}}
