@@ -126,8 +126,10 @@ export default function (eleventyConfig) {
     if (/src\/content\/(news|hub)\//.test(inp) && !data.image) return false;
   });
 
-  const newest = (a, b) => new Date(b.data.updated_at || b.data.published_at) - new Date(a.data.updated_at || a.data.published_at);
-  eleventyConfig.addCollection("news", (api) => api.getFilteredByGlob("src/content/news/*.md").sort((a, b) => new Date(b.data.published_at) - new Date(a.data.published_at)));
+  // Ties (same timestamp, common in batches) are broken by URL so the order never depends on file-system order (2026-11-26).
+  const tie = (a, b) => (a.url < b.url ? -1 : a.url > b.url ? 1 : 0);
+  const newest = (a, b) => (new Date(b.data.updated_at || b.data.published_at) - new Date(a.data.updated_at || a.data.published_at)) || tie(a, b);
+  eleventyConfig.addCollection("news", (api) => api.getFilteredByGlob("src/content/news/*.md").sort((a, b) => (new Date(b.data.published_at) - new Date(a.data.published_at)) || tie(a, b)));
   eleventyConfig.addCollection("hub", (api) => api.getFilteredByGlob("src/content/hub/*.md").sort(newest));
   eleventyConfig.addCollection("everything", (api) => api.getFilteredByGlob("src/content/{news,hub}/*.md").sort(newest));
   // Feeds, homepage, genre and platform pages leave out redeem-code and live-event pages, so dozens of schedule pages do not bury the news (2026-11-24)

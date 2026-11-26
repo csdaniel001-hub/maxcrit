@@ -16,5 +16,5 @@ function run(){var v=q.value.trim().toLowerCase();if(!v){res.innerHTML='';cnt.te
 document.getElementById('sNone').hidden=hit.length>0;cnt.textContent=hit.length+(hit.length===1?' RESULT':' RESULTS');res.innerHTML=hit.map(function(d){return '<li style="padding:14px 0;border-bottom:1px solid var(--line)"><a href="'+d.u+'" style="text-decoration:none"><b style="font:600 19px var(--disp)">'+esc(d.t)+'</b><br><span style="color:var(--mut)">'+esc(d.s)+'</span></a></li>';}).join('');}
 var p=new URLSearchParams(location.search).get('q');if(p){q.value=p;}q.addEventListener('input',run);
 /* Index lives in search.json (2026-11-26) so this page doesn't grow with every article */
-fetch('search.json').then(function(r){return r.json();}).then(function(j){data=j;run();}).catch(function(){});})();
+fetch('search.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(j){data=j;run();}).catch(function(){cnt.textContent='';res.innerHTML='<li style="padding:14px 0">Search couldn\'t load right now. Please refresh the page, or browse the <a href="news">latest news</a>.</li>';});})();
 </script>
