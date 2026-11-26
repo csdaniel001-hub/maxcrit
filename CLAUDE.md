@@ -95,6 +95,13 @@ Full rules: `docs/editorial-standard-amendments.md` section 10. In short:
 - Reviews check the claims in the package. New sections or brands are added only when leaving them out would mislead; other gaps go to Mira or the `review_by` pass.
 - Mira proposes one official image per article (no photographed people, including people on product-shot screens).
 
+## Workflow with Mira (Daniel and Mira, 2026-11-26, replaces conflicting review rules above)
+- Packages follow `docs/package-format.md`: repo front matter, an evidence record (URL + short exact quote) for every consequential claim, image URL with credit and alt, duplicate check, game registration data when needed.
+- Verification: fresh-agent review for Tier 3 only. Tier 1 and Tier 2 get targeted direct checks: Claude spot-checks the critical claims (dates, numbers, names, rewards, recommendations) against the quoted sources, and widens the check only when something doesn't match.
+- A draft that fails is returned to Mira with the failed claim or missing information. Claude doesn't rewrite it. Minor wording and formatting fixes are still done directly.
+- One build, commit and push per batch; check the live site once after the deploy, no repeated polling.
+- An automated publisher was assessed (2026-11-26) and parked: feasible, but not built for now.
+
 ## Builds directory metadata (2026-11-25)
 `/hub/builds.html` is generated from each build's own front matter; there is no separate dataset. Every `hub_type: builds` page sets `character`, `build_meta` (game-specific labels taken from the article's verified text, e.g. element / weapon / role for Genshin, path / combat type / role for HSR), `game_version`, and, only when the official wish notice confirms it, `banner_ends` (UTC, the earliest server's end) and `banner_name`. The game filter appears with builds for 2+ games; a game's own hub (`/hub/builds/<game>.html`) appears with 2+ games and 5+ builds for that game. The featured banner strip only shows when it is a subset of the directory.
 
