@@ -1,0 +1,5 @@
+---
+permalink: /search.json
+eleventyExcludeFromCollections: true
+---
+[{% for n in collections.everything %}{"u":{{ (n.url | replace("/", "", 1) | replace(".html", "")) | jsonify | safe }},"t":{{ n.data.title | unent | jsonify | safe }},"s":{{ (n.data.summary or '') | unent | jsonify | safe }},"k":{{ ((n.data.keyword or '') + ' ' + (n.data.titles or []) | join(' ')) | jsonify | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]
