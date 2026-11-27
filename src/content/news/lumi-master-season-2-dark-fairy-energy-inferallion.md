@@ -30,7 +30,7 @@ image_alt: "Official Lumi Master promotional artwork showing light and dark mons
 image_status: "candidate"
 ---
 
-Lumi Master is changing the pace of its monster collection with Season 2, Dark & Fairy, which launches today, November 27. Bilibili promises a 50% increase in free Energy acquisition compared with Season 1, alongside a new Royal Lumi named Inferallion.
+Lumi Master is changing the pace of its monster collection with Season 2, Dark & Fairy, which launches today, November 27. Bilibili promises a 50% increase in free Energy acquisition compared with Season 1, alongside a new Royal Lumi named Inferallion. The changes are meant to ease the stamina management that slowed collecting in Season 1.
 
 ## Where the extra Energy comes from
 
