@@ -786,3 +786,17 @@ heartopia:
   appstore: "https://apps.apple.com/us/app/heartopia/id6746151928"
   googleplay: "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp"
   status: "Live"
+lumi-master:
+  name: "Lumi Master"
+  publisher: "Bilibili"
+  official: "https://lumi.biligames.com/en/"
+  appstore: "https://apps.apple.com/us/app/lumi-master/id6754979232"
+  googleplay: "https://play.google.com/store/apps/details?id=com.bilibili.lumi"
+  status: "Live"
+sol-cesto:
+  name: "Sol Cesto"
+  publisher: "Snapbreak Games"
+  official: "https://www.snapbreak.com/"
+  appstore: "https://apps.apple.com/us/app/sol-cesto/id6753793164"
+  googleplay: "https://play.google.com/store/apps/details?id=com.snapbreak.solcesto"
+  status: "Android early access; iOS expected February 24, 2027"
