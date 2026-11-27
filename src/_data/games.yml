@@ -744,3 +744,17 @@ dicevaders:
   appstore: "https://apps.apple.com/us/app/dicevaders-try-buy/id6795440707"
   googleplay: "https://play.google.com/store/apps/details?id=com.playstack.dicevaders"
   status: "Live"
+marvel-strike-force:
+  name: "MARVEL Strike Force"
+  publisher: "Scopely"
+  official: "https://marvelstrikeforce.com/"
+  appstore: "https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049"
+  googleplay: "https://play.google.com/store/apps/details?id=com.foxnextgames.m3"
+  status: "Live"
+marvel-future-fight:
+  name: "MARVEL Future Fight"
+  publisher: "Netmarble"
+  official: "https://forum.netmarble.com/futurefight_en/"
+  appstore: "https://apps.apple.com/us/app/marvel-future-fight/id955705796"
+  googleplay: "https://play.google.com/store/apps/details?id=com.netmarble.mherosgb"
+  status: "Live"
