@@ -15,3 +15,5 @@
 - { label: "Maintenance compensation (Lunacy x300) claim deadline", game: limbus-company, ends: "2026-12-03T01:00:00Z", url: "/news/limbus-company-november-26-2026-update.html", kind: event }
 - { label: "Haute Couture Target Extraction (Gregor, Yi Sang)", game: limbus-company, ends: "2026-12-10T01:00:00Z", url: "/news/limbus-company-november-26-2026-update.html", kind: banner }
 - { label: "Endstate Matrix: Adversity Vanguard cycle", game: wuthering-waves, ends: "2026-12-21T19:59:00Z", url: "/hub/events/wuthering-waves-events.html", kind: event }
+- { label: "The Transfer Student of Veritas Academy event stages", game: azur-lane, ends: "2026-12-10T06:59:00Z", url: "/news/azur-lane-veritas-academy-molotov-sinop.html", kind: event }
+- { label: "Veritas Academy PT rewards (Imperatritsa Mariya) claim deadline", game: azur-lane, ends: "2026-12-17T06:59:00Z", url: "/news/azur-lane-veritas-academy-molotov-sinop.html", kind: event }

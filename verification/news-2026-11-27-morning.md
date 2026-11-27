@@ -1,0 +1,13 @@
+# Verification: Mira morning news batch (Nov 27)
+Official pages read in Chrome (Browser 1, public pages only).
+
+## PASS
+- warframe-devstream-199-tau-twitch-drop: [DE]Megan (Administrator) post: "Friday, November 27th at 2 PM ET", "watch from start to finish to earn an Omni Forma (built) Twitch Drop", Tau Gamemodes, Highway system, Tau Steel Path, next Prime Trailer. 2 PM EST = 19:00 UTC. Devstream 198 Overview: Fornax and Perita zones, Steel Path without Acolytes, Prologue to Tau Quest, Tau "launches this December". VERIFIED. Image: official PNG on news/198, native 1920x1080. Fix: broken sentence about the drop rewritten.
+- azur-lane-veritas-academy-molotov-sinop: event 11/24 to 12/9 23:59 UTC-7, Molotov and Sinop rate-up 11/24 to 12/9, Imperatritsa Mariya PT rewards until 12/16, Story Mode gear skin, 3 rental outfit vouchers, Rapid Training until 12/15 (date header read in context; the next date line, 12/1 to 1/31, belongs to Cruise Missions). VERIFIED. Image: landscape combat screenshot from the official Google Play listing (App Store has portrait only). Timers: Dec 10 06:59Z and Dec 17 06:59Z (explicit UTC-7 converted).
+- torerowa-season-15-guardians-of-the-treasure: press release read in full; B35F, guild features, Tavern/Workshop, 9 chat languages, two gachas, ends Dec 24, party of three plus four rival parties. VERIFIED. Fixes: "up to three" -> "three"; speculative translation sentence cut; App Store link /fr/ -> /us/ (lookup confirms US listing).
+- supercell-boat-game-extraction-shooter-test: App Store lookup: Supercell Oy, free, minimum iOS 18.0, description confirms hero pick, marked loot, extraction, PvP. Country list stays attributed to Mobilegamer.biz. VERIFIED.
+- heartopia-my-little-pony-phase-2: press release read in full (Nov 21 to Dec 27, all listed rewards and the Phase 1 carry-over). Google Play event card checked: "Ends on 12/18". The discrepancy is decision-relevant, so the article states both dates and advises the earlier one. Image: the official event art at 1920x1080 (same Play asset at full size).
+
+## HELD (image only, text verified)
+- serendy-idol-territory-arcade-mobile-launch: release verified (dates, 200 stages, 101 photocards, 30-album guarantee, TWIN DECK). Portrait-only game: no landscape official image in the stores or on 2eexgames.com. Needs a landscape asset from the Games Press kit (login) or the studio. Also drop "Independent" (not in the release).
+- firsts-daily-crossword-mobile-launch: release and store links verified (App Store lookup: Bleppo LTD, free). Portrait-only store screenshots; firsts.online og:image is the logo only. Needs landscape art from the press kit (Google Drive link in the release).
